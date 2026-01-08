@@ -1,0 +1,77 @@
+name: Sync Confluence to Markdown
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every day at midnight
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Important: allows the action to push changes
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Confluence Exporter
+        run: pip install confluence-markdown-exporter
+
+      - name: Export Confluence to Markdown
+        env:
+          CONFLUENCE_USER: ${{ secrets.CONFLUENCE_USER }}
+          CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
+        run: |
+          # Use jq to generate valid JSON, handling special chars/newlines in secrets safely
+          jq -n \
+            --arg url "https://geo2.atlassian.net" \
+            --arg user "$CONFLUENCE_USER" \
+            --arg token "$CONFLUENCE_TOKEN" \
+            '{
+              auth: {
+                confluence: {
+                  url: $url,
+                  username: $user,
+                  api_token: $token
+                }
+              },
+              export: {
+                output_path: "./"
+              }
+            }' > config.json
+          
+          # Ensure output directory exists
+          mkdir -p ./
+          
+          # Run the exporter with custom config path
+          # Usage: confluence-markdown-exporter spaces <SPACE_KEY> (output path is in config)
+          export CME_CONFIG_PATH=$(pwd)/config.json
+          confluence-markdown-exporter spaces "BALDEVGEO"
+          
+          # Cleanup config file to avoid leaking secrets (though runner cleans up anyway)
+          rm config.json
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'Confluence Sync Bot'
+          git config --global user.email 'bot@noreply.github.com'
+          
+          # Check if there are changes
+          if [ -d "./" ]; then
+            git add ./
+            if ! git diff-index --quiet HEAD; then
+              git commit -m "docs: sync from Confluence [skip ci]"
+              git push
+            else
+              echo "No changes to commit."
+            fi
+          else
+             echo "Output directory ./docs was not created. Check exporter logs."
+             exit 1
+          fi
