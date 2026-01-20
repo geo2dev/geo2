@@ -91,7 +91,7 @@ On Subscriptions page, you can check the list of available features for differen
 
 ![Screenshot 2025-08-26 at 13.41.25.png](../../attachments/64604098-aeac-4d3c-949c-d87e670f2dd0.png)![Screenshot 2025-08-26 at 13.41.37.png](../../attachments/fe01da0c-c57f-48f6-82a3-7d234c31cefa.png)
 
-If you take a free trial of Pro subscription, you can get 1-user subscription that is automatically assigned to you. If you take a free trial of Advanced or Enterprise subscription level, you сan get up to 5-user subscription, so you can invite up to 4 additional users to your organization. See how to [Page not accessible](../../../../../../../../Page%20not%20accessible/Page%20not%20accessible.md). If you want to add more users, you can do it after taking a free trial by pressing the `Add users` button. Learn how to [Page not accessible](../../../../../../../../Page%20not%20accessible/Page%20not%20accessible.md).
+If you take a free trial of Pro subscription, you can get 1-user subscription that is automatically assigned to you. If you take a free trial of Advanced or Enterprise subscription level, you сan get up to 5-user subscription, so you can invite up to 4 additional users to your organization. See how to [Page not accessible (ID: 23101506)]. If you want to add more users, you can do it after taking a free trial by pressing the `Add users` button. Learn how to [Page not accessible (ID: 23101506)].
 
 ![Screenshot 2025-08-26 at 13.43.35.png](../../attachments/cb45f049-7cd6-439d-b9c7-1bb63907c7b7.png)
 
@@ -113,9 +113,9 @@ If you want to buy your subscription for a month, select the "Monthly" switcher 
 
 ![Screenshot 2025-08-26 at 14.10.52.png](../../attachments/a05d1c41-2ba3-439b-a9de-9b8e73e2f381.png)
 
-Once the payment is done, you will get a combined invoice/receipt on your email address.  Also, you can check your payment details in [Page not accessible](../../../../../../../../Page%20not%20accessible/Page%20not%20accessible.md).
+Once the payment is done, you will get a combined invoice/receipt on your email address.  Also, you can check your payment details in [Page not accessible (ID: 23101506)].
 
-Press `Assign subscription to users` on Success payment page to be redirected to Organization settings → Users.  You can invite more users to assign subscriptions.  See how to [Page not accessible](../../../../../../../../Page%20not%20accessible/Page%20not%20accessible.md).
+Press `Assign subscription to users` on Success payment page to be redirected to Organization settings → Users.  You can invite more users to assign subscriptions.  See how to [Page not accessible (ID: 23101506)].
 
 New subscriptions will be displayed above the existing one on your current subscription level, with the number of available users and valid-from/to dates.
 
@@ -129,9 +129,9 @@ You cannot select the number of months - if you currently have a monthly subscri
 
 On Checkout page, you will see the amount of money for unused days from your current subscription being subtracted from the total amount you pay for the subscription upgrade.
 
-Once the payment is done, you will get a combined invoice/receipt on your email address.  Also, you can check your payment details in [Page not accessible](../../../../../../../../Page%20not%20accessible/Page%20not%20accessible.md)**.**
+Once the payment is done, you will get a combined invoice/receipt on your email address.  Also, you can check your payment details in [Page not accessible (ID: 23101506)]**.**
 
-Press `Assign subscriptions to users` to be redirected to Organization settings → Users.  You can invite more users to assign subscriptions.  See how to [Page not accessible](../../../../../../../../Page%20not%20accessible/Page%20not%20accessible.md). If all subscriptions are already assigned, you will see the message about it on this page.
+Press `Assign subscriptions to users` to be redirected to Organization settings → Users.  You can invite more users to assign subscriptions.  See how to [Page not accessible (ID: 23101506)]. If all subscriptions are already assigned, you will see the message about it on this page.
 
 After successful payment, your current subscription level will be automatically updated.
 

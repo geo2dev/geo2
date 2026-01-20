@@ -132,7 +132,7 @@ Yes, you can add as many depots as you need in [Hub: Environment Settings](Web-B
 
 To invite more users to your organization/environment, press the organization name in the header toolbar. Then, hover over the name and select the `Edit (pencil)` icon. In Organization settings → Users section, press the `Invite` button to invite each user separately or the `Import` button to invite all users at once.  As a part of a free trial, by default, you can add additional 4 users.
 
-If you press the `Invite` button, you will see the dialog prompting you for an email address, first and last name, and display name.  Make sure the email address used is valid and can receive incoming messages.  To enable the use of the Geo2 product, you need to assign a subscription to a newly invited user.  You also need to choose the environment(s) to which a user will have access and their role in each of them.  For environment user roles and their permissions, see [Page not accessible](../../../../../../../Page%20not%20accessible/Page%20not%20accessible.md).
+If you press the `Invite` button, you will see the dialog prompting you for an email address, first and last name, and display name.  Make sure the email address used is valid and can receive incoming messages.  To enable the use of the Geo2 product, you need to assign a subscription to a newly invited user.  You also need to choose the environment(s) to which a user will have access and their role in each of them.  For environment user roles and their permissions, see [Page not accessible (ID: 50233391)].
 
 Instructions for the invited user are in the invitation email message and [Hub: Accept Invitation](Web-Based%20Hub/Hub_%20Accept%20Invitation.md). Invited users do not need to create their accounts from scratch on their own. Their accounts are registered automatically once invitations are sent.
 
@@ -219,7 +219,7 @@ Press [Hub: Map View](Web-Based%20Hub/Hub_%20Map%20View.md) to learn more about 
 <details>
 <summary>It is possible to create loads automatically based on order volume and weight?</summary>
 
-This process is called [Hub: AI Route Building](Web-Based%20Hub/Hub_%20Orders/Hub_%20AI%20Route%20Building.md). When you select consignments on [Hub: Orders](Web-Based%20Hub/Hub_%20Orders.md) page, you initiate the building of loads across all available vehicles for the selected consignments by pressing the `Load Building` button based on selected parameters like [Page not accessible](../../../../../../../Page%20not%20accessible/Page%20not%20accessible.md)**.** You are not bound by the results of load building - once loads are created, you can continue to fully adjust them. An example of a scenario in which load building can be applied effectively:
+This process is called [Hub: AI Route Building](Web-Based%20Hub/Hub_%20Orders/Hub_%20AI%20Route%20Building.md). When you select consignments on [Hub: Orders](Web-Based%20Hub/Hub_%20Orders.md) page, you initiate the building of loads across all available vehicles for the selected consignments by pressing the `Load Building` button based on selected parameters like [Page not accessible (ID: 39289003)]**.** You are not bound by the results of load building - once loads are created, you can continue to fully adjust them. An example of a scenario in which load building can be applied effectively:
 
 1. You have all the consignments planned to be delivered tomorrow.
 2. You have not yet created any loads for tomorrow.
