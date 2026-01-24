@@ -3,107 +3,134 @@
 
 # FAQ
 
+## Introduction
+
 Here you can find answers to the most common questions to help you get the information you need quickly and easily. Whether you are just getting started or troubleshooting an issue, this section is designed to guide you through.
 
-If you do not find the answer you are looking for, feel free to reach out to our [**support team**](https://geo2.com/contact-us/) — we are always here to help!
+If you do not find the answer you are looking for, feel free to reach out to our [Support](Support.md) — we are always here to help!
 
 <details>
 <summary>What is Geo2?</summary>
 
-Geo2 is a cloud-based transport management system (TMS), a logistics service that uses technology to help businesses plan, execute, and optimize physical movement of goods.  By leveraging latest technology, Geo2 delivers competitive advantage to its customers - reduced cost of delivery with a focus on sustainability, while maintaining customer satisfaction.
+Geo2 is a **cloud-based transport management system (TMS)** and **all-in-one delivery route planner** designed to help businesses and independent drivers plan, execute, and optimize the movement of goods. Using modern technology, Geo2 reduces delivery costs, shortens driving time, and simplifies day-to-day delivery operations. Whether you’re a solo driver or a growing logistics team, Geo2 provides everything you need to plan, optimize, and manage routes efficiently and stress-free.
 
 </details>
 
 <details>
 <summary>What are the main features of Geo2?</summary>
 
-- Route Planning and Optimization
-- Order and Delivery Management
-- iOS and Android Mobile App
+**Geo2 main features include:**
+
+**Route planning & optimization**
+
+- AI-powered route building
+- Optimization with time windows
+- Multi-route management on a single map
+
+**Order & delivery management**
+
+- CSV and Excel imports
+- Proof of delivery (POD) capture
+- Package- and product-level failure tracking
+
+**Driver & vehicle management**
+
+- Driver break planning
+- Live GPS tracking
+- Vehicle checks
+
+**Reporting and analytics**
+
+**Automated email and SMS notifications**
+
+**Platforms & integrations**
+
+- iOS and Android mobile app
 - Web-based Geo2 Hub
-- Web Services API
-- Proof of Delivery Capture
-- Live GPS Tracking
-- CSV (Excel) Imports
-- Driver Breaks
-- Reporting and Analytics
-- Vehicle Checks
-- Email and SMS Notifications
-- Product Level Failures
-- Optimization with Time Windows
-- AI Powered Load Building
+- REST API
+
+**Additional mobile app features**
+
+- Address voice search
+- Address scanning
+- Vehicle loading with optional photos
+- Package scanning and validation
 
 </details>
 
 <details>
 <summary>Does Geo2 fit my business?</summary>
 
-Geo2 is designed to fit businesses of any size and in any industry, offering a wide range of features to support your operations:
+Geo2 supports businesses of any size and industry, from gig drivers to enterprise logistics teams. It’s built for couriers, parcel services, food delivery, and local logistics. Whether you deliver with Uber Eats, Amazon Flex, or run your own operation, Geo2 adapts to your workflow.
 
-- For smaller businesses, Geo2 provides essential tools like **ePOD (electronic proof of delivery)**, **route planning and optimization**, and **order and delivery management** to streamline daily tasks and improve efficiency.
-- For larger organizations, Geo2 offers advanced capabilities such as **custom integrations through the Geo2 API**, **data analytics and reporting**, **optimization with time windows**, and the ability to **import orders via CSV or Excel file**, ensuring seamless operations even at scale.
-- For the food delivery industry, Geo2 is equipped to handle **product-level failures during a POD creation**, ensuring precise tracking and accountability for every delivery.
+- **For solo drivers**, Geo2 helps plan smart routes in seconds using fast address input, voice search, and address scanning. It automatically builds optimized routes that avoid traffic, roadblocks, and restricted zones — saving time and fuel. Add breaks as needed, navigate to stops with your preferred navigation app, and organize your van with package locations and photos for faster stops.
+- **For smaller businesses**, Geo2 provides essential tools like ePOD (electronic proof of delivery), route planning, and order and delivery management. Upload orders quickly via CSV or Excel, optimize routes with time windows, traffic, and vehicle restrictions, and schedule driver breaks. Track routes in real time, access team performance insights, and automate customer delivery updates — without micromanaging your team.
+- **For larger organizations**, Geo2 offers advanced capabilities such as custom API integrations, AI-powered route optimization, and detailed analytics. Import orders via CSV, Excel, or API, manage all routes on a single map, reassign stops, and re-optimize on demand. Support multi-user routes, monitor progress in real time, and automate customer notifications with tracking links, ETAs, and PODs.
+- **For food delivery businesses**, Geo2 also supports product-level failures during POD creation, ensuring accurate tracking and accountability for every delivery.
 
-No matter your size or industry, Geo2 is flexible and scalable, designed to meet your needs and grow alongside your business.
-
-</details>
-
-<details>
-<summary>Do I need to integrate Geo2 with my system before I use it?</summary>
-
-No, you don’t need to integrate Geo2 with your existing system to get started. We have designed Geo2 to be as simple as possible, so you can immediately begin planning, managing, and analyzing your deliveries and routes without the hassle of complex integrations.
-
-You can use our intuitive Web Hub to add your orders and routes manually or upload your data using a CSV or Excel file. Once your orders are planned and ready, you can also download a CSV file with the orders and their assigned routes to update your system manually.
-
-If you’re looking for more automation in the future, Geo2 offers the option to integrate your existing systems through our API.
+No matter your size or industry, Geo2 is flexible and scalable — designed to support your operations today and grow with your business.
 
 </details>
 
 <details>
 <summary>Can I use Geo2 only for recording ePOD's?</summary>
 
-Yes, you can use the Geo2 app exclusively for recording a proof of delivery (POD), including signatures and photos. Additionally, the app supports documenting failed or partially successful deliveries/collections with package- and product-level failure tracking. You can add failure reason codes in [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) page. They let you classify reasons for failed deliveries/collections and are available to drivers in the mobile app when recording a POD.
+**Yes, Geo2 can be used exclusively for recording proofs of delivery (PODs).**  
+You can capture signatures and photos, as well as record failed or partially successful deliveries/collections using package- and product-level failure tracking. Drivers can select predefined failure reasons directly in the mobile app when creating a POD. Also, you can add failure reason codes in **Settings → Failure reason codes** in Hub or in the mobile app. They let you classify reasons for failed deliveries/collections and are available to drivers in the mobile app when recording a POD.
 
-If a POD is created for a consignment that doesn't yet exist, the system will automatically generate a consignment using the information provided in the POD.
+If a POD is recorded for an order that doesn’t yet exist, Geo2 will automatically create the order based on the submitted information.
 
-You can view the POD history either through the mobile app or Hub. However, we recommend using Hub, as it allows you to filter consignments by different POD statuses for easier tracking.
-
-Press [Mobile App: POD - Proof of Delivery](Mobile%20App/Mobile%20App_%20POD%20-%20Proof%20of%20Delivery.md) to learn more information about recording POD’s.
+All PODs and their history can be viewed in both the mobile app and the Geo2 Hub. In Hub, you can filter orders by POD status for easier tracking.
 
 </details>
 
 <details>
 <summary>Do I need to install anything (mobile/PC)?</summary>
 
-There is no need to install anything on your PC. All you need is to register your account on [**Geo2 Hub**](https://hub.geo2.com/en-GB/auth/register) or mobile app. For mobile phone, you just need to find Geo2 on Google Play or App Store and install it. Alternatively, you can scan this QR code to install the app for iOS or Android:
+There is no need to install anything on your PC. All you need is to register your account on [**Geo2 Hub**](https://hub.geo2.com/en-GB/auth/register) or the mobile app. For mobile phone, you just need to find Geo2 on Google Play or App Store and install it. Alternatively, you can scan this QR code to install the app for iOS or Android:
 
 ![QR code.png](../attachments/718fd541-67d1-4de4-be77-7087a74b1e33.png)
 
 </details>
 
 <details>
+<summary>Do I need to integrate Geo2 with my system before I use it?</summary>
+
+**No, integration isn’t required to get started.**  
+Geo2 works out of the box, so you can start planning, managing, and analyzing routes right away — without setting up any integrations.
+
+You can add orders manually in the web-based Hub, upload them via CSV or Excel, or manage everything directly in the mobile app if you’re a solo driver. You can also export orders and assigned routes as a CSV to update your system manually.
+
+If you need more automation later, Geo2 offers API integrations to connect with your existing systems when you’re ready.
+
+</details>
+
+<details>
 <summary>How can I set up my workspace?</summary>
 
-Once your account is created and your email is verified, you will need to set up your Geo2 workspace. If you registered via the mobile app, sign in to [**Geo2 Hub**](https://hub.geo2.com/en-GB/auth/signin) using the same email and password you provided during registration. We ask for some basic information about your company to set up a workspace for you.
+Getting started with Geo2 is fast and doesn’t require any integrations. You can start using Geo2 in the web-based Hub, the mobile app, or both — depending on your workflow.
 
-By pressing Continue, you will start **a 7-day FREE trial of the Premium subscription**, unlocking features like consignment imports, email and SMS notifications, and line-level failures. A subscription will be automatically assigned, and you can invite up to 4 additional users for FREE to explore Geo2's functionalities.
+### Get started in the Geo2 Hub (web)
 
-Next, you will move to **Choose Your Settings** page to create your workspace. Select either the express or manual method to create your organization and environment:
+- Create your account and verify your email (if signing up with email and password)
+- Enter your organization details
+- Add your first depot to use as the default start and end point for routes
+- Create orders manually or import them via CSV or Excel
+- Plan and optimize routes
+- Invite team members, assign routes to drivers, and change route statuses to **Released**
+- Ask drivers to download the Geo2 app on iOS or Android and log in using the email address or phone number they were invited with to view routes assigned to them
 
-- **Organization:** A group of users sharing a subscription and collaborating on data.
-- **Environment:** Separate spaces within the organization for teams, depots, or testing.
+### Get started in the Geo2 mobile app
 
-**Examples:**
+- Download the Geo2 app on iOS or Android
+- Create your account and verify your email (if signing up with email and password)
+- Create your first route
+- Add stops by typing an address, using voice search, or scanning addresses
+- Tap **Finish adding stops** to run automatic route optimization
+- Start the route and navigate using your preferred navigation app
+- Record proofs of delivery (signatures, photos, or failures) when needed
 
-- A large company (organization) with smaller teams (environments) working on different projects.
-- A holding company (organization) with smaller companies (environments) working in different spheres.
-- A middle-size company (organization) with several depots (environments).
-
-We recommend the **express setup** for ease. Provide your organization’s address manually or allow geolocation to auto-fill it. After completing this step, press **Continue**, and your default organization, environment, and depot will be created. You will be redirected to [Hub: Orders](Web-Based%20Hub/Hub_%20Orders.md) page to start adding orders and planning routes.
-
-Once consignments are added to a [Hub: Routes](Web-Based%20Hub/Hub_%20Routes.md), the load can be released to a driver and will appear in the mobile app for the assigned driver.
-
-Press [Hub: Set Up Organization](Web-Based%20Hub/Hub_%20Set%20Up%20Organization.md) to learn more information about your workspace at Geo2.
+You can use the Hub and mobile app together for full route planning and delivery management, or rely on the mobile app alone.
 
 </details>
 
@@ -118,153 +145,144 @@ Press [Hub: Set Up Organization](Web-Based%20Hub/Hub_%20Set%20Up%20Organization.
 - A holding company (organization) with smaller companies (environments) working in different spheres.
 - A middle-size company (organization) with several depots (environments).
 
-</details>
-
-<details>
-<summary>Does Geo2 support multiple depots?</summary>
-
-Yes, you can add as many depots as you need in [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md). Depots are used as start and end points for [Hub: Routes](Web-Based%20Hub/Hub_%20Routes.md)and consignments. Each load and consignment can be assigned only to one depot. The load depot has to match the assigned to it consignment depot for a proper building of the route. When selecting [Hub: Set Up Organization](Web-Based%20Hub/Hub_%20Set%20Up%20Organization.md), your first default depot is created automatically with the address you provided.  You can add more depots either one by one by pressing the `Add` button or all at once by pressing the `Import` button.
+When you create an account and are not invited to an existing organization, Geo2 automatically creates a default organization with its first environment. You can later add more environments within the organization through the Hub if needed. Please note that multiple environments per organization are available only with the Enterprise subscription.
 
 </details>
 
 <details>
-<summary>How can I invite more users to my organization?</summary>
+<summary>What is the difference between orders and routes?</summary>
 
-To invite more users to your organization/environment, press the organization name in the header toolbar. Then, hover over the name and select the `Edit (pencil)` icon. In Organization settings → Users section, press the `Invite` button to invite each user separately or the `Import` button to invite all users at once.  As a part of a free trial, by default, you can add additional 4 users.
+**Orders** are records of deliveries or collections to be handled by a driver, typically as part of a route, which is a group of orders. Each order has a unique key that can represent an order number (for example, 001, 002, 003). Orders can be created manually in Hub or in the mobile app, imported via a CSV or Excel file in Hub, or created through integration with the Geo2 API. Once an order is added to a route, it is referred to as a “stop”.
 
-If you press the `Invite` button, you will see the dialog prompting you for an email address, first and last name, and display name.  Make sure the email address used is valid and can receive incoming messages.  To enable the use of the Geo2 product, you need to assign a subscription to a newly invited user.  You also need to choose the environment(s) to which a user will have access and their role in each of them.  For environment user roles and their permissions, see [Page not accessible (ID: 50233391)].
+Orders can optionally be grouped into **routes**. A route represents a set of orders usually completed in a single vehicle trip and also has a unique key, which can be used as a route identifier, such as the current date with a trip number (for example, 20260121\_\_1).
 
-Instructions for the invited user are in the invitation email message and [Hub: Accept Invitation](Web-Based%20Hub/Hub_%20Accept%20Invitation.md). Invited users do not need to create their accounts from scratch on their own. Their accounts are registered automatically once invitations are sent.
-
-Once users are invited, you can press the `Consignments` button in the header toolbar to start creating orders (including importing) or the `Loads` button to plan routes.  We recommend starting by creating [Hub: Orders](Web-Based%20Hub/Hub_%20Orders.md) and after that, planning [Hub: Routes](Web-Based%20Hub/Hub_%20Routes.md) for them.
-
-When consignments are created and added to a load, the load can released to a driver.  It will be displayed in the mobile app for the assigned driver.
-
-</details>
-
-<details>
-<summary>How can I add vehicles to my environment?</summary>
-
-To access your environment settings, click the environment name in the header toolbar. Then, hover over the name and select the `Edit (pencil)` icon. In Environment settings → Vehicles tab, you can add vehicles individually using the `Add` button or upload them in bulk with the `Import` button. The required fields are Key, Speed Factor, and Depot, while all other fields are optional.
-
-For more details, click [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md).
-
-</details>
-
-<details>
-<summary>What is the difference between consignments and loads?</summary>
-
-[Hub: Orders](Web-Based%20Hub/Hub_%20Orders.md) are records of deliveries/collections to be handled by a driver, typically as part of a load, a group of consignments. Each consignment has a unique key, which could represent an order number (e.g., 001, 002, 003). You can create consignments manually in Hub or mobile app, import them via a CSV or Excel file in Hub, or create them using integration with the Geo2 API.
-
-Consignments can optionally be added to [Hub: Routes](Web-Based%20Hub/Hub_%20Routes.md). A load represents a group of consignments, typically handled in a single vehicle trip. Loads also have unique keys, which could represent a route number (e.g., current date - 20241121).
-
-With Geo2, you can:
-
-- Add consignments to loads.
-- Optimize loads to find the best routes, saving time and money.
-- Release loads to drivers, making them visible in the mobile app.
-
-Drivers can then work on the released load, perform [Hub: Vehicle Checks](Web-Based%20Hub/Hub_%20Vehicle%20Checks.md), and create [Mobile App: POD - Proof of Delivery](Mobile%20App/Mobile%20App_%20POD%20-%20Proof%20of%20Delivery.md)for the consignments within it.
+With Geo2, you can add orders to routes and optimize them to find the most efficient paths, helping reduce time and costs. In the mobile app, you or your drivers can work on released routes, complete vehicle checks, and create PODs (proof of delivery) for the orders included in the route.
 
 </details>
 
 <details>
 <summary>How can I import my orders?</summary>
 
-You can import multiple consignments at once using the `Import` button on Consignments page. This opens a spreadsheet-style interface for data entry, with column headings providing guidance on the required data for each field. Hover over a column title for more details. Required fields are highlighted with asterisks ( \* ).
+You can import order through Geo2 web-based Hub:
 
-If your data is already prepared in another spreadsheet, you can copy and paste it directly into the interface. Alternatively, you can upload a file from your device. Ensure your data format matches the specified requirements.
+1. Orders are imported from the **Orders** page by clicking the **Import** button.
+2. Orders can be added either by **uploading a file** or by **typing or pasting data** directly into the import table. Supported file formats include CSV, TSV, Excel (.xls/.xlsx), XML, and TXT.
+3. After uploading a file, columns must be **mapped to Hub order fields**; all required fields must be mapped to continue.
+4. Unmatched columns can be skipped, and mappings can be adjusted before applying them.
+5. Once mapping is applied, all orders are shown in the import table for **review and editing** before import.
+6. Mandatory fields such as order key, order type, and full address details must be filled in for successful import and geocoding.
+7. Import options define how the system behaves, including **route generation** and **updating existing orders**.
+8. When **Import** is clicked, the data is validated and any errors are displayed so they can be corrected.
+9. Orders that pass validation are imported and appear in the **Orders** page.
 
-Once your data is ready, press `Import` to begin the process. You will see options such as Update existing consignments and Generate loads based on consignment data. To proceed without these options, simply press `Import`. Any errors encountered during the process will be displayed for your review.
+Order import is supported on **Advanced and Enterprise** subscription levels.
 
-Successfully imported consignments will appear in the [Hub: Orders](Web-Based%20Hub/Hub_%20Orders.md) list.
+Press [Hub: Order Import](Web-Based%20Hub/Hub_%20Orders/Hub_%20Order%20Import.md) to learn more about order imports.
 
-For guidance, you can download an example spreadsheet with pre-filled information to help you format your consignment data correctly:
+</details>
 
-[Example Consignment Import Spreadsheet.xlsx](../attachments/6ac5bb5d-fb20-4673-b17c-cbd6a55c7579.xlsx)
+<details>
+<summary>How can I add vehicles?</summary>
 
-Press [Hub: Order Import](Web-Based%20Hub/Hub_%20Orders/Hub_%20Order%20Import.md) to learn more about consignment imports.
+**You can add vehicles either through Hub or the mobile app:**
+
+1. To add vehicles through **Hub,** go to the [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) and use the `Add` button to create vehicles one by one. A dialog will appear where you can provide required information including a unique **Key**, the **Type** of vehicle, and set a **Speed factor**; other details like registration number, vehicle categories, capacity, dimensions, emission factor and availability for route building can be filled optionally. Hover over the question mark icons for help on each field. After entering the details, press `Create` to save the vehicle. Besides adding individually, you can import multiple vehicles at once via the **Import** button and uploading a spreadsheet with mapped columns or pasting data directly into the import interface, then finalize to add all vehicles to the environment.
+2. To add vehicles through the **mobile app**, open [Mobile App: Settings](Mobile%20App/Mobile%20App_%20Settings.md) where you’ll see a list of vehicles. Tap **Add vehicle** to open a form where the **Key** and **Type** fields are required and other details like **Registration**, **Gross weight**, **Height**, **Width**, and **Length** can be entered if needed; pressing the **Measures** button shows additional optional fields for physical dimensions and capacities. After entering the information, tap Add to save the vehicle. You can also add your first vehicle while planning a route by tapping the `Vehicle` field, which opens the same vehicle creation form.
+
+</details>
+
+<details>
+<summary>Does Geo2 support multiple depots?</summary>
+
+Yes, you can add as many depots as needed in Hub under [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md).
+
+When you create an account, your first depot is added automatically. You can add additional depots later in Settings — either individually using the `Add` button or in bulk using the `Import` option. The default depot is used as the start and end point for routes, but you can change it to any other location. Each route and order can be assigned to only one depot, and the route depot must match the depot assigned to its orders for correct route planning.
+
+</details>
+
+<details>
+<summary>It is possible to create route automatically based on order volume and weight? What is AI route building?</summary>
+
+**AI route building** is the automated process of generating routes for a set of orders using AI-powered optimization. It takes all selected orders and fits them across available vehicles from one or more depots, creating efficient routes that minimize travel time and geographic overlap. You are not required to accept the results — once routes are generated, you can still edit or fine-tune them manually by visualizing them on Map view page.
+
+AI route building feature is available with **Enterprise** subscription level only.
+
+### **How does AI Route Building work?**
+
+1. **Select Orders on Orders page**  
+   Choose the batch of orders you want to deliver (e.g., all orders planned for a certain day).
+2. **Run AI route building**  
+   Click the **AI route building** button on Orders page. The system evaluates:
+
+   - which vehicles are available,
+   - vehicle capacities and constraints,
+   - any time windows,
+   - start times and maximum driving hours,
+   - geographic distribution of stops.
+3. **Optimization process**  
+   The AI builds routes across all applicable vehicles, attempting to:
+
+   - fit orders into routes logically,
+   - reduce duplication of travel paths,
+   - honor constraints like time windows and vehicle limits.
+
+   If there are too many orders for the available vehicles or time limits, the system can offload some orders based on configurable preferences (e.g., distance or order size).
+4. **Review results**  
+   Once complete, you see the generated routes and logs:
+
+   - routes,
+   - order counts,
+   - depot and vehicle assignments,
+   - messages about any issues (like overcapacity).
+5. **Manual adjustments (optional)**  
+   You can open any generated route and edit the order of stops, change assignments, or further adapt the plan.
 
 </details>
 
 <details>
 <summary>Can I work with multiple routes simultaneously on the same page?</summary>
 
-To visualise multiple loads side-by-side on a map and modify them simultaneously, you can select them in the [Hub: Routes](Web-Based%20Hub/Hub_%20Routes.md) list and press `Map view`. Up to 20 loads can be shown on the map simultaneously with assigned depots and stop locations. The colour used to show the load on the map is the same as the colour of the frame and selection checkbox in each visible load card. If you have initially selected more than 20 loads, the excess loads will be hidden.
-
-On each load card, you can make the same changes that are available in [Hub: Routes](Web-Based%20Hub/Hub_%20Routes.md) for a single load:
-
-- edit load properties by clicking a load key to be redirected to load editing
-- edit consignment properties by clicking a consignment key to be redirected to consignment editing
-- remove a load from the page by pressing the `Delete` icon on a load card
-- remove consignments from a load by pressing the `Delete` icon on a consignment card or `Remove` button
-- re-order consignments inside a load or between loads via drag-and-drop
-- optimize a load
-- calibrate a load (without optimisation)
-- populate committed ETA's from planned ETA’s
-- move consignments between loads
-- reverse stops
-- add driver breaks
-- export consignments to synchronise the changes made in Geo2 to the other systems you have integrated via Geo2's API, such as your ERP or WMS
-- view a load route on the map
-
-To save changes to a load, press the `Save` button inside the load card.
-
-You can also drag-and-drop load cards to change their position on the page. For example, you may want to move a load to the top of the page, to be as close as possible to the map or make it a focus on the page for any other reason.
+**Yes.** The Hub Map view allows you to work with multiple routes simultaneously on a single page. You can open the map with several routes selected, and they will be displayed together on the same map. Each route is shown separately and can be individually shown or hidden using the visibility (eye) control, making it easy to focus on specific routes while keeping others available. Up to 20 routes can be displayed on the map at the same time, and you can interact with them directly — view stops, inspect details, and make route-related changes without leaving the map view. Additionally, you can create routes and orders (stops) directly on this page, and they will be visualized on the map accordingly.
 
 Press [Hub: Map View](Web-Based%20Hub/Hub_%20Map%20View.md) to learn more about the possibilities of multiple route planning and optimization on Map view page.
 
 </details>
 
 <details>
-<summary>It is possible to create loads automatically based on order volume and weight?</summary>
+<summary>How can I invite more users to my organization?</summary>
 
-This process is called [Hub: AI Route Building](Web-Based%20Hub/Hub_%20Orders/Hub_%20AI%20Route%20Building.md). When you select consignments on [Hub: Orders](Web-Based%20Hub/Hub_%20Orders.md) page, you initiate the building of loads across all available vehicles for the selected consignments by pressing the `Load Building` button based on selected parameters like [Page not accessible (ID: 39289003)]**.** You are not bound by the results of load building - once loads are created, you can continue to fully adjust them. An example of a scenario in which load building can be applied effectively:
+**You can invite more users either through Hub or the mobile app:**
 
-1. You have all the consignments planned to be delivered tomorrow.
-2. You have not yet created any loads for tomorrow.
-3. You select all consignments for tomorrow in the Consignments list and request loads to be built for them.
-4. Assuming vehicles have sufficient capacities and each vehicle’s route being able to be driven in a reasonable amount of time, the result will be a set of loads that handle groups of consignments while minimising geographical overlap between vehicle routes and the time taken for each route.
+1. To invite more users to your organization/environment through **Hub**, go to [Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md). These settings are displayed only if you have Organization Admin role. From there, you can invite a user by providing either an email address or a mobile phone number along with the user’s full name. When an email address is used, the user receives an email invitation with a link and instructions to join the organization. Alternatively, it is possible to accept invitation by signing in to Hub or the mobile app using the email address or mobile phone number used for the invitation. Hub also allows inviting multiple users at once by importing a file with user information such as email addresses and names; once the file is uploaded and the fields are mapped correctly, invitations are sent automatically. During the invitation process, you can to assign the user’s organization role, assign subscription and grant access to one or more environments with the appropriate permissions. Until the invitation is accepted, the user appears in the list with a pending status, and after accepting the invitation, the user becomes an active member of the organization.
+2. In the Geo2 **mobile app**, you can manage users of your organization directly from the [Mobile App: Settings](Mobile%20App/Mobile%20App_%20Settings.md) screen in the app. When you open the Users section, you can either invite users one-by-one by tapping the `Invite user` button. Tapping `Invite user` brings up a form where you enter the user’s email address, full name, and assign their role (User or Admin) as well as the subscription level to apply. It’s important that the email address provided is valid so the invitation instructions can be sent and received. After sending the invitation from the mobile app, the invited person will receive an email with details on how to accept and join your organization. Alternatively, it is possible to accept invitation by signing in to Hub or the mobile app using the email address used for the invitation. Once the invitation is accepted, the new user appears in your organization list with the role and subscription you assigned.
 
-Press [Hub: AI Route Building](Web-Based%20Hub/Hub_%20Orders/Hub_%20AI%20Route%20Building.md) to learn more about AI-powered load building.
+Adding extra users to your organization is available with the **Advanced** (up to 10 users per organization) or **Enterprise** subscription (unlimited users). During the **FREE 7-day trial** of the Advanced or Enterprise plan, you can add up to 4 additional users to your organization, with the option to add more users later if required.
+
+</details>
+
+<details>
+<summary>Can I send a tracking link to a recipient (customer)?</summary>
+
+**Yes.** You can send a tracking link to a recipient via automated email or SMS notifications using Public tracking settings. When this feature is enabled on the selected order or route status, Geo2 automatically sends notifications that include a public tracking link to the recipient’s email address or phone number, allowing them to follow the delivery status in real time without logging in. Geo2 provides default email and SMS templates for public tracking, so notifications work out of the box and can be customized if needed. To send SMS notifications, you do not need to have a valid organization phone number, as we send SMS messages to customers using our own system. The only requirement is that a valid recipient mobile phone number is provided on the order. Public tracking notification can also be enabled or disabled per individual order, and notification activity, such as whether a message was sent or opened, is recorded for visibility.
+
+Public tracking emails are included in the Advanced subscription level, while SMS notifications are available with the Enterprise subscription level only. Press [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) to learn more about public tracking notifications.
+
+</details>
+
+<details>
+<summary>Can I and a recipient (customer) be notified about a successful and failed delivery?</summary>
+
+**Yes.** Geo2 supports POD (proof of delivery) notifications for successful, partially successful and failed deliveries/collections. When POD notifications are enabled in the Settings in Hub or the mobile app, emails can be sent to you and to the recipient (customer) based on the delivery result. Successful, partially successful, and failed deliveries can trigger notifications, provided a recipient email is available. Additionally, fixed recipients can be configured in settings in Hub to always receive notifications for failed or partially successful deliveries, even if notifications are disabled at the order level.
+
+POD emails are available with Advanced and Enterprise subscription levels. Press [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) to learn more about sending POD notifications.
 
 </details>
 
 <details>
 <summary>How can I track real-time drivers' location?</summary>
 
-Once the [Hub: Routes](Web-Based%20Hub/Hub_%20Routes.md) is started by a driver in the mobile app, the "Tracking" toggle will be displayed on the [Hub: Routes](Web-Based%20Hub/Hub_%20Routes.md)on Load plan page.  You can reach it if you press the `Loads` button in the header toolbar, find the needed load, and click on the `load key`. On the load map, enable “Tracking” toggle to check the driver's precise location and their actual route.  It is required to enable the location tracking both in the device and app settings to get the tracking data.  Otherwise, the driver's location will not be displayed.  You can also download the tracking data by pressing the `Download` button.
+Drivers’ location can be tracked on **Route view page** directly on the map once a route is in Started status and driver has enabled location tracking in the mobile app. The system uses GPS data sent from the driver’s mobile app to display the latest known position of the driver’s vehicle on the route map, allowing dispatchers to see where the driver currently is in relation to the planned route and stops.
 
-To track multiple drivers' locations assigned to different loads, press the `Geo2 logo` in the header toolbar to find the [Hub: Analytics](Web-Based%20Hub/Hub_%20Analytics.md). By default, the [Hub: Analytics](Web-Based%20Hub/Hub_%20Analytics.md) map is displayed. This map shows your depots and the positions of drivers who have loads in the Started status.  Clicking each object on the map reveals further details. The legend for colour-coding of the objects on the map is shown below the map:
-
-- Moving: green
-- Stopped: red
-- Grey: stopped for more than 2 hours
-
-You can pan and zoom the map and toggle a full-screen view.
-
-</details>
-
-<details>
-<summary>Can I send a tracking link to a consignee?</summary>
-
-It's possible for external users such as consignees to optionally track the progress of their consignments on a public web page.  Public tracking links can be sent via email and SMS notifications.  To configure public tracking notifications, click the environment name in the header toolbar. Then, hover over the name and select the `Edit (pencil)` icon. In Environment settings → Public tracking section, you can configure email and SMS notifications for consignees based on consignment or load status (to which a consignment is assigned). You can create email and SMS templates using tokens to include specific order details, such as the contact name, consignment key (order number), delivery ETA, and tracking link.
-
-Once the load status changes to the configured value (e.g. In Transit), an email/SMS notification with a public tracking link will be sent to the consignee's email address/mobile phone number.  For this to work, it is important that the consignee contact details (email address and mobile phone number) are specified in the [Hub: Orders](Web-Based%20Hub/Hub_%20Orders.md).
-
-Press [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) to learn more about public tracking notifications.
-
-</details>
-
-<details>
-<summary>Can I and a consignee be notified about a successful and failed delivery?</summary>
-
-A consignee can be sent an email with a consignment POD - both automatically when the POD is recorded and manually at any time from the Geo2 Hub. To configure POD notifications, click the environment name in the header toolbar. Then, hover over the name and select the `Edit (pencil)` icon. In [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) section, if `"Automatic enabled"` is selected, POD messages will be sent automatically to a consignee email address and fixed emails (for failed POD emails) when a POD is registered in the Hub. If `"Manual enabled"` is selected, Hub users have the option to trigger the sending of the POD manually.  Press the `Email to consignee` button on [Hub: Orders](Web-Based%20Hub/Hub_%20Orders.md) page inside of a consignment or on the POD dialog when clicking on the POD icon on a [Hub: Orders](Web-Based%20Hub/Hub_%20Orders.md) or [Hub: Routes](Web-Based%20Hub/Hub_%20Routes.md) on the Load plan page.
-
-You can create templates for successful and failed POD emails using tokens to include specific order details, such as the contact name, consignment key (order number), delivery ETA, and link to a public web page with all details about the created POD. Failed delivery emails can be sent to multiple fixed recipients, for example, to managers who are responsible for failed deliveries.
-
-When the POD is created and a consignment has a consignee email address, the POD notification email will be sent (if it was enabled in Environment settings).  By pressing the `Check` button in the email, a consignee will see POD details.  If the `"Attach PDF"` option is enabled, the POD PDF will be attached to the POD email.
-
-Press [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) to learn more about sending POD notifications.
+Drivers’ location can also be tracked on **Analytics page** in the **Started Route Driver Position** chart. This chart shows a map with the current positions of all drivers who have started their routes, giving an overview of where drivers are located across all active routes at the same time.
 
 </details>
