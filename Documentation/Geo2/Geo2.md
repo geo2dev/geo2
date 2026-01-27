@@ -48,6 +48,15 @@ Reach out for assistance with setup, product usage, or technical issues:
 >
 > Request product assistance.
 
+# Frequently Asked Questions (FAQ)
+
+Explore frequently asked questions about product functionality, setup, and best practices:
+
+> [!NOTE]
+> ## [FAQ](FAQ.md)
+>
+> Browse common questions and answers
+
 # Data Encryption
 
 All Geo2 data are encrypted both at rest and in transit.  For further details, please see [**Default encryption at rest**](https://cloud.google.com/docs/security/encryption/default-encryption) and [**Encryption in transit**](https://cloud.google.com/docs/security/encryption-in-transit).

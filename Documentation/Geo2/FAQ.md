@@ -73,6 +73,13 @@ No matter your size or industry, Geo2 is flexible and scalable — designed to s
 </details>
 
 <details>
+<summary>How do I know whether the Geo2 web-based Hub or the mobile app is right for me?</summary>
+
+You can use both the Geo2 web-based Hub and the mobile app, depending on your role and workflow. Both platforms support route planning and optimization, as well as order management. The mobile app is best suited for solo drivers, couriers, gig drivers, and drivers working for companies where route planning is done by a transport manager/dispatcher in Hub. Additionally, the mobile app includes Proof of Delivery (POD) and vehicle check features to capture delivery confirmations and vehicle status at route start and completion. While the mobile app allows drivers to create and optimize routes and manage orders, the Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV), managing multiple routes on a single map, analytics and reporting, and AI-powered route building.
+
+</details>
+
+<details>
 <summary>Can I use Geo2 only for recording ePOD's?</summary>
 
 **Yes, Geo2 can be used exclusively for recording proofs of delivery (PODs).**  
@@ -283,6 +290,49 @@ POD emails are available with Advanced and Enterprise subscription levels. Press
 
 Drivers’ location can be tracked on **Route view page** directly on the map once a route is in Started status and driver has enabled location tracking in the mobile app. The system uses GPS data sent from the driver’s mobile app to display the latest known position of the driver’s vehicle on the route map, allowing dispatchers to see where the driver currently is in relation to the planned route and stops.
 
-Drivers’ location can also be tracked on **Analytics page** in the **Started Route Driver Position** chart. This chart shows a map with the current positions of all drivers who have started their routes, giving an overview of where drivers are located across all active routes at the same time.
+Drivers’ location can also be tracked on **Analytics page** in the **Started Route Driver Position** chart. This chart shows a map with the current positions of all drivers who have started their routes, giving an overview of where drivers are located across all active routes at the same time. This chart is available with Advanced and Enterprise subscription levels.
+
+</details>
+
+<details>
+<summary>What does the Free level subscription include?</summary>
+
+With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app. It is available for **one user per organization**, and additional users cannot be added on this level. The Free subscription includes:
+
+- **Order management** (Hub and mobile app): Create unlimited orders each month, set time windows, assign them to routes, and view proof of delivery (POD) history in both the web Hub and mobile app. Use address scanning and voice search in the mobile app for fast adding route stops.
+- **Route planning** (Hub and mobile app): Build unlimited routes with up to 15 orders per route, optimize them with vehicle restrictions, adjust stops and timings, plan driver breaks.
+- **Vehicle loading** (mobile app): Set parcel placements with optional photos.
+- **Navigation** (mobile app):Use your preferred navigation app (e.g., Google Maps, Apple Maps, Waze) for turn-by-turn directions.
+- **Proof of delivery** (Hub and mobile app): Create PODs with photos and signatures (planned or ad-hoc) in the app, store up to 30 days of data both in the web Hub and mobile app.
+- **Offline mode** (mobile app): Work without an internet connection: create routes and stops, add breaks, capture PODs, and record location data, with all offline actions syncing when back online.
+- **Support:** Contact the Geo2 team for help or to request new features.
+
+This gives you the essentials for planning, managing, and executing routes effectively before upgrading to a paid level.
+
+</details>
+
+<details>
+<summary>What paid levels does Geo2 offer?</summary>
+
+Geo2 offers three paid subscription levels: **Pro**, **Advanced**, and **Enterprise**, each building on top of the Free plan.
+
+- **Pro** — In addition to Free features, Pro includes unlimited stops per route, unlimited data storage in Hub for routes, orders and PODs, as well as the ability to export order data.
+- **Advanced** — Includes everything in Free and Pro, plus route optimization with time windows, automated POD and public tracking emails, order import via Excel (CSV), package management with scanning and validation in the mobile app, support for multiple vehicles and vehicle checks, multi-route management on a single map view, and analytics and reporting. With Advanced subscription, you can add up to 10 users to your organization.
+- **Enterprise** (available for purchase in Hub only) — Includes all Free, Pro, and Advanced features, plus product-level order management, driver-to-vehicle assignment based on vehicle categories, multiple route participants, AI-powered route building, automated public tracking SMS notifications, actual stop duration tracking, multiple environments per organization (for example, testing and production), custom fields, and access to the REST API. With Enterprise subscription, you can add unlimited number of users to your organization.
+
+For an additional cost, Enterprise customers can also request custom integrations with existing systems and 24/7 customer support.
+
+</details>
+
+<details>
+<summary>What are the prices for the Pro, Advanced, and Enterprise levels?</summary>
+
+At Geo2, subscription pricing is calculated per user added to an organization, and the available user limits depend on the selected level.
+
+- **Pro** — Allows 1 user per organization. Pricing is **$7.99 per month** or **$77.88 per year**.
+- **Advanced** — Allows up to 10 users per organization. Pricing is **$15.99 per user per month** or **$155.88 per user per year**.
+- **Enterprise** — Allows an unlimited number of users per organization. Pricing is **$49.99 per user per month** or **$479.88 per user per year**.
+
+Annual billing offers a lower effective monthly cost compared to monthly payments.
 
 </details>
