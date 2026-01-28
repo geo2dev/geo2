@@ -44,7 +44,7 @@ You will be redirected to You have accepted invitation confirmation page. Click 
 
 ![Screenshot 2025-09-01 at 11.13.39.png](../../attachments/ef5151ff-68dd-4d93-a130-5a465e098cc4.png)
 
-You can also accept the invitation by selecting the organization to which you have been invited in the Organizations selector in the header toolbar. You will be also redirected to Invitation page where you can accept or reject it.
+You can also accept the invitation by selecting the organization to which you have been invited in the Organizations selector in the menu. You will be also redirected to Invitation page where you can accept or reject it.
 
 # Accept Invitation Using Notification in Hub
 
@@ -54,7 +54,7 @@ By clicking on it, you will see the invitation notification. There are two butto
 
 ![Screenshot 2025-09-01 at 11.25.19.png](../../attachments/b7459606-3a72-409c-9cce-c0720e1179c9.png)
 
-By pressing the `Accept` button, you will accept the invitation to the organization but will not be redirected to it. You can select this organization later in the Organizations selector in the header toolbar to work in it. You will be only redirected to the organization if you do not have another one yet. By pressing the `Reject` button, you will reject the invitation to the organization and will stay in the same organization you were working in.
+By pressing the `Accept` button, you will accept the invitation to the organization but will not be redirected to it. You can select this organization later in the Organizations selector in the menu to work in it. You will be only redirected to the organization if you do not have another one yet. By pressing the `Reject` button, you will reject the invitation to the organization and will stay in the same organization you were working in.
 
 ![Screenshot 2025-09-01 at 11.25.29.png](../../attachments/a93e905d-7f97-4787-8707-e38547fc5518.png)
 

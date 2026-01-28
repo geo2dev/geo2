@@ -3,7 +3,7 @@
 
 # Mobile App
 
-You can download the mobile app from [**App Store**](https://apps.apple.com/app/geo2/id1594180686) and [**Google Play**](https://play.google.com/store/apps/details?id=com.geo2.app).  As a Geo2 mobile application user, you are typically a driver working with routes and tracking the deliveries/collections of orders.
+You can download the mobile app from [**App Store**](https://apps.apple.com/app/geo2/id1594180686) and [**Google Play**](https://play.google.com/store/apps/details?id=com.geo2.app). The mobile app is best suited for solo delivery drivers, couriers, gig drivers, and drivers working for companies where route planning is done by a transport manager/dispatcher in Hub. The mobile app supports route planning and optimization, as well as order management. Additionally, the mobile app includes Proof of Delivery (POD) and vehicle check features to capture delivery confirmations and vehicle status at route start and completion. While the mobile app allows you to create and optimize routes and manage orders, the Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV), managing multiple routes on a single map, analytics and reporting, and AI-powered route building.
 
 > [!CAUTION]
 > ### Data and Costs
