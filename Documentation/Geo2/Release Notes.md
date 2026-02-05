@@ -133,3 +133,4 @@ Learn about the new features of each new release. This is useful for the evaluat
 - [Release Notes 4.0](Release%20Notes/Release%20Notes%204.0.md)
 - [Release Notes 4.1](Release%20Notes/Release%20Notes%204.1.md)
 - [Release Notes 4.1.1](Release%20Notes/Release%20Notes%204.1.1.md)
+- [Release Notes 4.2 (pending)](Release%20Notes/Release%20Notes%204.2%20(pending).md)
