@@ -135,3 +135,4 @@ Learn about the new features of each new release. This is useful for the evaluat
 - [Release Notes 4.1.1](Release%20Notes/Release%20Notes%204.1.1.md)
 - [Release Notes 4.2](Release%20Notes/Release%20Notes%204.2.md)
 - [Release Notes 4.2.1](Release%20Notes/Release%20Notes%204.2.1.md)
+- [Release Notes 5.0 (pending)](Release%20Notes/Release%20Notes%205.0%20(pending).md)
