@@ -3,13 +3,18 @@
 
 # User
 
+- [Introduction](#introduction)
+- [Get User Data](#get-user-data)
+
+# Introduction
+
 Using Geo2 API, you can:
 
 - Get user data (GET /users and GET /user/{userId})
 
-For each of the actions above we have [examples of how it works](https://api.geo2.com/v1/api-docs/), which data you need to put in the request body, and what a result would be.
+For each of the actions above we have [**examples of how it works**](https://api.geo2.com/v1/docs/html/), which data you need to put in the request body, and what a result would be.
 
-# Get user data
+# Get User Data
 
 To return all users for an environment, you need to send a GET request.  Example:
 
@@ -30,28 +35,28 @@ Example of a response after sending a request:
 {
   "data": [
     {
-      "userId": "microsoft:3ea8ea82-93fd-46ca-9782-68d7318889a3",
-      "email": "krystyna.obertynska@balloonone.com",
-      "displayName": "Krystyna Obertynska",
-      "firstName": "Krystyna",
-      "lastName": "Obertynska",
+      "userId": "3ea8ea8293fd46ca978268d7318889a3",
+      "email": "jane.doe@gmail.com",
+      "displayName": "Jane Doe",
+      "firstName": "Jane",
+      "lastName": "Doe",
       "locale": "en-GB"
     },
     {
       "userId": "mS8tZH1FVkabLOSKKOXCJ6Rj3yo2",
-      "email": "yevheniid@balloonone.com",
-      "displayName": "Evgenii",
-      "firstName": "Evgeniy",
-      "lastName": "Derkachenko ",
+      "email": "john.doe@gmail.com",
+      "displayName": "John Doe",
+      "firstName": "John",
+      "lastName": "Doe ",
       "locale": "en-GB",
       "photoURL": "https://lh3.googleusercontent.com/a/AItbvmlyeae6dU8TMjaOf_5P1JRtdvicQAnhJFL2lK16=s96-c"
     },
     {
       "userId": "2rWfH0qHO7WW3o9GZoCbvJbj8zC2",
-      "email": "yevhenii@balloonone.com",
-      "displayName": "Yevhenii D",
-      "firstName": "ee",
-      "lastName": "vv",
+      "email": "alice.doe@gmail.com",
+      "displayName": "Alice Doe",
+      "firstName": "Alice",
+      "lastName": "Doe",
       "locale": "en-GB",
       "photoURL": "https://lh3.googleusercontent.com/a/AATXAJzoixzogEZtRXp9hwi1oqyejHr6-URqATfgc1oF=s96-c"
     }
@@ -79,10 +84,10 @@ Example of a response after sending a request:
 {
   "data": {
     "userId": "2rWfH0qHO7WW3o9GZoCbvJbj8zC2",
-    "email": "yevhenii@balloonone.com",
-    "displayName": "Yevhenii D",
-    "firstName": "ee",
-    "lastName": "vv",
+    "email": "jane.doe@gmail.com",
+    "displayName": "Jane Doe",
+    "firstName": "Jane",
+    "lastName": "Doe",
     "locale": "en-GB",
     "photoURL": "https://lh3.googleusercontent.com/a/AATXAJzoixzogEZtRXp9hwi1oqyejHr6-URqATfgc1oF=s96-c"
   },
