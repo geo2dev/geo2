@@ -62,6 +62,6 @@ By pressing the `Create` button, a new environment will be created.  You will b
 
 # Delete Environment
 
-To delete your environment, go to Settings → Environemnt and press the `Delete environment` button. You will be asked to confirm the deletion, as all route, order, POD and vehicle check data will be removed. Press `Delete` to confirm. The environment will be deleted.
+To delete your environment, go to Settings → Environment and press the `Delete environment` button. You will be asked to confirm the deletion, as all route, order, POD and vehicle check data will be removed. Press `Delete` to confirm. The environment will be deleted.
 
 ![Screenshot 2026-01-27 at 14.07.59.png](../../attachments/5dadaec0-9161-4de5-8fc8-4ddc3af6c8c6.png)

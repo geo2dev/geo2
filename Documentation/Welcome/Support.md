@@ -3,13 +3,19 @@
 
 # Support
 
+# Introduction
+
 As a Geo2 user, you can request assistance through the Support and Feature request forms in Hub.  The options are shown under the Question toolbar icon.
 
-![](../attachments/4a1b7579-3da9-4910-a35e-2d2db2382d10.png)
+![Screenshot 2026-03-10 at 13.02.30.png](../attachments/1b233dab-7324-4260-b4d5-071f5a46760b.png)
 
-# Personal Data Removal Request
+# Data Removal Request
 
-Organization admins have the ability to delete user accounts, organizations and environments.  The best way to have your user account removed from Geo2 is to ask your organization admin to do so.  If this is not possible or you are the sole organization admin, you can use the support request detailed below to ask for the removal of your personal data and your user account.  Once your user account is removed, there will be no personally-identifiable link between you and any data you have contributed in Geo2 such as POD's.
+Organization admins can remove user accounts and delete organizations and environments. To remove your Geo2 account, ask your organization admin. If you are an organization admin, read more about:
+
+- [Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md)
+- [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md)
+- Removing users from your [Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md)/[Hub: Users Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Users%20Settings.md)
 
 # Support Request
 
@@ -21,11 +27,11 @@ The following information will be useful:
 
 2. Was the issue related to Hub, mobile app, or API?
 
-3. What device do you use?
+3. What device/browser do you use?
 
-4. If the issue is related to a load/consignment/vehicle check, what is the load ID (or load key) / consignment ID (or consignment key) / vehicle check ID? Could be copied from the URL in the browser if the bug is on the Hub user interface.
+4. If the issue is related to a route/order/vehicle check, what is the route ID (or route key) / order ID (or order key) / vehicle check ID? Could be copied from the URL in the browser if the bug is on Hub user interface.
 
-5.  If the issue is related to a POD, what are the POD ID (if it's possible) and consignment ID (or consignment key)?
+5.  If the issue is related to a POD, what are the POD ID (if it's possible) and order ID (or order key)?
 
 Do not hesitate to attach some files and screenshots if you think it will help to solve your question.
 
