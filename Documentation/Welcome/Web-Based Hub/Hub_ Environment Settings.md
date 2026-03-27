@@ -22,7 +22,7 @@ Press the `Tick` icon to save changes.
 
 ![Screenshot 2025-11-04 at 16.19.44.png](../../attachments/d0bb6a77-3928-4754-921b-d6ceaebc1e63.png)
 
-If you are invited to the environment and you have [Hub: User Roles](Hub_%20User%20Roles.md), you can reach environment settings by opening the menu and pressing the Environment selector.  You can also create a new environment if you have Enterprise subscription level.
+If you are invited to the environment and you have [User Roles](../User%20Roles.md), you can reach environment settings by opening the menu and pressing the Environment selector.  You can also create a new environment if you have Enterprise subscription level.
 
 ![Screenshot 2025-11-04 at 16.31.36.png](../../attachments/e782f005-23fc-4924-8fb0-da44e72ed7e6.png)
 

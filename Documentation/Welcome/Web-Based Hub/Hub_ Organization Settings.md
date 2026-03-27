@@ -23,7 +23,7 @@ Organizations are groups of Geo2 users who share a subscription and collaborate 
 
 # Organization Settings
 
-During the registration of a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the organization’s address as well.  If you are invited to the organization and you have [Hub: User Roles](Hub_%20User%20Roles.md)**,** you can reach organization settings by pressing the Settings option in the menu.
+During the registration of a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the organization’s address as well.  If you are invited to the organization and you have [User Roles](../User%20Roles.md)**,** you can reach organization settings by pressing the Settings option in the menu.
 
 ## Organization Name
 
@@ -89,7 +89,7 @@ The properties of each user are:
 
 **To enable the use of the Geo2 product, an Organization Admin needs to assign a subscription to a newly invited user.**The message at the top of the `Users` tab informs you about your current organization subscription.
 
-You also need to choose the environment(s) to which a user will have access and their role in each of them.  For environment user roles and their permissions, see [Hub: User Roles](Hub_%20User%20Roles.md).
+You also need to choose the environment(s) to which a user will have access and their role in each of them.  For environment user roles and their permissions, see [User Roles](../User%20Roles.md).
 
 ![Screenshot 2025-08-26 at 14.21.07.png](../../attachments/bd2f81c2-23a5-4eaa-a7e3-058105c8f61b.png)
 
@@ -169,7 +169,7 @@ Once information is provided, press:
 
 To enable the use of the Geo2 product, an Organization Admin needs to assign a subscription to a newly invited user.
 
-You also need to choose the environment(s) to which the user will have access and their role in each of them.  For environment user roles and their permissions, see [Hub: User Roles](Hub_%20User%20Roles.md).  When importing multiple users, the same settings are applied to all of them.
+You also need to choose the environment(s) to which the user will have access and their role in each of them.  For environment user roles and their permissions, see [User Roles](../User%20Roles.md).  When importing multiple users, the same settings are applied to all of them.
 
 Click the `Import` button to import users.  The import process feeds back any errors that it encounters.
 

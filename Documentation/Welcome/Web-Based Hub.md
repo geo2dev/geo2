@@ -24,4 +24,3 @@ The web user interface is intended for administrators, managers and transport pl
 - [Hub: Analytics](Web-Based%20Hub/Hub_%20Analytics.md)
 - [Hub: AI Route Building Logs](Web-Based%20Hub/Hub_%20AI%20Route%20Building%20Logs.md)
 - [Hub: Profile](Web-Based%20Hub/Hub_%20Profile.md)
-- [Hub: User Roles](Web-Based%20Hub/Hub_%20User%20Roles.md)
