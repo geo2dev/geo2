@@ -13,13 +13,13 @@
 
 Once you are registered as a Geo2 user, you can [**sign in**](https://hub.geo2.com/en-GB/auth/signin).  You have the option to authenticate either with an email and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft.
 
-![Screenshot 2025-08-26 at 11.28.51.png](../../attachments/e5705e43-2710-4698-92f2-3311ab7bb246.png)
+![Screenshot 2026-03-27 at 12.21.47.png](../../attachments/ef1c2428-194a-48ab-a6be-cea32462ef87.png)
 
 # Sign In Using Email
 
 Specify your email and Geo2 password.  If you press `Sign in`, you will be authenticated through a password you have previously set at Geo2.  Alternatively, you can sign in with your Google, Microsoft, or Apple identity, by pressing the appropriate button for these authentication providers. Also, you can sign in using your mobile number if you registered your account using this method.
 
-![Screenshot 2025-08-26 at 11.28.51.png](../../attachments/e5705e43-2710-4698-92f2-3311ab7bb246.png)
+![Screenshot 2026-03-27 at 12.21.47.png](../../attachments/ef1c2428-194a-48ab-a6be-cea32462ef87.png)
 
 By clicking the `Remember me?` button, our platform will save your email address for future usage.  We do not save your password, it can be done only in your browser.
 
@@ -31,9 +31,9 @@ If you have forgotten your password and cannot sign in successfully, follow the 
 
 If you registered but have not verified your email address, once you sign in, you will see a prompt for you to check your inbox for a verification code sent to the provided email address. You need to copy the code and paste it to the form in Hub:
 
-![Screenshot 2025-08-26 at 11.11.56.png](../../attachments/48962ed9-ed32-4966-8811-819ce4384d5c.png)![Screenshot 2025-06-05 at 13.43.19.png](../../attachments/91ecf143-d76a-4a37-94ef-16924409db60.png)
+![Screenshot 2026-03-27 at 12.07.23.png](../../attachments/45eced18-5c81-421a-b83f-320bc3231c6f.png)![Screenshot 2026-03-27 at 12.07.39.png](../../attachments/4cb3cb17-74a6-4d0d-ac24-1f237106d2e9.png)
 
-If you have not received an email with a verification code, press the `Resend email` button, and a new code will be sent.
+If you have not received an email with a verification code, press the `Resend email` button on Verify email page, and a new code will be sent.
 
 You do not need to verify your email if you registered using Google, Microsoft, or Apply identity.
 
@@ -49,4 +49,4 @@ By pressing the `Continue` button, you are required to confirm your mobile phone
 
 ![Screenshot 2025-08-26 at 11.44.25.png](../../attachments/23d798e6-a7c2-42e4-8175-263460b1ac52.png)
 
-If you have not received an SMS with a verification code, press the `Resend code` button, and a new code will be sent. Once your mobile number is verified, you will sign in to Geo2.
+If you have not received an SMS with a verification code, press the `Resend code` button on Verify mobile number page, and a new code will be sent. Once your mobile number is verified, you will sign in to Geo2.

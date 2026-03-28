@@ -67,11 +67,12 @@ With a **Free** subscription in Geo2, you get access to a solid set of core feat
 - **Navigation** (mobile app):Use your preferred navigation app (e.g., Google Maps, Apple Maps, Waze) for turn-by-turn directions.
 - **Proof of delivery** (Hub and mobile app): Create PODs with photos and signatures (planned or ad-hoc) in the app, store up to 30 days of data both in Hub and the mobile app.
 - **Offline mode** (mobile app): Work without an internet connection: create routes and stops, add breaks, capture PODs, and record location data, with all offline actions syncing when back online.
+- **AI Assistant** (Hub): Create and update orders and routes, add stops, navigate across the platform, and receive step-by-step guidance on key features. Limited to 5 requests per day for Free and Pro level users.
 - **Support:** Contact the Geo2 team for help or to request new features.
 
-This gives you the essentials for planning, managing, and executing routes effectively before upgrading to a paid level.
-
 On each subscription level (including Free), you can use both the Hub and mobile app. The same limitations apply to both platforms.
+
+This gives you the essentials for planning, managing, and executing routes effectively before upgrading to a paid level.
 
 # Recommended Hardware
 

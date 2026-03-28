@@ -7,6 +7,8 @@
 
 The web user interface is intended for administrators, managers and transport planners. While the mobile app allows drivers to create and optimize routes and manage orders, Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV), managing multiple routes on a single map, analytics and reporting, and AI-powered route building.
 
+With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app.
+
 # In this Section
 
 - [Hub: Register](Web-Based%20Hub/Hub_%20Register.md)

@@ -21,19 +21,19 @@ You can use both the Geo2 web-based Hub and the mobile app, depending on your ro
 
 On Registration page, after you have completed the requested details, press `Register` to create an account, using the password you have specified.  Alternatively, you can press the buttons for other authentication providers in order to authenticate with your existing Google, Microsoft, or Apple identity or mobile phone number.  Learn more about registration in [Hub: Register](Web-Based%20Hub/Hub_%20Register.md). 
 
-![Screenshot 2025-08-26 at 11.10.50.png](../attachments/55b7bf4a-9373-44e5-9125-35eb31613d5a.png)
+![Screenshot 2026-03-27 at 12.05.56.png](../attachments/92160148-384f-4bba-8c45-f8c115f5e451.png)
 
 ## Verify Email
 
 If you register an account using an email and password, you need to verify it.  You will get a verification email with a one-time code that you need to copy and paste into the form in Hub.  Learn more about [Hub: Register](Web-Based%20Hub/Hub_%20Register.md).
 
-![Screenshot 2025-08-26 at 11.11.56.png](../attachments/de4b05ba-ea98-4867-880a-87c1ad79cde4.png)![Screenshot 2025-06-05 at 13.43.19.png](../attachments/01425238-ef3b-483b-a777-04c600da813c.png)
+![Screenshot 2026-03-27 at 12.07.23.png](../attachments/79daadba-1068-4e91-bdfb-50fa63e55cc9.png)![Screenshot 2026-03-27 at 12.07.39.png](../attachments/03ab7a3b-3e57-4c82-b5d7-4ca7dbc9e876.png)
 
 # Set Up Organization
 
 Once your account is created and the email is verified, you need to set up your Geo2 organization.  We ask for information about your company to set up an organization for you.
 
-![Screenshot 2025-08-26 at 11.12.51.png](../attachments/abb1ec71-2a97-4001-860e-8ba2306861be.png)
+![Screenshot 2026-03-27 at 12.08.48.png](../attachments/b4ca42ec-9d06-4131-bea9-0f0b93bd8a9e.png)![Screenshot 2026-03-27 at 12.09.22.png](../attachments/60cd0bee-e023-492a-a04e-c370942f5b5f.png)
 
 By pressing the `Continue` button, you will be redirected to Set up first depot page. This depot can be optionally used during route planning. You can add more depots later in Settings → Environment → [Hub: Depots Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Depots%20Settings.md).
 
@@ -49,7 +49,7 @@ Examples:
 - A holding company (organization) with smaller companies (environments) working in different spheres.
 - A middle-size company (organization) with several depots (environments).
 
-![Screenshot 2025-08-26 at 11.16.48.png](../attachments/df75023a-6685-43fe-9349-52b7f33f1591.png)![Screenshot 2025-08-26 at 11.16.57.png](../attachments/57771b83-6410-41cf-a947-150af9573a63.png)
+![Screenshot 2026-03-27 at 12.11.18.png](../attachments/32949100-b76e-4f0d-a72b-04c73dee6d8f.png)
 
 Next, you can select one of the following options to start working with Geo2 Hub:
 
@@ -58,7 +58,7 @@ Next, you can select one of the following options to start working with Geo2 Hub
 - **Invite more people**. Invite more people to your organization and assign their roles. Learn more about [Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md).
 - **Customize settings**. Add more depots and vehicles, create templates for recipient notifications. Explore your [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md).
 
-![Screenshot 2025-08-26 at 11.18.21.png](../attachments/bffe3e0c-a418-41e3-a264-b6b335ddf417.png)
+![Screenshot 2026-03-27 at 12.11.40.png](../attachments/52474c45-80c8-4ead-9f3e-101ea8ef9122.png)
 
 When orders are created and added to a route, the route can be released to a driver.  It will be displayed in the mobile app for the assigned driver.
 
@@ -72,6 +72,7 @@ With a **Free** subscription in Geo2, you get access to a solid set of core feat
 - **Navigation** (mobile app):Use your preferred navigation app (e.g., Google Maps, Apple Maps, Waze) for turn-by-turn directions.
 - **Proof of delivery** (Hub and mobile app): Create PODs with photos and signatures (planned or ad-hoc) in the app, store up to 30 days of data both in Hub and the mobile app.
 - **Offline mode** (mobile app): Work without an internet connection: create routes and stops, add breaks, capture PODs, and record location data, with all offline actions syncing when back online.
+- **AI Assistant** (Hub): Create and update orders and routes, add stops, navigate across the platform, and receive step-by-step guidance on key features. Limited to 5 requests per day for Free and Pro level users.
 - **Support:** Contact the Geo2 team for help or to request new features.
 
 On each subscription level (including Free), you can use both the Hub and mobile app. The same limitations apply to both platforms.

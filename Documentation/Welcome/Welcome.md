@@ -10,7 +10,7 @@
 > [!NOTE]
 > **Reduce the financial and environmental cost of delivery.**
 
-Geo2 is a cloud-based service for businesses that need to manage their goods deliveries.  It gives you the tools to:
+Geo2 is a **cloud-based transport management system (TMS)** and **all-in-one delivery route planner** designed to help businesses and independent drivers plan, execute, and optimize the movement of goods. Using modern technology, Geo2 reduces delivery costs, shortens driving time, and simplifies day-to-day delivery operations. Whether you’re a solo driver or a growing logistics team, Geo2 provides everything you need to plan, optimize, and manage routes efficiently and stress-free. It gives you the tools to:
 
 - Reduce transport costs with automated route optimization
 - Reduce the time spent planning routes with AI route building

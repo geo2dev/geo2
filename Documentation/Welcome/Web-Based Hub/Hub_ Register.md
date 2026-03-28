@@ -19,11 +19,11 @@ If you are joining an existing organization, the admin of that organization need
 
 If you have already registered, you can follow either of the [**Sign in**](https://hub.geo2.com/en-GB/auth/signin) links to proceed to sign in instead.
 
-![Screenshot 2025-08-26 at 11.28.51.png](../../attachments/0e12984f-609a-4f0e-a559-734ed34bc10e.png)
+![Screenshot 2026-03-27 at 12.21.47.png](../../attachments/06be3540-a3b3-473b-ab87-e77442d623c0.png)
 
 If you have already registered but have not verified your email address, you can sign in, and you will be redirected to Verify your email page.
 
-![Screenshot 2025-08-26 at 11.11.56.png](../../attachments/d9c8473c-fe7c-492f-9510-78b482cb2eb2.png)![Screenshot 2025-06-05 at 13.43.19.png](../../attachments/52b802a3-ea78-44dd-9070-8dfbd2170898.png)
+![Screenshot 2026-03-27 at 12.07.23.png](../../attachments/55273e7d-c07c-4e72-b87f-34b09e3c68c2.png)![Screenshot 2026-03-27 at 12.07.39.png](../../attachments/fde4f4c6-e9a9-4992-b067-e836cc1e833b.png)
 
 # Register Account Using Email
 
@@ -31,19 +31,19 @@ On [**Registration**](https://hub.geo2.com/en-GB/auth/register) page, you need t
 
 After you have completed the requested details, press `Register` to create an account authenticated by Geo2, using the password you have specified.  Alternatively, you can press the buttons for other authentication providers in order to authenticate with your existing Google, Microsoft, or Apple identity instead. Also, you can register using your mobile phone number.
 
-![Screenshot 2025-08-26 at 11.10.50.png](../../attachments/b812d5cf-293d-43db-977a-a3d2994d0564.png)
+![Screenshot 2026-03-27 at 12.05.56.png](../../attachments/82e377c2-f323-4882-94cb-82cd47428f2f.png)
 
 ## Verify Email
 
 Next, you will see a prompt for you to check your inbox for a verification code sent to the provided email address. You need to copy the code and paste it to the form in Hub:
 
-![Screenshot 2025-08-26 at 11.11.56.png](../../attachments/d9c8473c-fe7c-492f-9510-78b482cb2eb2.png)![Screenshot 2025-06-05 at 13.43.19.png](../../attachments/52b802a3-ea78-44dd-9070-8dfbd2170898.png)
+![Screenshot 2026-03-27 at 12.07.23.png](../../attachments/55273e7d-c07c-4e72-b87f-34b09e3c68c2.png)![Screenshot 2026-03-27 at 12.07.39.png](../../attachments/fde4f4c6-e9a9-4992-b067-e836cc1e833b.png)
 
-If you have not received an email with a verification code, press the `Resend email` button, and a new code will be sent.
+If you have not received an email with a verification code, press the `Resend email` button on Verify email page, and a new code will be sent.
 
 By pressing the Continue button, if the code provided is valid and you are not invited to any organization, you will be redirected to [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md) page. **Free level subscription** will be assigned to you - **no payment details are required**.
 
-![Screenshot 2025-08-26 at 11.12.51.png](../../attachments/aa3554d1-cefb-4af7-924b-aa25fd64b77a.png)
+![Screenshot 2026-03-27 at 12.08.48.png](../../attachments/456244a9-318e-42e4-b43e-8f9a7e670221.png)
 
 You do not need to verify your email if you registered using Google, Microsoft, or Apply identity.
 
@@ -63,4 +63,4 @@ By pressing the `Continue` button, you will be required to confirm your mobile p
 
 ![Screenshot 2025-08-26 at 11.44.25.png](../../attachments/f29d28dd-7378-4e1a-a563-eb1220b4fa50.png)
 
-If you have not received an SMS with a verification code, press the `Resend code` button and a new code will be sent. By pressing the Continue button, if the code provided is valid and you are not invited to any organization, you will be redirected to [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md) page. **Free level subscription** will be assigned to you - **no payment details are required**.
+If you have not received an SMS with a verification code, press the `Resend code` button on Verify mobile number page and a new code will be sent. By pressing the Continue button, if the code provided is valid and you are not invited to any organization, you will be redirected to [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md) page. **Free level subscription** will be assigned to you - **no payment details are required**.
