@@ -6,6 +6,7 @@
 - [Introduction](#introduction)
 - [Organization Selector](#organization-selector)
 - [Environment Selector](#environment-selector)
+- [AI Assistant](#ai-assistant)
 
 # Introduction
 
@@ -13,6 +14,7 @@ The vertical menu in Hub includes these options:
 
 - Organization selector
 - Environment selector
+- AI assistant
 - [Hub: Orders](Hub_%20Orders.md)
 - [Hub: Routes](Hub_%20Routes.md)
 - [Hub: Map View](Hub_%20Map%20View.md)
@@ -29,28 +31,42 @@ To create a new organization, click the `Create organization` button in the menu
 
 To enter the address, start typing it into Address line 1 and select from the drop-down. If no match appears, complete the address fields manually.
 
-![Screenshot 2025-08-26 at 12.57.37.png](../../attachments/cc7bb513-e376-4516-b187-9edf81c39309.png)
+![Screenshot 2026-03-30 at 14.01.48.png](../../attachments/bf208154-4aa7-4954-85e3-73feecb07e52.png)![Screenshot 2026-03-30 at 14.01.30.png](../../attachments/2e972b8b-34b8-47d1-b09a-d54a97b43972.png)
 
 Press the `Create` button to create an organization. After creation, you will be redirected to Settings → Organization → Billing address.
 
-![Screenshot 2025-08-26 at 12.58.24.png](../../attachments/56df7443-73a2-4a64-9418-02a84ae4afc5.png)
+![Screenshot 2026-03-30 at 14.03.06.png](../../attachments/aa1c6b03-aa47-4812-8f36-4afd79a0b729.png)
 
 To edit organization settings later, select Settings from the menu. To save changes to an existing organization, press `Update`. Learn more about [Hub: Organization Settings](Hub_%20Organization%20Settings.md).
 
-![Screenshot 2025-08-26 at 13.00.36.png](../../attachments/c2b19f18-35f5-44ec-9ae1-55eb657c7c01.png)
+![Screenshot 2026-03-30 at 14.04.08.png](../../attachments/6c6cb04e-d322-4672-a405-c0cf53c59df3.png)
 
 # Environment Selector
 
-During the registration of a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the environment’s address as well.  If you want to create one more environment in your organization, press the environment selector in the menu bar and press `Create environment`.  This option is available only with Enterprise subscription level. You will be redirected to Create environment page where you will have the option to clone settings and users from an existing environment.
+During the registration of a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the environment’s address as well.  If you want to create one more environment in your organization, press the environment selector in the menu bar and press `Create environment`.  This option is available only with Enterprise subscription level.
 
-![Screenshot 2025-08-27 at 16.05.09.png](../../attachments/7e414431-66f3-4258-8667-273ca9e47a1b.png)
+![Screenshot 2026-03-30 at 14.06.07.png](../../attachments/93cb8e9c-c775-4c1d-b82b-39efc5b25d14.png)
 
-It is up to you whether you decide to clone settings or users or start an entirely fresh environment definition.
+You will be redirected to Create environment page where you will have the option to clone settings and users from an existing environment.  Only users with the Organization Admin role can create a new environment within the organization.
 
-![Screenshot 2025-08-27 at 16.06.22.png](../../attachments/7c863cc7-76c1-4752-8dea-6e6ea443577f.png)
+![Screenshot 2026-03-30 at 14.09.46.png](../../attachments/0e710416-3465-4016-9b15-0de91bdf0ae3.png)
 
-If cloning settings and/or users from an existing environment, you will need to select an environment to clone them from.
+It is up to you whether you decide to clone settings or users or start an entirely fresh environment definition. If cloning settings and/or users from an existing environment, you will need to select an environment to clone them from.
 
-![Screenshot 2025-08-27 at 16.06.56.png](../../attachments/5a3426ca-8d33-466a-839b-ec9c0d35a13f.png)
+![Screenshot 2026-03-30 at 14.09.58.png](../../attachments/c04adf1a-52f8-4d34-bf4a-603631d0ffaf.png)![Screenshot 2026-03-30 at 14.10.08.png](../../attachments/245fb20a-008b-4177-9bfc-8fb3f6dc8975.png)
 
 By pressing the `Create` button, a new environment will be created.  You will be redirected to the settings of the newly created environment.
+
+# AI Assistant
+
+By pressing the `AI assistant` button in the menu, you will open AI assistant page. There, you will find examples of requests it can handle. Currently, the AI assistant can:
+
+- Create and update routes
+- Create and update orders
+- Add stops to routes
+- Navigate Hub pages
+- Guide on how Geo2 works
+
+For example, you can ask about routes, orders, AI route building, importing orders, customizing settings, or navigating to a page.
+
+![Screenshot 2026-03-30 at 14.17.10.png](../../attachments/704daaf2-35ad-4935-bc27-fc59b49b20d0.png)![Screenshot 2026-03-30 at 14.19.03.png](../../attachments/9f70b57e-9844-432f-8456-f0adbe992756.png)
