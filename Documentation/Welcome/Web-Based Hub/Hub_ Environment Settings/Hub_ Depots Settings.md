@@ -13,17 +13,19 @@
 
 # Introduction
 
-Depots can be optionally selected as the start and end points for routes.  During the registration of a new account, your first depot is created automatically with the address you provided.  You can add more depots either one by one by pressing the `Add` button or all at once by pressing the `Import` button in Settings → Environment → Depots.
+Depots can be optionally selected as the start and end points for routes.  During the registration of a new account, your first depot is created automatically with the address you provided.  You can add more depots either one by one by pressing the `Add` button or all at once by pressing the `Import` button in Settings → Environment → Depots. Only Environment Admin users can add, update, or delete depots; Environment Managers can view them.
 
 # Add Depots
 
 To add a depot, press the `Add` button.  You will see a dialog where you have to provide the next information - key, name, and address (Address line 1, City and Country fields).  All other fields are optional.  You can provide the address manually by typing it into Address line 1 and selecting the relevant address.  If there is no variant you were looking for, just provide your data to the address form and we will save it.  For routes, it is important that depot addresses are geo-coded accurately.
 
+![Screenshot 2026-04-01 at 12.30.18.png](../../../attachments/eaf5dbf9-8ec6-4afc-adf9-9aa0d2a86b8f.png)
+
 The properties of each depot are:
 
 |  **Property**       |  **Description**                                                                                                                                                                                                                                                                                   |
 |:--------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Key                 | Depot identifier which is required to be unique within the environment.  For example, Depot 1.                                                                                                                                                                                                     |
+| Key                 | Depot identifier which is required to be unique within the environment.  For example, Depot 001.                                                                                                                                                                                                   |
 | Name                | User-definable depot name to describe a depot, for example, Storage for materials.  It is for internal usage only.                                                                                                                                                                                 |
 | Сontact name        | Contact name of a person responsible for a depot.  For example, Jane Doe.                                                                                                                                                                                                                          |
 | Email               | Email address of a person responsible for a depot.  It must be in a valid email format - [recipient@domain\_name.domain\_suffix.](#recipient-domain-name-domain-suffix)![](https://project.balloonone.com/images/icons/mail_small.gif) For example, [janedoe@gmail.com](mailto:janedoe@gmail.com). |
@@ -37,30 +39,30 @@ The properties of each depot are:
 | State               | State as a part of a depot address.                                                                                                                                                                                                                                                                |
 | Country             | Country as a part of a depot address.  It must be provided as the two-letter ISO country code, for example, US for the United States.                                                                                                                                                              |
 
-![Screenshot 2025-08-26 at 15.38.27.png](../../../attachments/ae16efa9-2117-4ce9-af5f-5b110db69ff2.png)![Screenshot 2025-08-26 at 15.38.34.png](../../../attachments/c6605053-b67c-4375-a249-22a5d4a93d66.png)
+![Screenshot 2026-04-01 at 12.31.04.png](../../../attachments/ab60008e-383a-4a83-a108-16b228051ba4.png)
 
 Once information is provided, press the `Create` button and a depot will be created.
 
-![Screenshot 2025-08-26 at 15.39.55.png](../../../attachments/59cd6333-c8d1-4b3a-a642-f7624bec8bc0.png)
+![Screenshot 2026-04-01 at 12.31.13.png](../../../attachments/d8cb19be-7ec5-405f-8163-da383577a969.png)
 
 Optionally, you can select it as a default one. The default depot will be used for route creation but it can be changed.  Learn more about [Hub: Routes](../Hub_%20Routes.md). The default depot will be used for order import if the Depot field is blank. Learn more about [Hub: Order Import](../Hub_%20Orders/Hub_%20Order%20Import.md).
 
 In the Depots table, you will see information from the key fields.  Values of other fields can be shown and edited by clicking the `Edit` icon.  Remember to press the `Save` button to save changes.
 
-![Screenshot 2025-08-26 at 15.40.53.png](../../../attachments/fb12edd5-05bb-430f-9cb5-d4a667b0adca.png)
+![Screenshot 2026-04-01 at 12.32.45.png](../../../attachments/21585705-122d-43d3-9168-60ed5bca8687.png)
 
 You can `Delete` a depot, though this is only recommended before it has started to be used.
 
-![Screenshot 2025-08-26 at 15.41.16.png](../../../attachments/3af74801-573e-4e8e-9f56-5963ace7794f.png)
+![Screenshot 2026-04-01 at 12.33.13.png](../../../attachments/cd261d03-149e-4810-957f-e07f66c282ea.png)
 
 # Import Depots
 
-You can import depot data into Geo2 Hub using two methods:
+You can import depot data into Geo2 Hub via the `Import` button using two methods:
 
 - Upload your spreadsheet file with column mapping
 - Manually paste or type your data into the table.
 
-![Screenshot 2025-08-26 at 15.41.57.png](../../../attachments/b6e962f3-9eb4-46ef-8916-13a1f3eecff7.png)
+![Screenshot 2026-04-01 at 12.34.28.png](../../../attachments/3455358c-42cc-4c25-a31f-b360397c7a01.png)
 
 ## Upload Spreadsheet File with Column Mapping
 
@@ -75,42 +77,38 @@ On the dialog, you will see 4 columns:
 | Destination column     | Lets the user select or confirm which system field the uploaded column should map to.                                 |
 | Matching result        | Indicates how well the system matched each column, including match strength and confidence percentage.                |
 
-![Screenshot 2025-08-26 at 15.43.36.png](../../../attachments/be2c4635-dcde-4a31-9679-418f58a3369f.png)
+![Screenshot 2026-04-01 at 12.38.01.png](../../../attachments/e0f6c305-1e12-49e0-8894-003a5b27b9d4.png)
 
 The system will attempt to auto-match fields like Address line 1, Postal code, Country, etc. Matches are clearly marked with a green tick for perfect or high matches, while unmatched columns are shown with a yellow warning icon. You can adjust matches or choose to skip fields, including required ones, these can be added later.
 
-![Screenshot 2025-08-26 at 15.43.42.png](../../../attachments/daa996c0-b3a2-4863-8d03-ffe835ff8f9a.png)
+![Screenshot 2026-04-01 at 12.38.08.png](../../../attachments/953679e8-a84e-4c02-a007-0b2f71da9f42.png)
 
 Tooltips are available to help clarify each data point.
 
-![Screenshot 2025-08-26 at 15.43.49.png](../../../attachments/5964f38c-4bb1-490b-bedb-2da1d58a9a74.png)
-
 Once everything is mapped correctly, click `Apply`. Your data will appear in the table, where you can review, edit, or fix any errors before finalizing.
 
-![Screenshot 2025-08-26 at 15.44.04.png](../../../attachments/d47f2814-e3d6-459f-97d7-17756778b52c.png)
+![Screenshot 2026-04-01 at 12.39.23.png](../../../attachments/7b2f058b-48d0-4030-9274-2aeba0d4deea.png)
 
 ## Manually Type or Paste Data
 
 The spreadsheet interface column headings guide you on the type of data expected in each column.  Hover over a column title to see a tooltip with additional details and explanations.
 
-![Screenshot 2025-08-26 at 15.45.34.png](../../../attachments/314e416a-999d-4969-9646-e05f71e74295.png)
+![Screenshot 2026-04-01 at 12.38.23.png](../../../attachments/39e92e58-470a-4420-9a7a-3e7a2adf8451.png)
 
-If you have prepared the data in another spreadsheet, you can copy and paste them in.  It is also possible to import a file from your device without column mapping by pressing the `folder` icon.
-
-![Screenshot 2025-08-26 at 15.45.55.png](../../../attachments/becf220f-2cb4-4b93-96be-bf0df82c9ddf.png)
+If you have prepared the data in another spreadsheet, you can copy and paste them in.
 
 The limit for the import of depots is **500**.  You cannot paste more into the spreadsheet.
 
 |  **Column Heading**    |  **Data Type**    |  **Details**                                                                                                                                                                                                                                                                                       |  **Mandatory**    |
 |:-----------------------|:------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------|
-| Depot key              | String            | Depot identifier unique within the environment, for example, Depot 01.  It is used for displaying depots for route and order assignment and vehicle check creation.  If the key already exists in the environment, the matching depot can optionally be updated.                                   | Y                 |
+| Depot key              | String            | Depot identifier unique within the environment, for example, Depot 001.  It is used for displaying depots for route and order assignment and vehicle check creation.  If the key already exists in the environment, the matching depot can optionally be updated.                                  | Y                 |
 | Depot name             | String            | User-definable depot name to describe a depot, for example, Storage for materials.  It is for internal usage only.                                                                                                                                                                                 | Y                 |
 | Contact name           | String            | Contact name of a person responsible for a depot.  For example, Jane Doe.                                                                                                                                                                                                                          | N                 |
 | Email                  | String            | Email address of a person responsible for a depot.  It must be in a valid email format - [recipient@domain\_name.domain\_suffix.](#recipient-domain-name-domain-suffix)![](https://project.balloonone.com/images/icons/mail_small.gif) For example, [janedoe@gmail.com](mailto:janedoe@gmail.com). | N                 |
 | Phone                  | String            | Phone number of a person responsible for a depot.  It must start with "+" and have from 5 to 16 digits.  No spaces, brackets, or other special symbols.  For example, +123456789.                                                                                                                  | N                 |
 | Mobile phone           | String            | Mobile phone number of a person responsible for a depot.  It must start with "+" and have from 5 to 16 digits.  No spaces, brackets, or other special symbols.  For example, +123456789.                                                                                                           | N                 |
 | Company name           | String            | Company name as a part of a depot address.  For example, BalloonOne.                                                                                                                                                                                                                               | N                 |
-| Address line 1         | String            | Address line 1 as a part of a depot address.  For example, 1221 Grand Blvd..                                                                                                                                                                                                                       | Y                 |
+| Address line 1         | String            | Address line 1 as a part of a depot address.  For example, 1221 Grand Blvd.                                                                                                                                                                                                                        | Y                 |
 | Address line 2         | String            | Address line 2 as a part of a depot address.                                                                                                                                                                                                                                                       | N                 |
 | Address line 3         | String            | Address line 3 as a part of a depot address.                                                                                                                                                                                                                                                       | N                 |
 | City                   | String            | City as a part of a depot address.  For example, Kansas City.                                                                                                                                                                                                                                      | Y                 |
