@@ -15,7 +15,7 @@ Even when your device does not have an active internet connection, you can:
 - Complete vehicle checks, including photos, signatures, and timestamps.
 - Record location data, which stays attached to POD's and vehicle checks even when offline.
 
-All actions performed offline will sync automatically once the device reconnects to the internet. Photos that have not yet been uploaded from the device can be viewed in Profile → Pending photos. There you have the option of tapping on them to manually start an upload.  Learn more about [**pending photos**](#pending-photos).
+All actions performed offline will sync automatically once the device reconnects to the internet. Photos that have not yet been uploaded from the device can be viewed in Menu → Pending uploads. There you have the option of tapping on them to manually start an upload.  Learn more about [Mobile App: Menu](Mobile%20App_%20Menu.md).
 
 ## Limitations in Offline Mode
 
