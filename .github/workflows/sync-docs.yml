@@ -28,34 +28,12 @@ jobs:
           CONFLUENCE_USER: ${{ secrets.CONFLUENCE_USER }}
           CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
         run: |
-          # Use jq to generate valid JSON, handling special chars/newlines in secrets safely
-
-          jq -n \
-            --arg url "https://geo2.atlassian.net/wiki" \
-            --arg user "$CONFLUENCE_USER" \
-            --arg token "$CONFLUENCE_TOKEN" \
-            '{
-              auth: {
-                confluence: {
-                  url: $url,
-                  username: $user,
-                  api_token: $token
-                }
-              },
-              export: {
-                output_path: "./"
-              }
-            }' > config.json
-          # Ensure output directory exists
-          mkdir -p ./
+          confluence-markdown-exporter config set \
+            "auth.confluence.https://geo2.atlassian.net.username=$CONFLUENCE_USER"
+          confluence-markdown-exporter config set \
+            "auth.confluence.https://geo2.atlassian.net.api_token=$CONFLUENCE_TOKEN"
           
-          # Run the exporter with custom config path
-          # Usage: confluence-markdown-exporter spaces <SPACE_KEY> (output path is in config)
-          export CME_CONFIG_PATH=$(pwd)/config.json
-          confluence-markdown-exporter spaces "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO"
-          
-          # Cleanup config file to avoid leaking secrets (though runner cleans up anyway)
-          rm config.json
+          confluence-markdown-exporter spaces "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO
 
       - name: Commit and Push changes
         run: |
