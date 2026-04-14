@@ -21,38 +21,15 @@ jobs:
           python-version: '3.x'
 
       - name: Install Confluence Exporter
-        run: pip install confluence-markdown-exporter
+        run: pip install confluence-markdown-exporter==1.0.24
 
       - name: Export Confluence to Markdown
         env:
-          CONFLUENCE_USER: ${{ secrets.CONFLUENCE_USER }}
-          CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
+          ATLASSIAN_USERNAME: ${{ secrets.CONFLUENCE_USER }}
+          ATLASSIAN_API_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
+          ATLASSIAN_URL: "https://geo2.atlassian.net"
         run: |
-          export CME_CONFIG_PATH=$(pwd)/cme_config.json
-          
-          python3 -c "
-          import json, os
-          config = {
-            'auth': {
-              'confluence': {
-                'https://geo2.atlassian.net': {
-                  'username': os.environ['CONFLUENCE_USER'],
-                  'api_token': os.environ['CONFLUENCE_TOKEN'],
-                  'cloud_id': ''
-                }
-              }
-            },
-            'export': {
-              'output_path': './'
-            }
-          }
-          with open(os.environ['CME_CONFIG_PATH'], 'w') as f:
-              json.dump(config, f)
-          "
-          
-          confluence-markdown-exporter spaces "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO"
-          
-          rm cme_config.json
+          confluence-markdown-exporter space BALDEVGEO ./
           
       - name: Commit and Push changes
         run: |
