@@ -28,7 +28,6 @@ jobs:
           CONFLUENCE_USER: ${{ secrets.CONFLUENCE_USER }}
           CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
         run: |
-          # Задаємо спільний шлях до конфігу для запису і читання
           export CME_CONFIG_PATH=$(pwd)/cme_config.json
           
           python3 -c "
@@ -38,7 +37,8 @@ jobs:
               'confluence': {
                 'https://geo2.atlassian.net': {
                   'username': os.environ['CONFLUENCE_USER'],
-                  'api_token': os.environ['CONFLUENCE_TOKEN']
+                  'api_token': os.environ['CONFLUENCE_TOKEN'],
+                  'cloud_id': ''
                 }
               }
             },
