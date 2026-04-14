@@ -28,14 +28,31 @@ jobs:
           CONFLUENCE_USER: ${{ secrets.CONFLUENCE_USER }}
           CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
         run: |
-          USER_ARG="auth.confluence.https://geo2.atlassian.net.username=$CONFLUENCE_USER"
-          TOKEN_ARG="auth.confluence.https://geo2.atlassian.net.api_token=$CONFLUENCE_TOKEN"
+          # Задаємо спільний шлях до конфігу для запису і читання
+          export CME_CONFIG_PATH=$(pwd)/cme_config.json
           
-          confluence-markdown-exporter config set "$USER_ARG"
-          confluence-markdown-exporter config set "$TOKEN_ARG"
-          confluence-markdown-exporter config set "export.output_path=./"
+          python3 -c "
+          import json, os
+          config = {
+            'auth': {
+              'confluence': {
+                'https://geo2.atlassian.net': {
+                  'username': os.environ['CONFLUENCE_USER'],
+                  'api_token': os.environ['CONFLUENCE_TOKEN']
+                }
+              }
+            },
+            'export': {
+              'output_path': './'
+            }
+          }
+          with open(os.environ['CME_CONFIG_PATH'], 'w') as f:
+              json.dump(config, f)
+          "
           
           confluence-markdown-exporter spaces "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO"
+          
+          rm cme_config.json
           
       - name: Commit and Push changes
         run: |
