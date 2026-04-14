@@ -29,7 +29,6 @@ jobs:
           CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
         run: |
           # Use jq to generate valid JSON, handling special chars/newlines in secrets safely
-          cat config.json | python3 -c "import json,sys; c=json.load(sys.stdin); print('URL:', c['auth']['confluence']['url'])"
 
           jq -n \
             --arg url "https://geo2.atlassian.net/wiki" \
@@ -47,7 +46,14 @@ jobs:
                 output_path: "./"
               }
             }' > config.json
-          
+          # === DEBUG ===
+          echo "=== CONFIG URL ==="
+          cat config.json | python3 -c "import json,sys; c=json.load(sys.stdin); print('URL:', c['auth']['confluence']['url'])"
+          echo "=== EXPORTER VERSION ==="
+          pip show confluence-markdown-exporter | grep Version
+          echo "=== HELP ==="
+          confluence-markdown-exporter --help
+          # === END DEBUG ===
           # Ensure output directory exists
           mkdir -p ./
           
