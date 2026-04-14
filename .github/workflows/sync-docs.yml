@@ -32,7 +32,7 @@ jobs:
           echo "User is set: $([[ -n "$CONFLUENCE_USER" ]] && echo YES || echo NO)"
           echo "Token is set: $([[ -n "$CONFLUENCE_TOKEN" ]] && echo YES || echo NO)"
           jq -n \
-            --arg url "https://geo2.atlassian.net" \
+            --arg url "https://geo2.atlassian.net/wiki" \
             --arg user "$CONFLUENCE_USER" \
             --arg token "$CONFLUENCE_TOKEN" \
             '{
