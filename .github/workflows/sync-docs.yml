@@ -28,11 +28,14 @@ jobs:
           CONFLUENCE_USER: ${{ secrets.CONFLUENCE_USER }}
           CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
         run: |
-          confluence-markdown-exporter config set "auth.confluence.https://geo2.atlassian.net.username=$CONFLUENCE_USER"
-          confluence-markdown-exporter config set "auth.confluence.https://geo2.atlassian.net.api_token=$CONFLUENCE_TOKEN"
+          USER_ARG="auth.confluence.https://geo2.atlassian.net.username=$CONFLUENCE_USER"
+          TOKEN_ARG="auth.confluence.https://geo2.atlassian.net.api_token=$CONFLUENCE_TOKEN"
+          
+          confluence-markdown-exporter config set "$USER_ARG"
+          confluence-markdown-exporter config set "$TOKEN_ARG"
           confluence-markdown-exporter config set "export.output_path=./"
           
-          confluence-markdown-exporter spaces "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO"
+          confluence-markdown-exporter spaces "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO
           
       - name: Commit and Push changes
         run: |
