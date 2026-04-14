@@ -35,7 +35,7 @@ jobs:
           confluence-markdown-exporter config set "$TOKEN_ARG"
           confluence-markdown-exporter config set "export.output_path=./"
           
-          confluence-markdown-exporter spaces "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO
+          confluence-markdown-exporter spaces "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO"
           
       - name: Commit and Push changes
         run: |
