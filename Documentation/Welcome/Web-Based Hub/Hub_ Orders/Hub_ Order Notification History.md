@@ -3,7 +3,7 @@
 
 # Hub: Order Notification History
 
-If you have set up sending the [Hub: POD Notification Settings](../Hub_%20Environment%20Settings/Hub_%20POD%20Notification%20Settings.md) and [Hub: Public Tracking Settings](../Hub_%20Environment%20Settings/Hub_%20Public%20Tracking%20Settings.md) and an order has indicated the **recipient** **email address/mobile phone number**, you can then track the statuses of emails/SMS notifications on Notification history tab inside the Order details.
+If you have set up sending the [Hub: Proof of Delivery Settings](../Hub_%20Environment%20Settings/Hub_%20Proof%20of%20Delivery%20Settings.md) and [Hub: Public Tracking Settings](../Hub_%20Environment%20Settings/Hub_%20Public%20Tracking%20Settings.md) and an order has indicated the **recipient** **email address/mobile phone number**, you can then track the statuses of emails/SMS notifications on Notification history tab inside the Order details.
 
 |  **Column**    |  **Description**                                                                                                                                                                                                                             |
 |:---------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

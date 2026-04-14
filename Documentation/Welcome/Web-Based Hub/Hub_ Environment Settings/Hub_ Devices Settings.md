@@ -13,8 +13,8 @@ To run auto-deletion of photos recorded during a POD or vehicle check creation, 
 
 `Allow order creation from POD` makes it possible to create a POD referencing an order key that does not yet exist - a skeleton order will be created in Hub to match the POD.  By default, this setting is enabled.  When disabled, it is only possible to create a POD for an order key that already exists in the environment.
 
-`Record time at stop` enables the mobile app’s feature to record the actual time spent at a stop by a driver. Learn more about [Mobile App: Routes and Stops](../../Mobile%20App/Mobile%20App_%20Routes%20and%20Stops.md).
+`Record time at stop` enables the mobile app’s feature to record the actual time spent at a stop by a driver. Learn more about [Mobile App: Routes and Stops](../../Mobile%20App/Mobile%20App_%20Routes%20and%20Stops.md). Recording of actual stop duration is available only with Enterprise subscription level.
 
-![Screenshot 2025-08-26 at 16.58.44.png](../../../attachments/69670576-0648-47e5-b901-1db84e3ea50f.png)
+![Screenshot 2026-04-07 at 16.15.54.png](../../../attachments/5691355c-8c17-41e9-9741-df64fda9076b.png)
 
 To save changes, press the `Update` button.

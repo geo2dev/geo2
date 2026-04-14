@@ -21,4 +21,4 @@ Example of successful POD:
 
 If an orders has several recorded POD's, they will be displayed in separate tabs as Pod 1, Pod 2, etc.
 
-You can click on the `Download PDF` button to save POD as a PDF file.  If manual sending of POD is enabled in the [Hub: POD Notification Settings](../Hub_%20Environment%20Settings/Hub_%20POD%20Notification%20Settings.md), you will see the `Email to recipient` button.  By pressing it, the POD email will be sent to the recipient's email address.
+You can click on the `Download PDF` button to save POD as a PDF file.  If manual sending of POD is enabled in the [Hub: Proof of Delivery Settings](../Hub_%20Environment%20Settings/Hub_%20Proof%20of%20Delivery%20Settings.md), you will see the `Email to recipient` button.  By pressing it, the POD email will be sent to the recipient's email address.

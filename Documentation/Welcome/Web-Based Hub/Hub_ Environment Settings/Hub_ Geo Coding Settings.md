@@ -23,6 +23,6 @@ Typical settings would be:
 | Country         |                    |
 | Postal code     |                    |
 
-![Screenshot 2025-08-26 at 16.47.51.png](../../../attachments/230b31db-1657-41e9-a08e-058a10bb7caf.png)
+![Screenshot 2026-04-06 at 16.16.10.png](../../../attachments/0609c0dd-b28b-4f59-8bd8-0d4ff354751c.png)
 
 Press `Update` to save the settings.
