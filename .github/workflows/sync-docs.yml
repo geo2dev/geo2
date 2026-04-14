@@ -46,21 +46,13 @@ jobs:
                 output_path: "./"
               }
             }' > config.json
-          # === DEBUG ===
-          echo "=== CONFIG URL ==="
-          cat config.json | python3 -c "import json,sys; c=json.load(sys.stdin); print('URL:', c['auth']['confluence']['url'])"
-          echo "=== EXPORTER VERSION ==="
-          pip show confluence-markdown-exporter | grep Version
-          echo "=== HELP ==="
-          confluence-markdown-exporter --help
-          # === END DEBUG ===
           # Ensure output directory exists
           mkdir -p ./
           
           # Run the exporter with custom config path
           # Usage: confluence-markdown-exporter spaces <SPACE_KEY> (output path is in config)
           export CME_CONFIG_PATH=$(pwd)/config.json
-          confluence-markdown-exporter spaces "BALDEVGEO"
+          confluence-markdown-exporter spaces "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO"
           
           # Cleanup config file to avoid leaking secrets (though runner cleans up anyway)
           rm config.json
