@@ -29,8 +29,8 @@ jobs:
           CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
         run: |
           # Use jq to generate valid JSON, handling special chars/newlines in secrets safely
-          echo "User is set: $([[ -n "$CONFLUENCE_USER" ]] && echo YES || echo NO)"
-          echo "Token is set: $([[ -n "$CONFLUENCE_TOKEN" ]] && echo YES || echo NO)"
+          cat config.json | python3 -c "import json,sys; c=json.load(sys.stdin); print('URL:', c['auth']['confluence']['url'])"
+
           jq -n \
             --arg url "https://geo2.atlassian.net/wiki" \
             --arg user "$CONFLUENCE_USER" \
