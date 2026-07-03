@@ -1,22 +1,5 @@
 
-[Mobile App](../Mobile%20App.md)
-
 # Mobile App: Menu
-
-- [Introduction](#introduction)
-- [Ask AI Assistant](#ask-ai-assistant)
-- [Plan Route](#plan-route)
-- [Create POD](#create-pod)
-- [Create Vehicle Сheck](#create-vehicle-heck)
-- [Routes](#routes)
-- [PODs](#pods)
-- [Vehicle Checks](#vehicle-checks)
-- [Pending uploads](#pending-uploads)
-- [Settings](#settings)
-- [Organization and Environment](#organization-and-environment)
-  - [Set up your organization](#set-up-your-organization)
-  - [Change Organization and Environment](#change-organization-and-environment)
-- [Profile Information](#profile-information)
 
 # Introduction
 

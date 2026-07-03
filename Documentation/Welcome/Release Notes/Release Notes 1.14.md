@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.14
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                                                        |
+| **Key**      | **Summary**                                                                                         |
 |:-------------|:----------------------------------------------------------------------------------------------------|
 | IBALDEV-2533 | Web UI: Tracking/POD URL                                                                            |
 | IBALDEV-2611 | Web UI: User online status indicator                                                                |

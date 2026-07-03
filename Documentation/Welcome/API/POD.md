@@ -1,12 +1,5 @@
 
-[API](../API.md)
-
 # POD
-
-- [Introduction](#introduction)
-- [Get POD Data](#get-pod-data)
-- [Export All POD's](#export-all-pod-s)
-- [Remove All POD's from export](#remove-all-pod-s-from-export)
 
 # Introduction
 

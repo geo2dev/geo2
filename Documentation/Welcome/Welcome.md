@@ -1,6 +1,4 @@
 
-
-
 # Welcome
 
 # Hi there, what do you need to help with?
@@ -26,9 +24,20 @@ For an additional overview, visit [**geo2.com**](https://geo2.com/).
 
 Start by selecting the platform you’re working with:
 
-|                                                                                                                                           |                                                                                                                                    |                                                                                                                     |
-|:------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------|
-| > [!NOTE] [Web-Based Hub](Web-Based%20Hub.md) Learn about the browser interface used for management, route planning, and analytics. <br/> | > [!NOTE] [Mobile App](Mobile%20App.md) Learn about the driver mobile app used for route planning, PODs, and vehicle checks. <br/> | > [!NOTE] [API](API.md) Learn about the API interface used for integration your other systems and automation. <br/> |
+> [!NOTE]
+> ## [Web-Based Hub](Web-Based%20Hub.md)
+>
+> Learn about the browser interface used for management, route planning, and analytics.
+
+> [!NOTE]
+> ## [Mobile App](Mobile%20App.md)
+>
+> Learn about the driver mobile app used for route planning, PODs, and vehicle checks.
+
+> [!NOTE]
+> ## [API](API.md)
+>
+> Learn about the API interface used for integration your other systems and automation.
 
 # Product Updates
 

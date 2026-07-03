@@ -1,6 +1,4 @@
 
-[Web-Based Hub](../../Web-Based%20Hub.md) > [Hub: Environment Settings](../Hub_%20Environment%20Settings.md)
-
 # Hub: Areas Settings
 
 Areas let you tag depots and routes by user-defined geographical regions.  Areas require an Advanced or Enterprise subscription.
@@ -11,13 +9,13 @@ To add an area, press the `Add` button in Settings → Environment → Areas.
 
 You will see the form to fill in the information.  Key and Name are required fields, others are optional.
 
-|  **Property**    |  **Description**                                                                                                                                                  |
-|:-----------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Key              | Key is an area identifier which is required to be unique within the environment, e.g. Area ABC.                                                                   |
-| Name             | Name is a user-definable name that is used to display areas for an order or route creation, e.g. Rural KC.                                                        |
-| Default user     | Default user set for the Driver field on Create route page when selecting an area if another value for this field is not selected.                                |
-| Default vehicle  | Default vehicle set for the Vehicle field on Create route page when selecting an area if another value for this field is not selected.                            |
-| Active from/to   | Set up the Active from and Active to dates to provide the expiry dates for an area.  Expired areas will not be possible to select for an order or route creation. |
+| **Property** | **Description** |
+| --- | --- |
+| Key | Key is an area identifier which is required to be unique within the environment, e.g. Area ABC. |
+| Name | Name is a user-definable name that is used to display areas for an order or route creation, e.g. Rural KC. |
+| Default user | Default user set for the Driver field on Create route page when selecting an area if another value for this field is not selected. |
+| Default vehicle | Default vehicle set for the Vehicle field on Create route page when selecting an area if another value for this field is not selected. |
+| Active from/to | Set up the Active from and Active to dates to provide the expiry dates for an area.  Expired areas will not be possible to select for an order or route creation. |
 
 Press the `Update` button to save your edits.
 

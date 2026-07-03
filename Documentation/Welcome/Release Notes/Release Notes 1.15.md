@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.15
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                          |
+| **Key**      | **Summary**                                                           |
 |:-------------|:----------------------------------------------------------------------|
 | IBALDEV-2239 | Web UI: Manual report/feedback                                        |
 | IBALDEV-2753 | Web UI: Add Consignments - Make cards selectable for dragging to load |

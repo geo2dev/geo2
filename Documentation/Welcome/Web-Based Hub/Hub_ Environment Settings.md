@@ -1,12 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Environment Settings
-
-- [Introduction](#introduction)
-- [Environment Settings](#environment-settings)
-- [Create Environment](#create-environment)
-- [Delete Environment](#delete-environment)
 
 # Introduction
 
@@ -38,7 +31,7 @@ Read more about environment settings:
 - [Hub: Geo Coding Settings](Hub_%20Environment%20Settings/Hub_%20Geo%20Coding%20Settings.md)
 - [Hub: Routes Settings](Hub_%20Environment%20Settings/Hub_%20Routes%20Settings.md)
 - [Hub: Failure Reason Codes Settings](Hub_%20Environment%20Settings/Hub_%20Failure%20Reason%20Codes%20Settings.md)
-- [Hub: POD Notification Settings](Hub_%20Environment%20Settings/Hub_%20POD%20Notification%20Settings.md)
+- [Hub: Proof of Delivery Settings](Hub_%20Environment%20Settings/Hub_%20Proof%20of%20Delivery%20Settings.md)
 - [Hub: Public Tracking Settings](Hub_%20Environment%20Settings/Hub_%20Public%20Tracking%20Settings.md)
 - [Hub: Custom Fields Settings](Hub_%20Environment%20Settings/Hub_%20Custom%20Fields%20Settings.md)
 - [Hub: Areas Settings](Hub_%20Environment%20Settings/Hub_%20Areas%20Settings.md)

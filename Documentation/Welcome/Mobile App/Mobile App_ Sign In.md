@@ -1,23 +1,17 @@
 
-[Mobile App](../Mobile%20App.md)
-
 # Mobile App: Sign In
-
-- [Introduction](#introduction)
-- [Sign In Using Email](#sign-in-using-email)
-- [Sign In Using Mobile Number](#sign-in-using-mobile-number)
 
 # Introduction
 
 Once you are registered as a Geo2 user, you can sign in.  You have the option to authenticate either with an email and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft.
 
-![App 1.png](../../attachments/52e60f48-cf16-4a1a-b380-44afd4fde5cd.png)
+![20260428_1 (2).png](../../attachments/1eaae037-556c-404b-9c55-63acda4d4547.png)
 
 # Sign In Using Email
 
 If you type the email address, you will be redirected to provide your password used for registration at Geo2. Your password has to include at least 8 characters, 1 uppercase and lowercase, 1 number, and 1 special character. By pressing the `Continue` button, you will sign in to Geo2.
 
-![App 2.png](../../attachments/10ffd691-7d34-4102-8f45-019cf6d93dbd.png)![App 11.png](../../attachments/bb3979fa-fd9c-4945-ac3d-ce138d3b2367.png)
+![20260428_1 (2).png](../../attachments/1eaae037-556c-404b-9c55-63acda4d4547.png)![App 11.png](../../attachments/bb3979fa-fd9c-4945-ac3d-ce138d3b2367.png)
 
 If you have forgotten your password and cannot sign in successfully, follow the link [Mobile App: Forgot Password](Mobile%20App_%20Sign%20In/Mobile%20App_%20Forgot%20Password.md).  This will enable you to reset your Geo2 password.
 

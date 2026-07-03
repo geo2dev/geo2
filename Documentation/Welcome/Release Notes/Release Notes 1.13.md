@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.13
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                        |
+| **Key**      | **Summary**                                                         |
 |:-------------|:--------------------------------------------------------------------|
 | IBALDEV-425  | Mobile app: Vehicle check                                           |
 | IBALDEV-2684 | New load status: "Planning"                                         |

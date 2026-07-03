@@ -1,12 +1,5 @@
 
-[API](../API.md)
-
 # Vehicle
-
-- [Introduction](#introduction)
-- [Create Vehicle](#create-vehicle)
-- [Get Vehicle Data](#get-vehicle-data)
-- [Delete Vehicle](#delete-vehicle)
 
 # Introduction
 
@@ -22,15 +15,15 @@ For each of the actions above we have [**examples of how it works**](https://ap
 
 To create a vehicle you need to send a POST request with the following parameters:
 
-|  **Parameters**    |  **Type**      |  **Description**                                                                                                                                                                                                              |  **Required**    |
-|:-------------------|:---------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
-| key                | string         | Unique identifier for the vehicle in this environment, for example, Van 1. It is used for displaying vehicles for route assignment and vehicle check creation.                                                                | Yes              |
-| registration       | string         | Vehicle registration number, to help identify the vehicle.  "Number plate", e.g. "AB51 LZW" in the UK.                                                                                                                        | No               |
-| description        | string         | Free text notes to describe the vehicle. For example, DAF 2800 ATI DKSE.                                                                                                                                                      | No               |
-| depotKey           | string         | Key of the depot to which the vehicle is assigned. Provide a depot key from options defined in Settings → Environment → [Hub: Depots Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Depots%20Settings.md). | No               |
-| weightCapacity     | unsigned int   | In kg. It is used for calculating the feasibility of a route to which the vehicle is assigned.                                                                                                                                | No               |
-| volumeCapacity     | unsigned int   | In m3. It is used for calculating the feasibility of a route to which the vehicle is assigned.                                                                                                                                | No               |
-| speedFactor        | unsigned float | Average speed as a multiple of an average car. For realistic route timings, this is typically set below 1 for heavier vehicles, such as vans and lorries. Has to be greater than zero.                                        | Yes              |
+| **Parameters** | **Type** | **Description** | **Required** |
+| --- | --- | --- | --- |
+| key | string | Unique identifier for the vehicle in this environment, for example, Van 1. It is used for displaying vehicles for route assignment and vehicle check creation. | Yes |
+| registration | string | Vehicle registration number, to help identify the vehicle.  "Number plate", e.g. "AB51 LZW" in the UK. | No |
+| description | string | Free text notes to describe the vehicle. For example, DAF 2800 ATI DKSE. | No |
+| depotKey | string | Key of the depot to which the vehicle is assigned. Provide a depot key from options defined in Settings → Environment → [Hub: Depots Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Depots%20Settings.md). | No |
+| weightCapacity | unsigned int | In kg. It is used for calculating the feasibility of a route to which the vehicle is assigned. | No |
+| volumeCapacity | unsigned int | In m3. It is used for calculating the feasibility of a route to which the vehicle is assigned. | No |
+| speedFactor | unsigned float | Average speed as a multiple of an average car. For realistic route timings, this is typically set below 1 for heavier vehicles, such as vans and lorries. Has to be greater than zero. | Yes |
 
 Example of a POST request to create a vehicle:
 

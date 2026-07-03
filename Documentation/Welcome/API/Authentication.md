@@ -1,6 +1,4 @@
 
-[API](../API.md)
-
 # Authentication
 
 As a user, you can request API keys (authentication tokens) in the [**web-based Hub**](https://hub.geo2.com/en-GB/auth/signin).  Keys are used as bearer tokens in requests to the Geo2 API and are local to each environment in your Geo2 organization.

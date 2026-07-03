@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 2.5.1
 
 # Release Date

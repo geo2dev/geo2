@@ -1,16 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Subscriptions
-
-- [Introduction](#introduction)
-  - [Free Subscription Level](#free-subscription-level)
-  - [7-day FREE Trial](#key-7-day-free-trial)
-  - [Purchase Additional Users](#purchase-additional-users)
-  - [Upgrade Subscription](#upgrade-subscription)
-  - [Cancel Subscription](#cancel-subscription)
-  - [Expired Subscription](#expired-subscription)
-- [Payment History](#payment-history)
 
 # Introduction
 

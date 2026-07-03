@@ -1,6 +1,4 @@
 
-
-
 # Web-Based Hub
 
 # Introduction

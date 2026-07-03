@@ -1,12 +1,5 @@
 
-[API](../API.md)
-
 # API Rate Limits
-
-- [Introduction](#introduction)
-- [Default Limits](#default-limits)
-- [Throttling Behavior](#throttling-behavior)
-- [Manual Blocking](#manual-blocking)
 
 # Introduction
 

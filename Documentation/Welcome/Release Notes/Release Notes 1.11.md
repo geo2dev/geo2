@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.11
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                       |
+| **Key**      | **Summary**                                                        |
 |:-------------|:-------------------------------------------------------------------|
 | IBALDEV-1781 | Web UI: Allow user to enter latitude and longitude manually        |
 | IBALDEV-2367 | Web UI: Confirmation message when deleting                         |

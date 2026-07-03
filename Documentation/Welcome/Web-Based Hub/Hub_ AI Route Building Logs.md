@@ -1,11 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: AI Route Building Logs
-
-- [Introduction](#introduction)
-- [Route Building List](#route-building-list)
-- [Route Building Results](#route-building-results)
 
 ## Introduction
 
@@ -37,12 +31,12 @@ You can filter and sort route building sessions by the “Created” date/time. 
 
 By pressing the card, you can access its details about the created routes and warning messages displayed during the route building process. You will see the results in the table view on the left side of Route building page:
 
-|  **Name**    |  **Description**                                                              |
-|:-------------|:------------------------------------------------------------------------------|
-| Route        | Route key. The name consists of a route planned date, depot, and trip number. |
-| Orders       | Number of orders in each route.                                               |
-| Depot        | Depot key. Assigned to a route depot.                                         |
-| Vehicle      | Vehicle key. Assigned to a route vehicle.                                     |
+| **Name**   | **Description**                                                               |
+|:-----------|:------------------------------------------------------------------------------|
+| Route      | Route key. The name consists of a route planned date, depot, and trip number. |
+| Orders     | Number of orders in each route.                                               |
+| Depot      | Depot key. Assigned to a route depot.                                         |
+| Vehicle    | Vehicle key. Assigned to a route vehicle.                                     |
 
 ![Screenshot 2025-08-29 at 17.15.33.png](../../attachments/f320d438-61b6-4faa-91b6-958d88d8faf1.png)
 

@@ -1,6 +1,4 @@
 
-[Web-Based Hub](../../Web-Based%20Hub.md) > [Hub: Environment Settings](../Hub_%20Environment%20Settings.md)
-
 # Hub: Reporting Settings
 
 Reporting settings in Settings → Environment in Hub let you define target values for analytics charts displayed on Analytics page.  Analytics and reporting require an Advanced or Enterprise subscription.

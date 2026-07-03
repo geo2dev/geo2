@@ -1,12 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: AI Assistant
-
-- [Introduction](#introduction)
-- [AI Access Points](#ai-access-points)
-- [AI Assistant Interface](#ai-assistant-interface)
-- [Limitations](#limitations)
 
 # Introduction
 

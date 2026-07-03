@@ -1,6 +1,4 @@
 
-[Web-Based Hub](../../Web-Based%20Hub.md) > [Hub: Environment Settings](../Hub_%20Environment%20Settings.md)
-
 # Hub: Failure Reason Codes Settings
 
 Failure reason codes in Settings → Environment let you classify reasons for failed deliveries/collections and are available to drivers in the mobile app when recording a POD.  Once an environment is created, the first 8 default failure reason codes are added automatically.  Thus, you can create a proof of delivery in the mobile app in a failed or partially successful status.

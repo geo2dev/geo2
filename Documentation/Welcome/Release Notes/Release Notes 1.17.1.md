@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.17.1
 
 # Release Date
@@ -9,6 +7,6 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                 |
+| **Key**      | **Summary**                                  |
 |:-------------|:---------------------------------------------|
 | IBALDEV-2740 | Web UI: Load - optimise a selection of stops |

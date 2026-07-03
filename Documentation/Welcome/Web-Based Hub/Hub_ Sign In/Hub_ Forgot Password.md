@@ -1,6 +1,4 @@
 
-[Web-Based Hub](../../Web-Based%20Hub.md) > [Hub: Sign In](../Hub_%20Sign%20In.md)
-
 # Hub: Forgot Password
 
 If you have forgotten or have not set up yet your password and cannot sign in successfully, follow the link `Forgot password?` on [**Sign in**](https://hub.geo2.com/en-GB/auth/signin) page.  This will enable you to reset your Geo2 password.

@@ -1,10 +1,5 @@
 
-[API](../API.md)
-
 # User
-
-- [Introduction](#introduction)
-- [Get User Data](#get-user-data)
 
 # Introduction
 

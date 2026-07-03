@@ -1,6 +1,4 @@
 
-[Web-Based Hub](../../Web-Based%20Hub.md) > [Hub: Orders](../Hub_%20Orders.md)
-
 # Hub: Order Proof of Delivery
 
 When a POD (proof of delivery) has been recorded in the mobile app, you can find it by clicking on the green/yellow/red POD icon on the order card on Orders page.  Also, it will be displayed in Proof of Delivery tab inside the order.

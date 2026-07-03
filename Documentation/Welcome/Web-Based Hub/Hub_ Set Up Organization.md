@@ -1,14 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Set Up Organization
-
-- [Introduction](#introduction)
-- [About You](#about-you)
-- [Set Up First Depot](#set-up-first-depot)
-  - [Features Included in a Free Subscription Level](#features-included-in-a-free-subscription-level)
-- [Select Next Action](#select-next-action)
-- [Install Geo2 Mobile App](#install-geo2-mobile-app)
 
 # Introduction
 

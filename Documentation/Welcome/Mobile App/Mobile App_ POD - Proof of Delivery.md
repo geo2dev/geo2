@@ -1,23 +1,5 @@
 
-[Mobile App](../Mobile%20App.md)
-
 # Mobile App: POD - Proof of Delivery
-
-- [Introduction](#introduction)
-- [Planned POD](#planned-pod)
-  - [Order Packages](#order-packages)
-  - [Order Products](#order-products)
-  - [Order Packages with Products](#order-packages-with-products)
-- [Ad-hoc/Unplanned POD](#ad-hoc-unplanned-pod)
-  - [Order Packages](#order-packages)
-  - [Order Products](#order-products)
-  - [Order Packages with Products](#order-packages-with-products)
-- [POD Custom Fields](#pod-custom-fields)
-- [Package-level Failures](#package-level-failures)
-- [Package Scanning](#package-scanning)
-  - [Adding and Confirming Packages](#adding-and-confirming-packages)
-- [Product-level Failures](#product-level-failures)
-- [Package-level Failures with Products](#package-level-failures-with-products)
 
 # Introduction
 
@@ -43,16 +25,16 @@ You will be redirected to POD creation page.
 
 In the Details section, you will see the following fields:
 
-|  **Fields**        |  **Description**                                                                              |  **Required**    |
-|:-------------------|:----------------------------------------------------------------------------------------------|:-----------------|
-| Type               | Delivery or Collection.                                                                       | Yes              |
-| Order key          | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. | Yes              |
-| Contact name       | Name of the person who received the order.                                                    | Yes              |
-| Phone number       | Phone number of the person who received the order.                                            | No               |
-| Mobile number      | Mobile phone number of the person who received the order.                                     | No               |
-| Remarks            | Notes from the driver.                                                                        | No               |
-| Notification email | Email address for sending the proof-of-delivery email.                                        | No               |
-| Address            | The app uses the address indicated in the order.                                              | Yes              |
+| **Fields** | **Description** | **Required** |
+| --- | --- | --- |
+| Type | Delivery or Collection. | Yes |
+| Order key | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. | Yes |
+| Contact name | Name of the person who received the order. | Yes |
+| Phone number | Phone number of the person who received the order. | No |
+| Mobile number | Mobile phone number of the person who received the order. | No |
+| Remarks | Notes from the driver. | No |
+| Notification email | Email address for sending the proof-of-delivery email. | No |
+| Address | The app uses the address indicated in the order. | Yes |
 
 Details such as type, order key, contact name, email and address will be pre-populated from the stop (order) for which you are creating the POD.  You can edit remarks and contact name.
 
@@ -142,16 +124,16 @@ You can create an ad-hoc POD for an existing order by specifying its key.  If t
 
 If the order does not exist yet, fill in the following fields in the `Details` section:
 
-|  **Fields**        |  **Description**                                                                                                                                                                                |  **Required**    |
-|:-------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
-| Type               | Delivery or Collection                                                                                                                                                                          | Yes              |
-| Order key          | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. You can click on the `Scan` icon to scan the key.  It is possible to provide multiple order keys. | Yes              |
-| Contact name       | Name of the person who received the order                                                                                                                                                       | Yes              |
-| Phone number       | Recipient phone number                                                                                                                                                                          | No               |
-| Mobile number      | Recipient mobile phone number                                                                                                                                                                   | No               |
-| Remarks            | Notes from the driver                                                                                                                                                                           | No               |
-| Notification email | Email address for sending the proof-of-delivery email                                                                                                                                           | No               |
-| Address            | The app uses the current device location. This can be edited.                                                                                                                                   | Yes              |
+| **Fields** | **Description** | **Required** |
+| --- | --- | --- |
+| Type | Delivery or Collection | Yes |
+| Order key | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. You can click on the `Scan` icon to scan the key.  It is possible to provide multiple order keys. | Yes |
+| Contact name | Name of the person who received the order | Yes |
+| Phone number | Recipient phone number | No |
+| Mobile number | Recipient mobile phone number | No |
+| Remarks | Notes from the driver | No |
+| Notification email | Email address for sending the proof-of-delivery email | No |
+| Address | The app uses the current device location. This can be edited. | Yes |
 
 You can select the POD status:
 

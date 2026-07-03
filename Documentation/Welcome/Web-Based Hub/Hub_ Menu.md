@@ -1,12 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Menu
-
-- [Introduction](#introduction)
-- [Organization Selector](#organization-selector)
-- [Environment Selector](#environment-selector)
-- [AI Assistant](#ai-assistant)
 
 # Introduction
 

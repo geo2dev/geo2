@@ -1,13 +1,5 @@
 
-
-
 # Getting Started in Hub
-
-- [Introduction](#introduction)
-- [Register Account](#register-account)
-  - [Verify Email](#verify-email)
-- [Set Up Organization](#set-up-organization)
-- [Features Included to Free Level](#features-included-to-free-level)
 
 # Introduction
 
@@ -66,13 +58,13 @@ When orders are created and added to a route, the route can be released to a dri
 
 With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app. It is available for **one user per organization**, and additional users cannot be added on this level. The Free subscription includes:
 
-- **Order management** (Hub and mobile app): Create unlimited orders each month, set time windows, assign them to routes, and view proof of delivery (POD) history in both the web Hub and mobile app. Use address scanning and voice search in the mobile app for fast adding route stops.
+- **Order management** (Hub and mobile app): Create unlimited orders each month, set time windows, assign them to routes, and view proof of delivery (POD) history in both the web Hub and mobile app. Use multi-address scanning, bulk address paste and voice search in the mobile app for fast adding route stops.
 - **Route planning** (Hub and mobile app): Build unlimited routes with up to 15 orders per route, optimize them with vehicle restrictions, adjust stops and timings, plan driver breaks.
 - **Vehicle loading** (mobile app): Set package placements in the vehicle with optional photos.
 - **Navigation** (mobile app):Use your preferred navigation app (e.g., Google Maps, Apple Maps, Waze) for turn-by-turn directions.
 - **Proof of delivery** (Hub and mobile app): Create PODs with photos and signatures (planned or ad-hoc) in the app, store up to 30 days of data both in Hub and the mobile app.
 - **Offline mode** (mobile app): Work without an internet connection: create routes and stops, add breaks, capture PODs, and record location data, with all offline actions syncing when back online.
-- **AI Assistant** (Hub): Create and update orders and routes, add stops, navigate across the platform, and receive step-by-step guidance on key features. Limited to 5 requests per day for Free and Pro level users.
+- **AI Assistant** (Hub): Create and update orders and routes, add stops, navigate across the platform, and receive step-by-step guidance on key features. Limited to 10 requests per day for Free and Pro level users.
 - **Support:** Contact the Geo2 team for help or to request new features.
 
 On each subscription level (including Free), you can use both the Hub and mobile app. The same limitations apply to both platforms.

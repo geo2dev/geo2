@@ -1,6 +1,4 @@
 
-[Web-Based Hub](../../Web-Based%20Hub.md) > [Hub: Environment Settings](../Hub_%20Environment%20Settings.md)
-
 # Hub: Devices Settings
 
 Device settings in Settings → Environment control the behaviour of the mobile app.

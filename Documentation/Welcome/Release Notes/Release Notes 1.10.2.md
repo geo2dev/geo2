@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.10.2
 
 # Release Date
@@ -9,6 +7,6 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                   |
+| **Key**      | **Summary**                                    |
 |:-------------|:-----------------------------------------------|
 | IBALDEV-2481 | Implicit load creation from consignment import |

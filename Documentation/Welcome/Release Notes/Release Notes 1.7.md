@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.7
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                            |
+| **Key**      | **Summary**                                                             |
 |:-------------|:------------------------------------------------------------------------|
 | IBALDEV-2157 | Custom field type: string drop-down                                     |
 | IBALDEV-2453 | Depot in consignments                                                   |

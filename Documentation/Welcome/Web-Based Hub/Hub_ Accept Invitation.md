@@ -1,14 +1,7 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Accept Invitation
 
 If you have been invited to the organization, you have the following ways to accept it:
-
-- [Accept Invitation Using Email](#accept-invitation-using-email)
-- [Accept Invitation Using Hub](#accept-invitation-using-hub)
-- [Accept Invitation Using Notification in Hub](#accept-invitation-using-notification-in-hub)
-- [Accept Invitation Using Mobile App](#accept-invitation-using-mobile-app)
 
 If your invitation was sent using your email address, you can accept it through the activation link in the email, by logging in to Hub, via a notification in Hub, or by logging in to the mobile app.
 

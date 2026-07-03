@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.4
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                         |
+| **Key**      | **Summary**                                                          |
 |:-------------|:---------------------------------------------------------------------|
 | IBALDEV-2221 | API: GET /users                                                      |
 | IBALDEV-2194 | API: PATCH /consignment                                              |

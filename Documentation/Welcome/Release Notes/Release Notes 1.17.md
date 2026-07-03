@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.17
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                                            |
+| **Key**      | **Summary**                                                                             |
 |:-------------|:----------------------------------------------------------------------------------------|
 | IBALDEV-2924 | API: POST /load - add areaKey                                                           |
 | IBALDEV-2925 | API: Expose consignment stop position in load                                           |

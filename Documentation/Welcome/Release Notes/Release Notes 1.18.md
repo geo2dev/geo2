@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.18
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                              |
+| **Key**      | **Summary**                                               |
 |:-------------|:----------------------------------------------------------|
 | IBALDEV-2724 | Mobile app: Create/edit loads -> Create load button       |
 | IBALDEV-2855 | Mobile app: Create/edit loads -> Create load page         |

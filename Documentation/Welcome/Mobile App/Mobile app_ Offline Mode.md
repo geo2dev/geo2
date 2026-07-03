@@ -1,6 +1,4 @@
 
-[Mobile App](../Mobile%20App.md)
-
 # Mobile app: Offline Mode
 
 Offline mode allows you to continue working with the mobile app even without an active internet connection. The app ensures that all essential workflow actions remain available and are saved locally until connectivity is restored.

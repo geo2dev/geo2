@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.16
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                                             |
+| **Key**      | **Summary**                                                                              |
 |:-------------|:-----------------------------------------------------------------------------------------|
 | IBALDEV-2693 | API: PUT /load - make it possible to utilise Environment settings > Timings > Start time |
 | IBALDEV-2211 | Web UI: Quick user guide                                                                 |

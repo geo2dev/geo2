@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.8.2
 
 # Release Date
@@ -9,6 +7,6 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                            |
+| **Key**      | **Summary**                             |
 |:-------------|:----------------------------------------|
 | IBALDEV-2501 | Web UI: Actual driving route on the map |

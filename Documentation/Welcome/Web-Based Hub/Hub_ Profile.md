@@ -1,13 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Profile
-
-- [Organizations](#organizations)
-- [Environments](#environments)
-- [Personal Access Tokens](#personal-access-tokens)
-- [Email Preferences](#email-preferences)
-- [Mobile App](#mobile-app)
 
 Your user avatar in the top-right corner of every page is a link that lets you navigate to your user profile:
 

@@ -1,13 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Sign In
-
-- [Introduction](#introduction)
-- [Sign In Using Email](#sign-in-using-email)
-  - [Verify Email](#verify-email)
-- [Sign In Using Mobile Number](#sign-in-using-mobile-number)
-  - [Verify Mobile Number](#verify-mobile-number)
 
 # Introduction
 

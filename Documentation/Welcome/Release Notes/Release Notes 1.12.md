@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.12
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                       |
+| **Key**      | **Summary**                                                        |
 |:-------------|:-------------------------------------------------------------------|
 | IBALDEV-2592 | Specific enviroment invitation for an existing organization user   |
 | IBALDEV-2643 | Web UI: Load planning - Change consignment card layouts            |

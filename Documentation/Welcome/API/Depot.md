@@ -1,12 +1,5 @@
 
-[API](../API.md)
-
 # Depot
-
-- [Introduction](#introduction)
-- [Create Depot](#create-depot)
-- [Get Depot Data](#get-depot-data)
-- [Delete Depot](#delete-depot)
 
 # Introduction
 
@@ -22,37 +15,37 @@ For each of the actions above we have [**examples of how it works**](https://ap
 
 To create a depot you need to send a POST request with the next parameters:
 
-|  **Parameters**    |                     |             |  **Type**    |  **Description**                                                                                                          |  **Required**    |
-|:-------------------|:--------------------|:------------|:-------------|:--------------------------------------------------------------------------------------------------------------------------|:-----------------|
-| key                |                     |             | string       | Depot identifier which is required to be unique within the environment.  For example, Depot 1.                            | Yes              |
-| name               |                     |             | string       | User-definable depot name to describe a depot, for example, Storage for materials.  It is for internal usage only.        | Yes              |
-| address            |                     |             |              |                                                                                                                           | Yes              |
-|                    | name                |             | string       | User-defined description useful if addresses are shown as an address book.                                                | No               |
-|                    | company             |             | string       | Company name as a part of a depot address, e.g. "Springboard Applications Ltd".                                           | No               |
-|                    | line1               |             | string       | Depot address line, typically street, e.g. "1000 Great West Road".                                                        | Yes              |
-|                    | line2               |             | string       |                                                                                                                           | No               |
-|                    | line3               |             | string       |                                                                                                                           | No               |
-|                    | city                |             | string       | City of a depot, e.g. "Brentford".                                                                                        | Yes              |
-|                    | region              |             | string       | Region of a depot.                                                                                                        | No               |
-|                    | postalCode          |             | string       | Postal code of a depot.                                                                                                   | No               |
-|                    | state               |             | string       | Name of state of a depot.                                                                                                 | No               |
-|                    | country             |             | string       | Country of a depot. Must be set, 2-letter ISO code.  For example, GB for the United Kingdom, or US for the United States. | Yes              |
-|                    | geoLocation         |             | geopoint     | Geo-location of a geo-coded address.                                                                                      | No               |
-|                    |                     | latitude    |              |                                                                                                                           | No               |
-|                    |                     | longtitude  |              |                                                                                                                           | No               |
-|                    | geoLocationAccuracy |             | unsigned int | Google equivalents: <br/> 1 - ROOFTOP <br/> 2 - RANGE\_INTERPOLATED, GEOMETRIC\_CENTER <br/> 3 - APPROXIMATE              | No               |
-|                    | placeId             |             | string       | Google Places API Place ID                                                                                                | No               |
-| contact            |                     |             |              |                                                                                                                           | No               |
-|                    | personName          |             | string       | Contact name, e.g. "John Doe"                                                                                             | No               |
-|                    | email               |             | string       | Email address of the depot.                                                                                               | No               |
-|                    | phone               |             |              |                                                                                                                           |                  |
-|                    |                     | code        | string       | Code of country, like "GB".                                                                                               | No               |
-|                    |                     | countryCode | unsigned int | E.g. 44 for the GB.                                                                                                       | No               |
-|                    |                     | localNumber | unsigned int | The remainder of the number, without a leading zero.                                                                      | No               |
-|                    | mobile              |             |              |                                                                                                                           |                  |
-|                    |                     | code        | string       | Code of country, like "GB".                                                                                               | No               |
-|                    |                     | countryCode | unsigned int | E.g. 44 for the GB.                                                                                                       | No               |
-|                    |                     | localNumber | unsigned int | The remainder of the number, without a leading zero.                                                                      | No               |
+| **Parameters** |  |  | **Type** | **Description** | **Required** |
+| --- | --- | --- | --- | --- | --- |
+| key |  |  | string | Depot identifier which is required to be unique within the environment.  For example, Depot 1. | Yes |
+| name |  |  | string | User-definable depot name to describe a depot, for example, Storage for materials.  It is for internal usage only. | Yes |
+| address |  |  |  |  | Yes |
+|  | name |  | string | User-defined description useful if addresses are shown as an address book. | No |
+|  | company |  | string | Company name as a part of a depot address, e.g. "Springboard Applications Ltd". | No |
+|  | line1 |  | string | Depot address line, typically street, e.g. "1000 Great West Road". | Yes |
+|  | line2 |  | string |  | No |
+|  | line3 |  | string |  | No |
+|  | city |  | string | City of a depot, e.g. "Brentford". | Yes |
+|  | region |  | string | Region of a depot. | No |
+|  | postalCode |  | string | Postal code of a depot. | No |
+|  | state |  | string | Name of state of a depot. | No |
+|  | country |  | string | Country of a depot. Must be set, 2-letter ISO code.  For example, GB for the United Kingdom, or US for the United States. | Yes |
+|  | geoLocation |  | geopoint | Geo-location of a geo-coded address. | No |
+|  |  | latitude |  |  | No |
+|  |  | longtitude |  |  | No |
+|  | geoLocationAccuracy |  | unsigned int | Google equivalents: <br/> 1 - ROOFTOP <br/> 2 - RANGE\_INTERPOLATED, GEOMETRIC\_CENTER <br/> 3 - APPROXIMATE | No |
+|  | placeId |  | string | Google Places API Place ID | No |
+| contact |  |  |  |  | No |
+|  | personName |  | string | Contact name, e.g. "John Doe" | No |
+|  | email |  | string | Email address of the depot. | No |
+|  | phone |  |  |  |  |
+|  |  | code | string | Code of country, like "GB". | No |
+|  |  | countryCode | unsigned int | E.g. 44 for the GB. | No |
+|  |  | localNumber | unsigned int | The remainder of the number, without a leading zero. | No |
+|  | mobile |  |  |  |  |
+|  |  | code | string | Code of country, like "GB". | No |
+|  |  | countryCode | unsigned int | E.g. 44 for the GB. | No |
+|  |  | localNumber | unsigned int | The remainder of the number, without a leading zero. | No |
 
 Example of a POST request to create a depot:
 

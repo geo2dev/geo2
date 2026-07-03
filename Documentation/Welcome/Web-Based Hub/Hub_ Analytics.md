@@ -1,31 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Analytics
-
-- [Introduction](#introduction)
-- [Toolbar](#toolbar)
-- [Charts](#charts)
-  - [Routes by Status](#routes-by-status)
-  - [Routes by Vehicle](#routes-by-vehicle)
-  - [Routes by Area](#routes-by-area)
-  - [Started Route Driver Position](#started-route-driver-position)
-  - [CO2 Emissions](#co2-emissions)
-  - [CO2 Emissions per Order](#co2-emissions-per-order)
-  - [Delivered Orders](#delivered-orders)
-  - [Undelivered Orders](#undelivered-orders)
-  - [Undelivered Orders by Reason Code](#undelivered-orders-by-reason-code)
-  - [Orders by Route Assignment](#orders-by-route-assignment)
-  - [Orders by Area](#orders-by-area)
-  - [Areas Overview](#areas-overview)
-  - [On-Time Orders by Driver](#on-time-orders-by-driver)
-  - [Planned/Actual POD time](#planned-actual-pod-time)
-  - [% On-Time Orders](#on-time-orders)
-  - [On-Time Performance](#on-time-performance)
-  - [Peak Vehicle Weight Capacity](#peak-vehicle-weight-capacity)
-  - [Peak Vehicle Volume Capacity](#peak-vehicle-volume-capacity)
-  - [Peak Vehicle Weight](#peak-vehicle-weight)
-  - [Peak Vehicle Volume](#peak-vehicle-volume)
 
 # Introduction
 
@@ -236,7 +210,7 @@ You can select the period to which the data relate - Today, Yesterday, Last 7 da
 
 ## % On-Time Orders
 
-To calculate the number of on-time orders, both orders that are in a route with POD's and orders created by ad-hoc POD's are taken into account so you can use this chart even if you don't have a full route planning process.  The chart on the left side helps you to track how close you are to your target % of on-time orders while the chart on the right side helps you to analyze each driver's impact on it.  The target value is 80% by default for all environments but you can change it in your `Environment settings → Reporting`. 
+To calculate the number of on-time orders, both orders that are in a route with POD's and orders created by ad-hoc POD's are taken into account so you can use this chart even if you don't have a full route planning process.  The chart on the left side helps you to track how close you are to your target % of on-time orders while the chart on the right side helps you to analyze each driver's impact on it.  The target value is 80% by default for all environments but you can change it in your `Environment settings → Reporting`. 
 
 Orders are considered on-time taking into account the order planned date/time, the time spent at stops, and delivery ETA tolerance (POD planned date/time) and comparing it with a POD's actual time of creation.  
 

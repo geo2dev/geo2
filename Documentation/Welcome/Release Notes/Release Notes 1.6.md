@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.6
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                 |
+| **Key**      | **Summary**                                                  |
 |:-------------|:-------------------------------------------------------------|
 | IBALDEV-1904 | Mobile app: Commited ETA alerts                              |
 | IBALDEV-1891 | Web UI: Consignments > Import                                |

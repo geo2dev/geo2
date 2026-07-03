@@ -1,13 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Register
-
-- [Introduction](#introduction)
-- [Register Account Using Email](#register-account-using-email)
-  - [Verify Email](#verify-email)
-- [Register Account Using Mobile Number](#register-account-using-mobile-number)
-  - [Verify Mobile Number](#verify-mobile-number)
 
 # Introduction
 

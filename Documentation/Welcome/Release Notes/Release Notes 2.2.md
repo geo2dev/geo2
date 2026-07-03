@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 2.2
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                            |
+| **Key**      | **Summary**                                                             |
 |:-------------|:------------------------------------------------------------------------|
 | IBALDEV-3064 | Web UI: Calculate CO2 emissions for Emissions chart                     |
 | IBALDEV-3157 | Web UI: Load - Highlight committed/required time on stop card           |

@@ -1,10 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Vehicle Checks
-
-- [Introduction](#introduction)
-- [Vehicle Check List](#vehicle-check-list)
 
 # Introduction
 

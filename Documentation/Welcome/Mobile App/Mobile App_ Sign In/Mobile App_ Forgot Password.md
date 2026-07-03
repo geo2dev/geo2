@@ -1,6 +1,4 @@
 
-[Mobile App](../../Mobile%20App.md) > [Mobile App: Sign In](../Mobile%20App_%20Sign%20In.md)
-
 # Mobile App: Forgot Password
 
 If you have forgotten your password and cannot sign in successfully using your email address, follow the link `Forgot password?` on Sign in page.  This will enable you to reset your Geo2 password.

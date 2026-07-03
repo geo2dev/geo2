@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.5
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                              |
+| **Key**      | **Summary**                                                               |
 |:-------------|:--------------------------------------------------------------------------|
 | IBALDEV-2253 | Mobile app: Calendar indicates days with loads                            |
 | IBALDEV-2255 | Mobile app: Consignments/stops count in load list                         |

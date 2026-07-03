@@ -1,6 +1,4 @@
 
-[Release Notes](../Release%20Notes.md)
-
 # Release Notes 1.8
 
 # Release Date
@@ -9,7 +7,7 @@
 
 # New Features
 
-|  **Key**     |  **Summary**                                                        |
+| **Key**      | **Summary**                                                         |
 |:-------------|:--------------------------------------------------------------------|
 | IBALDEV-2482 | Load create/update: Expose areaKey                                  |
 | IBALDEV-2449 | Mobile app: Create POD from Dashboard if there are no loads to show |

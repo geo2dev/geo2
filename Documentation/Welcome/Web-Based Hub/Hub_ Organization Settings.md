@@ -1,21 +1,5 @@
 
-[Web-Based Hub](../Web-Based%20Hub.md)
-
 # Hub: Organization Settings
-
-- [Introduction](#introduction)
-- [Organization Settings](#organization-settings)
-  - [Organization Name](#organization-name)
-  - [Billing address](#billing-address)
-    - [Company Logo](#company-logo)
-  - [Users](#users)
-    - [Add Users](#add-users)
-    - [Import Users](#import-users)
-      - [Upload Spreadsheet File with Column Mapping](#upload-spreadsheet-file-with-column-mapping)
-      - [Manually Type or Paste Data](#manually-type-or-paste-data)
-      - [Import Options](#import-options)
-      - [Spreadsheet Example](#spreadsheet-example)
-- [Delete Organization](#delete-organization)
 
 # Introduction
 
@@ -79,16 +63,16 @@ A newly invited user can be registered using email address or mobile number. Mak
 
 The properties of each user are:
 
-|  **Property**     |  **Description**                                                                                                                                                                                                                                                                                                                                                     |  **Mandatory**                                        |
-|:------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
-| Email             | The email address for invitation and login to Hub and the mobile app must be valid —[recipient@domain\_name.domain\_suffix.](#recipient-domain-name-domain-suffix) For example, [john.doe@gmail.com.](mailto:janedoe@gmail.com)                                                                                                                                      | Yes, if selecting an email for user invitation        |
-| Mobile number     | The mobile phone number used for invitation and login to Hub and the mobile app must follow a valid format, including country code and digits, e.g., +1 234567890.                                                                                                                                                                                                   | Yes, if selecting a mobile number for user invitation |
-| Full name         | For example, Driver John Doe.  It is used for displaying users for route assignment, POD, and vehicle check creation.                                                                                                                                                                                                                                                | Yes                                                   |
-| First name        | For example, John. For internal usage only.                                                                                                                                                                                                                                                                                                                          | No                                                    |
-| Last name         | For example, Doe. For internal usage only.                                                                                                                                                                                                                                                                                                                           | No                                                    |
-| Organization role | Role is a set of permissions for the user in the organization.  Each user can either have the role of User, which does not enable them to modify the organization, or Admin, which gives them control over the organization, including the ability to create environments.  For organization user roles and their permissions, see [User Roles](../User%20Roles.md). |                                                       |
+| **Property** | **Description** | **Mandatory** |
+| --- | --- | --- |
+| Email | The email address for invitation and login to Hub and the mobile app must be valid —[recipient@domain\_name.domain\_suffix.](#) For example, [john.doe@gmail.com.](mailto:janedoe@gmail.com) | Yes, if selecting an email for user invitation |
+| Mobile number | The mobile phone number used for invitation and login to Hub and the mobile app must follow a valid format, including country code and digits, e.g., +1 234567890. | Yes, if selecting a mobile number for user invitation |
+| Full name | For example, Driver John Doe.  It is used for displaying users for route assignment, POD, and vehicle check creation. | Yes |
+| First name | For example, John. For internal usage only. | No |
+| Last name | For example, Doe. For internal usage only. | No |
+| Organization role | Role is a set of permissions for the user in the organization.  Each user can either have the role of User, which does not enable them to modify the organization, or Admin, which gives them control over the organization, including the ability to create environments.  For organization user roles and their permissions, see [User Roles](../User%20Roles.md). |  |
 
-**To enable the use of the Geo2 product, an Organization Admin needs to assign a subscription to a newly invited user.**The counter at the top of the `Users` tab informs you about your current organization subscription and the number of users can invite yet to your organization.
+**To enable the use of the Geo2 product, an Organization Admin needs to assign a subscription to a newly invited user.** The counter at the top of the `Users` tab informs you about your current organization subscription and the number of users can invite yet to your organization.
 
 You also need to choose the environment(s) to which a user will have access and their role in each of them.  For environment user roles and their permissions, see [User Roles](../User%20Roles.md).
 
@@ -121,12 +105,12 @@ Press the `Upload data from file` button at the top of the Import spreadsheet in
 
 On the dialog, you will see 4 columns:
 
-|  **Column Heading**    |  **Description**                                                                                                      |
-|:-----------------------|:----------------------------------------------------------------------------------------------------------------------|
-| Your file column       | Displays the column headers from your uploaded file that the system will attempt to match with known fields.          |
-| Your sample data       | Shows a preview of the data in each column from your uploaded file to help with identifying what each field contains. |
-| Destination column     | Lets you select or confirm which system field the uploaded column should map to.                                      |
-| Matching result        | Indicates how well the system matched each column, including match strength and confidence percentage.                |
+| <mark style="background: #f0f1f2;">**Column Heading**</mark> | <mark style="background: #f0f1f2;">**Description**</mark> |
+| --- | --- |
+| Your file column | Displays the column headers from your uploaded file that the system will attempt to match with known fields. |
+| Your sample data | Shows a preview of the data in each column from your uploaded file to help with identifying what each field contains. |
+| Destination column | Lets you select or confirm which system field the uploaded column should map to. |
+| Matching result | Indicates how well the system matched each column, including match strength and confidence percentage. |
 
 ![Screenshot 2026-03-30 at 15.46.55.png](../../attachments/07dab9fc-adde-4175-90f5-4df4a7f27f67.png)
 
@@ -150,13 +134,13 @@ If you have prepared the data in another spreadsheet, you can copy and paste the
 
 The limit for the import of users is **50**.  You cannot paste more than that into the spreadsheet.
 
-|  **Column Heading**    |  **Data Type**    |  **Details**                                                                                                                                                                                                                                                                                                                                                     |  **Mandatory**    |
-|:-----------------------|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------|
-| Email address          | String            | The email address for invitation and login to Hub and the mobile app must be valid —[recipient@domain\_name.domain\_suffix.](#recipient-domain-name-domain-suffix) For example, [john.doe@gmail.com.](mailto:janedoe@gmail.com)                                                                                                                                  | Y                 |
-| Full name              | String            | For example, Driver John Doe.  It is used for displaying users for route assignment, POD, and vehicle check creation.                                                                                                                                                                                                                                            | Y                 |
-| First name             | String            | For example, John. For internal usage.                                                                                                                                                                                                                                                                                                                           | N                 |
-| Last name              | String            | For example, Doe. For internal usage.                                                                                                                                                                                                                                                                                                                            | N                 |
-| Organization role      | String            | Role is a set of permissions for a user in the organization. Each user can either have the role of User, which does not enable them to modify the organization, or Admin, which gives them control over the organization, including the ability to create environments. For organization user roles and their permissions, see [User Roles](../User%20Roles.md). | Y                 |
+| **Column Heading** | **Data Type** | **Details** | **Mandatory** |
+| --- | --- | --- | --- |
+| Email address | String | The email address for invitation and login to Hub and the mobile app must be valid —[recipient@domain\_name.domain\_suffix.](#) For example, [john.doe@gmail.com.](mailto:janedoe@gmail.com) | Y |
+| Full name | String | For example, Driver John Doe.  It is used for displaying users for route assignment, POD, and vehicle check creation. | Y |
+| First name | String | For example, John. For internal usage. | N |
+| Last name | String | For example, Doe. For internal usage. | N |
+| Organization role | String | Role is a set of permissions for a user in the organization. Each user can either have the role of User, which does not enable them to modify the organization, or Admin, which gives them control over the organization, including the ability to create environments. For organization user roles and their permissions, see [User Roles](../User%20Roles.md). | Y |
 
 Once information is provided, press:
 
