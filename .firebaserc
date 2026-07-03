@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "prj-pro-baldev-geo2"
+  },
+  "targets": {
+    "prj-pro-baldev-geo2": {
+      "hosting": {
+        "help": [
+          "prj-pro-baldev-geo2-help"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Docusaurus
+node_modules/
+build/
+.docusaurus/
+.cache-loader/
+
+# IDE / misc
+.idea/
+.DS_Store
+npm-debug.log*
+.agents
+skills-lock.json.env
+.env

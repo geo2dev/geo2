@@ -57,7 +57,8 @@ jobs:
           git config user.email 'bot@noreply.github.com'
           git add -A Documentation
           if ! git diff-index --quiet HEAD; then
-            git commit -m "docs: sync from Confluence [skip ci]"
+            # no [skip ci]: the push must trigger the deploy workflow
+            git commit -m "docs: sync from Confluence"
             git push
           else
             echo "No changes to commit."

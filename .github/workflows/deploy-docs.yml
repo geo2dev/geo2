@@ -1,0 +1,39 @@
+name: Deploy docs to Firebase Hosting
+
+on:
+  push:
+    branches: [main]
+  # Pushes made by the sync bot use GITHUB_TOKEN and don't emit push events,
+  # so chain off the sync workflow completing instead.
+  workflow_run:
+    workflows: ['Sync Confluence to Markdown']
+    types: [completed]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-docs
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: yarn
+
+      - run: yarn install --frozen-lockfile
+
+      - run: yarn build
+
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PRJ_PRO_BALDEV_GEO2 }}
+          projectId: prj-pro-baldev-geo2
+          target: help
+          channelId: live

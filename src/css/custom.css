@@ -1,0 +1,37 @@
+/* Geo2 brand — tokens mirrored from geo2-site (src/app/globals.css) */
+:root {
+  /* brand accent #05d72d, darkened for link/text contrast on light bg */
+  --ifm-color-primary: #04a824;
+  --ifm-color-primary-dark: #049720;
+  --ifm-color-primary-darker: #038f1e;
+  --ifm-color-primary-darkest: #037619;
+  --ifm-color-primary-light: #05b928;
+  --ifm-color-primary-lighter: #05c12a;
+  --ifm-color-primary-lightest: #05d72d;
+  --ifm-background-color: #f5f5f5;
+  --ifm-font-color-base: #171717;
+  --ifm-font-family-base: 'Noto Sans', system-ui, -apple-system, sans-serif;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #05d72d;
+  --ifm-color-primary-dark: #04c228;
+  --ifm-color-primary-darker: #04b726;
+  --ifm-color-primary-darkest: #039720;
+  --ifm-color-primary-light: #0df235;
+  --ifm-color-primary-lighter: #18f43f;
+  --ifm-color-primary-lightest: #45f663;
+  --ifm-background-color: #0a0a0a;
+  --ifm-background-surface-color: #252525;
+  --ifm-font-color-base: #ededed;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Confluence screenshots: keep them readable, add a subtle frame */
+.markdown img {
+  max-width: 100%;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 6px;
+}
