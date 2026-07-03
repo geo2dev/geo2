@@ -32,14 +32,14 @@ jobs:
           CONFLUENCE_USER: ${{ secrets.CONFLUENCE_USER }}
           CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
         run: |
-          cme config set auth.confluence.url "https://geo2.atlassian.net"
-          cme config set auth.confluence.username "$CONFLUENCE_USER"
-          cme config set auth.confluence.api_token "$CONFLUENCE_TOKEN"
-          cme config set export.output_path "$RUNNER_TEMP/export"
+          # auth.confluence is a URL-keyed dict, so it has to be set as JSON
+          cme config set "auth.confluence={\"https://geo2.atlassian.net\": {\"username\": \"$CONFLUENCE_USER\", \"api_token\": \"$CONFLUENCE_TOKEN\"}}"
           # Breadcrumb links and Confluence TOCs are noise on the Docusaurus site
           # (it renders its own breadcrumbs and table of contents)
-          cme config set export.page_breadcrumbs false
-          cme config set export.include_toc false
+          cme config set \
+            "export.output_path=$RUNNER_TEMP/export" \
+            "export.page_breadcrumbs=false" \
+            "export.include_toc=false"
 
       - name: Export Confluence to Markdown
         run: cme space "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO"
