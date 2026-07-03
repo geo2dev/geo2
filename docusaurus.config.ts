@@ -171,6 +171,15 @@ const config: Config = {
         { to: '/api', label: 'API', position: 'left' },
         { to: '/release-notes', label: 'Release Notes', position: 'left' },
         {
+          type: 'dropdown',
+          label: 'Get the App',
+          position: 'right',
+          items: [
+            { href: 'https://geo2.onelink.me/vIzC/wpw7uzdf', label: 'App Store' },
+            { href: 'https://geo2.onelink.me/8Xke/98ngzi3v', label: 'Google Play' },
+          ],
+        },
+        {
           href: 'https://hub.geo2.com',
           label: 'Hub',
           position: 'right',
