@@ -29,11 +29,13 @@ jobs:
 
       - name: Configure exporter
         env:
-          CONFLUENCE_USER: ${{ secrets.CONFLUENCE_USER }}
-          CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
+          # Scoped API token (Bearer auth): cme routes requests through
+          # api.atlassian.com, which rejects classic tokens / Basic auth,
+          # so the token goes into the `pat` field, not `api_token`.
+          CONFLUENCE_SCOPED_TOKEN: ${{ secrets.CONFLUENCE_SCOPED_TOKEN }}
         run: |
           # auth.confluence is a URL-keyed dict, so it has to be set as JSON
-          cme config set "auth.confluence={\"https://geo2.atlassian.net\": {\"username\": \"$CONFLUENCE_USER\", \"api_token\": \"$CONFLUENCE_TOKEN\"}}"
+          cme config set "auth.confluence={\"https://geo2.atlassian.net\": {\"pat\": \"$CONFLUENCE_SCOPED_TOKEN\"}}"
           # Breadcrumb links and Confluence TOCs are noise on the Docusaurus site
           # (it renders its own breadcrumbs and table of contents)
           cme config set \
