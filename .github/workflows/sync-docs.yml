@@ -46,6 +46,11 @@ jobs:
       - name: Export Confluence to Markdown
         run: cme space "https://geo2.atlassian.net/wiki/spaces/BALDEVGEO"
 
+      - name: Generate Confluence sidebar order
+        env:
+          CONFLUENCE_SCOPED_TOKEN: ${{ secrets.CONFLUENCE_SCOPED_TOKEN }}
+        run: python scripts/generate-confluence-sidebar-order.py
+
       # --delete removes pages that were deleted or renamed in Confluence;
       # plain re-export used to leave stale trees behind (e.g. Documentation/Geo2)
       - name: Mirror export into repo
@@ -55,7 +60,7 @@ jobs:
         run: |
           git config user.name 'Confluence Sync Bot'
           git config user.email 'bot@noreply.github.com'
-          git add -A Documentation
+          git add -A Documentation src/sidebarOrder.json
           if ! git diff-index --quiet HEAD; then
             # no [skip ci]: the push must trigger the deploy workflow
             git commit -m "docs: sync from Confluence"
@@ -63,3 +68,5 @@ jobs:
           else
             echo "No changes to commit."
           fi
+
+

@@ -3,25 +3,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
 import remarkGithubAlerts from './src/remark/githubAlerts';
 
+const confluenceSidebarOrder = require('./src/sidebarOrder.json') as Record<string, number>;
+
 // Docs are synced daily from Confluence into Documentation/Welcome by
 // .github/workflows/sync-docs.yml and get overwritten on every sync.
 // Never rely on frontmatter inside those files — everything (slugs,
 // homepage, labels) is derived here in config instead.
 
-// Top-level sidebar order (Confluence exports alphabetically; this overrides it).
-const SIDEBAR_ORDER = [
-  'Welcome',
-  'Concepts',
-  'Release Notes',
-  'Getting Started in Hub',
-  'Getting Started in Mobile App',
-  'Web-Based Hub',
-  'Mobile App',
-  'API',
-  'User Roles',
-  'Support',
-  'FAQ',
-];
 
 /** "Mobile App_ Sign In.md" -> "mobile-app-sign-in" */
 const slugify = (s: string) =>
@@ -35,6 +23,25 @@ const slugify = (s: string) =>
 
 /** "Hub_ Orders" / "Mobile App_ Map" -> "Orders" / "Map" */
 const cleanLabel = (s: string) => s.replace(/^[^_]+_\s*/, '').trim();
+
+/** "Hub_ Orders" / "Hub: Orders" -> "hub orders" */
+const normalizeOrderSegment = (s: string) =>
+  s
+    .replace(/\.mdx?$/, '')
+    .replace(/_/g, ' ')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .replace(/\s+/g, ' ');
+
+const normalizeOrderPath = (s: string) =>
+  s
+    .split('/')
+    .map(normalizeOrderSegment)
+    .filter(Boolean)
+    .join('/');
+
+const joinOrderPath = (...parts: string[]) => parts.filter(Boolean).join('/');
 
 const config: Config = {
   title: 'Geo2 Documentation',
@@ -142,19 +149,38 @@ const config: Config = {
                 return [item];
               });
             };
+            const itemOrderKey = (item: any, parentKey = '') => {
+              if (item.type === 'doc') return normalizeOrderPath(item.id);
+              if (item.type === 'category') {
+                return joinOrderPath(parentKey, normalizeOrderSegment(item.label));
+              }
+              return normalizeOrderPath(item.label ?? item.id ?? '');
+            };
+            const orderItems = (items: any[], parentKey = ''): any[] =>
+              items
+                .map((item) => {
+                  if (item.type !== 'category') return item;
+                  const categoryKey = itemOrderKey(item, parentKey);
+                  return {
+                    ...item,
+                    items: orderItems(item.items, categoryKey),
+                  };
+                })
+                .map((item, index) => ({ item, index }))
+                .sort((a, b) => {
+                  const orderA = confluenceSidebarOrder[itemOrderKey(a.item, parentKey)] ?? Number.MAX_SAFE_INTEGER;
+                  const orderB = confluenceSidebarOrder[itemOrderKey(b.item, parentKey)] ?? Number.MAX_SAFE_INTEGER;
+                  return orderA - orderB || a.index - b.index;
+                })
+                .map(({ item }) => item);
             const clean = (items: any[]): any[] =>
               items.map((item) => ({
                 ...item,
                 ...(item.label ? { label: cleanLabel(item.label) } : {}),
                 ...(item.items ? { items: clean(item.items) } : {}),
               }));
-            const items = clean(mergeSiblingDocs(await defaultSidebarItemsGenerator(args)));
-            // Categories carry `label`; plain docs only carry `id` (their filename).
-            const order = (item: any) => {
-              const i = SIDEBAR_ORDER.indexOf(item.label ?? item.id);
-              return i === -1 ? SIDEBAR_ORDER.length : i;
-            };
-            return items.sort((a, b) => order(a) - order(b));
+            const items = mergeSiblingDocs(await defaultSidebarItemsGenerator(args));
+            return clean(orderItems(items));
           },
         },
         blog: false,
@@ -228,3 +254,4 @@ const config: Config = {
 };
 
 export default config;
+

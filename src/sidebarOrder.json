@@ -1,0 +1,14 @@
+{
+  "welcome": -1,
+  "concepts": 1,
+  "release notes": 2,
+  "getting started in hub": 3,
+  "getting started in mobile app": 4,
+  "web based hub": 5,
+  "mobile app": 6,
+  "api": 7,
+  "user roles": 8,
+  "support": 9,
+  "faq": 10
+}
+
