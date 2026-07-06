@@ -8,6 +8,21 @@ import remarkGithubAlerts from './src/remark/githubAlerts';
 // Never rely on frontmatter inside those files — everything (slugs,
 // homepage, labels) is derived here in config instead.
 
+// Top-level sidebar order (Confluence exports alphabetically; this overrides it).
+const SIDEBAR_ORDER = [
+  'Welcome',
+  'Concepts',
+  'Release Notes',
+  'Getting Started in Hub',
+  'Getting Started in Mobile App',
+  'Web-Based Hub',
+  'Mobile App',
+  'API',
+  'User Roles',
+  'Support',
+  'FAQ',
+];
+
 /** "Mobile App_ Sign In.md" -> "mobile-app-sign-in" */
 const slugify = (s: string) =>
   s
@@ -85,7 +100,6 @@ const config: Config = {
         // Confluence space homepage becomes the site homepage.
         // Its first paragraph is an alert marker, so set the meta description explicitly.
         result.frontMatter.slug = '/';
-        result.frontMatter.sidebar_position = 0; // pin Welcome to the top of the sidebar
         result.frontMatter.description =
           'Geo2 documentation: web-based Hub, driver mobile app, and API for delivery route planning and management.';
       } else if (!result.frontMatter.slug) {
@@ -134,7 +148,13 @@ const config: Config = {
                 ...(item.label ? { label: cleanLabel(item.label) } : {}),
                 ...(item.items ? { items: clean(item.items) } : {}),
               }));
-            return clean(mergeSiblingDocs(await defaultSidebarItemsGenerator(args)));
+            const items = clean(mergeSiblingDocs(await defaultSidebarItemsGenerator(args)));
+            // Categories carry `label`; plain docs only carry `id` (their filename).
+            const order = (item: any) => {
+              const i = SIDEBAR_ORDER.indexOf(item.label ?? item.id);
+              return i === -1 ? SIDEBAR_ORDER.length : i;
+            };
+            return items.sort((a, b) => order(a) - order(b));
           },
         },
         blog: false,
