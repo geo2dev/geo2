@@ -29,16 +29,16 @@ def normalize_path(parts: Iterable[str]) -> str:
 @dataclass(frozen=True)
 class Client:
     base_url: str
-    token: str
+    token: str | None = None
 
     def get(self, path: str, params: dict[str, str | int] | None = None) -> dict:
         query = f"?{urllib.parse.urlencode(params)}" if params else ""
+        headers = {"Accept": "application/json"}
+        if self.token:
+            headers["Authorization"] = f"Bearer {self.token}"
         request = urllib.request.Request(
             f"{self.base_url}{path}{query}",
-            headers={
-                "Accept": "application/json",
-                "Authorization": f"Bearer {self.token}",
-            },
+            headers=headers,
         )
         with urllib.request.urlopen(request, timeout=30) as response:
             return json.load(response)
@@ -103,11 +103,10 @@ def get_homepage(client: Client, space_key: str) -> tuple[str, str]:
 
 def get_child_pages(client: Client, page_id: str) -> list[dict]:
     children = client.get_all_results(
-        f"/api/v2/pages/{page_id}/direct-children",
+        f"/api/v2/pages/{page_id}/children",
         {"limit": 250},
     )
-    pages = [child for child in children if child.get("type") == "page"]
-    return sorted(pages, key=lambda child: (child.get("childPosition", 0), child.get("title", "")))
+    return sorted(children, key=lambda child: (child.get("childPosition", 0), child.get("title", "")))
 
 
 def add_children(client: Client, page_id: str, path: list[str], order: dict[str, int]) -> None:
@@ -127,18 +126,27 @@ def main() -> int:
     args = parser.parse_args()
 
     token = os.environ.get("CONFLUENCE_SCOPED_TOKEN")
-    if not token:
-        raise RuntimeError("CONFLUENCE_SCOPED_TOKEN is required")
-
-    cloud_id = os.environ.get("CONFLUENCE_CLOUD_ID") or discover_cloud_id(args.site, token)
-    client = Client(
-        base_url=f"https://api.atlassian.com/ex/confluence/{cloud_id}/wiki",
-        token=token,
-    )
+    if token:
+        cloud_id = os.environ.get("CONFLUENCE_CLOUD_ID") or discover_cloud_id(args.site, token)
+        client = Client(
+            base_url=f"https://api.atlassian.com/ex/confluence/{cloud_id}/wiki",
+            token=token,
+        )
+    else:
+        print(
+            "CONFLUENCE_SCOPED_TOKEN is not set; trying anonymous Confluence REST API access.",
+            file=sys.stderr,
+        )
+        client = Client(base_url=f"{args.site.rstrip('/')}/wiki")
 
     homepage_id, homepage_title = get_homepage(client, args.space_key)
     order = {normalize_path([homepage_title]): -1}
     add_children(client, homepage_id, [], order)
+    if len(order) <= 1:
+        raise RuntimeError(
+            "Confluence page children were not returned. Set CONFLUENCE_SCOPED_TOKEN "
+            "with read:page:confluence access, or verify that the token can view the space."
+        )
 
     output = os.path.abspath(args.output)
     os.makedirs(os.path.dirname(output), exist_ok=True)
@@ -156,5 +164,4 @@ if __name__ == "__main__":
     except (RuntimeError, urllib.error.URLError, urllib.error.HTTPError) as error:
         print(f"error: {error}", file=sys.stderr)
         raise SystemExit(1)
-
 
