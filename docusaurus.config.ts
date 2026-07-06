@@ -213,7 +213,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Geo2.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Springboard Applications Ltd`,
     },
     prism: {
       theme: prismThemes.github,
