@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-sign-in/mobile-app-forgot-password"
+sidebar_label: "Forgot Password"
+sidebar_position: 1
+---
+
 
 # Mobile App: Forgot Password
 

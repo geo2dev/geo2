@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-map-view"
+sidebar_label: "Map View"
+sidebar_position: 11
+---
+
 
 # Hub: Map View
 

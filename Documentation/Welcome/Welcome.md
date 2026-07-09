@@ -1,3 +1,9 @@
+---
+slug: "/"
+description: "Geo2 documentation: web-based Hub, driver mobile app, and API for delivery route planning and management."
+sidebar_position: 1
+---
+
 
 # Welcome
 

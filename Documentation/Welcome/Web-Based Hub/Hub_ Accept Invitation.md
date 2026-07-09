@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-accept-invitation"
+sidebar_label: "Accept Invitation"
+sidebar_position: 4
+---
+
 
 # Hub: Accept Invitation
 

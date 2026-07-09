@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-orders/hub-order-notification-history"
+sidebar_label: "Order Notification History"
+sidebar_position: 5
+---
+
 
 # Hub: Order Notification History
 

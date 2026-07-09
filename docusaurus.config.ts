@@ -3,45 +3,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
 import remarkGithubAlerts from './src/remark/githubAlerts';
 
-const confluenceSidebarOrder = require('./src/sidebarOrder.json') as Record<string, number>;
-
-// Docs are synced daily from Confluence into Documentation/Welcome by
-// .github/workflows/sync-docs.yml and get overwritten on every sync.
-// Never rely on frontmatter inside those files — everything (slugs,
-// homepage, labels) is derived here in config instead.
-
-
-/** "Mobile App_ Sign In.md" -> "mobile-app-sign-in" */
-const slugify = (s: string) =>
-  s
-    .replace(/\.mdx?$/, '')
-    .replace(/_/g, '')
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
+// Docs originate from a one-time Confluence export (the nightly sync is
+// retired). Slugs, labels, and sidebar order live in frontmatter /
+// _category_.json and are edited via Pages CMS (.pages.yml).
 
 /** "Hub_ Orders" / "Mobile App_ Map" -> "Orders" / "Map" */
 const cleanLabel = (s: string) => s.replace(/^[^_]+_\s*/, '').trim();
-
-/** "Hub_ Orders" / "Hub: Orders" -> "hub orders" */
-const normalizeOrderSegment = (s: string) =>
-  s
-    .replace(/\.mdx?$/, '')
-    .replace(/_/g, ' ')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim()
-    .replace(/\s+/g, ' ');
-
-const normalizeOrderPath = (s: string) =>
-  s
-    .split('/')
-    .map(normalizeOrderSegment)
-    .filter(Boolean)
-    .join('/');
-
-const joinOrderPath = (...parts: string[]) => parts.filter(Boolean).join('/');
 
 const config: Config = {
   title: 'Geo2 Documentation',
@@ -68,13 +35,19 @@ const config: Config = {
     // `<DELIVERY_ETA>` placeholders, `<https://…>` autolinks — all parse as
     // JS expressions/JSX and crash. Escape everything except real HTML tags,
     // skipping code fences and inline code.
-    preprocessor: ({ fileContent }) =>
-      fileContent
+    preprocessor: ({ filePath, fileContent }) => {
+      // Sveltia CMS (static/admin) inserts images as /Documentation/attachments/…
+      // — rewrite to a page-relative path so webpack bundles them like the
+      // Confluence-exported relative links.
+      const rel = filePath.replace(/\\/g, '/').split('Documentation/')[1];
+      const ups = rel ? '../'.repeat(rel.split('/').length - 1) : '';
+      return fileContent
         .split(/(```[\s\S]*?```|`[^`\n]*`)/g)
         .map((segment, i) =>
           i % 2
             ? segment
             : segment
+                .replace(/\]\(\/Documentation\/attachments\//g, `](${ups}attachments/`)
                 .replace(/(?<!\\)[{}]/g, '\\$&')
                 .replace(/<(https?:\/\/[^>\s]+)>/g, '[$1]($1)') // MDX has no autolinks
                 .replace(/<(br|hr)\s*>/gi, '<$1/>') // MDX needs void tags self-closed
@@ -95,25 +68,9 @@ const config: Config = {
                   return `style={{${props.join(', ')}}}`;
                 }),
         )
-        .join(''),
-    hooks: { onBrokenMarkdownLinks: 'warn' },
-    parseFrontMatter: async (params) => {
-      const result = await params.defaultParseFrontMatter(params);
-      const rel = params.filePath
-        .replace(/\\/g, '/')
-        .split('Documentation/Welcome/')[1];
-      if (!rel) return result;
-      if (rel === 'Welcome.md') {
-        // Confluence space homepage becomes the site homepage.
-        // Its first paragraph is an alert marker, so set the meta description explicitly.
-        result.frontMatter.slug = '/';
-        result.frontMatter.description =
-          'Geo2 documentation: web-based Hub, driver mobile app, and API for delivery route planning and management.';
-      } else if (!result.frontMatter.slug) {
-        result.frontMatter.slug = '/' + rel.split('/').map(slugify).join('/');
-      }
-      return result;
+        .join('');
     },
+    hooks: { onBrokenMarkdownLinks: 'warn' },
   },
 
   presets: [
@@ -128,6 +85,9 @@ const config: Config = {
           editUrl: undefined, // source of truth is Confluence, not this repo
           showLastUpdateTime: true,
           sidebarItemsGenerator: async ({ defaultSidebarItemsGenerator, ...args }) => {
+            const positionOf = new Map(
+              args.docs.map((doc) => [doc.id, doc.frontMatter.sidebar_position]),
+            );
             // Confluence exports a page and its children as siblings ("API.md"
             // next to "API/"), which renders as a duplicate sidebar entry.
             // Merge the doc into its category as the category link.
@@ -149,38 +109,23 @@ const config: Config = {
                 return [item];
               });
             };
-            const itemOrderKey = (item: any, parentKey = '') => {
-              if (item.type === 'doc') return normalizeOrderPath(item.id);
-              if (item.type === 'category') {
-                return joinOrderPath(parentKey, normalizeOrderSegment(item.label));
-              }
-              return normalizeOrderPath(item.label ?? item.id ?? '');
-            };
-            const orderItems = (items: any[], parentKey = ''): any[] =>
+            // Categories carry no sidebar_position of their own — order them by
+            // their merged doc's position so the whole sidebar is driven by the
+            // per-page sidebar_position frontmatter (editable in Pages CMS).
+            const itemPosition = (item: any): number =>
+              positionOf.get(item.type === 'doc' ? item.id : item.link?.id) ??
+              Number.MAX_SAFE_INTEGER;
+            // Doc labels come from frontmatter sidebar_label; category labels
+            // default to the folder name, so clean them here ("Hub_ Orders" -> "Orders")
+            const finalize = (items: any[]): any[] =>
               items
-                .map((item) => {
-                  if (item.type !== 'category') return item;
-                  const categoryKey = itemOrderKey(item, parentKey);
-                  return {
-                    ...item,
-                    items: orderItems(item.items, categoryKey),
-                  };
-                })
-                .map((item, index) => ({ item, index }))
-                .sort((a, b) => {
-                  const orderA = confluenceSidebarOrder[itemOrderKey(a.item, parentKey)] ?? Number.MAX_SAFE_INTEGER;
-                  const orderB = confluenceSidebarOrder[itemOrderKey(b.item, parentKey)] ?? Number.MAX_SAFE_INTEGER;
-                  return orderA - orderB || a.index - b.index;
-                })
-                .map(({ item }) => item);
-            const clean = (items: any[]): any[] =>
-              items.map((item) => ({
-                ...item,
-                ...(item.label ? { label: cleanLabel(item.label) } : {}),
-                ...(item.items ? { items: clean(item.items) } : {}),
-              }));
-            const items = mergeSiblingDocs(await defaultSidebarItemsGenerator(args));
-            return clean(orderItems(items));
+                .map((item) =>
+                  item.type === 'category'
+                    ? { ...item, label: cleanLabel(item.label), items: finalize(item.items) }
+                    : item,
+                )
+                .sort((a, b) => itemPosition(a) - itemPosition(b));
+            return finalize(mergeSiblingDocs(await defaultSidebarItemsGenerator(args)));
           },
         },
         blog: false,

@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-orders/hub-order-import"
+sidebar_label: "Order Import"
+sidebar_position: 2
+---
+
 
 # Hub: Order Import
 

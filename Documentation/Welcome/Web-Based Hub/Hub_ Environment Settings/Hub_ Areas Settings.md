@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-areas-settings"
+sidebar_label: "Areas Settings"
+sidebar_position: 12
+---
+
 
 # Hub: Areas Settings
 

@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-set-up-organization"
+sidebar_label: "Set Up Organization"
+sidebar_position: 2
+---
+
 
 # Hub: Set Up Organization
 

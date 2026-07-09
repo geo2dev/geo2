@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-depots-settings"
+sidebar_label: "Depots Settings"
+sidebar_position: 3
+---
+
 
 # Hub: Depots Settings
 

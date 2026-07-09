@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app"
+sidebar_label: "Mobile App"
+sidebar_position: 7
+---
+
 
 # Mobile App
 

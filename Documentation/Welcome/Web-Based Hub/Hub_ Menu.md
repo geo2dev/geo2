@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-menu"
+sidebar_label: "Menu"
+sidebar_position: 5
+---
+
 
 # Hub: Menu
 

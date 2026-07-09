@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-routes-settings"
+sidebar_label: "Routes Settings"
+sidebar_position: 7
+---
+
 
 # Hub: Routes Settings
 

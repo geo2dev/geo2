@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-failure-reason-codes-settings"
+sidebar_label: "Failure Reason Codes Settings"
+sidebar_position: 8
+---
+
 
 # Hub: Failure Reason Codes Settings
 

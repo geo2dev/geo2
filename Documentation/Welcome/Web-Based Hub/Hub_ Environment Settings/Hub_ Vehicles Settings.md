@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-vehicles-settings"
+sidebar_label: "Vehicles Settings"
+sidebar_position: 4
+---
+
 
 # Hub: Vehicles Settings
 

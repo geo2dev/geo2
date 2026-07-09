@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-reporting-settings"
+sidebar_label: "Reporting Settings"
+sidebar_position: 15
+---
+
 
 # Hub: Reporting Settings
 

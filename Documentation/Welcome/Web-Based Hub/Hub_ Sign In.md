@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-sign-in"
+sidebar_label: "Sign In"
+sidebar_position: 3
+---
+
 
 # Hub: Sign In
 

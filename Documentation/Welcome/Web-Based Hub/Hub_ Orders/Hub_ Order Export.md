@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-orders/hub-order-export"
+sidebar_label: "Order Export"
+sidebar_position: 6
+---
+
 
 # Hub: Order Export
 

@@ -1,3 +1,9 @@
+---
+slug: "/release-notes/release-notes-5-3-pending"
+sidebar_label: "Release Notes 5.3 (pending)"
+sidebar_position: 133
+---
+
 
 # Release Notes 5.3 (pending)
 

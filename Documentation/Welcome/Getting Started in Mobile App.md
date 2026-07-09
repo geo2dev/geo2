@@ -1,3 +1,9 @@
+---
+slug: "/getting-started-in-mobile-app"
+sidebar_label: "Getting Started in Mobile App"
+sidebar_position: 5
+---
+
 
 # Getting Started in Mobile App
 

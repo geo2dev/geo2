@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-ai-assistant"
+sidebar_label: "AI Assistant"
+sidebar_position: 16
+---
+
 
 # Hub: AI Assistant
 

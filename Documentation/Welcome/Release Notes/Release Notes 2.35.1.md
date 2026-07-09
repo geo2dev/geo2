@@ -1,3 +1,9 @@
+---
+slug: "/release-notes/release-notes-2-35-1"
+sidebar_label: "Release Notes 2.35.1"
+sidebar_position: 101
+---
+
 
 # Release Notes 2.35.1
 

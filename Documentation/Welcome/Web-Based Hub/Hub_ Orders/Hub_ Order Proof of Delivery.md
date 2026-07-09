@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-orders/hub-order-proof-of-delivery"
+sidebar_label: "Order Proof of Delivery"
+sidebar_position: 4
+---
+
 
 # Hub: Order Proof of Delivery
 

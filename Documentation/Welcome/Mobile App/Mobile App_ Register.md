@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-register"
+sidebar_label: "Register"
+sidebar_position: 1
+---
+
 
 # Mobile App: Register
 

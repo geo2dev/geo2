@@ -1,3 +1,9 @@
+---
+slug: "/concepts"
+sidebar_label: "Concepts"
+sidebar_position: 2
+---
+
 
 # Concepts
 

@@ -1,3 +1,9 @@
+---
+slug: "/api/depot"
+sidebar_label: "Depot"
+sidebar_position: 5
+---
+
 
 # Depot
 

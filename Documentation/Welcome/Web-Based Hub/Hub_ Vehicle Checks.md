@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-vehicle-checks"
+sidebar_label: "Vehicle Checks"
+sidebar_position: 12
+---
+
 
 # Hub: Vehicle Checks
 

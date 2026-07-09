@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-menu"
+sidebar_label: "Menu"
+sidebar_position: 5
+---
+
 
 # Mobile App: Menu
 

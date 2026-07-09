@@ -1,3 +1,9 @@
+---
+slug: "/getting-started-in-hub"
+sidebar_label: "Getting Started in Hub"
+sidebar_position: 4
+---
+
 
 # Getting Started in Hub
 

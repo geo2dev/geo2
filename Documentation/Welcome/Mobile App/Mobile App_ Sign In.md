@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-sign-in"
+sidebar_label: "Sign In"
+sidebar_position: 2
+---
+
 
 # Mobile App: Sign In
 

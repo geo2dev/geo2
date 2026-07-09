@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-map"
+sidebar_label: "Map"
+sidebar_position: 4
+---
+
 
 # Mobile App: Map
 

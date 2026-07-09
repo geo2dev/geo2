@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-public-tracking-settings"
+sidebar_label: "Public Tracking Settings"
+sidebar_position: 10
+---
+
 
 # Hub: Public Tracking Settings
 

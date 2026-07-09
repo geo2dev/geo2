@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-orders/hub-ai-route-building"
+sidebar_label: "AI Route Building"
+sidebar_position: 3
+---
+
 
 # Hub: AI Route Building
 

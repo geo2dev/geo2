@@ -1,3 +1,9 @@
+---
+slug: "/api/authentication"
+sidebar_label: "Authentication"
+sidebar_position: 1
+---
+
 
 # Authentication
 

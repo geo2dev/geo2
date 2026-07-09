@@ -1,3 +1,9 @@
+---
+slug: "/api/errors"
+sidebar_label: "Errors"
+sidebar_position: 8
+---
+
 
 # Errors
 

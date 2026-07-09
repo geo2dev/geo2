@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-profile"
+sidebar_label: "Profile"
+sidebar_position: 15
+---
+
 
 # Hub: Profile
 

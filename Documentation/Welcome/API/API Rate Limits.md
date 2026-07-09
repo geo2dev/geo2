@@ -1,3 +1,9 @@
+---
+slug: "/api/api-rate-limits"
+sidebar_label: "API Rate Limits"
+sidebar_position: 9
+---
+
 
 # API Rate Limits
 

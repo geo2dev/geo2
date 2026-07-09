@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-custom-fields-settings"
+sidebar_label: "Custom Fields Settings"
+sidebar_position: 11
+---
+
 
 # Hub: Custom Fields Settings
 

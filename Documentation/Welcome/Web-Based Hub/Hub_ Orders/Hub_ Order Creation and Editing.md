@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-orders/hub-order-creation-and-editing"
+sidebar_label: "Order Creation and Editing"
+sidebar_position: 1
+---
+
 
 # Hub: Order Creation and Editing
 

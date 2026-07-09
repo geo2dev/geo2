@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-ai-route-building-logs"
+sidebar_label: "AI Route Building Logs"
+sidebar_position: 14
+---
+
 
 # Hub: AI Route Building Logs
 

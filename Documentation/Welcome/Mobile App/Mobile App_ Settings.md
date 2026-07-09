@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-settings"
+sidebar_label: "Settings"
+sidebar_position: 10
+---
+
 
 # Mobile App: Settings
 

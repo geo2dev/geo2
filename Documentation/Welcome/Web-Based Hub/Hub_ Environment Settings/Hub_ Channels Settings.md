@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-channels-settings"
+sidebar_label: "Channels Settings"
+sidebar_position: 13
+---
+
 
 # Hub: Channels Settings
 

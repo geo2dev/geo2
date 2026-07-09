@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-display-preferences-settings"
+sidebar_label: "Display Preferences Settings"
+sidebar_position: 1
+---
+
 
 # Hub: Display Preferences Settings
 

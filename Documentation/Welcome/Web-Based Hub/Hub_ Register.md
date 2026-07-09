@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-register"
+sidebar_label: "Register"
+sidebar_position: 1
+---
+
 
 # Hub: Register
 

@@ -1,3 +1,9 @@
+---
+slug: "/release-notes/release-notes-3-7-3"
+sidebar_label: "Release Notes 3.7.3"
+sidebar_position: 120
+---
+
 
 # Release Notes 3.7.3
 

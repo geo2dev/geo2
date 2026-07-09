@@ -1,3 +1,9 @@
+---
+slug: "/user-roles"
+sidebar_label: "User Roles"
+sidebar_position: 9
+---
+
 
 # User Roles
 

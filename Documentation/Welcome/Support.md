@@ -1,3 +1,9 @@
+---
+slug: "/support"
+sidebar_label: "Support"
+sidebar_position: 10
+---
+
 
 # Support
 

@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-sign-in/hub-forgot-password"
+sidebar_label: "Forgot Password"
+sidebar_position: 1
+---
+
 
 # Hub: Forgot Password
 

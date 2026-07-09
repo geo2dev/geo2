@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-offline-mode"
+sidebar_label: "Offline Mode"
+sidebar_position: 12
+---
+
 
 # Mobile app: Offline Mode
 

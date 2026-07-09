@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-vehicle-categories-settings"
+sidebar_label: "Vehicle Categories Settings"
+sidebar_position: 5
+---
+
 
 # Hub: Vehicle Categories Settings
 

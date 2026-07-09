@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-orders"
+sidebar_label: "Orders"
+sidebar_position: 9
+---
+
 
 # Hub: Orders
 

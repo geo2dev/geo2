@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-proof-of-delivery-settings"
+sidebar_label: "Proof of Delivery Settings"
+sidebar_position: 9
+---
+
 
 # Hub: Proof of Delivery Settings
 

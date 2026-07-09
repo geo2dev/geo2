@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-routes"
+sidebar_label: "Routes"
+sidebar_position: 10
+---
+
 
 # Hub: Routes
 

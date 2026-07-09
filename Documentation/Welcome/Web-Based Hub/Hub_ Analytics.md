@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-analytics"
+sidebar_label: "Analytics"
+sidebar_position: 13
+---
+
 
 # Hub: Analytics
 

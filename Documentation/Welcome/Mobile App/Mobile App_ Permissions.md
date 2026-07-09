@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-permissions"
+sidebar_label: "Permissions"
+sidebar_position: 3
+---
+
 
 # Mobile App: Permissions
 

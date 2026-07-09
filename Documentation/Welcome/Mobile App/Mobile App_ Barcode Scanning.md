@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-barcode-scanning"
+sidebar_label: "Barcode Scanning"
+sidebar_position: 11
+---
+
 
 # Mobile App: Barcode Scanning
 

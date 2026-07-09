@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub"
+sidebar_label: "Web-Based Hub"
+sidebar_position: 6
+---
+
 
 # Web-Based Hub
 

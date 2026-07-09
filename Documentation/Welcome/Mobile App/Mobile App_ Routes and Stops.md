@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-routes-and-stops"
+sidebar_label: "Routes and Stops"
+sidebar_position: 6
+---
+
 
 # Mobile App: Routes and Stops
 

@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-pod-proof-of-delivery"
+sidebar_label: "POD - Proof of Delivery"
+sidebar_position: 7
+---
+
 
 # Mobile App: POD - Proof of Delivery
 

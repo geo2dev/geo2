@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-subscriptions"
+sidebar_label: "Subscriptions"
+sidebar_position: 7
+---
+
 
 # Hub: Subscriptions
 

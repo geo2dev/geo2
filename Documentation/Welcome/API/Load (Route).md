@@ -1,3 +1,9 @@
+---
+slug: "/api/load-route"
+sidebar_label: "Load (Route)"
+sidebar_position: 2
+---
+
 
 # Load (Route)
 

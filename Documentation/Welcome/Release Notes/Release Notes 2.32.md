@@ -1,3 +1,9 @@
+---
+slug: "/release-notes/release-notes-2-32"
+sidebar_label: "Release Notes 2.32"
+sidebar_position: 93
+---
+
 
 # Release Notes 2.32
 

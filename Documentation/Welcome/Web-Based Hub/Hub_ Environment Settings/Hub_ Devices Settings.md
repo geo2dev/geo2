@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-devices-settings"
+sidebar_label: "Devices Settings"
+sidebar_position: 14
+---
+
 
 # Hub: Devices Settings
 

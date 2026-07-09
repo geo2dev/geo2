@@ -1,0 +1,39 @@
+# Pages CMS (https://app.pagescms.org) configuration.
+# Edit docs, sidebar order (sidebar_position) and images from the CMS;
+# every save commits to main, which triggers the Firebase deploy workflow.
+
+media:
+  - name: attachments
+    label: Attachments
+    input: Documentation/attachments
+    output: /Documentation/attachments
+
+content:
+  - name: docs
+    label: Documentation
+    type: collection
+    path: Documentation/Welcome
+    subfolders: true
+    format: yaml-frontmatter
+    filename: '{fields.sidebar_label}.md'
+    view:
+      fields: [sidebar_label, slug, sidebar_position]
+      sort: [sidebar_position]
+    fields:
+      - name: slug
+        label: URL slug
+        type: string
+        description: Page URL, e.g. /web-based-hub/hub-orders. Changing it breaks existing links.
+      - name: sidebar_label
+        label: Sidebar label
+        type: string
+      - name: sidebar_position
+        label: Sidebar position
+        type: number
+        description: Order among siblings — lower numbers appear higher.
+      - name: description
+        label: Meta description
+        type: string
+      - name: body
+        label: Body
+        type: rich-text

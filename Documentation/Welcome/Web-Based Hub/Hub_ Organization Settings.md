@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-organization-settings"
+sidebar_label: "Organization Settings"
+sidebar_position: 6
+---
+
 
 # Hub: Organization Settings
 

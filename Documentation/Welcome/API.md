@@ -1,3 +1,9 @@
+---
+slug: "/api"
+sidebar_label: "API"
+sidebar_position: 8
+---
+
 
 # API
 

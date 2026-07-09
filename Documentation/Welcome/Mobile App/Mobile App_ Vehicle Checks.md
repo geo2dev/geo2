@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-vehicle-checks"
+sidebar_label: "Vehicle Checks"
+sidebar_position: 9
+---
+
 
 # Mobile App: Vehicle Checks
 

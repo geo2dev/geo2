@@ -1,3 +1,9 @@
+---
+slug: "/api/vehicle"
+sidebar_label: "Vehicle"
+sidebar_position: 6
+---
+
 
 # Vehicle
 

@@ -1,3 +1,9 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-users-settings"
+sidebar_label: "Users Settings"
+sidebar_position: 2
+---
+
 
 # Hub: Users Settings
 
