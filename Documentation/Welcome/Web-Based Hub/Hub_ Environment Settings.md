@@ -15,17 +15,17 @@ Environments let you represent teams within a single company or provide separat
 
 During the registration of a new account in Hub and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the environment’s address as well.  If you create an organization manually, its first default environment is created automatically.  By default, the name of a new environment is Default environment.  You can change the name by hovering over the environment name on Settings page and pressing the `Edit (pencil)` icon.
 
-![Screenshot 2026-04-01 at 11.51.17.png](../../attachments/f0725b7d-f9c7-4b32-a6db-95a5054fca92.png)
+![Screenshot 2026-04-01 at 11.51.17.png](/Documentation/attachments/f0725b7d-f9c7-4b32-a6db-95a5054fca92.png)
 
 Press the `Tick` icon to save changes.
 
-![Screenshot 2026-04-01 at 11.51.32.png](../../attachments/e2ed07af-70fd-41f8-b711-a2523bd25983.png)
+![Screenshot 2026-04-01 at 11.51.32.png](/Documentation/attachments/e2ed07af-70fd-41f8-b711-a2523bd25983.png)
 
 If you are invited to the environment and you have [User Roles](../User%20Roles.md), you can reach environment settings by opening the menu and pressing `Settings`. Environment Manager can only view environment settings, while Environment Admin can edit them.
 
 If you have an Enterprise subscription and the Organization Admin role, you can create a new environment within an existing organization.
 
-![Screenshot 2026-04-01 at 11.53.18.png](../../attachments/2bcdefd8-6308-49af-bfa8-8f9f6bd044d8.png)
+![Screenshot 2026-04-01 at 11.53.18.png](/Documentation/attachments/2bcdefd8-6308-49af-bfa8-8f9f6bd044d8.png)
 
 Read more about environment settings:
 
@@ -49,15 +49,15 @@ Read more about environment settings:
 
 If you want to create one more environment in your organization, press the environment selector in the menu bar and press `Create environment`.  This option is available only with Enterprise subscription level. You will be redirected to Create environment page where you will have the option to clone settings and users from an existing environment.
 
-![Screenshot 2026-04-01 at 11.53.18.png](../../attachments/2bcdefd8-6308-49af-bfa8-8f9f6bd044d8.png)
+![Screenshot 2026-04-01 at 11.53.18.png](/Documentation/attachments/2bcdefd8-6308-49af-bfa8-8f9f6bd044d8.png)
 
 It is up to you whether you decide to clone settings or users or start an entirely fresh environment definition.
 
-![Screenshot 2026-04-01 at 11.57.56.png](../../attachments/bc7fb3ea-f1c0-4ee8-b0cd-73afd16d364b.png)
+![Screenshot 2026-04-01 at 11.57.56.png](/Documentation/attachments/bc7fb3ea-f1c0-4ee8-b0cd-73afd16d364b.png)
 
 If cloning settings and/or users from an existing environment, you will need to select an environment to clone them from.
 
-![Screenshot 2026-04-01 at 11.58.06.png](../../attachments/c1de38ef-8109-4150-9eec-f2ec6b89737f.png)
+![Screenshot 2026-04-01 at 11.58.06.png](/Documentation/attachments/c1de38ef-8109-4150-9eec-f2ec6b89737f.png)
 
 By pressing the `Create` button, a new environment will be created.  You will be redirected to the settings of the newly created environment.
 
@@ -67,4 +67,4 @@ To delete your environment, go to Settings → Environment and press the `Delete
 
 Only users with the Environment Admin role can delete environments.
 
-![Screenshot 2026-01-27 at 14.07.59.png](../../attachments/5dadaec0-9161-4de5-8fc8-4ddc3af6c8c6.png)
+![Screenshot 2026-01-27 at 14.07.59.png](/Documentation/attachments/5dadaec0-9161-4de5-8fc8-4ddc3af6c8c6.png)

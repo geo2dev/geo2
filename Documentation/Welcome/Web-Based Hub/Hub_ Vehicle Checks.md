@@ -15,12 +15,12 @@ Vehicle checks are reports from drivers on vehicle condition.  As well as havin
 
 To list vehicle checks in the environment, select `Vehicle Checks` from the toolbar.  You can filter and sort the list, for example, to see checks from a specific driver.
 
-![Screenshot 2025-09-01 at 11.05.27.png](../../attachments/8d7253fa-a2a0-4bc2-9b6e-474218b4bf0e.png)
+![Screenshot 2025-09-01 at 11.05.27.png](/Documentation/attachments/8d7253fa-a2a0-4bc2-9b6e-474218b4bf0e.png)
 
 Pressing a card in the list, you can access the vehicle check details, photos, signature, location map, as well as any custom fields for which values have been collected.
 
-![Screenshot 2025-09-01 at 11.06.12.png](../../attachments/bd3c49a2-fa48-45e4-a593-82991d7774fe.png)
+![Screenshot 2025-09-01 at 11.06.12.png](/Documentation/attachments/bd3c49a2-fa48-45e4-a593-82991d7774fe.png)
 
 By clicking on the photo, it is possible to view it on a full scale.
 
-![Screenshot 2025-09-01 at 11.06.31.png](../../attachments/4a375e1d-fbc9-4023-a785-e0ec6c9c591a.png)
+![Screenshot 2025-09-01 at 11.06.31.png](/Documentation/attachments/4a375e1d-fbc9-4023-a785-e0ec6c9c591a.png)

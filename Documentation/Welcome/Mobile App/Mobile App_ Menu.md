@@ -23,7 +23,7 @@ Press the `menu` icon at the top-left corner of Map page to open the menu. If yo
 - Change organization and environment if you have multiple
 - Access profile information
 
-![20260428_18.png](../../attachments/5d140fc4-9b38-45aa-8491-f0d9f29e2092.png)
+![20260428_18.png](/Documentation/attachments/5d140fc4-9b38-45aa-8491-f0d9f29e2092.png)
 
 # Ask AI Assistant
 
@@ -50,25 +50,25 @@ With the AI assistant, you can:
 
 4. If you’re unsure how to use a feature, you can ask the assistant for step-by-step instructions directly in the app.
 
-![20260428_13.png](../../attachments/3ad466f0-01e5-4fce-accf-0b64079376f3.png)
+![20260428_13.png](/Documentation/attachments/3ad466f0-01e5-4fce-accf-0b64079376f3.png)
 
 # Plan Route
 
 By clicking the `Plan route` button, you can choose to create a route if you have permission to do it.  Check more details about [Mobile App: Routes and Stops](Mobile%20App_%20Routes%20and%20Stops.md).
 
-![20260428_8.png](../../attachments/636fa151-a7b1-44d9-9264-ce282a42666c.png)
+![20260428_8.png](/Documentation/attachments/636fa151-a7b1-44d9-9264-ce282a42666c.png)
 
 # Create POD
 
 By clicking the `Create POD` button, you can choose to create a Proof of delivery with photos and signatures either for existing order or not yet planned.  Check more details about [Mobile App: POD - Proof of Delivery](Mobile%20App_%20POD%20-%20Proof%20of%20Delivery.md).
 
-![App 26.png](../../attachments/f42326cf-1fdb-4583-ada9-c434c81fa3f3.png)
+![App 26.png](/Documentation/attachments/f42326cf-1fdb-4583-ada9-c434c81fa3f3.png)
 
 # Create Vehicle Сheck
 
 By pressing the `Create vehicle check` button, you can create an unplanned / ad-hoc vehicle check that is not related to any route. Check more details about [Mobile App: Vehicle Checks](Mobile%20App_%20Vehicle%20Checks.md). Creating vehicle checks is available with Advanced or Enterprise subscription level.
 
-![App 27.png](../../attachments/73503f48-190b-45d1-98b4-fea27ba10e25.png)
+![App 27.png](/Documentation/attachments/73503f48-190b-45d1-98b4-fea27ba10e25.png)
 
 # Routes
 
@@ -76,7 +76,7 @@ Press the `Routes` option to open Routes Calendar page. It lets you view routes 
 
 In the mobile app, you can view routes from the past 30 days and the next 30 days. To access the full routes history, you can visit [**Geo2 web-based Hub**](https://hub.geo2.com/en-GB/auth/signin). Data older than 30 days is available with Pro, Advanced, or Enterprise subscription.
 
-![20260428_17.png](../../attachments/14f54185-e28e-4200-9275-8bca312ae670.png)
+![20260428_17.png](/Documentation/attachments/14f54185-e28e-4200-9275-8bca312ae670.png)
 
 # PODs
 
@@ -84,7 +84,7 @@ To review the history of PODs recorded by you, click on `PODs` option.  By clic
 
 In the mobile app, you can view PODs history from the past 30 days. To access the full PODs history, you can visit [**Geo2 web-based Hub**](https://hub.geo2.com/en-GB/auth/signin). Data older than 30 days is available with Pro, Advanced, or Enterprise subscription.
 
-![App 28.png](../../attachments/5c89d7a1-08cc-49e6-afc7-cb9eeb7291b9.png)![App 29.png](../../attachments/7b95f1da-fa4c-459f-8bd9-ac819e70ae1b.png)
+![App 28.png](/Documentation/attachments/5c89d7a1-08cc-49e6-afc7-cb9eeb7291b9.png)![App 29.png](/Documentation/attachments/7b95f1da-fa4c-459f-8bd9-ac819e70ae1b.png)
 
 # Vehicle Checks
 
@@ -92,13 +92,13 @@ The created Vehicle check will be stored on Vehicle Checks page in the mobile ap
 
 In the mobile app, you can view vehicle checks history from the past 30 days. To access the full vehicle checks history, you can visit [**Geo2 web-based Hub**](https://hub.geo2.com/en-GB/auth/signin). Data older than 30 days is available with Pro, Advanced, or Enterprise subscription.
 
-![App 30.png](../../attachments/af02bc8a-c26d-4a5b-852c-b0429c07abd1.png)![App 31.png](../../attachments/b80be5de-d6f8-4fad-bb1b-172cb62cc95c.png)
+![App 30.png](/Documentation/attachments/af02bc8a-c26d-4a5b-852c-b0429c07abd1.png)![App 31.png](/Documentation/attachments/b80be5de-d6f8-4fad-bb1b-172cb62cc95c.png)
 
 # Pending uploads
 
 If you have a bad internet connection while uploading pictures to the app for a POD or vehicle check and it takes more time to upload them, you can find them on `Pending uploads` page in Menu.  Once an internet connection is good again, they will be uploaded automatically. Alternatively, you can click on them to push photos one more time.
 
-![App 33.png](../../attachments/4495366f-8982-4764-8d67-747d4eda5d9c.png)![App 32.png](../../attachments/28d90753-a963-467a-90e1-3072069c0be2.png)
+![App 33.png](/Documentation/attachments/4495366f-8982-4764-8d67-747d4eda5d9c.png)![App 32.png](/Documentation/attachments/28d90753-a963-467a-90e1-3072069c0be2.png)
 
 # Settings
 
@@ -116,7 +116,7 @@ As a Free level user, you will have only 1 environment. If you want to use more 
 
 Check more details about [Mobile App: Settings](Mobile%20App_%20Settings.md).
 
-![20260428_19.png](../../attachments/5b1ef5f7-8339-4607-a357-02a7e55ecb32.png)
+![20260428_19.png](/Documentation/attachments/5b1ef5f7-8339-4607-a357-02a7e55ecb32.png)
 
 # Organization and Environment
 
@@ -124,11 +124,11 @@ Check more details about [Mobile App: Settings](Mobile%20App_%20Settings.md).
 
 As a user, you can register and create your own organization to which you invite other users.  You may also be invited to join other organizations.  To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In.md) to the app using the email address to which the invitation has been sent.
 
-![App 10.png](../../attachments/190d4700-4149-4fd8-a737-42a23495a6fc.png)
+![App 10.png](/Documentation/attachments/190d4700-4149-4fd8-a737-42a23495a6fc.png)
 
 If you are not invited to any organization, the default organization will be created once your account is registered. **Free level subscription** will be assigned to you, **no card required**. You will be redirected to Map page to start planning your routes.
 
-![20260428_12.png](../../attachments/a7f8b6dd-9e13-4d42-a7fe-a80d298afa48.png)
+![20260428_12.png](/Documentation/attachments/a7f8b6dd-9e13-4d42-a7fe-a80d298afa48.png)
 
 If you want to edit your organization and environment settings, press `Settings` in Menu. **Organization** is a group of users who share a subscription and collaborate on data in one or more environments. **Environments** let you represent teams within a single company or provide separate spaces for testing and productive use.
 
@@ -144,10 +144,10 @@ As a Free level user, you will have only 1 environment. If you want to use more 
 
 To choose the organization to work in, you need to click on the `menu` icon at the top right corner of Map page, then click on the Organization.  You will see the dialog where you have to choose the organization you need if you have several.  After you choose the organization, you need to choose the environment if you have several.  To close the dialog just click on any space on the page.
 
-![20260428_20.png](../../attachments/3f447b0f-2508-4396-bea2-918610ddf058.png)![20260428_21 (1).png](../../attachments/bbb1ef2c-39cb-46ad-a77b-ac1d42afce6c.png)
+![20260428_20.png](/Documentation/attachments/3f447b0f-2508-4396-bea2-918610ddf058.png)![20260428_21 (1).png](/Documentation/attachments/bbb1ef2c-39cb-46ad-a77b-ac1d42afce6c.png)
 
 # Profile Information
 
 When you register using an email and password or a mobile phone number, it will also be set as your display name. You can change it anytime in your Profile. To access your profile information, open the Menu and tap on your email address or display name. Remember to click the `Update` button to save any changes.
 
-![20260428_23.png](../../attachments/29e91d2d-5c4e-4107-b957-34ae16a5cd6d.png)![20260428_22.png](../../attachments/39a9a471-f404-4b2a-86ae-2e61564eec49.png)
+![20260428_23.png](/Documentation/attachments/29e91d2d-5c4e-4107-b957-34ae16a5cd6d.png)![20260428_22.png](/Documentation/attachments/39a9a471-f404-4b2a-86ae-2e61564eec49.png)

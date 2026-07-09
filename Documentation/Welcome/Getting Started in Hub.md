@@ -13,25 +13,25 @@ To create a Geo2 user account, register with a browser at [**Geo2 Hub**](https:/
 
 You can use both the Geo2 web-based Hub and the mobile app, depending on your role and workflow. Both platforms support route planning and optimization, as well as order management. The mobile app is best suited for solo drivers, couriers, gig drivers, and drivers working for companies where route planning is done by a transport manager/dispatcher in Hub. Additionally, the mobile app includes Proof of Delivery (POD) and vehicle check features to capture delivery confirmations and vehicle status at route start and completion. While the mobile app allows drivers to create and optimize routes and manage orders, the Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV), managing multiple routes on a single map, analytics and reporting, and AI-powered route building.
 
-![Screenshot 2025-08-26 at 11.02.31.png](../attachments/ad2dfb92-fd25-418f-9a79-3e4df8acd993.png)
+![Screenshot 2025-08-26 at 11.02.31.png](/Documentation/attachments/ad2dfb92-fd25-418f-9a79-3e4df8acd993.png)
 
 # Register Account
 
 On Registration page, after you have completed the requested details, press `Register` to create an account, using the password you have specified.  Alternatively, you can press the buttons for other authentication providers in order to authenticate with your existing Google, Microsoft, or Apple identity or mobile phone number.  Learn more about registration in [Hub: Register](Web-Based%20Hub/Hub_%20Register.md). 
 
-![Screenshot 2026-03-27 at 12.05.56.png](../attachments/92160148-384f-4bba-8c45-f8c115f5e451.png)
+![Screenshot 2026-03-27 at 12.05.56.png](/Documentation/attachments/92160148-384f-4bba-8c45-f8c115f5e451.png)
 
 ## Verify Email
 
 If you register an account using an email and password, you need to verify it.  You will get a verification email with a one-time code that you need to copy and paste into the form in Hub.  Learn more about [Hub: Register](Web-Based%20Hub/Hub_%20Register.md).
 
-![Screenshot 2026-03-27 at 12.07.23.png](../attachments/79daadba-1068-4e91-bdfb-50fa63e55cc9.png)![Screenshot 2026-03-27 at 12.07.39.png](../attachments/03ab7a3b-3e57-4c82-b5d7-4ca7dbc9e876.png)
+![Screenshot 2026-03-27 at 12.07.23.png](/Documentation/attachments/79daadba-1068-4e91-bdfb-50fa63e55cc9.png)![Screenshot 2026-03-27 at 12.07.39.png](/Documentation/attachments/03ab7a3b-3e57-4c82-b5d7-4ca7dbc9e876.png)
 
 # Set Up Organization
 
 Once your account is created and the email is verified, you need to set up your Geo2 organization.  We ask for information about your company to set up an organization for you.
 
-![Screenshot 2026-03-27 at 12.08.48.png](../attachments/b4ca42ec-9d06-4131-bea9-0f0b93bd8a9e.png)![Screenshot 2026-03-27 at 12.09.22.png](../attachments/60cd0bee-e023-492a-a04e-c370942f5b5f.png)
+![Screenshot 2026-03-27 at 12.08.48.png](/Documentation/attachments/b4ca42ec-9d06-4131-bea9-0f0b93bd8a9e.png)![Screenshot 2026-03-27 at 12.09.22.png](/Documentation/attachments/60cd0bee-e023-492a-a04e-c370942f5b5f.png)
 
 By pressing the `Continue` button, you will be redirected to Set up first depot page. This depot can be optionally used during route planning. You can add more depots later in Settings → Environment → [Hub: Depots Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Depots%20Settings.md).
 
@@ -47,7 +47,7 @@ Examples:
 - A holding company (organization) with smaller companies (environments) working in different spheres.
 - A middle-size company (organization) with several depots (environments).
 
-![Screenshot 2026-03-27 at 12.11.18.png](../attachments/32949100-b76e-4f0d-a72b-04c73dee6d8f.png)
+![Screenshot 2026-03-27 at 12.11.18.png](/Documentation/attachments/32949100-b76e-4f0d-a72b-04c73dee6d8f.png)
 
 Next, you can select one of the following options to start working with Geo2 Hub:
 
@@ -56,7 +56,7 @@ Next, you can select one of the following options to start working with Geo2 Hub
 - **Invite more people**. Invite more people to your organization and assign their roles. Learn more about [Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md).
 - **Customize settings**. Add more depots and vehicles, create templates for recipient notifications. Explore your [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md).
 
-![Screenshot 2026-03-27 at 12.11.40.png](../attachments/52474c45-80c8-4ead-9f3e-101ea8ef9122.png)
+![Screenshot 2026-03-27 at 12.11.40.png](/Documentation/attachments/52474c45-80c8-4ead-9f3e-101ea8ef9122.png)
 
 When orders are created and added to a route, the route can be released to a driver.  It will be displayed in the mobile app for the assigned driver.
 

@@ -11,7 +11,7 @@ sidebar_position: 10
 
 As a Geo2 user, you can request assistance through the Support and Feature request forms in Hub.  The options are shown under the Question toolbar icon.
 
-![Screenshot 2026-03-10 at 13.02.30.png](../attachments/1b233dab-7324-4260-b4d5-071f5a46760b.png)
+![Screenshot 2026-03-10 at 13.02.30.png](/Documentation/attachments/1b233dab-7324-4260-b4d5-071f5a46760b.png)
 
 # Data Removal Request
 
@@ -39,7 +39,7 @@ The following information will be useful:
 
 Do not hesitate to attach some files and screenshots if you think it will help to solve your question.
 
-![](../attachments/c2f7f606-9402-4859-ad99-1b66d0fec4f0.png)
+![](/Documentation/attachments/c2f7f606-9402-4859-ad99-1b66d0fec4f0.png)
 
 Once the form is filled in, press the `Submit` button.  A support request will be created in our service desk and you will receive an email acknowledgement with a link to the browser-based service desk interface for further communication.
 
@@ -59,6 +59,6 @@ The following information will be useful:
 
 5. How do you solve the issue in the application now (without this new functionality)?
 
-![](../attachments/e3c902eb-0d71-49da-a7f9-524698123000.png)
+![](/Documentation/attachments/e3c902eb-0d71-49da-a7f9-524698123000.png)
 
 Once the form is filled in, press the `Submit` button.  A feature request will be created in our service desk and you will receive an email acknowledgement with a link to the browser-based service desk interface for further communication.

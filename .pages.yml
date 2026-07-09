@@ -37,3 +37,10 @@ content:
       - name: body
         label: Body
         type: rich-text
+        options:
+          format: markdown
+          media: attachments
+          switcher: true
+          path: Documentation/attachments
+          extensions: [png, jpg, jpeg, gif, webp]
+          rename: random

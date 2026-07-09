@@ -11,7 +11,7 @@ sidebar_position: 8
 
 To review the history of PODs recorded by the user, click on PODs page.  By clicking on the POD, you can view its details. 
 
-![App 225.png](../../attachments/dc73e146-5020-46c2-9d16-6793a344f68e.png)
+![App 225.png](/Documentation/attachments/dc73e146-5020-46c2-9d16-6793a344f68e.png)
 
 Depending on the data provided during POD creation, you will see the following details in POD history:
 
@@ -35,7 +35,7 @@ Depending on the data provided during POD creation, you will see the following d
 | Photos | Photos added/recorded during a POD creation. |
 | Signature | Signature recorded during a POD creation. |
 
-![App 227.png](../../attachments/acbe81b9-4ba1-4a05-96c2-25402924f1cb.png)![App 226.png](../../attachments/ce2f422b-b5f4-4f8c-8734-d5db820e4d15.png)![App 228.png](../../attachments/01fed016-7b78-436d-86d5-bc9efecb4733.png)
+![App 227.png](/Documentation/attachments/acbe81b9-4ba1-4a05-96c2-25402924f1cb.png)![App 226.png](/Documentation/attachments/ce2f422b-b5f4-4f8c-8734-d5db820e4d15.png)![App 228.png](/Documentation/attachments/01fed016-7b78-436d-86d5-bc9efecb4733.png)
 
 # POD Custom Fields
 
@@ -44,11 +44,11 @@ In the Environment settings, you can set up custom fields to collect additional 
 - Ask for the driver's name
 - Ask if the parcel is intact
 
-![Screenshot 2025-12-29 at 12.19.07.png](../../attachments/cd444133-a6d9-478f-a3b2-6f5cf086741c.png)
+![Screenshot 2025-12-29 at 12.19.07.png](/Documentation/attachments/cd444133-a6d9-478f-a3b2-6f5cf086741c.png)
 
 That's how the fields would look in POD history:
 
-![App 226.png](../../attachments/ce2f422b-b5f4-4f8c-8734-d5db820e4d15.png)
+![App 226.png](/Documentation/attachments/ce2f422b-b5f4-4f8c-8734-d5db820e4d15.png)
 
 # Photo and Signature Re-uploading
 

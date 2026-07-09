@@ -21,14 +21,14 @@ Public tracking links can be sent via email and SMS notifications.  You do not 
 | Subject | Subject for the notification email.  Not available for an SMS notification.  You can use these tokens for Public tracking emails: <br/> **{CONTACT\_NAME}** - recipient name <br/> **{ORDER\_KEY}** - order key <br/> **{COMPANY\_NAME}** - сompany name <br/> **{ENVIRONMENT\_NAME}** - environment name |
 | Body | Body of the notification email/SMS.  Ensure that the wording of the email is appropriate for the trigger you have configured.  You can use the next tokens for an email/SMS notification: <br/> **{CONTACT\_NAME}** - recipient name <br/> **{ORDER\_KEY}** - order key <br/> **{PUBLIC\_TRACKING}** - public tracking link <br/> **{COMPANY\_NAME}** - company name <br/> **{ENVIRONMENT\_NAME}** - environment name <br/> **{DELIVERY\_ETA}** - estimated time of arrival <br/> Without the token PUBLIC\_POD, the public POD link will not be included in an SMS notification. <br/> The limit for an SMS notification is **120 symbols**. |
 
-![Screenshot 2026-04-07 at 15.40.45.png](../../../attachments/fb3ee274-304e-4c1d-a2c4-90e98d0a8be1.png)![Screenshot 2026-04-07 at 15.40.53.png](../../../attachments/b15fcbe3-ebca-4982-81dc-6a3e67a3d529.png)
+![Screenshot 2026-04-07 at 15.40.45.png](/Documentation/attachments/fb3ee274-304e-4c1d-a2c4-90e98d0a8be1.png)![Screenshot 2026-04-07 at 15.40.53.png](/Documentation/attachments/b15fcbe3-ebca-4982-81dc-6a3e67a3d529.png)
 
 Once the route status changes to the configured value (e.g. In Transit), an email/SMS notification with a public tracking link will be sent to the recipient's email address/mobile phone number.  For this to work, it is important that the recipient’s contact details (email address and mobile phone number) are specified in the order.
 
 Here is an example of the public tracking email:
 
-![Screenshot 2026-04-07 at 15.44.53.png](../../../attachments/6aeef591-3c69-4206-8aa5-6bd39767f3a2.png)
+![Screenshot 2026-04-07 at 15.44.53.png](/Documentation/attachments/6aeef591-3c69-4206-8aa5-6bd39767f3a2.png)
 
 By pressing the `Check` button or following the pasted link, a recipient will see tracking details.
 
-![Screenshot 2026-04-07 at 15.47.21.png](../../../attachments/1a8a14f5-660c-4231-a0bf-03b9bf188768.png)
+![Screenshot 2026-04-07 at 15.47.21.png](/Documentation/attachments/1a8a14f5-660c-4231-a0bf-03b9bf188768.png)

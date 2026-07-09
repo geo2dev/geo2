@@ -23,6 +23,6 @@ Display preferences in Settings → Environment determine the visual aspects of 
 | Environment address | Your organization address will be populated to the environment address once it is created.  The environment address is used in documents created in the environment, such as PODs.  Required fields are Address line 1, City, and Country.  You can provide the address manually by typing it into Address line 1 and selecting the relevant address.  If there is no variant you were looking for, just provide your data to the address form and we will save it. |
 | Logo | The logo gives the environment a distinct visual identity when selecting an environment in the user interface and in PDF layouts. |
 
-![Screenshot 2026-04-01 at 12.08.41.png](../../../attachments/5b5cc52e-b78e-4571-b498-63d610f0ff53.png)![Screenshot 2026-04-01 at 12.08.53.png](../../../attachments/4ac8c48b-fea4-4a18-93e9-836be99b0e71.png)
+![Screenshot 2026-04-01 at 12.08.41.png](/Documentation/attachments/5b5cc52e-b78e-4571-b498-63d610f0ff53.png)![Screenshot 2026-04-01 at 12.08.53.png](/Documentation/attachments/4ac8c48b-fea4-4a18-93e9-836be99b0e71.png)
 
 Remember to press the `Update` button to save changes.

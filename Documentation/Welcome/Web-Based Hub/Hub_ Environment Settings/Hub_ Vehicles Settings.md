@@ -15,11 +15,11 @@ Vehicles can be optionally assigned to deliver routes with orders.  You can add
 
 By pressing the Add button in Settings → Environment → Vehicles in Hub, you will see the dialog to fill in the information.  Required fields are Key, Type, and Speed factor.  All other fields are optional. Hovering over the `Question` on a field will display a prompt explaining its meaning and the expected data to put there.
 
-![Screenshot 2026-04-06 at 15.50.12.png](../../../attachments/ee61a3e8-c72c-4e46-861d-efb21d41e233.png)![Screenshot 2026-04-06 at 15.50.19.png](../../../attachments/8e122193-e934-4099-be1b-6dddd00c1468.png)
+![Screenshot 2026-04-06 at 15.50.12.png](/Documentation/attachments/ee61a3e8-c72c-4e46-861d-efb21d41e233.png)![Screenshot 2026-04-06 at 15.50.19.png](/Documentation/attachments/8e122193-e934-4099-be1b-6dddd00c1468.png)
 
 By pressing the `Measures` button, you will see additional fields like Weight and Volume capacity, Gross weight, Height, Width, Length, Emission factor, and Speed factor.
 
-![Screenshot 2026-04-06 at 15.50.58.png](../../../attachments/7dd6b31f-b075-480e-8bdf-db3a93739f81.png)
+![Screenshot 2026-04-06 at 15.50.58.png](/Documentation/attachments/7dd6b31f-b075-480e-8bdf-db3a93739f81.png)
 
 The properties of each vehicle are:
 
@@ -43,15 +43,15 @@ The properties of each vehicle are:
 
 Once information is provided, press the `Create` button to save changes.
 
-![Screenshot 2026-04-06 at 15.54.01.png](../../../attachments/2e215f31-75b2-4e2b-bfa5-c55ec53c737f.png)![Screenshot 2026-04-06 at 15.54.15.png](../../../attachments/16afbefe-8f89-45ff-b0cc-86f66dfbd2aa.png)
+![Screenshot 2026-04-06 at 15.54.01.png](/Documentation/attachments/2e215f31-75b2-4e2b-bfa5-c55ec53c737f.png)![Screenshot 2026-04-06 at 15.54.15.png](/Documentation/attachments/16afbefe-8f89-45ff-b0cc-86f66dfbd2aa.png)
 
 You can edit vehicle properties by clicking the `Edit` icon.  Remember to press the `Save` button to save changes.
 
-![Screenshot 2026-04-06 at 15.54.57.png](../../../attachments/5db5fdc2-ec24-44d4-b074-e70ae8dc0f2d.png)
+![Screenshot 2026-04-06 at 15.54.57.png](/Documentation/attachments/5db5fdc2-ec24-44d4-b074-e70ae8dc0f2d.png)
 
 You can select a vehicle to `Delete` it.  For data integrity, it is best to not delete a vehicle once it has started to be used.
 
-![Screenshot 2026-04-06 at 15.55.25.png](../../../attachments/9fd9b392-dabd-458b-942d-c41dfe0f9bc6.png)
+![Screenshot 2026-04-06 at 15.55.25.png](/Documentation/attachments/9fd9b392-dabd-458b-942d-c41dfe0f9bc6.png)
 
 # Import Vehicles
 
@@ -60,7 +60,7 @@ You can import vehicle data into Geo2 Hub → Settings → Environment → Vehic
 - Upload your spreadsheet file with column mapping
 - Manually paste or type your data into the table.
 
-![Screenshot 2026-04-06 at 15.56.44.png](../../../attachments/c67533b6-9122-432e-a126-5b7d2e8e5a95.png)
+![Screenshot 2026-04-06 at 15.56.44.png](/Documentation/attachments/c67533b6-9122-432e-a126-5b7d2e8e5a95.png)
 
 ## Upload Spreadsheet File with Column Mapping
 
@@ -75,25 +75,25 @@ On the dialog, you will see 4 columns:
 | Destination column | Lets the user select or confirm which system field the uploaded column should map to. |
 | Matching result | Indicates how well the system matched each column, including match strength and confidence percentage. |
 
-![Screenshot 2026-04-06 at 15.59.31.png](../../../attachments/d94ba19c-d11e-46b1-89e8-f2107394f1a4.png)
+![Screenshot 2026-04-06 at 15.59.31.png](/Documentation/attachments/d94ba19c-d11e-46b1-89e8-f2107394f1a4.png)
 
 The system will attempt to auto-match fields like Type, Depot, Weight capacity, etc. Matches are clearly marked with a green tick for perfect or high matches, while unmatched columns are shown with a yellow warning icon. You can adjust matches or choose to skip fields, including required ones, these can be added later.
 
-![Screenshot 2026-04-06 at 15.59.44.png](../../../attachments/6430dc9a-d1df-4f55-97b6-79f82d3dc164.png)
+![Screenshot 2026-04-06 at 15.59.44.png](/Documentation/attachments/6430dc9a-d1df-4f55-97b6-79f82d3dc164.png)
 
 Tooltips are available to help clarify each data point.
 
-![Screenshot 2026-04-06 at 15.59.38.png](../../../attachments/3c8b2695-42c2-43e0-8eee-a32f60a5c297.png)
+![Screenshot 2026-04-06 at 15.59.38.png](/Documentation/attachments/3c8b2695-42c2-43e0-8eee-a32f60a5c297.png)
 
 Once everything is mapped correctly, click `Apply`. Your data will appear in the table, where you can review, edit, or fix any errors before finalizing.
 
-![Screenshot 2026-04-06 at 16.01.05.png](../../../attachments/8934cc23-7cce-4b81-80c2-d195e34bf81a.png)
+![Screenshot 2026-04-06 at 16.01.05.png](/Documentation/attachments/8934cc23-7cce-4b81-80c2-d195e34bf81a.png)
 
 ## Manually Type or Paste Data
 
 The spreadsheet interface column headings guide you on the type of data expected in each column.  Hover over a column title to see a tooltip with additional details and explanations. If you have prepared the data in another spreadsheet, you can copy and paste them in.
 
-![Screenshot 2026-04-06 at 16.01.05.png](../../../attachments/8934cc23-7cce-4b81-80c2-d195e34bf81a.png)
+![Screenshot 2026-04-06 at 16.01.05.png](/Documentation/attachments/8934cc23-7cce-4b81-80c2-d195e34bf81a.png)
 
 The limit for the import of vehicles is **500**.  You cannot paste more into the spreadsheet.
 
@@ -130,7 +130,7 @@ The import options are:
 | Empty fields will clear existing vehicle property values | If updating a vehicle and a field value in the spreadsheet is empty, blank the existing vehicle property even though it has some data in it.  If not selected, an empty field value will not overwrite an existing vehicle value. |
 | Save these options as default | Remember this configuration of options for subsequent imports. |
 
-![](../../../attachments/3b33ea9d-0501-4df0-b7cb-8dd6fbacf41c.png)
+![](/Documentation/attachments/3b33ea9d-0501-4df0-b7cb-8dd6fbacf41c.png)
 
 Click the `Import` button to import vehicles.  The import process feeds back any errors that it encounters.
 
@@ -140,4 +140,4 @@ Vehicles will be imported and displayed in the Vehicles list in Settings → Env
 
 You can also download the example of the spreadsheet with typed-in information for a vehicle import.
 
-[Vehicle imports.xlsx](../../../attachments/75280ae1-73e9-4ac9-9c12-53e366e8f9e6.xlsx)
+[Vehicle imports.xlsx](/Documentation/attachments/75280ae1-73e9-4ac9-9c12-53e366e8f9e6.xlsx)

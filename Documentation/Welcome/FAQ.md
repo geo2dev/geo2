@@ -100,7 +100,7 @@ All PODs and their history can be viewed in both the mobile app and the Geo2 Hub
 
 There is no need to install anything on your PC. All you need is to register your account on [**Geo2 Hub**](https://hub.geo2.com/en-GB/auth/register) or the mobile app. For mobile phone, you just need to find Geo2 on Google Play or App Store and install it. Alternatively, you can scan this QR code to install the app for iOS or Android:
 
-![QR code.png](../attachments/718fd541-67d1-4de4-be77-7087a74b1e33.png)
+![QR code.png](/Documentation/attachments/718fd541-67d1-4de4-be77-7087a74b1e33.png)
 
 </details>
 

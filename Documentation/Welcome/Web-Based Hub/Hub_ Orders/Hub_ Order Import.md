@@ -11,7 +11,7 @@ sidebar_position: 2
 
 It is possible to import multiple orders at once via the `Import` button on Orders page.  This opens a spreadsheet interface for your data entry.
 
-![Screenshot 2025-08-29 at 14.07.30.png](../../../attachments/7fefadd9-234e-4aa0-b179-c10eca953f3d.png)
+![Screenshot 2025-08-29 at 14.07.30.png](/Documentation/attachments/7fefadd9-234e-4aa0-b179-c10eca953f3d.png)
 
 # Spreadsheet Interface
 
@@ -20,7 +20,7 @@ You can import order data into Geo2 Hub using two methods:
 - Upload your spreadsheet file with column mapping
 - Manually paste or type your data into the table.
 
-![Screenshot 2025-08-29 at 14.08.17.png](../../../attachments/f40f657b-e0e9-4fb0-b196-561f3fd0af94.png)
+![Screenshot 2025-08-29 at 14.08.17.png](/Documentation/attachments/f40f657b-e0e9-4fb0-b196-561f3fd0af94.png)
 
 ## Upload Spreadsheet File with Column Mapping
 
@@ -37,29 +37,29 @@ On the dialog, you will see 4 columns:
 | Destination column | Lets the user select or confirm which system field the uploaded column should map to. |
 | Matching result | Indicates how well the system matched each column, including match strength and confidence percentage. |
 
-![Screenshot 2025-08-29 at 14.13.00.png](../../../attachments/bd3a4339-f96e-461e-8b39-ed3f5a515887.png)
+![Screenshot 2025-08-29 at 14.13.00.png](/Documentation/attachments/bd3a4339-f96e-461e-8b39-ed3f5a515887.png)
 
 The system will attempt to auto-match fields like Route, Depot, Time at stop, etc. Matches are clearly marked with a green tick for perfect or high matches, while unmatched columns are shown with a yellow warning icon. You can adjust matches or choose to skip fields, including required ones, these can be added later.
 
-![Screenshot 2025-08-29 at 14.13.07.png](../../../attachments/5678d92e-a1a7-4d34-9eae-e29b6db0c1ad.png)
+![Screenshot 2025-08-29 at 14.13.07.png](/Documentation/attachments/5678d92e-a1a7-4d34-9eae-e29b6db0c1ad.png)
 
 Tooltips are available to help clarify each data point.
 
-![Screenshot 2025-08-29 at 14.13.14.png](../../../attachments/2c9e2c52-bb27-4f3b-932e-6873731c99d1.png)
+![Screenshot 2025-08-29 at 14.13.14.png](/Documentation/attachments/2c9e2c52-bb27-4f3b-932e-6873731c99d1.png)
 
 Once everything is mapped correctly, click `Apply`. Your data will appear in the table, where you can review, edit, or fix any errors before finalizing.
 
-![Screenshot 2025-08-29 at 14.13.40.png](../../../attachments/e0bbc8d2-cef8-4d2e-85bb-84bcb784d6c7.png)
+![Screenshot 2025-08-29 at 14.13.40.png](/Documentation/attachments/e0bbc8d2-cef8-4d2e-85bb-84bcb784d6c7.png)
 
 ## Manually Type or Paste Data
 
 The spreadsheet interface column headings guide you on the type of data expected in each column. Hover over a column title to see a tooltip with additional details and explanations.
 
-![Screenshot 2025-08-29 at 14.24.28.png](../../../attachments/8804ead2-ae36-4504-a96e-166ee5ad3770.png)
+![Screenshot 2025-08-29 at 14.24.28.png](/Documentation/attachments/8804ead2-ae36-4504-a96e-166ee5ad3770.png)
 
 If you have prepared the data in another spreadsheet, you can copy and paste them in.  It is also possible to import a file from your device without column mapping by pressing the `folder` icon.
 
-![Screenshot 2025-08-29 at 14.24.43.png](../../../attachments/c4eebf75-2e18-4061-b7cc-cac495aa1eea.png)
+![Screenshot 2025-08-29 at 14.24.43.png](/Documentation/attachments/c4eebf75-2e18-4061-b7cc-cac495aa1eea.png)
 
 The limit for the import of orders is **500**.  You cannot paste more into the spreadsheet. The last eight columns for the recipient address are important for successful geo-coding.  Required fields are highlighted with an asterisk ( \* ) near their names.
 
@@ -105,7 +105,7 @@ Once information is provided, press:
 - `Reset` to clear the spreadsheet
 - `Import` to start the data import
 
-![Screenshot 2025-07-21 at 12.27.39.png](../../../attachments/7d1ae228-05fc-40bb-acda-346530857b61.png)
+![Screenshot 2025-07-21 at 12.27.39.png](/Documentation/attachments/7d1ae228-05fc-40bb-acda-346530857b61.png)
 
 ## Import Options
 
@@ -118,7 +118,7 @@ The import options are:
 | Empty fields will clear existing order property values | If updating an order and a field value in the spreadsheet is empty, blank the existing order property even though it has some data in it.  If not selected, an empty field value will not overwrite an existing order value. |
 | Save these options as default | Remember this configuration of options for subsequent imports |
 
-![Screenshot 2025-03-11 at 16.54.25.png](../../../attachments/05014290-af83-459f-a822-f4108e2ff70d.png)
+![Screenshot 2025-03-11 at 16.54.25.png](/Documentation/attachments/05014290-af83-459f-a822-f4108e2ff70d.png)
 
 Click the `Import` button to import orders.  The import process feeds back any errors that it encounters.
 
@@ -128,4 +128,4 @@ Orders will be imported and displayed in the Orders list.
 
 You can also download the example of the spreadsheet with typed-in information for an order import.
 
-[Workbook Orders.xlsx](../../../attachments/561ebc19-a67c-405a-a15d-1d5014bce99f.xlsx)
+[Workbook Orders.xlsx](/Documentation/attachments/561ebc19-a67c-405a-a15d-1d5014bce99f.xlsx)

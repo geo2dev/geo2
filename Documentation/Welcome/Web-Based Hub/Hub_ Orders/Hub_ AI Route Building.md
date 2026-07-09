@@ -24,15 +24,15 @@ It is up to you to ensure that you are not overcommitting a vehicle by it being 
 
 When you select orders on Orders page, you initiate the building of routes across all available vehicles for the selected orders by pressing the `AI route building` button:
 
-![Screenshot 2025-08-29 at 14.42.59.png](../../../attachments/f324e932-979c-4384-a96d-87bba5fc6f44.png)
+![Screenshot 2025-08-29 at 14.42.59.png](/Documentation/attachments/f324e932-979c-4384-a96d-87bba5fc6f44.png)
 
 Learn how to run the route building:
 
-[Load building.mp4](../../../attachments/e97e6213-f28e-4a79-9740-a13c618fb1aa.mp4)
+[Load building.mp4](/Documentation/attachments/e97e6213-f28e-4a79-9740-a13c618fb1aa.mp4)
 
 This will open the `AI route building` dialog. At the top of the dialog, you will see the number of selected orders before. If you have selected an order that is already assigned to a route, it will be excluded and the reason is provided.
 
-![Screenshot 2025-08-29 at 14.49.23.png](../../../attachments/842a56d5-6b87-4755-8bfa-e86cf9908197.png)
+![Screenshot 2025-08-29 at 14.49.23.png](/Documentation/attachments/842a56d5-6b87-4755-8bfa-e86cf9908197.png)
 
 ## AI Route Building Options
 
@@ -48,7 +48,7 @@ You have a number of options to fine-tune the route building:
 
 You can dismiss the dialog by pressing the `Close` button. If you press `Generate`, the route building will start.
 
-![Screenshot 2025-08-29 at 14.49.30.png](../../../attachments/a80d4f7b-82d2-4fdb-8f04-ab438388f692.png)
+![Screenshot 2025-08-29 at 14.49.30.png](/Documentation/attachments/a80d4f7b-82d2-4fdb-8f04-ab438388f692.png)
 
 ## AI Route Building Process
 
@@ -78,7 +78,7 @@ Once routes are generated, you will see the results in the table view on the lef
 | Depot      | Depot key. Assigned to a route depot.                                         |
 | Vehicle    | Vehicle key. Assigned to a route vehicle.                                     |
 
-![Screenshot 2025-08-29 at 14.50.31.png](../../../attachments/659f1810-dc76-43d7-a722-629127db94e0.png)
+![Screenshot 2025-08-29 at 14.50.31.png](/Documentation/attachments/659f1810-dc76-43d7-a722-629127db94e0.png)
 
 The list of routes could be scrollable to check all created routes. By pressing the route key on one of the created routes, the selected route will be opened in the new tab of the browser.
 
@@ -96,8 +96,8 @@ Examples:
 
 Route building creates routes like any other - you can access them through the Routes page. You can visualise generated routes by pressing the `Map view` button - see [Hub: Map View](../Hub_%20Map%20View.md).
 
-![Screenshot 2025-08-29 at 14.50.40.png](../../../attachments/fef5c366-410f-428e-a211-d59ba8ca92e7.png)![Screenshot 2025-11-05 at 16.49.02.png](../../../attachments/90696b81-38b5-4155-9df8-5b091f3be44d.png)
+![Screenshot 2025-08-29 at 14.50.40.png](/Documentation/attachments/fef5c366-410f-428e-a211-d59ba8ca92e7.png)![Screenshot 2025-11-05 at 16.49.02.png](/Documentation/attachments/90696b81-38b5-4155-9df8-5b091f3be44d.png)
 
 You can return to the route building results later by pressing the `Route building logs` button in the header toolbar and pressing the card of the route building session you want to review.
 
-![Screenshot 2025-08-29 at 14.48.33.png](../../../attachments/5bdceb5e-6f1d-49c4-82c9-4ba532c686e5.png)
+![Screenshot 2025-08-29 at 14.48.33.png](/Documentation/attachments/5bdceb5e-6f1d-49c4-82c9-4ba532c686e5.png)
