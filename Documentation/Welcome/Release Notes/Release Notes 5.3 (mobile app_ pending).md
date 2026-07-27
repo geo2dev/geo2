@@ -9,7 +9,7 @@ Hub:
 
 Mobile app:
 
-2026-07-28
+2026-07-29
 
 # New Features
 
