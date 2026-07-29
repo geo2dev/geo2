@@ -13,9 +13,9 @@ To create your account, provide your email address and press `Continue with emai
 
 ![20260428_1 (2).png](../../attachments/98c52198-866f-4802-8f29-52c611825505.png)
 
-Once you provide an email address and press `Continue with email`, the system checks if the email is already registered. If it is a new email address, you will be asked to set up your account by creating a password. The password should contain at least 8 characters, 1 uppercase and lowercase, 1 number and 1 special character. Your email and password enable you to sign in to Geo2 mobile app and Hub.
+Once you provide an email address and press `Continue with email`, the system checks if the email is already registered. If it is a new email address, you will be asked to set up your account by creating a password. The password should contain at least 8 characters, 1 uppercase and lowercase, 1 number and 1 special character ( ^ $ \* . \[ \] { } ( ) ? " ! @ # % & / \ , > < ' : ; | \_ ~). Your email and password enable you to sign in to Geo2 mobile app and Hub.
 
-![20260428_2.png](../../attachments/d14d2362-d852-4424-93e5-429f09b43fe7.png)![20260428_3.png](../../attachments/c7d80e1e-7ad6-4507-86d7-d9e41acedf8b.png)
+![20260428_3.png](../../attachments/c7d80e1e-7ad6-4507-86d7-d9e41acedf8b.png)
 
 ## Verify Email
 
