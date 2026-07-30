@@ -26,13 +26,13 @@ With the AI assistant, you can also:
 - Get the list of routes planned for today
 - Get step-by-step guidance on using different features
 
-![20260728_5.png](../../attachments/437ed753-411d-48a2-945d-4dc1e10cc8f0.png)![20260728_4.png](../../attachments/1fd572a5-f1c2-4083-98e4-523b4ca9fab7.png)
+![20260729_1.png](../../attachments/5ce406f1-fa35-4552-8c93-dc6d151cd0c1.png)![20260728_4.png](../../attachments/1fd572a5-f1c2-4083-98e4-523b4ca9fab7.png)
 
 # Plan Route
 
 On Map page, by clicking the `Plan route` button, you can choose to create a route if you have permission to do it.  Check more details about [Mobile App: Routes and Stops](Mobile%20App_%20Routes%20and%20Stops.md).
 
-![20260728_5.png](../../attachments/437ed753-411d-48a2-945d-4dc1e10cc8f0.png)![20260728_6.png](../../attachments/1995b61f-a1a9-49e3-9b3e-6dceaad121f5.png)![20260728_7.png](../../attachments/09fdae08-24d1-4265-b145-76b8d2aac220.png)
+![20260729_1.png](../../attachments/5ce406f1-fa35-4552-8c93-dc6d151cd0c1.png)![20260728_6.png](../../attachments/1995b61f-a1a9-49e3-9b3e-6dceaad121f5.png)![20260728_7.png](../../attachments/09fdae08-24d1-4265-b145-76b8d2aac220.png)
 
 # Assigned Routes
 
@@ -44,7 +44,7 @@ If neither applies, you will see an empty map with a relevant call to action.
 
 After completing a route, if other routes remain today, a “Good job” bottom sheet appears with a `Go to next route` button that opens the next earliest incomplete route. If all today's routes are complete, the next step depends on your permissions: if you can create routes, you see a `Plan route` button; otherwise, you are directed to the `Routes` screen. When no routes exist for today, the empty state adjusts accordingly: if you can create routes, you are prompted to plan one. If you cannot create routes, you are redirected to the Routes screen, where you can view upcoming routes, each displayed with a small map preview.
 
-![20260728_11.png](../../attachments/b53de272-7951-4061-a069-807b90e56233.png)![20260728_12.png](../../attachments/f7b129d9-2b90-4a92-8586-698611efbf3d.png)
+![20260729_3.png](../../attachments/58e62d54-23b5-4710-bd67-1dd6f19ef110.png)![20260728_12.png](../../attachments/f7b129d9-2b90-4a92-8586-698611efbf3d.png)
 
 # Menu
 

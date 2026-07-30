@@ -15,6 +15,6 @@ If you have not received an email with a verification code, press the `Resend em
 
 By pressing the `Continue` button, you will be logged in and redirected to Main page, your password will be saved. A confirmation will appear:
 
-![20260728_3.png](../../../attachments/154de50c-b3d0-46d9-b26c-6d4b2e6a55b6.png)
+![20260729_2.png](../../../attachments/795722e3-ec18-438a-a035-9d21dd99ed65.png)
 
 You can use it to sign in to the mobile app.
