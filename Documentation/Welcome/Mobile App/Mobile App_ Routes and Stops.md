@@ -135,7 +135,7 @@ To open the map, tap the `map` icon next on on the Tap to add a stop (more stops
 
 When the map opens, it centers on your current location if location permission has been granted. Drag the pin to the desired location to identify the address. After the address is found, it is displayed at the bottom of the screen. Tap `Confirm` to use the selected location.
 
-![20260729_64.png](../../attachments/fd399def-91f1-485f-bee4-cc5f9fb1f234.png)
+![20260729_64.png](../../attachments/fd399def-91f1-485f-bee4-cc5f9fb1f234.png)![20260730_1.png](../../attachments/ed098d2e-e88c-4b71-95ed-8f2a448535f2.png)
 
 After confirmation, you are returned to the previous screen with the address automatically filled in. When adding multiple stops, you can immediately continue adding the next stop or reopen the map to select another location.
 
@@ -247,19 +247,19 @@ After adding all stops to the route, you need to press the `Finish adding stops`
 
 # Adding/Displaying Breaks
 
-For drivers — especially solo drivers managing long routes — planned breaks are essential. They provide a structured way to **refuel or recharge the vehicle**, take a rest, or pause safely between deliveries without disrupting the overall schedule. By integrating breaks directly into the route, you can maintain efficiency while also supporting your well-being and compliance with driving regulations. The route view displays breaks alongside order stops, making them a natural part of the journey rather than an afterthought. With the appropriate permissions enabled in your environment, breaks can be added both in the mobile app and in Geo2 Hub.
+For drivers — especially solo drivers managing long routes — planned breaks are essential. They provide a structured way to **refuel or recharge the vehicle**, take a rest, or pause safely between deliveries without disrupting the overall schedule. By integrating breaks directly into the route, you can maintain efficiency while also supporting your well-being and compliance with driving regulations. The route view displays breaks alongside order stops, making them a natural part of the journey rather than an afterthought. With the appropriate permissions enabled in your environment, breaks can be added both in the mobile app and in Geo2 Hub. Adding breaks is available with all subscription levels, starting from Free level.
 
-To add a break, tap the `Add break` button at the top of the stop list. This option becomes available once at least one stop has been added to the route. You will be prompted to define the break duration (in minutes) and optionally assign a location. Locations can be added by typing an address, scanning, or using voice search.
+To add a break, tap the `Add break` button at the top of the stop list on Route view page. This option becomes available once at least one stop has been added to the route. You will be prompted to define the break duration (in minutes) and optionally assign a location. Locations can be added by typing an address, scanning, using voice search or searching location on the map.
 
-![20260429_73.png](../../attachments/09a07068-fc85-4ebd-bdda-f0c718bf348e.png)![20260429_74.png](../../attachments/568e21fd-3315-4a80-b671-b637c715f4d3.png)
+![20260730_2.png](../../attachments/113425f5-501c-40f7-86f3-8bc7974f36ae.png)![20260730_3.png](../../attachments/2399372e-94a4-42f9-b0d9-9ccfe50ab150.png)![20260730_4.png](../../attachments/e87b673a-7532-46f5-a09a-c8101c785fd2.png)
 
 Once confirmed, the break is added to the end of the stop list, but it can be easily repositioned using drag-and-drop to fit your preferred sequence. The route is automatically recalculated to include the new break, ensuring accurate timing and navigation.
 
-![20260429_75.png](../../attachments/6d0ea94e-4b96-440e-ae2a-82b864f17e05.png)![20260429_76.png](../../attachments/fc9300a6-cdb2-4a6f-ad84-cebc6a63f3bf.png)
+![20260730_5.png](../../attachments/6fd37fd5-0b38-4631-99fa-9f2f419629ea.png)![20260730_6.png](../../attachments/bf7d56b4-e823-4768-abc3-4e11c847840f.png)![20260730_7.png](../../attachments/8ae9cd5e-902a-41ca-af4f-9414071ca5c7.png)![20260730_8.png](../../attachments/79453e5e-06d4-48ff-bf53-66f8848383f6.png)
 
 If a break includes a location, it will also appear on the map. Selecting either the break card in the stop list or its map marker opens the Break details page. From there, you can start navigation using your preferred app, such as Waze, Google Maps, or Apple Maps, and mark the break as completed once finished. You can also edit or remove the break from the route at any time.
 
-![20260429_77.png](../../attachments/ced17f43-8dfd-4f80-87e3-9ee0f240f831.png)
+![20260730_9.png](../../attachments/f2482b2e-268b-4831-aa12-9226ffffc49b.png)
 
 # Drag-and-Drop Stops
 
@@ -267,21 +267,21 @@ Stop cards could be drag-and-dropped to any position of the route.  For it, you
 
 Route start and end cards cannot be moved.
 
-![20260429_78.png](../../attachments/c096706c-25a4-48a5-bcb9-e4b341204162.png)![20260429_79.png](../../attachments/7ceba41c-cfc4-44b9-bad5-beff15a69164.png)![20260429_80.png](../../attachments/4f8de9dc-81fb-4313-891d-c9187ddfdabc.png)
+![20260730_10.png](../../attachments/090f49e0-3b7e-472c-86ed-f7a619d0e9e3.png)![20260730_11.png](../../attachments/35d2a8c9-f692-4958-8577-d9475deced3b.png)![20260730_12.png](../../attachments/e6427bb4-607e-46ee-8667-6688b25a721e.png)
 
 # Calibrating Route
 
-Once stops are added to a route, we run automatic route optimization and calibration so you can choose the fastest and/or shortest route. You can also press the `Actions` (arrow) button and select `Calibrate` option to update the planned timings and distance of the route without modifying the order list.  Example: You created 4 stops one by one, didn't change their position, and clicked on the `Calibrate` button.  The route didn't change but the planned time changed.  Changes are saved automatically.
+Once stops are added to a route, we run automatic route optimization and calibration so you can choose the fastest and/or shortest route. You can also press the `: (three dots)` icon on Route view page and select `Calibrate` option to update the planned timings and distance of the route without modifying the order list.  Example: You created 4 stops one by one, didn't change their position, and clicked on the `Calibrate` button.  The route didn't change but the planned time changed.  Changes are saved automatically.
 
 The Calibrate option is available if a route has at least 1 order. 
 
 Before route calibration:
 
-![20260429_81.png](../../attachments/152a382a-b72f-4cfc-a810-9dbe00834210.png)
+![20260730_13.png](../../attachments/4454f564-fcdd-40e0-aa60-65534758883f.png)
 
 After route calibration:
 
-![20260429_82.png](../../attachments/242898d6-40e7-44c4-b475-564057e45179.png)
+![20260730_14.png](../../attachments/88160e81-22c1-4794-9739-08aea718997e.png)
 
 We apply automatic calibration in most cases so you don't need to press `Calibrate`:
 
@@ -304,9 +304,9 @@ If the route already calibrated, the Calibrate button will be disabled.
 
 # Optimizing Route with Time Windows
 
-After adding stops to a route and pressing `Finish adding stops` button, we run automatic route optimization and calibration so you can select the fastest or shortest route. If the route includes at least one stop with specified Required from and/or Required to fields and you have an Advanced or Enterprise subscription, the system optimizes the route with time windows. To use the Optimize with time windows option separately, press the `Actions` (arrow) button and select the `Optimize with time windows` option. Route optimization requires at least two stops, with at least one stop having specified required time slots (either “Required from”, “Required to”, or both).
+After adding stops to a route and pressing `Finish adding stops` button, we run automatic route optimization and calibration so you can select the fastest or shortest route. If the route includes at least one stop with specified Required from and/or Required to fields and you have an Advanced or Enterprise subscription, the system optimizes the route with time windows. To use the Optimize with time windows option separately, press the `: (3 dots)` icon on Route view page and select the `Optimize with time windows` option. Route optimization requires at least two stops, with at least one stop having specified required time slots (either “Required from”, “Required to”, or both).
 
-![20260430_1.png](../../attachments/9a956949-a9ff-4b08-85ce-058f87f3c24f.png)
+![20260730_15.png](../../attachments/2c911c2a-68fc-4c15-bc83-f30af5b7b020.png)
 
 When you press `Optimize with time windows`, the geo-locations of the assigned route start point and the stops will be used to suggest an optimum driving route as well as to match the required time windows for each stop. The time window specified using the `Required from` and `Required to` fields inside a stop is not considered a hard constraint by the system. That is, the system doesn't fail if the stop cannot be visited during the time window; instead, the system tries to find a route that visits the stop during its time window, but if time-window violations are inevitable, the system tries to find a solution that minimizes the time-window violation time for all stops in the problem.
 
@@ -316,23 +316,23 @@ Changes are saved automatically.
 
 Before route optimization:
 
-![20260430_2.png](../../attachments/4c89a4f4-cc75-4599-ad75-1b6a0fe6dd88.png)
+![20260730_16.png](../../attachments/d0e9a2bf-2f0e-4a17-8d3f-c6fd1293a461.png)
 
 After route optimization with time windows:
 
-![20260430_3.png](../../attachments/d07d8a35-6d57-4efa-9e49-9fdfff436aed.png)
+![20260730_17.png](../../attachments/6cd2e1aa-f558-45f5-90be-8ea0c9c8fbbd.png)
 
 If the route is already optimized with time windows, the Optimize button will be disabled however, you can still optimize the route without time windows and compare the difference.
 
-![20260430_4.png](../../attachments/bdd41aec-2b1a-41f8-9e37-df7b8730914a.png)
+![20260730_18.png](../../attachments/04f43d69-1ae8-4547-b079-09c8a2be11ca.png)
 
 # Optimizing Route without Time Windows
 
-After adding stops to a route, we run automatic route optimization and calibration so you can select the fastest or shortest route. If stops lack required time windows ("Required from" and/or "Required to" fields), the system optimizes without time windows. To use the Optimize without time windows option separately, press the `Actions` (arrow) button and select the `Optimize without time windows` option.
+After adding stops to a route, we run automatic route optimization and calibration so you can select the fastest or shortest route. If stops lack required time windows ("Required from" and/or "Required to" fields), the system optimizes without time windows. To use the Optimize without time windows option separately, press the `: (3 dots)` icon on Route view page and select the `Optimize without time windows` option. Optimization without time windows is available on all subscription levels, starting from Free level.
 
 Route optimization is available when a route has at least two orders.
 
-![20260430_1.png](../../attachments/9a956949-a9ff-4b08-85ce-058f87f3c24f.png)
+![20260730_15.png](../../attachments/2c911c2a-68fc-4c15-bc83-f30af5b7b020.png)
 
 When you press `Optimize without time windows`, the geo-locations of the assigned route start location and the stops will be used to suggest an optimum driving route.  The order of the stops may be changed and the planned timings and distance of the route updated.  If you have provided vehicle dimensions (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
@@ -340,25 +340,23 @@ Changes will be saved automatically.
 
 Before optimization without time windows:
 
-![20260430_5.png](../../attachments/a565286c-bf13-410c-8c9c-b3ec19b290af.png)
+![20260730_19.png](../../attachments/aca04070-9037-48a4-a137-0fe0ccf8e603.png)
 
 After optimization without time windows:
 
-![20260430_6.png](../../attachments/c2c245d6-922e-47e5-9e08-d7856f90f0a5.png)
+![20260730_20.png](../../attachments/955c3fe4-68b8-4a29-9b09-7aefed2952ea.png)
 
 If the route is already optimized without time windows, the Optimize button will be disabled however, you can still optimize the route with time windows and compare the difference.
-
-![20260430_7.png](../../attachments/f8c0c866-ce25-437e-bf1a-bd356648e4b9.png)
 
 # Editing and Deleting Route
 
 By pressing `3 dots` icon on a route card on Routes page, the dialog will be opened with the following options: Edit, Delete, and Select routes for bulk route deletion.  You can create, edit, and delete routes only if you have permission to do it - Manager or Admin role in the current environment.
 
-![20260430_8.png](../../attachments/42357ac8-d0cf-4f3e-a6b8-485d33668bc8.png)
+![20260730_21.png](../../attachments/4720ca07-d4ab-4b49-aac8-e8658d96f5e6.png)
 
 You can also click on the `3 dots` icon on the Route view page and select the `Edit route` or `Delete route` option.
 
-![20260430_9.png](../../attachments/420d530d-5c56-44d0-8757-bfc900375065.png)
+![20260730_22.png](../../attachments/a131a84a-88f7-43ea-b38e-cd811c6f4ce3.png)
 
 After clicking on the `Edit` button, you will be redirected to Edit route page where you can change some route details and save changes.
 
@@ -368,37 +366,39 @@ After clicking on the `Delete` button, the confirmation dialog will be displayed
 
 To edit or permanently delete a stop, you need to go to the Route view page and click on the stop card.  You will be redirected to Details page.  At the bottom of the page, you will see the `Edit` and `Delete stop` buttons.  After clicking on the `Edit` button, you will be redirected to Edit stop page where you can make some changes and save them.  After clicking on the `Delete` button, the confirmation dialog will be displayed where you need to confirm the deletion of the stop. 
 
-![20260430_10.png](../../attachments/aad09430-c6f7-4b53-a871-77199e88b71b.png)![20260430_11.png](../../attachments/2dc81653-166e-47e3-8476-a95551c5561f.png)
+![20260730_23.png](../../attachments/cabbccf3-619b-4434-850f-0a9cde1e43dc.png)
 
-To select multiple stops, press the `Actions` (arrow) button on the Route view page and choose the `Select stops` option. You can remove stops from a route (stops remain available to add to another route) or create one POD for multiple stops. If your environment settings disallow multiple PODs per order per route, you cannot select stops with existing PODs because you cannot create a new POD.
+To select multiple stops, press the `: (3 dots)` icon on the Route view page and choose the `Select stops` option. You can remove stops from a route (stops remain available to add to another route) or create one POD for multiple stops. If your environment settings disallow multiple PODs per order per route, you cannot select stops with existing PODs because you cannot create a new POD.
 
-![20260430_12.png](../../attachments/41feb682-dc9e-48b8-82b2-9b755905a802.png)![20260430_13.png](../../attachments/1f9f0eca-64d9-4e0a-a2e0-bec335602fce.png)
+![20260730_24.png](../../attachments/d23358b0-5966-4fb6-9ae1-d056011db828.png)![20260730_25.png](../../attachments/3db19ebf-93b4-4a42-af89-18361ff12a72.png)
 
 # Vehicle Loading with Photos
 
-Once a route is optimized and ready-to-go, you can load your vehicle with the assigned delivery stops by selecting `Load vehicle` from the `Actions` (arrow) button on Route view page. Stops appear in reverse order to help you load items that will be delivered last first, with **collection orders excluded**. For each stop, you can set parcel placement (e.g., "front right" or "left shelf") and optionally add photos. Press `Confirm` to save the placement, which can be updated later. Note that new photos will replace the old ones. Once your orders are loaded to the vehicle, press `Finish loading` to return to Route view page.
+Once a route is optimized and ready-to-go, you can load your vehicle with the assigned delivery stops by selecting `Load vehicle` from the `: (3 dots)` icon on Route view page. Stops appear in reverse order to help you load items that will be delivered last first, with **collection orders excluded**. For each stop, you can set parcel placement (e.g., "front right" or "left shelf") and optionally add photos. Press `Confirm` to save the placement, which can be updated later. Note that new photos will replace the old ones. Once your orders are loaded to the vehicle, press `Finish loading` to return to Route view page.
 
-![20260430_14.png](../../attachments/96621168-ec61-4192-8bfe-33f3b150540c.png)![20260430_15.png](../../attachments/0125bdf6-d2c5-40ef-ab0e-1cc1e218b899.png)![20260430_16.png](../../attachments/e082150b-17ec-4647-9ebc-f5c650b813a8.png)![20260430_17.png](../../attachments/d9738661-505b-4fc8-9cb9-9fdbdff181f0.png)![20260430_18.png](../../attachments/2eecf06a-7218-446a-bb3f-3845ab246ebc.png)
+Vehicle loading (setting placement in the vehicle) with photos is available on all subscriptions levels, including Free level.
+
+![20260730_26.png](../../attachments/60b618d0-b18b-46f3-bf3e-ca7c75691d72.png)![20260730_27.png](../../attachments/c2dfe7de-5bd4-4aac-ae54-f5973009bd94.png)![20260730_28.png](../../attachments/97bc6ddf-0aaa-4239-b9d5-3f7c0a700721.png)![20260730_29.png](../../attachments/ffbe90b2-5c43-465e-b9eb-d4ceefd525ac.png)
 
 The placement and photo count appear on the stop card, and full-size photos can be viewed in the Order details page.
 
-![20260430_19.png](../../attachments/83b1fb0f-944d-48e8-9ba8-44e1181000de.png)![20260430_20.png](../../attachments/0449e6b8-4875-4082-9ade-2cee8c5af73b.png)
+![20260730_30.png](../../attachments/fa0ed07e-5a87-4d87-a0fd-5af3c1255895.png)![20260730_31.png](../../attachments/d137a77c-380b-4c78-913f-d7f653653e9b.png)
 
 You can also set placement and upload photos when adding or editing an order.
 
-![20260429_63.png](../../attachments/5e136dbf-cb53-4e1d-8059-e6d9fad6da62.png)![20260429_64.png](../../attachments/d61cd70e-e8d9-4fc5-8871-019fd96eb756.png)![20260429_65.png](../../attachments/b56031c5-dd7f-4319-be56-fcfdd68b6723.png)
+![20260730_32.png](../../attachments/f672e839-5a9d-42fd-878e-d96a90e162a4.png)![20260730_33.png](../../attachments/63e2c666-f211-4fd9-bb9f-5536f24dd8c4.png)![20260730_34.png](../../attachments/48f5354b-bf3b-49d1-bbc3-23c39fd4bf75.png)![20260730_35.png](../../attachments/1a2ada56-1b66-48da-b792-1ecc2f29701b.png)
 
 # Navigation
 
 The navigation icon in the top right of Details (of a certain stop) page panel lets you jump out to a navigation app (Google Maps, Apple Maps, Waze, etc.) to help you navigate in an unfamiliar area.
 
-![20260430_21.png](../../attachments/96957b64-9ace-4905-b4d2-f61ec85c950e.png)![20260430_22.png](../../attachments/d3ae784e-61ef-42ca-9fc5-097a4f056596.png)
+![20260730_35.png](../../attachments/1a2ada56-1b66-48da-b792-1ecc2f29701b.png)![20260730_36.png](../../attachments/abc64da4-06b5-43d4-bfd5-5d06abf75c8b.png)
 
 # Switching Between Stops
 
 You can see navigation arrows on Stop details page above the bottom-screen dialog to quickly switch between route stops. These arrows move dynamically with the bottom sheet as it changes height during scrolling. Next to the arrows, the stop numbers of the previous and next stops are displayed, helping you know which stops you can navigate to. The left arrow is hidden on the first stop, and the right arrow is hidden on the last stop, ensuring navigation options are only shown when applicable. If there is only one stop in the route, no arrows are displayed at all.
 
-![20260430_21.png](../../attachments/96957b64-9ace-4905-b4d2-f61ec85c950e.png)
+![20260730_37.png](../../attachments/ac7b2dae-5f66-4f50-9e69-30b494935f18.png)
 
 # Stop Packages
 
