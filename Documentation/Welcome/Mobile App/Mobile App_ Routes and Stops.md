@@ -220,7 +220,7 @@ Once the stop is added to the route, you can adjust its details:
 | Required to | For information - till when the customer requires the order to be delivered/collected. It can be used for route optimization with time windows. | No |
 | Stop duration | The amount of time the delivery vehicle is expected to remain at a route stop. This is used when orders are first brought into a route and, together with drive times, stop durations are intended to lead to route durations that are more realistic than if only drive time was considered. | Yes |
 | Tab - Recipient details | Optional recipient contact details like contact name, email, phone and mobile phone numbers. | Yes |
-| Tab - Packages | Optional package barcodes.  Barcodes can be either typed in manually or scanned. | No |
+| Tab - Packages | Optional package barcodes.  Barcodes can be either typed in manually or scanned. Adding package information is available only with Advanced and Enterprise subscription levels. | No |
 | Delivery instructions | Optional notes for drivers that are shown in the mobile app.  For example, "leave with reception". | No |
 
 You can set parcel placement (e.g., "front right" or "left shelf") and optionally add photos for a delivery order by pressing the `Set placement in the vehicle` button at the bottom of the page. Press `Confirm` to save the placement, which can be updated later. The placement and photo count appear on the stop card, and full-size photos can be viewed in Stop details page.
@@ -404,13 +404,15 @@ You can see navigation arrows on Stop details page above the bottom-screen dialo
 
 You can add packages to a stop either in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md)or in the mobile app during adding or editing of a stop.  Packages will be then displayed on the Stop details page in the mobile app with a barcode, description, height, width, depth, volume, and weight depending on the data provided in [Web-Based Hub](../Web-Based%20Hub.md)or in the mobile app.
 
+Adding package information is available only with Advanced and Enterprise subscription levels.
+
 Example when adding packages from the mobile app:
 
-![App 128.png](../../attachments/3d1d8839-7940-47ff-bfbc-dfdfcb1e0341.png)![App 129.png](../../attachments/7c7a553d-01e2-42b7-9648-efec121c9741.png)![App 130.png](../../attachments/65b6db53-777c-4316-ade2-c43f4d0ae72c.png)
+![20260731_2.png](../../attachments/25445fca-3094-4f0f-91ed-217654b5d4c4.png)![20260731_1.png](../../attachments/38fdc9d8-2e12-48cd-9d14-9c0f97eaee62.png)![20260731_3.png](../../attachments/289d4cd9-7c8f-4e12-8ac0-698033b4cab8.png)
 
 Example when adding packages from Hub:
 
-![Screenshot 2025-12-26 at 14.15.46.png](../../attachments/1f6f7678-de41-47c5-b03e-430c335f256f.png)![App 131.png](../../attachments/278e7521-9b06-4ef4-877a-7646f8972411.png)
+![Screenshot 2026-07-31 at 11.54.15.png](../../attachments/39c1c318-ccfc-4e3d-a5ba-ebe6eb087337.png)![20260731_4.png](../../attachments/46a49869-51d9-4a25-96ec-4f65e73b297a.png)
 
 # Stop Products
 
