@@ -418,23 +418,23 @@ Example when adding packages from Hub:
 
 You can add products to a stop in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md).  Pre-defined products will be then displayed on the Stop details page in the mobile app with a product code, description, quantity, and weight depending on the data provided in [Web-Based Hub](../Web-Based%20Hub.md).
 
-![App 132.png](../../attachments/4a73e905-1ba1-4518-8e66-89edd9cca497.png)
+![20260803_2.png](../../attachments/24270042-e4f3-4227-88b3-421a569966f9.png)![20260803_1.png](../../attachments/add9ee22-4ac2-4cf2-a9fb-2e44b721d8e4.png)
 
 # Stop Packages with Products
 
 You can add packages and products to a stop and link them in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md).  Pre-defined packages with products will be then displayed on the Stop details page in the mobile app. For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Cross` on the dialog to close it.
 
-![App 133.png](../../attachments/bbaba95d-ec1a-463e-a83a-be5346a37b45.png)![App 134.png](../../attachments/49a62d9d-d683-4ac5-aeee-31f8e4a7a4c2.png)
+![20260803_3.png](../../attachments/8fdb03c3-b4ae-4618-a456-5f06d692cf1e.png)![20260803_4.png](../../attachments/11616928-8763-41e2-931f-15e2d883d131.png)
 
 # Recording Stop Duration
 
-`Record stop duration` setting in [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings.md)enables the mobile app’s feature to record the actual time spent at a stop by a driver.
+`Record stop duration` setting in [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings.md)in Geo2 Hub enables the mobile app’s feature to record the actual time spent at a stop by a driver. Recording actual stop duration feature is available only with Enterprise subscription level.
 
-![Screenshot 2025-12-26 at 15.04.51.png](../../attachments/fd23d63f-a2ed-4e3f-8225-62255d372172.png)
+![Screenshot 2026-08-03 at 13.45.42.png](../../attachments/6850a938-1627-4263-b246-147a8812ab94.png)
 
 Once enabled, the `Record arrival` button will appear on Stop details page within a route in the mobile app. Tapping it records the arrival time for that stop. The button will then be replaced by `Record departure` option. The Create POD option becomes available once you record arrival. You can either generate a proof of delivery (POD) before recording the departure or simply log the departure time without a POD.
 
-![App 135.png](../../attachments/dd844997-b47e-4bee-8ae0-a8dc41af0951.png)![App 136.png](../../attachments/5228ad2a-c54a-41b9-8ff3-6c8e44c7dd78.png)
+![20260803_5.png](../../attachments/e52a2666-9872-40ec-9fc3-8418637a445f.png)![20260803_6.png](../../attachments/2c761c25-551a-4b32-8fa0-f1953477341e.png)
 
 If you press `Record arrival` and then tap the `close` icon to return to Route view page, you will be prompted to confirm whether you want to record the departure time for this stop.
 
@@ -451,4 +451,4 @@ If you press `Record arrival` at a stop and return to Route view page while the 
 
 We allow **overwriting arrival and departure times for stops** when necessary. Once both arrival and departure times are recorded, the actual stop duration is calculated based on the time difference. This duration appears on the stop card on Route view page in Hub, allowing you to compare the planned and actual stop duration and take action when necessary.
 
-![Screenshot 2025-12-26 at 15.18.45.png](../../attachments/712782f9-8ab5-41ea-93d9-e4a65e3864df.png)
+![Screenshot 2026-08-03 at 13.51.01.png](../../attachments/766fd27b-c463-400f-a9f5-44b84af318a7.png)
