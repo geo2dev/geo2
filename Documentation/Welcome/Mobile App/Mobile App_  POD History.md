@@ -3,7 +3,7 @@
 
 # POD details
 
-To review the history of PODs recorded by the user, click on PODs page.  By clicking on the POD, you can view its details. 
+To review the history of PODs recorded by the user, click on PODs page.  By clicking on the POD, you can view its details.  Creating PODs is available on all subscription plans, including Free.
 
 ![App 225.png](../../attachments/dc73e146-5020-46c2-9d16-6793a344f68e.png)
 
@@ -23,9 +23,8 @@ Depending on the data provided during POD creation, you will see the following d
 | Remarks | Notes left by a driver. |
 | Email | Recipient email address. The app uses the email address indicated in the order if it was a POD created for an already existing order. |
 | Number of packages / planned | Number of successfully delivered/collected packages out of the planned total. |
-| Packages | Either pre-defined or added during a POD creation order packages. |
+| Packages | Either pre-defined via Hub, mobile app or API or added during a POD creation order packages from the mobile app. |
 | Products | Pre-defined order products. They can be displayed either separately from packages or inside them depending if they are linked via Hub or API. |
-| Delivery instructions | Optional notes for drivers that are shown in the mobile app taken from the order if it was a POD created for an already existing order.  For example, "leave with reception". They are not displayed if this order did not exist before. |
 | Photos | Photos added/recorded during a POD creation. |
 | Signature | Signature recorded during a POD creation. |
 
@@ -33,10 +32,12 @@ Depending on the data provided during POD creation, you will see the following d
 
 # POD Custom Fields
 
-In the Environment settings, you can set up custom fields to collect additional information in POD's.  Here is an example:
+In the Environment settings in Geo2 Hub, you can set up custom fields to collect additional information in POD's.  Here is an example:
 
 - Ask for the driver's name
 - Ask if the parcel is intact
+
+Configuring custom fields is available only with Enterprise subscription level.
 
 ![Screenshot 2025-12-29 at 12.19.07.png](../../attachments/cd444133-a6d9-478f-a3b2-6f5cf086741c.png)
 

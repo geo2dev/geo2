@@ -9,34 +9,42 @@ The mobile app lets you record a proof-of-delivery in different circumstances:
 - Ad-hoc - without a planned order
 - Ad-hoc - for an existing order that is not part of a route
 
-To record a planned POD, open Stop details page and click on the `Create POD` button.
+To record a planned POD, open Stop details page and click on the `Create POD` button.  Creating PODs is available on all subscription levels, including Free.
 
-![App 139.png](../../attachments/8c44b4ae-653d-4c6b-ac9e-b14e2b8603ed.png)
+![20260804_1.png](../../attachments/e435b9b3-ea81-4bfd-ae9f-2992cc9354d4.png)
 
 To record an ad-hoc POD, you can press the `Create POD` button in Menu or on PODs page.
 
-![App 140.png](../../attachments/77d9995a-a94e-4e93-a39e-247930860bb0.png)![App 141.png](../../attachments/a43a07ed-32f4-4e16-8064-5da9d8e60b9a.png)
+![20260804_4.png](../../attachments/587081fb-4e7f-4ccf-ac0a-10038adccc06.png)![20260804_3.png](../../attachments/9d6097b8-3d16-452a-b244-de6260416a72.png)
 
 You will be redirected to POD creation page.
 
 # Planned POD
 
-![App 142.png](../../attachments/696821ae-5edb-4f80-b9f2-37c518fa7c89.png)![App 143.png](../../attachments/c16d3520-bedd-4e38-b87a-39c8a1a7e6ff.png)![App 144.png](../../attachments/149680b9-6194-4cd1-94ee-fccdc5419d75.png)
+![20260804_7.png](../../attachments/a2c2b76d-4641-4a50-bd2f-e9960ce03d39.png)![20260804_8.png](../../attachments/6e573e90-66e9-4aee-816d-8c53b2e55fe4.png)![20260804_9.png](../../attachments/d19ecd1a-febf-498e-80eb-98e2fb6f3b7d.png)
 
-In the Details section, you will see the following fields:
+In the Stop details section, you will see the following fields:
 
-| **Fields** | **Description** | **Required** |
-| --- | --- | --- |
-| Type | Delivery or Collection. | Yes |
-| Order key | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. | Yes |
-| Contact name | Name of the person who received the order. | Yes |
-| Phone number | Phone number of the person who received the order. | No |
-| Mobile number | Mobile phone number of the person who received the order. | No |
-| Remarks | Notes from the driver. | No |
-| Notification email | Email address for sending the proof-of-delivery email. | No |
-| Address | The app uses the address indicated in the order. | Yes |
+| **Fields**   | **Description**                                                                               |
+|:-------------|:----------------------------------------------------------------------------------------------|
+| Type         | Delivery or Collection.                                                                       |
+| Order key    | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. |
+| Address      | The app uses the address indicated in the order.                                              |
 
-Details such as type, order key, contact name, email and address will be pre-populated from the stop (order) for which you are creating the POD.  You can edit remarks and contact name.
+In the Recipient details section, you will see the following fields:
+
+| **Fields**    | **Description**                                           |
+|:--------------|:----------------------------------------------------------|
+| Contact name  | Name of the person who received the order.                |
+| Email         | Email address for sending the proof-of-delivery email.    |
+| Phone number  | Phone number of the person who received the order.        |
+| Mobile number | Mobile phone number of the person who received the order. |
+
+In the Packages section, you can review, add, or scan packages for the stop (order), mark some of them as failed if it is needed. Packages are available only with Advanced and Enterprise subscription levels.
+
+In the Delivery details section, you can add remarks. In the mobile app, **Settings → Proof of delivery** lets you configure remarks requirements for successful, partially successful, and failed PODs.
+
+Details such as type, order key, contact name, email and address will be pre-populated from the stop (order) for which you are creating the POD.  You can edit remarks and provide contact name if it was not pre-populated from the stop (order).  Under **Settings → Proof of delivery** in the mobile app, you can choose whether a contact name is required for each POD status: successful, partially successful, or failed.
 
 You can select the POD status:
 
@@ -44,11 +52,11 @@ You can select the POD status:
 - Partially successful - part of the order has been delivered/collected.
 - Failed - delivery/collection has failed.
 
-![App 145.png](../../attachments/f08714e5-6513-49bc-899f-a7e3e06be6ec.png)
+![20260804_10.png](../../attachments/e6cab416-1eae-42cd-a100-87c2e847c37f.png)
 
-In the `Signature` section, record the recipient’s signature by pressing the `Add signature` button and saving the recorded signature.  This is required for successful and partially successful POD's and optional for failed POD's.  In the `Photos` section, you can optionally take or select pictures for the proof-of-delivery.
+In the `Signature` section, record the recipient’s signature by pressing the `Add signature` button and saving the recorded signature.  In the mobile app, **Settings → Proof of delivery** lets you configure signature requirements for successful, partially successful, and failed PODs.  In the `Photos` section, you can take or select pictures for the proof-of-delivery. As with signatures, you can configure whether photos are required for each POD status (successful, partially successful, or failed) in the mobile app under **Settings → Proof of delivery**.
 
-![App 146.png](../../attachments/87ea92e8-d710-47fe-bc1b-f021620a361e.png)
+![20260804_11.png](../../attachments/c25c8c2b-3490-4b30-9081-2c929a813c9d.png)
 
 After filling in the information, press the `Create` button to save the POD.  When the POD is created, you will be redirected back to Stop details.  In Stop details page, you will see in the right corner:
 
@@ -58,21 +66,21 @@ After filling in the information, press the `Create` button to save the POD.  W
 
 A green “refresh” icon means that there are pending signatures/photos inside a POD. Once they will be successfully uploaded, the icon will be changed accordingly to one of the relevant statuses described above.
 
-![App 147.png](../../attachments/7ff52adb-a62c-4b29-8926-a98db7ad53db.png)![App 148.png](../../attachments/1cc133e9-5335-45a0-848d-81c8817fa898.png)![App 149.png](../../attachments/a4220d3d-fcfa-4c18-83d3-b94b2c7a2781.png)
+![20260804_12.png](../../attachments/1d302181-67f5-4e29-8d0c-2d6abfbbda91.png)![20260804_13.png](../../attachments/1cdece2d-abff-409f-be26-81092af1f674.png)![20260804_14.png](../../attachments/351de6a6-94d2-4294-9a1a-58efae2a4a7f.png)
 
 You can click the POD icon to view POD details. If the order has only one POD, its details will open immediately. If there are multiple PODs, a dialog will appear first so you can select the POD you want to view.
 
-![App 150.png](../../attachments/8d282e83-164b-4b80-804b-22fe2417665d.png)![App 151.png](../../attachments/125e1f49-2f98-44e3-8a8f-92f010b20308.png)
+![20260804_15.png](../../attachments/7ec40d3a-2a40-4e7f-86ae-0c1ebd9e0121.png)![20260804_16.png](../../attachments/bd426722-c28c-4f04-90fb-27ed59c1a166.png)![20260804_17.png](../../attachments/0398aaf5-7890-4326-80c5-fd4fc07ebd4c.png)
 
 Also, the created POD will be saved in the POD history on the PODs page.
 
 POD statuses (successful, partially successful, failed, no POD) are also displayed alongside the stops in Route plan page. The POD icon on stop cards on Route view page is not clickable. To view POD details, open the order and click the POD icon, or check the PODs page.
 
-![App 152.png](../../attachments/d63411ae-7265-4f32-99b0-7b1979998426.png)
+![20260804_18.png](../../attachments/f7f7a1c3-b440-4ade-8144-31d12f868041.png)
 
 ## Order Packages
 
-When the order has pre-defined packages, they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md), mobile app or API for an order.
+When the order has pre-defined packages, they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md), mobile app or API for an order. Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
 
 ![App 153.png](../../attachments/e1369bdb-8c04-4c9a-9396-d34d1828a3e9.png)
 
@@ -90,7 +98,7 @@ By default, packages are marked as delivered (checkboxes are selected). See [Mob
 
 ## Order Products
 
-When the order has pre-defined products, they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md) or via the API for an order.
+When the order has pre-defined products, they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md) or via the API for an order. Adding/marking products as failed is available only with Enterprise subscription level.
 
 ![App 158.png](../../attachments/cb495fa4-6334-4df2-8e91-77de5b1cfdd9.png)
 
@@ -104,7 +112,7 @@ By default, products are marked as delivered (checkboxes are selected). See [Mob
 
 ## Order Packages with Products
 
-When the order has pre-defined products and packages linked, they are displayed in the `Packages and products` section.  For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Back` to return to Create POD page.
+When the order has pre-defined products and packages linked, they are displayed in the `Packages and products` section.  For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub, mobile app or API. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub or API. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Back` to return to Create POD page.
 
 ![App 160.png](../../attachments/0a9f0b5b-849d-4da9-9003-50777bf99f04.png)![App 159.png](../../attachments/223ffcd9-653c-4b28-b91c-45240560d701.png)
 
@@ -122,18 +130,26 @@ You can create an ad-hoc POD for an existing order by specifying its key.  If t
 
 ![App 161.png](../../attachments/5c304b62-064e-41df-b609-d164279ade4d.png)![App 162.png](../../attachments/85844a69-1153-4a51-b1e7-ca1dd08435f9.png)![App 163.png](../../attachments/fd3fb126-459c-431e-a121-36ca551cfe0d.png)
 
-If the order does not exist yet, fill in the following fields in the `Details` section:
+If the order does not exist yet, fill in the following fields in the `Stop details` section:
 
 | **Fields** | **Description** | **Required** |
 | --- | --- | --- |
 | Type | Delivery or Collection | Yes |
 | Order key | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. You can click on the `Scan` icon to scan the key.  It is possible to provide multiple order keys. | Yes |
-| Contact name | Name of the person who received the order | Yes |
+| Address | The app uses the current device location. This can be edited. | Yes |
+
+If the order does not exist yet, fill in the following fields in the `Recipient details` section:
+
+| **Fields** | **Description** | **Required** |
+| --- | --- | --- |
+| Contact name | Name of the person who received the order | Configured through Settings → Proof of delivery in the app |
+| Email | Email address for sending the proof-of-delivery email | No |
 | Phone number | Recipient phone number | No |
 | Mobile number | Recipient mobile phone number | No |
-| Remarks | Notes from the driver | No |
-| Notification email | Email address for sending the proof-of-delivery email | No |
-| Address | The app uses the current device location. This can be edited. | Yes |
+
+In the Packages section, you can review, add, or scan packages for the stop (order), mark some of them as failed if it is needed. Packages are available only with Advanced and Enterprise subscription levels.
+
+In the Delivery details section, you can add remarks. In the mobile app, **Settings → Proof of delivery** lets you configure remarks requirements for successful, partially successful, and failed PODs.
 
 You can select the POD status:
 
@@ -143,7 +159,7 @@ You can select the POD status:
 
 ![App 164.png](../../attachments/ac7a2bba-3808-47b4-8a21-81b7f0d0d152.png)
 
-In the `Signature` section, you need to record a recipient signature by pressing the `Add signature` button and saving the recorded signature.  This is required for successful and partially successful POD's and optional failed POD's.  In the `Photos` section, you can optionally take or select pictures for the proof-of-delivery.
+In the `Signature` section, record the recipient’s signature by pressing the `Add signature` button and saving the recorded signature.  In the mobile app, **Settings → Proof of delivery** lets you configure signature requirements for successful, partially successful, and failed PODs.  In the `Photos` section, you can take or select pictures for the proof-of-delivery. As with signatures, you can configure whether photos are required for each POD status (successful, partially successful, or failed) in the mobile app under **Settings → Proof of delivery**.
 
 ![App 146.png](../../attachments/87ea92e8-d710-47fe-bc1b-f021620a361e.png)
 
@@ -158,6 +174,8 @@ After filling in all the data, press the `Create POD` button to save the POD.  
 ## Order Packages
 
 When the order has pre-defined packages (ad-hoc POD for existing order), they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md), mobile app or API for an order.
+
+Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
 
 ![App 143.png](../../attachments/c16d3520-bedd-4e38-b87a-39c8a1a7e6ff.png)
 
@@ -177,6 +195,8 @@ By default, packages are marked as delivered (checkboxes are selected). See [Mob
 
 When the order has pre-defined products (ad-hoc POD for existing order key), they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md) or API for an order.
 
+Adding/marking products as failed is available only with Enterprise subscription level.
+
 ![App 158.png](../../attachments/cb495fa4-6334-4df2-8e91-77de5b1cfdd9.png)
 
 When the order doesn't have products, the `Products` section is not displayed.  It is not possible to add them via the mobile app. When you create a POD for multiple orders, the `Products` section is hidden.
@@ -189,7 +209,7 @@ By default, products are marked as delivered (checkboxes are selected). See [Mob
 
 ## Order Packages with Products
 
-When the order has pre-defined products and packages linked, they are displayed in the `Packages and products` section.  For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Back` to return to Create POD page.
+When the order has pre-defined products and packages linked, they are displayed in the `Packages and products` section.  For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub, mobile app or API. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub or API. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Back` to return to Create POD page.
 
 ![App 159.png](../../attachments/223ffcd9-653c-4b28-b91c-45240560d701.png)![App 160.png](../../attachments/0a9f0b5b-849d-4da9-9003-50777bf99f04.png)
 
@@ -199,10 +219,12 @@ When you create a POD for multiple orders, the `Packages and products` section i
 
 # POD Custom Fields
 
-In the Environment settings, you can set up custom fields to collect additional information in POD's.  Here is an example:
+In the Environment settings in Geo2 Hub, you can set up custom fields to collect additional information in POD's.  Here is an example:
 
 - Ask for the driver's name
 - Ask if the parcel is intact
+
+Custom fields are available only with Enterprise subscription level.
 
 ![Screenshot 2025-12-29 at 12.19.07.png](../../attachments/59f3a0ea-cf94-4904-a275-9555eff1685d.png)
 
@@ -233,6 +255,8 @@ Package scanning serves multiple purposes:
 - to add packages to an order when it does not have them yet
 - to validate whether a package belongs to the order, when the order has packages pre-defined
 - to specify packages that have been delivered, both when they are pre-defined and when they have just been added in the course of POD creation
+
+Package scanning is available only with Advanced and Enterprise subscription levels.
 
 ## Adding and Confirming Packages
 

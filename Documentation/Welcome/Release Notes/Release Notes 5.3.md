@@ -1,5 +1,5 @@
 
-# Release Notes 5.3 (mobile app: pending)
+# Release Notes 5.3
 
 # Release Date
 

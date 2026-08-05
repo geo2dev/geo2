@@ -3,7 +3,7 @@
 
 # Introduction
 
-In Settings, you can edit your organization (Users and Subscriptions settings), environment (Routes, Vehicles, Failure reason codes and Recipient notifications settings) and device settings. Settings page is accessible to users of all roles within an organization and environment. However, the visibility of specific settings depends on the user’s role. For instance, users with the Environment User role will not see settings for Routes, Vehicles, Failure reason codes, and Recipient notifications (Proof of delivery and Public tracking).
+In Settings in the mobile app, you can edit your organization (Users and Subscriptions settings), environment (Routes, Vehicles, Failure reason codes, Proof of delivery and Public tracking settings) and device settings. Settings page is accessible to users of all roles within an organization and environment. However, the visibility of specific settings depends on the user’s role. For instance, users with the Environment User role will not see settings for Routes, Vehicles, Failure reason codes, Proof of delivery and Public tracking.
 
 **Organization** is a group of users who share a subscription and collaborate on data in one or more environments. **Environments** let you represent teams within a single company or provide separate spaces for testing and productive use.
 
@@ -39,7 +39,7 @@ Once a new organization is created, by default, the start time is set to 08:00. 
 
 ## Vehicles
 
-Vehicles are assigned to deliver routes with orders.  You can add vehicles either one by one by pressing the `Add vehicle` button or all at once by pressing the `Import` button in Geo2 Hub → [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings.md).
+Vehicles are assigned to deliver routes with orders.  Once you register your account and a new environment is created, default vehicles are created: van, truck, car, motorbike and bicycle. You can add more vehicles either one by one by pressing the `Add vehicle` button or all at once by pressing the `Import` button in Geo2 Hub → [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings.md).
 
 By pressing the `Add vehicle` button in the app, you will see the dialog to fill in the information.  Required fields are Key and Type.  All other fields are optional. By pressing the `Measures` button, you will see additional fields like Gross weight, Height, Width, and Length.
 
@@ -66,6 +66,8 @@ You can select a vehicle to `Delete` it.  For data integrity, it is best to no
 ## Vehicle Checks
 
 You can activate vehicle check in the mobile app when the route is being started and/or completed by enabling/disabling the Vehicle check on route start/end toggle. Learn more about [Mobile App: Vehicle Checks](Mobile%20App_%20Vehicle%20Checks.md).
+
+Vehicle checks are available with Advanced and Enterprise subscription levels.
 
 ![20260428_24 (1).png](../../attachments/8409c9fc-f761-4883-8bb0-41aac56e37de.png)
 
@@ -137,7 +139,7 @@ Once the route status changes to the configured value (e.g. In Transit), an emai
 
 # Users Settings
 
-If you are on a Free subscription level, you will see only your user. It is possible to add new users to the current subscription level in [**Geo2 Hub**](https://hub.geo2.com/en-GB/auth/signin), for example, for seasonal workers if you are on Advanced or Enterprise subscription level.  If you are on Advanced level, you can add up to 10 users to your organization in total. If you are on Enterprise level, you are not limited in the number of users. You can press the  `Add users` button on [Hub: Subscriptions](../Web-Based%20Hub/Hub_%20Subscriptions.md), select the number of users, and proceed with payment.
+If you are on a Free subscription level, you will see only your user. It is possible to add new users to the current subscription level in [**Geo2 Hub**](https://hub.geo2.com/en-GB/auth/signin), for example, for seasonal workers if you are on Advanced or Enterprise subscription level.  One purchased subscription (license) is counted as one user. If you are on Advanced level, you can add up to 10 users to your organization in total. If you are on Enterprise level, you are not limited in the number of users. You can press the  `Add users` button on [Hub: Subscriptions](../Web-Based%20Hub/Hub_%20Subscriptions.md), select the number of users, and proceed with payment.
 
 ![App 265.png](../../attachments/2cd4fc25-9c11-4f78-8125-d490497a9250.png)
 

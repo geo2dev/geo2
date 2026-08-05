@@ -10,7 +10,15 @@ If you do not find the answer you are looking for, feel free to reach out to our
 <details>
 <summary>What is Geo2?</summary>
 
-Geo2 is a **cloud-based transport management system (TMS)** and **all-in-one delivery route planner** designed to help businesses and independent drivers plan, execute, and optimize the movement of goods. Using modern technology, Geo2 reduces delivery costs, shortens driving time, and simplifies day-to-day delivery operations. Whether you’re a solo driver or a growing logistics team, Geo2 provides everything you need to plan, optimize, and manage routes efficiently and stress-free.
+Geo2 is a **cloud-based transport management system (TMS)** and **all-in-one delivery route planner** designed to help businesses and independent drivers plan, execute, and optimize the movement of goods. Using modern technology, Geo2 reduces delivery costs, shortens driving time, and simplifies day-to-day delivery operations. Whether you’re a solo driver or a growing logistics team, Geo2 provides everything you need to plan, optimize, and manage routes efficiently and stress-free. It gives you the tools to:
+
+- Reduce transport costs with automated route optimization
+- Reduce the time spent planning routes with AI route building
+- Reduce delivery address errors via built-in address geo-coding
+- Enable fully electronic proof-of-delivery (POD) records
+- Send automatic recipient emails and tracking SMS
+- Track vehicles and drivers in real time
+- Analyze your team performance with analytics charts
 
 </details>
 
@@ -39,7 +47,7 @@ Geo2 is a **cloud-based transport management system (TMS)** and **all-in-one del
 
 **Reporting and analytics**
 
-**Automated email and SMS notifications**
+**Automated recipient email and SMS notifications (POD and Public tracking)**
 
 **Platforms & integrations**
 
@@ -47,10 +55,13 @@ Geo2 is a **cloud-based transport management system (TMS)** and **all-in-one del
 - Web-based Geo2 Hub
 - REST API
 
-**Additional mobile app features**
+**Additional features**
 
+- AI assistant
+- Address import from photos, screenshots and PDFs
 - Address voice search
-- Address scanning
+- Multi-address scanning
+- Map address search
 - Vehicle loading with optional photos
 - Package scanning and validation
 
@@ -61,9 +72,9 @@ Geo2 is a **cloud-based transport management system (TMS)** and **all-in-one del
 
 Geo2 supports businesses of any size and industry, from gig drivers to enterprise logistics teams. It’s built for couriers, parcel services, food delivery, and local logistics. Whether you deliver with Uber Eats, Amazon Flex, or run your own operation, Geo2 adapts to your workflow.
 
-- **For solo drivers**, Geo2 helps plan smart routes in seconds using fast address input, voice search, and address scanning. It automatically builds optimized routes that avoid traffic, roadblocks, and restricted zones — saving time and fuel. Add breaks as needed, navigate to stops with your preferred navigation app, and organize your van with package locations and photos for faster stops.
-- **For smaller businesses**, Geo2 provides essential tools like ePOD (electronic proof of delivery), route planning, and order and delivery management. Upload orders quickly via CSV or Excel, optimize routes with time windows, traffic, and vehicle restrictions, and schedule driver breaks. Track routes in real time, access team performance insights, and automate customer delivery updates — without micromanaging your team.
-- **For larger organizations**, Geo2 offers advanced capabilities such as custom API integrations, AI-powered route optimization, and detailed analytics. Import orders via CSV, Excel, or API, manage all routes on a single map, reassign stops, and re-optimize on demand. Support multi-user routes, monitor progress in real time, and automate customer notifications with tracking links, ETAs, and PODs.
+- **For solo drivers**, Geo2 helps plan smart routes in seconds using fast address input, voice search, mutli-address scanning, map address search and import from photos, screenshots and PDFs. It automatically builds optimized routes that avoid traffic, roadblocks, and restricted zones — saving time and fuel. Add breaks as needed, navigate to stops with your preferred navigation app, and organize your van with package locations and photos for faster stops.
+- **For smaller businesses**, Geo2 provides essential tools like ePOD (electronic proof of delivery), route planning, and order and delivery management. Upload orders quickly via CSV, Excel, PDF or photos, optimize routes with time windows, traffic, and vehicle restrictions, and schedule driver breaks. Track routes in real time, access team performance insights, and automate customer delivery updates — without micromanaging your team.
+- **For larger organizations**, Geo2 offers advanced capabilities such as custom API integrations, AI-powered route optimization, and detailed analytics. Import orders via CSV, Excel, PDF or API, manage all routes on a single map, reassign stops, and re-optimize on demand. Support multi-user routes, monitor progress in real time, and automate customer notifications with tracking links, ETAs, and PODs.
 - **For food delivery businesses**, Geo2 also supports product-level failures during POD creation, ensuring accurate tracking and accountability for every delivery.
 
 No matter your size or industry, Geo2 is flexible and scalable — designed to support your operations today and grow with your business.
@@ -73,7 +84,7 @@ No matter your size or industry, Geo2 is flexible and scalable — designed to s
 <details>
 <summary>How do I know whether the Geo2 web-based Hub or the mobile app is right for me?</summary>
 
-You can use both the Geo2 web-based Hub and the mobile app, depending on your role and workflow. Both platforms support route planning and optimization, as well as order management. The mobile app is best suited for solo drivers, couriers, gig drivers, and drivers working for companies where route planning is done by a transport manager/dispatcher in Hub. Additionally, the mobile app includes Proof of Delivery (POD) and vehicle check features to capture delivery confirmations and vehicle status at route start and completion. While the mobile app allows drivers to create and optimize routes and manage orders, the Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV), managing multiple routes on a single map, analytics and reporting, and AI-powered route building.
+You can use both the Geo2 web-based Hub and the mobile app, depending on your role and workflow. Both platforms support route planning and optimization, as well as order management. The mobile app is best suited for solo drivers, couriers, gig drivers, and drivers working for companies where route planning is done by a transport manager/dispatcher in Hub. Additionally, the mobile app includes Proof of Delivery (POD) and vehicle check features to capture delivery confirmations and vehicle status at route start and completion. While the mobile app allows drivers to create and optimize routes and manage stops (orders), the Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV), managing multiple routes on a single map, analytics and reporting, and AI-powered route building.
 
 </details>
 
@@ -120,7 +131,7 @@ Getting started with Geo2 is fast and doesn’t require any integrations. You ca
 - Create your account and verify your email (if signing up with email and password)
 - Enter your organization details
 - Add your first depot to use as the default start and end point for routes
-- Create orders manually or import them via CSV or Excel
+- Create orders manually or import them via CSV, Excel, or PDF
 - Plan and optimize routes
 - Invite team members, assign routes to drivers, and change route statuses to **Released**
 - Ask drivers to download the Geo2 app on iOS or Android and log in using the email address or phone number they were invited with to view routes assigned to them
@@ -137,12 +148,21 @@ Getting started with Geo2 is fast and doesn’t require any integrations. You ca
 
 You can use the Hub and mobile app together for full route planning and delivery management, or rely on the mobile app alone.
 
+### Get started in the Geo2 mobile app if you are invited to the organization as a driver
+
+- Download the Geo2 app on iOS or Android
+- Log in to your account using the same email/mobile phone number used for the invitation
+- Accept the invitation to the organization
+- Open Menu → Routes to view the routes assigned for you for today
+- Start the route and navigate using your preferred navigation app
+- Record proofs of delivery (signatures, photos, or failures) when needed
+
 </details>
 
 <details>
 <summary>What is the difference between organizations and environments?</summary>
 
-[Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md) is a group of users who share a subscription and collaborate on data in one or more environments. [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) let you represent teams within a single company or provide separate spaces for testing and productive use. Creating orders, planning routes, recording vehicle checks and PODs (proof of delivery) are all tasks associated with a specific environment. You can configure multiple environments for various purposes, each with its own settings for depots, vehicles, load configurations, display preferences, and more.
+[Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md) is a group of users who share a subscription and collaborate on data in one or more environments. [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) let you represent teams within a single company or provide separate spaces for testing and productive use. Creating orders, planning routes, recording vehicle checks and PODs (proof of delivery) are all tasks associated with a specific environment. You can configure multiple environments for various purposes, each with its own settings for depots, vehicles, route configurations, display preferences, and more.
 
 **Examples:**
 
@@ -157,7 +177,7 @@ When you create an account and are not invited to an existing organization, Geo2
 <details>
 <summary>What is the difference between orders and routes?</summary>
 
-**Orders** are records of deliveries or collections to be handled by a driver, typically as part of a route, which is a group of orders. Each order has a unique key that can represent an order number (for example, 001, 002, 003). Orders can be created manually in Hub or in the mobile app, imported via a CSV or Excel file in Hub, or created through integration with the Geo2 API. Once an order is added to a route, it is referred to as a “stop”.
+**Orders** are records of deliveries or collections to be handled by a driver, typically as part of a route, which is a group of orders. Each order has a unique key that can represent an order number (for example, 001, 002, 003). Orders can be created manually in Hub or in the mobile app, imported via a CSV, Excel file in Hub, or created through integration with the Geo2 API. Once an order is added to a route, it is referred to as a “stop”.
 
 Orders can optionally be grouped into **routes**. A route represents a set of orders usually completed in a single vehicle trip and also has a unique key, which can be used as a route identifier, such as the current date with a trip number (for example, 20260121\_\_1).
 
@@ -168,19 +188,16 @@ With Geo2, you can add orders to routes and optimize them to find the most effic
 <details>
 <summary>How can I import my orders?</summary>
 
-You can import order through Geo2 web-based Hub:
+You can import order through Geo2 web-based Hub or the mobile app.
+
+How to import your orders through Geo2 Hub:
 
 1. Orders are imported from the **Orders** page by clicking the **Import** button.
-2. Orders can be added either by **uploading a file** or by **typing or pasting data** directly into the import table. Supported file formats include CSV, TSV, Excel (.xls/.xlsx), XML, and TXT.
-3. After uploading a file, columns must be **mapped to Hub order fields**; all required fields must be mapped to continue.
-4. Unmatched columns can be skipped, and mappings can be adjusted before applying them.
-5. Once mapping is applied, all orders are shown in the import table for **review and editing** before import.
-6. Mandatory fields such as order key, order type, and full address details must be filled in for successful import and geocoding.
-7. Import options define how the system behaves, including **route generation** and **updating existing orders**.
-8. When **Import** is clicked, the data is validated and any errors are displayed so they can be corrected.
-9. Orders that pass validation are imported and appear in the **Orders** page.
+2. Orders can be uploaded either from a spreadsheet or PDFs/photos.
+3. If selecting “Import spreadsheet”, orders can be added either by **uploading a file** or by **typing or pasting data** directly into the import table. Supported file formats include CSV, TSV, Excel (.xls/.xlsx), XML, and TXT. After uploading a file, columns must be **mapped to Hub order fields**; all required fields must be mapped to continue. Unmatched columns can be skipped, and mappings can be adjusted before applying them. Once mapping is applied, all orders are shown in the import table for **review and editing** before import. Mandatory fields such as order key, order type, and full address details must be filled in for successful import and geocoding. Import options define how the system behaves, including **route generation** and **updating existing orders**. When **Import** is clicked, the data is validated and any errors are displayed so they can be corrected. Orders that pass validation are imported and appear in the **Orders** page.
+4. If selecting “Import image/pdf”, orders can be added either by **uploading a PDF file** or photos/screenshots. Geo2 uses AI to automatically detect addresses and other available delivery information, allowing you to review and edit the extracted data before adding the stops to the route. When **Create orders** is clicked, the data is validated and any errors are displayed so they can be corrected. Orders that pass validation are imported and appear in the **Orders** page.
 
-Order import is supported on **Advanced and Enterprise** subscription levels.
+Order import from spreadsheet (Excel, CSV) is supported on **Advanced and Enterprise** subscription levels while order import from image/PDF is supported with all subscription levels.
 
 Press [Hub: Order Import](Web-Based%20Hub/Hub_%20Orders/Hub_%20Order%20Import.md) to learn more about order imports.
 
@@ -189,7 +206,9 @@ Press [Hub: Order Import](Web-Based%20Hub/Hub_%20Orders/Hub_%20Order%20Import.md
 <details>
 <summary>How can I add vehicles?</summary>
 
-**You can add vehicles either through Hub or the mobile app:**
+Once you register your account and a new environment is created, default vehicles are created: van, truck, car, motorbike and bicycle.
+
+**You can add more vehicles either through Hub or the mobile app:**
 
 1. To add vehicles through **Hub,** go to the [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) and use the `Add` button to create vehicles one by one. A dialog will appear where you can provide required information including a unique **Key**, the **Type** of vehicle, and set a **Speed factor**; other details like registration number, vehicle categories, capacity, dimensions, emission factor and availability for route building can be filled optionally. Hover over the question mark icons for help on each field. After entering the details, press `Create` to save the vehicle. Besides adding individually, you can import multiple vehicles at once via the **Import** button and uploading a spreadsheet with mapped columns or pasting data directly into the import interface, then finalize to add all vehicles to the environment.
 2. To add vehicles through the **mobile app**, open [Mobile App: Settings](Mobile%20App/Mobile%20App_%20Settings.md) where you’ll see a list of vehicles. Tap **Add vehicle** to open a form where the **Key** and **Type** fields are required and other details like **Registration**, **Gross weight**, **Height**, **Width**, and **Length** can be entered if needed; pressing the **Measures** button shows additional optional fields for physical dimensions and capacities. After entering the information, tap Add to save the vehicle. You can also add your first vehicle while planning a route by tapping the `Vehicle` field, which opens the same vehicle creation form.
@@ -201,7 +220,7 @@ Press [Hub: Order Import](Web-Based%20Hub/Hub_%20Orders/Hub_%20Order%20Import.md
 
 Yes, you can add as many depots as needed in Hub under [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md).
 
-When you create an account, your first depot is added automatically. You can add additional depots later in Settings — either individually using the `Add` button or in bulk using the `Import` option. The default depot is used as the start and end point for routes, but you can change it to any other location. Each route and order can be assigned to only one depot, and the route depot must match the depot assigned to its orders for correct route planning.
+When you create an account through Geo2 Hub, your first depot is added automatically. You can add additional depots later in Settings in Geo2 Hub — either individually using the `Add` button or in bulk using the `Import` option. The default depot is used as the start and end point for routes, but you can change it to any other location. Each route and order can be assigned to only one depot, and the route depot must match the depot assigned to its orders for correct route planning.
 
 </details>
 
@@ -247,7 +266,7 @@ AI route building feature is available with **Enterprise** subscription level on
 <details>
 <summary>Can I work with multiple routes simultaneously on the same page?</summary>
 
-**Yes.** The Hub Map view allows you to work with multiple routes simultaneously on a single page. You can open the map with several routes selected, and they will be displayed together on the same map. Each route is shown separately and can be individually shown or hidden using the visibility (eye) control, making it easy to focus on specific routes while keeping others available. Up to 20 routes can be displayed on the map at the same time, and you can interact with them directly — view stops, inspect details, and make route-related changes without leaving the map view. Additionally, you can create routes and orders (stops) directly on this page, and they will be visualized on the map accordingly.
+**Yes.** The Hub Map view allows you to work with multiple routes simultaneously on a single page. You can open the map with several routes selected, and they will be displayed together on the same map. Each route is shown separately and can be individually shown or hidden using the visibility (eye) control, making it easy to focus on specific routes while keeping others available. Up to 40 routes can be displayed on the map at the same time, and you can interact with them directly — view stops, inspect details, and make route-related changes without leaving the map view. Additionally, you can create routes and orders (stops) directly on this page, and they will be visualized on the map accordingly.
 
 Press [Hub: Map View](Web-Based%20Hub/Hub_%20Map%20View.md) to learn more about the possibilities of multiple route planning and optimization on Map view page.
 
@@ -268,7 +287,7 @@ Adding extra users to your organization is available with the **Advanced** (up t
 <details>
 <summary>Can I send a tracking link to a recipient (customer)?</summary>
 
-**Yes.** You can send a tracking link to a recipient via automated email or SMS notifications using Public tracking settings. When this feature is enabled on the selected order or route status, Geo2 automatically sends notifications that include a public tracking link to the recipient’s email address or phone number, allowing them to follow the delivery status in real time without logging in. Geo2 provides default email and SMS templates for public tracking, so notifications work out of the box and can be customized if needed. To send SMS notifications, you do not need to have a valid organization phone number, as we send SMS messages to customers using our own system. The only requirement is that a valid recipient mobile phone number is provided on the order. Public tracking notification can also be enabled or disabled per individual order, and notification activity, such as whether a message was sent or opened, is recorded for visibility.
+**Yes.** You can send a tracking link to a recipient via automated email or SMS notifications using Public tracking settings either in Geo2 Hub or the mobile app. When this feature is enabled on the selected order or route status, Geo2 automatically sends notifications that include a public tracking link to the recipient’s email address or phone number, allowing them to follow the delivery status in real time without logging in. Geo2 provides default email and SMS templates for public tracking, so notifications work out of the box and can be customized if needed. To send SMS notifications, you do not need to have a valid organization phone number, as we send SMS messages to customers using our own system. The only requirement is that a valid recipient mobile phone number is provided on the order. Public tracking notification can also be enabled or disabled per individual order in Geo2 Hub, and notification activity, such as whether a message was sent or opened, is recorded for visibility.
 
 Public tracking emails are included in the Advanced subscription level, while SMS notifications are available with the Enterprise subscription level only. Press [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md) to learn more about public tracking notifications.
 
@@ -286,9 +305,9 @@ POD emails are available with Advanced and Enterprise subscription levels. Press
 <details>
 <summary>How can I track real-time drivers' location?</summary>
 
-Drivers’ location can be tracked on **Route view page** directly on the map once a route is in Started status and driver has enabled location tracking in the mobile app. The system uses GPS data sent from the driver’s mobile app to display the latest known position of the driver’s vehicle on the route map, allowing dispatchers to see where the driver currently is in relation to the planned route and stops.
+Drivers’ location can be tracked on **Route view page** directly on the map in Geo2 Hub once a route is in Started status and driver has enabled location tracking in the mobile app. The system uses GPS data sent from the driver’s mobile app to display the latest known position of the driver’s vehicle on the route map in Hub, allowing dispatchers to see where the driver currently is in relation to the planned route and stops.
 
-Drivers’ location can also be tracked on **Analytics page** in the **Started Route Driver Position** chart. This chart shows a map with the current positions of all drivers who have started their routes, giving an overview of where drivers are located across all active routes at the same time. This chart is available with Advanced and Enterprise subscription levels.
+Drivers’ location can also be tracked on **Analytics page** in the **Started Route Driver Position** chart in Hub. This chart shows a map with the current positions of all drivers who have started their routes, giving an overview of where drivers are located across all active routes at the same time. This chart is available with Advanced and Enterprise subscription levels.
 
 </details>
 
@@ -297,8 +316,9 @@ Drivers’ location can also be tracked on **Analytics page** in the **Started R
 
 With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app. It is available for **one user per organization**, and additional users cannot be added on this level. The Free subscription includes:
 
-- **Order management** (Hub and mobile app): Create unlimited orders each month, set time windows, assign them to routes, and view proof of delivery (POD) history in both the web Hub and mobile app. Use address scanning and voice search in the mobile app for fast adding route stops.
+- **Order management** (Hub and mobile app): Create unlimited orders (stops) each month, set time windows, assign them to routes, and view proof of delivery (POD) history in both the web Hub and mobile app. Use multi-address scanning, voice search, map search, import from PDFs and photos in the mobile app for fast adding route stops.
 - **Route planning** (Hub and mobile app): Build unlimited routes with up to 15 orders per route, optimize them with vehicle restrictions, adjust stops and timings, plan driver breaks.
+- **AI assistant** (Hub and mobile app): Manage your daily route work faster and with less manual tapping. It is especially useful when you are working solo and need to adjust plans on the go, add new stops, understand what to do next, or quickly find your way around the mobile app or Hub. You can interact with the assistant using text, voice input, or the hands-free Voice Mode, making it easy to use while preparing for a route, driving between stops, taking a break, or when plans change during the day. Voice Mode lets you keep your focus on the road while asking questions, creating or updating stops, optimizing routes, checking route details, or managing deliveries without needing to type, helping you stay productive and safer on the go. The AI assistant is available to users of all levels. However, Free and Pro users are limited to 5 requests per day, while users with Advanced and Enterprise subscriptions have no restrictions on the number of requests.
 - **Vehicle loading** (mobile app): Set parcel placements with optional photos.
 - **Navigation** (mobile app):Use your preferred navigation app (e.g., Google Maps, Apple Maps, Waze) for turn-by-turn directions.
 - **Proof of delivery** (Hub and mobile app): Create PODs with photos and signatures (planned or ad-hoc) in the app, store up to 30 days of data both in the web Hub and mobile app.
@@ -312,9 +332,9 @@ This gives you the essentials for planning, managing, and executing routes effec
 <details>
 <summary>What paid levels does Geo2 offer?</summary>
 
-Geo2 offers three paid subscription levels: **Pro**, **Advanced**, and **Enterprise**, each building on top of the Free plan.
+Geo2 offers three paid subscription levels: **Pro**, **Advanced**, and **Enterprise**, each building on top of the Free level.
 
-- **Pro** — In addition to Free features, Pro includes unlimited stops per route, unlimited data storage in Hub for routes, orders and PODs, as well as the ability to export order data.
+- **Pro** — In addition to Free features, Pro includes unlimited stops per route, unlimited data storage in Hub for routes, orders and PODs, as well as the ability to export order data, and ad-free experience.
 - **Advanced** — Includes everything in Free and Pro, plus route optimization with time windows, automated POD and public tracking emails, order import via Excel (CSV), package management with scanning and validation in the mobile app, support for multiple vehicles and vehicle checks, multi-route management on a single map view, and analytics and reporting. With Advanced subscription, you can add up to 10 users to your organization.
 - **Enterprise** (available for purchase in Hub only) — Includes all Free, Pro, and Advanced features, plus product-level order management, driver-to-vehicle assignment based on vehicle categories, multiple route participants, AI-powered route building, automated public tracking SMS notifications, actual stop duration tracking, multiple environments per organization (for example, testing and production), custom fields, and access to the REST API. With Enterprise subscription, you can add unlimited number of users to your organization.
 
@@ -327,7 +347,7 @@ For an additional cost, Enterprise customers can also request custom integration
 
 At Geo2, subscription pricing is calculated per user added to an organization, and the available user limits depend on the selected level.
 
-- **Pro** — Allows 1 user per organization. Pricing is **$7.99 per month** or **$77.88 per year**.
+- **Pro** — Allows 1 user per organization. Pricing is **$8.99 per month** or **$77.88 per year**. It can be bought only through the mobile app.
 - **Advanced** — Allows up to 10 users per organization. Pricing is **$15.99 per user per month** or **$155.88 per user per year**.
 - **Enterprise** — Allows an unlimited number of users per organization. Pricing is **$49.99 per user per month** or **$479.88 per user per year**.
 

@@ -139,5 +139,6 @@ Learn about the new features of each new release. This is useful for the evaluat
 - [Release Notes 5.1.1](Release%20Notes/Release%20Notes%205.1.1.md)
 - [Release Notes 5.2](Release%20Notes/Release%20Notes%205.2.md)
 - [Release Notes 5.2.1](Release%20Notes/Release%20Notes%205.2.1.md)
-- [Release Notes 5.3 (mobile app: pending)](Release%20Notes/Release%20Notes%205.3%20(mobile%20app_%20pending).md)
+- [Release Notes 5.3](Release%20Notes/Release%20Notes%205.3.md)
 - [Release Notes 5.3.1](Release%20Notes/Release%20Notes%205.3.1.md)
+- [Release Notes 5.3.2](Release%20Notes/Release%20Notes%205.3.2.md)
