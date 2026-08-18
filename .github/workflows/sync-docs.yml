@@ -25,7 +25,8 @@ jobs:
           python-version: '3.x'
 
       - name: Install Confluence Exporter
-        run: pip install confluence-markdown-exporter==5.2.1
+        # atlassian-python-api 5.0 dropped get_space(expand=...); cme 5.2.1 doesn't cap it
+        run: pip install confluence-markdown-exporter==5.2.1 'atlassian-python-api<5'
 
       - name: Configure exporter
         env:
