@@ -6,3 +6,7 @@
 Hub bug fix release:
 
 2026-08-03
+
+Mobile app release:
+
+2026-08-17
