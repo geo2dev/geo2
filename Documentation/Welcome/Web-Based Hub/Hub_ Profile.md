@@ -1,10 +1,8 @@
 ---
-slug: "/web-based-hub/hub-profile"
-sidebar_label: "Profile"
+slug: /web-based-hub/hub-profile
+sidebar_label: Profile
 sidebar_position: 15
 ---
-
-
 # Hub: Profile
 
 Your user avatar in the top-right corner of every page is a link that lets you navigate to your user profile:
@@ -68,3 +66,4 @@ It's possible to manage your email preferences for all organizations you are in.
 The route in the “Released” status will appear in the mobile app for the assigned driver/participants. Scan the QR code on the Profile menu → Mobile app page to install the app for iOS or Android.  Depending on the OS of your device, you will either be redirected to App Store (if iOS) or Google Play (if Android).
 
 ![Screenshot 2025-11-05 at 16.47.33.png](/Documentation/attachments/adec740e-b661-4410-bdbd-772d85a5094c.png)
+
