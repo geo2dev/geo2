@@ -31,17 +31,17 @@ For an additional overview, visit [**geo2.com**](https://geo2.com/).
 Start by selecting the platform you’re working with:
 
 > [!NOTE]
-> ## [Web-Based Hub](Web-Based%20Hub/Web-Based%20Hub.md)
+> ## [Web-Based Hub](Web-Based%20Hub/index.md)
 >
 > Learn about the browser interface used for management, route planning, and analytics.
 
 > [!NOTE]
-> ## [Mobile App](Mobile%20App/Mobile%20App.md)
+> ## [Mobile App](Mobile%20App/index.md)
 >
 > Learn about the driver mobile app used for route planning, PODs, and vehicle checks.
 
 > [!NOTE]
-> ## [API](API/API.md)
+> ## [API](API/index.md)
 >
 > Learn about the API interface used for integration your other systems and automation.
 
@@ -50,7 +50,7 @@ Start by selecting the platform you’re working with:
 See what’s new in our latest releases and how the updates help you get more done:
 
 > [!NOTE]
-> ## [Release Notes](Release%20Notes/Release%20Notes.md)
+> ## [Release Notes](Release%20Notes/index.md)
 >
 > Learn about the new features of each new release.  This is useful for the evaluation of new features as you prepare for an upgrade.
 

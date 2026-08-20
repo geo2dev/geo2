@@ -47,11 +47,11 @@ On the `Routes` page, press `Create` button to be redirected to Route creation p
 | Key | Your unique identifier for the route in this environment.  It can be a route number, for example, 1, 2, 3, etc. |
 | Trip | A number you can use to indicate, for example, the order of routes for the same vehicle on the day, with the first route of the day being 1, a subsequent one being 2, etc. |
 | Status | - ![](/Documentation/attachments/06169052-cf2f-4da2-8c88-335e83f8986e.png) Planning - actively being planned <br>- ![Screenshot 2024-12-09 at 13.27.36.png](/Documentation/attachments/b11d79b8-8e1c-485a-bff1-e549ac261a0e.png) Planned - planning is completed, but route has not yet been released to a driver <br>- ![](/Documentation/attachments/c70b1fd7-3a16-49c5-816c-bf9590e64605.png) Released - released to a driver, so that they can work with it in the mobile app <br>- ![](/Documentation/attachments/5676604f-5cf6-4126-ae96-849607910b63.png) Started - indicates the route has left the start point <br>- ![](/Documentation/attachments/0aad8697-6b92-440c-b333-04299fd0e8f0.png) Completed - all work on the route has been completed; for example, the vehicle has returned to the end point |
-| Driver | User responsible for the route.  Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes.md) and on the [Hub: Analytics](Hub_%20Analytics.md) on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). <br/> If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.  Assigning categories to users and vehicles is optional. |
+| Driver | User responsible for the route.  Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes.md) and on the [Hub: Analytics](Hub_%20Analytics.md) on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). <br/> If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.  Assigning categories to users and vehicles is optional. |
 | Participants | Up to 2 additional users assigned to the route. Once released, the assigned participant sees the route in the mobile app. While the driver retains the ability to start and complete a route, participants will have access to a route to check the list of stops and create POD's for them. |
-| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears.  If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
+| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears.  If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
 | Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route end field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears.  If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
-| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.  Assigning categories to users and vehicles is optional. <br/> Vehicle dimensions specified in the [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
+| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.  Assigning categories to users and vehicles is optional. <br/> Vehicle dimensions specified in the [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
 | Area | Area tag.  You can set up the default user and vehicle for every area.  When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
 | Vehicle check on route start | Activate vehicle check in the mobile app when the route is being started. |
 | Vehicle check on route completion | Activate vehicle check in the mobile app when the route is being completed. |
@@ -103,7 +103,7 @@ When you click on a route card in the Routes list, you can edit the route:
 - move orders between routes
 - create a route from stops selection on the map
 - view the route on an interactive map
-- add the route to an export queue of the [API](../API/API.md)
+- add the route to an export queue of the [API](../API/index.md)
 
 Consider the impact of your edits, especially once the route is out of the Planned status.
 
@@ -210,11 +210,11 @@ If there is insufficient horizontal space, the text field labels are omitted and
 
 ![Screenshot 2025-08-29 at 15.47.56.png](/Documentation/attachments/69b2a0b4-cb0f-4d5f-905c-ffed089e6bf6.png)
 
-You can customize the information displayed on the stop card in the collapsed and expanded view in [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md).
+You can customize the information displayed on the stop card in the collapsed and expanded view in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md).
 
 ![Screenshot 2025-11-05 at 13.05.41.png](/Documentation/attachments/9266cd3b-8f2f-48c1-957e-909f94926041.png)
 
-You will see highlighted required from/to and committed time with red and orange colours if the required/committed time doesn't match the planned time. Red colour - if the difference between required/committed and planned time is more than [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md). Orange - if the difference between required/committed and planned time is within delivery ETA tolerance (from Environment settings).  We do not highlight the required/committed time if it's the same as the planned time.
+You will see highlighted required from/to and committed time with red and orange colours if the required/committed time doesn't match the planned time. Red colour - if the difference between required/committed and planned time is more than [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). Orange - if the difference between required/committed and planned time is within delivery ETA tolerance (from Environment settings).  We do not highlight the required/committed time if it's the same as the planned time.
 
 ### Editing Stop Geolocation
 
@@ -222,7 +222,7 @@ If you want to modify the previously determined address geo-location, you can ed
 
 ![Screenshot 2025-08-29 at 15.48.44.png](/Documentation/attachments/743f7b36-52e7-4ada-817b-206a526e7678.png)
 
-The Geo Code dialog will be displayed.  Checkboxes near the address fields allow you to control which data will be used for geocoding.  By default, enabled fields are taken from [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md).  To check a new geolocation, press the `Check Geo Point` button.  It is often the case that using all parts of the address will lead to a better location match.
+The Geo Code dialog will be displayed.  Checkboxes near the address fields allow you to control which data will be used for geocoding.  By default, enabled fields are taken from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md).  To check a new geolocation, press the `Check Geo Point` button.  It is often the case that using all parts of the address will lead to a better location match.
 
 You can also edit latitude and longitude or move the pin on the map to adjust the address.
 
@@ -246,15 +246,15 @@ Remember to save changes by pressing the `Save` button.
 
 ## Route Capacity
 
-Above the route map, you will find a summary comparison of the peak weight and volume of the route’s orders versus the weight and volume capacity of the assigned vehicle (“Weight capacity” and “Volume capacity” fields specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md)) depending on an order type - delivery or collection.  If you expand it by pressing the down arrow, `v`, you can see how the weight and volume are expected to evolve as the route's stops progress.
+Above the route map, you will find a summary comparison of the peak weight and volume of the route’s orders versus the weight and volume capacity of the assigned vehicle (“Weight capacity” and “Volume capacity” fields specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)) depending on an order type - delivery or collection.  If you expand it by pressing the down arrow, `v`, you can see how the weight and volume are expected to evolve as the route's stops progress.
 
 ![Screenshot 2025-11-05 at 13.09.59.png](/Documentation/attachments/2ffa44a2-300f-4bb9-94aa-b8a89f7337e7.png)
 
 ## Route CO2 Emissions
 
-The total planned CO2 emissions will be calculated for a current route depending on the route planned distance, multiplied by the emission factor of the vehicle assigned to a route (taken from [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md)).  The units shown depend on [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md).
+The total planned CO2 emissions will be calculated for a current route depending on the route planned distance, multiplied by the emission factor of the vehicle assigned to a route (taken from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)).  The units shown depend on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md).
 
-Actual CO2 emissions are calculated from the actual distance, as recorded via device tracking for each completed route, multiplied by the emission factor of the vehicle assigned to the route (taken from [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md)).  To receive reliable data, it is important that location tracking is enabled on devices and that routes are marked as started/completed at the beginning/end of each route.  If a route is completed in the mobile app, actual distance is read-only.  For routes completed from the Hub user interface or via the API, the actual distance travelled for the route can be edited.
+Actual CO2 emissions are calculated from the actual distance, as recorded via device tracking for each completed route, multiplied by the emission factor of the vehicle assigned to the route (taken from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)).  To receive reliable data, it is important that location tracking is enabled on devices and that routes are marked as started/completed at the beginning/end of each route.  If a route is completed in the mobile app, actual distance is read-only.  For routes completed from the Hub user interface or via the API, the actual distance travelled for the route can be edited.
 
 ![Screenshot 2025-11-05 at 13.12.52.png](/Documentation/attachments/0ca78e19-cd2d-45ad-9d6a-e7f1c0afac22.png)
 
@@ -264,11 +264,11 @@ It is possible to add driver breaks by pressing the `Actions` button and selecti
 
 ![Screenshot 2025-11-05 at 13.49.21.png](/Documentation/attachments/4fd1ddf8-a712-43d1-af4a-e1fbdc559259.png)
 
-You will see a prompt to specify the stop duration for this break.  You can specify it in minutes or hours. By default, a stop duration time is taken from [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md).
+You will see a prompt to specify the stop duration for this break.  You can specify it in minutes or hours. By default, a stop duration time is taken from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md).
 
 ![Screenshot 2025-08-29 at 15.51.57.png](/Documentation/attachments/ab159629-7128-47c5-8b97-3a9342f72f14.png)
 
-By pressing the `Add break` button, a break is added at the end of the stops list.  Press `Save` to recalibrate the route and update the planned time on the stops.  If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+By pressing the `Add break` button, a break is added at the end of the stops list.  Press `Save` to recalibrate the route and update the planned time on the stops.  If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
 It's possible to drag-and-drop a driver break similar to other stop cards to change its position in the list.  You can also edit it by pressing the `Edit` button near the time.  You can delete the break by pressing the `Delete` icon by hovering over the card.  Remember to save changes to re-calibrate the route.
 
@@ -282,7 +282,7 @@ Additionally, you can press on a circle, shape, or rectangle icons at the bottom
 
 ![Screenshot 2025-11-05 at 13.23.46.png](/Documentation/attachments/09ab895f-e660-4f7f-8ebe-865d1ef888d4.png)
 
-Once you are happy with the result, press the `Save` button.  The route will be automatically recalibrated to update the planned time on the stops, route planned duration, distance, and end time.  If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+Once you are happy with the result, press the `Save` button.  The route will be automatically recalibrated to update the planned time on the stops, route planned duration, distance, and end time.  If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
 ## Optimizing Route with Time Windows
 
@@ -296,7 +296,7 @@ Among these orders, there has to be at least 1 order with the provided required 
 
 When you press `Optimize with time windows`, the geo-locations of the assigned route start/end points and the orders will be used to suggest an optimum driving route as well as to match the required time windows for each order. The time window specified using the `Required from` and `Required to` fields inside an order is not considered a hard constraint by the system. That is, the system doesn't fail if the stop cannot be visited during the time window; instead, the system tries to find a route that visits the stop during its time window, but if time-window violations are inevitable, the system tries to find a solution that minimizes the time-window violation time for all stops in the problem.
 
-If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
 You are not obliged to accept the suggested order but to save changes, remember to press the `Save` button.
 
@@ -326,7 +326,7 @@ To use the Optimize without time windows option, press the `Actions` button and
 
 ![Screenshot 2025-11-05 at 14.07.07.png](/Documentation/attachments/ef689d5c-ce4b-4a71-a120-a77d799e78f3.png)
 
-When you press `Optimize without time windows`, the geo-locations of the assigned route start/end points and the orders will be used to suggest an optimum driving route.  The order of the orders may be changed and the planned timings and distance of the route updated.  If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+When you press `Optimize without time windows`, the geo-locations of the assigned route start/end points and the orders will be used to suggest an optimum driving route.  The order of the orders may be changed and the planned timings and distance of the route updated.  If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
 You are not obliged to accept the suggested order but to save changes, remember to press the `Save` button.
 
@@ -354,7 +354,7 @@ You can only optimize stops that are located next to each other in a stop order.
 
 ## Calibrating Route
 
-To use the Calibrate option, you need to click on the `Actions` button and choose the `Calibrate` option.  When you press `Calibrate`, the planned timings and distance of the route will be calculated without modifying the orders list. If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+To use the Calibrate option, you need to click on the `Actions` button and choose the `Calibrate` option.  When you press `Calibrate`, the planned timings and distance of the route will be calculated without modifying the orders list. If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
 Automatic calibration is applied in most cases so you do not need to press `Calibrate`:
 
@@ -390,7 +390,7 @@ After auto-calibration (by pressing `Save` button):
 
 To use the Reverse option, you need to click on the `Actions` button and choose the `Reverse stops` option.  This means if you choose to, you can reverse the order in which you deliver your orders (to start from the last order and finish on the first one with all stops also reversed accordingly). 
 
-Once you are satisfied with the order of stops, press the `Save` button.  The system will then automatically update the planned time on each order, as well as the planned distance and duration of the route. If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+Once you are satisfied with the order of stops, press the `Save` button.  The system will then automatically update the planned time on each order, as well as the planned distance and duration of the route. If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
 ![Screenshot 2025-11-05 at 14.25.15.png](/Documentation/attachments/b1717546-79f9-4f00-aa2d-c9e90272f470.png)
 
@@ -480,9 +480,9 @@ You can press the POD icon to check its details:
 
 If an order has several recorded POD's, they will be displayed in separate tabs as Pod 1, Pod 2, etc.
 
-You can click on the Download PDF button to save POD as a PDF file.  If manual sending of POD is enabled in the POD notification settings, you will see the `Email to recipient` button.  By pressing it, the POD email will be sent to the recipient's email address. Learn how to set up [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md).
+You can click on the Download PDF button to save POD as a PDF file.  If manual sending of POD is enabled in the POD notification settings, you will see the `Email to recipient` button.  By pressing it, the POD email will be sent to the recipient's email address. Learn how to set up [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md).
 
-If you set up [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) for successful or failed delivery, emails with related subjects and attached reports will be sent to the recipient email address (if an order has it) and to fixed recipients (only for failed and partially successful emails if email addresses are specified in Environment settings).
+If you set up [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) for successful or failed delivery, emails with related subjects and attached reports will be sent to the recipient email address (if an order has it) and to fixed recipients (only for failed and partially successful emails if email addresses are specified in Environment settings).
 
 ![Screenshot 2025-08-27 at 15.29.00.png](/Documentation/attachments/bf3526dd-71c5-4d8d-8c17-4baee54cbeec.png)
 
@@ -494,17 +494,17 @@ It's possible to download reports to a device.
 
 ![POD 20250827_2 (1).png](/Documentation/attachments/b2d4bee8-a63f-45fe-ac90-7d29020714a8.png)
 
-You can track the status of the emails sent on [Hub: Orders](Hub_%20Orders/Hub_%20Orders.md) inside the Order details.
+You can track the status of the emails sent on [Hub: Orders](Hub_%20Orders/index.md) inside the Order details.
 
 ![Order_20250829_9.png](/Documentation/attachments/123f0b4f-42b9-4b05-a050-29ae520da292.png)
 
 ## Public tracking
 
-Depending on [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md), once the status of a route reaches the appropriate value (e.g. in transit), a tracking email/SMS notification will be sent to the recipient's email address/mobile phone number (if an order has them).  You can add a public tracking link to it to check the approximate date/time of delivery and the driver's position on the map.
+Depending on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), once the status of a route reaches the appropriate value (e.g. in transit), a tracking email/SMS notification will be sent to the recipient's email address/mobile phone number (if an order has them).  You can add a public tracking link to it to check the approximate date/time of delivery and the driver's position on the map.
 
 ![Screenshot 2025-08-27 at 15.42.31.png](/Documentation/attachments/f472d88b-d19e-4a21-abc8-08baa0b37a54.png)
 
-You can track the status of the emails/SMS notifications sent on [Hub: Orders](Hub_%20Orders/Hub_%20Orders.md) inside the Order details.
+You can track the status of the emails/SMS notifications sent on [Hub: Orders](Hub_%20Orders/index.md) inside the Order details.
 
 ![Order_20250829_9.png](/Documentation/attachments/123f0b4f-42b9-4b05-a050-29ae520da292.png)
 

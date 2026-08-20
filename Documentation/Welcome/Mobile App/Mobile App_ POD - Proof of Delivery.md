@@ -86,7 +86,7 @@ POD statuses (successful, partially successful, failed, no POD) are also display
 
 ## Order Packages
 
-When the order has pre-defined packages, they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/Hub_%20Orders.md), mobile app or API for an order. Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
+When the order has pre-defined packages, they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md), mobile app or API for an order. Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
 
 ![App 153.png](../../attachments/e1369bdb-8c04-4c9a-9396-d34d1828a3e9.png)
 
@@ -104,7 +104,7 @@ By default, packages are marked as delivered (checkboxes are selected). See [Mob
 
 ## Order Products
 
-When the order has pre-defined products, they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/Hub_%20Orders.md) or via the API for an order. Adding/marking products as failed is available only with Enterprise subscription level.
+When the order has pre-defined products, they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md) or via the API for an order. Adding/marking products as failed is available only with Enterprise subscription level.
 
 ![App 158.png](../../attachments/cb495fa4-6334-4df2-8e91-77de5b1cfdd9.png)
 
@@ -132,7 +132,7 @@ By default, packages with products inside are marked as delivered (checkboxes ar
 
 # Ad-hoc/Unplanned POD
 
-You can create an ad-hoc POD for an existing order by specifying its key.  If the order key does not yet exist, a skeleton order will be created in the background (depending on [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md)).  If you provide the key of an existing order, details such as type, key, contact name, email, and address are pre-populated.  You can edit remarks and contact name.
+You can create an ad-hoc POD for an existing order by specifying its key.  If the order key does not yet exist, a skeleton order will be created in the background (depending on [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/index.md)).  If you provide the key of an existing order, details such as type, key, contact name, email, and address are pre-populated.  You can edit remarks and contact name.
 
 ![App 161.png](../../attachments/5c304b62-064e-41df-b609-d164279ade4d.png)![App 162.png](../../attachments/85844a69-1153-4a51-b1e7-ca1dd08435f9.png)![App 163.png](../../attachments/fd3fb126-459c-431e-a121-36ca551cfe0d.png)
 
@@ -179,7 +179,7 @@ After filling in all the data, press the `Create POD` button to save the POD.  
 
 ## Order Packages
 
-When the order has pre-defined packages (ad-hoc POD for existing order), they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/Hub_%20Orders.md), mobile app or API for an order.
+When the order has pre-defined packages (ad-hoc POD for existing order), they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md), mobile app or API for an order.
 
 Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
 
@@ -199,7 +199,7 @@ By default, packages are marked as delivered (checkboxes are selected). See [Mob
 
 ## Order Products
 
-When the order has pre-defined products (ad-hoc POD for existing order key), they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/Hub_%20Orders.md) or API for an order.
+When the order has pre-defined products (ad-hoc POD for existing order key), they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md) or API for an order.
 
 Adding/marking products as failed is available only with Enterprise subscription level.
 

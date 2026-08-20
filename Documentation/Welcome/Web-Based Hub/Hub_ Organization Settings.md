@@ -10,7 +10,7 @@ description: "Organizations are groups of Geo2 users who share a subscription an
 
 # Introduction
 
-Organizations are groups of Geo2 users who share a subscription and collaborate on data in one or more [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md).
+Organizations are groups of Geo2 users who share a subscription and collaborate on data in one or more [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md).
 
 # Organization Settings
 

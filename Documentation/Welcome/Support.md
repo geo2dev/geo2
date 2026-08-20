@@ -19,7 +19,7 @@ As a Geo2 user, you can request assistance through the Support and Feature reque
 Organization admins can remove user accounts and delete organizations and environments. To remove your Geo2 account, ask your organization admin. If you are an organization admin, read more about:
 
 - [Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md)
-- [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md)
+- [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/index.md)
 - Removing users from your [Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md)/[Hub: Users Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Users%20Settings.md)
 
 # Support Request

@@ -170,7 +170,7 @@ You can use the Hub and mobile app together for full route planning and delivery
 <details>
 <summary>What is the difference between organizations and environments?</summary>
 
-[Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md) is a group of users who share a subscription and collaborate on data in one or more environments. [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) let you represent teams within a single company or provide separate spaces for testing and productive use. Creating orders, planning routes, recording vehicle checks and PODs (proof of delivery) are all tasks associated with a specific environment. You can configure multiple environments for various purposes, each with its own settings for depots, vehicles, route configurations, display preferences, and more.
+[Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md) is a group of users who share a subscription and collaborate on data in one or more environments. [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/index.md) let you represent teams within a single company or provide separate spaces for testing and productive use. Creating orders, planning routes, recording vehicle checks and PODs (proof of delivery) are all tasks associated with a specific environment. You can configure multiple environments for various purposes, each with its own settings for depots, vehicles, route configurations, display preferences, and more.
 
 **Examples:**
 
@@ -218,7 +218,7 @@ Once you register your account and a new environment is created, default vehicle
 
 **You can add more vehicles either through Hub or the mobile app:**
 
-1. To add vehicles through **Hub,** go to the [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) and use the `Add` button to create vehicles one by one. A dialog will appear where you can provide required information including a unique **Key**, the **Type** of vehicle, and set a **Speed factor**; other details like registration number, vehicle categories, capacity, dimensions, emission factor and availability for route building can be filled optionally. Hover over the question mark icons for help on each field. After entering the details, press `Create` to save the vehicle. Besides adding individually, you can import multiple vehicles at once via the **Import** button and uploading a spreadsheet with mapped columns or pasting data directly into the import interface, then finalize to add all vehicles to the environment.
+1. To add vehicles through **Hub,** go to the [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/index.md) and use the `Add` button to create vehicles one by one. A dialog will appear where you can provide required information including a unique **Key**, the **Type** of vehicle, and set a **Speed factor**; other details like registration number, vehicle categories, capacity, dimensions, emission factor and availability for route building can be filled optionally. Hover over the question mark icons for help on each field. After entering the details, press `Create` to save the vehicle. Besides adding individually, you can import multiple vehicles at once via the **Import** button and uploading a spreadsheet with mapped columns or pasting data directly into the import interface, then finalize to add all vehicles to the environment.
 2. To add vehicles through the **mobile app**, open [Mobile App: Settings](Mobile%20App/Mobile%20App_%20Settings.md) where you’ll see a list of vehicles. Tap **Add vehicle** to open a form where the **Key** and **Type** fields are required and other details like **Registration**, **Gross weight**, **Height**, **Width**, and **Length** can be entered if needed; pressing the **Measures** button shows additional optional fields for physical dimensions and capacities. After entering the information, tap Add to save the vehicle. You can also add your first vehicle while planning a route by tapping the `Vehicle` field, which opens the same vehicle creation form.
 
 </details>
@@ -226,7 +226,7 @@ Once you register your account and a new environment is created, default vehicle
 <details>
 <summary>Does Geo2 support multiple depots?</summary>
 
-Yes, you can add as many depots as needed in Hub under [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md).
+Yes, you can add as many depots as needed in Hub under [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/index.md).
 
 When you create an account through Geo2 Hub, your first depot is added automatically. You can add additional depots later in Settings in Geo2 Hub — either individually using the `Add` button or in bulk using the `Import` option. The default depot is used as the start and end point for routes, but you can change it to any other location. Each route and order can be assigned to only one depot, and the route depot must match the depot assigned to its orders for correct route planning.
 
@@ -297,7 +297,7 @@ Adding extra users to your organization is available with the **Advanced** (up t
 
 **Yes.** You can send a tracking link to a recipient via automated email or SMS notifications using Public tracking settings either in Geo2 Hub or the mobile app. When this feature is enabled on the selected order or route status, Geo2 automatically sends notifications that include a public tracking link to the recipient’s email address or phone number, allowing them to follow the delivery status in real time without logging in. Geo2 provides default email and SMS templates for public tracking, so notifications work out of the box and can be customized if needed. To send SMS notifications, you do not need to have a valid organization phone number, as we send SMS messages to customers using our own system. The only requirement is that a valid recipient mobile phone number is provided on the order. Public tracking notification can also be enabled or disabled per individual order in Geo2 Hub, and notification activity, such as whether a message was sent or opened, is recorded for visibility.
 
-Public tracking emails are included in the Advanced subscription level, while SMS notifications are available with the Enterprise subscription level only. Press [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) to learn more about public tracking notifications.
+Public tracking emails are included in the Advanced subscription level, while SMS notifications are available with the Enterprise subscription level only. Press [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/index.md) to learn more about public tracking notifications.
 
 </details>
 
@@ -306,7 +306,7 @@ Public tracking emails are included in the Advanced subscription level, while SM
 
 **Yes.** Geo2 supports POD (proof of delivery) notifications for successful, partially successful and failed deliveries/collections. When POD notifications are enabled in the Settings in Hub or the mobile app, emails can be sent to you and to the recipient (customer) based on the delivery result. Successful, partially successful, and failed deliveries can trigger notifications, provided a recipient email is available. Additionally, fixed recipients can be configured in settings in Hub to always receive notifications for failed or partially successful deliveries, even if notifications are disabled at the order level.
 
-POD emails are available with Advanced and Enterprise subscription levels. Press [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) to learn more about sending POD notifications.
+POD emails are available with Advanced and Enterprise subscription levels. Press [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/index.md) to learn more about sending POD notifications.
 
 </details>
 

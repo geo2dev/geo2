@@ -20,7 +20,7 @@ You can download the mobile app from [**App Store**](https://apps.apple.com/app/
 # In This Section
 
 - [Mobile App: Register](Mobile%20App_%20Register.md)
-- [Mobile App: Sign In](Mobile%20App_%20Sign%20In/Mobile%20App_%20Sign%20In.md)
+- [Mobile App: Sign In](Mobile%20App_%20Sign%20In/index.md)
 - [Mobile App: Permissions](Mobile%20App_%20Permissions.md)
 - [Mobile App: Map](Mobile%20App_%20Map.md)
 - [Mobile App: Menu](Mobile%20App_%20Menu.md)

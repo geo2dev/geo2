@@ -30,6 +30,11 @@ content:
     # file, which breaks the ~60 documents that link to each other with
     # relative .md paths.
     view:
+      # Tree layout mirrors the site's sidebar: each folder is represented by
+      # its index.md, which is also what Docusaurus links the category to.
+      layout: tree
+      node:
+        filename: index.md
       fields: [sidebar_label, slug, sidebar_position, description]
       primary: sidebar_label
       sort: [sidebar_position, sidebar_label, slug]

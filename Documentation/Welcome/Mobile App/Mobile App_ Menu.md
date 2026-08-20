@@ -127,7 +127,7 @@ Check more details about [Mobile App: Settings](Mobile%20App_%20Settings.md).
 
 ## Set up your organization
 
-As a user, you can register and create your own organization to which you invite other users.  You may also be invited to join other organizations.  To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In/Mobile%20App_%20Sign%20In.md) to the app using the email address to which the invitation has been sent.
+As a user, you can register and create your own organization to which you invite other users.  You may also be invited to join other organizations.  To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In/index.md) to the app using the email address to which the invitation has been sent.
 
 ![App 10.png](../../attachments/190d4700-4149-4fd8-a737-42a23495a6fc.png)
 
