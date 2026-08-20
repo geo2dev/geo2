@@ -61,6 +61,13 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    // Screenshots are the bulk of this site — click to zoom instead of squinting.
+    'docusaurus-plugin-image-zoom',
+    // llms.txt / llms-full.txt so AI assistants can read the docs directly.
+    './src/plugins/llmsTxt.ts',
+  ],
+
   themes: [
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
@@ -77,6 +84,12 @@ const config: Config = {
   themeConfig: {
     image: 'img/og_image_1200x630.png',
     colorMode: { respectPrefersColorScheme: true },
+    // Pages often put several screenshots side by side inside one paragraph,
+    // so match any img in the content, not just direct children of .markdown.
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      background: { light: 'rgb(255, 255, 255)', dark: 'rgb(50, 50, 50)' },
+    },
     navbar: {
       logo: {
         alt: 'Geo2',
