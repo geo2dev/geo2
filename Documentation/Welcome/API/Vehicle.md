@@ -34,7 +34,7 @@ To create a vehicle you need to send a POST request with the following parameter
 
 Example of a POST request to create a vehicle:
 
-### **Code Block**
+### Request
 
 ```bash
 curl -X 'POST' \
@@ -54,7 +54,7 @@ curl -X 'POST' \
 
 Example of a response after sending a request:
 
-### **Code Block**
+### Response
 
 ```bash
 {
@@ -68,7 +68,7 @@ If a response status is OK, a vehicle is created. It is also shown in the [Hub: 
 
 To return all vehicles for an environment, you need to send a GET/vehicles request.  Example:
 
-### **Code Block**
+### Request
 
 ```bash
 curl -X 'GET' \
@@ -79,7 +79,7 @@ curl -X 'GET' \
 
 Example of a response after sending a request:
 
-### **Code Block**
+### Response
 
 ```bash
 {
@@ -110,7 +110,7 @@ Example of a response after sending a request:
 
 To get data about only one certain vehicle, you need to send a GET/vehicle request.  You can use a vehicle key.  Example:
 
-### **Code Block**
+### Request
 
 ```bash
 curl -X 'GET' \
@@ -121,7 +121,7 @@ curl -X 'GET' \
 
 Example of a response after sending a request:
 
-### **Code Block**
+### Response
 
 ```bash
 {
@@ -142,7 +142,7 @@ Example of a response after sending a request:
 
 To delete a vehicle you can use a vehicle key.  After filling in a vehicle key, you need to send a DELETE request.  Example:
 
-### **Code Block**
+### Request
 
 ```bash
 curl -X 'DELETE' \
@@ -153,7 +153,7 @@ curl -X 'DELETE' \
 
 Example of a response after sending a request:
 
-### **Code Block**
+### Response
 
 ```bash
 {

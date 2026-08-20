@@ -56,7 +56,7 @@ To create a depot you need to send a POST request with the next parameters:
 
 Example of a POST request to create a depot:
 
-### **Code Block**
+### Request
 
 ```bash
 curl -X 'POST' \
@@ -104,7 +104,7 @@ curl -X 'POST' \
 
 Example of a response after sending a request:
 
-### **Code Block**
+### Response
 
 ```bash
 {
@@ -118,7 +118,7 @@ If a response status is OK, a depot is created. It is also shown in the Depots t
 
 To return all depots for an environment, you need to send a GET/depots request.  Example:
 
-### **Code Block**
+### Request
 
 ```bash
 curl -X 'GET' \
@@ -129,7 +129,7 @@ curl -X 'GET' \
 
 Example of a response after sending a request:
 
-### **Code Block**
+### Response
 
 ```bash
 {
@@ -210,7 +210,7 @@ Example of a response after sending a request:
 
 To get data about only one certain depot, you need to send a GET /depot request.  You can use a depot key.  Example:
 
-### **Code Block**
+### Request
 
 ```bash
 curl -X 'GET' \
@@ -221,7 +221,7 @@ curl -X 'GET' \
 
 Example of a response after sending a request:
 
-### **Code Block**
+### Response
 
 ```bash
 {
@@ -266,7 +266,7 @@ Example of a response after sending a request:
 
 To delete a depot you can use a depot key.  After filling in a depot key, you need to send a DELETE request.  Example:
 
-### **Code Block**
+### Request
 
 ```bash
 curl -X 'DELETE' \
@@ -277,7 +277,7 @@ curl -X 'DELETE' \
 
 Example of a response after sending a request:
 
-### **Code Block**
+### Response
 
 ```bash
 {
