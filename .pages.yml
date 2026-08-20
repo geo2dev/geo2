@@ -35,6 +35,9 @@ content:
       layout: tree
       node:
         filename: index.md
+        # Without this the CMS lists each folder twice: once as its index.md
+        # entry, once as a bare folder row.
+        hideDirs: nodes
       fields: [sidebar_label, slug, sidebar_position, description]
       primary: sidebar_label
       sort: [sidebar_position, sidebar_label, slug]
