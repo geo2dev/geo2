@@ -4,11 +4,13 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import remarkGithubAlerts from './src/remark/githubAlerts';
 
 // Docs originate from a one-time Confluence export (the nightly sync is
-// retired). Slugs, labels, and sidebar order live in frontmatter /
-// _category_.json and are edited via Pages CMS (.pages.yml).
-
-/** "Hub_ Orders" / "Mobile App_ Map" -> "Orders" / "Map" */
-const cleanLabel = (s: string) => s.replace(/^[^_]+_\s*/, '').trim();
+// retired). Each parent page lives inside its own children folder under the
+// folder's own name (e.g. "Web-Based Hub/Hub_ Orders/Hub_ Orders.md"), which
+// Docusaurus's native category-index convention picks up automatically: it
+// becomes the category link, and the category's label/position come from
+// that doc's `sidebar_label` / `sidebar_position` frontmatter. Slugs, labels,
+// and sidebar order live in frontmatter / _category_.json and are edited via
+// Pages CMS (.pages.yml).
 
 const config: Config = {
   title: 'Geo2 Documentation',
@@ -52,49 +54,6 @@ const config: Config = {
           beforeDefaultRemarkPlugins: [remarkGithubAlerts],
           editUrl: undefined, // editing happens in Pages CMS, no public "edit this page"
           showLastUpdateTime: true,
-          sidebarItemsGenerator: async ({ defaultSidebarItemsGenerator, ...args }) => {
-            const positionOf = new Map(
-              args.docs.map((doc) => [doc.id, doc.frontMatter.sidebar_position]),
-            );
-            // Confluence exports a page and its children as siblings ("API.md"
-            // next to "API/"), which renders as a duplicate sidebar entry.
-            // Merge the doc into its category as the category link.
-            const mergeSiblingDocs = (items: any[]): any[] => {
-              const categories = new Map(
-                items.filter((i) => i.type === 'category').map((c) => [c.label, c]),
-              );
-              return items.flatMap((item) => {
-                if (item.type === 'doc') {
-                  const category = categories.get(item.id.split('/').pop());
-                  if (category) {
-                    category.link = { type: 'doc', id: item.id };
-                    return [];
-                  }
-                }
-                if (item.type === 'category') {
-                  item.items = mergeSiblingDocs(item.items);
-                }
-                return [item];
-              });
-            };
-            // Categories carry no sidebar_position of their own — order them by
-            // their merged doc's position so the whole sidebar is driven by the
-            // per-page sidebar_position frontmatter (editable in Pages CMS).
-            const itemPosition = (item: any): number =>
-              positionOf.get(item.type === 'doc' ? item.id : item.link?.id) ??
-              Number.MAX_SAFE_INTEGER;
-            // Doc labels come from frontmatter sidebar_label; category labels
-            // default to the folder name, so clean them here ("Hub_ Orders" -> "Orders")
-            const finalize = (items: any[]): any[] =>
-              items
-                .map((item) =>
-                  item.type === 'category'
-                    ? { ...item, label: cleanLabel(item.label), items: finalize(item.items) }
-                    : item,
-                )
-                .sort((a, b) => itemPosition(a) - itemPosition(b));
-            return finalize(mergeSiblingDocs(await defaultSidebarItemsGenerator(args)));
-          },
         },
         blog: false,
         theme: { customCss: './src/css/custom.css' },

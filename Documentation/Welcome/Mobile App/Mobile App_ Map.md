@@ -8,7 +8,7 @@ sidebar_position: 4
 
 # Introduction
 
-After signing in successfully, you will see the Map page. You may receive invitations to join other organizations. To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In.md) to the app using the email address that received the invitation. If you have no invitations, the default organization will be created. The **Free level subscription** will be assigned, with **no card required**. You can start working with the app immediately:
+After signing in successfully, you will see the Map page. You may receive invitations to join other organizations. To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In/Mobile%20App_%20Sign%20In.md) to the app using the email address that received the invitation. If you have no invitations, the default organization will be created. The **Free level subscription** will be assigned, with **no card required**. You can start working with the app immediately:
 
 - Plan routes
 - Add stops using address typing, multi-address scanning with automatic address detection, address search on the map, voice search, bulk address pasting (Paste list feature), import addresses and delivery details from photos, screenshots and PDFs

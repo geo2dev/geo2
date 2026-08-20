@@ -269,7 +269,7 @@ Example of a response after sending a request:
 }
 ```
 
-If a response status is OK, a consignment is created. It is also shown on [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md) page in the [**web-based Hub**](https://hub.geo2.com/en-GB/auth/signin).
+If a response status is OK, a consignment is created. It is also shown on [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/Hub_%20Orders.md) page in the [**web-based Hub**](https://hub.geo2.com/en-GB/auth/signin).
 
 # Update Consignment (Order)
 

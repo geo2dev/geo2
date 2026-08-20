@@ -58,7 +58,7 @@ Examples:
 
 “Minimise vehicles removed 6 vehicles” means that the Minimize vehicles option chosen before running the route building has led to removing 6 vehicles instead of the full list of vehicles you have in the Environment settings.
 
-“Depot address geo-location is not sufficiently accurate” means that you might need to go to [Hub: Environment Settings](Hub_%20Environment%20Settings.md) and check if your depot address was properly geocoded.
+“Depot address geo-location is not sufficiently accurate” means that you might need to go to [Hub: Environment Settings](Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md) and check if your depot address was properly geocoded.
 
 You can visualise generated route by pressing the `Map view` button - see [Hub: Map View](Hub_%20Map%20View.md).
 

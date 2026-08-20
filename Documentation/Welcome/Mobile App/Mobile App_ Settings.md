@@ -44,7 +44,7 @@ Once a new organization is created, by default, the start time is set to 08:00. 
 
 ## Vehicles
 
-Vehicles are assigned to deliver routes with orders.  Once you register your account and a new environment is created, default vehicles are created: van, truck, car, motorbike and bicycle. You can add more vehicles either one by one by pressing the `Add vehicle` button or all at once by pressing the `Import` button in Geo2 Hub → [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings.md).
+Vehicles are assigned to deliver routes with orders.  Once you register your account and a new environment is created, default vehicles are created: van, truck, car, motorbike and bicycle. You can add more vehicles either one by one by pressing the `Add vehicle` button or all at once by pressing the `Import` button in Geo2 Hub → [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md).
 
 By pressing the `Add vehicle` button in the app, you will see the dialog to fill in the information.  Required fields are Key and Type.  All other fields are optional. By pressing the `Measures` button, you will see additional fields like Gross weight, Height, Width, and Length.
 
@@ -106,7 +106,7 @@ If POD recording is turned off, the mobile app hides the `Create POD` button.
 
 ![20260429_19.png](../../attachments/966f1864-87ce-4bb7-8a6f-41101a5cc247.png)![20260429_20.png](../../attachments/a2fd6d65-2274-4448-9020-fa3421419cdf.png)
 
-A recipient can be sent an email with an order POD - both automatically when the POD is recorded and manually at any time from Geo2 Hub. The sender address of email notifications is [noreply@geo2.com](mailto:noreply@geo2.com) if there is no indicated Sender name at Geo2 Hub.  Learn more about the [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings.md). Sending POD emails requires an Advanced or Enterprise subscription.
+A recipient can be sent an email with an order POD - both automatically when the POD is recorded and manually at any time from Geo2 Hub. The sender address of email notifications is [noreply@geo2.com](mailto:noreply@geo2.com) if there is no indicated Sender name at Geo2 Hub.  Learn more about the [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md). Sending POD emails requires an Advanced or Enterprise subscription.
 
 Here are the configurable settings in the app:
 

@@ -43,7 +43,7 @@ You can view all environments you are a member of, either those you have created
 
 # Personal Access Tokens
 
-Personal access tokens are used to authenticate you to the [API](../API.md).  You do not need them if your user account is not being used for data integration with Geo2.
+Personal access tokens are used to authenticate you to the [API](../API/API.md).  You do not need them if your user account is not being used for data integration with Geo2.
 
 You can create a new token by pressing `Add Token`.  You need to select the environment to which the token belongs and the dates within which it is to be active.
 

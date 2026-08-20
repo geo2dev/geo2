@@ -8,7 +8,7 @@ sidebar_position: 1
 
 # Introduction
 
-As a user, you can register and create your own organization to which you invite other users.  You have the option to authenticate either with an email address and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft. You may also be invited to join other organizations.  To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In.md) to the app using the email address to which the invitation has been sent.
+As a user, you can register and create your own organization to which you invite other users.  You have the option to authenticate either with an email address and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft. You may also be invited to join other organizations.  To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In/Mobile%20App_%20Sign%20In.md) to the app using the email address to which the invitation has been sent.
 
 ![20260428_1 (2).png](../../attachments/98c52198-866f-4802-8f29-52c611825505.png)
 

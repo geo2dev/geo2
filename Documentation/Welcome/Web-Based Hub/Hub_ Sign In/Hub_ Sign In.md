@@ -21,9 +21,9 @@ Specify your email and Geo2 password.  If you press `Sign in`, you will be auth
 
 By clicking the `Remember me?` button, our platform will save your email address for future usage.  We do not save your password, it can be done only in your browser.
 
-To create a new Geo2 account, follow the link [Hub: Register](Hub_%20Register.md).
+To create a new Geo2 account, follow the link [Hub: Register](../Hub_%20Register.md).
 
-If you have forgotten your password and cannot sign in successfully, follow the link [Hub: Forgot Password](Hub_%20Sign%20In/Hub_%20Forgot%20Password.md).  This will enable you to reset your Geo2 password.
+If you have forgotten your password and cannot sign in successfully, follow the link [Hub: Forgot Password](Hub_%20Forgot%20Password.md).  This will enable you to reset your Geo2 password.
 
 ## Verify Email
 

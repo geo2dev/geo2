@@ -54,7 +54,7 @@ Next, you can select one of the following options to start working with Geo2 Hub
 - **Create route** (recommended). Add stops and plan your first route. Learn more about [Hub: Routes](Web-Based%20Hub/Hub_%20Routes.md).
 - **Create order**. Create your first order with advanced options to add to a route later. Learn more about [Hub: Order Creation and Editing](Web-Based%20Hub/Hub_%20Orders/Hub_%20Order%20Creation%20and%20Editing.md).
 - **Invite more people**. Invite more people to your organization and assign their roles. Learn more about [Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md).
-- **Customize settings**. Add more depots and vehicles, create templates for recipient notifications. Explore your [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings.md).
+- **Customize settings**. Add more depots and vehicles, create templates for recipient notifications. Explore your [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Environment%20Settings.md).
 
 ![Screenshot 2026-03-27 at 12.11.40.png](/Documentation/attachments/52474c45-80c8-4ead-9f3e-101ea8ef9122.png)
 
