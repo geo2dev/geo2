@@ -1,11 +1,18 @@
+---
+slug: "/release-notes/release-notes-2-9"
+sidebar_label: "Release Notes 2.9"
+sidebar_position: 45
+description: "Geo2 documentation: Release Notes 2.9"
+---
+
 
 # Release Notes 2.9
 
-# Release Date
+## Release Date
 
 2023-10-19
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

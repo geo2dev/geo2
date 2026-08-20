@@ -1,3 +1,10 @@
+---
+slug: "/mobile-app/mobile-app-offline-mode"
+sidebar_label: "Offline Mode"
+sidebar_position: 12
+description: "Offline mode allows you to continue working with the mobile app even without an active internet connection."
+---
+
 
 # Mobile app: Offline Mode
 

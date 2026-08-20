@@ -1,3 +1,10 @@
+---
+slug: "/web-based-hub/hub-orders/hub-order-proof-of-delivery"
+sidebar_label: "Order Proof of Delivery"
+sidebar_position: 4
+description: "When a POD (proof of delivery) has been recorded in the mobile app, you can find it by clicking on the green/yellow/red POD icon on the order card on"
+---
+
 
 # Hub: Order Proof of Delivery
 
@@ -7,15 +14,15 @@ If an order has packages and products, they will be displayed on the POD page wi
 
 Example of partially successful POD:
 
-![Order 20250829_6.png](../../../attachments/648a0c42-35cd-4285-839b-5e4c6546d9ae.png)
+![Order 20250829_6.png](/Documentation/attachments/648a0c42-35cd-4285-839b-5e4c6546d9ae.png)
 
 Example of failed POD:
 
-![Order 20250829_7.png](../../../attachments/f71727a4-3e5f-4561-b4ee-3d33799aea92.png)
+![Order 20250829_7.png](/Documentation/attachments/f71727a4-3e5f-4561-b4ee-3d33799aea92.png)
 
 Example of successful POD:
 
-![Order 20250829_8.png](../../../attachments/532f5540-a298-4a4f-befa-f0e08e4b6163.png)
+![Order 20250829_8.png](/Documentation/attachments/532f5540-a298-4a4f-befa-f0e08e4b6163.png)
 
 If an orders has several recorded POD's, they will be displayed in separate tabs as Pod 1, Pod 2, etc.
 

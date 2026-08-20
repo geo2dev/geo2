@@ -1,7 +1,13 @@
+---
+slug: "/mobile-app/mobile-app-pod-history"
+sidebar_label: "POD History"
+sidebar_position: 8
+description: "To review the history of PODs recorded by the user, click on PODs page. By clicking on the POD, you can view its details."
+---
 
 # Mobile App: POD History
 
-# POD details
+## POD details
 
 To review the history of PODs recorded by the user, click on PODs page.  By clicking on the POD, you can view its details.  Creating PODs is available on all subscription plans, including Free.
 
@@ -30,7 +36,7 @@ Depending on the data provided during POD creation, you will see the following d
 
 ![App 227.png](../../attachments/acbe81b9-4ba1-4a05-96c2-25402924f1cb.png)![App 226.png](../../attachments/ce2f422b-b5f4-4f8c-8734-d5db820e4d15.png)![App 228.png](../../attachments/01fed016-7b78-436d-86d5-bc9efecb4733.png)
 
-# POD Custom Fields
+## POD Custom Fields
 
 In the Environment settings in Geo2 Hub, you can set up custom fields to collect additional information in POD's.  Here is an example:
 
@@ -45,6 +51,6 @@ That's how the fields would look in POD history:
 
 ![App 226.png](../../attachments/ce2f422b-b5f4-4f8c-8734-d5db820e4d15.png)
 
-# Photo and Signature Re-uploading
+## Photo and Signature Re-uploading
 
 It is possible that, when the POD was created, the device was not able to successfully upload images such as the signature and any photos to Geo2 Hub.  For example, the device internet connectivity might have been poor at the time.  In this situation, image upload is re-tried up to five times, at 15-minute intervals, when there is internet connectivity.  If the background re-tries have not been successful, you can re-try the image uploads manually, by pressing one of the `Refresh` icons on the signature or the pictures.  For this to be successful, the files must still exist in your device storage and you need reliable internet connectivity.

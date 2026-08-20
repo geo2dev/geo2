@@ -1,7 +1,14 @@
+---
+slug: "/release-notes/release-notes-2-24-1"
+sidebar_label: "Release Notes 2.24.1"
+sidebar_position: 78
+description: "Geo2 documentation: Release Notes 2.24.1"
+---
+
 
 # Release Notes 2.24.1
 
-# Release Date
+## Release Date
 
 2024-07-11
 

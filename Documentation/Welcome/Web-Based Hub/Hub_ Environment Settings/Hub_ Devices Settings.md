@@ -1,3 +1,10 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-devices-settings"
+sidebar_label: "Devices Settings"
+sidebar_position: 14
+description: "Device settings in Settings → Environment control the behaviour of the mobile app."
+---
+
 
 # Hub: Devices Settings
 
@@ -13,6 +20,6 @@ To run auto-deletion of photos recorded during a POD or vehicle check creation, 
 
 `Record time at stop` enables the mobile app’s feature to record the actual time spent at a stop by a driver. Learn more about [Mobile App: Routes and Stops](../../Mobile%20App/Mobile%20App_%20Routes%20and%20Stops.md). Recording of actual stop duration is available only with Enterprise subscription level.
 
-![Screenshot 2026-04-07 at 16.15.54.png](../../../attachments/5691355c-8c17-41e9-9741-df64fda9076b.png)
+![Screenshot 2026-04-07 at 16.15.54.png](/Documentation/attachments/5691355c-8c17-41e9-9741-df64fda9076b.png)
 
 To save changes, press the `Update` button.

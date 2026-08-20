@@ -1,9 +1,15 @@
+---
+slug: "/mobile-app/mobile-app-map"
+sidebar_label: "Map"
+sidebar_position: 4
+description: "After signing in successfully, you will see the Map page. You may receive invitations to join other organizations."
+---
 
 # Mobile App: Map
 
-# Introduction
+## Introduction
 
-After signing in successfully, you will see the Map page. You may receive invitations to join other organizations. To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In.md) to the app using the email address that received the invitation. If you have no invitations, the default organization will be created. The **Free level subscription** will be assigned, with **no card required**. You can start working with the app immediately:
+After signing in successfully, you will see the Map page. You may receive invitations to join other organizations. To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In/index.md) to the app using the email address that received the invitation. If you have no invitations, the default organization will be created. The **Free level subscription** will be assigned, with **no card required**. You can start working with the app immediately:
 
 - Plan routes
 - Add stops using address typing, multi-address scanning with automatic address detection, address search on the map, voice search, bulk address pasting (Paste list feature), import addresses and delivery details from photos, screenshots and PDFs
@@ -28,13 +34,13 @@ With the AI assistant, you can also:
 
 ![20260729_1.png](../../attachments/5ce406f1-fa35-4552-8c93-dc6d151cd0c1.png)![20260728_4.png](../../attachments/1fd572a5-f1c2-4083-98e4-523b4ca9fab7.png)
 
-# Plan Route
+## Plan Route
 
 On Map page, by clicking the `Plan route` button, you can choose to create a route if you have permission to do it.  Check more details about [Mobile App: Routes and Stops](Mobile%20App_%20Routes%20and%20Stops.md).
 
 ![20260729_1.png](../../attachments/5ce406f1-fa35-4552-8c93-dc6d151cd0c1.png)![20260728_6.png](../../attachments/1995b61f-a1a9-49e3-9b3e-6dceaad121f5.png)![20260728_7.png](../../attachments/09fdae08-24d1-4265-b145-76b8d2aac220.png)
 
-# Assigned Routes
+## Assigned Routes
 
 Routes assigned to you display automatically based on priority when you launch the app or complete a route. First, if you previously selected a route that is incomplete, the app reopens it. If not, and you have routes released for today, the app opens the earliest route unless you explicitly selected another route earlier today. You can start it, create vehicle check, navigate to stops, create PODs, and complete a route.
 
@@ -46,7 +52,7 @@ After completing a route, if other routes remain today, a “Good job” bottom 
 
 ![20260729_3.png](../../attachments/58e62d54-23b5-4710-bd67-1dd6f19ef110.png)![20260728_12.png](../../attachments/f7b129d9-2b90-4a92-8586-698611efbf3d.png)
 
-# Menu
+## Menu
 
 Press the `menu` icon at the top-left corner to open the menu. If you have permissions, the menu includes the following options:
 

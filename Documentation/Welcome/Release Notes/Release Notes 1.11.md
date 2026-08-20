@@ -1,11 +1,18 @@
+---
+slug: "/release-notes/release-notes-1-11"
+sidebar_label: "Release Notes 1.11"
+sidebar_position: 13
+description: "Geo2 documentation: Release Notes 1.11"
+---
+
 
 # Release Notes 1.11
 
-# Release Date
+## Release Date
 
 2022-12-05
 
-# New Features
+## New Features
 
 | **Key**      | **Summary**                                                        |
 |:-------------|:-------------------------------------------------------------------|

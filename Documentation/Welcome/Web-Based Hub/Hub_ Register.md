@@ -1,58 +1,65 @@
+---
+slug: "/web-based-hub/hub-register"
+sidebar_label: "Register"
+sidebar_position: 1
+description: "You need to register to become a user in Geo2 Hub."
+---
+
 
 # Hub: Register
 
-# Introduction
+## Introduction
 
 You need to register to become a user in [**Geo2 Hub**](https://hub.geo2.com/).  You have the option to authenticate either with an email address and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft.
 
 If you are joining an existing organization, the admin of that organization needs to add your user account and assign a subscription to you.  Learn how to [Hub: Accept Invitation](Hub_%20Accept%20Invitation.md) 
 
-![Screenshot 2025-08-26 at 11.27.48.png](../../attachments/8f6f3c28-5bef-479a-a915-5ebca5e12182.png)
+![Screenshot 2025-08-26 at 11.27.48.png](/Documentation/attachments/8f6f3c28-5bef-479a-a915-5ebca5e12182.png)
 
 If you have already registered, you can follow either of the [**Sign in**](https://hub.geo2.com/en-GB/auth/signin) links to proceed to sign in instead.
 
-![Screenshot 2026-03-27 at 12.21.47.png](../../attachments/06be3540-a3b3-473b-ab87-e77442d623c0.png)
+![Screenshot 2026-03-27 at 12.21.47.png](/Documentation/attachments/06be3540-a3b3-473b-ab87-e77442d623c0.png)
 
 If you have already registered but have not verified your email address, you can sign in, and you will be redirected to Verify your email page.
 
-![Screenshot 2026-03-27 at 12.07.23.png](../../attachments/55273e7d-c07c-4e72-b87f-34b09e3c68c2.png)![Screenshot 2026-03-27 at 12.07.39.png](../../attachments/fde4f4c6-e9a9-4992-b067-e836cc1e833b.png)
+![Screenshot 2026-03-27 at 12.07.23.png](/Documentation/attachments/55273e7d-c07c-4e72-b87f-34b09e3c68c2.png)![Screenshot 2026-03-27 at 12.07.39.png](/Documentation/attachments/fde4f4c6-e9a9-4992-b067-e836cc1e833b.png)
 
-# Register Account Using Email
+## Register Account Using Email
 
 On [**Registration**](https://hub.geo2.com/en-GB/auth/register) page, you need to provide your full name. It will be shown to other users within the organization and to recipients on Proof of Delivery (POD) page.  If you want to provide your first and last names additionally, you can do it later in the [Hub: Profile](Hub_%20Profile.md).
 
 After you have completed the requested details, press `Register` to create an account authenticated by Geo2, using the password you have specified.  Alternatively, you can press the buttons for other authentication providers in order to authenticate with your existing Google, Microsoft, or Apple identity instead. Also, you can register using your mobile phone number.
 
-![Screenshot 2026-03-27 at 12.05.56.png](../../attachments/82e377c2-f323-4882-94cb-82cd47428f2f.png)
+![Screenshot 2026-03-27 at 12.05.56.png](/Documentation/attachments/82e377c2-f323-4882-94cb-82cd47428f2f.png)
 
-## Verify Email
+### Verify Email
 
 Next, you will see a prompt for you to check your inbox for a verification code sent to the provided email address. You need to copy the code and paste it to the form in Hub:
 
-![Screenshot 2026-03-27 at 12.07.23.png](../../attachments/55273e7d-c07c-4e72-b87f-34b09e3c68c2.png)![Screenshot 2026-03-27 at 12.07.39.png](../../attachments/fde4f4c6-e9a9-4992-b067-e836cc1e833b.png)
+![Screenshot 2026-03-27 at 12.07.23.png](/Documentation/attachments/55273e7d-c07c-4e72-b87f-34b09e3c68c2.png)![Screenshot 2026-03-27 at 12.07.39.png](/Documentation/attachments/fde4f4c6-e9a9-4992-b067-e836cc1e833b.png)
 
 If you have not received an email with a verification code, press the `Resend email` button on Verify email page, and a new code will be sent.
 
 By pressing the Continue button, if the code provided is valid and you are not invited to any organization, you will be redirected to [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md) page. **Free level subscription** will be assigned to you - **no payment details are required**.
 
-![Screenshot 2026-03-27 at 12.08.48.png](../../attachments/456244a9-318e-42e4-b43e-8f9a7e670221.png)
+![Screenshot 2026-03-27 at 12.08.48.png](/Documentation/attachments/456244a9-318e-42e4-b43e-8f9a7e670221.png)
 
 You do not need to verify your email if you registered using Google, Microsoft, or Apply identity.
 
-# Register Account Using Mobile Number
+## Register Account Using Mobile Number
 
 To create your account, press the `Continue with phone` button at the bottom of Registration page and provide your mobile phone number.
 
-![Screenshot 2025-08-26 at 11.36.17.png](../../attachments/739f9d4b-d6f1-47a1-8cb6-ff891fa15a36.png)![Screenshot 2025-08-26 at 11.37.21.png](../../attachments/97ba7e04-e36c-406c-809b-488d58fea1f0.png)
+![Screenshot 2025-08-26 at 11.36.17.png](/Documentation/attachments/739f9d4b-d6f1-47a1-8cb6-ff891fa15a36.png)![Screenshot 2025-08-26 at 11.37.21.png](/Documentation/attachments/97ba7e04-e36c-406c-809b-488d58fea1f0.png)
 
 Once your mobile number is provided, press `Continue`. You will be asked to set your full name. It will be shown to other users within your organization and to recipients on Proof of Delivery (POD) page.
 
-![Screenshot 2025-08-26 at 11.40.01.png](../../attachments/f6d98d3c-a611-491f-beac-17650062f27f.png)
+![Screenshot 2025-08-26 at 11.40.01.png](/Documentation/attachments/f6d98d3c-a611-491f-beac-17650062f27f.png)
 
-## Verify Mobile Number
+### Verify Mobile Number
 
 By pressing the `Continue` button, you will be required to confirm your mobile phone number before you can fully use Geo2 Hub and the mobile app.  You will see a prompt to type the verification code from the SMS sent to the provided mobile number.
 
-![Screenshot 2025-08-26 at 11.44.25.png](../../attachments/f29d28dd-7378-4e1a-a563-eb1220b4fa50.png)
+![Screenshot 2025-08-26 at 11.44.25.png](/Documentation/attachments/f29d28dd-7378-4e1a-a563-eb1220b4fa50.png)
 
 If you have not received an SMS with a verification code, press the `Resend code` button on Verify mobile number page and a new code will be sent. By pressing the Continue button, if the code provided is valid and you are not invited to any organization, you will be redirected to [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md) page. **Free level subscription** will be assigned to you - **no payment details are required**.

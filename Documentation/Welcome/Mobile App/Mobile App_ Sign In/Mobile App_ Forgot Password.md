@@ -1,3 +1,9 @@
+---
+slug: "/mobile-app/mobile-app-sign-in/mobile-app-forgot-password"
+sidebar_label: "Forgot Password"
+sidebar_position: 1
+description: "If you have forgotten your password and cannot sign in successfully using your email address, follow the link Forgot password? on Sign in page."
+---
 
 # Mobile App: Forgot Password
 

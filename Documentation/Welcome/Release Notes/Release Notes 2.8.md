@@ -1,13 +1,20 @@
+---
+slug: "/release-notes/release-notes-2-8"
+sidebar_label: "Release Notes 2.8"
+sidebar_position: 43
+description: "Geo2 documentation: Release Notes 2.8"
+---
+
 
 # Release Notes 2.8
 
-# Release Date
+## Release Date
 
 2023-10-05
 
 Bug fixes.
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

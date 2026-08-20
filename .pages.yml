@@ -1,0 +1,81 @@
+# Pages CMS (https://app.pagescms.org) configuration.
+# Edit docs, sidebar order (sidebar_position) and images from the CMS;
+# every save commits to main, which triggers the Firebase deploy workflow.
+
+settings:
+  content:
+    # Merge into the existing file instead of rewriting it from this schema.
+    # Without it, saving a page drops any frontmatter not listed below —
+    # FAQ.md's `format: mdx`, for one, which its <details> blocks depend on.
+    merge: true
+  commit:
+    # Commit as the person editing, so "Last updated" credits a human
+    # rather than the Pages CMS app.
+    identity: user
+
+media:
+  - name: attachments
+    label: Attachments
+    input: Documentation/attachments
+    output: /Documentation/attachments
+
+content:
+  - name: docs
+    label: Documentation
+    type: collection
+    path: Documentation/Welcome
+    subfolders: true
+    format: yaml-frontmatter
+    # No filename override: renaming a page's sidebar_label would rename the
+    # file, which breaks the ~60 documents that link to each other with
+    # relative .md paths.
+    view:
+      # Tree layout mirrors the site's sidebar: each folder is represented by
+      # its index.md, which is also what Docusaurus links the category to.
+      layout: tree
+      node:
+        filename: index.md
+        # Without this the CMS lists each folder twice: once as its index.md
+        # entry, once as a bare folder row.
+        hideDirs: nodes
+      fields: [sidebar_label, slug, sidebar_position, description]
+      primary: sidebar_label
+      sort: [sidebar_position, sidebar_label, slug]
+      search: [sidebar_label, slug, description]
+      default:
+        sort: sidebar_position
+        order: asc
+    fields:
+      - name: slug
+        label: URL slug
+        type: string
+        required: true
+        pattern:
+          regex: '^/[a-z0-9]+(?:[-/][a-z0-9]+)*$|^/$'
+          message: Lowercase path starting with /, e.g. /web-based-hub/hub-orders
+        description: Page URL, e.g. /web-based-hub/hub-orders. Changing it breaks existing links.
+      - name: sidebar_label
+        label: Sidebar label
+        type: string
+        required: true
+      - name: sidebar_position
+        label: Sidebar position
+        type: number
+        required: true
+        description: Order among siblings — lower numbers appear higher.
+      - name: description
+        label: Meta description
+        type: text
+        required: true
+        description: One sentence, ~155 characters. Shown in Google results and used by AI assistants.
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          format: markdown
+          media: attachments
+          switcher: true
+          path: Documentation/attachments
+          # Docs already embed spreadsheets and a video alongside screenshots.
+          extensions: [png, jpg, jpeg, gif, webp, mp4, pdf, xlsx, csv]
+          rename: random

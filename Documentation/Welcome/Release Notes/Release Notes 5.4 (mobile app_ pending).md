@@ -1,13 +1,20 @@
+---
+slug: "/release-notes/release-notes-5-4-mobile-app-pending"
+sidebar_label: "Release Notes 5.4 (mobile app: pending)"
+sidebar_position: 136
+description: "Geo2 documentation: Release Notes 5.4 (mobile app: pending)"
+---
+
 
 # Release Notes 5.4 (mobile app: pending)
 
-# Release Date
+## Release Date
 
 Hub:
 
 2026-08-17
 
-# New Features
+## New Features
 
 | **Summary** | **Description** |
 | --- | --- |

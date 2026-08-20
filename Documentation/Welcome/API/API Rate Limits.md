@@ -1,11 +1,18 @@
+---
+slug: "/api/api-rate-limits"
+sidebar_label: "API Rate Limits"
+sidebar_position: 9
+description: "To ensure stable performance for all customers, the Public API uses adaptive rate limiting."
+---
+
 
 # API Rate Limits
 
-# Introduction
+## Introduction
 
 To ensure stable performance for all customers, the Public API uses **adaptive rate limiting**. This allows normal traffic and short bursts while protecting the system from sustained overload. Limits are applied **per organization** and scale automatically based on the **subscription level** and **number of users**.
 
-# Default Limits
+## Default Limits
 
 For a typical organization:
 
@@ -15,7 +22,7 @@ For a typical organization:
 
 Limits increase proportionally with the number of users in the organization (**+10% per additional user**).
 
-# Throttling Behavior
+## Throttling Behavior
 
 If the request rate exceeds allowed limits:
 
@@ -25,6 +32,6 @@ If the request rate exceeds allowed limits:
 
 Short bursts are allowed, but sustained high traffic may temporarily reduce the allowed throughput until usage returns to normal.
 
-# Manual Blocking
+## Manual Blocking
 
 In rare cases, an organization may be **temporarily blocked** from using the API due to abnormal traffic patterns. When this happens, all API requests will be rejected until the block is removed.

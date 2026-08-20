@@ -29,9 +29,23 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Confluence screenshots: keep them readable, add a subtle frame */
+/* Screenshots: keep them readable, add a subtle frame. Phone screenshots are
+   portrait (roughly 1:2), so cap the height — at full width one would fill more
+   than a screen. Click to zoom for the full-size view. */
 .markdown img {
   max-width: 100%;
+  max-height: 60vh;
+  width: auto;
+  height: auto;
   border: 1px solid var(--ifm-color-emphasis-200);
   border-radius: 6px;
+  vertical-align: top;
+}
+
+/* Pages often place several screenshots in one paragraph; lay them out as a
+   wrapping row so they align at the top instead of running into each other. */
+.markdown p:has(> img + img) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
 }

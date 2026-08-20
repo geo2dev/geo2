@@ -1,3 +1,10 @@
+---
+slug: "/web-based-hub/hub-environment-settings/hub-routes-settings"
+sidebar_label: "Routes Settings"
+sidebar_position: 7
+description: "Route defaults from Settings → Environment → Routes are applied to routes when they are first created."
+---
+
 
 # Hub: Routes Settings
 
@@ -13,7 +20,7 @@ Route defaults from Settings → Environment → Routes are applied to routes wh
 | Vehicle check on route start | Activate vehicle check in the mobile app when the route is being started. Vehicle checks require an Advanced or Enterprise subscription. |
 | Vehicle check on route completion | Activate vehicle check in the mobile app when the route is being completed. Vehicle checks require an Advanced or Enterprise subscription. |
 
-![Screenshot 2026-04-07 at 15.06.39.png](../../../attachments/bb0e99f3-ec85-45b2-b95d-bed9d84de7fd.png)
+![Screenshot 2026-04-07 at 15.06.39.png](/Documentation/attachments/bb0e99f3-ec85-45b2-b95d-bed9d84de7fd.png)
 
 `Stop card layout` settings allow you to customize the stop card information displayed on Route and Map view pages. You can preview how stop cards look in collapsed or expanded views and for medium or large screen sizes. Default options apply for all environments but you can change them. There are two columns:
 

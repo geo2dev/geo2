@@ -1,7 +1,9 @@
 {
   "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
-    "baseUrl": "."
+    // @docusaurus/tsconfig still sets the deprecated `baseUrl`; silence it
+    // until upstream drops it, otherwise `yarn typecheck` fails on TS 6.
+    "ignoreDeprecations": "6.0"
   },
   "exclude": ["node_modules", "build", ".docusaurus"]
 }

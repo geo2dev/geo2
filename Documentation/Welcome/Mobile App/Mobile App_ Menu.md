@@ -1,7 +1,13 @@
+---
+slug: "/mobile-app/mobile-app-menu"
+sidebar_label: "Menu"
+sidebar_position: 5
+description: "Press the menu icon at the top-left corner of Map page to open the menu. If you have permissions, the menu includes the following options:"
+---
 
 # Mobile App: Menu
 
-# Introduction
+## Introduction
 
 Press the `menu` icon at the top-left corner of Map page to open the menu. If you have permissions, the menu includes the following options:
 
@@ -20,7 +26,7 @@ Press the `menu` icon at the top-left corner of Map page to open the menu. If yo
 
 ![20260728_13.png](../../attachments/321d497b-2196-4d51-ab4b-ebe2169a72c3.png)
 
-# Ask AI Assistant
+## Ask AI Assistant
 
 The AI assistant helps you manage your daily route work faster and with less manual tapping. It is especially useful when you are working solo and need to adjust plans on the go, add new stops, understand what to do next, or quickly find your way around the mobile app.
 
@@ -51,25 +57,25 @@ With the AI assistant, you can:
 
 ![20260728_4.png](../../attachments/f4299000-18fe-4b75-a8fc-47e64ef9efa0.png)
 
-# Plan Route
+## Plan Route
 
 By clicking the `Plan route` button, you can choose to create a route if you have permission to do it.  Check more details about [Mobile App: Routes and Stops](Mobile%20App_%20Routes%20and%20Stops.md).
 
 ![20260728_6.png](../../attachments/c5860b27-20fa-4123-867f-2f8af0df9251.png)
 
-# Create POD
+## Create POD
 
 By clicking the `Create POD` button, you can choose to create a Proof of delivery with photos and signatures either for existing order or not yet planned.  Check more details about [Mobile App: POD - Proof of Delivery](Mobile%20App_%20POD%20-%20Proof%20of%20Delivery.md). Creating PODs is available with any subscription level, starting from Free.
 
 ![App 26.png](../../attachments/f42326cf-1fdb-4583-ada9-c434c81fa3f3.png)
 
-# Create Vehicle Сheck
+## Create Vehicle Сheck
 
 By pressing the `Create vehicle check` button, you can create an unplanned / ad-hoc vehicle check that is not related to any route. Check more details about [Mobile App: Vehicle Checks](Mobile%20App_%20Vehicle%20Checks.md). Creating vehicle checks is available with Advanced or Enterprise subscription level.
 
 ![App 27.png](../../attachments/73503f48-190b-45d1-98b4-fea27ba10e25.png)
 
-# Routes
+## Routes
 
 Press the `Routes` option to open Routes Calendar page. It lets you view routes that have been released to you, each displayed with a small map preview.  By default, routes planned for the current date are shown, but you can select other dates to show routes for those dates.  The green dot below the date means that you have planned routes assigned to you for this date.  Learn more about [Mobile App: Routes and Stops](Mobile%20App_%20Routes%20and%20Stops.md).
 
@@ -77,7 +83,7 @@ In the mobile app, you can view routes from the past 30 days and the next 30 day
 
 ![20260729_4.png](../../attachments/aeb24a59-a3d2-44cb-bdca-38758a8e93e7.png)
 
-# PODs
+## PODs
 
 To review the history of PODs recorded by you, click on `PODs` option.  By clicking on the POD card, you can view its details.  Learn more about [Mobile App:  POD History](Mobile%20App_%20%20POD%20History.md).
 
@@ -85,7 +91,7 @@ In the mobile app, you can view PODs history from the past 30 days. To access th
 
 ![20260729_5.png](../../attachments/f9bda945-ad94-4502-b982-12a563f73eb1.png)![20260729_6.png](../../attachments/1ce33d51-b89e-47ce-a210-4aa1956482e3.png)![20260729_7.png](../../attachments/31deae58-1972-43c3-979e-fec85bce838a.png)
 
-# Vehicle Checks
+## Vehicle Checks
 
 The created Vehicle check will be stored on Vehicle Checks page in the mobile app as well as in Geo2 Hub. Learn more about [Mobile App: Vehicle Checks](Mobile%20App_%20Vehicle%20Checks.md).
 
@@ -93,13 +99,13 @@ In the mobile app, you can view vehicle checks history from the past 30 days. To
 
 ![20260729_8.png](../../attachments/83dd3b35-11bb-4eeb-bf77-3211505087a9.png)![20260729_9.png](../../attachments/2dceba12-b405-4e50-bf22-846f7103c1c4.png)
 
-# Pending uploads
+## Pending uploads
 
 If you have a bad internet connection while uploading pictures / signatures to the app for a POD or vehicle check and it takes more time to upload them, you can find them on `Pending uploads` page in Menu.  Once an internet connection is good again, they will be uploaded automatically. Alternatively, you can click on them to push photos / signatures one more time.
 
 ![App 33.png](../../attachments/4495366f-8982-4764-8d67-747d4eda5d9c.png)![App 32.png](../../attachments/28d90753-a963-467a-90e1-3072069c0be2.png)
 
-# Settings
+## Settings
 
 In Settings, you can edit your organization (Users and Subscriptions settings), environment (Routes, Vehicles, Failure reason codes, Recipient notifications settings) and device settings.
 
@@ -117,11 +123,11 @@ Check more details about [Mobile App: Settings](Mobile%20App_%20Settings.md).
 
 ![20260428_19.png](../../attachments/5b1ef5f7-8339-4607-a357-02a7e55ecb32.png)
 
-# Organization and Environment
+## Organization and Environment
 
-## Set up your organization
+### Set up your organization
 
-As a user, you can register and create your own organization to which you invite other users.  You may also be invited to join other organizations.  To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In.md) to the app using the email address to which the invitation has been sent.
+As a user, you can register and create your own organization to which you invite other users.  You may also be invited to join other organizations.  To [Hub: Accept Invitation](../Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App_%20Sign%20In/index.md) to the app using the email address to which the invitation has been sent.
 
 ![App 10.png](../../attachments/190d4700-4149-4fd8-a737-42a23495a6fc.png)
 
@@ -139,13 +145,13 @@ Examples:
 
 As a Free level user, you will have only 1 environment. If you want to use more environments for different purposes, **upgrade to Enterprise**.
 
-## Change Organization and Environment
+### Change Organization and Environment
 
 To choose the organization to work in, you need to click on the `menu` icon at the top right corner of Map page, then click on the Organization.  You will see the dialog where you have to choose the organization you need if you have several.  After you choose the organization, you need to choose the environment if you have several.  To close the dialog just click on any space on the page.
 
 ![20260729_10.png](../../attachments/e43ce423-2edc-4b78-8256-df7b4ad0abe1.png)![20260729_11.png](../../attachments/5599f276-8f7f-4c5d-8799-31f34e95fe42.png)
 
-# Profile Information
+## Profile Information
 
 When you register using an email and password or a mobile phone number, it will also be set as your display name. You can change it anytime in your Profile. To access your profile information, open the Menu and tap on your email address or display name. Remember to click the `Update` button to save any changes.
 

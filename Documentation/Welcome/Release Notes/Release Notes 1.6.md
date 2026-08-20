@@ -1,11 +1,18 @@
+---
+slug: "/release-notes/release-notes-1-6"
+sidebar_label: "Release Notes 1.6"
+sidebar_position: 4
+description: "Geo2 documentation: Release Notes 1.6"
+---
+
 
 # Release Notes 1.6
 
-# Release Date
+## Release Date
 
 2022-07-01
 
-# New Features
+## New Features
 
 | **Key**      | **Summary**                                                  |
 |:-------------|:-------------------------------------------------------------|

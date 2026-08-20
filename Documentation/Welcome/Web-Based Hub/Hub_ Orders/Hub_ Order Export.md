@@ -1,15 +1,22 @@
+---
+slug: "/web-based-hub/hub-orders/hub-order-export"
+sidebar_label: "Order Export"
+sidebar_position: 6
+description: "It is possible to export orders data via the Export CSV button on Orders page. This option is available only for orders created in the last 7 and 30 days."
+---
+
 
 # Hub: Order Export
 
-# Introduction
+## Introduction
 
 It is possible to export orders data via the `Export CSV` button on Orders page.  This option is available only for orders created in the last 7 and 30 days.  You can press the `Export CSV` button and the full list of orders will be exported.  Alternatively, you can select the needed orders using the checkboxes on the left side of the card and then press the `Export CSV` button.
 
-![Screenshot 2025-08-29 at 14.28.52.png](../../../attachments/edf7bc96-7b75-4814-a660-a9f3c752dac0.png)
+![Screenshot 2025-08-29 at 14.28.52.png](/Documentation/attachments/edf7bc96-7b75-4814-a660-a9f3c752dac0.png)
 
 Once the `Export CSV` button is pressed, the order data will be exported in a CSV file.
 
-# Spreadsheet Interface
+## Spreadsheet Interface
 
 The spreadsheet interface column headings guide you on the type of data expected in each column.
 

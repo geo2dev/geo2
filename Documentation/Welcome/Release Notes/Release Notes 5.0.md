@@ -1,7 +1,14 @@
+---
+slug: "/release-notes/release-notes-5-0"
+sidebar_label: "Release Notes 5.0"
+sidebar_position: 127
+description: "Geo2 documentation: Release Notes 5.0"
+---
+
 
 # Release Notes 5.0
 
-# Release Date
+## Release Date
 
 Hub:
 
@@ -11,7 +18,7 @@ Mobile app:
 
 2026-04-23
 
-# New Features
+## New Features
 
 | **Summary** | **Description** |
 | --- | --- |

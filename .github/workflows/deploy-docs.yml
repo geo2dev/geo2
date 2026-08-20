@@ -1,13 +1,9 @@
 name: Deploy docs to Firebase Hosting
 
 on:
+  # Pages CMS commits via its GitHub App, which emits normal push events
   push:
     branches: [main]
-  # Pushes made by the sync bot use GITHUB_TOKEN and don't emit push events,
-  # so chain off the sync workflow completing instead.
-  workflow_run:
-    workflows: ['Sync Confluence to Markdown']
-    types: [completed]
   workflow_dispatch:
 
 concurrency:
@@ -16,10 +12,13 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
+      # Full history: showLastUpdateTime needs real commit dates, a shallow
+      # clone makes every page report the same bogus update date.
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v5
         with:

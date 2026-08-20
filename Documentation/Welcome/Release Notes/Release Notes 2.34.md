@@ -1,7 +1,14 @@
+---
+slug: "/release-notes/release-notes-2-34"
+sidebar_label: "Release Notes 2.34"
+sidebar_position: 98
+description: "Geo2 documentation: Release Notes 2.34"
+---
+
 
 # Release Notes 2.34
 
-# Release Date
+## Release Date
 
 Hub and API:
 
@@ -15,7 +22,7 @@ Mobile app: 
 
 Bug fixes. 
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

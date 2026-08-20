@@ -1,11 +1,18 @@
+---
+slug: "/release-notes/release-notes-1-18"
+sidebar_label: "Release Notes 1.18"
+sidebar_position: 22
+description: "Geo2 documentation: Release Notes 1.18"
+---
+
 
 # Release Notes 1.18
 
-# Release Date
+## Release Date
 
 2023-03-21
 
-# New Features
+## New Features
 
 | **Key**      | **Summary**                                               |
 |:-------------|:----------------------------------------------------------|

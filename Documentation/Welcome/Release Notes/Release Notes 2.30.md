@@ -1,13 +1,20 @@
+---
+slug: "/release-notes/release-notes-2-30"
+sidebar_label: "Release Notes 2.30"
+sidebar_position: 90
+description: "Geo2 documentation: Release Notes 2.30"
+---
+
 
 # Release Notes 2.30
 
-# Release Date
+## Release Date
 
 2024-11-01
 
 Bug fixes. 
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

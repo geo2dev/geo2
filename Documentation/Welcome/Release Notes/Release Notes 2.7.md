@@ -1,13 +1,20 @@
+---
+slug: "/release-notes/release-notes-2-7"
+sidebar_label: "Release Notes 2.7"
+sidebar_position: 41
+description: "Geo2 documentation: Release Notes 2.7"
+---
+
 
 # Release Notes 2.7
 
-# Release Date
+## Release Date
 
 2023-09-15
 
 Bug fixes.
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

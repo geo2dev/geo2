@@ -1,3 +1,10 @@
+---
+slug: "/api/errors"
+sidebar_label: "Errors"
+sidebar_position: 8
+description: "Geo2 API uses conventional HTTP response codes to indicate the success or failure of an API request. In general: Codes in the 2xx range indicate success."
+---
+
 
 # Errors
 
@@ -5,8 +12,8 @@ Geo2 API uses conventional HTTP response codes to indicate the success or failur
 
 | **Code** | **Description** | **Example value** |
 | --- | --- | --- |
-| 201 - OK | Everything worked as expected. | **Code Block** ```bash<br/>{<br/>  "data": {<br/>    "loadId": "ltyDxSBeFvN4C33mOLpB"<br/>  },<br/>  "status": "OK"<br/>}<br/>``` |
-| 400 - Bad Request | The request was unacceptable, often due to missing a required parameter. | **Code Block** ```bash<br/>{<br/>  "data": {<br/>    "code": "BAD_REQUEST",<br/>    "message": "Bad request"<br/>  },<br/>  "status": "ERROR",<br/>  "description": {<br/>    "value": "object",<br/>    "errors": [<br/>      "string"<br/>    ],<br/>    "inner": [<br/>      "object"<br/>    ],<br/>    "name": "ValidationError",<br/>    "message": "string"<br/>  }<br/>}<br/>``` |
-| 401 - Unauthorized | No valid API key provided. | **Code Block** ```bash<br/>{<br/>  "data": {<br/>    "code": "UNAUTHORIZED",<br/>    "message": "Unauthorized"<br/>  },<br/>  "status": "ERROR"<br/>}<br/>``` |
-| 403 - Forbidden | The API key doesn't have permission to perform the request. | **Code Block** ```bash<br/>{<br/>  "data": {<br/>    "code": "TOKEN_PERMISSIONS",<br/>    "message": "Insufficient permissions"<br/>  },<br/>  "status": "ERROR"<br/>}<br/>``` |
-| 500 - Internal Server Error | Something went wrong on Geo2's end. (These are rare.) | **Code Block** ```bash<br/>{<br/>  "data": {<br/>    "code": "LOAD_GET",<br/>    "message": "GET load error"<br/>  },<br/>  "status": "ERROR"<br/>}<br/>``` |
+| 201 - OK | Everything worked as expected. | **Response** ```bash<br/>{<br/>  "data": {<br/>    "loadId": "ltyDxSBeFvN4C33mOLpB"<br/>  },<br/>  "status": "OK"<br/>}<br/>``` |
+| 400 - Bad Request | The request was unacceptable, often due to missing a required parameter. | **Response** ```bash<br/>{<br/>  "data": {<br/>    "code": "BAD_REQUEST",<br/>    "message": "Bad request"<br/>  },<br/>  "status": "ERROR",<br/>  "description": {<br/>    "value": "object",<br/>    "errors": [<br/>      "string"<br/>    ],<br/>    "inner": [<br/>      "object"<br/>    ],<br/>    "name": "ValidationError",<br/>    "message": "string"<br/>  }<br/>}<br/>``` |
+| 401 - Unauthorized | No valid API key provided. | **Response** ```bash<br/>{<br/>  "data": {<br/>    "code": "UNAUTHORIZED",<br/>    "message": "Unauthorized"<br/>  },<br/>  "status": "ERROR"<br/>}<br/>``` |
+| 403 - Forbidden | The API key doesn't have permission to perform the request. | **Response** ```bash<br/>{<br/>  "data": {<br/>    "code": "TOKEN_PERMISSIONS",<br/>    "message": "Insufficient permissions"<br/>  },<br/>  "status": "ERROR"<br/>}<br/>``` |
+| 500 - Internal Server Error | Something went wrong on Geo2's end. (These are rare.) | **Response** ```bash<br/>{<br/>  "data": {<br/>    "code": "LOAD_GET",<br/>    "message": "GET load error"<br/>  },<br/>  "status": "ERROR"<br/>}<br/>``` |

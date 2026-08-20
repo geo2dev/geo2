@@ -17,12 +17,11 @@ Typical use cases: last-mile delivery, courier services, field logistics for sma
 ## How it works
 
 ```
-Confluence (BALDEVGEO space)
-  └─ sync-docs.yml        nightly export to Documentation/Welcome (cme, scoped token)
-       └─ deploy-docs.yml  builds Docusaurus and deploys to Firebase Hosting
+Documentation/Welcome/*.md    edited in the repo or via Pages CMS (.pages.yml)
+  └─ deploy-docs.yml           builds Docusaurus and deploys to Firebase Hosting
 ```
 
-- **Content lives in Confluence.** Everything under `Documentation/` is overwritten by the nightly sync (`.github/workflows/sync-docs.yml`) — never edit those files here, edit the Confluence pages instead. Pages deleted in Confluence are deleted here too.
-- **`docusaurus.config.ts` does all the adaptation.** Confluence markdown is not MDX-safe, so the config contains a preprocessor (escapes `{}`/`<`, fixes `<br>`, converts `style` strings), a remark plugin for `[!NOTE]`-style alerts (`src/remark/githubAlerts.ts`), clean URL slugs, and sidebar de-duplication. No frontmatter is ever added to the synced files — it would be lost on the next sync.
-- **Deploys** run on every push to `main`, after each successful sync, and can be triggered manually. PRs get a Firebase preview channel with the URL posted as a comment.
+- **Content lives in this repo.** Edit `Documentation/Welcome/**` directly, or through [Pages CMS](https://app.pagescms.org) (collections defined in `.pages.yml`), which commits via its GitHub App. Frontmatter (`slug`, `sidebar_label`, `sidebar_position`, `description`) drives URLs and the sidebar — keep it. The former nightly Confluence sync is retired.
+- **`docusaurus.config.ts` does all the adaptation.** The original Confluence-exported markdown is not MDX-safe, so the config contains a preprocessor (escapes `{}`/`<`, fixes `<br>`, converts `style` strings, rewrites CMS-inserted `/Documentation/attachments/...` image paths), a remark plugin for `[!NOTE]`-style alerts (`src/remark/githubAlerts.ts`), clean URL slugs, and sidebar de-duplication.
+- **Deploys** run on every push to `main` (including Pages CMS commits) and can be triggered manually. PRs get a Firebase preview channel with the URL posted as a comment.
 

@@ -1,11 +1,18 @@
+---
+slug: "/web-based-hub/hub-subscriptions"
+sidebar_label: "Subscriptions"
+sidebar_position: 7
+description: "By default, for your newly created organization, you get a Free subscription, no card is required. A subscription would be automatically assigned to you."
+---
+
 
 # Hub: Subscriptions
 
-# Introduction
+## Introduction
 
 By default, for your newly created organization, **you get a Free subscription**, **no card is required**. A subscription would be automatically assigned to you.
 
-## Free Subscription Level
+### Free Subscription Level
 
 With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app. It is available for **one user per organization**, and additional users cannot be added on this level. The Free subscription includes:
 
@@ -22,13 +29,13 @@ On each subscription level (including Free), you can use both the Hub and mobile
 
 This gives you the essentials for planning, managing, and executing routes effectively before upgrading to a paid level.
 
-![Screenshot 2026-03-30 at 16.16.03.png](../../attachments/83440561-0d4b-4aa5-b83a-ba275e420f5a.png)
+![Screenshot 2026-03-30 at 16.16.03.png](/Documentation/attachments/83440561-0d4b-4aa5-b83a-ba275e420f5a.png)
 
-## 7-day FREE Trial
+### 7-day FREE Trial
 
 You can take a 7-day FREE trial of any paid subscription level (Pro, Advanced, or Enterprise) by going to Settings → Organization → Subscriptions page. You can check there the list of available features for different subscription levels for the web-based Hub and mobile app. By enabling `Show differences only` toggle in Hub → Settings → Organization → Subscriptions page , you will see only differences between subscription levels ignoring what is included equally into each of them. For example:
 
-![Screenshot 2025-08-26 at 13.41.25.png](../../attachments/4a751850-53ef-454c-9111-c11a70c57959.png)![Screenshot 2025-08-26 at 13.41.37.png](../../attachments/b9562043-18b5-4e42-b449-28551b57fa2a.png)
+![Screenshot 2025-08-26 at 13.41.25.png](/Documentation/attachments/4a751850-53ef-454c-9111-c11a70c57959.png)![Screenshot 2025-08-26 at 13.41.37.png](/Documentation/attachments/b9562043-18b5-4e42-b449-28551b57fa2a.png)
 
 Geo2 offers three paid subscription levels: **Pro**, **Advanced**, and **Enterprise**, each building on top of the Free plan. Any paid subscription disables ads in Hub and the mobile app.
 
@@ -40,7 +47,7 @@ For an additional cost, Enterprise customers can also request custom integration
 
 If you take a free trial of Pro subscription, you can get 1-user subscription that is automatically assigned to you. If you take a free trial of Advanced or Enterprise subscription level, you сan get up to 5-user subscription, so you can invite up to 4 additional users to your organization. See how to [Hub: Organization Settings](Hub_%20Organization%20Settings.md). If you want to add more users, you can do it after taking a free trial by pressing the `Add users` button on Subscriptions page.
 
-![Screenshot 2026-03-30 at 16.16.49.png](../../attachments/69804c41-4057-47d7-9985-2a4e7b847fb6.png)
+![Screenshot 2026-03-30 at 16.16.49.png](/Documentation/attachments/69804c41-4057-47d7-9985-2a4e7b847fb6.png)
 
 **You do not pay anything when taking a trial, it is FREE for 7 days.** By pressing `Assign subscription to users` on Success page, you will be redirected to Settings → Organization → Users to invite more people.
 
@@ -48,11 +55,11 @@ On Subscriptions page, your current level will be highlighted with a green backg
 
 The free trial is available as long as neither the user nor the organization have had a free trial before.
 
-## Purchase Additional Users
+### Purchase Additional Users
 
 It is possible to add new users to the current subscription level, for example, for seasonal workers if you are on Advanced or Enterprise subscription level.  If you are on Advanced level, you can add up to 10 users to your organization in total. If you are on Enterprise level, you are not limited in the number of users. You can press the  `Add users` button on Subscriptions page, select the number of users, and proceed with payment.
 
-![Frame 35065.png](../../attachments/c20b2d91-b306-486f-bf63-fdd3e1614ca3.png)
+![Frame 35065.png](/Documentation/attachments/c20b2d91-b306-486f-bf63-fdd3e1614ca3.png)
 
 If you want to buy your subscription for a month, select the "Monthly" switcher at the top of the page.  If you want to buy new subscription for a year, make sure the "Yearly" switcher is selected at the top of the page.  When paying yearly, you can **save up to 20%.** At Geo2, subscription pricing is calculated per user added to an organization.
 
@@ -62,11 +69,11 @@ Press `Assign subscription to users` on Success payment page to be redirected to
 
 New subscriptions will be displayed above the existing one on your current subscription level, with the number of available users and valid-from/to dates.
 
-## Upgrade Subscription
+### Upgrade Subscription
 
 If you currently have the Pro, or Advanced subscription, you can optionally upgrade to the Advanced, or Enterprise level accordingly.  Press the `Upgrade` button for the higher level.
 
-![Frame 35065 (1).png](../../attachments/e2870f15-c9a2-4f6f-b690-19472676c6ee.png)
+![Frame 35065 (1).png](/Documentation/attachments/e2870f15-c9a2-4f6f-b690-19472676c6ee.png)
 
 You cannot select the number of months - if you currently have a monthly subscription, the upgrade will follow the monthly plan; if yearly, it will follow the yearly plan. You cannot select the number of users - all users from your current subscription level are included. Additionally, the start date cannot be changed; it will automatically be set to the current date.
 
@@ -78,15 +85,15 @@ Press `Assign subscriptions to users` to be redirected to Settings → Organizat
 
 After successful payment, your current subscription level will be automatically updated.
 
-## Cancel Subscription
+### Cancel Subscription
 
 To cancel your subscription(s), press `Cancel subscription` button on your current level below the number of users and valid dates. The prompt will be displayed to confirm your action.
 
-![Screenshot 2026-03-30 at 16.24.31.png](../../attachments/9a3d882a-0c7c-4ed9-832b-3b6fc526b359.png)
+![Screenshot 2026-03-30 at 16.24.31.png](/Documentation/attachments/9a3d882a-0c7c-4ed9-832b-3b6fc526b359.png)
 
 Once the subscription is cancelled, only the valid from/to dates will be shown, and the next payment information will no longer be displayed. Your subscription will remain active until the expiration date.
 
-## Expired Subscription
+### Expired Subscription
 
 When your subscription expires, you'll see a prompt offering two options:
 
@@ -97,13 +104,13 @@ By pressing `Extend subscription`, you will be redirected to Subscriptions page 
 
 By pressing `Continue with Free subscription`, a Free level subscription will be assigned to you automatically, allowing you to keep using Geo2 with limited features. A Free level subscription is limited to **one user per organization**; all other users in your organization will lose access.
 
-![Screenshot 2025-08-26 at 14.15.30.png](../../attachments/da0c2e1e-72de-4505-b68a-40993c1a76c1.png)![Screenshot 2025-08-26 at 14.16.02.png](../../attachments/74d71159-0e38-4d2b-a290-fc833b0f519f.png)
+![Screenshot 2025-08-26 at 14.15.30.png](/Documentation/attachments/da0c2e1e-72de-4505-b68a-40993c1a76c1.png)![Screenshot 2025-08-26 at 14.16.02.png](/Documentation/attachments/74d71159-0e38-4d2b-a290-fc833b0f519f.png)
 
-# Payment History
+## Payment History
 
 The history of your payments (paid, declined, pending) can be found on Payment history tab in Settings → Organization.
 
-![Screenshot 2026-03-30 at 16.27.23.png](../../attachments/dec50f63-8fb6-4852-92be-cd2ac515d97b.png)
+![Screenshot 2026-03-30 at 16.27.23.png](/Documentation/attachments/dec50f63-8fb6-4852-92be-cd2ac515d97b.png)
 
 To download the combined invoice/receipt, press the `Download` button.
 

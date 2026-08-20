@@ -3,45 +3,14 @@ import type * as Preset from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
 import remarkGithubAlerts from './src/remark/githubAlerts';
 
-const confluenceSidebarOrder = require('./src/sidebarOrder.json') as Record<string, number>;
-
-// Docs are synced daily from Confluence into Documentation/Welcome by
-// .github/workflows/sync-docs.yml and get overwritten on every sync.
-// Never rely on frontmatter inside those files — everything (slugs,
-// homepage, labels) is derived here in config instead.
-
-
-/** "Mobile App_ Sign In.md" -> "mobile-app-sign-in" */
-const slugify = (s: string) =>
-  s
-    .replace(/\.mdx?$/, '')
-    .replace(/_/g, '')
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-
-/** "Hub_ Orders" / "Mobile App_ Map" -> "Orders" / "Map" */
-const cleanLabel = (s: string) => s.replace(/^[^_]+_\s*/, '').trim();
-
-/** "Hub_ Orders" / "Hub: Orders" -> "hub orders" */
-const normalizeOrderSegment = (s: string) =>
-  s
-    .replace(/\.mdx?$/, '')
-    .replace(/_/g, ' ')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim()
-    .replace(/\s+/g, ' ');
-
-const normalizeOrderPath = (s: string) =>
-  s
-    .split('/')
-    .map(normalizeOrderSegment)
-    .filter(Boolean)
-    .join('/');
-
-const joinOrderPath = (...parts: string[]) => parts.filter(Boolean).join('/');
+// Docs originate from a one-time Confluence export (the nightly sync is
+// retired). Each parent page lives inside its own children folder under the
+// folder's own name (e.g. "Web-Based Hub/Hub_ Orders/Hub_ Orders.md"), which
+// Docusaurus's native category-index convention picks up automatically: it
+// becomes the category link, and the category's label/position come from
+// that doc's `sidebar_label` / `sidebar_position` frontmatter. Slugs, labels,
+// and sidebar order live in frontmatter / _category_.json and are edited via
+// Pages CMS (.pages.yml).
 
 const config: Config = {
   title: 'Geo2 Documentation',
@@ -54,66 +23,24 @@ const config: Config = {
     'https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400..700;1,400..700&display=swap',
   ],
 
-  // Confluence export inevitably contains some dangling links — don't fail the build.
-  onBrokenLinks: 'warn',
-  onBrokenAnchors: 'warn',
+  // Build fails on broken links/anchors so CMS edits can't silently break navigation.
+  onBrokenLinks: 'throw',
+  onBrokenAnchors: 'throw',
 
   i18n: { defaultLocale: 'en', locales: ['en'] },
 
   markdown: {
-    // Parse .md as MDX: Confluence export wraps FAQ answers in <details> blocks,
-    // which CommonMark treats as raw HTML (markdown inside stays unrendered)
-    format: 'mdx',
-    // Confluence text isn't MDX-safe: `{CONTACT_NAME}` tokens, inline JSON,
-    // `<DELIVERY_ETA>` placeholders, `<https://…>` autolinks — all parse as
-    // JS expressions/JSX and crash. Escape everything except real HTML tags,
-    // skipping code fences and inline code.
-    preprocessor: ({ fileContent }) =>
-      fileContent
-        .split(/(```[\s\S]*?```|`[^`\n]*`)/g)
-        .map((segment, i) =>
-          i % 2
-            ? segment
-            : segment
-                .replace(/(?<!\\)[{}]/g, '\\$&')
-                .replace(/<(https?:\/\/[^>\s]+)>/g, '[$1]($1)') // MDX has no autolinks
-                .replace(/<(br|hr)\s*>/gi, '<$1/>') // MDX needs void tags self-closed
-                .replace(
-                  /(?<!\\)<(?!\/?(?:br|hr|strong|em|b|i|u|s|code|pre|kbd|details|summary|ul|ol|li|p|a|img|sub|sup|span|div|mark|font|table|thead|tbody|tr|td|th|h[1-6]|blockquote)\b|!--)/gi,
-                  '\\<',
-                )
-                // JSX wants style as an object, not an HTML string
-                .replace(/style="([^"]*)"/g, (_, css: string) => {
-                  const props = css
-                    .split(';')
-                    .filter((d) => d.includes(':'))
-                    .map((d) => {
-                      const [key, ...value] = d.split(':');
-                      const jsxKey = key.trim().replace(/-([a-z])/g, (_m, c: string) => c.toUpperCase());
-                      return `${jsxKey}: '${value.join(':').trim()}'`;
-                    });
-                  return `style={{${props.join(', ')}}}`;
-                }),
-        )
-        .join(''),
-    hooks: { onBrokenMarkdownLinks: 'warn' },
-    parseFrontMatter: async (params) => {
-      const result = await params.defaultParseFrontMatter(params);
-      const rel = params.filePath
-        .replace(/\\/g, '/')
-        .split('Documentation/Welcome/')[1];
-      if (!rel) return result;
-      if (rel === 'Welcome.md') {
-        // Confluence space homepage becomes the site homepage.
-        // Its first paragraph is an alert marker, so set the meta description explicitly.
-        result.frontMatter.slug = '/';
-        result.frontMatter.description =
-          'Geo2 documentation: web-based Hub, driver mobile app, and API for delivery route planning and management.';
-      } else if (!result.frontMatter.slug) {
-        result.frontMatter.slug = '/' + rel.split('/').map(slugify).join('/');
-      }
-      return result;
+    // Docs are parsed as CommonMark. The one page that needs MDX (FAQ.md,
+    // for its <details> blocks) opts in via its own frontmatter (`format: mdx`).
+    format: 'md',
+    preprocessor: ({ filePath, fileContent }) => {
+      // Pages CMS inserts images as /Documentation/attachments/… — rewrite to
+      // a page-relative path so webpack resolves and bundles them.
+      const rel = filePath.replace(/\\/g, '/').split('Documentation/')[1];
+      const ups = rel ? '../'.repeat(rel.split('/').length - 1) : '';
+      return fileContent.replace(/\]\(\/Documentation\/attachments\//g, `](${ups}attachments/`);
     },
+    hooks: { onBrokenMarkdownLinks: 'warn' },
   },
 
   presets: [
@@ -125,68 +52,20 @@ const config: Config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           beforeDefaultRemarkPlugins: [remarkGithubAlerts],
-          editUrl: undefined, // source of truth is Confluence, not this repo
+          editUrl: undefined, // editing happens in Pages CMS, no public "edit this page"
           showLastUpdateTime: true,
-          sidebarItemsGenerator: async ({ defaultSidebarItemsGenerator, ...args }) => {
-            // Confluence exports a page and its children as siblings ("API.md"
-            // next to "API/"), which renders as a duplicate sidebar entry.
-            // Merge the doc into its category as the category link.
-            const mergeSiblingDocs = (items: any[]): any[] => {
-              const categories = new Map(
-                items.filter((i) => i.type === 'category').map((c) => [c.label, c]),
-              );
-              return items.flatMap((item) => {
-                if (item.type === 'doc') {
-                  const category = categories.get(item.id.split('/').pop());
-                  if (category) {
-                    category.link = { type: 'doc', id: item.id };
-                    return [];
-                  }
-                }
-                if (item.type === 'category') {
-                  item.items = mergeSiblingDocs(item.items);
-                }
-                return [item];
-              });
-            };
-            const itemOrderKey = (item: any, parentKey = '') => {
-              if (item.type === 'doc') return normalizeOrderPath(item.id);
-              if (item.type === 'category') {
-                return joinOrderPath(parentKey, normalizeOrderSegment(item.label));
-              }
-              return normalizeOrderPath(item.label ?? item.id ?? '');
-            };
-            const orderItems = (items: any[], parentKey = ''): any[] =>
-              items
-                .map((item) => {
-                  if (item.type !== 'category') return item;
-                  const categoryKey = itemOrderKey(item, parentKey);
-                  return {
-                    ...item,
-                    items: orderItems(item.items, categoryKey),
-                  };
-                })
-                .map((item, index) => ({ item, index }))
-                .sort((a, b) => {
-                  const orderA = confluenceSidebarOrder[itemOrderKey(a.item, parentKey)] ?? Number.MAX_SAFE_INTEGER;
-                  const orderB = confluenceSidebarOrder[itemOrderKey(b.item, parentKey)] ?? Number.MAX_SAFE_INTEGER;
-                  return orderA - orderB || a.index - b.index;
-                })
-                .map(({ item }) => item);
-            const clean = (items: any[]): any[] =>
-              items.map((item) => ({
-                ...item,
-                ...(item.label ? { label: cleanLabel(item.label) } : {}),
-                ...(item.items ? { items: clean(item.items) } : {}),
-              }));
-            const items = mergeSiblingDocs(await defaultSidebarItemsGenerator(args));
-            return clean(orderItems(items));
-          },
         },
         blog: false,
         theme: { customCss: './src/css/custom.css' },
       } satisfies Preset.Options,
     ],
+  ],
+
+  plugins: [
+    // Screenshots are the bulk of this site — click to zoom instead of squinting.
+    'docusaurus-plugin-image-zoom',
+    // llms.txt / llms-full.txt so AI assistants can read the docs directly.
+    './src/plugins/llmsTxt.ts',
   ],
 
   themes: [
@@ -197,6 +76,7 @@ const config: Config = {
         indexBlog: false,
         docsRouteBasePath: '/',
         highlightSearchTermsOnTargetPage: true,
+        docsDir: 'Documentation/Welcome',
       },
     ],
   ],
@@ -204,6 +84,12 @@ const config: Config = {
   themeConfig: {
     image: 'img/og_image_1200x630.png',
     colorMode: { respectPrefersColorScheme: true },
+    // Pages often put several screenshots side by side inside one paragraph,
+    // so match any img in the content, not just direct children of .markdown.
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      background: { light: 'rgb(255, 255, 255)', dark: 'rgb(50, 50, 50)' },
+    },
     navbar: {
       logo: {
         alt: 'Geo2',

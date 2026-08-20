@@ -1,7 +1,13 @@
+---
+slug: "/mobile-app/mobile-app-pod-proof-of-delivery"
+sidebar_label: "POD - Proof of Delivery"
+sidebar_position: 7
+description: "The mobile app lets you record a proof-of-delivery in different circumstances:"
+---
 
 # Mobile App: POD - Proof of Delivery
 
-# Introduction
+## Introduction
 
 The mobile app lets you record a proof-of-delivery in different circumstances:
 
@@ -19,7 +25,7 @@ To record an ad-hoc POD, you can press the `Create POD` button in Menu or on POD
 
 You will be redirected to POD creation page.
 
-# Planned POD
+## Planned POD
 
 ![20260804_7.png](../../attachments/a2c2b76d-4641-4a50-bd2f-e9960ce03d39.png)![20260804_8.png](../../attachments/6e573e90-66e9-4aee-816d-8c53b2e55fe4.png)![20260804_9.png](../../attachments/d19ecd1a-febf-498e-80eb-98e2fb6f3b7d.png)
 
@@ -78,9 +84,9 @@ POD statuses (successful, partially successful, failed, no POD) are also display
 
 ![20260804_18.png](../../attachments/f7f7a1c3-b440-4ade-8144-31d12f868041.png)
 
-## Order Packages
+### Order Packages
 
-When the order has pre-defined packages, they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md), mobile app or API for an order. Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
+When the order has pre-defined packages, they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md), mobile app or API for an order. Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
 
 ![App 153.png](../../attachments/e1369bdb-8c04-4c9a-9396-d34d1828a3e9.png)
 
@@ -96,9 +102,9 @@ By default, packages are marked as delivered (checkboxes are selected). See [Mob
 
 ![App 153.png](../../attachments/e1369bdb-8c04-4c9a-9396-d34d1828a3e9.png)
 
-## Order Products
+### Order Products
 
-When the order has pre-defined products, they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md) or via the API for an order. Adding/marking products as failed is available only with Enterprise subscription level.
+When the order has pre-defined products, they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md) or via the API for an order. Adding/marking products as failed is available only with Enterprise subscription level.
 
 ![App 158.png](../../attachments/cb495fa4-6334-4df2-8e91-77de5b1cfdd9.png)
 
@@ -110,7 +116,7 @@ By default, products are marked as delivered (checkboxes are selected). See [Mob
 
 ![App 158.png](../../attachments/cb495fa4-6334-4df2-8e91-77de5b1cfdd9.png)
 
-## Order Packages with Products
+### Order Packages with Products
 
 When the order has pre-defined products and packages linked, they are displayed in the `Packages and products` section.  For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub, mobile app or API. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub or API. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Back` to return to Create POD page.
 
@@ -124,9 +130,9 @@ By default, packages with products inside are marked as delivered (checkboxes ar
 
 ![App 159.png](../../attachments/223ffcd9-653c-4b28-b91c-45240560d701.png)
 
-# Ad-hoc/Unplanned POD
+## Ad-hoc/Unplanned POD
 
-You can create an ad-hoc POD for an existing order by specifying its key.  If the order key does not yet exist, a skeleton order will be created in the background (depending on [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings.md)).  If you provide the key of an existing order, details such as type, key, contact name, email, and address are pre-populated.  You can edit remarks and contact name.
+You can create an ad-hoc POD for an existing order by specifying its key.  If the order key does not yet exist, a skeleton order will be created in the background (depending on [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/index.md)).  If you provide the key of an existing order, details such as type, key, contact name, email, and address are pre-populated.  You can edit remarks and contact name.
 
 ![App 161.png](../../attachments/5c304b62-064e-41df-b609-d164279ade4d.png)![App 162.png](../../attachments/85844a69-1153-4a51-b1e7-ca1dd08435f9.png)![App 163.png](../../attachments/fd3fb126-459c-431e-a121-36ca551cfe0d.png)
 
@@ -171,9 +177,9 @@ After filling in all the data, press the `Create POD` button to save the POD.  
 
 ![App 165.png](../../attachments/fc31fc73-2d3d-4095-8ecc-f0333db04023.png)
 
-## Order Packages
+### Order Packages
 
-When the order has pre-defined packages (ad-hoc POD for existing order), they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md), mobile app or API for an order.
+When the order has pre-defined packages (ad-hoc POD for existing order), they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md), mobile app or API for an order.
 
 Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
 
@@ -191,9 +197,9 @@ By default, packages are marked as delivered (checkboxes are selected). See [Mob
 
 ![App 153.png](../../attachments/e1369bdb-8c04-4c9a-9396-d34d1828a3e9.png)
 
-## Order Products
+### Order Products
 
-When the order has pre-defined products (ad-hoc POD for existing order key), they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md) or API for an order.
+When the order has pre-defined products (ad-hoc POD for existing order key), they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md) or API for an order.
 
 Adding/marking products as failed is available only with Enterprise subscription level.
 
@@ -207,7 +213,7 @@ By default, products are marked as delivered (checkboxes are selected). See [Mob
 
 ![App 158.png](../../attachments/cb495fa4-6334-4df2-8e91-77de5b1cfdd9.png)
 
-## Order Packages with Products
+### Order Packages with Products
 
 When the order has pre-defined products and packages linked, they are displayed in the `Packages and products` section.  For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub, mobile app or API. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub or API. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Back` to return to Create POD page.
 
@@ -217,7 +223,7 @@ When you create a POD for multiple orders, the `Packages and products` section i
 
 ![App 159.png](../../attachments/223ffcd9-653c-4b28-b91c-45240560d701.png)
 
-# POD Custom Fields
+## POD Custom Fields
 
 In the Environment settings in Geo2 Hub, you can set up custom fields to collect additional information in POD's.  Here is an example:
 
@@ -232,7 +238,7 @@ That's how the fields would look when recording a POD:
 
 ![App 168.png](../../attachments/116c40f5-be0d-4c2b-9955-2ba9bb366d89.png)
 
-# Package-level Failures
+## Package-level Failures
 
 If the order has pre-defined packages, they will be displayed on Create POD page, marked as delivered by default (checkboxes are selected).  You can de-select a package to mark that it was not delivered.  You will see a prompt to specify the failure reason code for it.  The POD status will be automatically changed from Successful to Partially successful and the failure reason code from the package level will be populated to the general POD level.  The failure code for the package will be highlighted in red colour.  You can press it to select another code.
 
@@ -248,7 +254,7 @@ You can first select a Failed status and a general failure reason code for the P
 
 To mark all unticked (de-selected) packages as successful again, press the `Select all` button - the POD status will be changed to Successful as well.
 
-# Package Scanning
+## Package Scanning
 
 Package scanning serves multiple purposes:
 
@@ -258,7 +264,7 @@ Package scanning serves multiple purposes:
 
 Package scanning is available only with Advanced and Enterprise subscription levels.
 
-## Adding and Confirming Packages
+### Adding and Confirming Packages
 
 If the order has no pre-defined packages, it is possible to scan barcodes to add packages by pressing the `Scan` button.  You will be redirected to Scan barcode page.  Point your camera steadily at the barcode or QR code and it will be scanned.  The scanned code will be displayed under the title `Scanned barcodes`.  You can press:
 
@@ -294,7 +300,7 @@ If you do not scan any of pre-defined packages, you will see a prompt asking if 
 
 ![App 194.png](../../attachments/0ab420e0-5403-4138-9805-cd8a3d70018d.png)![App 195.png](../../attachments/247f9827-1727-44af-9c03-a11f83da6d7e.png)![App 196.png](../../attachments/bd87433e-4d51-4620-8ca1-da0a907e765b.png)![App 197.png](../../attachments/27f61477-f7a3-4e19-a107-dc7c1379cd99.png)![App 198.png](../../attachments/0c67b1b3-7401-4624-8d05-031453a2d704.png)![App 199.png](../../attachments/efd8f401-fcff-4192-aa84-e64145eaef11.png)
 
-# Product-level Failures
+## Product-level Failures
 
 If the order has pre-defined products, they are displayed on Create POD page, marked as delivered by default (checkboxes are selected).  You can de-select a product to mark that it was not delivered.  You will see a prompt to specify the failure reason code for it and the failed quantity out of the planned total.  The POD status will be automatically changed from Successful to Partially successful and the failure reason code from the product level will be populated to the general POD level.  The failure code for the product will be highlighted in red colour.  You can press it to select another code or change the failed quantity.
 
@@ -310,7 +316,7 @@ You can first select a Failed status and a general failure reason code for the P
 
 To mark all unticked (de-selected) products as successful again, press the `Select all` button - the POD status will be changed to Successful as well.
 
-# Package-level Failures with Products
+## Package-level Failures with Products
 
 If the order has pre-defined packages with products linked, they will be displayed on Create POD page, marked as delivered by default (checkboxes are selected).  You can de-select a package to mark that it was not delivered.  You will see a prompt to specify the failure reason code for it.  The POD status will be automatically changed from Successful to Partially successful and the failure reason code from the package level will be populated to the general POD level.  The failure code for the package will be highlighted in red colour.  You can press it to select another code.  All products added to the package will be marked as failed with the full quantities failed.
 

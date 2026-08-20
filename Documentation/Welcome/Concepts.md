@@ -1,7 +1,14 @@
+---
+slug: "/concepts"
+sidebar_label: "Concepts"
+sidebar_position: 2
+description: "Geo2 is a cloud-based transport management system (TMS), a logistics service that uses technology to help businesses plan, execute, and optimize physical"
+---
+
 
 # Concepts
 
-# Introduction
+## Introduction
 
 Geo2 is a cloud-based transport management system (TMS), a logistics service that uses technology to help businesses plan, execute, and optimize physical movement of goods.  By leveraging latest technology, Geo2 delivers competitive advantage to its customers - reduced cost of delivery with a focus on sustainability, while maintaining customer satisfaction.  We are always working to improve and innovate.
 
@@ -17,7 +24,7 @@ There are a number of ways Geo2 can be used.  The three examples below demonstr
 
 It is completely feasible to mix simple passive POD collection for some orders with full route planning for others.
 
-# Data Ownership
+## Data Ownership
 
 Data in Geo2 are owned by *organizations*, which have one or more *user accounts*.  Geo2 can only be used by authenticated users.
 
@@ -29,7 +36,7 @@ An organization has one or more *environments*.  Environments are separate cont
 
 Data inside an organization are private - other organizations have no visibility of them.  Similarly, data inside environments are private - other environments, including those in the same organization, have no visibility of them.  An organization user may have access to one environment or several.  The user's authorisations may differ in different environments in the same organization.
 
-# Glossary
+## Glossary
 
 This is a glossary of terms and acronyms used in this documentation.
 

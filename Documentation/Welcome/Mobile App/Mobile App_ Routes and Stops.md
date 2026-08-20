@@ -1,7 +1,13 @@
+---
+slug: "/mobile-app/mobile-app-routes-and-stops"
+sidebar_label: "Routes and Stops"
+sidebar_position: 6
+description: "Routes page lets you view routes that have been released to you, each displayed with a small map preview."
+---
 
 # Mobile App: Routes and Stops
 
-# Introduction
+## Introduction
 
 `Routes` page lets you view routes that have been released to you, each displayed with a small map preview. You can access the Routes page from the Menu options. By default, routes planned for the current date are shown, but you can select other dates to show routes for those dates.  The green dot below the date means that you have planned routes assigned to you for this date.
 
@@ -9,7 +15,7 @@ The Routes page supports two display modes: Preview and Compact. A toggle above 
 
 ![20260729_14.png](../../attachments/a5c39ecd-7ac1-4a5d-8f2d-96ea0d976af3.png)![20260729_15.png](../../attachments/3b3a06ce-62a8-4841-ab2e-96a439102a59.png)
 
-# Route Statuses
+## Route Statuses
 
 There are three route statuses relevant to the mobile app:
 
@@ -19,13 +25,13 @@ There are three route statuses relevant to the mobile app:
 | Started <br/>![](../../attachments/3303e95a-5f5c-4517-b34a-e52edc1e1a9c.png) | You have started to deliver the route, linking your location tracking to the route. |
 | Completed <br/>![](../../attachments/e332276f-4462-4d08-8a1b-80492ced124f.png) | You have finished delivering the route.  Location tracking is no longer linked to the route. |
 
-# Starting Route
+## Starting Route
 
 You can click on the route card on Routes page to view its details.  At the bottom, you will find the `Start route` button.  After starting the route, the `Start route` button is replaced with the `Complete route` button. To temporarily pause a route (location tracking for this route will be paused) press the `arrow` icon near the `Complete route` button and select `Pause route`.  To continue the paused route again, you need to press the `Continue route` button.  It's not possible to continue the route that has been completed already. 
 
 ![20260729_16.png](../../attachments/f9239fbf-cddc-420b-b7c2-60be876ed072.png)![20260729_17.png](../../attachments/c51a963b-5171-4d2b-9f0a-067b1240af0f.png)![20260729_18.png](../../attachments/6412c8e3-1a11-4359-9c1e-2a59420d07b3.png)![20260729_19.png](../../attachments/5c0a3dd0-ed4e-44cf-ab88-a1309f567313.png)![20260729_20.png](../../attachments/56bef2a5-f6ee-4578-90c2-8ed1728f686c.png)![20260729_21.png](../../attachments/3a171d57-e703-4b45-bdab-ff32c6d448b6.png)
 
-# Current Route
+## Current Route
 
 When you have started a route and location tracking is enabled (the route is not paused), it will be displayed with a green frame around the route card on Routes Calendar page.
 
@@ -35,7 +41,7 @@ You can also temporarily pause a route (location tracking for this route will be
 
 ![20260729_23.png](../../attachments/73255041-9c6b-4722-931c-4e00d21a8cf6.png)![20260729_24.png](../../attachments/05fa139d-fdf4-4901-8ab9-ed64073b6509.png)![20260729_25.png](../../attachments/f8eaaf52-ef46-4a9f-b5cf-ebf3fbcaca41.png)![20260729_26.png](../../attachments/a549dc4d-2e59-4d05-b666-5326b2a9bace.png)
 
-# Route Creation
+## Route Creation
 
 Depending on your permissions in the environment, you can create a route in the mobile app as well as in Geo2 Hub. To create a route, you need to press the `Plan route` in Menu or on Routes page. If you do not have any assigned to you routes for today, you will also see the `Plan route` button at the bottom of Map page.
 
@@ -52,7 +58,7 @@ After pressing the button, Create route page will be displayed where you need to
 | Planned start | Expected dispatch date/time of the route from the route start location. By default, it is taken from your settings. | Yes |
 | Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route end field, you can also select depots from your environment if they exist, last stop location (last stop recipient’s address), or search address. If you select to search for an address, the Search address dialog will be displayed where you can start typing and selecting an address from the drop-down which appears, use voice search, scan an address, or search location on the map.  If no suitable match is found, press the `Can't find the address you need?` button and continue entering the address in the relevant address fields manually. Once it is done, press the `Confirm` button. Your address will be saved as a route end and you will be redirected back to Create route page. | Yes |
 | Vehicle | Vehicle assigned to the route. Once a new organization/environment is created, the following default vehicle are created: van, truck, car, motorbike, bicycle. If there are no vehicles in your environment, press on the `Tap to add a vehicle` to add it. Vehicle dimensions (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. | No |
-| Driver | User responsible for the route.  By default, it's a user creating a route from the mobile app.  It can be changed.  Once a route is released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](../Web-Based%20Hub/Hub_%20Routes.md) and on the [Hub: Analytics](../Web-Based%20Hub/Hub_%20Analytics.md) on Analytics page in Hub, as well as on the recorded [Hub: Vehicle Checks](../Web-Based%20Hub/Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). This field is displayed only for Enterprise level users. | No |
+| Driver | User responsible for the route.  By default, it's a user creating a route from the mobile app.  It can be changed.  Once a route is released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](../Web-Based%20Hub/Hub_%20Routes.md) and on the [Hub: Analytics](../Web-Based%20Hub/Hub_%20Analytics.md) on Analytics page in Hub, as well as on the recorded [Hub: Vehicle Checks](../Web-Based%20Hub/Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). This field is displayed only for Enterprise level users. | No |
 | Participants | Up to 2 additional users assigned to the route. Once released, the assigned participant sees the route in the mobile app. While the driver retains the ability to start and complete a route, participants will have access to a route to check the list of stops and create POD's for them. Participants field is displayed only to users with Enterprise subscription level. | No |
 
 ![20260729_27.png](../../attachments/5b07a35e-1efc-4154-8a55-dfe282661b2a.png)![20260729_28.png](../../attachments/4060ec89-7832-455d-9648-98db89f9ee2a.png)![20260729_29.png](../../attachments/e90e489a-f32a-4c4f-b656-b0f970daeaa1.png)
@@ -61,7 +67,7 @@ After filling in all the fields, you need to press the `Create` button to save t
 
 ![20260729_30.png](../../attachments/67b521a5-59e4-47f6-ade5-56bbbe04ae51.png)
 
-# Adding/Creating Stops
+## Adding/Creating Stops
 
 Depending on your permissions in the environment settings, you can create or add an existing order to a route in the mobile app or Geo2 Hub. Press the `Add first stop` button at the bottom or `Tap to add a stop` in the stop list on the Route view page. The Search dialog appears, allowing you to type a recipient address and select from the results, scan multiple addresses at once, use voice search, use bulk address paste, import from photos, screenshots, PDFs or add an existing order. All these features are included across every subscription level. The only restriction applies to the Free level, which allows a maximum of 15 stops per route.
 
@@ -69,7 +75,7 @@ Depending on your permissions in the environment settings, you can create or add
 
 Once stops are added, press the `Finish adding stops` button to run automatic route optimization to save time and fuel.
 
-## Muti-Address Scanning
+### Muti-Address Scanning
 
 Multi-address scanning allows solo delivery drivers to quickly add multiple stops without manually entering each address. It’s especially helpful in the following scenarios:
 
@@ -108,7 +114,7 @@ You can continue adding more stops using typing addresses, voice search, multi-a
 
 ![20260729_39.png](../../attachments/c953fe77-2f7f-4208-9454-fcc2694ed471.png)![20260729_38.png](../../attachments/7007e966-e748-46f1-b530-3ee8b006047c.png)![20260729_40.png](../../attachments/7bcb0d17-200c-4a4c-ac9d-0e51c0bdbf20.png)
 
-## Address Voice Search
+### Address Voice Search
 
 To use voice search for an address, press the `mic` icon on the Tap to add a stop (more stops) search bar or on the Search address dialog. The Voice search dialog appears. Your device language will be selected by default, but you can change it to any preferred language. Speak the address; the system will recognize it. If the detected address is correct, press `Confirm` to find matching results. Select an address from the results to add a stop to the route. If the detected address is incorrect, press `Try again`.
 
@@ -118,7 +124,7 @@ You can continue adding more stops using typing addresses, voice search, multi-a
 
 ![20260729_44.png](../../attachments/0df0de96-5fec-4c0f-a2b3-b009e2cfcae0.png)![20260729_45.png](../../attachments/8cbcc76a-81db-4505-ab45-17f06935cecd.png)
 
-## Search Addresses on the Map
+### Search Addresses on the Map
 
 The Map search feature lets you select an exact location by placing a pin on the map instead of typing an address. It is available when adding route stops, setting route start/end points, adding or editing orders, and creating Proof of Delivery (POD).
 
@@ -143,7 +149,7 @@ You can continue adding more stops using typing addresses, voice search, multi-a
 
 ![20260729_39.png](../../attachments/c953fe77-2f7f-4208-9454-fcc2694ed471.png)![20260729_38.png](../../attachments/7007e966-e748-46f1-b530-3ee8b006047c.png)![20260729_40.png](../../attachments/7bcb0d17-200c-4a4c-ac9d-0e51c0bdbf20.png)
 
-## Bulk Address Paste (Paste List)
+### Bulk Address Paste (Paste List)
 
 The Paste list feature is especially useful for solo delivery drivers who need to quickly plan routes with multiple stops. Instead of entering addresses one by one, you can paste a full list from a dispatcher, spreadsheet, or notes and generate a route in seconds. This is particularly helpful for gig drivers using platforms like Amazon Flex, where multiple deliveries are assigned at once. It also supports drivers working across different apps, allowing them to combine addresses into a single optimized route. Overall, the feature saves time, reduces manual input, and makes it easy to adjust or reuse address lists for recurring or on-the-go deliveries.
 
@@ -170,7 +176,7 @@ You can continue adding more stops using typing addresses, voice search, multi-a
 
 ![20260729_50.png](../../attachments/ca0832d6-ead8-4046-8cad-ed1286731b04.png)![20260729_51.png](../../attachments/bb1950b3-d280-446b-bb63-aa5cbf7a947d.png)![20260729_52.png](../../attachments/81c78cfd-112f-4083-adc1-da1b9a6472b3.png)
 
-## Import Addresses from Photos, Screenshots and PDFs
+### Import Addresses from Photos, Screenshots and PDFs
 
 The `Import` feature allows you to quickly add multiple stops to a route by importing PDF files or photos/screenshots of delivery lists. Geo2 uses AI to automatically detect addresses and other available delivery information, allowing you to review and edit the extracted data before adding the stops to the route.
 
@@ -205,7 +211,7 @@ Subscription limitations:
 
 The Free level's **15-stop-per-route** limit also applies. If an import would exceed this limit, Geo2 displays a dialog allowing you to either upgrade (or start a free trial) and import all stops, or continue on the Free plan and import only the first 15 stops.
 
-## Stop details
+### Stop details
 
 Once the stop is added to the route, you can adjust its details:
 
@@ -227,13 +233,13 @@ You can set parcel placement (e.g., "front right" or "left shelf") and optionall
 
 ![20260729_68.png](../../attachments/950f1c08-8d68-4528-ab85-b33e863b7e9b.png)![20260729_67.png](../../attachments/1757b1d1-08fb-4709-9450-288d91ba3439.png)
 
-If a route starts or ends at a depot, it will be used as a stop depot: the route start depot will be populated to the delivery stop, and the route end depot will be populated to the collection stop. If a route does not use a depot as its start or end point but there is a default depot selected in [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings.md), it will be used as a stop depot. If there is no default depot, the Depot field inside a stop will be blank.
+If a route starts or ends at a depot, it will be used as a stop depot: the route start depot will be populated to the delivery stop, and the route end depot will be populated to the collection stop. If a route does not use a depot as its start or end point but there is a default depot selected in [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/index.md), it will be used as a stop depot. If there is no default depot, the Depot field inside a stop will be blank.
 
 After adding all stops to the route, you need to press the `Finish adding stops` button at the bottom of the dialog to run automatic route optimization find the fastest route.  You can proceed with your current or optimized stop order. Once selected, you will be redirected back to Route view page where you can see the added stop cards.  It will be shown on the map when you slide down the bottom sheet.  You can press the `Start route` button to start the route or add more orders.
 
 ![20260729_59.png](../../attachments/20df1627-e21f-484b-bb55-b91b0bd3dfa6.png)![20260729_60.png](../../attachments/90bd937f-61cd-4c3c-8d02-9b006c7c9b6b.png)![20260729_61.png](../../attachments/bf09ab28-434a-47d1-bc37-ceb67797d989.png)
 
-## Add Existing Order
+### Add Existing Order
 
 To add an existing order to a route, press the `Add existing order` button on Search address dialog. You need to type in the order key or scan it and all the information from this order will be automatically pre-populated to the fields.  You cannot edit the order information on this page. Fields will be disabled for editing. To edit the order, you need to add it to the route, then you can go inside the order and press the `Edit stop` button.
 
@@ -245,7 +251,7 @@ If this order is already assigned to another route, you will be asked to confirm
 
 After adding all stops to the route, you need to press the `Finish adding stops` button at the bottom of the dialog to run automatic route optimization find the fastest route.  You can proceed with your current or optimized stop order. Once selected, you will be redirected back to Route view page where you can see the added stop cards.  It will be shown on the map when you slide down the bottom sheet.  You can press the `Start route` button to start the route or add more orders.
 
-# Adding/Displaying Breaks
+## Adding/Displaying Breaks
 
 For drivers — especially solo drivers managing long routes — planned breaks are essential. They provide a structured way to **refuel or recharge the vehicle**, take a rest, or pause safely between deliveries without disrupting the overall schedule. By integrating breaks directly into the route, you can maintain efficiency while also supporting your well-being and compliance with driving regulations. The route view displays breaks alongside order stops, making them a natural part of the journey rather than an afterthought. With the appropriate permissions enabled in your environment, breaks can be added both in the mobile app and in Geo2 Hub. Adding breaks is available with all subscription levels, starting from Free level.
 
@@ -261,7 +267,7 @@ If a break includes a location, it will also appear on the map. Selecting either
 
 ![20260730_9.png](../../attachments/f2482b2e-268b-4831-aa12-9226ffffc49b.png)
 
-# Drag-and-Drop Stops
+## Drag-and-Drop Stops
 
 Stop cards could be drag-and-dropped to any position of the route.  For it, you need to press on the stop card and move it.  Remember to press the `Save` button to save your changes.  Once saved, a route will be automatically calibrated updating timings and distance.
 
@@ -269,7 +275,7 @@ Route start and end cards cannot be moved.
 
 ![20260730_10.png](../../attachments/090f49e0-3b7e-472c-86ed-f7a619d0e9e3.png)![20260730_11.png](../../attachments/35d2a8c9-f692-4958-8577-d9475deced3b.png)![20260730_12.png](../../attachments/e6427bb4-607e-46ee-8667-6688b25a721e.png)
 
-# Calibrating Route
+## Calibrating Route
 
 Once stops are added to a route, we run automatic route optimization and calibration so you can choose the fastest and/or shortest route. You can also press the `: (three dots)` icon on Route view page and select `Calibrate` option to update the planned timings and distance of the route without modifying the order list.  Example: You created 4 stops one by one, didn't change their position, and clicked on the `Calibrate` button.  The route didn't change but the planned time changed.  Changes are saved automatically.
 
@@ -294,7 +300,7 @@ We apply automatic calibration in most cases so you don't need to press `Calibra
 - changing time-at-stop inside order or route stops
 - deleting a stop on Stop details page
 
-<font style="color: #091e42;">Exceptions when we don't apply automatic calibration: </font>
+Exceptions when we don't apply automatic calibration: 
 
 - editing a stop (editing recipient address inside stops)
 - manually set up a route inside a stop (done from Hub)
@@ -302,7 +308,7 @@ We apply automatic calibration in most cases so you don't need to press `Calibra
 
 If the route already calibrated, the Calibrate button will be disabled.
 
-# Optimizing Route with Time Windows
+## Optimizing Route with Time Windows
 
 After adding stops to a route and pressing `Finish adding stops` button, we run automatic route optimization and calibration so you can select the fastest or shortest route. If the route includes at least one stop with specified Required from and/or Required to fields and you have an Advanced or Enterprise subscription, the system optimizes the route with time windows. To use the Optimize with time windows option separately, press the `: (3 dots)` icon on Route view page and select the `Optimize with time windows` option. Route optimization requires at least two stops, with at least one stop having specified required time slots (either “Required from”, “Required to”, or both).
 
@@ -326,7 +332,7 @@ If the route is already optimized with time windows, the Optimize button will be
 
 ![20260730_18.png](../../attachments/04f43d69-1ae8-4547-b079-09c8a2be11ca.png)
 
-# Optimizing Route without Time Windows
+## Optimizing Route without Time Windows
 
 After adding stops to a route, we run automatic route optimization and calibration so you can select the fastest or shortest route. If stops lack required time windows ("Required from" and/or "Required to" fields), the system optimizes without time windows. To use the Optimize without time windows option separately, press the `: (3 dots)` icon on Route view page and select the `Optimize without time windows` option. Optimization without time windows is available on all subscription levels, starting from Free level.
 
@@ -348,7 +354,7 @@ After optimization without time windows:
 
 If the route is already optimized without time windows, the Optimize button will be disabled however, you can still optimize the route with time windows and compare the difference.
 
-# Editing and Deleting Route
+## Editing and Deleting Route
 
 By pressing `3 dots` icon on a route card on Routes page, the dialog will be opened with the following options: Edit, Delete, and Select routes for bulk route deletion.  You can create, edit, and delete routes only if you have permission to do it - Manager or Admin role in the current environment.
 
@@ -362,7 +368,7 @@ After clicking on the `Edit` button, you will be redirected to Edit route page w
 
 After clicking on the `Delete` button, the confirmation dialog will be displayed where you need to confirm the deletion of the route.  It's not possible to delete the route that has the Started or Completed status. 
 
-# Editing and Deleting Stop
+## Editing and Deleting Stop
 
 To edit or permanently delete a stop, you need to go to the Route view page and click on the stop card.  You will be redirected to Details page.  At the bottom of the page, you will see the `Edit` and `Delete stop` buttons.  After clicking on the `Edit` button, you will be redirected to Edit stop page where you can make some changes and save them.  After clicking on the `Delete` button, the confirmation dialog will be displayed where you need to confirm the deletion of the stop. 
 
@@ -372,7 +378,7 @@ To select multiple stops, press the `: (3 dots)` icon on the Route view page and
 
 ![20260730_24.png](../../attachments/d23358b0-5966-4fb6-9ae1-d056011db828.png)![20260730_25.png](../../attachments/3db19ebf-93b4-4a42-af89-18361ff12a72.png)
 
-# Vehicle Loading with Photos
+## Vehicle Loading with Photos
 
 Once a route is optimized and ready-to-go, you can load your vehicle with the assigned delivery stops by selecting `Load vehicle` from the `: (3 dots)` icon on Route view page. Stops appear in reverse order to help you load items that will be delivered last first, with **collection orders excluded**. For each stop, you can set parcel placement (e.g., "front right" or "left shelf") and optionally add photos. Press `Confirm` to save the placement, which can be updated later. Note that new photos will replace the old ones. Once your orders are loaded to the vehicle, press `Finish loading` to return to Route view page.
 
@@ -388,21 +394,21 @@ You can also set placement and upload photos when adding or editing an order.
 
 ![20260730_32.png](../../attachments/f672e839-5a9d-42fd-878e-d96a90e162a4.png)![20260730_33.png](../../attachments/63e2c666-f211-4fd9-bb9f-5536f24dd8c4.png)![20260730_34.png](../../attachments/48f5354b-bf3b-49d1-bbc3-23c39fd4bf75.png)![20260730_35.png](../../attachments/1a2ada56-1b66-48da-b792-1ecc2f29701b.png)
 
-# Navigation
+## Navigation
 
 The navigation icon in the top right of Details (of a certain stop) page panel lets you jump out to a navigation app (Google Maps, Apple Maps, Waze, etc.) to help you navigate in an unfamiliar area.
 
 ![20260730_35.png](../../attachments/1a2ada56-1b66-48da-b792-1ecc2f29701b.png)![20260730_36.png](../../attachments/abc64da4-06b5-43d4-bfd5-5d06abf75c8b.png)
 
-# Switching Between Stops
+## Switching Between Stops
 
 You can see navigation arrows on Stop details page above the bottom-screen dialog to quickly switch between route stops. These arrows move dynamically with the bottom sheet as it changes height during scrolling. Next to the arrows, the stop numbers of the previous and next stops are displayed, helping you know which stops you can navigate to. The left arrow is hidden on the first stop, and the right arrow is hidden on the last stop, ensuring navigation options are only shown when applicable. If there is only one stop in the route, no arrows are displayed at all.
 
 ![20260730_37.png](../../attachments/ac7b2dae-5f66-4f50-9e69-30b494935f18.png)
 
-# Stop Packages
+## Stop Packages
 
-You can add packages to a stop either in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md)or in the mobile app during adding or editing of a stop.  Packages will be then displayed on the Stop details page in the mobile app with a barcode, description, height, width, depth, volume, and weight depending on the data provided in [Web-Based Hub](../Web-Based%20Hub.md)or in the mobile app.
+You can add packages to a stop either in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md)or in the mobile app during adding or editing of a stop.  Packages will be then displayed on the Stop details page in the mobile app with a barcode, description, height, width, depth, volume, and weight depending on the data provided in [Web-Based Hub](../Web-Based%20Hub/index.md)or in the mobile app.
 
 Adding package information is available only with Advanced and Enterprise subscription levels.
 
@@ -414,21 +420,21 @@ Example when adding packages from Hub:
 
 ![Screenshot 2026-07-31 at 11.54.15.png](../../attachments/39c1c318-ccfc-4e3d-a5ba-ebe6eb087337.png)![20260731_4.png](../../attachments/46a49869-51d9-4a25-96ec-4f65e73b297a.png)
 
-# Stop Products
+## Stop Products
 
-You can add products to a stop in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md).  Pre-defined products will be then displayed on the Stop details page in the mobile app with a product code, description, quantity, and weight depending on the data provided in [Web-Based Hub](../Web-Based%20Hub.md).
+You can add products to a stop in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md).  Pre-defined products will be then displayed on the Stop details page in the mobile app with a product code, description, quantity, and weight depending on the data provided in [Web-Based Hub](../Web-Based%20Hub/index.md).
 
 ![20260803_2.png](../../attachments/24270042-e4f3-4227-88b3-421a569966f9.png)![20260803_1.png](../../attachments/add9ee22-4ac2-4cf2-a9fb-2e44b721d8e4.png)
 
-# Stop Packages with Products
+## Stop Packages with Products
 
-You can add packages and products to a stop and link them in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders.md).  Pre-defined packages with products will be then displayed on the Stop details page in the mobile app. For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Cross` on the dialog to close it.
+You can add packages and products to a stop and link them in [Hub: Orders](../Web-Based%20Hub/Hub_%20Orders/index.md).  Pre-defined packages with products will be then displayed on the Stop details page in the mobile app. For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Cross` on the dialog to close it.
 
 ![20260803_3.png](../../attachments/8fdb03c3-b4ae-4618-a456-5f06d692cf1e.png)![20260803_4.png](../../attachments/11616928-8763-41e2-931f-15e2d883d131.png)
 
-# Recording Stop Duration
+## Recording Stop Duration
 
-`Record stop duration` setting in [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings.md)in Geo2 Hub enables the mobile app’s feature to record the actual time spent at a stop by a driver. Recording actual stop duration feature is available only with Enterprise subscription level.
+`Record stop duration` setting in [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/index.md)in Geo2 Hub enables the mobile app’s feature to record the actual time spent at a stop by a driver. Recording actual stop duration feature is available only with Enterprise subscription level.
 
 ![Screenshot 2026-08-03 at 13.45.42.png](../../attachments/6850a938-1627-4263-b246-147a8812ab94.png)
 

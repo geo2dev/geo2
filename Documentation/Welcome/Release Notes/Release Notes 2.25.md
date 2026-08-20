@@ -1,13 +1,20 @@
+---
+slug: "/release-notes/release-notes-2-25"
+sidebar_label: "Release Notes 2.25"
+sidebar_position: 79
+description: "Geo2 documentation: Release Notes 2.25"
+---
+
 
 # Release Notes 2.25
 
-# Release Date
+## Release Date
 
 2024-06-27
 
 Bug fixes and refactoring. 
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |
