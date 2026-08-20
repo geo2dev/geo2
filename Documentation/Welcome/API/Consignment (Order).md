@@ -12,11 +12,11 @@ sidebar_position: 3
 Using Geo2 API, you can:
 
 - Create consignment (POST /consignment)
-- Get consignment data (GET /consignment and GET /consignment/{consignmentId})
-- Delete consignment (DELETE /consignment and DELETE /consignment/{consignmentId})
-- Update consignment (PATCH /consignment and PATCH /consignment/{consignmentId})
+- Get consignment data (GET /consignment and GET /consignment/`{consignmentId}`)
+- Delete consignment (DELETE /consignment and DELETE /consignment/`{consignmentId}`)
+- Update consignment (PATCH /consignment and PATCH /consignment/`{consignmentId}`)
 - Export all consignments (GET /export/consignments)
-- Remove consignments from export (DELETE /export/consignments and DELETE /export/consignment/{consignmentID})
+- Remove consignments from export (DELETE /export/consignments and DELETE /export/consignment/`{consignmentID}`)
 
 For each of the actions above we have [**examples of how it works**](https://api.geo2.com/v1/docs/html/), which data you need to put in the request body, and what a result would be.
 
@@ -28,8 +28,8 @@ To create a consignment you need to send a POST request with the following param
 | --- | --- | --- | --- | --- | --- |
 | key |  |  | string | Unique consignment key within the environment, for example, an order number 1, 2, 3, 4, etc. | Yes |
 | type |  |  | string | Type of consignment with one of the following values: <br/>- delivery <br>- collection | Yes |
-| channelKey |  |  | <font style="color: #091e42;">string</font> | Tag that lets you classify delivery methods.  Provide a channel key from options defined in Settings → Environment → [Hub: Channels Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Channels%20Settings.md). | No |
-| areaKey |  |  | <font style="color: #091e42;">string</font> | Tag that lets you identify depots, order and routes by user-defined geographical regions.  Provide an area key from options defined in Settings → Environment → [Hub: Areas Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Areas%20Settings.md). | No |
+| channelKey |  |  | string | Tag that lets you classify delivery methods.  Provide a channel key from options defined in Settings → Environment → [Hub: Channels Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Channels%20Settings.md). | No |
+| areaKey |  |  | string | Tag that lets you identify depots, order and routes by user-defined geographical regions.  Provide an area key from options defined in Settings → Environment → [Hub: Areas Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Areas%20Settings.md). | No |
 | depotKey |  |  | string | Depot key where or from where the consignment should be delivered/collected. Provide a depot key from options defined in Settings → Environment → [Hub: Depots Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Depots%20Settings.md). | No |
 | loadId |  |  | uniqueID | Unique load ID to which the consignment has been assigned.  **If a route starts or ends at a depot, orders with depots must match**: the delivery depot must align with the start, and the collection depot with the end. Orders without assigned depots can be added to any route, and if a route does not use a depot as its start or end point, any order, with or without a depot, can be added. | No |
 | requiredFrom |  |  | YYYY-MM-DD HH:mm:ss | Date/time from when the customer requires the order to be delivered/collected. | No |

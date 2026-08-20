@@ -299,7 +299,7 @@ We apply automatic calibration in most cases so you don't need to press `Calibra
 - changing time-at-stop inside order or route stops
 - deleting a stop on Stop details page
 
-<font style="color: #091e42;">Exceptions when we don't apply automatic calibration: </font>
+Exceptions when we don't apply automatic calibration: 
 
 - editing a stop (editing recipient address inside stops)
 - manually set up a route inside a stop (done from Hub)

@@ -11,9 +11,9 @@ sidebar_position: 4
 
 Using Geo2 API, you can:
 
-- Get POD data (GET /pod, GET /pod/{podId}, GET /pods/consignment, and GET /pods/consignment/{consignmentId})
+- Get POD data (GET /pod, GET /pod/`{podId}`, GET /pods/consignment, and GET /pods/consignment/`{consignmentId}`)
 - Export all POD's (GET /export/pods)
-- Remove POD's from export (DELETE /export/pods and DELETE /export/pod/{podId})
+- Remove POD's from export (DELETE /export/pods and DELETE /export/pod/`{podId}`)
 
 For each of the actions above we have [**examples of how it works**](https://api.geo2.com/v1/docs/html/#/), which data you need to put in the request body, and what a result would be.
 

@@ -11,7 +11,7 @@ sidebar_position: 7
 
 Using Geo2 API, you can:
 
-- Get user data (GET /users and GET /user/{userId})
+- Get user data (GET /users and GET /user/`{userId}`)
 
 For each of the actions above we have [**examples of how it works**](https://api.geo2.com/v1/docs/html/), which data you need to put in the request body, and what a result would be.
 

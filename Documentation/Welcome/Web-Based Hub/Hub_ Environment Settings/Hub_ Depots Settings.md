@@ -66,7 +66,7 @@ Press the `Upload data from file` button at the top of the Import spreadsheet in
 
 On the dialog, you will see 4 columns:
 
-| <mark style="background: #f0f1f2;">**Column Heading**</mark> | <mark style="background: #f0f1f2;">**Description**</mark> |
+| **Column Heading** | **Description** |
 | --- | --- |
 | Your file column | Displays the column headers from your uploaded file that the system will attempt to match with known fields. |
 | Your sample data | Shows a preview of the data in each column from your uploaded file to help with identifying what each field contains. |

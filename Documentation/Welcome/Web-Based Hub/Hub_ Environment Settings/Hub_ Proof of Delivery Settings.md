@@ -24,8 +24,8 @@ The sender address of email notifications is [noreply@geo2.com](mailto:noreply@g
 | Automatic enabled | If selected, POD messages will be sent automatically to a recipient email address and fixed emails (for partially successful/failed POD emails) when a POD is registered in Hub. |
 | Manual enabled | If selected, Hub users have the option to trigger the sending of the POD manually.  Press the `Email to recipient` button on the Proof of Delivery page inside of an order or on the POD dialog when clicking on the POD icon on an order card or stop card on the Route view page. |
 | Fixed recipient | For failure notifications only, a fixed email recipient for the notifications.  Partially successful/failed delivery emails can be sent to multiple fixed recipients, for example, to managers who are responsible for failed deliveries.  Multiple email addresses can be entered, separated by a semi-colon (;) or by pressing `Enter`.  To edit the entered email address, press it. |
-| Subject | Subject line of notifications.  You can use these tokens for POD emails: <br/> **{CONTACT\_NAME}** - recipient name <br/> **{ORDER\_KEY}** - order key <br/> **{COMPANY\_NAME}** - сompany name <br/> **{ENVIRONMENT\_NAME}** - environment name |
-| Body | Body of notifications.  You can use these tokens for POD emails: <br/> **{CONTACT\_NAME}** - recipient name <br/> **{ORDER\_KEY}** - order key <br/> **{PUBLIC\_POD}** - POD tracking link <br/> **{COMPANY\_NAME}** - сompany name <br/> **{ENVIRONMENT\_NAME}** - environment name |
+| Subject | Subject line of notifications.  You can use these tokens for POD emails: <br/> **`{CONTACT_NAME}`** - recipient name <br/> **`{ORDER_KEY}`** - order key <br/> **`{COMPANY_NAME}`** - сompany name <br/> **`{ENVIRONMENT_NAME}`** - environment name |
+| Body | Body of notifications.  You can use these tokens for POD emails: <br/> **`{CONTACT_NAME}`** - recipient name <br/> **`{ORDER_KEY}`** - order key <br/> **`{PUBLIC_POD}`** - POD tracking link <br/> **`{COMPANY_NAME}`** - сompany name <br/> **`{ENVIRONMENT_NAME}`** - environment name |
 
 Once all information is provided, click the `Update` button to save changes.
 

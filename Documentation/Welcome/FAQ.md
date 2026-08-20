@@ -2,6 +2,7 @@
 slug: "/faq"
 sidebar_label: "FAQ"
 sidebar_position: 11
+format: mdx
 ---
 
 

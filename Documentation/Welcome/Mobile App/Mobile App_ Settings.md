@@ -52,15 +52,15 @@ By pressing the `Add vehicle` button in the app, you will see the dialog to fill
 
 The properties of each vehicle are:
 
-| <mark style="background: #f0f1f2;">**Property**</mark> | <mark style="background: #f0f1f2;">**Description**</mark> | <mark style="background: #f0f1f2;">**Mandatory**</mark> |
+| **Property** | **Description** | **Mandatory** |
 | --- | --- | --- |
-| <mark style="background: #ffffff;">Key</mark> | <mark style="background: #ffffff;">Your unique identifier for the vehicle in this environment, for example, Vehicle 1 or Van 001. It is used for displaying vehicles for route assignment and vehicle check creation.</mark> | <mark style="background: #ffffff;">Yes</mark> |
-| <mark style="background: #ffffff;">Registration</mark> | <mark style="background: #ffffff;">Vehicle registration number to help identify your vehicle, for example, ABCD012.</mark> | <mark style="background: #ffffff;">No</mark> |
-| <mark style="background: #ffffff;">Type</mark> | <mark style="background: #ffffff;">Vehicle type used to consider average speed for route optimization and planned timing adjustments - truck, van, car, motorbike, bicycle.</mark> | <mark style="background: #ffffff;">Yes</mark> |
-| <mark style="background: #ffffff;">Gross weight</mark> | <mark style="background: #ffffff;">Number to specify the maximum vehicle weight in the weight units specified in Routes → Weight unit, for example, 22000. It is considered for route optimization and calibration with vehicle restrictions.</mark> | <mark style="background: #ffffff;">No</mark> |
-| <mark style="background: #ffffff;">Height</mark> | <mark style="background: #ffffff;">Number to specify the maximum vehicle height based on the length units specified in in Routes → Length unit, for example, 9. This is considered for route optimization and calibration with vehicle restrictions. <br/> For metric environment settings (cm), the value is in metres. <br/> For imperial environment settings (in), the value is in feet.</mark> | <mark style="background: #ffffff;">No</mark> |
-| <mark style="background: #ffffff;">Width</mark> | <mark style="background: #ffffff;">Number to specify the maximum vehicle width based on the length units in Routes → Length unit, for example, 9. This is considered for route optimization and calibration with vehicle restrictions. <br/> For metric environment settings (cm), the value is in metres. <br/> For imperial environment settings (in), the value is in feet.</mark> | <mark style="background: #ffffff;">No</mark> |
-| <mark style="background: #ffffff;">Length</mark> | <mark style="background: #ffffff;">Number to specify the maximum vehicle length based on the length units specified in Routes → Length unit, for example, 9. This is considered for route optimization and calibration with vehicle restrictions. <br/> For metric environment settings (cm), the value is in metres. <br/> For imperial environment settings (in), the value is in feet.</mark> | <mark style="background: #ffffff;">No</mark> |
+| Key | Your unique identifier for the vehicle in this environment, for example, Vehicle 1 or Van 001. It is used for displaying vehicles for route assignment and vehicle check creation. | Yes |
+| Registration | Vehicle registration number to help identify your vehicle, for example, ABCD012. | No |
+| Type | Vehicle type used to consider average speed for route optimization and planned timing adjustments - truck, van, car, motorbike, bicycle. | Yes |
+| Gross weight | Number to specify the maximum vehicle weight in the weight units specified in Routes → Weight unit, for example, 22000. It is considered for route optimization and calibration with vehicle restrictions. | No |
+| Height | Number to specify the maximum vehicle height based on the length units specified in in Routes → Length unit, for example, 9. This is considered for route optimization and calibration with vehicle restrictions. <br/> For metric environment settings (cm), the value is in metres. <br/> For imperial environment settings (in), the value is in feet. | No |
+| Width | Number to specify the maximum vehicle width based on the length units in Routes → Length unit, for example, 9. This is considered for route optimization and calibration with vehicle restrictions. <br/> For metric environment settings (cm), the value is in metres. <br/> For imperial environment settings (in), the value is in feet. | No |
+| Length | Number to specify the maximum vehicle length based on the length units specified in Routes → Length unit, for example, 9. This is considered for route optimization and calibration with vehicle restrictions. <br/> For metric environment settings (cm), the value is in metres. <br/> For imperial environment settings (in), the value is in feet. | No |
 
 Once information is provided, press the `Add` button to save changes.  You can edit vehicle properties by clicking on it.  Remember to press the `Update` button to save changes.
 
@@ -110,12 +110,12 @@ A recipient can be sent an email with an order POD - both automatically when the
 
 Here are the configurable settings in the app:
 
-| <mark style="background: #f0f1f2;">**Setting**</mark> | <mark style="background: #f0f1f2;">**Description**</mark> |
+| **Setting** | **Description** |
 | --- | --- |
-| <mark style="background: #ffffff;">Successful/Failed</mark> | <mark style="background: #ffffff;">Settings from the relevant section will be used in the event of a successful/partially successful/failed delivery/collection.</mark> |
-| <mark style="background: #ffffff;">Allow sending of emails</mark> | <mark style="background: #ffffff;">If selected, POD messages will be sent automatically to a recipient email address once a POD is recorded.</mark> |
-| <mark style="background: #ffffff;">Subject</mark> | <mark style="background: #ffffff;">Subject line of notifications.  You can use these tokens for POD emails: <br/> **{CONTACT\_NAME}** - recipient name <br/> **{ORDER\_KEY}** - order key</mark> |
-| <mark style="background: #ffffff;">Body</mark> | <mark style="background: #ffffff;">Body of notifications.  You can use these tokens for POD emails: <br/> **{CONTACT\_NAME}** - recipient name <br/> **{ORDER\_KEY}** - order key <br/> **{PUBLIC\_POD}** - POD tracking link</mark> |
+| Successful/Failed | Settings from the relevant section will be used in the event of a successful/partially successful/failed delivery/collection. |
+| Allow sending of emails | If selected, POD messages will be sent automatically to a recipient email address once a POD is recorded. |
+| Subject | Subject line of notifications.  You can use these tokens for POD emails: <br/> **`{CONTACT_NAME}`** - recipient name <br/> **`{ORDER_KEY}`** - order key |
+| Body | Body of notifications.  You can use these tokens for POD emails: <br/> **`{CONTACT_NAME}`** - recipient name <br/> **`{ORDER_KEY}`** - order key <br/> **`{PUBLIC_POD}`** - POD tracking link |
 
 Once all information is provided, click the `Update` button to save changes.
 
@@ -131,11 +131,11 @@ It's possible for external users such as recipients to optionally track the pro
 
 Here are the configurable settings in the app:
 
-| <mark style="background: #f0f1f2;">**Setting**</mark> | <mark style="background: #f0f1f2;">**Description**</mark> |
+| **Setting** | **Description** |
 | --- | --- |
 | Tracking email enabled on status | Send an email notification to the recipient, in which you can include the tracking page address, to enable them to track the order prior to delivery/collection.  The possible triggers are: <br/> **None** - Do not send emails. <br/> **Released** - When the order (stop) is assigned to a released route. Typically not used in the app. <br/> **Planning** - When the order (stop) is assigned to a route in planning.  Typically not used in the app. <br/> **Planned** - When the order (stop) is assigned to a planned route.  Typically not used in the app. <br/> **In Transit** - When the route, to which the order (stop) has been assigned, has been started. |
-| <mark style="background: #ffffff;">Subject</mark> | <mark style="background: #ffffff;">Subject for the notification email.  You can use these tokens for Public tracking emails: <br/> **{CONTACT\_NAME}** - recipient name <br/> **{ORDER\_KEY}** - order key</mark> |
-| <mark style="background: #ffffff;">Body</mark> | <mark style="background: #ffffff;">Body of the notification email.  Ensure that the wording of the email is appropriate for the trigger you have configured.  You can use the next tokens for an email notification: <br/> **{CONTACT\_NAME}** - recipient name <br/> **{ORDER\_KEY}** - order key <br/> **{PUBLIC\_TRACKING}** - public tracking link</mark> |
+| Subject | Subject for the notification email.  You can use these tokens for Public tracking emails: <br/> **`{CONTACT_NAME}`** - recipient name <br/> **`{ORDER_KEY}`** - order key |
+| Body | Body of the notification email.  Ensure that the wording of the email is appropriate for the trigger you have configured.  You can use the next tokens for an email notification: <br/> **`{CONTACT_NAME}`** - recipient name <br/> **`{ORDER_KEY}`** - order key <br/> **`{PUBLIC_TRACKING}`** - public tracking link |
 | Disclose calculated ETA | On Public tracking page, when an order has not been delivered/collected yet, show a calculated ETA based on the planned stop delivery/collection time +- delivery ETA taken from Settings → Routes.  This will be expressed as a range. |
 | Disclose stop position | On Public tracking page, when an order has not been delivered/collected yet, show the last delivered stop on the route, giving the recipient an indication of how far away the delivery vehicle is from them in terms of the number of stops. |
 | Disclose vehicle position | On Public tracking page, when an order has not been delivered/collected yet, show the last known vehicle position on the map. |
@@ -158,11 +158,11 @@ By press `Invite user` in the app, you will see the dialog prompting you for an 
 
 The properties of each user are:
 
-| <mark style="background: #f0f1f2;">**Property**</mark> | <mark style="background: #f0f1f2;">**Description**</mark> |
+| **Property** | **Description** |
 | --- | --- |
-| <mark style="background: #ffffff;">Email</mark> | <mark style="background: #ffffff;">The email address must be in a valid email format - [recipient@domain\_name.domain\_suffix.](#) For example, [john.doe@gmail.com.](mailto:janedoe@gmail.com)</mark> |
-| <mark style="background: #ffffff;">Full name</mark> | <mark style="background: #ffffff;">For example, Driver John Doe.  It is used for displaying users for route assignment, POD, and vehicle check creation.</mark> |
-| <mark style="background: #ffffff;">Role</mark> | <mark style="background: #ffffff;">Role is a set of permissions for the user in the organization/environment.  Each user can either have the role of User, which does not enable them to modify the organization and environment (including route and order creation), or Admin, which gives them control over the organization and environment.  For organization and environment user roles and their permissions, see [User Roles](../User%20Roles.md). In the mobile app, you can select either User or Admin role that will be applied both to your organization and environment.</mark> |
+| Email | The email address must be in a valid email format - [recipient@domain\_name.domain\_suffix.](#) For example, [john.doe@gmail.com.](mailto:janedoe@gmail.com) |
+| Full name | For example, Driver John Doe.  It is used for displaying users for route assignment, POD, and vehicle check creation. |
+| Role | Role is a set of permissions for the user in the organization/environment.  Each user can either have the role of User, which does not enable them to modify the organization and environment (including route and order creation), or Admin, which gives them control over the organization and environment.  For organization and environment user roles and their permissions, see [User Roles](../User%20Roles.md). In the mobile app, you can select either User or Admin role that will be applied both to your organization and environment. |
 
 **To enable the use of the Geo2 product, an Organization Admin needs to assign a subscription to a newly invited user.** The message at the top of the `Users` page informs you about your current organization subscription.
 

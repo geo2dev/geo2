@@ -12,9 +12,9 @@ sidebar_position: 2
 Using Geo2 API, you can:
 
 - Create load (POST /load)
-- Update load (PATCH /load and PATCH/load/{loadId})
-- Get load data (GET /load and GET/load/{loadId})
-- Delete load (DELETE /load and DELETE/load/{loadId})
+- Update load (PATCH /load and PATCH/load/`{loadId}`)
+- Get load data (GET /load and GET/load/`{loadId}`)
+- Delete load (DELETE /load and DELETE/load/`{loadId}`)
 
 For each of the actions above we have [**examples of how it works**](https://api.geo2.com/v1/docs/html/), which data you need to put in the request body, and what a result would be.
 

@@ -24,7 +24,7 @@ You can import order data into Geo2 Hub using two methods:
 
 ## Upload Spreadsheet File with Column Mapping
 
-Learn how to quickly import your spreadsheet file with column mapping <https://www.youtube.com/watch?v=fJL8BpnLE8A>
+Learn how to quickly import your spreadsheet file with column mapping [https://www.youtube.com/watch?v=fJL8BpnLE8A](https://www.youtube.com/watch?v=fJL8BpnLE8A)
 
 Press the `Upload data from file` button at the top of the Import spreadsheet in Hub. Upload a .csv, .tsv, .xls, .xlxs, .xml, or .txt file. After uploading, the Map your data columns dialog will be displayed where you can match your spreadsheet columns to Hub’s data fields. Required fields are marked with an asterisk ( \* ) but you can skip them at this step and add data later.
 

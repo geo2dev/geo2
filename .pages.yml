@@ -15,9 +15,11 @@ content:
     path: Documentation/Welcome
     subfolders: true
     format: yaml-frontmatter
-    filename: '{fields.sidebar_label}.md'
+    # No filename override: renaming a page's sidebar_label would rename the
+    # file, which breaks the ~60 documents that link to each other with
+    # relative .md paths.
     view:
-      fields: [sidebar_label, slug, sidebar_position]
+      fields: [sidebar_label, slug, sidebar_position, description]
       sort: [sidebar_position]
     fields:
       - name: slug

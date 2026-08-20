@@ -21,54 +21,22 @@ const config: Config = {
     'https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400..700;1,400..700&display=swap',
   ],
 
-  // Confluence export inevitably contains some dangling links — don't fail the build.
-  onBrokenLinks: 'warn',
-  onBrokenAnchors: 'warn',
+  // Build fails on broken links/anchors so CMS edits can't silently break navigation.
+  onBrokenLinks: 'throw',
+  onBrokenAnchors: 'throw',
 
   i18n: { defaultLocale: 'en', locales: ['en'] },
 
   markdown: {
-    // Parse .md as MDX: Confluence export wraps FAQ answers in <details> blocks,
-    // which CommonMark treats as raw HTML (markdown inside stays unrendered)
-    format: 'mdx',
-    // Confluence text isn't MDX-safe: `{CONTACT_NAME}` tokens, inline JSON,
-    // `<DELIVERY_ETA>` placeholders, `<https://…>` autolinks — all parse as
-    // JS expressions/JSX and crash. Escape everything except real HTML tags,
-    // skipping code fences and inline code.
+    // Docs are parsed as CommonMark. The one page that needs MDX (FAQ.md,
+    // for its <details> blocks) opts in via its own frontmatter (`format: mdx`).
+    format: 'md',
     preprocessor: ({ filePath, fileContent }) => {
-      // Sveltia CMS (static/admin) inserts images as /Documentation/attachments/…
-      // — rewrite to a page-relative path so webpack bundles them like the
-      // Confluence-exported relative links.
+      // Pages CMS inserts images as /Documentation/attachments/… — rewrite to
+      // a page-relative path so webpack resolves and bundles them.
       const rel = filePath.replace(/\\/g, '/').split('Documentation/')[1];
       const ups = rel ? '../'.repeat(rel.split('/').length - 1) : '';
-      return fileContent
-        .split(/(```[\s\S]*?```|`[^`\n]*`)/g)
-        .map((segment, i) =>
-          i % 2
-            ? segment
-            : segment
-                .replace(/\]\(\/Documentation\/attachments\//g, `](${ups}attachments/`)
-                .replace(/(?<!\\)[{}]/g, '\\$&')
-                .replace(/<(https?:\/\/[^>\s]+)>/g, '[$1]($1)') // MDX has no autolinks
-                .replace(/<(br|hr)\s*>/gi, '<$1/>') // MDX needs void tags self-closed
-                .replace(
-                  /(?<!\\)<(?!\/?(?:br|hr|strong|em|b|i|u|s|code|pre|kbd|details|summary|ul|ol|li|p|a|img|sub|sup|span|div|mark|font|table|thead|tbody|tr|td|th|h[1-6]|blockquote)\b|!--)/gi,
-                  '\\<',
-                )
-                // JSX wants style as an object, not an HTML string
-                .replace(/style="([^"]*)"/g, (_, css: string) => {
-                  const props = css
-                    .split(';')
-                    .filter((d) => d.includes(':'))
-                    .map((d) => {
-                      const [key, ...value] = d.split(':');
-                      const jsxKey = key.trim().replace(/-([a-z])/g, (_m, c: string) => c.toUpperCase());
-                      return `${jsxKey}: '${value.join(':').trim()}'`;
-                    });
-                  return `style={{${props.join(', ')}}}`;
-                }),
-        )
-        .join('');
+      return fileContent.replace(/\]\(\/Documentation\/attachments\//g, `](${ups}attachments/`);
     },
     hooks: { onBrokenMarkdownLinks: 'warn' },
   },
@@ -142,6 +110,7 @@ const config: Config = {
         indexBlog: false,
         docsRouteBasePath: '/',
         highlightSearchTermsOnTargetPage: true,
+        docsDir: 'Documentation/Welcome',
       },
     ],
   ],
