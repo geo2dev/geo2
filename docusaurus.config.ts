@@ -82,7 +82,7 @@ const config: Config = {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           beforeDefaultRemarkPlugins: [remarkGithubAlerts],
-          editUrl: undefined, // source of truth is Confluence, not this repo
+          editUrl: undefined, // editing happens in Pages CMS, no public "edit this page"
           showLastUpdateTime: true,
           sidebarItemsGenerator: async ({ defaultSidebarItemsGenerator, ...args }) => {
             const positionOf = new Map(
