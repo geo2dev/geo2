@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-ai-route-building-logs"
 sidebar_label: "AI Route Building Logs"
 sidebar_position: 14
+description: "By pressing the Route building logs button at the header toolbar, you can access all Hub: AI Route Building sessions ran in your environment."
 ---
 
 

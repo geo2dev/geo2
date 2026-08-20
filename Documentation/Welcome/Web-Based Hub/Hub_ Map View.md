@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-map-view"
 sidebar_label: "Map View"
 sidebar_position: 11
+description: "You can visualize and manage multiple routes side by side on a map by either selecting Map view from the menu or choosing specific routes on the Routes"
 ---
 
 

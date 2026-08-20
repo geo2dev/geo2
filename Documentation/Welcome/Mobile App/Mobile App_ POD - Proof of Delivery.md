@@ -2,6 +2,7 @@
 slug: "/mobile-app/mobile-app-pod-proof-of-delivery"
 sidebar_label: "POD - Proof of Delivery"
 sidebar_position: 7
+description: "The mobile app lets you record a proof-of-delivery in different circumstances:"
 ---
 
 # Mobile App: POD - Proof of Delivery

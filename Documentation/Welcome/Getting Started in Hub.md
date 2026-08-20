@@ -2,6 +2,7 @@
 slug: "/getting-started-in-hub"
 sidebar_label: "Getting Started in Hub"
 sidebar_position: 4
+description: "To create a Geo2 user account, register with a browser at Geo2 Hub."
 ---
 
 

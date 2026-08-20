@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-orders/hub-order-creation-and-editing"
 sidebar_label: "Order Creation and Editing"
 sidebar_position: 1
+description: "On Order page, press the Create button to create an order. You will be redirected to Create order page."
 ---
 
 

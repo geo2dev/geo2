@@ -2,6 +2,7 @@
 slug: "/mobile-app/mobile-app-settings"
 sidebar_label: "Settings"
 sidebar_position: 10
+description: "In Settings in the mobile app, you can edit your organization (Users and Subscriptions settings), environment (Routes, Vehicles, Failure reason codes,"
 ---
 
 # Mobile App: Settings

@@ -2,6 +2,7 @@
 slug: "/api/authentication"
 sidebar_label: "Authentication"
 sidebar_position: 1
+description: "As a user, you can request API keys (authentication tokens) in the web-based Hub."
 ---
 
 

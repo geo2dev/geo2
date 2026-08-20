@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-menu"
 sidebar_label: "Menu"
 sidebar_position: 5
+description: "The vertical menu in Hub includes these options:"
 ---
 
 

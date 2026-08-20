@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-users-settings"
 sidebar_label: "Users Settings"
 sidebar_position: 2
+description: "You can manage the users who have access to the environment and set their roles in Settings → Environment → Users."
 ---
 
 

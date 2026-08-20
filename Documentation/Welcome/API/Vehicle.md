@@ -2,6 +2,7 @@
 slug: "/api/vehicle"
 sidebar_label: "Vehicle"
 sidebar_position: 6
+description: "Using Geo2 API, you can:"
 ---
 
 

@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-geo-coding-settings"
 sidebar_label: "Geo Coding Settings"
 sidebar_position: 6
+description: "Geo2 geo-codes determine the geographical location of different types of addresses:"
 ---
 
 

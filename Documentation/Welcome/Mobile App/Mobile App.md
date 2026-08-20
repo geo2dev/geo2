@@ -2,6 +2,7 @@
 slug: "/mobile-app"
 sidebar_label: "Mobile App"
 sidebar_position: 7
+description: "The Geo2 mobile app is best suited for solo delivery drivers, including Amazon Flex, Walmart Spark, Evri, and other gig delivery drivers, as well as"
 ---
 
 

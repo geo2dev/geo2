@@ -2,6 +2,7 @@
 slug: "/concepts"
 sidebar_label: "Concepts"
 sidebar_position: 2
+description: "Geo2 is a cloud-based transport management system (TMS), a logistics service that uses technology to help businesses plan, execute, and optimize physical"
 ---
 
 

@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-analytics"
 sidebar_label: "Analytics"
 sidebar_position: 13
+description: "The Dashboard is the first page you see after you successfully sign in. You can get back to this by pressing Menu → Analytics."
 ---
 
 

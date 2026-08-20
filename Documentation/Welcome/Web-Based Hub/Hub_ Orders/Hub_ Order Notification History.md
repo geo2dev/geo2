@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-orders/hub-order-notification-history"
 sidebar_label: "Order Notification History"
 sidebar_position: 5
+description: "If you have set up sending the Hub: Proof of Delivery Settings and Hub: Public Tracking Settings and an order has indicated the recipient email"
 ---
 
 

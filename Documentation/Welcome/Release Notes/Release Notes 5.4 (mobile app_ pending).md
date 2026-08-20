@@ -1,3 +1,10 @@
+---
+slug: "/release-notes/release-notes-5-4-mobile-app-pending"
+sidebar_label: "Release Notes 5.4 (mobile app: pending)"
+sidebar_position: 136
+description: "Geo2 documentation: Release Notes 5.4 (mobile app: pending)"
+---
+
 
 # Release Notes 5.4 (mobile app: pending)
 

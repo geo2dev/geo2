@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-orders/hub-order-import"
 sidebar_label: "Order Import"
 sidebar_position: 2
+description: "It is possible to import multiple orders at once via the Import button on Orders page. This opens a spreadsheet interface for your data entry."
 ---
 
 

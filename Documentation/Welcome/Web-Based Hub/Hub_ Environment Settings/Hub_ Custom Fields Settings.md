@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-custom-fields-settings"
 sidebar_label: "Custom Fields Settings"
 sidebar_position: 11
+description: "Custom fields let you collect and report on additional information in POD's and vehicle checks."
 ---
 
 

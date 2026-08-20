@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-orders"
 sidebar_label: "Orders"
 sidebar_position: 9
+description: "Orders are records of deliveries/collections to be handled by a driver, typically as part of a route, a group of orders."
 ---
 
 

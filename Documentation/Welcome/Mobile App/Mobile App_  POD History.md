@@ -2,6 +2,7 @@
 slug: "/mobile-app/mobile-app-pod-history"
 sidebar_label: "POD History"
 sidebar_position: 8
+description: "To review the history of PODs recorded by the user, click on PODs page. By clicking on the POD, you can view its details."
 ---
 
 # Mobile App: POD History

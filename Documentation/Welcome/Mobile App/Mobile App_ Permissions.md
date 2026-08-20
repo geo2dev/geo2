@@ -2,6 +2,7 @@
 slug: "/mobile-app/mobile-app-permissions"
 sidebar_label: "Permissions"
 sidebar_position: 3
+description: "When you open the mobile app for the first time, it requests the necessary permissions. Please grant all permissions for Geo2 to function properly."
 ---
 
 

@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-display-preferences-settings"
 sidebar_label: "Display Preferences Settings"
 sidebar_position: 1
+description: "Display preferences in Settings → Environment determine the visual aspects of the user interface:"
 ---
 
 

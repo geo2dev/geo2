@@ -2,6 +2,7 @@
 slug: "/faq"
 sidebar_label: "FAQ"
 sidebar_position: 11
+description: "Here you can find answers to the most common questions to help you get the information you need quickly and easily."
 format: mdx
 ---
 

@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-orders/hub-order-export"
 sidebar_label: "Order Export"
 sidebar_position: 6
+description: "It is possible to export orders data via the Export CSV button on Orders page. This option is available only for orders created in the last 7 and 30 days."
 ---
 
 

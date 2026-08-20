@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-subscriptions"
 sidebar_label: "Subscriptions"
 sidebar_position: 7
+description: "By default, for your newly created organization, you get a Free subscription, no card is required. A subscription would be automatically assigned to you."
 ---
 
 

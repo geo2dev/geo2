@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-accept-invitation"
 sidebar_label: "Accept Invitation"
 sidebar_position: 4
+description: "If you have been invited to the organization, you have the following ways to accept it:"
 ---
 
 

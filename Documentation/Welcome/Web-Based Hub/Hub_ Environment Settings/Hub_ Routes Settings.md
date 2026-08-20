@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-routes-settings"
 sidebar_label: "Routes Settings"
 sidebar_position: 7
+description: "Route defaults from Settings → Environment → Routes are applied to routes when they are first created."
 ---
 
 

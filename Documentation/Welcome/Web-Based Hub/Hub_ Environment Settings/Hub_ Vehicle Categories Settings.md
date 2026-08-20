@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-vehicle-categories-settings"
 sidebar_label: "Vehicle Categories Settings"
 sidebar_position: 5
+description: "Vehicle categories let you match users and vehicles for a route assignment. By default, standard driving categories (A, B, C, etc.) are listed."
 ---
 
 

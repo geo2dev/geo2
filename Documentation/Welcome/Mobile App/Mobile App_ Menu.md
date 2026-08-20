@@ -2,6 +2,7 @@
 slug: "/mobile-app/mobile-app-menu"
 sidebar_label: "Menu"
 sidebar_position: 5
+description: "Press the menu icon at the top-left corner of Map page to open the menu. If you have permissions, the menu includes the following options:"
 ---
 
 # Mobile App: Menu

@@ -2,6 +2,7 @@
 slug: "/mobile-app/mobile-app-register"
 sidebar_label: "Register"
 sidebar_position: 1
+description: "As a user, you can register and create your own organization to which you invite other users."
 ---
 
 # Mobile App: Register

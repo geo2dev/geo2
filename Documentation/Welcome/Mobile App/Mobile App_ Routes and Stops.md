@@ -2,6 +2,7 @@
 slug: "/mobile-app/mobile-app-routes-and-stops"
 sidebar_label: "Routes and Stops"
 sidebar_position: 6
+description: "Routes page lets you view routes that have been released to you, each displayed with a small map preview."
 ---
 
 # Mobile App: Routes and Stops

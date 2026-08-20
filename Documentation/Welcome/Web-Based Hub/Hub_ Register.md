@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-register"
 sidebar_label: "Register"
 sidebar_position: 1
+description: "You need to register to become a user in Geo2 Hub."
 ---
 
 

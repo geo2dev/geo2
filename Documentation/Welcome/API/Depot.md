@@ -2,6 +2,7 @@
 slug: "/api/depot"
 sidebar_label: "Depot"
 sidebar_position: 5
+description: "Using Geo2 API, you can:"
 ---
 
 

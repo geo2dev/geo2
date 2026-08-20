@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-reporting-settings"
 sidebar_label: "Reporting Settings"
 sidebar_position: 15
+description: "Reporting settings in Settings → Environment in Hub let you define target values for analytics charts displayed on Analytics page."
 ---
 
 

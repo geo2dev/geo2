@@ -2,6 +2,7 @@
 slug: "/api"
 sidebar_label: "API"
 sidebar_position: 8
+description: "Geo2 API at https://api.geo2.com/v1/ allows you to link Geo2 with other systems, to both send data to the web-based Hub and extract them from Hub."
 ---
 
 

@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-depots-settings"
 sidebar_label: "Depots Settings"
 sidebar_position: 3
+description: "Depots can be optionally selected as the start and end points for routes."
 ---
 
 

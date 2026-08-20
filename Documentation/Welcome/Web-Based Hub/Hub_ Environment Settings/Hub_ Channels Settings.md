@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-channels-settings"
 sidebar_label: "Channels Settings"
 sidebar_position: 13
+description: "Channels are lightweight tags that let you classify delivery methods. They are reserved for future use."
 ---
 
 

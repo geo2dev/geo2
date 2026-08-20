@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-failure-reason-codes-settings"
 sidebar_label: "Failure Reason Codes Settings"
 sidebar_position: 8
+description: "Failure reason codes in Settings → Environment let you classify reasons for failed deliveries/collections and are available to drivers in the mobile app"
 ---
 
 

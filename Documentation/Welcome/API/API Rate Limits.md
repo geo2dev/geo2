@@ -2,6 +2,7 @@
 slug: "/api/api-rate-limits"
 sidebar_label: "API Rate Limits"
 sidebar_position: 9
+description: "To ensure stable performance for all customers, the Public API uses adaptive rate limiting."
 ---
 
 

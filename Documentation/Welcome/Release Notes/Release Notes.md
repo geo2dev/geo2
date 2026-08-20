@@ -2,6 +2,7 @@
 slug: "/release-notes"
 sidebar_label: "Release Notes"
 sidebar_position: 3
+description: "Learn about the new features of each new release. This is useful for the evaluation of new features as you prepare for an upgrade."
 ---
 
 

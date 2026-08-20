@@ -2,6 +2,7 @@
 slug: "/api/load-route"
 sidebar_label: "Load (Route)"
 sidebar_position: 2
+description: "Using Geo2 API, you can:"
 ---
 
 

@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-sign-in/hub-forgot-password"
 sidebar_label: "Forgot Password"
 sidebar_position: 1
+description: "If you have forgotten or have not set up yet your password and cannot sign in successfully, follow the link Forgot password? on Sign in page."
 ---
 
 

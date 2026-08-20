@@ -2,6 +2,7 @@
 slug: "/api/errors"
 sidebar_label: "Errors"
 sidebar_position: 8
+description: "Geo2 API uses conventional HTTP response codes to indicate the success or failure of an API request. In general: Codes in the 2xx range indicate success."
 ---
 
 

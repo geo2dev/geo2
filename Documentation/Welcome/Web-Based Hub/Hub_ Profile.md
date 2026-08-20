@@ -2,6 +2,7 @@
 slug: /web-based-hub/hub-profile
 sidebar_label: Profile
 sidebar_position: 15
+description: "Your user avatar in the top-right corner of every page is a link that lets you navigate to your user profile:"
 ---
 # Hub: Profile
 

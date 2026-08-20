@@ -2,6 +2,7 @@
 slug: "/release-notes/release-notes-5-0"
 sidebar_label: "Release Notes 5.0"
 sidebar_position: 127
+description: "Geo2 documentation: Release Notes 5.0"
 ---
 
 

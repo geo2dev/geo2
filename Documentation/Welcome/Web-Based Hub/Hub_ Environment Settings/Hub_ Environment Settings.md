@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings"
 sidebar_label: "Environment Settings"
 sidebar_position: 8
+description: "Environments let you represent teams within a single company or provide separate spaces for testing and productive use."
 ---
 
 

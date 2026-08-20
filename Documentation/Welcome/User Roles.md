@@ -2,6 +2,7 @@
 slug: "/user-roles"
 sidebar_label: "User Roles"
 sidebar_position: 9
+description: "When you create an organization, you automatically have an Organization Admin role."
 ---
 
 

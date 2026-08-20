@@ -2,6 +2,7 @@
 slug: "/release-notes/release-notes-5-3-pending"
 sidebar_label: "Release Notes 5.3 (pending)"
 sidebar_position: 133
+description: "Geo2 documentation: Release Notes 5.3"
 ---
 
 

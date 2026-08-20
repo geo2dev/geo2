@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-orders/hub-order-proof-of-delivery"
 sidebar_label: "Order Proof of Delivery"
 sidebar_position: 4
+description: "When a POD (proof of delivery) has been recorded in the mobile app, you can find it by clicking on the green/yellow/red POD icon on the order card on"
 ---
 
 

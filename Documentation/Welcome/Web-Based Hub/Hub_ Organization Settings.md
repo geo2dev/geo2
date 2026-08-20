@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-organization-settings"
 sidebar_label: "Organization Settings"
 sidebar_position: 6
+description: "Organizations are groups of Geo2 users who share a subscription and collaborate on data in one or more Hub: Environment Settings."
 ---
 
 

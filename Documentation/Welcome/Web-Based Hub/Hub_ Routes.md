@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-routes"
 sidebar_label: "Routes"
 sidebar_position: 10
+description: "Routes are groups of orders typically handled in a single vehicle trip."
 ---
 
 

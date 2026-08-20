@@ -2,6 +2,7 @@
 slug: "/web-based-hub"
 sidebar_label: "Web-Based Hub"
 sidebar_position: 6
+description: "The web user interface is intended for administrators, managers and transport planners."
 ---
 
 

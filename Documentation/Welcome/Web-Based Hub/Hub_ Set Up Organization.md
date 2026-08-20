@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-set-up-organization"
 sidebar_label: "Set Up Organization"
 sidebar_position: 2
+description: "Once your account is created, you need to set up your Geo2 workspace."
 ---
 
 

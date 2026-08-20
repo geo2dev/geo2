@@ -2,6 +2,7 @@
 slug: "/mobile-app/mobile-app-map"
 sidebar_label: "Map"
 sidebar_position: 4
+description: "After signing in successfully, you will see the Map page. You may receive invitations to join other organizations."
 ---
 
 # Mobile App: Map

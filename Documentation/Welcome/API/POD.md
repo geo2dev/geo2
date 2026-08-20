@@ -2,6 +2,7 @@
 slug: "/api/pod"
 sidebar_label: "POD"
 sidebar_position: 4
+description: "Using Geo2 API, you can:"
 ---
 
 

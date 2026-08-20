@@ -2,6 +2,7 @@
 slug: "/web-based-hub/hub-environment-settings/hub-proof-of-delivery-settings"
 sidebar_label: "Proof of Delivery Settings"
 sidebar_position: 9
+description: "By default, a proof of delivery (POD) recording is enabled in every newly created environment."
 ---
 
 

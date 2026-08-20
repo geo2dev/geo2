@@ -2,6 +2,7 @@
 slug: "/release-notes/release-notes-1-18"
 sidebar_label: "Release Notes 1.18"
 sidebar_position: 22
+description: "Geo2 documentation: Release Notes 1.18"
 ---
 
 
