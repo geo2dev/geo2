@@ -8,11 +8,11 @@ description: "Vehicles can be optionally assigned to deliver routes with orders.
 
 # Hub: Vehicles Settings
 
-# Introduction
+## Introduction
 
 Vehicles can be optionally assigned to deliver routes with orders.  You can add vehicles to your environment either one by one by pressing the `Add` button or all at once by pressing the `Import` button in Settings → Environment → Vehicles in Hub.
 
-# Add Vehicles
+## Add Vehicles
 
 By pressing the Add button in Settings → Environment → Vehicles in Hub, you will see the dialog to fill in the information.  Required fields are Key, Type, and Speed factor.  All other fields are optional. Hovering over the `Question` on a field will display a prompt explaining its meaning and the expected data to put there.
 
@@ -54,7 +54,7 @@ You can select a vehicle to `Delete` it.  For data integrity, it is best to no
 
 ![Screenshot 2026-04-06 at 15.55.25.png](/Documentation/attachments/9fd9b392-dabd-458b-942d-c41dfe0f9bc6.png)
 
-# Import Vehicles
+## Import Vehicles
 
 You can import vehicle data into Geo2 Hub → Settings → Environment → Vehicles via `Import` button using two methods:
 
@@ -63,7 +63,7 @@ You can import vehicle data into Geo2 Hub → Settings → Environment → Vehic
 
 ![Screenshot 2026-04-06 at 15.56.44.png](/Documentation/attachments/c67533b6-9122-432e-a126-5b7d2e8e5a95.png)
 
-## Upload Spreadsheet File with Column Mapping
+### Upload Spreadsheet File with Column Mapping
 
 Press the `Upload data from file` button at the top of the Import spreadsheet in Hub. Upload a .csv, .tsv, .xls, .xlxs, .xml, or .txt file. After uploading, the Map your data columns dialog will be displayed where you can match your spreadsheet columns to Hub’s data fields. Required fields are marked with an asterisk ( \* ) but you can skip them at this step and add data later.
 
@@ -90,7 +90,7 @@ Once everything is mapped correctly, click `Apply`. Your data will appear in the
 
 ![Screenshot 2026-04-06 at 16.01.05.png](/Documentation/attachments/8934cc23-7cce-4b81-80c2-d195e34bf81a.png)
 
-## Manually Type or Paste Data
+### Manually Type or Paste Data
 
 The spreadsheet interface column headings guide you on the type of data expected in each column.  Hover over a column title to see a tooltip with additional details and explanations. If you have prepared the data in another spreadsheet, you can copy and paste them in.
 
@@ -121,7 +121,7 @@ Once information is provided, press:
 - `Reset` to clear the spreadsheet
 - `Import` to start the data import
 
-## Import Options
+### Import Options
 
 The import options are:
 
@@ -137,7 +137,7 @@ Click the `Import` button to import vehicles.  The import process feeds back
 
 Vehicles will be imported and displayed in the Vehicles list in Settings → Environment.
 
-## Spreadsheet Example
+### Spreadsheet Example
 
 You can also download the example of the spreadsheet with typed-in information for a vehicle import.
 

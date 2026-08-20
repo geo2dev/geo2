@@ -8,7 +8,7 @@ description: "Geo2 documentation: Release Notes 1.10"
 
 # Release Notes 1.10
 
-# Release Date
+## Release Date
 
 2022-11-01
 

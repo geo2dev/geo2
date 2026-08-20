@@ -8,7 +8,7 @@ description: "Using Geo2 API, you can:"
 
 # Vehicle
 
-# Introduction
+## Introduction
 
 Using Geo2 API, you can:
 
@@ -18,7 +18,7 @@ Using Geo2 API, you can:
 
 For each of the actions above we have [**examples of how it works**](https://api.geo2.com/v1/docs/html/#/), which data you need to put in the request body, and what a result would be.
 
-# Create Vehicle
+## Create Vehicle
 
 To create a vehicle you need to send a POST request with the following parameters:
 
@@ -34,7 +34,7 @@ To create a vehicle you need to send a POST request with the following parameter
 
 Example of a POST request to create a vehicle:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 curl -X 'POST' \
@@ -54,7 +54,7 @@ curl -X 'POST' \
 
 Example of a response after sending a request:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 {
@@ -64,11 +64,11 @@ Example of a response after sending a request:
 
 If a response status is OK, a vehicle is created. It is also shown in the [Hub: Vehicles Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Vehicles%20Settings.md) tab in Settings in Hub.
 
-# Get Vehicle Data
+## Get Vehicle Data
 
 To return all vehicles for an environment, you need to send a GET/vehicles request.  Example:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 curl -X 'GET' \
@@ -79,7 +79,7 @@ curl -X 'GET' \
 
 Example of a response after sending a request:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 {
@@ -110,7 +110,7 @@ Example of a response after sending a request:
 
 To get data about only one certain vehicle, you need to send a GET/vehicle request.  You can use a vehicle key.  Example:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 curl -X 'GET' \
@@ -121,7 +121,7 @@ curl -X 'GET' \
 
 Example of a response after sending a request:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 {
@@ -138,11 +138,11 @@ Example of a response after sending a request:
 }
 ```
 
-# Delete Vehicle
+## Delete Vehicle
 
 To delete a vehicle you can use a vehicle key.  After filling in a vehicle key, you need to send a DELETE request.  Example:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 curl -X 'DELETE' \
@@ -153,7 +153,7 @@ curl -X 'DELETE' \
 
 Example of a response after sending a request:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 {

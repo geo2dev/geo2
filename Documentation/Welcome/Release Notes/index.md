@@ -8,11 +8,11 @@ description: "Learn about the new features of each new release. This is useful f
 
 # Release Notes
 
-# Introduction
+## Introduction
 
 Learn about the new features of each new release. This is useful for the evaluation of new features as you prepare for an upgrade.
 
-# In This Section
+## In This Section
 
 - [Release Notes 1.0](Release%20Notes%201.0.md)
 - [Release Notes 1.4](Release%20Notes%201.4.md)

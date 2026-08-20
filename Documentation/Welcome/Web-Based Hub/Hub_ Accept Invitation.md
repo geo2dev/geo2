@@ -14,7 +14,7 @@ If your invitation was sent using your email address, you can accept it through 
 
 If your invitation was sent using your mobile number, you can accept it by logging in to Hub, via a notification in Hub, or by logging in to the mobile app. Please note that an SMS with an activation link will not be sent.
 
-# Accept Invitation Using Email
+## Accept Invitation Using Email
 
 Once you have been invited, the invitation email has been sent to the specified user email address. The confirmation link in the invitation email expires after approximately 6 hours.  If you try to use it after expiry or click on it twice, you will receive an error message.
 
@@ -32,7 +32,7 @@ Once logged in, you will be also redirected to You have accepted invitation conf
 
 ![Screenshot 2025-09-01 at 11.13.39.png](/Documentation/attachments/ef5151ff-68dd-4d93-a130-5a465e098cc4.png)
 
-# Accept Invitation Using Hub
+## Accept Invitation Using Hub
 
 If you ignore the invitation email and just sign in to Hub via the email address or mobile number used for the invitation, you will be redirected to Invitation page. There are two buttons - `Accept` and `Reject`. By pressing the `Accept` button, you will accept the invitation to the organization.
 
@@ -46,7 +46,7 @@ You will be redirected to You have accepted invitation confirmation page. Click 
 
 You can also accept the invitation by selecting the organization to which you have been invited in the Organizations selector in the menu. You will be also redirected to Invitation page where you can accept or reject it.
 
-# Accept Invitation Using Notification in Hub
+## Accept Invitation Using Notification in Hub
 
 When you are already logged in to Hub and someone invites you to an organization, you will get a notification. The unread notification is visible as a red dot near the Notification icon in the header toolbar.
 
@@ -60,7 +60,7 @@ By pressing the `Accept` button, you will accept the invitation to the organizat
 
 Notifications older than 30 days will be automatically deleted and you will not see them anymore.
 
-# Accept Invitation Using Mobile App
+## Accept Invitation Using Mobile App
 
 You need to open the mobile app and log in with the email address or mobile number that has been used for the invitation. Alternatively, it can be done using Google, Apple, or Microsoft identity. If you want to log in using your email address and a password but have not set up your password yet, click the `Forgot password` button on Sign in page to get an email with a verification code to set up a password and log in to the app. See how to reset your password [Mobile App: Forgot Password](../Mobile%20App/Mobile%20App_%20Sign%20In/Mobile%20App_%20Forgot%20Password.md).
 

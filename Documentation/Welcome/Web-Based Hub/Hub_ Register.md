@@ -8,7 +8,7 @@ description: "You need to register to become a user in Geo2 Hub."
 
 # Hub: Register
 
-# Introduction
+## Introduction
 
 You need to register to become a user in [**Geo2 Hub**](https://hub.geo2.com/).  You have the option to authenticate either with an email address and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft.
 
@@ -24,7 +24,7 @@ If you have already registered but have not verified your email address, you can
 
 ![Screenshot 2026-03-27 at 12.07.23.png](/Documentation/attachments/55273e7d-c07c-4e72-b87f-34b09e3c68c2.png)![Screenshot 2026-03-27 at 12.07.39.png](/Documentation/attachments/fde4f4c6-e9a9-4992-b067-e836cc1e833b.png)
 
-# Register Account Using Email
+## Register Account Using Email
 
 On [**Registration**](https://hub.geo2.com/en-GB/auth/register) page, you need to provide your full name. It will be shown to other users within the organization and to recipients on Proof of Delivery (POD) page.  If you want to provide your first and last names additionally, you can do it later in the [Hub: Profile](Hub_%20Profile.md).
 
@@ -32,7 +32,7 @@ After you have completed the requested details, press `Register` to create an ac
 
 ![Screenshot 2026-03-27 at 12.05.56.png](/Documentation/attachments/82e377c2-f323-4882-94cb-82cd47428f2f.png)
 
-## Verify Email
+### Verify Email
 
 Next, you will see a prompt for you to check your inbox for a verification code sent to the provided email address. You need to copy the code and paste it to the form in Hub:
 
@@ -46,7 +46,7 @@ By pressing the Continue button, if the code provided is valid and you are not i
 
 You do not need to verify your email if you registered using Google, Microsoft, or Apply identity.
 
-# Register Account Using Mobile Number
+## Register Account Using Mobile Number
 
 To create your account, press the `Continue with phone` button at the bottom of Registration page and provide your mobile phone number.
 
@@ -56,7 +56,7 @@ Once your mobile number is provided, press `Continue`. You will be asked to set 
 
 ![Screenshot 2025-08-26 at 11.40.01.png](/Documentation/attachments/f6d98d3c-a611-491f-beac-17650062f27f.png)
 
-## Verify Mobile Number
+### Verify Mobile Number
 
 By pressing the `Continue` button, you will be required to confirm your mobile phone number before you can fully use Geo2 Hub and the mobile app.  You will see a prompt to type the verification code from the SMS sent to the provided mobile number.
 

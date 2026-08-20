@@ -8,9 +8,9 @@ sidebar_position: 1
 
 # Welcome
 
-# Hi there, what do you need to help with?
+## Hi there, what do you need to help with?
 
-# About Geo2
+## About Geo2
 
 > [!NOTE]
 > **Reduce the financial and environmental cost of delivery.**
@@ -27,7 +27,7 @@ Geo2 is a **cloud-based transport management system (TMS)** and **all-in-one del
 
 For an additional overview, visit [**geo2.com**](https://geo2.com/).
 
-# Get Started and Learn
+## Get Started and Learn
 
 Start by selecting the platform you’re working with:
 
@@ -46,7 +46,7 @@ Start by selecting the platform you’re working with:
 >
 > Learn about the API interface used for integration your other systems and automation.
 
-# Product Updates
+## Product Updates
 
 See what’s new in our latest releases and how the updates help you get more done:
 
@@ -55,7 +55,7 @@ See what’s new in our latest releases and how the updates help you get more do
 >
 > Learn about the new features of each new release.  This is useful for the evaluation of new features as you prepare for an upgrade.
 
-# Support
+## Support
 
 Reach out for assistance with setup, product usage, or technical issues:
 
@@ -64,7 +64,7 @@ Reach out for assistance with setup, product usage, or technical issues:
 >
 > Request product assistance.
 
-# Frequently Asked Questions (FAQ)
+## Frequently Asked Questions (FAQ)
 
 Explore frequently asked questions about product functionality, setup, and best practices:
 
@@ -73,6 +73,6 @@ Explore frequently asked questions about product functionality, setup, and best 
 >
 > Browse common questions and answers
 
-# Data Encryption
+## Data Encryption
 
 All Geo2 data are encrypted both at rest and in transit.  For further details, please see [**Default encryption at rest**](https://cloud.google.com/docs/security/encryption/default-encryption) and [**Encryption in transit**](https://cloud.google.com/docs/security/encryption-in-transit).

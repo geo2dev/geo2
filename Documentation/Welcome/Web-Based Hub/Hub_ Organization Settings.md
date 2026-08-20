@@ -8,23 +8,23 @@ description: "Organizations are groups of Geo2 users who share a subscription an
 
 # Hub: Organization Settings
 
-# Introduction
+## Introduction
 
 Organizations are groups of Geo2 users who share a subscription and collaborate on data in one or more [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md).
 
-# Organization Settings
+## Organization Settings
 
 During the registration of a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the organization’s address as well.  If you are invited to the organization and you have [User Roles](../User%20Roles.md)**,** you can reach organization settings by pressing the Settings option in the menu.
 
 ![Screenshot 2026-03-30 at 14.32.38.png](/Documentation/attachments/d53dd670-b833-434a-8e9a-5bcd82e78011.png)
 
-## Organization Name
+### Organization Name
 
 You can change your organization name by hovering over the organization name on Settings page and pressing the `Edit (pencil)` icon. Provide a new organization name and press the `Tick` icon to save changes.
 
 ![Screenshot 2026-03-30 at 14.33.56.png](/Documentation/attachments/5a690088-2e8d-4460-a19a-1dbae97b4fd2.png)
 
-## Billing address
+### Billing address
 
 If creating a new organization, you need to provide the Organization name and its billing address (Address line 1, City and Country fields); all other fields are optional.  The tax registration number will be shown on the combined invoice/receipt after successful payments.
 
@@ -40,7 +40,7 @@ To edit organization settings later, you can press Settings option in the menu.�
 
 ![Screenshot 2026-03-30 at 14.04.08.png](/Documentation/attachments/00ef332b-cabe-4698-a99f-a7e248f7f0fd.png)
 
-### Company Logo
+#### Company Logo
 
 You can add your own logo to give your organization a distinct visual identity.
 
@@ -48,7 +48,7 @@ The logo is shown in the Organization selector in the menu as well as in the mob
 
 ![Screenshot 2026-03-30 at 14.36.56.png](/Documentation/attachments/33ed1a52-a717-479b-be7f-fdbc6cd42466.png)![Screenshot 2026-03-30 at 14.37.15.png](/Documentation/attachments/c78f58d5-47ae-4f27-8fda-5c5a7bcca945.png)
 
-## Users
+### Users
 
 You can invite other users to your organization.  As a part of **a FREE 7-day trial of Advanced or Enterprise subscription level**, you can add four additional users to your organization.  If you want to add more users, you can do it after taking a free trial by pressing the `Add users` button on Subscriptions page. Free and Pro subscriptions do not allow adding more users to your organization.
 
@@ -56,7 +56,7 @@ You can invite users either one-by-one, by pressing the `Add` button, or all a
 
 ![Screenshot 2026-03-30 at 14.41.02.png](/Documentation/attachments/b5b7f94f-96fa-4c37-ae83-7a2b7a7cf3ef.png)
 
-### Add Users
+#### Add Users
 
 Press `Invite` to create an invitation for the new user.
 
@@ -95,7 +95,7 @@ Deleting a user frees up that user's subscription.  After a user is recovered, 
 
 Product news emails are enabled by default.  To turn off the emails, the Organization Admin can unset the `Product news email` toggle and press `Update` to save changes.  A user will receive product news emails if they are enabled in at least one of the organizations they belong to.  It is also possible to turn off the emails in profile settings.
 
-### Import Users
+#### Import Users
 
 By pressing the `Import` button in Settings → Organization → Users, you can import user data into Geo2 Hub using two methods:
 
@@ -106,7 +106,7 @@ You cannot use mobile phone numbers to invite users during import; only emails a
 
 ![Screenshot 2026-03-30 at 15.38.45.png](/Documentation/attachments/74115688-f61e-4d7b-a1b7-44b3ba41f4c1.png)
 
-#### Upload Spreadsheet File with Column Mapping
+##### Upload Spreadsheet File with Column Mapping
 
 Press the `Upload data from file` button at the top of the Import spreadsheet in Hub. Upload a .csv, .tsv, .xls, .xlxs, .xml, or .txt file. After uploading, the Map your data columns dialog will be displayed where you can match your spreadsheet columns to Hub’s data fields. Required fields are marked with an asterisk ( \* ) but you can skip them at this step and add data later.
 
@@ -131,7 +131,7 @@ Once everything is mapped correctly, click `Apply`. Your data will appear in the
 
 ![Screenshot 2026-03-30 at 15.51.17.png](/Documentation/attachments/31ed62f1-9f32-41f2-a59a-4e32d7674105.png)
 
-#### Manually Type or Paste Data
+##### Manually Type or Paste Data
 
 The spreadsheet interface column headings guide you on the type of data expected in each column.  Hover over a column title to see a tooltip with additional details and explanations.
 
@@ -155,7 +155,7 @@ Once information is provided, press:
 - `Reset` to clear the spreadsheet
 - `Import` to start the data import
 
-#### Import Options
+##### Import Options
 
 ![Screenshot 2026-03-30 at 15.54.25.png](/Documentation/attachments/877d62bc-1ec6-4d60-85d2-2b459683d22b.png)
 
@@ -167,13 +167,13 @@ Click the `Import` button to import users.  The import process feeds back an
 
 Users will be imported and displayed in the Users list in Organization and Environment settings.  Emails with invitations will be sent to all imported users.  Learn how users can [Hub: Accept Invitation](Hub_%20Accept%20Invitation.md).
 
-#### Spreadsheet Example
+##### Spreadsheet Example
 
 You can download an example spreadsheet with typed-in information for user import.
 
 [Workbook.xlsx](/Documentation/attachments/4ccda8d2-0c8e-47f8-a789-6e3ad3b78969.xlsx)
 
-# Delete Organization
+## Delete Organization
 
 To delete your organization, go to Settings → Organization and press the `Delete organization` button. You will be asked to confirm the deletion, as all route, order, POD, vehicle check, and user data will be removed. Press `Delete` to confirm. The organization and its environment(s) will be deleted.
 

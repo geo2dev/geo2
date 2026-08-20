@@ -8,7 +8,7 @@ description: "Geo2 documentation: Release Notes 2.17.3"
 
 # Release Notes 2.17.3
 
-# Release Date
+## Release Date
 
 2024-02-28
 

@@ -8,13 +8,13 @@ description: "Geo2 documentation: Release Notes 5.1"
 
 # Release Notes 5.1
 
-# Release Date
+## Release Date
 
 Hub:
 
 2026-04-23
 
-# New Features
+## New Features
 
 | **Summary** | **Description** |
 | --- | --- |

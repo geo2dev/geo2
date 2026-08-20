@@ -8,7 +8,7 @@ description: "When you create an organization, you automatically have an Organiz
 
 # User Roles
 
-# Organization Roles
+## Organization Roles
 
 When you create an organization, you automatically have an Organization Admin role. Then depending on your subscription level, you can invite other users to your organization and assign roles for them. Each user can either have the role of `User`, which does not enable them to modify the organization, or `Admin`, which gives them control over the organization, including the ability to create environments.
 
@@ -28,7 +28,7 @@ When you create an organization, you automatically have an Organization Admin ro
 | Access to the list of users in an environment of an organization | Yes | No |
 | Possibility to recover environments of an organization | Yes | No |
 
-# Environment Roles
+## Environment Roles
 
 When you create an environment, you automatically have an Environment Admin role. Then depending on your subscription level, you can invite other users to your environment and assign roles for them.
 

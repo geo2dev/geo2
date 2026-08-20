@@ -8,7 +8,7 @@ description: "The vertical menu in Hub includes these options:"
 
 # Hub: Menu
 
-# Introduction
+## Introduction
 
 The vertical menu in Hub includes these options:
 
@@ -23,7 +23,7 @@ The vertical menu in Hub includes these options:
 - [Hub: AI Route Building Logs](Hub_%20AI%20Route%20Building%20Logs.md)
 - Settings([Hub: Organization Settings](Hub_%20Organization%20Settings.md)and[Hub: Environment Settings](Hub_%20Environment%20Settings/index.md))
 
-# Organization Selector
+## Organization Selector
 
 When registering a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), your default organization is created using the name you provided during workspace setup. Its name appears in the menu.
 
@@ -41,7 +41,7 @@ To edit organization settings later, select Settings from the menu. To save chan
 
 ![Screenshot 2026-03-30 at 14.04.08.png](/Documentation/attachments/6c6cb04e-d322-4672-a405-c0cf53c59df3.png)
 
-# Environment Selector
+## Environment Selector
 
 During the registration of a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the environment’s address as well.  If you want to create one more environment in your organization, press the environment selector in the menu bar and press `Create environment`.  This option is available only with Enterprise subscription level.
 
@@ -57,7 +57,7 @@ It is up to you whether you decide to clone settings or users or start an entire
 
 By pressing the `Create` button, a new environment will be created.  You will be redirected to the settings of the newly created environment.
 
-# AI Assistant
+## AI Assistant
 
 By pressing the `AI assistant` button in the menu, you will open AI assistant page. There, you will find examples of requests it can handle. Currently, the AI assistant can:
 

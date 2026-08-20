@@ -8,13 +8,13 @@ description: "Geo2 documentation: Release Notes 2.21"
 
 # Release Notes 2.21
 
-# Release Date
+## Release Date
 
 2024-04-18
 
 Bug fixes and refactoring. 
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

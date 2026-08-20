@@ -8,13 +8,13 @@ description: "It is possible to import multiple orders at once via the Import bu
 
 # Hub: Order Import
 
-# Introduction
+## Introduction
 
 It is possible to import multiple orders at once via the `Import` button on Orders page.  This opens a spreadsheet interface for your data entry.
 
 ![Screenshot 2025-08-29 at 14.07.30.png](/Documentation/attachments/7fefadd9-234e-4aa0-b179-c10eca953f3d.png)
 
-# Spreadsheet Interface
+## Spreadsheet Interface
 
 You can import order data into Geo2 Hub using two methods:
 
@@ -23,7 +23,7 @@ You can import order data into Geo2 Hub using two methods:
 
 ![Screenshot 2025-08-29 at 14.08.17.png](/Documentation/attachments/f40f657b-e0e9-4fb0-b196-561f3fd0af94.png)
 
-## Upload Spreadsheet File with Column Mapping
+### Upload Spreadsheet File with Column Mapping
 
 Learn how to quickly import your spreadsheet file with column mapping [https://www.youtube.com/watch?v=fJL8BpnLE8A](https://www.youtube.com/watch?v=fJL8BpnLE8A)
 
@@ -52,7 +52,7 @@ Once everything is mapped correctly, click `Apply`. Your data will appear in the
 
 ![Screenshot 2025-08-29 at 14.13.40.png](/Documentation/attachments/e0bbc8d2-cef8-4d2e-85bb-84bcb784d6c7.png)
 
-## Manually Type or Paste Data
+### Manually Type or Paste Data
 
 The spreadsheet interface column headings guide you on the type of data expected in each column. Hover over a column title to see a tooltip with additional details and explanations.
 
@@ -108,7 +108,7 @@ Once information is provided, press:
 
 ![Screenshot 2025-07-21 at 12.27.39.png](/Documentation/attachments/7d1ae228-05fc-40bb-acda-346530857b61.png)
 
-## Import Options
+### Import Options
 
 The import options are:
 
@@ -125,7 +125,7 @@ Click the `Import` button to import orders.  The import process feeds back any
 
 Orders will be imported and displayed in the Orders list.
 
-# Spreadsheet Example
+## Spreadsheet Example
 
 You can also download the example of the spreadsheet with typed-in information for an order import.
 

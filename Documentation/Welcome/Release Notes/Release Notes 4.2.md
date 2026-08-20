@@ -8,7 +8,7 @@ description: "Geo2 documentation: Release Notes 4.2"
 
 # Release Notes 4.2
 
-# Release Date
+## Release Date
 
 Hub:
 
@@ -18,7 +18,7 @@ Mobile app:
 
 2026-02-26
 
-# New Features
+## New Features
 
 | **Summary** | **Description** |
 | --- | --- |

@@ -8,13 +8,13 @@ description: "Once you are registered as a Geo2 user, you can sign in."
 
 # Hub: Sign In
 
-# Introduction
+## Introduction
 
 Once you are registered as a Geo2 user, you can [**sign in**](https://hub.geo2.com/en-GB/auth/signin).  You have the option to authenticate either with an email and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft.
 
 ![Screenshot 2026-03-27 at 12.21.47.png](/Documentation/attachments/ef1c2428-194a-48ab-a6be-cea32462ef87.png)
 
-# Sign In Using Email
+## Sign In Using Email
 
 Specify your email and Geo2 password.  If you press `Sign in`, you will be authenticated through a password you have previously set at Geo2.  Alternatively, you can sign in with your Google, Microsoft, or Apple identity, by pressing the appropriate button for these authentication providers. Also, you can sign in using your mobile number if you registered your account using this method.
 
@@ -26,7 +26,7 @@ To create a new Geo2 account, follow the link [Hub: Register](../Hub_%20Registe
 
 If you have forgotten your password and cannot sign in successfully, follow the link [Hub: Forgot Password](Hub_%20Forgot%20Password.md).  This will enable you to reset your Geo2 password.
 
-## Verify Email
+### Verify Email
 
 If you registered but have not verified your email address, once you sign in, you will see a prompt for you to check your inbox for a verification code sent to the provided email address. You need to copy the code and paste it to the form in Hub:
 
@@ -36,13 +36,13 @@ If you have not received an email with a verification code, press the `Resend em
 
 You do not need to verify your email if you registered using Google, Microsoft, or Apply identity.
 
-# Sign In Using Mobile Number
+## Sign In Using Mobile Number
 
 If you press the `Continue with phone` button, you will be redirected to provide your mobile number used for registration at Geo2.
 
 ![Screenshot 2025-08-26 at 12.30.02.png](/Documentation/attachments/0d519fed-eb1a-4054-bf3c-309edc6fd80c.png)
 
-## Verify Mobile Number
+### Verify Mobile Number
 
 By pressing the `Continue` button, you are required to confirm your mobile phone number to sign in.  You will see a prompt to type the verification code from the SMS sent to the provided mobile number.
 

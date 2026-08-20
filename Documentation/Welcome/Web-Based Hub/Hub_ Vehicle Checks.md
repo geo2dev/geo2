@@ -8,11 +8,11 @@ description: "Vehicle checks are reports from drivers on vehicle condition."
 
 # Hub: Vehicle Checks
 
-# Introduction
+## Introduction
 
 Vehicle checks are reports from drivers on vehicle condition.  As well as having standard properties such as photos, you can define additional custom fields to collect further information specific to your organization.  Vehicle checks can be activated independently for each route, both for route start and route completion.  They are optional and environment settings determine how they are set when a route is being created - see [Hub: Routes](Hub_%20Routes.md) and [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md).  So it is possible for them not to be used at all, just during route start or completion and both during start and completion in the mobile app.
 
-# Vehicle Check List
+## Vehicle Check List
 
 To list vehicle checks in the environment, select `Vehicle Checks` from the toolbar.  You can filter and sort the list, for example, to see checks from a specific driver.
 

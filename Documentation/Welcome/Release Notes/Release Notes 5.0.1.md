@@ -8,7 +8,7 @@ description: "Geo2 documentation: Release Notes 5.0.1"
 
 # Release Notes 5.0.1
 
-# Release Date
+## Release Date
 
 2026-03-20
 

@@ -8,13 +8,13 @@ description: "Geo2 documentation: Release Notes 2.4"
 
 # Release Notes 2.4
 
-# Release Date
+## Release Date
 
 2023-07-27
 
 Bug fixes.
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

@@ -8,7 +8,7 @@ description: "Once the mobile app is installed on your device fromApp Store and 
 
 # Getting Started in Mobile App
 
-# Introduction
+## Introduction
 
 Once the mobile app is installed on your device from[**App Store**](https://apps.apple.com/app/geo2/id1594180686) and [**Google Play**](https://play.google.com/store/apps/details?id=com.geo2.app), you can register an account and create your own organization to which you invite other users in the mobile app.  You have the option to authenticate either with an email address and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft. You may also be invited to join other organizations.  To [Hub: Accept Invitation](Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App/Mobile%20App_%20Sign%20In/index.md) to the app using the email address or mobile phone number to which the invitation has been sent.
 
@@ -16,7 +16,7 @@ Once the mobile app is installed on your device from[**App Store**](https://apps
 
 You can still use both the Geo2 web-based Hub and the mobile app, depending on your role and workflow. Both platforms support route planning and optimization, as well as order management. The mobile app is best suited for solo drivers, couriers, gig drivers, and drivers working for companies where route planning is done by a transport manager/dispatcher in Hub. Additionally, the mobile app includes Proof of Delivery (POD) and vehicle check features to capture delivery confirmations and vehicle status at route start and completion. While the mobile app allows drivers to create and optimize routes and manage orders, Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV), managing multiple routes on a single map, analytics and reporting, and AI-powered route building.
 
-# Register Account
+## Register Account
 
 To create your account, provide your email address and press `Continue with email` button. Alternatively, you can press the buttons for other authentication providers in order to authenticate with your existing Google, Microsoft, or Apple identity or mobile phone number. Learn more about registration in [Mobile App: Register](Mobile%20App/Mobile%20App_%20Register.md).
 
@@ -26,13 +26,13 @@ If you provide an email address and press `Continue with email`, the system chec
 
 ![20260428_2 (1).png](/Documentation/attachments/fa08f51f-56c2-40be-a935-6ba532841e5c.png)![20260428_3.png](/Documentation/attachments/e2db1005-b484-4bd7-851a-c6e5b7ec51af.png)
 
-## Verify Email
+### Verify Email
 
 If you register an account using an email and password, you need to verify it. By pressing the `Continue` button, you are required to confirm your email address before you can fully use the application.  You will see a prompt for you to check your inbox for a verification code sent to the provided email address. Copy the code and paste it to the form in the mobile app:
 
 ![20260428_4.png](/Documentation/attachments/3c48335b-018a-4b5b-ad5f-85d8dbca117e.png)![Screenshot 2025-12-22 at 15.44.45.png](/Documentation/attachments/50df9d6c-8fd5-4c7c-9bf7-5b554df4afba.png)
 
-# Set Up Organization
+## Set Up Organization
 
 Once your email is verified, you can continue working in the mobile app.  If you are not invited to any organization, the default organization will be created. **Free level subscription** will be assigned to you - **no payment details are required**.
 
@@ -53,7 +53,7 @@ After creating your first route and adding stops, load vehicle with optional pac
 
 ![20260428_8.png](/Documentation/attachments/442fb653-a5cf-46ce-8917-38934f191f11.png)![20260428_9.png](/Documentation/attachments/da3851b9-dc18-44f5-9502-7f882fe84d4b.png)![20260428_10.png](/Documentation/attachments/2c276529-ab24-45a9-9cac-0356271ec2ca.png)![20260428_11.png](/Documentation/attachments/4cd59f7f-a7ae-4662-adc2-1bdd8cfcc566.png)
 
-# Features Included to Free Level
+## Features Included to Free Level
 
 With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app. It is available for **one user per organization**, and additional users cannot be added on this level. The Free subscription includes:
 
@@ -70,7 +70,7 @@ On each subscription level (including Free), you can use both the Hub and mobile
 
 This gives you the essentials for planning, managing, and executing routes effectively before upgrading to a paid level.
 
-# Recommended Hardware
+## Recommended Hardware
 
 > [!CAUTION]
 > Due to the large number of available mobile devices, it is not possible to test compatibility with all of them.  We recommend that a sample device is sourced and tested for compatibility with the application before any larger purchase.

@@ -30,19 +30,19 @@ Once the password is changed, you will be logged in and redirected to Analytics 
 
 ![Screenshot 2025-03-13 at 10.23.10.png](/Documentation/attachments/83d8f923-4e56-4187-ac09-34081df3824e.png)
 
-# Organizations
+## Organizations
 
 You can view all organizations that you are a member of, either those you have created or those you have been invited to by other users.  If you have an Organization Admin role, you can access organization settings of the current organization.
 
 ![Screenshot 2025-09-01 at 10.20.20.png](/Documentation/attachments/1044a048-1e4a-4beb-891e-42dda14ef4f3.png)
 
-# Environments
+## Environments
 
 You can view all environments you are a member of, either those you have created or those you have been invited to by other users.  If you have an Environment Admin or Manager role, you can access environment settings of the current environment.
 
 ![Screenshot 2025-09-01 at 10.20.42.png](/Documentation/attachments/389b646d-29ad-45fa-a523-5b240461b758.png)
 
-# Personal Access Tokens
+## Personal Access Tokens
 
 Personal access tokens are used to authenticate you to the [API](../API/index.md).  You do not need them if your user account is not being used for data integration with Geo2.
 
@@ -56,13 +56,13 @@ Once a token has been created, copy its value as it will not be shown again.
 
 The token gives programmatic access to Geo2 using your user credentials.  For maximum security, revoke any tokens that are not needed - you can select a token and press `Revoke`.  You can further make sure a token isn't used when it is not needed by setting the `Active from` and `Active to` dates.
 
-# Email Preferences
+## Email Preferences
 
 It's possible to manage your email preferences for all organizations you are in.  For now, you can turn on/turn off only product news emails.
 
 ![Screenshot 2025-09-01 at 10.26.36.png](/Documentation/attachments/ece08cfc-bd2b-4744-91ed-3733bda75bdf.png)
 
-# Mobile App
+## Mobile App
 
 The route in the “Released” status will appear in the mobile app for the assigned driver/participants. Scan the QR code on the Profile menu → Mobile app page to install the app for iOS or Android.  Depending on the OS of your device, you will either be redirected to App Store (if iOS) or Google Play (if Android).
 

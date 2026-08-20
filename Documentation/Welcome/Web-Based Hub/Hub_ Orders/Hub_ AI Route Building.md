@@ -8,7 +8,7 @@ description: "AI route building proposes routes across all available vehicles in
 
 # Hub: AI Route Building
 
-# Introduction
+## Introduction
 
 AI route building proposes routes across all available vehicles in each depot that can accommodate a selected set of orders. You are not bound by the results of route building - once routes are created, you can continue to fully adjust them. An example of a scenario in which route building can be applied effectively:
 
@@ -21,7 +21,7 @@ This process is called *known-demand route building*, because all the vehicles a
 
 It is up to you to ensure that you are not overcommitting a vehicle by it being assigned to more than one route in overlapping time windows.
 
-# Start AI Route Building
+## Start AI Route Building
 
 When you select orders on Orders page, you initiate the building of routes across all available vehicles for the selected orders by pressing the `AI route building` button:
 
@@ -35,7 +35,7 @@ This will open the `AI route building` dialog. At the top of the dialog, you wil
 
 ![Screenshot 2025-08-29 at 14.49.23.png](/Documentation/attachments/842a56d5-6b87-4755-8bfa-e86cf9908197.png)
 
-## AI Route Building Options
+### AI Route Building Options
 
 You have a number of options to fine-tune the route building:
 
@@ -51,7 +51,7 @@ You can dismiss the dialog by pressing the `Close` button. If you press `Generat
 
 ![Screenshot 2025-08-29 at 14.49.30.png](/Documentation/attachments/a80d4f7b-82d2-4fdb-8f04-ab438388f692.png)
 
-## AI Route Building Process
+### AI Route Building Process
 
 Once the `Generate` button is pressed, you will be redirected to Route building page. At the top of the page, you will see the selected before data and options:
 
@@ -68,7 +68,7 @@ Once the `Generate` button is pressed, you will be redirected to Route building 
 
 On the right side of the page, you can see the live logs notifying you about the status of route building. On the left side, once the route building is completed, you can find the list of created routes with the number of orders in it, assigned depot, and vehicle.  If you have selected orders from more than 1 depot, logs and route building results will be shown right after processing each depot separately.
 
-## Reviewing the Results
+### Reviewing the Results
 
 Once routes are generated, you will see the results in the table view on the left side of Route building page:
 

@@ -8,7 +8,7 @@ description: "Using Geo2 API, you can:"
 
 # Depot
 
-# Introduction
+## Introduction
 
 Using Geo2 API, you can:
 
@@ -18,7 +18,7 @@ Using Geo2 API, you can:
 
 For each of the actions above we have [**examples of how it works**](https://api.geo2.com/v1/docs/html/), which data you need to put in the request body, and what a result would be.
 
-# Create Depot
+## Create Depot
 
 To create a depot you need to send a POST request with the next parameters:
 
@@ -56,7 +56,7 @@ To create a depot you need to send a POST request with the next parameters:
 
 Example of a POST request to create a depot:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 curl -X 'POST' \
@@ -104,7 +104,7 @@ curl -X 'POST' \
 
 Example of a response after sending a request:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 {
@@ -114,11 +114,11 @@ Example of a response after sending a request:
 
 If a response status is OK, a depot is created. It is also shown in the Depots tab in [Hub: Depots Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/Hub_%20Depots%20Settings.md) in Hub.
 
-# Get Depot Data
+## Get Depot Data
 
 To return all depots for an environment, you need to send a GET/depots request.  Example:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 curl -X 'GET' \
@@ -129,7 +129,7 @@ curl -X 'GET' \
 
 Example of a response after sending a request:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 {
@@ -210,7 +210,7 @@ Example of a response after sending a request:
 
 To get data about only one certain depot, you need to send a GET /depot request.  You can use a depot key.  Example:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 curl -X 'GET' \
@@ -221,7 +221,7 @@ curl -X 'GET' \
 
 Example of a response after sending a request:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 {
@@ -262,11 +262,11 @@ Example of a response after sending a request:
 }
 ```
 
-# Delete Depot
+## Delete Depot
 
 To delete a depot you can use a depot key.  After filling in a depot key, you need to send a DELETE request.  Example:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 curl -X 'DELETE' \
@@ -277,7 +277,7 @@ curl -X 'DELETE' \
 
 Example of a response after sending a request:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 {

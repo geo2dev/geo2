@@ -10,13 +10,13 @@ description: "Routes are groups of orders typically handled in a single vehicle 
 
 Routes are groups of orders typically handled in a single vehicle trip.
 
-# Routes List
+## Routes List
 
 To list routes in the environment, select `Routes` from the toolbar. By default, routes created in the last 7 days are listed.  You can select the other two tabs to show routes created in the last 30 days or list all routes in the environment.  Full filtering and sorting criteria are only available for the 7-day and 30-day tabs.
 
 ![Screenshot 2025-08-29 at 15.35.50.png](/Documentation/attachments/ab0b995d-5cea-4862-855f-eb16242ca960.png)
 
-## Filters
+### Filters
 
 To narrow down the list of routes, you can set a filter in the Filtering section on the left side of the list.  The following filters are available:
 
@@ -38,7 +38,7 @@ To narrow down the list of routes, you can set a filter in the Filtering section
 | Actual duration | From/To | Range of route actual duration. |
 | Actual distance | From/To | Range of route actual distance. |
 
-# Route Creation
+## Route Creation
 
 On the `Routes` page, press `Create` button to be redirected to Route creation page.  Here are the route properties you can specify:
 
@@ -85,7 +85,7 @@ The created route will be visible in the Routes list.
 
 ![Screenshot 2025-08-29 at 15.38.47.png](/Documentation/attachments/37845f38-c59d-4b7e-b028-f8e3b65577ee.png)
 
-# Route Plan
+## Route Plan
 
 When you click on a route card in the Routes list, you can edit the route:
 
@@ -120,7 +120,7 @@ On cards, you will also see the planned time and postal code (if a depot or addr
 
 ![Screenshot 2025-11-05 at 12.30.09.png](/Documentation/attachments/08b82ff7-1828-4b8f-917b-12cf9b7b80f3.png)
 
-## Editing Route Properties
+### Editing Route Properties
 
 To quickly edit route properties on Route plan page, hover over the needed field and press the `Edit (Pencil)` button.  You can edit a route key, trip number, user, vehicle, and area assigned to a route, enable or disable vehicle checks on route start/completion, and change planned and actual start, duration, distance, and end.
 
@@ -142,13 +142,13 @@ Press `Update` to save your edits.  You can press `Update and go to route list`
 
 If you press `Update and export`, orders added to this route will additionally be added to an export queue of the Geo2 API.  This is useful if an external application uses the API to pick up routes highlighted by a planner.  The `Update and export` button becomes enabled when a route has at least 1 order.
 
-## Deleting Route
+### Deleting Route
 
 Pressing `Delete` will let you delete the route.  The route assignment of any orders in the route will be cleared, but orders are otherwise unaffected. It is not possible to delete a route in a `Started` or `Completed` status.
 
 ![Screenshot 2025-11-05 at 14.56.01.png](/Documentation/attachments/918c8815-6cc8-498e-9059-32d10b3cded7.png)
 
-## Creating Orders
+### Creating Orders
 
 To create an order, start by typing a recipient’s address into the search bar above the stop list. As you type, matching results will appear automatically. Select the correct address from the list, or click `Can’t find address…?` to enter it manually if no results match.
 
@@ -166,7 +166,7 @@ By pressing the Create button, the order will be created and added to the route,
 
 ![Screenshot 2025-11-05 at 12.56.01.png](/Documentation/attachments/46aab4e3-8256-44ae-8233-1e884cb1a4ad.png)
 
-## Adding Orders
+### Adding Orders
 
 Pressing `Actions → Add orders` button will open a side panel in which you can list orders to add to the route.
 
@@ -180,7 +180,7 @@ To include an order in the route, drag its card to the left-hand side list of ro
 
 **If a route starts or ends at a depot, orders with depots must match**: the delivery depot must align with the start, and the collection depot with the end. Orders without assigned depots can be added to any route, and if a route does not use a depot as its start or end point, any order, with or without a depot, can be added.
 
-## Stop Details
+### Stop Details
 
 Each order brought into the route becomes a stop represented by a card in the left column.
 
@@ -216,7 +216,7 @@ You can customize the information displayed on the stop card in the collapsed an
 
 You will see highlighted required from/to and committed time with red and orange colours if the required/committed time doesn't match the planned time. Red colour - if the difference between required/committed and planned time is more than [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). Orange - if the difference between required/committed and planned time is within delivery ETA tolerance (from Environment settings).  We do not highlight the required/committed time if it's the same as the planned time.
 
-### Editing Stop Geolocation
+#### Editing Stop Geolocation
 
 If you want to modify the previously determined address geo-location, you can edit it on Route plan page by pressing the geolocation icon on the stop card.
 
@@ -232,7 +232,7 @@ Once you are happy with the result, press the `Save` button.  The geolocation i
 
 ![Screenshot 2025-08-29 at 15.49.28.png](/Documentation/attachments/37683c46-3de8-47b4-9c60-744fb87ff0fc.png)
 
-### Removing Orders
+#### Removing Orders
 
 To remove an order from the route, press the `Delete` icon when hovering over the stop card.
 
@@ -244,13 +244,13 @@ To remove several orders at the same time, use `Ctrl/Command+click` or `Shift+c
 
 Remember to save changes by pressing the `Save` button.
 
-## Route Capacity
+### Route Capacity
 
 Above the route map, you will find a summary comparison of the peak weight and volume of the route’s orders versus the weight and volume capacity of the assigned vehicle (“Weight capacity” and “Volume capacity” fields specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)) depending on an order type - delivery or collection.  If you expand it by pressing the down arrow, `v`, you can see how the weight and volume are expected to evolve as the route's stops progress.
 
 ![Screenshot 2025-11-05 at 13.09.59.png](/Documentation/attachments/2ffa44a2-300f-4bb9-94aa-b8a89f7337e7.png)
 
-## Route CO2 Emissions
+### Route CO2 Emissions
 
 The total planned CO2 emissions will be calculated for a current route depending on the route planned distance, multiplied by the emission factor of the vehicle assigned to a route (taken from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)).  The units shown depend on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md).
 
@@ -258,7 +258,7 @@ Actual CO2 emissions are calculated from the actual distance, as recorded via de
 
 ![Screenshot 2025-11-05 at 13.12.52.png](/Documentation/attachments/0ca78e19-cd2d-45ad-9d6a-e7f1c0afac22.png)
 
-## Adding Driver Breaks
+### Adding Driver Breaks
 
 It is possible to add driver breaks by pressing the `Actions` button and selecting the `Add driver break` option.
 
@@ -274,7 +274,7 @@ It's possible to drag-and-drop a driver break similar to other stop cards to cha
 
 ![Screenshot 2025-11-05 at 13.16.38.png](/Documentation/attachments/1cf67f60-8485-4631-a8f5-e330505dd742.png)
 
-## Re-ordering Orders
+### Re-ordering Orders
 
 You can drag-and-drop orders in the list to change their stop order. To speed up the process, you can use `Ctrl/Command+click` or `Shift+click` to select multiple stop cards and drag-and-drop them to change the stop order.
 
@@ -284,7 +284,7 @@ Additionally, you can press on a circle, shape, or rectangle icons at the bottom
 
 Once you are happy with the result, press the `Save` button.  The route will be automatically recalibrated to update the planned time on the stops, route planned duration, distance, and end time.  If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
-## Optimizing Route with Time Windows
+### Optimizing Route with Time Windows
 
 To use the Optimize with time windows option, press the `Actions` button and choose the `Optimize with time windows` option. Route optimization is available when a route has at least 2 orders.
 
@@ -320,7 +320,7 @@ After partial optimization with time windows:
 
 You can only optimize stops that are located next to each other in a stop order.  Otherwise, you will see an error message 'Only neighbouring stops can be selected for partial optimization'.
 
-## Optimizing Route without Time Windows
+### Optimizing Route without Time Windows
 
 To use the Optimize without time windows option, press the `Actions` button and choose the `Optimize without time windows` option.
 
@@ -352,7 +352,7 @@ After partial optimization:
 
 You can only optimize stops that are located next to each other in a stop order.  Otherwise, you will see an error message 'Only neighbouring stops can be selected for partial optimization'. 
 
-## Calibrating Route
+### Calibrating Route
 
 To use the Calibrate option, you need to click on the `Actions` button and choose the `Calibrate` option.  When you press `Calibrate`, the planned timings and distance of the route will be calculated without modifying the orders list. If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
@@ -386,7 +386,7 @@ After auto-calibration (by pressing `Save` button):
 
 ![Screenshot 2025-11-05 at 14.12.53.png](/Documentation/attachments/a8c18446-d0ab-41f1-bfff-68919e21f5df.png)
 
-## Reversing Stops in Route
+### Reversing Stops in Route
 
 To use the Reverse option, you need to click on the `Actions` button and choose the `Reverse stops` option.  This means if you choose to, you can reverse the order in which you deliver your orders (to start from the last order and finish on the first one with all stops also reversed accordingly). 
 
@@ -394,13 +394,13 @@ Once you are satisfied with the order of stops, press the `Save` button.  The 
 
 ![Screenshot 2025-11-05 at 14.25.15.png](/Documentation/attachments/b1717546-79f9-4f00-aa2d-c9e90272f470.png)
 
-## Bulk Update of Committed Date/Time
+### Bulk Update of Committed Date/Time
 
 The committed ETA for an order lets you indicate that a specific deadline has been agreed with the recipient and that it is important the driver adhere to it.  When you press `Update committed ETA` and `Save`, the planned date/time for each order is copied to its committed ETA.  This is useful once you have calibrated the route and you want to indicate to the driver that they must adhere to the planned arrival date/times.
 
 ![Screenshot 2025-08-29 at 16.08.39.png](/Documentation/attachments/6a9fec47-5565-4a30-942e-a4fff5db4fc9.png)
 
-## Bulk Move Orders between Routes
+### Bulk Move Orders between Routes
 
 For moving multiple orders from one route to another, you need to select stops in the list by using Ctrl/Command+click or Shift+click, or by choosing route stops on the map by using Shift+Ctrl/Command+click.  Once stops are selected, you need to click on the `Actions` button and choose the `Move to route` option or press the `Move to route` button on the map.
 
@@ -414,7 +414,7 @@ Once the orders are moved, the route the orders came from (source route) is cali
 
 ![Screenshot 2025-11-05 at 14.44.04.png](/Documentation/attachments/fc24f21b-f387-42a7-8466-d8a74f8d376b.png)
 
-## Route Map
+### Route Map
 
 The default route view shows a map for the route on the right-hand side, with the route start/end points and all of the stop locations.
 
@@ -422,19 +422,19 @@ Deliveries are shown with blue location pins, while collections are orange.  A 
 
 ![Screenshot 2025-11-05 at 14.46.57.png](/Documentation/attachments/77caac4e-c93a-4c02-af9c-af5cbd7d74e1.png)
 
-### Road View Toggle
+#### Road View Toggle
 
 If you enable the `Road view` selector on the map, you will see a suggested route on the road network.  The Duration takes into account projected traffic conditions.
 
 ![Screenshot 2025-11-05 at 14.47.51.png](/Documentation/attachments/e1910d6b-b162-4378-8850-d190e97b8d76.png)![Screenshot 2025-11-05 at 14.48.00.png](/Documentation/attachments/7119e159-7cda-477e-94c2-729c7ab1ef56.png)
 
-### Hold View Toggle
+#### Hold View Toggle
 
 By default, the map zoom resets when you change the stop order.  Press `Hold view` to hold the map zoom.  This still lets you zoom in and out on the map but it will not be automatically zoomed out when you make some changes in the orders list.
 
 ![Screenshot 2025-11-05 at 14.48.38.png](/Documentation/attachments/9820efd3-3cc6-4be5-b1f3-90790003c581.png)
 
-### Bulk Move Orders between Routes
+#### Bulk Move Orders between Routes
 
 To move orders from one route to another, you can select stops on the map one-by-one using Ctrl/Command+click or by drawing figures using tools the bottom of the map - circle, shape or rectangle.  Once stops are selected, they will be highlighted with a red colour.
 
@@ -448,23 +448,23 @@ Once the orders are moved, the route the orders came from (source route) is cali
 
 ![Screenshot 2025-11-05 at 14.44.04.png](/Documentation/attachments/fc24f21b-f387-42a7-8466-d8a74f8d376b.png)
 
-### Route Tracking
+#### Route Tracking
 
 Once the route is started by a driver in the mobile app, the "Tracking" toggle will be displayed on the route map.  Enable it to check the driver's precise location and their actual route.  It is required to enable the location tracking both in the device and app settings to get the tracking data.  Otherwise, the driver's location will not be displayed.
 
 You can also download the tracking data by pressing the `Download` button.
 
-## Saving Route Changes
+### Saving Route Changes
 
 For any edits, press `Save` to save them.  The route map updates once the route is saved.
 
-## Release Route
+### Release Route
 
 Once a route is optimized and ready to be started, you need to change the status of the route to Released and save changes.  It will be displayed in the mobile app of the assigned driver.  A driver needs to click on the `Start` button to start the route.  All changes will be displayed on the Hub user interface as well.
 
 ![Screenshot 2025-11-05 at 14.53.34.png](/Documentation/attachments/dd663678-0fbf-4189-baf9-bf529d682bb0.png)
 
-## Proof of Delivery
+### Proof of Delivery
 
 Once a driver delivers an order and records the proof of delivery (POD), it will be shown on the Route plan page as well:
 
@@ -498,7 +498,7 @@ You can track the status of the emails sent on [Hub: Orders](Hub_%20Orders/index
 
 ![Order_20250829_9.png](/Documentation/attachments/123f0b4f-42b9-4b05-a050-29ae520da292.png)
 
-## Public tracking
+### Public tracking
 
 Depending on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), once the status of a route reaches the appropriate value (e.g. in transit), a tracking email/SMS notification will be sent to the recipient's email address/mobile phone number (if an order has them).  You can add a public tracking link to it to check the approximate date/time of delivery and the driver's position on the map.
 
@@ -512,7 +512,7 @@ By clicking on the `Check` button in the email or a tracking link in the SMS, th
 
 ![Screenshot 2025-08-27 at 15.43.36.png](/Documentation/attachments/62e853db-444e-46ec-a6fa-7cdc0b44639b.png)
 
-## Complete Route
+### Complete Route
 
 To complete a route, a driver needs to click on the `Complete` button in the mobile app.  The status can be changed in Hub as well.
 
@@ -520,8 +520,8 @@ If a route is completed from the mobile app, you will see the tracked data about
 
 ![Screenshot 2025-11-05 at 14.52.49.png](/Documentation/attachments/77c4f94d-faed-4b74-8aa2-55d6513e09bd.png)
 
-## Marking Route for Export
+### Marking Route for Export
 
 When you press `Export`, the order in the route will be added to the API export queue.  This is useful if an external application uses the API to pick up routes/orders highlighted by a planner.
 
-# See Also
+## See Also

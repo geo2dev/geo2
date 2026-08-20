@@ -8,7 +8,7 @@ description: "On Order page, press the Create button to create an order. You wil
 
 # Hub: Order Creation and Editing
 
-# Order Creation
+## Order Creation
 
 On `Order` page, press the `Create` button to create an order.  You will be redirected to Create order page.
 
@@ -68,7 +68,7 @@ The created order will be displayed on Orders page.
 
 ![Screenshot 2025-08-29 at 12.41.29.png](/Documentation/attachments/b566a6c4-6447-4ff1-98ec-1f46db773e46.png)
 
-# Order Editing
+## Order Editing
 
 When you click on an order key on an order card on Orders page, you can edit its properties. Consider the impact of edits if the order has already been included in a route.
 
@@ -81,7 +81,7 @@ When editing, the `Save` button has two different options you can toggle via th
 
 ![](/Documentation/attachments/e42f9fbd-6f67-4fd0-9efb-56c82ec7a614.png)
 
-# Geo-Coding Indicators
+## Geo-Coding Indicators
 
 Geo-coding precision for addresses/locations is shown throughout Geo2 as:
 

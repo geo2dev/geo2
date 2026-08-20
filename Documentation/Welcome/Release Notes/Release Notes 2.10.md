@@ -8,13 +8,13 @@ description: "Geo2 documentation: Release Notes 2.10"
 
 # Release Notes 2.10
 
-# Release Date
+## Release Date
 
 2023-11-02
 
 Bug fixes.
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

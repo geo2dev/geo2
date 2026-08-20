@@ -8,7 +8,7 @@ description: "Geo2 documentation: Release Notes 5.3.2"
 
 # Release Notes 5.3.2
 
-# Release Date
+## Release Date
 
 Hub bug fix release:
 

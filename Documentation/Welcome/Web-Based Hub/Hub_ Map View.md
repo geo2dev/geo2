@@ -8,7 +8,7 @@ description: "You can visualize and manage multiple routes side by side on a map
 
 # Hub: Map View
 
-# Introduction
+## Introduction
 
 You can visualize and manage multiple routes side by side on a map by either selecting `Map view` from the menu or choosing specific routes on the Routes page and clicking the `Map view` button.
 
@@ -23,7 +23,7 @@ Map view from Routes page:
 
 ![Screenshot 2025-11-05 at 15.30.34.png](/Documentation/attachments/a8e25095-09a7-4df9-ac2d-524186c9edf9.png)![Screenshot 2025-11-05 at 15.30.54.png](/Documentation/attachments/e0432140-a3e1-4a88-b2a2-21770d9a06d8.png)
 
-# Routes Visualisation
+## Routes Visualisation
 
 The Map view page is divided into two columns:
 
@@ -52,7 +52,7 @@ The colour used to show the route on the map is the same as the colour of the fr
 
 ![Screenshot 2025-11-05 at 15.48.20.png](/Documentation/attachments/4db81c2a-259c-4fee-9d6a-549bdf4515e2.png)
 
-# Orders Visualisation
+## Orders Visualisation
 
 It is possible to click on a route card to expand it to see a list of orders added to a route.
 
@@ -85,7 +85,7 @@ You can customize the information displayed on the stop card in the collapsed an
 
 ![Screenshot 2025-11-05 at 15.52.14.png](/Documentation/attachments/bca9e848-7a1e-4e37-a6c3-94edd0a268cc.png)![Screenshot 2025-11-05 at 15.52.21.png](/Documentation/attachments/2497b6e8-33e8-4afc-b8aa-f45219fb01b2.png)
 
-# Modifying Routes
+## Modifying Routes
 
 On each route card, you can make the same changes that are available in the [Hub: Routes](Hub_%20Routes.md) page for a single route:
 
@@ -114,7 +114,7 @@ You can also drag-and-drop route cards to change their position on the page. For
 
 ![Screenshot 2025-11-05 at 15.59.47.png](/Documentation/attachments/e1e2abad-7f57-4cf9-84ca-113fed9c5f6e.png)
 
-# Map
+## Map
 
 Up to 20 routes can be shown on the map simultaneously with assigned route start/end points and stop locations. The colour used to show the route on the map is the same as the colour of the frame and selection checkbox in each visible route card.
 
@@ -126,19 +126,19 @@ Further details of each stop are shown when you click the location marker.
 
 ![Screenshot 2025-11-05 at 16.02.32.png](/Documentation/attachments/fb63ee97-8cdc-48c5-bfd1-67ea20c14139.png)
 
-## Road View Toggle
+### Road View Toggle
 
 If you enable the `Road view` selector on the map, you will see a suggested route on the road network.  The Duration takes into account projected traffic conditions.
 
 ![Screenshot 2025-11-05 at 16.03.00.png](/Documentation/attachments/dea95617-8123-463f-8f38-e2cb5e0079ee.png)
 
-## Hold View Toggle
+### Hold View Toggle
 
 By default, the map zoom resets when you change the stop order.  Press `Hold view` to hold the map zoom.  This still lets you zoom in and out on the map but it will not be automatically zoomed out when you make some changes in the orders list.
 
 ![Screenshot 2025-11-05 at 16.03.35.png](/Documentation/attachments/437d553d-75fb-4d78-b1c7-4f0b997586f6.png)
 
-## Bulk Move Orders between Routes
+### Bulk Move Orders between Routes
 
 To move orders from one route to another, you can select stops on the map one-by-one using Ctrl/Command+click or by drawing figures using tools the bottom of the map - circle, shape or rectangle.  Once stops are selected, they will be highlighted with a red colour.
 
@@ -150,7 +150,7 @@ On the Move to selected route pop-up, choose the route you want the orders to mo
 
 ![Screenshot 2025-11-05 at 16.09.11.png](/Documentation/attachments/9381f967-9b70-42ed-ae0b-ff3a7bad9d4f.png)
 
-## Route Creation for Selected Stops
+### Route Creation for Selected Stops
 
 You can select stops directly on the map one-by-one using Ctrl/Command+click or by drawing a figure using tools at the bottom of the map — regardless of whether they are assigned to existing route — and click the `Create route` button.
 
@@ -178,7 +178,7 @@ By pressing the `Create` button, if you selected orders from existing routes, yo
 
 ![Screenshot 2025-11-05 at 16.13.31.png](/Documentation/attachments/56b24ef7-4448-4e93-87ae-5f177a1bf745.png)
 
-# Creating Routes
+## Creating Routes
 
 To create a new route, click the `Create route` button at the top of the Visible routes section.
 
@@ -206,7 +206,7 @@ By pressing the `Create` button, a new route will be created and added to the pa
 
 ![Screenshot 2025-11-05 at 16.23.39.png](/Documentation/attachments/1304bd60-5b54-482d-812d-561586645a18.png)
 
-# Adding Routes
+## Adding Routes
 
 To add existing routes to Map view page, press the `Add routes` button at the top of the Visible routes section.
 
@@ -216,7 +216,7 @@ You will see the Add routes dialog where you can select routes to be added to th
 
 ![Screenshot 2025-11-05 at 16.27.40.png](/Documentation/attachments/484bf577-abed-42a2-9c6d-115bf8637b9f.png)
 
-# Creating Orders
+## Creating Orders
 
 Click the `Create order` button at the top of the Visible routes section to create a new order.
 
@@ -230,7 +230,7 @@ By pressing the `Create` button, the order will be created with an autogenerated
 
 ![Screenshot 2025-11-05 at 16.34.41.png](/Documentation/attachments/957aef70-8862-4eaf-a8e1-2ea0c006b6bc.png)
 
-# Adding Unassigned Orders
+## Adding Unassigned Orders
 
 To add orders not yet assigned to any route to Map view page, press the `Add orders` button at the top of the Visible routes section.
 

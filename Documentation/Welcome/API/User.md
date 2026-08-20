@@ -8,7 +8,7 @@ description: "Using Geo2 API, you can:"
 
 # User
 
-# Introduction
+## Introduction
 
 Using Geo2 API, you can:
 
@@ -16,11 +16,11 @@ Using Geo2 API, you can:
 
 For each of the actions above we have [**examples of how it works**](https://api.geo2.com/v1/docs/html/), which data you need to put in the request body, and what a result would be.
 
-# Get User Data
+## Get User Data
 
 To return all users for an environment, you need to send a GET request.  Example:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 curl -X 'GET' \
@@ -31,7 +31,7 @@ curl -X 'GET' \
 
 Example of a response after sending a request:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 {
@@ -69,7 +69,7 @@ Example of a response after sending a request:
 
 To get user data by user ID, you need to use a user ID and send a GET request.  Example:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 curl -X 'GET' \
@@ -80,7 +80,7 @@ curl -X 'GET' \
 
 Example of a response after sending a request:
 
-##### **Code Block**
+### **Code Block**
 
 ```bash
 {

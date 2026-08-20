@@ -8,13 +8,13 @@ description: "Vehicle checks in the mobile app provide a standardized way for dr
 
 # Mobile App: Vehicle Checks
 
-# Introduction
+## Introduction
 
 Vehicle checks in the mobile app provide a standardized way for drivers to complete vehicle inspections before and after their routes. By digitizing the process, the feature ensures that all required checks are completed consistently, with results captured instantly and stored in the Geo2 app and web-based Hub.
 
 In day-to-day operations, drivers can quickly go through a checklist, flag issues, and attach photos or comments where needed. This helps fleet managers monitor vehicle condition in real time, address defects faster, and maintain a reliable record of inspections for safety, maintenance, and compliance purposes.
 
-# Enabling Vehicle Checks for Route
+## Enabling Vehicle Checks for Route
 
 You can activate vehicle checks on the mobile app when the route is being started and completed in Settings in the mobile app or in Settings → Environment → Routes in Hub.  By default, these options are disabled but you can change it anytime.  Recording of vehicle checks requires Advanced or Enterprise subscription.
 
@@ -24,7 +24,7 @@ Even though vehicle checks are enabled or disabled in Settings, it is possible t
 
 ![Screenshot 2026-04-28 at 16.49.41.png](/Documentation/attachments/e206e1aa-e90c-4382-83e5-ced0ce95d487.png)![Screenshot 2026-04-28 at 16.50.06.png](/Documentation/attachments/2d4cf9e1-ba1d-49df-bdad-94a4d709a1b6.png)
 
-# Vehicle Check Creation for Route
+## Vehicle Check Creation for Route
 
 If Vehicle checks are enabled, Vehicle check creation page will be displayed every time the route is started and completed in the mobile app.  If the geolocation is turned off, you will be asked to turn it on for the Vehicle check creation but you can create it without geolocation.
 
@@ -34,7 +34,7 @@ For the Vehicle check creation, you need to take or select photos of the vehicle
 
 To complete the creation, press the `Create` button. If a vehicle check is enabled at route start, once it is recorded in the app, the route will automatically begin and you will be redirected to the first stop. If a vehicle check is enabled at route completion, once it is recorded in the app, the route will be marked as finished, and you can either proceed to the next route or plan a new one, depending on your permissions.
 
-# Unplanned/Ad-hoc Vehicle Check
+## Unplanned/Ad-hoc Vehicle Check
 
 To create an unplanned/ad-hoc vehicle check that is not related to any route, you can press the `Create vehicle check` button in Menu or Vehicle checks page in the mobile app.
 
@@ -46,7 +46,7 @@ To complete the creation, press the `Create` button.
 
 ![App 233.png](/Documentation/attachments/bf124449-3eff-4d5b-9873-3fbf7981f910.png)![App 235.png](/Documentation/attachments/d6451f70-3e8a-445b-bcc6-b9513e12b219.png)![App 234.png](/Documentation/attachments/3f02c84a-0aa4-4b23-963a-b3a3736a85b6.png)
 
-# Vehicle Checks History
+## Vehicle Checks History
 
 The created vehicle check will be stored under Vehicle checks in the mobile app's menu and in Geo2 Hub → Vehicle checks. In the mobile app, you can view vehicle checks history from the past 30 days. To access the full vehicle checks history, you can visit [**Geo2 web-based Hub**](https://hub.geo2.com/en-GB/auth/signin). Data older than 30 days is available with Pro, Advanced, or Enterprise subscription.
 
@@ -63,7 +63,7 @@ To view the details of a vehicle check, click on the Vehicle check card. Based o
 
 ![App 237.png](/Documentation/attachments/9c7df23c-46fa-4459-947c-92b31828fb2d.png)![Screenshot 2025-12-29 at 14.52.09.png](/Documentation/attachments/8ea9ef0c-7fb1-4bf5-b1e4-3b7cf059f715.png)
 
-# Custom Vehicle Checks Fields
+## Custom Vehicle Checks Fields
 
 In Settings → Environment → Custom fields in Geo2 Hub, you can set up custom fields for Vehicle checks to ask for needed information from a driver on a route starting and completion.  Custom fields are available with Enterprise subscription level.
 

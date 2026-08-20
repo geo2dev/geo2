@@ -8,11 +8,11 @@ description: "Geo2 documentation: Release Notes 1.17"
 
 # Release Notes 1.17
 
-# Release Date
+## Release Date
 
 2023-03-16
 
-# New Features
+## New Features
 
 | **Key**      | **Summary**                                                                             |
 |:-------------|:----------------------------------------------------------------------------------------|

@@ -7,7 +7,7 @@ description: "In Settings in the mobile app, you can edit your organization (Use
 
 # Mobile App: Settings
 
-# Introduction
+## Introduction
 
 In Settings in the mobile app, you can edit your organization (Users and Subscriptions settings), environment (Routes, Vehicles, Failure reason codes, Proof of delivery and Public tracking settings) and device settings. Settings page is accessible to users of all roles within an organization and environment. However, the visibility of specific settings depends on the user’s role. For instance, users with the Environment User role will not see settings for Routes, Vehicles, Failure reason codes, Proof of delivery and Public tracking.
 
@@ -21,13 +21,13 @@ Examples:
 
 As a Free level user, you will have only 1 environment. If you want to use more environments for different purposes, [**upgrade to Enterprise in Geo2 Hub**](https://hub.geo2.com/en-GB/auth/signin).
 
-# Routes Settings
+## Routes Settings
 
 In the Routes settings, you can select whether distance, length, or weight is shown in metric or imperial units, set default stop duration and route start time, add vehicles, enable vehicle checks on route start and end, and update failure reason codes for POD’s.
 
 ![20260429_1.png](../../attachments/5170e0c7-7574-411b-abb5-752702b68887.png)
 
-## Stop Duration
+### Stop Duration
 
 Stop duration means the default amount of time the delivery vehicle is expected to remain at a route stop.  This is used when orders are first brought into a route and, together with drive times, stop durations are intended to lead to route durations that are more realistic than if only drive time was considered.
 
@@ -35,7 +35,7 @@ Once a new organization is created, by default, the stop duration is set to 1 mi
 
 ![20260429_2.png](../../attachments/56e47741-e0f4-4d67-ab8a-a498d1553e2d.png)![20260429_3.png](../../attachments/23aa0c51-c77f-4ff3-b59b-27fc0e04d7d8.png)![20260429_4.png](../../attachments/8b5fbfa1-c923-4c6a-b811-b071db25b29e.png)![20260429_5.png](../../attachments/d83ba41d-7b63-4746-aa84-96e85f915d4f.png)
 
-## Start Time
+### Start Time
 
 The setting means the default route start time, i.e. the time when a vehicle sets off from the depot.
 
@@ -43,7 +43,7 @@ Once a new organization is created, by default, the start time is set to 08:00. 
 
 ![20260429_6.png](../../attachments/c5c98713-7330-4f30-9a86-382bbbf351fc.png)![20260429_7.png](../../attachments/4b9a2640-1a3c-4885-99d6-f684afdf683d.png)![20260429_8.png](../../attachments/f51f6116-841c-44b0-ae8d-cf8b14c43d0d.png)![20260429_9.png](../../attachments/5422535f-ba2a-4b7c-9980-7a6f9dbc2d5b.png)
 
-## Vehicles
+### Vehicles
 
 Vehicles are assigned to deliver routes with orders.  Once you register your account and a new environment is created, default vehicles are created: van, truck, car, motorbike and bicycle. You can add more vehicles either one by one by pressing the `Add vehicle` button or all at once by pressing the `Import` button in Geo2 Hub → [Hub: Environment Settings](../Web-Based%20Hub/Hub_%20Environment%20Settings/index.md).
 
@@ -69,7 +69,7 @@ Once information is provided, press the `Add` button to save changes.  You can
 
 You can select a vehicle to `Delete` it.  For data integrity, it is best to not delete a vehicle once it has started to be used.
 
-## Vehicle Checks
+### Vehicle Checks
 
 You can activate vehicle check in the mobile app when the route is being started and/or completed by enabling/disabling the Vehicle check on route start/end toggle. Learn more about [Mobile App: Vehicle Checks](Mobile%20App_%20Vehicle%20Checks.md).
 
@@ -77,7 +77,7 @@ Vehicle checks are available with Advanced and Enterprise subscription levels.
 
 ![20260428_24 (1).png](../../attachments/8409c9fc-f761-4883-8bb0-41aac56e37de.png)
 
-## Failure Reason Codes
+### Failure Reason Codes
 
 Failure reason codes let you classify reasons for failed deliveries/collections and are available in the mobile app when recording a POD.  Once an environment is created, the first 8 default failure reason codes are added automatically.  Thus, you can create a proof of delivery in the mobile app in a failed or partially successful status.
 
@@ -93,13 +93,13 @@ To edit a reason code, click on it.   Remember to press the `Update` button to
 
 You can select a reason code to `Delete` it.  For data integrity, it is best to not delete a reason code once it has started to be used. It is not possible to delete all reason codes as it will impact a POD creation. Your environment needs at least 1 added failure reason code.
 
-# Recipient Notifications Settings
+## Recipient Notifications Settings
 
 A recipient can be sent emails with a link to track an order delivery progress and an order POD (proof of delivery).
 
 ![20260429_18.png](../../attachments/481c50f5-866d-4be6-9c67-87c32736d459.png)
 
-## Proof of Delivery
+### Proof of Delivery
 
 By default, a proof of delivery (POD) recording is enabled in every newly created environment. If you don’t need this feature, you can easily disable it in Settings → Proof of delivery in the mobile app. In addition to enabling or disabling POD capture, you can also configure which details are required — such as contact name, remarks, signature, and photos — for each delivery outcome: successful, partially successful, or failed. Recording a POD is available at all subscription levels.
 
@@ -124,7 +124,7 @@ Once all information is provided, click the `Update` button to save changes.
 
 Once a POD is created and an order has a recipient email address, the POD notification email will be sent (if it was enabled in Settings).
 
-## Public Tracking
+### Public Tracking
 
 It's possible for external users such as recipients to optionally track the progress of their orders on a public web page.  Public tracking links can be sent via email and SMS notifications.  The sender address of email notifications is [noreply@geo2.com](mailto:noreply@geo2.com) if there is no indicated Sender name at Geo2 Hub.  Sending public tracking emails requires an Advanced or Enterprise subscription. SMS is available only with an Enterprise subscription.
 
@@ -143,7 +143,7 @@ Here are the configurable settings in the app:
 
 Once the route status changes to the configured value (e.g. In Transit), an email notification with a public tracking link will be sent to the recipient's email address.  For this to work, it is important that the recipient’s contact details (email address and mobile phone number) are specified in the order.
 
-# Users Settings
+## Users Settings
 
 If you are on a Free subscription level, you will see only your user. It is possible to add new users to the current subscription level in [**Geo2 Hub**](https://hub.geo2.com/en-GB/auth/signin), for example, for seasonal workers if you are on Advanced or Enterprise subscription level.  One purchased subscription (license) is counted as one user. If you are on Advanced level, you can add up to 10 users to your organization in total. If you are on Enterprise level, you are not limited in the number of users. You can press the  `Add users` button on [Hub: Subscriptions](../Web-Based%20Hub/Hub_%20Subscriptions.md), select the number of users, and proceed with payment.
 
@@ -171,7 +171,7 @@ By pressing on a user, you can edit their role and subscription. Remember to pre
 
 If you want to delete a user from your organization, press the `Delete` button. This user will lose access to your organization.
 
-# Device Settings
+## Device Settings
 
 In the Device settings, you can choose whether location tracking is enabled.  Geo2 organizations use collected location data for management and reporting.
 
@@ -185,7 +185,7 @@ There are further options that customise the behaviour of the app:
 
 ![20260429_26.png](../../attachments/ec8b244a-7027-4b79-9bad-1093de8f4c74.png)
 
-# Account Settings
+## Account Settings
 
 Here you can find the next information:
 

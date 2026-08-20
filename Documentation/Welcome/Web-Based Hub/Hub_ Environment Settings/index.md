@@ -8,11 +8,11 @@ description: "Environments let you represent teams within a single company or pr
 
 # Hub: Environment Settings
 
-# Introduction
+## Introduction
 
 Environments let you represent teams within a single company or provide separate spaces for testing and productive use.  An organization can contain one or more environments.  See [Concepts](../../Concepts.md) for the different uses to which you may want to put environments.
 
-# Environment Settings
+## Environment Settings
 
 During the registration of a new account in Hub and [Hub: Set Up Organization](../Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the environment’s address as well.  If you create an organization manually, its first default environment is created automatically.  By default, the name of a new environment is Default environment.  You can change the name by hovering over the environment name on Settings page and pressing the `Edit (pencil)` icon.
 
@@ -46,7 +46,7 @@ Read more about environment settings:
 - [Hub: Devices Settings](Hub_%20Devices%20Settings.md)
 - [Hub: Reporting Settings](Hub_%20Reporting%20Settings.md)
 
-# Create Environment
+## Create Environment
 
 If you want to create one more environment in your organization, press the environment selector in the menu bar and press `Create environment`.  This option is available only with Enterprise subscription level. You will be redirected to Create environment page where you will have the option to clone settings and users from an existing environment.
 
@@ -62,7 +62,7 @@ If cloning settings and/or users from an existing environment, you will need to 
 
 By pressing the `Create` button, a new environment will be created.  You will be redirected to the settings of the newly created environment.
 
-# Delete Environment
+## Delete Environment
 
 To delete your environment, go to Settings → Environment and press the `Delete environment` button. You will be asked to confirm the deletion, as all route, order, POD and vehicle check data will be removed. Press `Delete` to confirm. The environment will be deleted.
 

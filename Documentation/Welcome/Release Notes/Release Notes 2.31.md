@@ -8,7 +8,7 @@ description: "Geo2 documentation: Release Notes 2.31"
 
 # Release Notes 2.31
 
-# Release Date
+## Release Date
 
 Mobile app: 
 
@@ -20,7 +20,7 @@ Web Hub and API: 
 
 Bug fixes. 
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

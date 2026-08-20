@@ -17,7 +17,7 @@ You can download the mobile app from [**App Store**](https://apps.apple.com/app/
 >
 > The synchronization of high-resolution images - photos and signatures - as well as tracking are data-intensive.  Monitor mobile device data usage and consider either capping data usage in line with the mobile network provider contract or make use of "unlimited" data plans.  We cannot accept responsibility for any costs or losses incurred in the course of using the mobile app.
 
-# In This Section
+## In This Section
 
 - [Mobile App: Register](Mobile%20App_%20Register.md)
 - [Mobile App: Sign In](Mobile%20App_%20Sign%20In/index.md)

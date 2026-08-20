@@ -8,11 +8,11 @@ description: "Once your account is created, you need to set up your Geo2 workspa
 
 # Hub: Set Up Organization
 
-# Introduction
+## Introduction
 
 Once your account is created, you need to set up your Geo2 workspace.
 
-# About You
+## About You
 
 We ask for information about your company to set up an organization for you.  You need to provide your organization’s name, select the industry you work in, the number of vehicles your company has, and your role in the company.
 
@@ -20,7 +20,7 @@ We ask for information about your company to set up an organization for you.  Y
 
 By pressing the `Continue` button, you will be redirected to Set up first depot page.
 
-# Set Up First Depot
+## Set Up First Depot
 
 On this page, you can create your first depot. It can be optionally used as a route start and end points during route planning. You can add more depots later in Settings → Environment -> [Hub: Depots Settings](Hub_%20Environment%20Settings/Hub_%20Depots%20Settings.md).
 
@@ -38,7 +38,7 @@ Examples:
 
 ![Screenshot 2026-03-27 at 12.11.18.png](/Documentation/attachments/c1faf438-13fb-46b7-9887-fe380006e8e9.png)
 
-## Features Included in a Free Subscription Level
+### Features Included in a Free Subscription Level
 
 With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app. It is available for **one user per organization**, and additional users cannot be added on this level. The Free subscription includes:
 
@@ -57,7 +57,7 @@ This gives you the essentials for planning, managing, and executing routes effec
 
 ![Screenshot 2026-03-27 at 12.30.57.png](/Documentation/attachments/a15060f1-e181-4b21-bc21-f6f9d8591002.png)
 
-# Select Next Action
+## Select Next Action
 
 Next, you can select one of the following options to start working with Geo2 Hub:
 
@@ -70,7 +70,7 @@ When orders are created and added to a route, the route can be released to a dri
 
 ![Screenshot 2026-03-27 at 12.11.40.png](/Documentation/attachments/be6fc9f8-3602-4406-ab95-4dca0517d20e.png)
 
-# Install Geo2 Mobile App
+## Install Geo2 Mobile App
 
 By pressing your avatar and selecting the `Profile` option, you will be redirected to Profile menu. Press on `Mobile app` tab. There is a QR code to install the app for iOS or Android.  Depending on the OS of your device, you will either be redirected to App Store (if iOS) or Google Play (if Android).
 

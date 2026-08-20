@@ -8,13 +8,13 @@ description: "Geo2 documentation: Release Notes 1.0"
 
 # Release Notes 1.0
 
-# Release Date
+## Release Date
 
 2022-03-30
 
-# Known Issues
+## Known Issues
 
-## Office 365 Safe Links
+### Office 365 Safe Links
 
 For certain security-sensitive operations, such as email address confirmation during user invitation, Geo2 generates emails with hyperlinks that can only be used once.  Functionality such as Office 365 Safe Links can mean that a request to the one-time hyperlink is made by (security) software in the background, before the recipient has the opportunity to actively use it.  As a result, a user trying to complete an operation such as confirming their email address or resetting their password may experience the following error in the browser: `The action code is invalid. This can happen if the code is malformed, expired, or has already been used.`
 

@@ -8,7 +8,7 @@ description: "Geo2 documentation: Release Notes 3.6"
 
 # Release Notes 3.6
 
-# Release Date
+## Release Date
 
 Hub, API:
 
@@ -16,7 +16,7 @@ Hub, API:
 
 Bug fixes.  
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

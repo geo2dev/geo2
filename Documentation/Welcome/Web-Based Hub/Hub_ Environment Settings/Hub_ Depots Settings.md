@@ -8,11 +8,11 @@ description: "Depots can be optionally selected as the start and end points for 
 
 # Hub: Depots Settings
 
-# Introduction
+## Introduction
 
 Depots can be optionally selected as the start and end points for routes.  During the registration of a new account, your first depot is created automatically with the address you provided.  You can add more depots either one by one by pressing the `Add` button or all at once by pressing the `Import` button in Settings → Environment → Depots. Only Environment Admin users can add, update, or delete depots; Environment Managers can view them.
 
-# Add Depots
+## Add Depots
 
 To add a depot, press the `Add` button.  You will see a dialog where you have to provide the next information - key, name, and address (Address line 1, City and Country fields).  All other fields are optional.  You can provide the address manually by typing it into Address line 1 and selecting the relevant address.  If there is no variant you were looking for, just provide your data to the address form and we will save it.  For routes, it is important that depot addresses are geo-coded accurately.
 
@@ -52,7 +52,7 @@ You can `Delete` a depot, though this is only recommended before it has started
 
 ![Screenshot 2026-04-01 at 12.33.13.png](/Documentation/attachments/cd261d03-149e-4810-957f-e07f66c282ea.png)
 
-# Import Depots
+## Import Depots
 
 You can import depot data into Geo2 Hub via the `Import` button using two methods:
 
@@ -61,7 +61,7 @@ You can import depot data into Geo2 Hub via the `Import` button using two method
 
 ![Screenshot 2026-04-01 at 12.34.28.png](/Documentation/attachments/3455358c-42cc-4c25-a31f-b360397c7a01.png)
 
-## Upload Spreadsheet File with Column Mapping
+### Upload Spreadsheet File with Column Mapping
 
 Press the `Upload data from file` button at the top of the Import spreadsheet in Hub. Upload a .csv, .tsv, .xls, .xlxs, .xml, or .txt file. After uploading, the Map your data columns dialog will be displayed where you can match your spreadsheet columns to Hub’s data fields. Required fields are marked with an asterisk ( \* ) but you can skip them at this step and add data later.
 
@@ -86,7 +86,7 @@ Once everything is mapped correctly, click `Apply`. Your data will appear in the
 
 ![Screenshot 2026-04-01 at 12.39.23.png](/Documentation/attachments/7b2f058b-48d0-4030-9274-2aeba0d4deea.png)
 
-## Manually Type or Paste Data
+### Manually Type or Paste Data
 
 The spreadsheet interface column headings guide you on the type of data expected in each column.  Hover over a column title to see a tooltip with additional details and explanations.
 
@@ -120,7 +120,7 @@ Once information is provided, press:
 - `Reset` to clear the spreadsheet
 - `Import` to start the data import
 
-## Import Options
+### Import Options
 
 The import options are:
 
@@ -136,7 +136,7 @@ Click the `Import` button to import depots.  The import process feeds back a
 
 Depots will be imported and displayed in the Depots list in Settings → Environment.
 
-## Spreadsheet Example
+### Spreadsheet Example
 
 You can also download the example of the spreadsheet with typed-in information for a depot import.
 

@@ -8,7 +8,7 @@ description: "Managing delivery operations often means too many clicks, too much
 
 # Hub: AI Assistant
 
-# Introduction
+## Introduction
 
 Managing delivery operations often means too many clicks, too much searching, and too much time spent on routine actions inside the system. That’s exactly where Geo AI Assistant comes in. It helps you complete key tasks faster inside Geo2 Hub, without digging through menus or switching between pages.
 
@@ -26,7 +26,7 @@ That means:
 - Less time spent searching for the right page or function
 - A smoother workflow for delivery teams
 
-# AI Access Points
+## AI Access Points
 
 You can access the AI assistant by clicking the `AI assistant` button in the menu, which opens the dedicated AI assistant page.
 
@@ -36,7 +36,7 @@ It is also available via the AI icon located in the bottom-right corner of each 
 
 ![Screenshot 2026-04-01 at 11.37.37.png](/Documentation/attachments/7864f86e-43d7-43cd-a57e-07486d626c68.png)![Screenshot 2026-04-01 at 11.38.05.png](/Documentation/attachments/d9052fc7-5209-440b-b936-f2cb5c7ed7ce.png)
 
-# AI Assistant Interface
+## AI Assistant Interface
 
 The input field "Ask anything" allows manual typing, voice input, or selection from suggested options below. To submit a typed request, press `Enter` or click the `Send` icon.
 
@@ -54,7 +54,7 @@ Your message appears in green, while AI assistant replies appear in grey.
 
 ![Screenshot 2026-03-30 at 17.08.41.png](/Documentation/attachments/3c3e7e41-887b-4bd3-9857-1e390ab86110.png)
 
-# Limitations
+## Limitations
 
 The AI assistant is available to users of all levels. However, Free and Pro users are limited to 5 requests per day, while users with Advanced and Enterprise subscriptions have no restrictions on the number of requests.
 

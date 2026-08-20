@@ -8,11 +8,11 @@ description: "By default, for your newly created organization, you get a Free su
 
 # Hub: Subscriptions
 
-# Introduction
+## Introduction
 
 By default, for your newly created organization, **you get a Free subscription**, **no card is required**. A subscription would be automatically assigned to you.
 
-## Free Subscription Level
+### Free Subscription Level
 
 With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app. It is available for **one user per organization**, and additional users cannot be added on this level. The Free subscription includes:
 
@@ -31,7 +31,7 @@ This gives you the essentials for planning, managing, and executing routes effec
 
 ![Screenshot 2026-03-30 at 16.16.03.png](/Documentation/attachments/83440561-0d4b-4aa5-b83a-ba275e420f5a.png)
 
-## 7-day FREE Trial
+### 7-day FREE Trial
 
 You can take a 7-day FREE trial of any paid subscription level (Pro, Advanced, or Enterprise) by going to Settings → Organization → Subscriptions page. You can check there the list of available features for different subscription levels for the web-based Hub and mobile app. By enabling `Show differences only` toggle in Hub → Settings → Organization → Subscriptions page , you will see only differences between subscription levels ignoring what is included equally into each of them. For example:
 
@@ -55,7 +55,7 @@ On Subscriptions page, your current level will be highlighted with a green backg
 
 The free trial is available as long as neither the user nor the organization have had a free trial before.
 
-## Purchase Additional Users
+### Purchase Additional Users
 
 It is possible to add new users to the current subscription level, for example, for seasonal workers if you are on Advanced or Enterprise subscription level.  If you are on Advanced level, you can add up to 10 users to your organization in total. If you are on Enterprise level, you are not limited in the number of users. You can press the  `Add users` button on Subscriptions page, select the number of users, and proceed with payment.
 
@@ -69,7 +69,7 @@ Press `Assign subscription to users` on Success payment page to be redirected to
 
 New subscriptions will be displayed above the existing one on your current subscription level, with the number of available users and valid-from/to dates.
 
-## Upgrade Subscription
+### Upgrade Subscription
 
 If you currently have the Pro, or Advanced subscription, you can optionally upgrade to the Advanced, or Enterprise level accordingly.  Press the `Upgrade` button for the higher level.
 
@@ -85,7 +85,7 @@ Press `Assign subscriptions to users` to be redirected to Settings → Organizat
 
 After successful payment, your current subscription level will be automatically updated.
 
-## Cancel Subscription
+### Cancel Subscription
 
 To cancel your subscription(s), press `Cancel subscription` button on your current level below the number of users and valid dates. The prompt will be displayed to confirm your action.
 
@@ -93,7 +93,7 @@ To cancel your subscription(s), press `Cancel subscription` button on your curre
 
 Once the subscription is cancelled, only the valid from/to dates will be shown, and the next payment information will no longer be displayed. Your subscription will remain active until the expiration date.
 
-## Expired Subscription
+### Expired Subscription
 
 When your subscription expires, you'll see a prompt offering two options:
 
@@ -106,7 +106,7 @@ By pressing `Continue with Free subscription`, a Free level subscription will be
 
 ![Screenshot 2025-08-26 at 14.15.30.png](/Documentation/attachments/da0c2e1e-72de-4505-b68a-40993c1a76c1.png)![Screenshot 2025-08-26 at 14.16.02.png](/Documentation/attachments/74d71159-0e38-4d2b-a290-fc833b0f519f.png)
 
-# Payment History
+## Payment History
 
 The history of your payments (paid, declined, pending) can be found on Payment history tab in Settings → Organization.
 

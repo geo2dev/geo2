@@ -8,13 +8,13 @@ description: "The Dashboard is the first page you see after you successfully sig
 
 # Hub: Analytics
 
-# Introduction
+## Introduction
 
 The Dashboard is the first page you see after you successfully sign in.  You can get back to this by pressing `Menu → Analytics`.
 
 ![Screenshot 2025-09-01 at 10.29.43.png](/Documentation/attachments/7b1e7813-4b76-4a1c-92b4-11f1e6c5ab38.png)
 
-# Toolbar
+## Toolbar
 
 The navigation elements in the top toolbar are:
 
@@ -22,7 +22,7 @@ The navigation elements in the top toolbar are:
 - [Support](../Support.md) - click to access documentation, contact Customer Support, request a new feature, or run a user guide on the specific page.
 - [Hub: Profile](Hub_%20Profile.md) - click to view your user profile, manage your personal API access tokens, and sign out.
 
-# Charts
+## Charts
 
 On Dashboard page, you will see summarised information from the current environment using different analytics charts.  Charts can be dragged-and-dropped.  By default, depending on your display size, you will see one chart per row on small displays (e.g. phones), two charts per row on medium-sized displays (e.g. laptops and small computers), and three charts per row on wide displays.  The layout of the charts is personal to you and does not affect other users in the environment.
 
@@ -37,7 +37,7 @@ To add more charts, press one of the buttons under the heading `New chart to be 
 
 ![Analytics 42.png](/Documentation/attachments/2e9544a5-ab9b-478d-a9ad-dd8e38f1a89c.png)
 
-## Routes by Status
+### Routes by Status
 
 This chart shows the number of routes by planned date, with a breakdown by status: Planning, Planned, Released, Started, and Completed.
 
@@ -47,7 +47,7 @@ With the drop-down in the top-right corner of the chart, you can select the peri
 
 ![](/Documentation/attachments/03c6345b-6e6e-4bd5-8b64-b49ebccf4aa6.png)
 
-## Routes by Vehicle
+### Routes by Vehicle
 
 This chart shows the percentage share of routes assigned to each vehicle, in the selected range of planned dates.
 
@@ -59,7 +59,7 @@ With the drop-down in the top-right corner of the chart, you can select the peri
 
 ![](/Documentation/attachments/9e68c7eb-0707-4964-abcb-47d78167e43e.png)
 
-## Routes by Area
+### Routes by Area
 
 This chart shows the percentage share of routes assigned to each area, in the selected range of planned dates.
 
@@ -71,7 +71,7 @@ You can select the period to which the data relate - Today, Yesterday, Tomorrow,
 
 ![](/Documentation/attachments/f13c314f-8854-49f4-8a80-0e990e4ca499.png)
 
-## Started Route Driver Position
+### Started Route Driver Position
 
 This map shows your depots and the positions of drivers who have routes in the Started status.  Clicking each object on the map reveals further details.
 
@@ -85,7 +85,7 @@ The legend for colour-coding of the objects on the map is shown below the map:
 
 You can pan and zoom the map and toggle a full-screen view.
 
-## CO<sub>2</sub> Emissions
+### CO<sub>2</sub> Emissions
 
 CO<sub>2</sub> emissions are calculated from the actual distance, as recorded via device tracking for each completed route, multiplied by the emission factor of the vehicle assigned to the route.  To receive reliable data, it is important that location tracking is enabled on devices and that routes are marked as started/completed at the beginning/end of each route. The units shown depend on the environment settings.  If a route is completed in the mobile app, actual distance is read-only.  For routes completed from Hub or via the API, the actual distance travelled for the route can be edited.
 
@@ -95,7 +95,7 @@ With the drop-down in the top-right corner of the chart, you can select the rang
 
 ![](/Documentation/attachments/bc93687a-67c3-464f-866e-ecc7d16df7d3.png)
 
-## CO<sub>2</sub> Emissions per Order
+### CO<sub>2</sub> Emissions per Order
 
 CO<sub>2</sub> emissions for an order are calculated from the total emissions for each order, divided by the number of orders on the route.  Only completed routes are considered, because their emissions are taken as final. The units shown depend on the environment settings.  If a route is completed in the mobile app, actual distance is read-only.  For routes completed from Hub or via the API, the actual distance travelled for the route can be edited.
 
@@ -105,7 +105,7 @@ With the drop-down in the top-right corner of the chart, you can select the rang
 
 ![](/Documentation/attachments/bd58eaa6-8b37-44ea-8175-f99483e1bfde.png)
 
-## Delivered Orders
+### Delivered Orders
 
 Delivered orders are those with successful PODs, both orders appearing in routes and those created from ad-hoc POD's, and orders without POD's but on completed routes.  Total orders are taken from all completed routes.  The chart shows delivered orders for each user as a percentage of all orders assigned to the user.  On the left-hand side of each bar in the chart, you will see the display name of each user; the delivered orders percentage is shown on the right of each bar.  Users are sorted from the highest percentage (dark) to the lowest (light).  An internal scroll bar is added if the data do not fit into the chart tile.  The total number of orders across all users is shown under the bar graph.
 
@@ -115,7 +115,7 @@ You can select the period to which the data relate - Today, Yesterday, Last 7 da
 
 ![](/Documentation/attachments/1fe29cb6-bc9d-46cb-9c21-335bd9b07406.png)
 
-## Undelivered Orders
+### Undelivered Orders
 
 The calculation of undelivered orders starts with the total number of orders in a given planned date/time period, whether or not an order is part of a route.  The following routes are subtracted:
 
@@ -130,7 +130,7 @@ You can select the period to which the data relate - Today, Yesterday, Last 7 da
 
 ![](/Documentation/attachments/1fe29cb6-bc9d-46cb-9c21-335bd9b07406.png)
 
-## Undelivered Orders by Reason Code
+### Undelivered Orders by Reason Code
 
 The chart shows undelivered orders for each user by failure reason code specified during a POD creation. 
 
@@ -147,7 +147,7 @@ You can select the period to which the data relate - Today, Yesterday, Last 7 da
 
 ![](/Documentation/attachments/9784ea38-f9a3-4be9-a62a-347aabd704f4.png)
 
-## Orders by Route Assignment
+### Orders by Route Assignment
 
 This chart shows orders assigned to a route versus those not assigned to a route, in a given order required date range.
 
@@ -159,7 +159,7 @@ You can select the period to which the data relate - Today, Yesterday, Tomorrow,
 
 ![](/Documentation/attachments/977df25d-6b54-436d-9965-1795aa1f0446.png)
 
-## Orders by Area
+### Orders by Area
 
 This chart shows the percentage share of orders assigned to each area, in the selected range of planned dates. 
 
@@ -171,7 +171,7 @@ You can select the period to which the data relate - Today, Yesterday, Tomorrow,
 
 ![](/Documentation/attachments/de7d223b-1e4a-4fcf-b147-8e32ce9cff93.png)
 
-## Areas Overview
+### Areas Overview
 
 Areas Overview chart helps you to analyze the overall effectiveness of deliveries to different areas by categorizing them into on-time, late, and early deliveries. 
 
@@ -185,7 +185,7 @@ You can select the period to which the data relate - Today, Yesterday, Last 7 da
 
 ![](/Documentation/attachments/99e0eeb2-b027-46df-aaff-fa3b8e98bad0.png)
 
-## On-Time Orders by Driver
+### On-Time Orders by Driver
 
 The chart allows you to analyze the overall performance of drivers based on the on-time, late, and early deliveries they achieve. 
 
@@ -199,7 +199,7 @@ You can select the period to which the data relate - Today, Yesterday, Last 7 da
 
 ![](/Documentation/attachments/5065fef4-fcb2-49bc-9bf5-35b756c6aa88.png)
 
-## Planned/Actual POD time
+### Planned/Actual POD time
 
 The chart allows you to analyze the drivers' overall performance by comparing the difference in minutes between the planned time a POD was expected to be created, against the actual time the POD was created. 
 
@@ -215,7 +215,7 @@ You can select the period to which the data relate - Today, Yesterday, Last 7 da
 
 ![](/Documentation/attachments/bfbb8f91-5008-41ed-80ed-807809166b9a.png)
 
-## % On-Time Orders
+### % On-Time Orders
 
 To calculate the number of on-time orders, both orders that are in a route with POD's and orders created by ad-hoc POD's are taken into account so you can use this chart even if you don't have a full route planning process.  The chart on the left side helps you to track how close you are to your target % of on-time orders while the chart on the right side helps you to analyze each driver's impact on it.  The target value is 80% by default for all environments but you can change it in your `Environment settings → Reporting`. 
 
@@ -229,7 +229,7 @@ You can select the period to which the data relate - Today, Yesterday, Last 7 da
 
 ![](/Documentation/attachments/bfbb8f91-5008-41ed-80ed-807809166b9a.png)
 
-## On-Time Performance
+### On-Time Performance
 
 This chart allows you to track the overall performance for all drivers based on early, on-time, late, and undelivered orders. 
 
@@ -241,7 +241,7 @@ You can select the period to which the data relate - Today, Yesterday, Last 7 da
 
 ![](/Documentation/attachments/1680f61e-df26-4f64-8d4a-7448ff0eb875.png)
 
-## Peak Vehicle Weight Capacity
+### Peak Vehicle Weight Capacity
 
 The bar chart shows the average peak weight for all routes by assigned vehicle. 
 
@@ -255,7 +255,7 @@ You can select the period to which the data relate - Today, Yesterday, Tomorrow,
 
 ![](/Documentation/attachments/acda6e97-812a-4371-985f-76b844235491.png)
 
-## Peak Vehicle Volume Capacity
+### Peak Vehicle Volume Capacity
 
 The bar chart shows the average peak volume for all routes by assigned vehicle. 
 
@@ -269,7 +269,7 @@ You can select the period to which the data relate - Today, Yesterday, Tomorrow,
 
 ![](/Documentation/attachments/acda6e97-812a-4371-985f-76b844235491.png)
 
-## Peak Vehicle Weight
+### Peak Vehicle Weight
 
 The line chart shows the average peak weight for all routes day-by-day by assigned vehicle.
 
@@ -281,7 +281,7 @@ You can select the period to which the data relate - Today, Yesterday, Tomorrow,
 
 ![](/Documentation/attachments/67913857-97da-43d8-9e46-5d7895b69e5e.png)
 
-## Peak Vehicle Volume
+### Peak Vehicle Volume
 
 The line chart shows the average peak volume for all routes day-by-day by assigned vehicle.
 

@@ -8,7 +8,7 @@ description: "To create a Geo2 user account, register with a browser at Geo2 Hub
 
 # Getting Started in Hub
 
-# Introduction
+## Introduction
 
 To create a Geo2 user account, register with a browser at [**Geo2 Hub**](https://hub.geo2.com/en-GB/auth/register).  If you are joining an existing organization, the admin of that organization needs to add your user account and assign a subscription to you.  Learn how to [Hub: Accept Invitation](Web-Based%20Hub/Hub_%20Accept%20Invitation.md)
 
@@ -16,19 +16,19 @@ You can use both the Geo2 web-based Hub and the mobile app, depending on your ro
 
 ![Screenshot 2025-08-26 at 11.02.31.png](/Documentation/attachments/ad2dfb92-fd25-418f-9a79-3e4df8acd993.png)
 
-# Register Account
+## Register Account
 
 On Registration page, after you have completed the requested details, press `Register` to create an account, using the password you have specified.  Alternatively, you can press the buttons for other authentication providers in order to authenticate with your existing Google, Microsoft, or Apple identity or mobile phone number.  Learn more about registration in [Hub: Register](Web-Based%20Hub/Hub_%20Register.md). 
 
 ![Screenshot 2026-03-27 at 12.05.56.png](/Documentation/attachments/92160148-384f-4bba-8c45-f8c115f5e451.png)
 
-## Verify Email
+### Verify Email
 
 If you register an account using an email and password, you need to verify it.  You will get a verification email with a one-time code that you need to copy and paste into the form in Hub.  Learn more about [Hub: Register](Web-Based%20Hub/Hub_%20Register.md).
 
 ![Screenshot 2026-03-27 at 12.07.23.png](/Documentation/attachments/79daadba-1068-4e91-bdfb-50fa63e55cc9.png)![Screenshot 2026-03-27 at 12.07.39.png](/Documentation/attachments/03ab7a3b-3e57-4c82-b5d7-4ca7dbc9e876.png)
 
-# Set Up Organization
+## Set Up Organization
 
 Once your account is created and the email is verified, you need to set up your Geo2 organization.  We ask for information about your company to set up an organization for you.
 
@@ -61,7 +61,7 @@ Next, you can select one of the following options to start working with Geo2 Hub
 
 When orders are created and added to a route, the route can be released to a driver.  It will be displayed in the mobile app for the assigned driver.
 
-# Features Included to Free Level
+## Features Included to Free Level
 
 With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app. It is available for **one user per organization**, and additional users cannot be added on this level. The Free subscription includes:
 

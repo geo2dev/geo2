@@ -10,13 +10,13 @@ description: "Orders are records of deliveries/collections to be handled by a dr
 
 Orders are records of deliveries/collections to be handled by a driver, typically as part of a route, a group of orders.
 
-# Orders Page
+## Orders Page
 
 To list orders in the environment, select `Orders` from the menu. By default, orders created in the last 7 days are listed.  You can select the other two tabs to show orders created in the last 30 days or list all orders in the environment.  Full filtering and sorting criteria are only available for the 7-day and 30-day tabs.
 
 ![Screenshot 2025-08-29 at 12.41.53.png](/Documentation/attachments/21aca646-4bae-43dd-9401-381bd25cd83a.png)
 
-## Filters
+### Filters
 
 To narrow down the list of orders, you can use the Filters on Orders page.  The following filters are available: 
 
@@ -52,7 +52,7 @@ To narrow down the list of orders, you can use the Filters on Orders page.  The
 | State | Contains | Recipient address - state |
 | Country | Is | Recipient address - country |
 
-## POD Status
+### POD Status
 
 Where a POD has been recorded for the order, it is indicated with a status icon in the top row of each order card.  A failed POD is red:
 

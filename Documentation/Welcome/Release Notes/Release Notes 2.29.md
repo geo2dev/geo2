@@ -8,13 +8,13 @@ description: "Geo2 documentation: Release Notes 2.29"
 
 # Release Notes 2.29
 
-# Release Date
+## Release Date
 
 2024-10-06
 
 Bug fixes. 
 
-# New Features
+## New Features
 
 | **Key** | **Summary** | **Description** |
 | --- | --- | --- |

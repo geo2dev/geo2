@@ -8,11 +8,11 @@ description: "Geo2 documentation: Release Notes 1.8"
 
 # Release Notes 1.8
 
-# Release Date
+## Release Date
 
 2022-09-05
 
-# New Features
+## New Features
 
 | **Key**      | **Summary**                                                         |
 |:-------------|:--------------------------------------------------------------------|

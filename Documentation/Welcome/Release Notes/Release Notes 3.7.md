@@ -8,7 +8,7 @@ description: "Geo2 documentation: Release Notes 3.7"
 
 # Release Notes 3.7
 
-# Release Date
+## Release Date
 
 Hub, API:
 

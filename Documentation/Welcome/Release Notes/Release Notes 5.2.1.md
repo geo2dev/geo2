@@ -8,7 +8,7 @@ description: "Geo2 documentation: Release Notes 5.2.1"
 
 # Release Notes 5.2.1
 
-# Release Date
+## Release Date
 
 Mob bug fix release:
 
