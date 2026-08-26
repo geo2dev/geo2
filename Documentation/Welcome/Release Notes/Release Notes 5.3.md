@@ -1,11 +1,9 @@
 ---
-slug: "/release-notes/release-notes-5-3-pending"
-sidebar_label: "Release Notes 5.3 (pending)"
+slug: /release-notes/release-notes-5-3
+sidebar_label: Release Notes 5.3
 sidebar_position: 133
 description: "Geo2 documentation: Release Notes 5.3"
 ---
-
-
 # Release Notes 5.3
 
 ## Release Date
@@ -20,8 +18,9 @@ Mobile app:
 
 ## New Features
 
+
 | **Summary** | **Description** |
-| --- | --- |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Mobile app: Import stops from photos & PDFs with AI | Save time when adding multiple stops to your routes. Import delivery lists from photos or PDF files, and Geo2 AI will automatically extract the addresses and create stops for you. Review and edit any imported details before confirming, then add all selected stops to your route in just a few taps. It is a faster, easier way to plan routes and get on the road sooner. |
 | Mobile app: Scan multiple addresses automatically | Scanning address lists is now smarter and faster. Simply point your camera at a printed or on-screen list, and Geo2 will automatically detect and capture multiple addresses in real time. Review the detected addresses, remove any you do not need, and tap Finish scanning addresses to add them all at once. It is a quicker way to build your stop list and get on the road sooner. |
 | Mobile app: Share Geo2. Give friends 1 month of Advanced | A new referral program has been added to the mobile app. Share your personal referral link with friends, and new users who install Geo2 through the link can activate a **1-month free trial of the Advanced level**. Referred users can claim the offer during onboarding or later from the Subscriptions page. |
@@ -37,3 +36,5 @@ Mobile app:
 | Hub: Display up to 40 routes in Map view | The Map view now supports displaying up to **40 visible routes** at once. This allows you to review and compare more routes directly on the map without switching between smaller route groups. Route card colors are automatically generated to make each route easier to distinguish visually. |
 | Hub: Customizable route key generation | You can now **customize how route keys are generated** automatically in Geo2 Hub. Choose which elements to include, such as the current date, time, trip number, depot, vehicle, or area. Your selected format is applied consistently whenever routes are created, including manual route creation, AI-assisted workflows, and order imports. Automatically generated route keys can still be edited before saving if needed. |
 | Hub/API: Automatic order export by route status | You can now define when orders assigned to a route should be exported automatically. In Route settings, choose a route status such as Planned, Released, Started, or Completed to trigger the export when a route reaches that status. If Manual is selected, automatic export remains disabled. This gives API integrations more control over when route order data is sent for export. |
+
+
