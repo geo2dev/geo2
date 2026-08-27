@@ -1,24 +1,22 @@
 ---
-slug: "/web-based-hub/hub-accept-invitation"
-sidebar_label: "Accept Invitation"
+slug: /web-based-hub/hub-accept-invitation
+sidebar_label: Accept Invitation
 sidebar_position: 4
-description: "If you have been invited to the organization, you have the following ways to accept it:"
+description: "If you have been invited to the organization, you have the
+  following ways to accept it:"
 ---
-
-
 # Hub: Accept Invitation
 
 If you have been invited to the organization, you have the following ways to accept it:
 
-If your invitation was sent using your email address, you can accept it through the activation link in the email, by logging in to Hub, via a notification in Hub, or by logging in to the mobile app.
-
-If your invitation was sent using your mobile number, you can accept it by logging in to Hub, via a notification in Hub, or by logging in to the mobile app. Please note that an SMS with an activation link will not be sent.
+- If your invitation was sent using your email address, you can accept it through the activation link in the email, by logging in to Hub, via a notification in Hub, or by logging in to the mobile app.
+- If your invitation was sent using your mobile number, you can accept it by logging in to Hub, via a notification in Hub, or by logging in to the mobile app.  Please note that an SMS with an activation link will not be sent.
 
 ## Accept Invitation Using Email
 
 Once you have been invited, the invitation email has been sent to the specified user email address. The confirmation link in the invitation email expires after approximately 6 hours.  If you try to use it after expiry or click on it twice, you will receive an error message.
 
-![Screenshot 2025-09-01 at 11.10.56.png](/Documentation/attachments/6eb24619-1eab-4429-beaf-a8ccc962b791.png)
+![Screenshot 2026-08-27 at 12.28.23.png](/Documentation/attachments/mtbbll7m-lyr1anj2.png)
 
 To accept the invitation, you need to click on the `Accept invitation` button in the email. Once clicked, we consider that you agreed to join the organization/environment. If you were previously logged in to the Hub, you will be redirected to the You have accepted invitation confirmation page.
 
