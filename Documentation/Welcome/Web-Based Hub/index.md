@@ -1,16 +1,15 @@
 ---
-slug: "/web-based-hub"
-sidebar_label: "Web-Based Hub"
+slug: /web-based-hub
+sidebar_label: Web-Based Hub
 sidebar_position: 6
-description: "The web user interface is intended for administrators, managers and transport planners."
+description: The web user interface is intended for administrators, managers and
+  transport planners.
 ---
-
-
 # Web-Based Hub
 
 ## Introduction
 
-The web user interface is intended for administrators, managers and transport planners. While the mobile app allows drivers to create and optimize routes and manage orders, Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV), managing multiple routes on a single map, analytics and reporting, and AI-powered route building.
+The web user interface (Hub) is intended for administrators, managers and transport planners. While the mobile app allows drivers to create and optimize routes and manage orders, Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV) and PDFs, managing multiple routes on a single map, analytics, reporting and cost calculation, and AI-powered route building.
 
 With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app.
 
@@ -32,3 +31,4 @@ With a **Free** subscription in Geo2, you get access to a solid set of core feat
 - [Hub: AI Route Building Logs](Hub_%20AI%20Route%20Building%20Logs.md)
 - [Hub: Profile](Hub_%20Profile.md)
 - [Hub: AI Assistant](Hub_%20AI%20Assistant.md)
+
