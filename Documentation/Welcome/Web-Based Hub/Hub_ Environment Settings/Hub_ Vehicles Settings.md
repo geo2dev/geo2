@@ -65,11 +65,11 @@ You can import vehicle data into Geo2 Hub → Settings → Environment → Vehic
 - Upload your spreadsheet file with column mapping
 - Manually paste or type your data into the table.
 
-![Screenshot 2026-04-06 at 15.56.44.png](/Documentation/attachments/c67533b6-9122-432e-a126-5b7d2e8e5a95.png)
+![Screenshot 2026-08-28 at 11.11.50.png](/Documentation/attachments/mtcoazkv-bw0oa2vi.png)
 
 ### Upload Spreadsheet File with Column Mapping
 
-Press the `Upload data from file` button at the top of the Import spreadsheet in Hub. Upload a .csv, .tsv, .xls, .xlxs, .xml, or .txt file. After uploading, the Map your data columns dialog will be displayed where you can match your spreadsheet columns to Hub’s data fields. Required fields are marked with an asterisk (  ) but you can skip them at this step and add data later.
+Press the `Upload data from file` button at the top of the Import spreadsheet in Hub. Upload a .csv, .tsv, .xls, .xlxs, .xml, or .txt file. After uploading, the Map your data columns dialog will be displayed where you can match your spreadsheet columns to Hub’s data fields. Required fields are marked with an asterisk ( * ) but you can skip them at this step and add data later.
 
 On the dialog, you will see 4 columns:
 
@@ -82,31 +82,31 @@ On the dialog, you will see 4 columns:
 | Matching result | Indicates how well the system matched each column, including match strength and confidence percentage. |
 
 
-![Screenshot 2026-04-06 at 15.59.31.png](/Documentation/attachments/d94ba19c-d11e-46b1-89e8-f2107394f1a4.png)
+![Screenshot 2026-08-28 at 11.14.19.png](/Documentation/attachments/mtcokzqk-ylo8mhha.png)
 
 The system will attempt to auto-match fields like Type, Depot, Weight capacity, etc. Matches are clearly marked with a green tick for perfect or high matches, while unmatched columns are shown with a yellow warning icon. You can adjust matches or choose to skip fields, including required ones, these can be added later.
 
-![Screenshot 2026-04-06 at 15.59.44.png](/Documentation/attachments/6430dc9a-d1df-4f55-97b6-79f82d3dc164.png)
+![Screenshot 2026-08-28 at 11.14.27.png](/Documentation/attachments/mtcol7ae-4sarbq1l.png)
 
 Tooltips are available to help clarify each data point.
 
-![Screenshot 2026-04-06 at 15.59.38.png](/Documentation/attachments/3c8b2695-42c2-43e0-8eee-a32f60a5c297.png)
+![Screenshot 2026-08-28 at 11.14.35.png](/Documentation/attachments/mtcolbjm-1wlh3sz9.png)
 
 Once everything is mapped correctly, click `Apply`. Your data will appear in the table, where you can review, edit, or fix any errors before finalizing.
 
-![Screenshot 2026-04-06 at 16.01.05.png](/Documentation/attachments/8934cc23-7cce-4b81-80c2-d195e34bf81a.png)
+![Screenshot 2026-08-28 at 11.14.42.png](/Documentation/attachments/mtcolnal-jx4jwmvw.png)
 
 ### Manually Type or Paste Data
 
 The spreadsheet interface column headings guide you on the type of data expected in each column.  Hover over a column title to see a tooltip with additional details and explanations. If you have prepared the data in another spreadsheet, you can copy and paste them in.
 
-![Screenshot 2026-04-06 at 16.01.05.png](/Documentation/attachments/8934cc23-7cce-4b81-80c2-d195e34bf81a.png)
+![Screenshot 2026-08-28 at 11.14.48.png](/Documentation/attachments/mtcolvh4-k6ivfsw7.png)
 
 The limit for the import of vehicles is **500**.  You cannot paste more into the spreadsheet.
 
 
 | **Column Heading** | **Data Type** | **Details** | **Mandatory** |
-| ------------------ | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| ---------------------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | Vehicle key | String | Vehicle identifier unique within the environment, for example, Van 001. It is used for displaying vehicles for route assignment and vehicle check creation. If the key already exists in the environment, the matching vehicle can optionally be updated. | Y |
 | Registration | String | Vehicle registration number to help identify the vehicle, for example, ABCD 012. | N |
 | Type | Pre-defined string option | Vehicle type used to consider average speed for route optimization and planned timing adjustments - truck, van, car, motorbike, bicycle. For each type, the speed factor is pre-defined but you can change it by providing your own value in the Speed factor column. | Y |
@@ -120,6 +120,8 @@ The limit for the import of vehicles is **500**.  You cannot paste more into th
 | Width | Numerical | Number to specify the maximum vehicle width based on the length units specified in Settings → Environment → [Hub: Display Preferences Settings](Hub_%20Display%20Preferences%20Settings.md), for example, 9. This is considered for route optimization and calibration with vehicle restrictions. For metric environment settings (cm), the value is in metres. For imperial environment settings (in), the value is in feet. | N |
 | Length | Numerical | Number to specify the maximum vehicle length based on the length units specified in Settings → Environment → [Hub: Display Preferences Settings](Hub_%20Display%20Preferences%20Settings.md), for example, 12. This is considered for route optimization and calibration with vehicle restrictions. For metric environment settings (cm), the value is in metres. For imperial environment settings (in), the value is in feet. | N |
 | Emission factor | Numerical | CO2 equivalent emissions in grams/kilometre or mile depending on Settings → Environment -> [Hub: Display Preferences Settings](Hub_%20Display%20Preferences%20Settings.md). For example, 5. | N |
+| Cost per hour | Numerical | The vehicle’s hourly operating cost, used to calculate route and stop costs. The value has to be entered in the currency selected under Settings → Environment → Display preferences. | N |
+| Cost per distance unit | Numerical | The vehicle’s operating cost per distance unit, used to calculate route and stop costs. The distance unit and currency are based on the selections under Settings → Environment → Display preferences. | N |
 | Speed factor | Numerical | Average speed as a multiple of an average car. For realistic route timings, this is typically set below 1 for heavier vehicles, such as vans and lorries, for example, 0.6. If you do not provide a value for this field, it will be populated from the type you have selected. | Y |
 
 
