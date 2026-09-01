@@ -1,11 +1,10 @@
 ---
-slug: "/web-based-hub/hub-orders/hub-ai-route-building"
-sidebar_label: "AI Route Building"
+slug: /web-based-hub/hub-orders/hub-ai-route-building
+sidebar_label: AI Route Building
 sidebar_position: 3
-description: "AI route building proposes routes across all available vehicles in each depot that can accommodate a selected set of orders."
+description: AI route building proposes routes across all available vehicles in
+  each depot that can accommodate a selected set of orders.
 ---
-
-
 # Hub: AI Route Building
 
 ## Introduction
@@ -23,9 +22,9 @@ It is up to you to ensure that you are not overcommitting a vehicle by it being 
 
 ## Start AI Route Building
 
-When you select orders on Orders page, you initiate the building of routes across all available vehicles for the selected orders by pressing the `AI route building` button:
+When you select orders on Orders page in Hub, you initiate the building of routes across all available vehicles for the selected orders by pressing the `AI route building` button:
 
-![Screenshot 2025-08-29 at 14.42.59.png](/Documentation/attachments/f324e932-979c-4384-a96d-87bba5fc6f44.png)
+![Screenshot 2026-09-01 at 15.43.08.png](/Documentation/attachments/mtipxm6z-1yfd98y8.png)
 
 Learn how to run the route building:
 
@@ -33,34 +32,41 @@ Learn how to run the route building:
 
 This will open the `AI route building` dialog. At the top of the dialog, you will see the number of selected orders before. If you have selected an order that is already assigned to a route, it will be excluded and the reason is provided.
 
-![Screenshot 2025-08-29 at 14.49.23.png](/Documentation/attachments/842a56d5-6b87-4755-8bfa-e86cf9908197.png)
+![Screenshot 2026-09-01 at 15.43.17.png](/Documentation/attachments/mtipxsim-fu1r68ri.png)
 
-### AI Route Building Options
+## AI Route Building Options
 
-You have a number of options to fine-tune the route building:
+You have a number of options to fine-tune the AI route building:
+
 
 | **Option** | **Description** |
-| --- | --- |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Planned start | This will become the planned date/time for each route that is generated. The start time will come from Settings → Environment -> [Hub: Routes Settings](../Hub_%20Environment%20Settings/Hub_%20Routes%20Settings.md). |
 | Maximum driving hours | The maximum number of hours allowed for each vehicle’s route. The limit is 24 hours. The number will come from Settings → Environment -> [Hub: Routes Settings](../Hub_%20Environment%20Settings/Hub_%20Routes%20Settings.md)**.** |
-| Offload by | *Offloading* is the removal of an order from a route. This can occur if there is insufficient vehicle capacity to accommodate all orders or if orders have to be removed to fit a vehicle route within the maximum driving hours. You can specify in what order orders are offloaded to meet these constraints: <br/>- `Distance - offload furthest first`. This will offload starting with orders furthest from the depot. This option is useful if you are best equipped to handle locations close to the depot and you may consider outsourcing/delaying the handling of orders further away. <br>- `Distance - offload closest first`. This is the opposite of the option above. <br>- `Weight - offload heaviest first`. This will offload starting with the heaviest orders. This option is useful if you are best equipped to handle lighter orders and you may consider outsourcing/delaying the handling of the heaviest orders. <br>- `Weight - offload lightest first`. This is the opposite of the option above. <br>- `Volume - offload largest first`. This will offload starting with the bulkiest orders. This option is useful if you are best equipped to handle smaller orders and you may consider outsourcing/delaying the handling of the bulkiest orders. <br>- `Volume - offload smallest first`. This is the opposite of the option above.  It may not be possible to express your preferences fully with these offloading options - remember that you can control the orders going into the route building and also adjust the routes once generated. |
+| Offload by | *Offloading* is the removal of an order from a route. This can occur if there is insufficient vehicle capacity to accommodate all orders or if orders have to be removed to fit a vehicle route within the maximum driving hours. You can specify in what order orders are offloaded to meet these constraints: - `Distance - offload furthest first`. This will offload starting with orders furthest from the depot. This option is useful if you are best equipped to handle locations close to the depot and you may consider outsourcing/delaying the handling of orders further away. - `Distance - offload closest first`. This is the opposite of the option above. - `Weight - offload heaviest first`. This will offload starting with the heaviest orders. This option is useful if you are best equipped to handle lighter orders and you may consider outsourcing/delaying the handling of the heaviest orders. - `Weight - offload lightest first`. This is the opposite of the option above. - `Volume - offload largest first`. This will offload starting with the bulkiest orders. This option is useful if you are best equipped to handle smaller orders and you may consider outsourcing/delaying the handling of the bulkiest orders. - `Volume - offload smallest first`. This is the opposite of the option above. It may not be possible to express your preferences fully with these offloading options - remember that you can control the orders going into the route building and also adjust the routes once generated. |
+| Vehicle categories | Vehicle categories let you group your fleet by type — for example vans, refrigerated trucks, or heavy-duty vehicles. Categories are defined in Settings → Vehicle categories in Hub and assigned to individual vehicles when adding or editing them in Settings → Vehicles**** in Hub.When building routes with AI, you can use the `Vehicle categories` selector (next to the *Offload by* field) to control which vehicles are available for planning. All categories are selected by default, so the entire fleet is considered. Deselecting a category excludes its vehicles from AI route building — only vehicles belonging to the selected categories will be assigned to routes. |
 | Minimize vehicles | Select this option if you want the route building to attempt to fit the orders on fewer than your full list of vehicles. |
 | Consider time windows | Select this option if you want to automatically optimize generated routes considering assigned order time windows ([Hub: Order Creation and Editing](Hub_%20Order%20Creation%20and%20Editing.md)). This option is only enabled if at least 1 order has required time windows. Otherwise, generated routes will optimized considering just traffic and distance data. Vehicle dimensions specified in Settings → Environment -> [Hub: Vehicles Settings](../Hub_%20Environment%20Settings/Hub_%20Vehicles%20Settings.md) will be considered automatically for building a route. You are not obliged to accept the suggested stops order. |
 
+
+![Screenshot 2026-09-01 at 15.43.24.png](/Documentation/attachments/mtiq298t-xvyxecee.png)
+
+![Screenshot 2026-09-01 at 15.43.31.png](/Documentation/attachments/mtiq2cud-wzx602pl.png)
+
 You can dismiss the dialog by pressing the `Close` button. If you press `Generate`, the route building will start.
 
-![Screenshot 2025-08-29 at 14.49.30.png](/Documentation/attachments/a80d4f7b-82d2-4fdb-8f04-ab438388f692.png)
+![Screenshot 2026-09-01 at 15.48.17.png](/Documentation/attachments/mtiq33au-38764h1f.png)
 
-### AI Route Building Process
+## AI Route Building Process
 
-Once the `Generate` button is pressed, you will be redirected to Route building page. At the top of the page, you will see the selected before data and options:
+Once the `Generate` button is pressed, you will be redirected to Route building page in Hub. At the top of the page, you will see the selected before data and options:
 
 - Orders - number of orders sent for route building.
 - Depots - number of depots assigned to selected orders.
 - Vehicles - number of vehicles used in route building.
-- Ran by - display name of a user who ran route building.
+- Run by - display name of a user who ran route building.
 - Created - date/time when route building was processed.
-- Planned start - date/time selected as a planned start for routes. See [Hub: AI Route Building](Hub_%20AI%20Route%20Building.md)above.
+- Planned start - date/time selected as a planned start for routes. See [Hub: AI Route Building](Hub_%20AI%20Route%20Building.md) above.
 - Maximum driving hours - maximum number of hours allowed for each vehicle’s route. See [Hub: AI Route Building](Hub_%20AI%20Route%20Building.md) above.
 - Offload by - option to remove orders if there is insufficient vehicle capacity to accommodate all orders, etc. See [Hub: AI Route Building](Hub_%20AI%20Route%20Building.md) above.
 - Minimize vehicles - option to attempt to fit orders on fewer than your full list of vehicles.
@@ -68,18 +74,20 @@ Once the `Generate` button is pressed, you will be redirected to Route building 
 
 On the right side of the page, you can see the live logs notifying you about the status of route building. On the left side, once the route building is completed, you can find the list of created routes with the number of orders in it, assigned depot, and vehicle.  If you have selected orders from more than 1 depot, logs and route building results will be shown right after processing each depot separately.
 
-### Reviewing the Results
+## Reviewing the Results
 
 Once routes are generated, you will see the results in the table view on the left side of Route building page:
 
-| **Name**   | **Description**                                                               |
-|:-----------|:------------------------------------------------------------------------------|
-| Route      | Route key. The name consists of a route planned date, depot, and trip number. |
-| Orders     | Number of orders in each route.                                               |
-| Depot      | Depot key. Assigned to a route depot.                                         |
-| Vehicle    | Vehicle key. Assigned to a route vehicle.                                     |
 
-![Screenshot 2025-08-29 at 14.50.31.png](/Documentation/attachments/659f1810-dc76-43d7-a722-629127db94e0.png)
+| **Name** | **Description** |
+| -------- | ----------------------------------------------------------------------------- |
+| Route | Route key. The name consists of a route planned date, depot, and trip number. |
+| Orders | Number of orders in each route. |
+| Depot | Depot key. Assigned to a route depot. |
+| Vehicle | Vehicle key. Assigned to a route vehicle. |
+
+
+![Screenshot 2026-09-01 at 15.49.22.png](/Documentation/attachments/mtiq4ibo-uax08zx7.png)
 
 The list of routes could be scrollable to check all created routes. By pressing the route key on one of the created routes, the selected route will be opened in the new tab of the browser.
 
@@ -95,10 +103,9 @@ Examples:
 
 “Depot address geo-location is not sufficiently accurate” means that you might need to go to Settings → Environment -> [Hub: Depots Settings](../Hub_%20Environment%20Settings/Hub_%20Depots%20Settings.md) and check if your depot address was properly geocoded.
 
-Route building creates routes like any other - you can access them through the Routes page. You can visualise generated routes by pressing the `Map view` button - see [Hub: Map View](../Hub_%20Map%20View.md).
+Route building creates routes like any other - you can access them through the Routes page in Hub. You can visualise generated routes by pressing the `Map view` button at the top right corner - see [Hub: Map View](../Hub_%20Map%20View.md).
 
-![Screenshot 2025-08-29 at 14.50.40.png](/Documentation/attachments/fef5c366-410f-428e-a211-d59ba8ca92e7.png)![Screenshot 2025-11-05 at 16.49.02.png](/Documentation/attachments/90696b81-38b5-4155-9df8-5b091f3be44d.png)
+You can return to the route building results later by pressing the `AI route building logs` button in the menu in Hub and pressing the card of the route building session you want to review.
 
-You can return to the route building results later by pressing the `Route building logs` button in the header toolbar and pressing the card of the route building session you want to review.
+![Screenshot 2026-09-01 at 16.01.32.png](/Documentation/attachments/mtiqk3ip-wlbbx4eu.png)
 
-![Screenshot 2025-08-29 at 14.48.33.png](/Documentation/attachments/5bdceb5e-6f1d-49c4-82c9-4ba532c686e5.png)
