@@ -11,3 +11,7 @@ description: "Geo2 documentation: Release Notes 5.4.1"
 Hub bug fix release:
 
 2026-08-25
+
+Mob bug fix release:
+
+2026-09-08
