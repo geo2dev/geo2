@@ -1,11 +1,10 @@
 ---
-slug: "/release-notes"
-sidebar_label: "Release Notes"
+slug: /release-notes
+sidebar_label: Release Notes
 sidebar_position: 3
-description: "Learn about the new features of each new release. This is useful for the evaluation of new features as you prepare for an upgrade."
+description: Learn about the new features of each new release. This is useful
+  for the evaluation of new features as you prepare for an upgrade.
 ---
-
-
 # Release Notes
 
 ## Introduction
@@ -149,4 +148,6 @@ Learn about the new features of each new release. This is useful for the evaluat
 - [Release Notes 5.3](Release%20Notes%205.3.md)
 - [Release Notes 5.3.1](Release%20Notes%205.3.1.md)
 - [Release Notes 5.3.2](Release%20Notes%205.3.2.md)
-- [Release Notes 5.4 (mobile app: pending)](Release%20Notes%205.4%20(mobile%20app_%20pending).md)
+- [Release Notes 5.4](https://help.geo2.com/release-notes/release-notes-5-4)
+- [Release Notes 5.4.1](https://help.geo2.com/release-notes/release-notes-5-4-1)
+
