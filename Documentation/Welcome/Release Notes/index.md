@@ -150,4 +150,5 @@ Learn about the new features of each new release. This is useful for the evaluat
 - [Release Notes 5.3.2](Release%20Notes%205.3.2.md)
 - [Release Notes 5.4](https://help.geo2.com/release-notes/release-notes-5-4)
 - [Release Notes 5.4.1](https://help.geo2.com/release-notes/release-notes-5-4-1)
+- [Release Notes 5.5](https://help.geo2.com/release-notes/release-notes-5-5)
 
