@@ -24,7 +24,7 @@ With a **Free** subscription in Geo2, you get access to a solid set of core feat
 - [Hub: Subscriptions](Hub_%20Subscriptions.md)
 - [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)
 - [Hub: Orders](Hub_%20Orders/index.md)
-- [Hub: Routes](Hub_%20Routes.md)
+- [Hub: Routes](Hub_%20Routes/index.md)
 - [Hub: Map View](Hub_%20Map%20View.md)
 - [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md)
 - [Hub: Analytics](Hub_%20Analytics.md)

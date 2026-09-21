@@ -22,4 +22,4 @@ Assign categories to users by going to Settings → Environment → Users in Hub
 
 Assign categories to users by going to Settings → Environment → Vehicles in Hub and pressing the Edit button to update the vehicle. On the Edit vehicle dialog, press the Vehicle categories selector. Remember to press `Save` to save changes.
 
-When planning a route on [Routes page](../Hub_%20Routes.md) in Hub or via Geo2 API, the system will match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.
+When planning a route on [Routes page](../Hub_%20Routes/index.md) in Hub or via Geo2 API, the system will match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.

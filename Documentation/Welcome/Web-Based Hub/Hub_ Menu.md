@@ -14,7 +14,7 @@ The vertical menu in Hub includes these options:
 - Environment selector
 - AI assistant
 - [Hub: Orders](Hub_%20Orders/index.md)
-- [Hub: Routes](Hub_%20Routes.md)
+- [Hub: Routes](Hub_%20Routes/index.md)
 - [Hub: Map View](Hub_%20Map%20View.md)
 - [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md)
 - [Hub: Analytics](Hub_%20Analytics.md)

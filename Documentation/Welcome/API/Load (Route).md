@@ -148,7 +148,7 @@ Example of a response after sending a request:
 }
 ```
 
-If a response status is OK, a load is created. It is also shown on [Hub: Routes](../Web-Based%20Hub/Hub_%20Routes.md) page in Hub.
+If a response status is OK, a load is created. It is also shown on [Hub: Routes](../Web-Based%20Hub/Hub_%20Routes/index.md) page in Hub.
 
 ## Update Load (Route)
 

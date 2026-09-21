@@ -42,7 +42,7 @@ Once information is provided, press the `Create` button and a depot will be crea
 
 ![Screenshot 2026-08-27 at 16.24.56.png](/Documentation/attachments/mtbk1t22-jdbx6pww.png)
 
-Optionally, you can select it as a default one. The default depot will be used for route creation but it can be changed.  Learn more about [Hub: Routes](../Hub_%20Routes.md). The default depot will be used for order import if the Depot field is blank. Learn more about [Hub: Order Import](../Hub_%20Orders/Hub_%20Order%20Import.md).
+Optionally, you can select it as a default one. The default depot will be used for route creation but it can be changed.  Learn more about [Hub: Routes](../Hub_%20Routes/index.md). The default depot will be used for order import if the Depot field is blank. Learn more about [Hub: Order Import](../Hub_%20Orders/Hub_%20Order%20Import.md).
 
 In the Depots table, you will see information from the key fields.  Values of other fields can be shown and edited by clicking the `Edit` icon at the end of the row.  Remember to press the `Save` button to save changes.
 
