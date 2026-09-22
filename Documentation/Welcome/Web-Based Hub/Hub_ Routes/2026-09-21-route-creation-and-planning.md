@@ -13,10 +13,10 @@ On the `Routes` page in Hub, press `Create` button to be redirected to Route cre
 
 
 | **Property** | **Description** |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Key | Your unique identifier for the route in this environment. It can be a route number, for example, 1, 2, 3, etc. By default, the route key is generated automatically based on the parameters configured in Settings → Routes → Route key autogeneration. Current date/time, depot, and trip are selected by default. |
 | Trip | A number you can use to indicate, for example, the order of routes for the same vehicle on the day, with the first route of the day being 1, a subsequent one being 2, etc. |
-| Status | - ![](/Documentation/attachments/06169052-cf2f-4da2-8c88-335e83f8986e.png) Planning - actively being planned - ![Screenshot 2024-12-09 at 13.27.36.png](/Documentation/attachments/b11d79b8-8e1c-485a-bff1-e549ac261a0e.png) Planned - planning is completed, but route has not yet been released to a driver - ![](/Documentation/attachments/c70b1fd7-3a16-49c5-816c-bf9590e64605.png) Released - released to a driver, so that they can work with it in the mobile app - ![](/Documentation/attachments/5676604f-5cf6-4126-ae96-849607910b63.png) Started - indicates the route has left the start point - ![](/Documentation/attachments/0aad8697-6b92-440c-b333-04299fd0e8f0.png) Completed - all work on the route has been completed; for example, the vehicle has returned to the end point |
+| Status | Planning - actively being planned Planned - planning is completed, but route has not yet been released to a driver Released - released to a driver, so that they can work with it in the mobile app Started - indicates the route has left the start point Completed - all work on the route has been completed; for example, the vehicle has returned to the end point |
 | Driver | User responsible for the route. Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](index.md) and on the [Hub: Analytics](../Hub_%20Analytics.md) on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](../Hub_%20Vehicle%20Checks.md). The driver’s location can also be displayed on Public tracking and Proof of delivery pages. However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). If you use [Vehicle categories](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicle-categories-settings/) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. |
 | Participants | Up to 2 additional users assigned to the route. Once released, the assigned participant sees the route in the mobile app. While the driver retains the ability to start and complete a route, participants will have access to a route to check the list of stops and create PODs for them. |
 | Route start | If you set up the default depot in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
@@ -230,21 +230,102 @@ Actual CO2 emissions are calculated from the actual distance, as recorded via de
 
 ![Screenshot 2026-09-21 at 16.50.43.png](/Documentation/attachments/mubd4eph-cggcbp3q.png)
 
+### Route Cost Calculation
+
+Geo2 can calculate the planned and actual cost of a route based on driver and vehicle costs configured for your environment. Route cost calculation can help you better understand the operational cost of your routes and compare planned performance with actual results.
+
+1. **Compare planned and actual route costs.**
+
+Use planned and actual costs to see whether a route was more expensive than expected. For example, if the actual route duration is significantly longer than planned, the **Driver time** and **Vehicle time** costs will also increase. This can help identify routes affected by delays, traffic, long service times, or inefficient sequencing.
+
+2. **Compare different routes.** 
+
+The **Total** and **Average per stop** values can help you compare routes with different numbers of stops. For example, two routes may have similar total costs, but one may have a much lower average cost per stop because it serves more customers within the same area.
+
+3. **Estimate driver costs.** 
+
+Configure an hourly cost for drivers to estimate how much driver time contributes to the overall cost of each route. This can be useful when comparing routes assigned to different drivers or when reviewing routes with unusually long working times.
+
+4. **Track vehicle running costs.**
+
+Configure vehicle costs per hour and per distance unit to estimate how much each vehicle contributes to route costs. For example, a larger vehicle may have a higher cost per mile than a smaller van. Comparing route costs can help you understand the financial impact of assigning different vehicles.
+
+5. **Identify expensive routes.**
+
+Use the **Total** route cost to identify routes that are significantly more expensive than others. You can then review factors such as route distance, duration, number of stops, assigned driver, and vehicle to understand what is driving the cost.
+
+6. **Evaluate cost per delivery.**
+
+Use **Average per stop** as a simple estimate of the operational cost of serving each stop on a route. This can be particularly useful when comparing dense urban routes with routes that cover larger geographic areas.
+
+7. **Review completed route performance.**
+
+After a route is completed, compare its planned and actual costs to understand how closely real operations matched the plan. Over time, this can help identify recurring differences between planned and actual route duration or mileage and support better operational planning.
+
+Go to `Settings → Environment → Display preferences` and select the Currency used for cost calculations. Geo2 automatically suggests a currency based on the environment country, but you can select a different currency if needed.
+
+> Changing the currency does not convert existing cost values. For example, if a cost is set to 10 EUR and the environment currency is later changed to USD, the value will be displayed as 10 USD.
+
+![mtbihub5-sybip2z7-cd07480f4fdbf8811916e4b09fe0ba9f.png](/Documentation/attachments/muckvmdp-5gu13l8p.png)
+
+**Configure driver costs:** 
+
+In `Settings → Environment → Users`, you can specify an optional **Cost per hour** for each user. The configured value is used to calculate the driver's cost based on the route duration. 
+
+![Screenshot 2026-09-22 at 13.17.55.png](/Documentation/attachments/muckz740-lo72ytbx.png)
+
+**Configure vehicle costs:** 
+
+In `Settings → Environment → Vehicles`, you can configure the following optional costs for each vehicle:
+
+- **Cost per distance unit** – the vehicle cost per mile or kilometer, depending on the environment distance unit.
+- **Cost per hour** – the vehicle's hourly running cost.
+
+These values can be added when creating or editing a vehicle and can also be included when importing vehicles.
+
+![mtcnif3r-8wsj556h-f0982963a61454d1955526210b57910e.png](/Documentation/attachments/muckx1nk-6uj5aiyk.png)
+
+**View route costs:**
+
+Open a route and find the Costs section below Capacity. The section displays both **Planned** and **Actual** costs:
+
+- **Driver time** – driver hourly cost × route duration
+- **Vehicle time** – vehicle hourly cost × route duration
+- **Vehicle mileage** – vehicle cost per distance unit × route distance
+- **Total** – driver time + vehicle time + vehicle mileage
+- **Average per stop** – total cost ÷ number of stops
+
+**Planned costs** are calculated using the planned route duration and distance. **Actual costs** are calculated using the actual route duration and distance and become available after the route is completed.
+
+![Screenshot 2026-09-22 at 13.18.15.png](/Documentation/attachments/muckzffr-eep4g0k4.png)
+
 ### Adding Driver Breaks
 
-It is possible to add driver breaks by pressing the `Actions` button and selecting the `Add driver break` option.
+It is possible to add driver breaks via Hub by pressing the `Actions` button and selecting the `Add break` option on Route view page.
 
-![Screenshot 2025-11-05 at 13.49.21.png](/Documentation/attachments/4fd1ddf8-a712-43d1-af4a-e1fbdc559259.png)
+![Screenshot 2026-09-22 at 12.53.47.png](/Documentation/attachments/muck3jvb-0roh24ko.png)
 
-You will see a prompt to specify the stop duration for this break.  You can specify it in minutes or hours. By default, a stop duration time is taken from [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md).
+You will see a prompt to specify the stop duration for this break and optional location (address). You can specify the stop duration in minutes or hours. By default, a stop duration time is taken from [Routes settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-routes-settings).
 
-![Screenshot 2025-08-29 at 15.51.57.png](/Documentation/attachments/ab159629-7128-47c5-8b97-3a9342f72f14.png)
+![Screenshot 2026-09-22 at 12.55.22.png](/Documentation/attachments/muck65e5-myuvvuuq.png)
 
-By pressing the `Add break` button, a break is added at the end of the stops list.  Press `Save` to recalibrate the route and update the planned time on the stops.  If you have provided vehicle dimensions in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+By pressing the `Add break` button, a break is added at the end of the stops list. The route is automatically calibrated. If you have provided vehicle dimensions in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
-It's possible to drag-and-drop a driver break similar to other stop cards to change its position in the list.  You can also edit it by pressing the `Edit` button near the time.  You can delete the break by pressing the `Delete` icon by hovering over the card.  Remember to save changes to re-calibrate the route.
+It's possible to drag-and-drop a driver break similar to other stop cards to change its position in the list.  
 
-![Screenshot 2025-11-05 at 13.16.38.png](/Documentation/attachments/1cf67f60-8485-4631-a8f5-e330505dd742.png)
+![Screenshot 2026-09-22 at 12.57.49.png](/Documentation/attachments/muck9ea4-mjmk1yxy.png)
+
+![Screenshot 2026-09-22 at 12.58.00.png](/Documentation/attachments/muck98hp-q9vtb6v7.png)
+
+You can also edit a break duration by pressing the `Edit` button near the time. By pressing the tick icon, the break stop duration will be updated and the route will re-calibrated automatically. 
+
+![Screenshot 2026-09-22 at 12.58.46.png](/Documentation/attachments/muckaryc-me1s92cn.png)
+
+![Screenshot 2026-09-22 at 12.58.57.png](/Documentation/attachments/muckaw6j-a0yfwdel.png)
+
+You can delete the break by pressing the `Delete` icon by hovering over the card. The route will re-calibrated automatically
+
+![Screenshot 2026-09-22 at 13.00.15.png](/Documentation/attachments/muckbtt2-36su896j.png)
 
 ### Re-ordering Orders
 
