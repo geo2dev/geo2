@@ -138,3 +138,67 @@ To narrow down the list of routes, you can set a filter in the Filtering section
 | Actual duration | From/To | Range of route actual duration. |
 | Actual distance | From/To | Range of route actual distance. |
 
+
+## Bulk Route Update
+
+Bulk route update lets you edit multiple routes at the same time from Routes page in Hub. It is useful when several routes need the same change, so you do not have to open and update each route individually.
+
+For example, you can use bulk update to:
+
+- Release multiple planned routes at once before drivers start their work.
+- Assign the same driver, vehicle, or area to several routes.
+- Change the planned start time for a group of routes.
+- Add participants to multiple routes.
+- Change the route start or end location for several routes.
+- Apply the same vehicle check requirements to multiple routes.
+
+To update routes in bulk:
+
+1. Go to Routes.
+2. Open the Last 7 days or Last 30 days view.
+3. Select the routes you want to update.
+4. Click `Bulk edit`.
+5. In the Edit routes dialog, enter values only for the fields you want to change.
+6. Click `Update`.
+
+The dialog displays the number of selected routes and their route keys so you can confirm which routes will be updated. Route keys cannot be changed using bulk update.
+
+![Screenshot 2026-09-22 at 17.06.40.png](/Documentation/attachments/muct4t9z-tf43e2w3.png)
+
+You can update the following route properties:
+
+- Trip
+- Status
+- Driver
+- Participants
+- Route start
+- Route end
+- Vehicle
+- Area
+- Planned start
+- Vehicle check on route start
+- Vehicle check on route completion
+
+![Screenshot 2026-09-22 at 17.07.08.png](/Documentation/attachments/muct617m-8v4vur9h.png)
+
+When changing the Route start or Route end, a map is available to help you select the required location.
+
+![Screenshot 2026-09-22 at 17.07.22.png](/Documentation/attachments/muct64c0-pyyz37vt.png)
+
+Only fields that you change in the Edit routes dialog are updated. For example, if you select 20 routes and specify only a new Planned start time, Geo2 updates the planned start time for all selected routes while keeping their existing drivers, vehicles, areas, statuses, and other settings unchanged.
+
+This makes it possible to safely update one or several shared properties without overwriting unrelated route information.
+
+Completed routes cannot be edited using bulk update.
+
+If your selection includes completed routes, Geo2 excludes them from the update and shows:
+
+- The number of selected routes.
+- The number of excluded routes.
+- The reason why the routes were excluded.
+
+The remaining eligible routes can still be updated.
+
+Bulk route update is available to users who have permission to edit routes.
+
+The feature is available across subscription levels. However, individual fields may still be restricted depending on your subscription. The same subscription limitations that apply when creating or editing a route also apply to bulk route updates.
