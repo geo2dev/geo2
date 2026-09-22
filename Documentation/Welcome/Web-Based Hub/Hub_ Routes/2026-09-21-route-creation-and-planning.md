@@ -329,47 +329,49 @@ You can delete the break by pressing the `Delete` icon by hovering over the card
 
 ### Re-ordering Orders
 
-You can drag-and-drop orders in the list to change their stop order. To speed up the process, you can use `Ctrl/Command+click` or `Shift+click` to select multiple stop cards and drag-and-drop them to change the stop order.
+You can drag-and-drop orders in the list to change their stop order. To speed up the process, you can use `Ctrl/Command+click` or `Shift+click` in Hub on Route view page to select multiple stop cards and drag-and-drop them to change the stop order.
 
 Additionally, you can press on a circle, shape, or rectangle icons at the bottom of the map to draw a figure and select stops. The selected stop cards will be highlighted in grey in the list, so you can drag-and-drop them within the list to change the stop order.
 
-![Screenshot 2025-11-05 at 13.23.46.png](/Documentation/attachments/09ab895f-e660-4f7f-8ebe-865d1ef888d4.png)
+![Screenshot 2026-09-22 at 13.44.40.png](/Documentation/attachments/muclwyp6-mnifwukw.png)
 
-Once you are happy with the result, press the `Save` button.  The route will be automatically recalibrated to update the planned time on the stops, route planned duration, distance, and end time.  If you have provided vehicle dimensions in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+Once you are happy with the result, press the `Save` button.  The route will be automatically recalibrated to update the planned time on the stops, route planned duration, distance, and end time.  If you have provided vehicle dimensions in [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
 ### Optimizing Route with Time Windows
 
-To use the Optimize with time windows option, press the `Actions` button and choose the `Optimize with time windows` option. Route optimization is available when a route has at least 2 orders.
+To use the Optimize with time windows option in Hub, press the `Actions` button on Route view page and choose the `Optimize with time windows` option. Route optimization is available when a route has at least 2 orders.
 
-![Screenshot 2025-11-05 at 14.00.39.png](/Documentation/attachments/39b9d643-aa1c-45b8-9e8c-10b725e4f6ef.png)
+![Screenshot 2026-09-22 at 13.47.38.png](/Documentation/attachments/mucm1ekr-skmi3770.png)
 
 Among these orders, there has to be at least 1 order with the provided required time slots (either “Required from”, or “Required to”, or both of them).
 
-![Screenshot 2025-11-05 at 14.02.39.png](/Documentation/attachments/2989e4f6-4272-4c0e-af2d-6841b28640ab.png)
+![Screenshot 2026-09-22 at 13.48.27.png](/Documentation/attachments/mucm22es-68yrgywz.png)
 
 When you press `Optimize with time windows`, the geo-locations of the assigned route start/end points and the orders will be used to suggest an optimum driving route as well as to match the required time windows for each order. The time window specified using the `Required from` and `Required to` fields inside an order is not considered a hard constraint by the system. That is, the system doesn't fail if the stop cannot be visited during the time window; instead, the system tries to find a route that visits the stop during its time window, but if time-window violations are inevitable, the system tries to find a solution that minimizes the time-window violation time for all stops in the problem.
 
-If you have provided vehicle dimensions in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+If you have provided vehicle dimensions in [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
 You are not obliged to accept the suggested order but to save changes, remember to press the `Save` button.
 
 Before optimization:
 
-![Screenshot 2025-11-05 at 14.03.29.png](/Documentation/attachments/7f023df9-d75c-42fd-92e8-0b425f2b4609.png)
+![Screenshot 2026-09-22 at 13.49.47.png](/Documentation/attachments/mucm40ab-jbjwqhfi.png)
 
 After optimization with time windows:
 
-![Screenshot 2025-11-05 at 14.03.50.png](/Documentation/attachments/15acd9be-2806-4d46-9aad-3e8014f64b44.png)
+![Screenshot 2026-09-22 at 13.50.01.png](/Documentation/attachments/mucm44fs-n2uvlup6.png)
 
-You can also optimize a selection of stops.  Use Ctrl+click/Command+click or Shift+click to select multiple stop cards and click on the `Optimize selection with time windows` to optimize a part of a route only.
+You can also optimize a selection of stops. Use Ctrl+click/Command+click or Shift+click on Route view page to select multiple stop cards and click on the `Optimize selection with time windows` to optimize a part of a route only.
+
+![Screenshot 2026-09-22 at 13.51.25.png](/Documentation/attachments/mucm6aad-i293ij5n.png)
 
 Before partial optimization:
 
-![Screenshot 2025-11-05 at 14.05.36.png](/Documentation/attachments/581e8a7a-7f2a-44b8-8e36-1278e9c25046.png)
+![Screenshot 2026-09-22 at 13.51.18.png](/Documentation/attachments/mucm6f67-fa08na4z.png)
 
 After partial optimization with time windows:
 
-![Screenshot 2025-11-05 at 14.05.51.png](/Documentation/attachments/328faf9c-6f21-400e-847e-1a6bd0ae8d7f.png)
+![Screenshot 2026-09-22 at 13.51.38.png](/Documentation/attachments/mucm6mae-zvrddpwt.png)
 
 You can only optimize stops that are located next to each other in a stop order.  Otherwise, you will see an error message 'Only neighbouring stops can be selected for partial optimization'.
 
