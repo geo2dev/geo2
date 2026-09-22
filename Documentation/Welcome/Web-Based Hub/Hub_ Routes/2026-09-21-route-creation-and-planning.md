@@ -238,11 +238,11 @@ Geo2 can calculate the planned and actual cost of a route based on driver and ve
 
 Use planned and actual costs to see whether a route was more expensive than expected. For example, if the actual route duration is significantly longer than planned, the **Driver time** and **Vehicle time** costs will also increase. This can help identify routes affected by delays, traffic, long service times, or inefficient sequencing.
 
-2. **Compare different routes.** 
+2. **Compare different routes.**
 
 The **Total** and **Average per stop** values can help you compare routes with different numbers of stops. For example, two routes may have similar total costs, but one may have a much lower average cost per stop because it serves more customers within the same area.
 
-3. **Estimate driver costs.** 
+3. **Estimate driver costs.**
 
 Configure an hourly cost for drivers to estimate how much driver time contributes to the overall cost of each route. This can be useful when comparing routes assigned to different drivers or when reviewing routes with unusually long working times.
 
@@ -532,57 +532,55 @@ Once a driver delivers an order and records the proof of delivery (POD), it will
 - orange icon for partially successful delivery/collection
 - red icon for failed delivery/collection
 
-![Screenshot 2025-08-29 at 16.30.53.png](/Documentation/attachments/90ede220-ef51-4b71-b8c2-16b32894fcc1.png)![Screenshot 2025-08-29 at 16.31.53.png](/Documentation/attachments/2aa2fe03-d824-45b3-b3eb-40630c9fba97.png)![Screenshot 2025-08-29 at 16.32.29.png](/Documentation/attachments/10953a73-eb78-413e-b229-061a29061ffd.png)
+![Screenshot 2026-09-22 at 16.12.16.png](/Documentation/attachments/mucr875o-mbka94sv.png)
 
-You can press the POD icon to check its details:
+![Screenshot 2026-09-22 at 16.12.48.png](/Documentation/attachments/mucr89gd-yay66ndd.png)
 
-![Screenshot 2025-08-29 at 16.32.57.png](/Documentation/attachments/4464b85f-3fc8-40f8-bedd-c3dd28168cea.png)
+![Screenshot 2026-09-22 at 16.13.17.png](/Documentation/attachments/mucr8bmo-cmzuek3a.png)
 
-If an order has several recorded POD's, they will be displayed in separate tabs as Pod 1, Pod 2, etc.
+You can press the POD icon to check its details. If an order has several recorded POD's, they will be displayed in separate tabs as Pod 1, Pod 2, etc.
 
-You can click on the Download PDF button to save POD as a PDF file.  If manual sending of POD is enabled in the POD notification settings, you will see the `Email to recipient` button.  By pressing it, the POD email will be sent to the recipient's email address. Learn how to set up [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md).
+![Screenshot 2026-09-22 at 16.13.47.png](/Documentation/attachments/mucr8riw-xgvx11kr.png)
 
-If you set up [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) for successful or failed delivery, emails with related subjects and attached reports will be sent to the recipient email address (if an order has it) and to fixed recipients (only for failed and partially successful emails if email addresses are specified in Environment settings).
+You can click on the Download PDF button to save POD as a PDF file. If manual sending of POD is enabled in the POD notification settings, you will see the `Email to recipient` button. By pressing it, the POD email will be sent to the recipient's email address. Learn how to set up [POD notification settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-proof-of-delivery-settings).
 
-![Screenshot 2025-08-27 at 15.29.00.png](/Documentation/attachments/bf3526dd-71c5-4d8d-8c17-4baee54cbeec.png)
+If you set up [POD notification settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-proof-of-delivery-settings) for successful or failed delivery, emails with related subjects and attached reports will be sent to the recipient email address (if an order has it) and to fixed recipients (only for failed and partially successful emails if email addresses are specified in Environment settings).
 
-By clicking on the `Check` button in the email, a recipient will be redirected to the public POD page with all the information recorded.  Your environment logo will be displayed at the top of the page.
+![Screenshot 2026-09-22 at 16.16.32.png](/Documentation/attachments/mucrc99u-a4eqba55.png)
 
-![POD 20250827_1 (1).png](/Documentation/attachments/9afde999-e015-4b68-8e0a-5d34328d01af.png)
+By clicking on the `Check` button in the email, a recipient will be redirected to the public POD page with all the information recorded. Your environment logo will be displayed at the top of the page.
+
+![Screenshot 2026-09-22 at 16.17.04.png](/Documentation/attachments/mucrcyhd-no3vy8nt.png)
 
 It's possible to download reports to a device.
 
-![POD 20250827_2 (1).png](/Documentation/attachments/b2d4bee8-a63f-45fe-ac90-7d29020714a8.png)
+![Screenshot 2026-09-22 at 16.17.23.png](/Documentation/attachments/mucrdd4n-ytzshur9.png)
 
-You can track the status of the emails sent on [Hub: Orders](../Hub_%20Orders/index.md) inside the Order details.
-
-![Order_20250829_9.png](/Documentation/attachments/123f0b4f-42b9-4b05-a050-29ae520da292.png)
+You can track the status of the emails sent on [Notification history tab](../Hub_%20Orders/index.md) inside the Order details.
 
 ### Public tracking
 
-Depending on [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md), once the status of a route reaches the appropriate value (e.g. in transit), a tracking email/SMS notification will be sent to the recipient's email address/mobile phone number (if an order has them).  You can add a public tracking link to it to check the approximate date/time of delivery and the driver's position on the map.
+Depending on [Public tracking settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-public-tracking-settings), once the status of a route reaches the appropriate value (e.g. in transit), a tracking email/SMS notification will be sent to the recipient's email address/mobile phone number (if an order has them). You can add a public tracking link to it to check the approximate date/time of delivery and the driver's position on the map.
 
-![Screenshot 2025-08-27 at 15.42.31.png](/Documentation/attachments/f472d88b-d19e-4a21-abc8-08baa0b37a54.png)
+![Screenshot 2026-09-22 at 16.00.05.png](/Documentation/attachments/mucqvd1t-0aohfj8h.png)
 
-You can track the status of the emails/SMS notifications sent on [Hub: Orders](../Hub_%20Orders/index.md) inside the Order details.
+You can track the status of the emails/SMS notifications sent on [Notification history tab](../Hub_%20Orders/index.md) inside the Order details in Hub.
 
-![Order_20250829_9.png](/Documentation/attachments/123f0b4f-42b9-4b05-a050-29ae520da292.png)
+![Screenshot 2026-09-22 at 16.04.22.png](/Documentation/attachments/mucqwuz5-s47os094.png)
 
-By clicking on the `Check` button in the email or a tracking link in the SMS, the recipient will be taken to Public tracking page.  Your environment logo will be displayed at the top of the page.
+By clicking on the `Check` button in the email or a tracking link in the SMS, the recipient will be taken to Public tracking page. Your environment logo will be displayed at the top of the page.
 
-![Screenshot 2025-08-27 at 15.43.36.png](/Documentation/attachments/62e853db-444e-46ec-a6fa-7cdc0b44639b.png)
+![Screenshot 2026-09-22 at 16.08.31.png](/Documentation/attachments/mucr1z1r-2o8961yn.png)
 
 ### Complete Route
 
-To complete a route, a driver needs to click on the `Complete` button in the mobile app.  The status can be changed in Hub as well.
+To complete a route, a driver needs to click on the `Complete` button in the mobile app. The status can be changed in Hub as well.
 
-If a route is completed from the mobile app, you will see the tracked data about the actual distance from the mobile app.  If a route is completed from the web or API, it takes the last data from the mobile app however, you can change it on Edit route page. 
+If a route is completed from the mobile app, you will see the tracked data about the actual distance from the mobile app. If a route is completed from the web or API, it takes the last data from the mobile app however, you can change it on Edit route page. 
 
-![Screenshot 2025-11-05 at 14.52.49.png](/Documentation/attachments/77c4f94d-faed-4b74-8aa2-55d6513e09bd.png)
+![Screenshot 2026-09-22 at 16.18.15.png](/Documentation/attachments/mucregtd-ccfip11m.png)
 
 ### Marking Route for Export
 
-When you press `Export`, the order in the route will be added to the API export queue.  This is useful if an external application uses the API to pick up routes/orders highlighted by a planner.
-
-## See Also
+When you press `Export` in Hub on Route view page the order in the route will be added to the API export queue. This is useful if an external application uses the API to pick up routes/orders highlighted by a planner.
 
