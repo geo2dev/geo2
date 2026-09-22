@@ -377,50 +377,51 @@ You can only optimize stops that are located next to each other in a stop order.
 
 ### Optimizing Route without Time Windows
 
-To use the Optimize without time windows option, press the `Actions` button and choose the `Optimize without time windows` option.
+To use the Optimize without time windows option in Hub, press the `Actions` button on Route view page and choose the `Optimize without time windows` option.
 
-![Screenshot 2025-11-05 at 14.07.07.png](/Documentation/attachments/ef689d5c-ce4b-4a71-a120-a77d799e78f3.png)
+![Screenshot 2026-09-22 at 13.53.08.png](/Documentation/attachments/mucm7uyf-45mq4mny.png)
 
-When you press `Optimize without time windows`, the geo-locations of the assigned route start/end points and the orders will be used to suggest an optimum driving route.  The order of the orders may be changed and the planned timings and distance of the route updated.  If you have provided vehicle dimensions in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+When you press `Optimize without time windows`, the geo-locations of the assigned route start/end points and the orders will be used to suggest an optimum driving route. The order of the orders may be changed and the planned timings and distance of the route updated. If you have provided vehicle dimensions in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
 You are not obliged to accept the suggested order but to save changes, remember to press the `Save` button.
 
-Optimization with time windows:
+Before optimization:
 
-![Screenshot 2025-11-05 at 14.08.29.png](/Documentation/attachments/19810ff6-9c00-4e44-bf7e-d3bb21fc59b7.png)![Screenshot 2025-11-05 at 14.03.50.png](/Documentation/attachments/15acd9be-2806-4d46-9aad-3e8014f64b44.png)
+![Screenshot 2026-09-22 at 13.54.25.png](/Documentation/attachments/mucm9zhi-pdxteztt.png)
 
-Optimization without time windows:
+After optimization without time windows:
 
-![Screenshot 2025-11-05 at 14.08.15.png](/Documentation/attachments/c9d7d1cb-5cc9-4b33-9bcb-ffb21959a37b.png)![Screenshot 2025-11-05 at 14.08.08.png](/Documentation/attachments/7d06401c-4dba-4422-8092-77cab365281e.png)
+![Screenshot 2026-09-22 at 13.54.33.png](/Documentation/attachments/mucma419-d9w5358z.png)
 
-You can also optimize a selection of stops.  Use Ctrl+click/Command+click or Shift+click to select multiple stop cards and click on the `Optimize selection without time windows` to optimize a part of a route only.
+You can also optimize a selection of stops in Hub. Use Ctrl+click/Command+click or Shift+click to select multiple stop cards and click on the `Optimize selection without time windows` to optimize a part of a route only.
 
-![Screenshot 2025-11-05 at 14.10.15.png](/Documentation/attachments/48d4444e-68c7-4c93-8af3-28be65741a38.png)
+![Screenshot 2026-09-22 at 13.55.53.png](/Documentation/attachments/mucmbqd0-ppdsh4dj.png)
 
 Before partial optimization:
 
-![Screenshot 2025-11-05 at 14.10.23.png](/Documentation/attachments/e2db870c-f2a6-4c9d-aa16-925b99891c06.png)
+![Screenshot 2026-09-22 at 13.55.47.png](/Documentation/attachments/mucmbwbw-41ukv3c1.png)
 
 After partial optimization:
 
-![Screenshot 2025-11-05 at 14.10.32.png](/Documentation/attachments/6dceaf94-f3a0-4ace-a0e6-4c1fb8291479.png)
+![Screenshot 2026-09-22 at 13.56.02.png](/Documentation/attachments/mucmbzbn-gnxo4ig8.png)
 
-You can only optimize stops that are located next to each other in a stop order.  Otherwise, you will see an error message 'Only neighbouring stops can be selected for partial optimization'. 
+You can only optimize stops that are located next to each other in a stop order. Otherwise, you will see an error message 'Only neighbouring stops can be selected for partial optimization'. 
 
 ### Calibrating Route
 
-To use the Calibrate option, you need to click on the `Actions` button and choose the `Calibrate` option.  When you press `Calibrate`, the planned timings and distance of the route will be calculated without modifying the orders list. If you have provided vehicle dimensions in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+To use the Calibrate option in Hub, you need to click on the `Actions` button on Route view page and choose the `Calibrate` option. When you press `Calibrate`, the planned timings and distance of the route will be calculated without modifying the orders list. If you have provided vehicle dimensions in [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
-Automatic calibration is applied in most cases so you do not need to press `Calibrate`:
+Automatic route calibration is applied in most cases so you do not need to press `Calibrate`:
 
 - adding orders to a route and closing the Add orders popup
-- deleting an order from a route and pressing `Save`
+- adding/updating/deleting a break 
+- deleting an order from a route
 - deleting/updating a route in an order (not in the completed route)
-- changing time-at-stop on route stops and pressing `Save`
+- changing time-at-stop on route stops
 - changing a route planned start time
 - changing (shuffling) stop order and pressing `Save`
 - changing vehicle in a route
-- reversing stops and pressing Save
+- reversing stops 
 - editing route start/end points
 
 Exceptions when automatic calibration is not applied:
@@ -431,93 +432,97 @@ Exceptions when automatic calibration is not applied:
 - if you change a recipient address inside an order
 - if you change stop duration inside an order
 
-You will be notified to re-calibrate the route when automatic calibration is not applied.  **It is not possible to run calibration or optimization if a route is already completed.**
+You will be notified to re-calibrate the route when automatic calibration is not applied. **It is not possible to run calibration or optimization if a route is already completed.**
 
 Before calibration:
 
-![Screenshot 2025-11-05 at 14.12.41.png](/Documentation/attachments/bc90282d-80c0-4bcd-b959-7d68edc67eef.png)
+![Screenshot 2026-09-22 at 13.59.02.png](/Documentation/attachments/mucmftd8-46k9vxyj.png)
 
-After auto-calibration (by pressing `Save` button):
+After auto-calibration:
 
-![Screenshot 2025-11-05 at 14.12.53.png](/Documentation/attachments/a8c18446-d0ab-41f1-bfff-68919e21f5df.png)
+![Screenshot 2026-09-22 at 13.59.14.png](/Documentation/attachments/mucmfwrc-0vu5gckm.png)
 
 ### Reversing Stops in Route
 
-To use the Reverse option, you need to click on the `Actions` button and choose the `Reverse stops` option.  This means if you choose to, you can reverse the order in which you deliver your orders (to start from the last order and finish on the first one with all stops also reversed accordingly). 
+To use the Reverse stops option in Hub, you need to click on the `Actions` button on Route view page and choose the `Reverse stops` option. This means if you choose to, you can reverse the order in which you deliver your orders (to start from the last order and finish on the first one with all stops also reversed accordingly). 
 
-Once you are satisfied with the order of stops, press the `Save` button.  The system will then automatically update the planned time on each order, as well as the planned distance and duration of the route. If you have provided vehicle dimensions in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+The system will then automatically update the planned time on each order, as well as the planned distance and duration of the route. If you have provided vehicle dimensions in [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
-![Screenshot 2025-11-05 at 14.25.15.png](/Documentation/attachments/b1717546-79f9-4f00-aa2d-c9e90272f470.png)
+![Screenshot 2026-09-22 at 14.00.46.png](/Documentation/attachments/mucmhpox-v6r4ddsa.png)
 
 ### Bulk Update of Committed Date/Time
 
-The committed ETA for an order lets you indicate that a specific deadline has been agreed with the recipient and that it is important the driver adhere to it.  When you press `Update committed ETA` and `Save`, the planned date/time for each order is copied to its committed ETA.  This is useful once you have calibrated the route and you want to indicate to the driver that they must adhere to the planned arrival date/times.
+The committed ETA for an order lets you indicate that a specific deadline has been agreed with the recipient and that it is important the driver adhere to it.  When you press `Update committed ETA` on Route view page in Hub and `Save`, the planned date/time for each order is copied to its committed ETA. This is useful once you have calibrated the route and you want to indicate to the driver that they must adhere to the planned arrival date/times.
 
-![Screenshot 2025-08-29 at 16.08.39.png](/Documentation/attachments/6a9fec47-5565-4a30-942e-a4fff5db4fc9.png)
+![Screenshot 2026-09-22 at 14.03.41.png](/Documentation/attachments/mucmmcie-prywgfn0.png)
+
+![Screenshot 2026-09-22 at 14.04.14.png](/Documentation/attachments/mucmmf61-bkujd4kq.png)
 
 ### Bulk Move Orders between Routes
 
-For moving multiple orders from one route to another, you need to select stops in the list by using Ctrl/Command+click or Shift+click, or by choosing route stops on the map by using Shift+Ctrl/Command+click.  Once stops are selected, you need to click on the `Actions` button and choose the `Move to route` option or press the `Move to route` button on the map.
+For moving multiple orders from one route to another in Hub, you need to select stops in the list by using `Ctrl/Command+click` or `Shift+click`, or by choosing route stops on the map by using figures at the bottom of the map on Route view page. Once stops are selected, you need to click on the `Actions` button and choose the `Move to route` option or press the `Move to route` button on the map.
 
-![Screenshot 2025-11-05 at 14.43.43.png](/Documentation/attachments/4c986597-4404-40db-a116-007a3ddd3ee3.png)
+![Screenshot 2026-09-22 at 14.05.46.png](/Documentation/attachments/mucmorbc-zohalmyd.png)
 
 On the `Move to selected route` dialog, choose the route you want the orders to move to (destination route).
 
-![Screenshot 2025-11-05 at 14.43.50.png](/Documentation/attachments/920af228-cddb-447d-9dd2-d7313dbcde2c.png)
+![Screenshot 2026-09-22 at 14.05.52.png](/Documentation/attachments/mucmpivh-s2vb9fe0.png)
 
-Once the orders are moved, the route the orders came from (source route) is calibrated automatically.   We do not apply automatic calibration to the destination route - calibrate it manually once you have finished arranging its stop order.
+Once the orders are moved, the route the orders came from (source route) is calibrated automatically.  We do not apply automatic calibration to the destination route - calibrate it manually once you have finished arranging its stop order.
 
-![Screenshot 2025-11-05 at 14.44.04.png](/Documentation/attachments/fc24f21b-f387-42a7-8466-d8a74f8d376b.png)
+![Screenshot 2026-09-22 at 14.06.13.png](/Documentation/attachments/mucmpri4-w244fg10.png)
 
 ### Route Map
 
 The default route view shows a map for the route on the right-hand side, with the route start/end points and all of the stop locations.
 
-Deliveries are shown with blue location pins, while collections are orange.  A filled blue circle indicates multiple orders in the same location.  The route between the stops is indicated with straight lines for simplicity.  Further details of each stop are shown when you click the location marker.
+Deliveries are shown with blue location pins, while collections are orange. A filled blue circle indicates multiple orders in the same location. The route between the stops is indicated with straight lines for simplicity. Further details of each stop are shown when you click the location marker.
 
-![Screenshot 2025-11-05 at 14.46.57.png](/Documentation/attachments/77caac4e-c93a-4c02-af9c-af5cbd7d74e1.png)
+![Screenshot 2026-09-22 at 14.09.38.png](/Documentation/attachments/mucmt3gx-exujf1vl.png)
 
-#### Road View Toggle
+### Road View Toggle
 
-If you enable the `Road view` selector on the map, you will see a suggested route on the road network.  The Duration takes into account projected traffic conditions.
+If you enable the `Road view` selector on the map on Route view page in Hub, you will see a suggested route on the road network. The Duration takes into account projected traffic conditions.
 
-![Screenshot 2025-11-05 at 14.47.51.png](/Documentation/attachments/e1910d6b-b162-4378-8850-d190e97b8d76.png)![Screenshot 2025-11-05 at 14.48.00.png](/Documentation/attachments/7119e159-7cda-477e-94c2-729c7ab1ef56.png)
+![Screenshot 2026-09-22 at 14.10.32.png](/Documentation/attachments/mucmudr1-1xd6lf5n.png)
 
-#### Hold View Toggle
+![Screenshot 2026-09-22 at 14.10.10.png](/Documentation/attachments/mucmuh8h-1w0nxqlm.png)
 
-By default, the map zoom resets when you change the stop order.  Press `Hold view` to hold the map zoom.  This still lets you zoom in and out on the map but it will not be automatically zoomed out when you make some changes in the orders list.
+### Hold View Toggle
 
-![Screenshot 2025-11-05 at 14.48.38.png](/Documentation/attachments/9820efd3-3cc6-4be5-b1f3-90790003c581.png)
+By default, the map zoom resets when you change the stop order. Press `Hold view` on Route view page inHub to hold the map zoom. This still lets you zoom in and out on the map but it will not be automatically zoomed out when you make some changes in the orders list.
 
-#### Bulk Move Orders between Routes
+![Screenshot 2026-09-22 at 14.11.18.png](/Documentation/attachments/mucmv7dh-ft23c8go.png)
 
-To move orders from one route to another, you can select stops on the map one-by-one using Ctrl/Command+click or by drawing figures using tools the bottom of the map - circle, shape or rectangle.  Once stops are selected, they will be highlighted with a red colour.
+### Bulk Move Orders between Routes
 
-![Screenshot 2025-11-05 at 14.51.07.png](/Documentation/attachments/bac4c1e6-7e0f-424d-accd-ad7a1e2c4ff8.png)
+To move orders from one route to another, you can select stops on the map one-by-one using `Ctrl/Command+click` or by drawing figures using tools the bottom of the map - circle, shape or rectangle.  Once stops are selected, they will be highlighted with a red colour.
 
-Next, press the `Move to route` button.  It is possible to move orders only when the order depot matches the route depot.  On the `Move to selected route` dialog, choose the route you want the orders to move to (destination route).
+![Screenshot 2026-09-22 at 14.05.46.png](/Documentation/attachments/mucmwvqf-gfg95wyv.png)
 
-![Screenshot 2025-11-05 at 14.43.50.png](/Documentation/attachments/920af228-cddb-447d-9dd2-d7313dbcde2c.png)
+Next, press the `Move to route` button either under the Actions button or on the map. It is possible to move orders only when the order depot matches the route depot. On the `Move to selected route` dialog, choose the route you want the orders to move to (destination route).
+
+![Screenshot 2026-09-22 at 14.05.52.png](/Documentation/attachments/mucmxe4o-8a4tnom3.png)
 
 Once the orders are moved, the route the orders came from (source route) is calibrated automatically.   We do not apply automatic calibration to the destination route - calibrate it manually once you have finished arranging its stop order.
 
-![Screenshot 2025-11-05 at 14.44.04.png](/Documentation/attachments/fc24f21b-f387-42a7-8466-d8a74f8d376b.png)
+![Screenshot 2026-09-22 at 14.06.13.png](/Documentation/attachments/mucmxiwr-w8z2ljee.png)
 
-#### Route Tracking
+### Route Tracking
 
-Once the route is started by a driver in the mobile app, the "Tracking" toggle will be displayed on the route map.  Enable it to check the driver's precise location and their actual route.  It is required to enable the location tracking both in the device and app settings to get the tracking data.  Otherwise, the driver's location will not be displayed.
+Once the route is started by a driver in the mobile app, the `Tracking` toggle will be displayed on the route map in Hub. Enable it to check the driver's precise location and their actual route. It is required to enable the location tracking both in the device and app settings to get the tracking data. Otherwise, the driver's location will not be displayed.
 
 You can also download the tracking data by pressing the `Download` button.
 
 ### Saving Route Changes
 
-For any edits, press `Save` to save them.  The route map updates once the route is saved.
+For any edits, press `Save` to save them. The route map updates once the route is saved.
 
 ### Release Route
 
-Once a route is optimized and ready to be started, you need to change the status of the route to Released and save changes.  It will be displayed in the mobile app of the assigned driver.  A driver needs to click on the `Start` button to start the route.  All changes will be displayed on the Hub user interface as well.
+Once a route is optimized and ready to be started, you need to change the status of the route to Released and save changes. It will be displayed in the mobile app of the assigned driver. A driver needs to click on the `Start` button to start the route. All changes will be displayed on the Hub user interface as well.
 
-![Screenshot 2025-11-05 at 14.53.34.png](/Documentation/attachments/dd663678-0fbf-4189-baf9-bf529d682bb0.png)
+![Screenshot 2026-09-22 at 14.14.16.png](/Documentation/attachments/mucmz15j-ncvczqzi.png)
 
 ### Proof of Delivery
 
