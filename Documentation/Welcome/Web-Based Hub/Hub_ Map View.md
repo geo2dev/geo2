@@ -91,16 +91,16 @@ You can customize the information displayed on the stop card in the collapsed an
 
 ## Modifying Routes
 
-On each route card, you can make the same changes that are available in the [Hub: Routes](Hub_%20Routes/index.md) page for a single route:
+On each route card, you can make the same changes that are available on Route view page for a single route:
 
 - edit route properties by clicking the route key to be redirected to route editing
 - remove a route from Map view page by pressing the `Delete` icon on a route card
-- create or add orders
+- create or add orders, import from images or PDF files
 - edit order properties by clicking the order key to be redirected to order editing
 - remove orders from a route by pressing the `Delete` icon on an order card or `Remove` button (orders will be moved to the No route card and be still visualised on the Map view page to continue working with them, for example, moving to other routes or create a route for them)
 - re-order orders inside a route or between routes via `drag-and-drop`
 - add driver breaks
-- optimize the route with time windows
+- optimize a route with time windows
 - optimize a route without time windows
 - calibrate a route (without optimisation)
 - update orders' committed ETAs
@@ -110,172 +110,174 @@ On each route card, you can make the same changes that are available in the [Hub
 - view route on the interactive map
 - export orders to synchronise the changes made in Geo2 to the other systems you have integrated via Geo2's API, such as your ERP or WMS.
 
-To save changes to a route, press the `Save` button inside the route card. If you have provided vehicle dimensions in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
+To save changes to a route, press the `Save` button inside the route card. If you have provided vehicle dimensions in [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
-Learn more about [Hub: Routes](Hub_%20Routes/index.md).
+Learn more about [route planning](https://help.geo2.com/web-based-hub/hub-routes/hub-route-creation-and-planning).
 
 You can also drag-and-drop route cards to change their position on the page. For example, you may want to move a route to the top of the page, to be as close as possible to the map or make it a focus on the page for any other reason.
 
-![Screenshot 2025-11-05 at 15.59.47.png](/Documentation/attachments/e1e2abad-7f57-4cf9-84ca-113fed9c5f6e.png)
+![Screenshot 2026-09-23 at 13.30.09.png](/Documentation/attachments/mue0u62j-sgm4v3cd.png)
 
 ## Map
 
-Up to 20 routes can be shown on the map simultaneously with assigned route start/end points and stop locations. The colour used to show the route on the map is the same as the colour of the frame and selection checkbox in each visible route card.
+Up to 40 routes can be shown on the map simultaneously with assigned route start/end points and stop locations. The colour used to show the route on the map is the same as the colour of the frame and selection checkbox in each visible route card.
 
 The route between the stops is indicated with straight lines for simplicity but you can enable road view.
 
-![Screenshot 2025-11-05 at 16.02.06.png](/Documentation/attachments/5a1320d6-4318-4d73-ba18-3f3082fa11ce.png)
+![Screenshot 2026-09-23 at 13.30.56.png](/Documentation/attachments/mue0vhmi-m9t1889q.png)
 
 Further details of each stop are shown when you click the location marker.
 
-![Screenshot 2025-11-05 at 16.02.32.png](/Documentation/attachments/fb63ee97-8cdc-48c5-bfd1-67ea20c14139.png)
+![Screenshot 2026-09-23 at 13.31.05.png](/Documentation/attachments/mue0vkna-v79isrss.png)
 
 ### Road View Toggle
 
-If you enable the `Road view` selector on the map, you will see a suggested route on the road network.  The Duration takes into account projected traffic conditions.
+If you enable the `Road view` selector on the map, you will see a suggested route on the road network. The Duration takes into account projected traffic conditions.
 
-![Screenshot 2025-11-05 at 16.03.00.png](/Documentation/attachments/dea95617-8123-463f-8f38-e2cb5e0079ee.png)
+![Screenshot 2026-09-23 at 13.32.20.png](/Documentation/attachments/mue0wzai-02vvbtx7.png)
 
 ### Hold View Toggle
 
 By default, the map zoom resets when you change the stop order.  Press `Hold view` to hold the map zoom.  This still lets you zoom in and out on the map but it will not be automatically zoomed out when you make some changes in the orders list.
 
-![Screenshot 2025-11-05 at 16.03.35.png](/Documentation/attachments/437d553d-75fb-4d78-b1c7-4f0b997586f6.png)
+![Screenshot 2026-09-23 at 13.32.37.png](/Documentation/attachments/mue0xb44-hj6jxtzh.png)
 
 ### Bulk Move Orders between Routes
 
-To move orders from one route to another, you can select stops on the map one-by-one using Ctrl/Command+click or by drawing figures using tools the bottom of the map - circle, shape or rectangle.  Once stops are selected, they will be highlighted with a red colour.
+To move orders from one route to another, you can select stops on the map one-by-one using `Ctrl/Command+click` or by drawing figures using tools the bottom of the map - circle, shape or rectangle.  Once stops are selected, they will be highlighted with a red colour.
 
-Next, press the `Move to route` button. You can select and move stops from multiple routes visible on the map. **If a route starts or ends at a depot, orders with depots must match**: the delivery depot must align with the start, and the collection depot with the end. Orders without assigned depots can be added to any route, and if a route does not use a depot as its start or end point, any order, with or without a depot, can be added.
+Next, press the `Move to route` button on the map. You can select and move stops from multiple routes visible on the map. **If a route starts or ends at a depot, orders with depots must match**: the delivery depot must align with the start, and the collection depot with the end. Orders without assigned depots can be added to any route, and if a route does not use a depot as its start or end point, any order, with or without a depot, can be added.
 
-![Screenshot 2025-11-05 at 16.08.30.png](/Documentation/attachments/341207dc-ac8a-44d2-b116-775a0804ec57.png)
+![Screenshot 2026-09-23 at 13.33.32.png](/Documentation/attachments/mue0ygv1-hhqae7p7.png)
 
 On the Move to selected route pop-up, choose the route you want the orders to move to (destination route). We do not apply automatic calibration to the routes - calibrate it manually once you have finished arranging its stop order.
 
-![Screenshot 2025-11-05 at 16.09.11.png](/Documentation/attachments/9381f967-9b70-42ed-ae0b-ff3a7bad9d4f.png)
+![Screenshot 2026-09-23 at 13.34.03.png](/Documentation/attachments/mue0ze3f-8re5jszb.png)
 
 ### Route Creation for Selected Stops
 
-You can select stops directly on the map one-by-one using Ctrl/Command+click or by drawing a figure using tools at the bottom of the map — regardless of whether they are assigned to existing route — and click the `Create route` button.
+You can select stops directly on the map one-by-one using `Ctrl/Command+click` or by drawing a figure using tools at the bottom of the map — regardless of whether they are assigned to existing route — and click the `Create route` button.
 
-![Screenshot 2025-11-05 at 16.12.11.png](/Documentation/attachments/cfc22b95-b8a7-4d68-bae0-dd36e8290079.png)
+![Screenshot 2026-09-23 at 13.35.23.png](/Documentation/attachments/mue12ar9-k62l4ksc.png)
 
 The Create route dialog will be displayed where you provide the following information:
 
 
 | **Property** | **Description** |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Key | Your unique identifier for the route in this environment. It can be a route number, for example, 1, 2, 3, etc. |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Key | Your unique identifier for the route in this environment. It can be a route number, for example, 1, 2, 3, etc. By default, the route key is generated automatically based on the parameters configured in Settings → Routes → Route key autogeneration. Current date/time, depot, and trip are selected by default. |
 | Trip | A number you can use to indicate, for example, the order of routes for the same vehicle on the day, with the first route of the day being 1, a subsequent one being 2, etc. |
 | Status | `Planning` - actively being planned. `Planned` - planning is completed, but route has not yet been released to a driver. `Released` - released to a driver, so that they can work with it in the mobile app. `Started` - indicates the route has left the start point. `Completed` - all work on the route has been completed; for example, the vehicle has returned to the end point. |
-| Driver | User responsible for the route. Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes/index.md) and o**n the** [Hub: Analytics](Hub_%20Analytics.md) on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. |
-| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
+| Driver | User responsible for the route. Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed on [Route view](https://help.geo2.com/web-based-hub/hub-routes/hub-route-creation-and-planning#route-creation) and on the [Started Route Driver Position](https://help.geo2.com/web-based-hub/hub-analytics) on Dashboard page, as well as on the recorded [vehicle checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Public tracking](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-public-tracking-settings). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). If you use [Vehicle categories](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicle-categories-settings) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. |
+| Route start | If you set up the default depot in [Depots settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-depots-settings), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
 | Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route start field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
-| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. Vehicle dimensions specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)(“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
+| Vehicle | Vehicle assigned to the route. If you use [Vehicle categories](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicle-categories-settings) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. Vehicle dimensions specified in [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
 | Area | Area tag. You can set up the default user and vehicle for every area. When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
-| Planned start | Expected dispatch date/time of the route from the start point. The start time will come from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). |
+| Planned start | Expected dispatch date/time of the route from the start point. The start time will come from [Routes settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-routes-settings). |
 | Vehicle check on route start | Activate vehicle check in the mobile app when the route is being started. |
 | Vehicle check on route completion | Activate vehicle check in the mobile app when the route is being completed. |
 
 
-![Screenshot 2025-11-05 at 16.12.37.png](/Documentation/attachments/6cec5f2c-de9a-4e27-884f-3ee07759bd63.png)
+![Screenshot 2026-09-23 at 13.35.54.png](/Documentation/attachments/mue18qlh-jlsq0nu4.png)
 
-By pressing the `Create` button, if you selected orders from existing routes, you will be asked to confirm if you want to move them to a newly created route. **If a route starts or ends at a depot, orders with depots must match**: the delivery depot must align with the start, and the collection depot with the end. Orders without assigned depots can be added to any route, and if a route does not use a depot as its start or end point, any order, with or without a depot, can be added. Once confirmed, a new route will be created and added to the page either to the bottom of the Visible routes column or the Hidden column, if the number of routes in the Visible routes columns already exceeds 20.
+By pressing the `Create` button, if you selected orders from existing routes, you will be asked to confirm if you want to move them to a newly created route. **If a route starts or ends at a depot, orders with depots must match**: the delivery depot must align with the start, and the collection depot with the end. Orders without assigned depots can be added to any route, and if a route does not use a depot as its start or end point, any order, with or without a depot, can be added. Once confirmed, a new route will be created and added to the page either to the bottom of the Visible routes column or the Hidden column, if the number of routes in the Visible routes columns already exceeds 40.
 
-![Screenshot 2025-11-05 at 16.13.31.png](/Documentation/attachments/56b24ef7-4448-4e93-87ae-5f177a1bf745.png)
+![Screenshot 2026-09-23 at 13.36.25.png](/Documentation/attachments/mue1a18b-jr33nxqk.png)
 
 ## Creating Routes
 
-To create a new route, click the `Create route` button at the top of the Visible routes section.
+To create a new route, click the `Create route` button at the top of the Visible routes section on Map view page in Hub.
 
-![Screenshot 2025-11-05 at 16.20.54.png](/Documentation/attachments/515e9822-f78b-45ba-9796-72d8f9aa8c96.png)
+![Screenshot 2026-09-23 at 13.44.07.png](/Documentation/attachments/mue1c4lb-bmhhyf2u.png)
 
 The Create route dialog will be displayed where you provide the following information:
 
-![Screenshot 2025-11-05 at 16.21.09.png](/Documentation/attachments/38e3b46a-39d7-4fdf-9451-5666aac2bdba.png)
+![Screenshot 2026-09-23 at 13.44.45.png](/Documentation/attachments/mue1cxv7-81bjultn.png)
 
 
 | **Property** | **Description** |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Key | Your unique identifier for the route in this environment. It can be a route number, for example, 1, 2, 3, etc. |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Key | Your unique identifier for the route in this environment. It can be a route number, for example, 1, 2, 3, etc. By default, the route key is generated automatically based on the parameters configured in Settings → Routes → Route key autogeneration. Current date/time, depot, and trip are selected by default. |
 | Trip | A number you can use to indicate, for example, the order of routes for the same vehicle on the day, with the first route of the day being 1, a subsequent one being 2, etc. |
 | Status | `Planning` - actively being planned. `Planned` - planning is completed, but route has not yet been released to a driver. `Released` - released to a driver, so that they can work with it in the mobile app. `Started` - indicates the route has left the start point. `Completed` - all work on the route has been completed; for example, the vehicle has returned to the end point. |
-| Driver | User responsible for the route. Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes/index.md) and o**n the** [Hub: Analytics](Hub_%20Analytics.md) on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. |
-| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
+| Driver | User responsible for the route. Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed on [Route view](https://help.geo2.com/web-based-hub/hub-routes/hub-route-creation-and-planning) and on the [Started Route Driver Position](https://help.geo2.com/web-based-hub/hub-analytics) on Dashboard page, as well as on the recorded [vehicle checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Public tracking](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-public-tracking-settings). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). If you use [Vehicle categories](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicle-categories-settings) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. |
+| Route start | If you set up the default depot in [Depots settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-depots-settings), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
 | Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route start field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
-| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. Vehicle dimensions specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)(“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
+| Vehicle | Vehicle assigned to the route. If you use [Vehicle categories](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicle-categories-settings) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. Vehicle dimensions specified in [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
 | Area | Area tag. You can set up the default user and vehicle for every area. When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
-| Planned start | Expected dispatch date/time of the route from the start point. The start time will come from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). |
+| Planned start | Expected dispatch date/time of the route from the start point. The start time will come from [Routes settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-routes-settings). |
 | Vehicle check on route start | Activate vehicle check in the mobile app when the route is being started. |
 | Vehicle check on route completion | Activate vehicle check in the mobile app when the route is being completed. |
 
 
-By pressing the `Create` button, a new route will be created and added to the page either to the bottom of the Visible routes column or the Hidden column, if the number of routes in the Visible routes columns already exceeds 20. You can continue working with it, for example, to add orders, optimize the route, etc.
-
-![Screenshot 2025-11-05 at 16.23.39.png](/Documentation/attachments/1304bd60-5b54-482d-812d-561586645a18.png)
+By pressing the `Create` button, a new route will be created and added to the page either to the bottom of the Visible routes column or the Hidden column, if the number of routes in the Visible routes columns already exceeds 40. You can continue working with it, for example, to add orders, optimize the route, etc.
 
 ## Adding Routes
 
-To add existing routes to Map view page, press the `Add routes` button at the top of the Visible routes section.
+To add existing routes to Map view page in Hub, press the `Add routes` button at the top of the Visible routes section.
 
-![Screenshot 2025-11-05 at 16.27.06.png](/Documentation/attachments/90703c8a-5c59-41be-9129-31255b7245f3.png)
+![Screenshot 2026-09-23 at 13.56.03.png](/Documentation/attachments/mue1s3gp-ey5td3t9.png)
 
-You will see the Add routes dialog where you can select routes to be added to the page. Use checkboxes or Ctrl/Command+click to select routes one-by-one, or Shift+click to select multiple routes at once. If required, drag-and-drop the newly added routes to the Visible routes column. By default, they will be added to the bottom of the column but if that exceeds 20 routes, they will be moved to the Hidden routes column.
+You will see the Add routes dialog where you can select routes to be added to the page. Use checkboxes or `Ctrl/Command+click` to select routes one-by-one, or `Shift+click` to select multiple routes at once. If required, drag-and-drop the newly added routes to the Visible routes column. By default, they will be added to the bottom of the column but if that exceeds 40 routes, they will be moved to the Hidden routes column.
 
-![Screenshot 2025-11-05 at 16.27.40.png](/Documentation/attachments/484bf577-abed-42a2-9c6d-115bf8637b9f.png)
+![Screenshot 2026-09-23 at 13.56.10.png](/Documentation/attachments/mue1sl6j-g02u640m.png)
+
+![Screenshot 2026-09-23 at 13.56.27.png](/Documentation/attachments/mue1spiu-lmfi2wa0.png)
 
 ## Creating Orders
 
-Click the `Create order` button at the top of the Visible routes section to create a new order.
+Click the `Create order` button at the top of the Visible routes section on Map view page in Hub to create a new order.
 
-![Screenshot 2025-11-05 at 16.32.11.png](/Documentation/attachments/d50cfe15-4c4c-45d3-b469-1f9eb0eabfa7.png)
+![Screenshot 2026-09-23 at 14.03.03.png](/Documentation/attachments/mue20gib-wonwiyem.png)
 
 Once selected, the Create order dialog will appear, allowing you to quickly fill in details, provide a recipient’s address, adjust the map pin, and generate an order instantly. Start by typing a recipient’s address into the Address line 1. As you type, matching results will appear automatically. Select the correct address from the list, or click `Can’t find address…?` to enter it manually if no results match.
 
-![Screenshot 2025-11-05 at 16.34.08.png](/Documentation/attachments/5ce76af8-eb57-4a0e-9cc8-bac7a9759576.png)
+![Screenshot 2026-09-23 at 14.03.36.png](/Documentation/attachments/mue21671-8gmu845k.png)
 
 By pressing the `Create` button, the order will be created with an autogenerated order key (based on the current date and time) and added to No route card. It is displayed in a grey colour on the map. Now, you can create a route for this order or add it to one of existing routes.
 
-![Screenshot 2025-11-05 at 16.34.41.png](/Documentation/attachments/957aef70-8862-4eaf-a8e1-2ea0c006b6bc.png)
+![Screenshot 2026-09-23 at 14.04.17.png](/Documentation/attachments/mue2217x-ag0iduth.png)
 
 ## Adding Unassigned Orders
 
 To add orders not yet assigned to any route to Map view page, press the `Add orders` button at the top of the Visible routes section.
 
-![Screenshot 2025-11-05 at 16.36.44.png](/Documentation/attachments/ffc080af-d005-4f53-8ab8-c2987046fd20.png)
+![Screenshot 2026-09-23 at 14.05.11.png](/Documentation/attachments/mue236tu-n1kry6kt.png)
 
-You will see the Add orders dialog where you can select orders to be added to the page. Use checkboxes or Ctrl/Command+click to select orders one-by-one, or Shift+click to select multiple orders at once. You can drag selected orders either to an existing route card or the special No route card. To move orders to an existing route, expand the route card and drag-and-drop them to a specific position in the stops list of the route. **If a route starts or ends at a depot, orders with depots must match**: the delivery depot must align with the start, and the collection depot with the end. Orders without assigned depots can be added to any route, and if a route does not use a depot as its start or end point, any order, with or without a depot, can be added.
+You will see the Add orders dialog where you can select orders to be added to the page. Use checkboxes or `Ctrl/Command+click` to select orders one-by-one, or `Shift+click` to select multiple orders at once. You can drag selected orders either to an existing route card or the special No route card. To move orders to an existing route, expand the route card and drag-and-drop them to a specific position in the stops list of the route. **If a route starts or ends at a depot, orders with depots must match**: the delivery depot must align with the start, and the collection depot with the end. Orders without assigned depots can be added to any route, and if a route does not use a depot as its start or end point, any order, with or without a depot, can be added.
 
-![Screenshot 2025-11-05 at 16.38.00.png](/Documentation/attachments/e1b3dffe-9774-40f0-abda-8ff6fb06c183.png)![Screenshot 2025-11-05 at 16.38.39.png](/Documentation/attachments/a32d6be0-baa0-47a6-929b-04b23a05c1fc.png)
+![Screenshot 2026-09-23 at 14.05.49.png](/Documentation/attachments/mue24fl5-1pvmxe8y.png)
+
+![Screenshot 2026-09-23 at 14.06.01.png](/Documentation/attachments/mue24iqe-3r7w7zwt.png)
 
 The No route card appears at the top of the Visible routes when you open the Add orders dialog for the first time. Once orders are added to this card, you can press the `Actions` button and select one of the following options:
 
 - Create a route (for all orders)
 - Move to a route (for selected orders)
 
-![Screenshot 2025-11-05 at 16.39.12.png](/Documentation/attachments/d6b854ae-6d94-4992-b97e-28a6b5faf7cf.png)
+![Screenshot 2026-09-23 at 14.06.43.png](/Documentation/attachments/mue255c4-vpcufv07.png)
 
 By clicking the `Create` route button, a Create route dialog will be displayed where you provide the following information:
 
 
 | **Property** | **Description** |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Key | Your unique identifier for the route in this environment. It can be a route number, for example, 1, 2, 3, etc. |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Key | Your unique identifier for the route in this environment. It can be a route number, for example, 1, 2, 3, etc. By default, the route key is generated automatically based on the parameters configured in Settings → Routes → Route key autogeneration. Current date/time, depot, and trip are selected by default. |
 | Trip | A number you can use to indicate, for example, the order of routes for the same vehicle on the day, with the first route of the day being 1, a subsequent one being 2, etc. |
 | Status | `Planning` - actively being planned. `Planned` - planning is completed, but route has not yet been released to a driver. `Released` - released to a driver, so that they can work with it in the mobile app. `Started` - indicates the route has left the start point. `Completed` - all work on the route has been completed; for example, the vehicle has returned to the end point. |
-| Driver | User responsible for the route. Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes/index.md)and on the [Hub: Analytics](Hub_%20Analytics.md)on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). If you use[Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. |
-| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
+| Driver | User responsible for the route. Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed on [Route view](https://help.geo2.com/web-based-hub/hub-routes/hub-route-creation-and-planning#route-creation) and on the [Started Route Driver Position](https://help.geo2.com/web-based-hub/hub-analytics) on Dashboard page, as well as on the recorded [vehicle checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Public tracking](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-public-tracking-settings). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). If you use [Vehicle categories](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicle-categories-settings) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. |
+| Route start | If you set up the default depot in [Depots settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-depots-settings), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
 | Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route start field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
-| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. Vehicle dimensions specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
+| Vehicle | Vehicle assigned to the route. If you use [Vehicle categories](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicle-categories-settings) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. Vehicle dimensions specified in [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
 | Area | Area tag. You can set up the default user and vehicle for every area. When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
-| Planned start | Expected dispatch date/time of the route from the start point. The start time will come from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). |
+| Planned start | Expected dispatch date/time of the route from the start point. The start time will come from [Routes settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-routes-settings). |
 | Vehicle check on route start | Activate vehicle check in the mobile app when the route is being started. |
 | Vehicle check on route completion | Activate vehicle check in the mobile app when the route is being completed. |
 
 
-![Screenshot 2025-11-05 at 16.39.58.png](/Documentation/attachments/81339c19-ebb0-4b2a-a12e-e3db5e7c34fd.png)
+![Screenshot 2026-09-23 at 14.08.40.png](/Documentation/attachments/mue28d3z-bu10hsv3.png)
 
-By pressing the `Create` button, a new route will be created and added to the page either to the bottom of the Visible routes column or the Hidden column, if the number of routes in the Visible routes columns already exceeds 20.
+By pressing the `Create` button, a new route will be created and added to the page either to the bottom of the Visible routes column or the Hidden column, if the number of routes in the Visible routes columns already exceeds 40.
 
-![Screenshot 2025-11-05 at 16.40.34.png](/Documentation/attachments/937710ee-2e13-4ceb-9d30-bbbbab999abc.png)
+![Screenshot 2026-09-23 at 14.09.04.png](/Documentation/attachments/mue28jp4-jt8w9k6a.png)
 
