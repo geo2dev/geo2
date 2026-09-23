@@ -14,19 +14,17 @@ You can use both the Geo2 web-based Hub and the mobile app, depending on your ro
 
 The Geo2 mobile app complements Hub by supporting drivers on the road. It allows them to access assigned routes, manage stops, complete vehicle checks, and capture Proof of Delivery (POD). Solo and gig delivery drivers, including Amazon Flex, Walmart Spark, and Evri drivers, can also use the app independently to create and optimize routes, paste multiple addresses, or import stops from photos, screenshots, and PDFs.
 
-![Screenshot 2026-08-27 at 10.44.59.png](blob:https:/app.pagescms.org/745b461f-6134-4125-96af-0218b3f2e00e)
-
 ## Register Account
 
 On Registration page, after you have completed the requested details, press `Register` to create an account, using the password you have specified.  The password should contain at least 8 characters, 1 uppercase and lowercase, 1 number and 1 special character ( ^ $  .   { } ( ) ? " ! @ # % & / \ , > < ' : ; |  ~).  Alternatively, you can press the buttons for other authentication providers in order to authenticate with your existing Google, Microsoft, or Apple identity or mobile phone number.  Learn more about registration in [Hub: Register](Web-Based%20Hub/Hub_%20Register.md). 
 
-![Screenshot 2026-08-27 at 10.44.59.png](blob:https:/app.pagescms.org/d3d21cdf-161b-4d2a-a91b-e04b768a2340)
+![Screenshot 2026-09-23 at 15.06.55.png](blob:https:/app.pagescms.org/477f15a0-7c70-4985-9a5d-07107320b38a)
 
 ### Verify Email
 
 If you register an account using an email and password, you need to verify it.  You will get a verification email with a one-time code that you need to copy and paste into the form in Hub.  Learn more about [Hub: Register](Web-Based%20Hub/Hub_%20Register.md).
 
-![Screenshot 2026-08-27 at 10.48.33.png](blob:https:/app.pagescms.org/96a95a0c-7778-4f64-8718-b678b4a01e1d)
+![Screenshot 2026-09-23 at 15.04.03.png](blob:https:/app.pagescms.org/174ec9ab-a0e5-4384-b278-2a06830f9ce5)
 
 ![Screenshot 2026-08-27 at 10.50.16.png](/Documentation/attachments/mtb8yguk-ykcib6tl.png)
 
