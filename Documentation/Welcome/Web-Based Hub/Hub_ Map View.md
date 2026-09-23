@@ -1,27 +1,29 @@
 ---
-slug: "/web-based-hub/hub-map-view"
-sidebar_label: "Map View"
+slug: /web-based-hub/hub-map-view
+sidebar_label: Map View
 sidebar_position: 11
-description: "You can visualize and manage multiple routes side by side on a map by either selecting Map view from the menu or choosing specific routes on the Routes"
+description: You can visualize and manage multiple routes side by side on a map
+  by either selecting Map view from the menu or choosing specific routes on the
+  Routes
 ---
-
-
 # Hub: Map View
 
 ## Introduction
 
-You can visualize and manage multiple routes side by side on a map by either selecting `Map view` from the menu or choosing specific routes on the Routes page and clicking the `Map view` button.
+You can visualize and manage multiple routes side by side on a map by either selecting `Map view` from the menu or choosing specific routes on Routes page and clicking the `Map view` button in Hub. 
 
 - If you open Map view from the menu, you’ll be redirected to the empty Map view page, where you can create new routes and orders or add existing ones.
-- If you select routes on the Routes page and click the Map view button, you’ll be redirected to the Map view page with the selected routes displayed on the map. You can still create or add additional routes and orders from there.
+- If you select routes on Routes page and click the Map view button, you will be redirected to Map view page with the selected routes displayed on the map. You can still create or add additional routes and orders from there.
 
 Map view option in the menu:
 
-![Screenshot 2025-11-05 at 15.25.45.png](/Documentation/attachments/4e5bd3df-35cd-40da-b169-c425374802be.png)
+![Screenshot 2026-09-23 at 12.33.38.png](/Documentation/attachments/mudytgps-32m5cjlo.png)
 
 Map view from Routes page:
 
-![Screenshot 2025-11-05 at 15.30.34.png](/Documentation/attachments/a8e25095-09a7-4df9-ac2d-524186c9edf9.png)![Screenshot 2025-11-05 at 15.30.54.png](/Documentation/attachments/e0432140-a3e1-4a88-b2a2-21770d9a06d8.png)
+![Screenshot 2026-09-23 at 12.43.29.png](/Documentation/attachments/mudz65ph-x6s0ltpb.png)
+
+![Screenshot 2026-09-23 at 12.44.11.png](/Documentation/attachments/mudz70cv-y5n7etbo.png)
 
 ## Routes Visualisation
 
@@ -30,9 +32,9 @@ The Map view page is divided into two columns:
 - Visible routes, in the left-hand column - currently shown on the map.
 - Hidden routes, in the right-hand column under the map - not currently shown on the map.
 
-![Screenshot 2025-11-05 at 15.46.10.png](/Documentation/attachments/f5b082de-e5e8-489b-8dda-9b16d5382205.png)
+![Screenshot 2026-09-23 at 12.44.33.png](/Documentation/attachments/mudz7jp2-w2udzxes.png)
 
-Up to 20 routes can be shown on the map simultaneously.  If you have initially selected more than 20 routes on Routes page, the excess routes will be hidden.
+Up to 40 routes can be shown on the map simultaneously. If you have initially selected more than 40 routes on Routes page, the excess routes will be hidden.
 
 Each route card has the following information on it:
 
@@ -40,23 +42,23 @@ Each route card has the following information on it:
 - Planned start and end date/time
 - Planned duration and distance
 - Peak weight and volume
-- Route start and end points
+- Depot to which the route can be optionally assigned as the start/end point
 - Number of orders added to the route
 - `Delete` icon to remove a route from visualisation on Map view page
 
-![Screenshot 2025-11-05 at 15.46.29.png](/Documentation/attachments/05de1f69-3c99-4c29-b263-facbdac56574.png)
+![Screenshot 2026-09-23 at 12.48.04.png](/Documentation/attachments/mudzc1en-ckmzqd1p.png)
 
 The eye icon in the top left-hand corner of each route card lets you toggle whether the route is shown or hidden. When you click on the eye icon on the route, the route card will move to the bottom of the appropriate column.
 
 The colour used to show the route on the map is the same as the colour of the frame and eye icon in each visible route card.
 
-![Screenshot 2025-11-05 at 15.48.20.png](/Documentation/attachments/4db81c2a-259c-4fee-9d6a-549bdf4515e2.png)
+![Screenshot 2026-09-23 at 12.50.58.png](/Documentation/attachments/mudzfrv6-a44a61b6.png)
 
 ## Orders Visualisation
 
-It is possible to click on a route card to expand it to see a list of orders added to a route.
+It is possible to click on a route card to expand it to see a list of orders added to a route on Map view page in Hub.
 
-![Screenshot 2025-11-05 at 15.48.59.png](/Documentation/attachments/76886b48-15d0-4b25-9c80-c4e2b1a35ed8.png)
+![Screenshot 2026-09-23 at 12.52.03.png](/Documentation/attachments/mudzh697-6ioca258.png)
 
 By default, the following properties are shown on a stop card::
 
@@ -81,9 +83,11 @@ If you expand the card by pressing the down-arrow `v` on the right side of the c
 
 If there is insufficient horizontal space, the text field labels are omitted and only label icons remain.
 
-You can customize the information displayed on the stop card in the collapsed and expanded view in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md).
+You can customize the information displayed on the stop card in the collapsed and expanded view in [Routes settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-routes-settings).
 
-![Screenshot 2025-11-05 at 15.52.14.png](/Documentation/attachments/bca9e848-7a1e-4e37-a6c3-94edd0a268cc.png)![Screenshot 2025-11-05 at 15.52.21.png](/Documentation/attachments/2497b6e8-33e8-4afc-b8aa-f45219fb01b2.png)
+![Screenshot 2026-09-23 at 12.56.02.png](/Documentation/attachments/mudzmfyy-hi8zr64z.png)
+
+![Screenshot 2026-09-23 at 12.56.08.png](/Documentation/attachments/mudzmlx2-o9bs8fc0.png)
 
 ## Modifying Routes
 
@@ -158,19 +162,21 @@ You can select stops directly on the map one-by-one using Ctrl/Command+click or 
 
 The Create route dialog will be displayed where you provide the following information:
 
+
 | **Property** | **Description** |
-| --- | --- |
-| Key | Your unique identifier for the route in this environment.  It can be a route number, for example, 1, 2, 3, etc. |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Key | Your unique identifier for the route in this environment. It can be a route number, for example, 1, 2, 3, etc. |
 | Trip | A number you can use to indicate, for example, the order of routes for the same vehicle on the day, with the first route of the day being 1, a subsequent one being 2, etc. |
-| Status | `Planning` - actively being planned. <br/> `Planned` - planning is completed, but route has not yet been released to a driver. <br/> `Released` - released to a driver, so that they can work with it in the mobile app. <br/> `Started` - indicates the route has left the start point. <br/> `Completed` - all work on the route has been completed; for example, the vehicle has returned to the end point. |
-| Driver | User responsible for the route.  Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes/index.md) and o**n the** [Hub: Analytics](Hub_%20Analytics.md) on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). <br/> If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.  Assigning categories to users and vehicles is optional. |
-| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears.  If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
-| Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route start field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears.  If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
-| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.  Assigning categories to users and vehicles is optional. <br/> Vehicle dimensions specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)(“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
-| Area | Area tag.  You can set up the default user and vehicle for every area.  When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
+| Status | `Planning` - actively being planned. `Planned` - planning is completed, but route has not yet been released to a driver. `Released` - released to a driver, so that they can work with it in the mobile app. `Started` - indicates the route has left the start point. `Completed` - all work on the route has been completed; for example, the vehicle has returned to the end point. |
+| Driver | User responsible for the route. Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes/index.md) and o**n the** [Hub: Analytics](Hub_%20Analytics.md) on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. |
+| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
+| Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route start field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
+| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. Vehicle dimensions specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)(“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
+| Area | Area tag. You can set up the default user and vehicle for every area. When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
 | Planned start | Expected dispatch date/time of the route from the start point. The start time will come from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). |
 | Vehicle check on route start | Activate vehicle check in the mobile app when the route is being started. |
 | Vehicle check on route completion | Activate vehicle check in the mobile app when the route is being completed. |
+
 
 ![Screenshot 2025-11-05 at 16.12.37.png](/Documentation/attachments/6cec5f2c-de9a-4e27-884f-3ee07759bd63.png)
 
@@ -188,19 +194,21 @@ The Create route dialog will be displayed where you provide the following inform
 
 ![Screenshot 2025-11-05 at 16.21.09.png](/Documentation/attachments/38e3b46a-39d7-4fdf-9451-5666aac2bdba.png)
 
+
 | **Property** | **Description** |
-| --- | --- |
-| Key | Your unique identifier for the route in this environment.  It can be a route number, for example, 1, 2, 3, etc. |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Key | Your unique identifier for the route in this environment. It can be a route number, for example, 1, 2, 3, etc. |
 | Trip | A number you can use to indicate, for example, the order of routes for the same vehicle on the day, with the first route of the day being 1, a subsequent one being 2, etc. |
-| Status | `Planning` - actively being planned. <br/> `Planned` - planning is completed, but route has not yet been released to a driver. <br/> `Released` - released to a driver, so that they can work with it in the mobile app. <br/> `Started` - indicates the route has left the start point. <br/> `Completed` - all work on the route has been completed; for example, the vehicle has returned to the end point. |
-| Driver | User responsible for the route.  Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes/index.md) and o**n the** [Hub: Analytics](Hub_%20Analytics.md) on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). <br/> If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.  Assigning categories to users and vehicles is optional. |
-| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears.  If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
-| Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route start field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears.  If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
-| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.  Assigning categories to users and vehicles is optional. <br/> Vehicle dimensions specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)(“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
-| Area | Area tag.  You can set up the default user and vehicle for every area.  When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
+| Status | `Planning` - actively being planned. `Planned` - planning is completed, but route has not yet been released to a driver. `Released` - released to a driver, so that they can work with it in the mobile app. `Started` - indicates the route has left the start point. `Completed` - all work on the route has been completed; for example, the vehicle has returned to the end point. |
+| Driver | User responsible for the route. Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes/index.md) and o**n the** [Hub: Analytics](Hub_%20Analytics.md) on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. |
+| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
+| Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route start field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
+| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. Vehicle dimensions specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)(“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
+| Area | Area tag. You can set up the default user and vehicle for every area. When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
 | Planned start | Expected dispatch date/time of the route from the start point. The start time will come from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). |
 | Vehicle check on route start | Activate vehicle check in the mobile app when the route is being started. |
 | Vehicle check on route completion | Activate vehicle check in the mobile app when the route is being completed. |
+
 
 By pressing the `Create` button, a new route will be created and added to the page either to the bottom of the Visible routes column or the Hidden column, if the number of routes in the Visible routes columns already exceeds 20. You can continue working with it, for example, to add orders, optimize the route, etc.
 
@@ -249,22 +257,25 @@ The No route card appears at the top of the Visible routes when you open the Add
 
 By clicking the `Create` route button, a Create route dialog will be displayed where you provide the following information:
 
+
 | **Property** | **Description** |
-| --- | --- |
-| Key | Your unique identifier for the route in this environment.  It can be a route number, for example, 1, 2, 3, etc. |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Key | Your unique identifier for the route in this environment. It can be a route number, for example, 1, 2, 3, etc. |
 | Trip | A number you can use to indicate, for example, the order of routes for the same vehicle on the day, with the first route of the day being 1, a subsequent one being 2, etc. |
-| Status | `Planning` - actively being planned. <br/> `Planned` - planning is completed, but route has not yet been released to a driver. <br/> `Released` - released to a driver, so that they can work with it in the mobile app. <br/> `Started` - indicates the route has left the start point. <br/> `Completed` - all work on the route has been completed; for example, the vehicle has returned to the end point. |
-| Driver | User responsible for the route.  Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes/index.md)and on the [Hub: Analytics](Hub_%20Analytics.md)on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). <br/> If you use[Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.  Assigning categories to users and vehicles is optional. |
-| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears.  If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
-| Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route start field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears.  If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
-| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.  Assigning categories to users and vehicles is optional. <br/> Vehicle dimensions specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
-| Area | Area tag.  You can set up the default user and vehicle for every area.  When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
+| Status | `Planning` - actively being planned. `Planned` - planning is completed, but route has not yet been released to a driver. `Released` - released to a driver, so that they can work with it in the mobile app. `Started` - indicates the route has left the start point. `Completed` - all work on the route has been completed; for example, the vehicle has returned to the end point. |
+| Driver | User responsible for the route. Once released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](Hub_%20Routes/index.md)and on the [Hub: Analytics](Hub_%20Analytics.md)on Dashboard page, as well as on the recorded [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). If you use[Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. |
+| Route start | If you set up the default depot in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md), it will be selected by default as a route start but it can be changed. By pressing the Route start field, you can also select other depots from your environment, first stop location (first order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
+| Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route start field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
+| Vehicle | Vehicle assigned to the route. If you use [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. Vehicle dimensions specified in [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
+| Area | Area tag. You can set up the default user and vehicle for every area. When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
 | Planned start | Expected dispatch date/time of the route from the start point. The start time will come from [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md). |
 | Vehicle check on route start | Activate vehicle check in the mobile app when the route is being started. |
 | Vehicle check on route completion | Activate vehicle check in the mobile app when the route is being completed. |
+
 
 ![Screenshot 2025-11-05 at 16.39.58.png](/Documentation/attachments/81339c19-ebb0-4b2a-a12e-e3db5e7c34fd.png)
 
 By pressing the `Create` button, a new route will be created and added to the page either to the bottom of the Visible routes column or the Hidden column, if the number of routes in the Visible routes columns already exceeds 20.
 
 ![Screenshot 2025-11-05 at 16.40.34.png](/Documentation/attachments/937710ee-2e13-4ceb-9d30-bbbbab999abc.png)
+
