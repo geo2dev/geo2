@@ -21,9 +21,7 @@ Press `UPDATE` to save any changes.
 
 By pressing the `Reset password` button, an email will be sent.  By clicking on the link in the email, you will be redirected to Reset password page to change your password. You need to create a new password and click the `Save` button.
 
-![Screenshot 2026-09-23 at 14.38.05.png](blob:https:/app.pagescms.org/388f14b3-17ea-4436-adda-f5fda261535e)
-
-![Screenshot 2026-09-23 at 14.38.12.png](blob:https:/app.pagescms.org/c5db6efd-5e8b-485c-9aef-af2b2beffc5f)
+![Screenshot 2026-09-23 at 14.38.05.png](/Documentation/attachments/mue5c0zk-77rp4ieu.png)
 
 Once the password is changed, you will be logged in and redirected to Analytics page. A confirmation will appear:
 
