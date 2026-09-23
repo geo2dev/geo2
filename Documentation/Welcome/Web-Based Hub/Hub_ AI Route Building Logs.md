@@ -11,7 +11,7 @@ description: "By pressing the Route building logs button at the header toolbar,
 
 By pressing the `AI route building logs` option in the menu in Hub, you can access all [AI route building](Hub_%20Orders/Hub_%20AI%20Route%20Building.md) sessions ran in your environment.
 
-## Route Building List
+## AI Route Building List
 
 Each route building card includes the following information about selected data and options:
 
@@ -33,7 +33,7 @@ You can filter and sort route building sessions by the “Created” date/time. 
 
 ![Screenshot 2026-09-23 at 14.28.04.png](/Documentation/attachments/mue2wmdd-mk1sp1y7.png)
 
-## Route Building Results
+## AI Route Building Results
 
 By pressing the card, you can access its details about the created routes and warning messages displayed during the route building process. You will see the results in the table view on the left side of Route building page:
 
