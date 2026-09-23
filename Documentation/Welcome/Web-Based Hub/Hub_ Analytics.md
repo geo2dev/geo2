@@ -1,18 +1,17 @@
 ---
-slug: "/web-based-hub/hub-analytics"
-sidebar_label: "Analytics"
+slug: /web-based-hub/hub-analytics
+sidebar_label: Analytics
 sidebar_position: 13
-description: "The Dashboard is the first page you see after you successfully sign in. You can get back to this by pressing Menu → Analytics."
+description: The Dashboard is the first page you see after you successfully sign
+  in. You can get back to this by pressing Menu → Analytics.
 ---
-
-
 # Hub: Analytics
 
 ## Introduction
 
-The Dashboard is the first page you see after you successfully sign in.  You can get back to this by pressing `Menu → Analytics`.
+Analytics is the first page you see after you successfully sign in. You can get back to this by pressing `Menu → Analytics` in Hub.
 
-![Screenshot 2025-09-01 at 10.29.43.png](/Documentation/attachments/7b1e7813-4b76-4a1c-92b4-11f1e6c5ab38.png)
+![Screenshot 2026-09-23 at 14.18.10.png](/Documentation/attachments/mue2jwe5-kw17fa9w.png)
 
 ## Toolbar
 
@@ -20,11 +19,11 @@ The navigation elements in the top toolbar are:
 
 - Notifications
 - [Support](../Support.md) - click to access documentation, contact Customer Support, request a new feature, or run a user guide on the specific page.
-- [Hub: Profile](Hub_%20Profile.md) - click to view your user profile, manage your personal API access tokens, and sign out.
+- [Profile](Hub_%20Profile.md) - click to view your user profile, manage your personal API access tokens, and sign out.
 
 ## Charts
 
-On Dashboard page, you will see summarised information from the current environment using different analytics charts.  Charts can be dragged-and-dropped.  By default, depending on your display size, you will see one chart per row on small displays (e.g. phones), two charts per row on medium-sized displays (e.g. laptops and small computers), and three charts per row on wide displays.  The layout of the charts is personal to you and does not affect other users in the environment.
+On Analytics page in Hub, you will see summarised information from the current environment using different analytics charts. Charts can be dragged-and-dropped. By default, depending on your display size, you will see one chart per row on small displays (e.g. phones), two charts per row on medium-sized displays (e.g. laptops and small computers), and three charts per row on wide displays.  The layout of the charts is personal to you and does not affect other users in the environment.
 
 These charts are shown by default:
 
@@ -33,7 +32,7 @@ These charts are shown by default:
 - Started Route Driver Position
 - CO2 Emissions charts.
 
-To add more charts, press one of the buttons under the heading `New chart to be added`.  To delete charts, hover over the chart and click on the delete icon at the top right corner of the chart tile.
+To add more charts, press one of the buttons under the heading `New chart to be added`. To delete charts, hover over the chart and click on the delete icon at the top right corner of the chart tile.
 
 ![Analytics 42.png](/Documentation/attachments/2e9544a5-ab9b-478d-a9ad-dd8e38f1a89c.png)
 
@@ -85,9 +84,9 @@ The legend for colour-coding of the objects on the map is shown below the map:
 
 You can pan and zoom the map and toggle a full-screen view.
 
-### CO<sub>2</sub> Emissions
+### CO2 Emissions
 
-CO<sub>2</sub> emissions are calculated from the actual distance, as recorded via device tracking for each completed route, multiplied by the emission factor of the vehicle assigned to the route.  To receive reliable data, it is important that location tracking is enabled on devices and that routes are marked as started/completed at the beginning/end of each route. The units shown depend on the environment settings.  If a route is completed in the mobile app, actual distance is read-only.  For routes completed from Hub or via the API, the actual distance travelled for the route can be edited.
+CO2 emissions are calculated from the actual distance, as recorded via device tracking for each completed route, multiplied by the emission factor of the vehicle assigned to the route.  To receive reliable data, it is important that location tracking is enabled on devices and that routes are marked as started/completed at the beginning/end of each route. The units shown depend on the environment settings.  If a route is completed in the mobile app, actual distance is read-only.  For routes completed from Hub or via the API, the actual distance travelled for the route can be edited.
 
 ![](/Documentation/attachments/1d75511f-9b95-4348-bac3-6647df6e407f.png)
 
@@ -95,9 +94,9 @@ With the drop-down in the top-right corner of the chart, you can select the rang
 
 ![](/Documentation/attachments/bc93687a-67c3-464f-866e-ecc7d16df7d3.png)
 
-### CO<sub>2</sub> Emissions per Order
+### CO2 Emissions per Order
 
-CO<sub>2</sub> emissions for an order are calculated from the total emissions for each order, divided by the number of orders on the route.  Only completed routes are considered, because their emissions are taken as final. The units shown depend on the environment settings.  If a route is completed in the mobile app, actual distance is read-only.  For routes completed from Hub or via the API, the actual distance travelled for the route can be edited.
+CO2 emissions for an order are calculated from the total emissions for each order, divided by the number of orders on the route.  Only completed routes are considered, because their emissions are taken as final. The units shown depend on the environment settings.  If a route is completed in the mobile app, actual distance is read-only.  For routes completed from Hub or via the API, the actual distance travelled for the route can be edited.
 
 ![Analytics 47.png](/Documentation/attachments/07a023f3-ec81-4d9e-b38e-508ad703a761.png)
 
@@ -292,3 +291,4 @@ It's possible to select a vehicle using the selector at the top of the chart. �
 You can select the period to which the data relate - Today, Yesterday, Tomorrow, Last 7 days, Next 7 days, Last 30 days.  The filtering is by the route planned date.  The selected days are highlighted in green.  To apply the filter, press the `Apply` button. 
 
 ![](/Documentation/attachments/67913857-97da-43d8-9e46-5d7895b69e5e.png)
+
