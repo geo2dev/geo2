@@ -18,7 +18,7 @@ The Geo2 mobile app complements Hub by supporting drivers on the road. It allows
 
 On Registration page, after you have completed the requested details, press `Register` to create an account, using the password you have specified.  The password should contain at least 8 characters, 1 uppercase and lowercase, 1 number and 1 special character ( ^ $  .   { } ( ) ? " ! @ # % & / \ , > < ' : ; |  ~).  Alternatively, you can press the buttons for other authentication providers in order to authenticate with your existing Google, Microsoft, or Apple identity or mobile phone number.  Learn more about registration in [Hub: Register](Web-Based%20Hub/Hub_%20Register.md). 
 
-![Screenshot 2026-09-23 at 15.06.55.png](blob:https:/app.pagescms.org/477f15a0-7c70-4985-9a5d-07107320b38a)
+![Screenshot 2026-09-23 at 15.06.55.png](/Documentation/attachments/mue4t8vf-fpsg7bmp.png)
 
 ### Verify Email
 
