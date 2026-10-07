@@ -91,4 +91,4 @@ On any device, it is important to ensure spare hardware capacity is available, b
 - iPhone 13, 13 Pro, 13 Pro Max
 - iPhone 14, 14 Pro, 14 Pro Max
 
-Aim to meet or exceed the hardware specifications of these devices..
+Aim to meet or exceed the hardware specifications of these devices.
