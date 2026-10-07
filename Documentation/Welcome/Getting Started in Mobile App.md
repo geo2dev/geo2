@@ -1,16 +1,16 @@
 ---
-slug: "/getting-started-in-mobile-app"
-sidebar_label: "Getting Started in Mobile App"
+slug: /getting-started-in-mobile-app
+sidebar_label: Getting Started in Mobile App
 sidebar_position: 5
-description: "Once the mobile app is installed on your device fromApp Store and Google Play, you can register an account and create your own organization to which you"
+description: Once the mobile app is installed on your device fromApp Store and
+  Google Play, you can register an account and create your own organization to
+  which you
 ---
-
-
 # Getting Started in Mobile App
 
 ## Introduction
 
-Once the mobile app is installed on your device from[**App Store**](https://apps.apple.com/app/geo2/id1594180686) and [**Google Play**](https://play.google.com/store/apps/details?id=com.geo2.app), you can register an account and create your own organization to which you invite other users in the mobile app.  You have the option to authenticate either with an email address and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft. You may also be invited to join other organizations.  To [Hub: Accept Invitation](Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App/Mobile%20App_%20Sign%20In/index.md) to the app using the email address or mobile phone number to which the invitation has been sent.
+Once the mobile app is installed on your device from**[App Store](https://apps.apple.com/app/geo2/id1594180686)** and **[Google Play](https://play.google.com/store/apps/details?id=com.geo2.app)**, you can register an account and create your own organization to which you invite other users in the mobile app.  You have the option to authenticate either with an email address and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft. You may also be invited to join other organizations.  To [Hub: Accept Invitation](Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App/Mobile%20App_%20Sign%20In/index.md) to the app using the email address or mobile phone number to which the invitation has been sent.
 
 ![20260428_1 (2).png](/Documentation/attachments/ae51e2ea-087c-4f3e-9d2e-9a8a781f113d.png)
 
@@ -91,4 +91,4 @@ On any device, it is important to ensure spare hardware capacity is available, b
 - iPhone 13, 13 Pro, 13 Pro Max
 - iPhone 14, 14 Pro, 14 Pro Max
 
-Aim to meet or exceed the hardware specifications of these devices.
+Aim to meet or exceed the hardware specifications of these devices..
