@@ -82,13 +82,11 @@ The minimum supported operating system versions are:
 
 On any device, it is important to ensure spare hardware capacity is available, both in terms of storage and not overloading the device with a large number of running apps.  Here are examples of device models, which have been successfully used with Geo2:
 
-- Google Pixel 7 Pro, Android 14
-- Oppo Find X5 Pro
-- Samsung Galaxy A05
-- Samsung S20, Android 12 and up
-- Xiaomi Poco X3 Pro, Android 12
-- iPhone 12, 12 Pro, 12 Pro Max
-- iPhone 13, 13 Pro, 13 Pro Max
-- iPhone 14, 14 Pro, 14 Pro Max
+- iPhone 17, 17 Pro, 17 Pro Max
+- iPhone 16, 16 Pro, 16 Pro Max
+- iPhone 15, 15 Pro, 15 Pro Max
+- Samsung Galaxy S24, S25 Ultra
+- Google Pixel 7 Pro
+- Motorola Moto G
 
 Aim to meet or exceed the hardware specifications of these devices.
