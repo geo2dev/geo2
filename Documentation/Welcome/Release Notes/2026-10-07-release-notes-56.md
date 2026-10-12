@@ -10,7 +10,7 @@ description: "Geo2 documentation: Release Notes 5.6"
 
 Hub: 
 
-2026-10-08
+2026-10-12
 
 ## New Features
 
