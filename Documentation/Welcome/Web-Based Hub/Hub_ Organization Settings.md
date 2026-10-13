@@ -7,14 +7,7 @@ description: "Organizations are groups of Geo2 users who share a subscription
 ---
 # Hub: Organization Settings
 
-<iframe
-  src="https://www.youtube-nocookie.com/embed/Jp5fMDKx6DQ"
-  title="Organizations and environments | Geo2 Hub"
-  style={{width: '100%', maxWidth: '640px', aspectRatio: '16 / 9', border: 0}}
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  referrerPolicy="strict-origin-when-cross-origin"
-  allowFullScreen
-/>
+<iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID" title="Signing in to Geo2 Hub" style="width:100%;max-width:640px;aspect-ratio:16/9;border:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Introduction
 
