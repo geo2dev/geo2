@@ -7,6 +7,8 @@ description: On the `Routes` page in Hub, press `Create` button to be redirected
 ---
 # Hub: Route Creation and Planning
 
+<iframe src="https://www.youtube.com/embed/ZJuX4sei6r4" title="Creating a route | Geo2 Hub" style="width:100%;max-width:640px;aspect-ratio:16/9;border:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Route Creation
 
 On the `Routes` page in Hub, press `Create` button to be redirected to Route creation page. Here are the route properties you can specify:
