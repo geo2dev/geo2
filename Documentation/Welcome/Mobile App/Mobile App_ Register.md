@@ -7,7 +7,7 @@ description: As a user, you can register and create your own organization to
 ---
 # Mobile App: Register
 
-<iframe src="https://www.youtube.com/embed/Qo2UlJuSOWY" title="Registration and signing in | Geo2 Delivery Route Planner" style="width:100%;max-width:640px;aspect-ratio:16/9;border:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Registration and signing in | Geo2 Delivery Route Planner](https://img.youtube.com/vi/Qo2UlJuSOWY/hqdefault.jpg)
 
 ## Introduction
 

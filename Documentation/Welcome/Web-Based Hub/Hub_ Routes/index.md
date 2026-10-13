@@ -6,7 +6,7 @@ description: Routes are groups of orders typically handled in a single vehicle t
 ---
 # Hub: Routes
 
-<iframe src="https://www.youtube.com/embed/j_eYLX4xz3I" title="Routes views - list, table, calendar, map | Geo2 Hub" style="width:100%;max-width:640px;aspect-ratio:16/9;border:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Routes views - list, table, calendar, map | Geo2 Hub](https://img.youtube.com/vi/j_eYLX4xz3I/hqdefault.jpg)
 
 Routes are groups of orders typically handled in a single vehicle trip.
 

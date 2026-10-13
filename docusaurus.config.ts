@@ -2,6 +2,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
 import remarkGithubAlerts from './src/remark/githubAlerts';
+import remarkYoutubeEmbed from './src/remark/youtubeEmbed';
 
 // Docs originate from a one-time Confluence export (the nightly sync is
 // retired). Each parent page lives inside its own children folder under the
@@ -51,7 +52,7 @@ const config: Config = {
           path: 'Documentation/Welcome',
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          beforeDefaultRemarkPlugins: [remarkGithubAlerts],
+          beforeDefaultRemarkPlugins: [remarkGithubAlerts, remarkYoutubeEmbed],
           editUrl: undefined, // editing happens in Pages CMS, no public "edit this page"
           showLastUpdateTime: true,
         },

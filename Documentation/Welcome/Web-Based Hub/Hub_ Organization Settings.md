@@ -7,7 +7,7 @@ description: "Organizations are groups of Geo2 users who share a subscription
 ---
 # Hub: Organization Settings
 
-<iframe src="https://www.youtube.com/embed/Jp5fMDKx6DQ" title="Organizations and environments | Geo2 Hub" style="width:100%;max-width:640px;aspect-ratio:16/9;border:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Organizations and environments | Geo2 Hub](https://img.youtube.com/vi/Jp5fMDKx6DQ/hqdefault.jpg)
 
 ## Introduction
 

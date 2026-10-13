@@ -45,7 +45,7 @@ You can also temporarily pause a route (location tracking for this route will be
 
 ## Route Creation
 
-<iframe src="https://www.youtube.com/embed/zcUPnqfo2_8" title="Creating a route | Geo2 Delivery Route Planner" style="width:100%;max-width:640px;aspect-ratio:16/9;border:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+![Creating a route | Geo2 Delivery Route Planner](https://img.youtube.com/vi/zcUPnqfo2_8/hqdefault.jpg)
 
 Depending on your permissions in the environment, you can create a route in the mobile app as well as in Geo2 Hub. To create a route, you need to press the `Plan route` in Menu or on Routes page. If you do not have any assigned to you routes for today, you will also see the `Plan route` button at the bottom of Map page.
 

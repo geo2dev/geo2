@@ -34,6 +34,6 @@ Every doc carries frontmatter that drives the site:
 
 Images live in `Documentation/attachments/` and are referenced with relative paths (`../attachments/...`) or `/Documentation/attachments/...` (CMS inserts; rewritten at build time).
 
-`src/remark/githubAlerts.ts` converts `[!NOTE]`-style blockquotes into Docusaurus admonitions. `src/css/custom.css` holds design tokens mirrored from the geo2-site repo (accent `#05d72d`, Noto Sans).
+`src/remark/githubAlerts.ts` converts `[!NOTE]`-style blockquotes into Docusaurus admonitions. `src/remark/youtubeEmbed.ts` turns a YouTube thumbnail image (or link) alone in its paragraph into an embedded player (Pages CMS rich-text strips raw `<iframe>`). `src/css/custom.css` holds design tokens mirrored from the geo2-site repo (accent `#05d72d`, Noto Sans).
 
 Deploy: push to main → `deploy-docs.yml` builds and deploys to Firebase Hosting. Pages CMS commits via its GitHub App, which emits normal push events. PRs get a Firebase preview channel via `firebase-hosting-pull-request.yml`.
