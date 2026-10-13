@@ -6,7 +6,7 @@ description: You need to register to become a user in Geo2 Hub.
 ---
 # Hub: Register
 
-<iframe src="https://www.youtube.com/embed/Qo2UlJuSOWY" title="Registration and signing in | Geo2 Hub" style="width:100%;max-width:640px;aspect-ratio:16/9;border:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/CNwErNAGN5E" title="Registration and signing in | Geo2 Hub" style="width:100%;max-width:640px;aspect-ratio:16/9;border:0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Introduction
 
