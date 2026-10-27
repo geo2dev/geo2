@@ -1,19 +1,19 @@
 ---
-slug: "/user-roles"
-sidebar_label: "User Roles"
+slug: /user-roles
+sidebar_label: User Roles
 sidebar_position: 9
-description: "When you create an organization, you automatically have an Organization Admin role."
+description: When you create an organization, you automatically have an
+  Organization Admin role.
 ---
-
-
 # User Roles
 
 ## Organization Roles
 
 When you create an organization, you automatically have an Organization Admin role. Then depending on your subscription level, you can invite other users to your organization and assign roles for them. Each user can either have the role of `User`, which does not enable them to modify the organization, or `Admin`, which gives them control over the organization, including the ability to create environments.
 
+
 | **Permission** | **Admin** | **User** |
-| --- | --- | --- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | -------- |
 | Access the list of organizations you work in (e.g., the menu selector) | Yes | Yes |
 | Access to the list of created environments your work in (e.g., the menu selector), possibility to switch between environments under the organization | Yes | Yes |
 | Access to the organization settings (billing address, subscriptions, payment history and users settings) | Yes | No |
@@ -28,12 +28,14 @@ When you create an organization, you automatically have an Organization Admin ro
 | Access to the list of users in an environment of an organization | Yes | No |
 | Possibility to recover environments of an organization | Yes | No |
 
+
 ## Environment Roles
 
 When you create an environment, you automatically have an Environment Admin role. Then depending on your subscription level, you can invite other users to your environment and assign roles for them.
 
+
 | **Permissions** | **Admin** | **Manager** | **User Admin** | **User** |
-| --- | --- | --- | --- | --- |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ----------- | -------------- | -------- |
 | Access to the list of created environments your work in (e.g., the menu selector), possibility to switch between environments under the organization | Yes | Yes | Yes | Yes |
 | Access to the environment settings (display preferences, users, depots, vehicles, vehicle categories, geo coding, routes, failure reason codes, proof of delivery, public tracking, custom fields, areas, channels, devices and reporting settings) | Yes | Yes | No | No |
 | Possibility to change environment settings | Yes | No | No | No |
@@ -54,4 +56,6 @@ When you create an environment, you automatically have an Environment Admin role
 | Possibility to create PODs (in the mobile app) | Yes | Yes | No | Yes |
 | Possibility to view vehicle checks | Yes | Yes | No | Yes |
 | Possibility to create vehicle checks (in the mobile app) | Yes | Yes | No | Yes |
-| Possibility to view analytics and reporting (in Hub) | Yes | Yes | No | Yes |
+| Possibility to view analytics and reporting (in Hub) | Yes | Yes | No | No |
+
+
