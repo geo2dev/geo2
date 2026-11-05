@@ -1,7 +1,7 @@
 ---
 slug: /release-notes/release-notes-5-7
 sidebar_label: Release Notes 5.7
-sidebar_position: 141
+sidebar_position: 142
 description: "Geo2 documentation: Release Notes 5.7"
 ---
 # Release Notes 5.7
