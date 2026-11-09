@@ -15,7 +15,6 @@ The vertical menu in Hub includes these options:
 - AI assistant
 - [Hub: Orders](Hub_%20Orders/index.md)
 - [Hub: Routes](Hub_%20Routes/index.md)
-- [Hub: Map View](Hub_%20Map%20View.md)
 - [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md)
 - [Hub: Analytics](Hub_%20Analytics.md)
 - [Hub: AI Route Building Logs](Hub_%20AI%20Route%20Building%20Logs.md)
@@ -29,60 +28,62 @@ To create a new organization, click the `Create organization` button in the menu
 
 To enter the address, start typing it into Address line 1 and select from the drop-down. If no match appears, complete the address fields manually.
 
-![Screenshot 2026-08-27 at 12.47.00.png](/Documentation/attachments/mtbc9nkh-da7yqpdj.png)
+![Screenshot 2026-11-09 at 14.56.10.png](/Documentation/attachments/mw9br1sg-ww23ebt2.png)
 
 Press the `Create` button to create an organization. After creation, you will be redirected to Settings → Organization → Billing address.
 
-![Screenshot 2026-08-27 at 12.55.07.png](/Documentation/attachments/mtbcklla-vhcik5xw.png)
+![Screenshot 2026-11-09 at 14.57.46.png](/Documentation/attachments/mw9bt2yo-g1ummbeq.png)
 
 To edit organization settings later, select Settings from the menu. To save changes to an existing organization, press `Update`. Learn more about [Hub: Organization Settings](Hub_%20Organization%20Settings.md).
 
-![Screenshot 2026-08-27 at 12.55.14.png](/Documentation/attachments/mtbckq4o-dbgvzzg8.png)
+![Screenshot 2026-11-09 at 14.58.04.png](/Documentation/attachments/mw9btra8-xuv57j32.png)
 
 ## Environment Selector
 
-During the registration of a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the environment’s address as well.  If you want to create one more environment in your organization, press the environment selector in the menu bar and press `Create environment`.  This option is available only with Enterprise subscription level.
+During the registration of a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the environment’s address as well. If you want to create one more environment in your organization, press the environment selector in the menu bar and press `Create environment`. This option is available only with Enterprise subscription level.
 
-![Screenshot 2026-08-27 at 12.58.37.png](/Documentation/attachments/mtbcogpg-r0ssje4h.png)
+![Screenshot 2026-11-09 at 14.58.58.png](/Documentation/attachments/mw9bul18-a1p5br9a.png)
 
 You will be redirected to Create environment page where you will have the option to clone settings and users from an existing environment.  Only users with the Organization Admin role can create a new environment within the organization.
 
-![Screenshot 2026-08-27 at 13.00.56.png](/Documentation/attachments/mtbcrqd5-pkyhhfyl.png)
+![Screenshot 2026-11-09 at 14.59.52.png](/Documentation/attachments/mw9bvq4w-f81oebob.png)
 
 It is up to you whether you decide to clone settings or users or start an entirely fresh environment definition. If cloning settings and/or users from an existing environment, you will need to select an environment to clone them from.
 
-![Screenshot 2026-08-27 at 13.01.03.png](/Documentation/attachments/mtbcrz49-nrjebro6.png)
+![Screenshot 2026-11-09 at 14.59.19.png](/Documentation/attachments/mw9bvyzi-kapjbaum.png)
 
-![Screenshot 2026-08-27 at 13.01.42.png](/Documentation/attachments/mtbcskmw-1x7yrx61.png)
+![Screenshot 2026-11-09 at 14.59.28.png](/Documentation/attachments/mw9bw2e9-osqgmqvi.png)
 
-By pressing the `Create` button, a new environment will be created.  You will be redirected to the settings of the newly created environment.
+By pressing the `Create` button, a new environment will be created. You will be redirected to the settings of the newly created environment.
 
 ## AI Assistant
 
-By pressing the `AI assistant` button in the menu, you will open AI assistant page. There, you will find examples of requests it can handle. With the AI assistant, you can:
+By clicking the **AI Assistant** button in the menu, you will open the AI Assistant page, where you can find examples of requests it can handle. The AI Assistant supports both text and voice interactions, allowing you to manage delivery operations, retrieve information, and analyze performance using natural language.
 
-- Create new routes and update existing ones
-- Add stops to your current route using text or voice input
-- Import stops from photos, screenshots and PDFs
-- Move stops between routes
-- Optimize routes with or without required stop time windows
-- Add, edit, and delete breaks
-- Start and complete routes
-- Navigate seamlessly within Hub
-- Get the list of routes planned for today
-- Get step-by-step guidance on using different features
+With the AI Assistant, you can:
 
-**Use cases:**
+- **Create and manage routes:** Create new routes, update existing ones, and add or modify orders and stops using text or voice commands.
+- **Import stops:** Extract delivery addresses from photos, screenshots, and PDFs without entering them manually.
+- **Organize deliveries:** Move stops between routes, change stop sequences, and retrieve lists of planned, delivered, or undelivered stops.
+- **Optimize routes:** Optimize routes with or without required delivery time windows.
+- **Manage breaks:** Add, edit, and delete driver breaks within routes.
+- **Control route execution:** Start and complete routes and retrieve information about routes scheduled for today.
+- **Retrieve proof-of-delivery (POD) information:** Check delivery statuses, completion dates and times, assigned drivers, signatures, and POD photos.
+- **Analyze delivery performance:** Ask questions about operational data, review delivery statistics, identify trends, and receive AI-powered insights into team and driver performance without manually reviewing analytics charts.
+- **Navigate within Hub:** Open different sections of the platform and receive step-by-step guidance on using Geo2 features.
 
-1. You can ask the assistant to create a route from multiple addresses you received by message or email, instead of entering each stop manually - by typing, voice, or import by photos/screenshots/PDFs.
+### Use cases
 
-2. If. new urgent stop comes up during the day, you can ask the assistant to add it to your current route and re-optimize the order.
+1. **Create routes from delivery lists:** If you receive multiple delivery addresses by email or message, ask the assistant to create a route using text, voice, or imported photos, screenshots, and PDFs instead of entering each stop manually.
+2. **Handle urgent deliveries:** When a new stop comes up during the day, ask the assistant to add it to an existing route and re-optimize the stop sequence.
+3. **Plan time-sensitive deliveries:** If certain stops must be visited within specific time windows, the assistant can help build a route that respects those requirements.
+4. **Check delivery progress:** Ask which stops have been delivered, which remain undelivered, or retrieve POD details, including delivery times, photos, and signatures.
+5. **Analyze team performance:** Ask questions about delivery statistics, driver performance, and operational trends to get insights without manually exploring charts and reports.
+6. **Get help with Geo2 features:** If you are unsure how to use a feature, ask the assistant for step-by-step instructions directly within Hub.
 
-3. When some stops must be visited within specific time windows, the assistant can help you build a route that respects those requirements.
+**Usage limits:** The AI Assistant is available across Geo2 Hub and the mobile app. Free and Pro users can make up to 10 AI requests per day, while Advanced and Enterprise plans provide access to unlimited usage.
 
-4. If you’re unsure how to use a feature, you can ask the assistant for step-by-step instructions directly in the app.
+![Screenshot 2026-11-09 at 15.03.25.png](/Documentation/attachments/mw9c0scw-duppzr6q.png)
 
-![Screenshot 2026-08-27 at 13.06.35.png](/Documentation/attachments/mtbd06sc-5n9a20cz.png)
-
-![Screenshot 2026-08-27 at 13.07.26.png](/Documentation/attachments/mtbd0au1-zbh48umv.png)
+![Screenshot 2026-11-09 at 15.03.42.png](/Documentation/attachments/mw9c0v1w-kh3agafa.png)
 
