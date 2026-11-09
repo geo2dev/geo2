@@ -7,7 +7,7 @@ description: If you have forgotten or have not set up yet your password and
 ---
 # Hub: Forgot Password
 
-If you have forgotten or have not set up yet your password and cannot sign in successfully, follow the link `Forgot password?` on **[Sign in](https://hub.geo2.com/en-GB/auth/signin)** page.  This will enable you to reset your Geo2 password.
+If you have forgotten or have not set up yet your password and cannot sign in successfully, follow the link `Forgot password?` on **[Sign in](https://hub.geo2.com/en-GB/auth/signin)** page in Geo2 Hub. This will enable you to reset your Geo2 password.
 
 ![Screenshot 2026-09-23 at 15.36.42.png](/Documentation/attachments/mue5hdir-h1djv4mj.png)
 
