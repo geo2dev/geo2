@@ -45,15 +45,13 @@ To edit organization settings later, you can press Settings option in the menu.�
 
 ### Company Logo
 
-You can add your own logo to give your organization a distinct visual identity in Hub in Settings -> Billing address. 
+You can add your own logo to give your organization a distinct visual identity in Hub in Settings -> Billing address. The logo is shown in the Organization selector in the menu in Hub as well as in the mobile app when selecting an organization to work in.
 
-The logo is shown in the Organization selector in the menu in Hub as well as in the mobile app when selecting an organization to work in.
-
-![Screenshot 2026-08-27 at 13.54.19.png](/Documentation/attachments/mtbeodf2-wl6lkbqw.png)
+![Screenshot 2026-11-09 at 15.21.27.png](/Documentation/attachments/mw9cnqli-rul4segh.png)
 
 ## Users
 
-You can invite other users to your organization.  As a part of **a FREE 7-day trial of Advanced or Enterprise subscription level**, you can add four additional users to your organization.  If you want to add more users, you can do it after taking a free trial by pressing the `Add users` button on Subscriptions page. Free and Pro subscriptions do not allow adding more users to your organization.
+You can invite other users to your organization. As a part of **a FREE 7-day trial of Advanced or Enterprise subscription level**, you can add four additional users to your organization. If you want to add more users, you can do it after taking a free trial by pressing the `Add users` button on Subscriptions page. Free and Pro subscriptions do not allow adding more users to your organization.
 
 You can invite users either one-by-one, by pressing the `Invite` button, or all at once, by pressing the `Import` button in Settings → Organization → Users page. The counter at the top of the page shows how many users you can still invite to your organization. If you are on a Free or Pro subscription level, you will see only your user.
 
@@ -69,7 +67,7 @@ You will see the dialog prompting you for an email address or mobile number, ful
 
 ![Screenshot 2026-08-27 at 14.00.34.png](/Documentation/attachments/mtbew4gt-wdegbplr.png)
 
-A newly invited user can be registered using email address or mobile number. Make sure that the email address/mobile number is valid and email address can receive incoming messages. If you select an email for invitation, instructions for the invited user are in the invitation email message and [Hub: Accept Invitation](Hub_%20Accept%20Invitation.md).   If you select a mobile phone number for invitation, the user can accept it only via Accept invitation page in Hub or the mobile app after log in using the same mobile number; no SMS with a link will be sent.
+A newly invited user can be registered using email address or mobile number. Make sure that the email address/mobile number is valid and email address can receive incoming messages. If you select an email for invitation, instructions for the invited user are in the invitation email message and [Hub: Accept Invitation](Hub_%20Accept%20Invitation.md).  If you select a mobile phone number for invitation, the user can accept it only via Accept invitation page in Hub or the mobile app after log in using the same mobile number; no SMS with a link will be sent.
 
 The properties of each user are:
 
@@ -94,11 +92,11 @@ The `Status` value against the user shows you if the invitation has been accepte
 
 ![Screenshot 2026-08-27 at 14.03.09.png](/Documentation/attachments/mtbf02tw-zeawdoqy.png)
 
-You can select one or more users using the checkbox leading each row.  Pressing `Delete` will remove the selected users from the organization.  When `Deleted are hidden` is enabled, both active and deleted users are shown.  Previously deleted users can be recovered, i.e. made active again.
+You can select one or more users using the checkbox leading each row. Pressing `Delete` will remove the selected users from the organization. When `Deleted are hidden` is enabled, both active and deleted users are shown. Previously deleted users can be recovered, i.e. made active again.
 
-Deleting a user frees up that user's subscription.  After a user is recovered, a subscription needs to be assigned to them to become functional.
+Deleting a user frees up that user's subscription. After a user is recovered, a subscription needs to be assigned to them to become functional.
 
-Product news emails are enabled by default.  To turn off the emails, the Organization Admin can unset the `Product news email` toggle and press `Update` to save changes.  A user will receive product news emails if they are enabled in at least one of the organizations they belong to.  It is also possible to turn off the emails in profile settings.
+Product news emails are enabled by default. To turn off the emails, the Organization Admin can unset the `Product news email` toggle and press `Update` to save changes. A user will receive product news emails if they are enabled in at least one of the organizations they belong to. It is also possible to turn off the emails in profile settings.
 
 ### Import Users
 
@@ -142,13 +140,13 @@ Once everything is mapped correctly, click `Apply`. Your data will appear in the
 
 **Manually Type or Paste Data**
 
-The spreadsheet interface column headings guide you on the type of data expected in each column.  Hover over a column title to see a tooltip with additional details and explanations.
+The spreadsheet interface column headings guide you on the type of data expected in each column. Hover over a column title to see a tooltip with additional details and explanations.
 
 ![Screenshot 2026-08-27 at 14.15.44.png](/Documentation/attachments/mtbfflyj-qlaqsdk5.png)
 
 If you have prepared the data in another spreadsheet, you can copy and paste them in.
 
-The limit for the import of users is **50**.  You cannot paste more than that into the spreadsheet.
+The limit for the import of users is **50**. You cannot paste more than that into the spreadsheet.
 
 
 | **Column Heading** | **Data Type** | **Details** | **Mandatory** |
@@ -172,11 +170,11 @@ Once information is provided, press:
 
 To enable the use of the Geo2 product, an Organization Admin needs to assign a subscription to a newly invited user.
 
-You also need to choose the environment(s) to which the user will have access and their role in each of them.  For environment user roles and their permissions, see [User Roles](../User%20Roles.md).  When importing multiple users, the same settings are applied to all of them.
+You also need to choose the environment(s) to which the user will have access and their role in each of them.  For environment user roles and their permissions, see [User Roles](../User%20Roles.md). When importing multiple users, the same settings are applied to all of them.
 
-Click the `Import` button to import users.  The import process feeds back any errors that it encounters.
+Click the `Import` button to import users. The import process feeds back any errors that it encounters.
 
-Users will be imported and displayed in the Users list in Organization and Environment settings.  Emails with invitations will be sent to all imported users.  Learn how users can [Hub: Accept Invitation](Hub_%20Accept%20Invitation.md).
+Users will be imported and displayed in the Users list in Organization and Environment settings. Emails with invitations will be sent to all imported users. Learn how users can [Hub: Accept Invitation](Hub_%20Accept%20Invitation.md).
 
 ##### Spreadsheet Example
 
