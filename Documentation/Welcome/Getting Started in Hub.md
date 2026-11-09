@@ -61,7 +61,7 @@ Next, you can select one of the following options to start working with Geo2 Hub
 - **Invite more people**. Invite more people to your organization and assign their roles. Learn more about [Hub: Organization Settings](Web-Based%20Hub/Hub_%20Organization%20Settings.md).
 - **Customize settings**. Add more depots and vehicles, create templates for recipient notifications. Explore your [Hub: Environment Settings](Web-Based%20Hub/Hub_%20Environment%20Settings/index.md).
 
-When orders are created and added to a route, the route can be released to a driver.  It will be displayed in the mobile app for the assigned driver.
+When orders are created and added to a route, the route can be released to a driver. It will be displayed in the mobile app for the assigned driver.
 
 ## Features Included to Free Level
 
