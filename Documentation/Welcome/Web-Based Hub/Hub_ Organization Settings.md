@@ -15,33 +15,33 @@ Organizations are groups of Geo2 users who share a subscription and collaborate 
 
 ## Organization Settings
 
-During the registration of a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the organization’s address as well.  If you are invited to the organization and you have [Organization Admin Role](../User%20Roles.md)**,** you can reach organization settings by pressing the Settings option in the menu.
+During the registration of a new account and [Hub: Set Up Organization](Hub_%20Set%20Up%20Organization.md), the address entered will be saved as the organization’s address as well. If you are invited to the organization and you have [Organization Admin Role](../User%20Roles.md)**,** you can reach organization settings by pressing the Settings option in the menu.
 
-![Screenshot 2026-08-27 at 13.50.49.png](/Documentation/attachments/mtbejwjt-3spxme5q.png)
+![Screenshot 2026-11-09 at 14.58.04.png](/Documentation/attachments/mw9cfebe-newzjw0u.png)
 
 ## Organization Name
 
 You can change your organization name by hovering over the organization name on Settings page and pressing the `Edit (pencil)` icon. Provide a new organization name and press the `Tick` icon to save changes.
 
-![Screenshot 2026-08-27 at 13.51.41.png](/Documentation/attachments/mtbekya0-rmuu71yh.png)
+![Screenshot 2026-11-09 at 15.18.26.png](/Documentation/attachments/mw9cjm22-o5nwrity.png)
 
-![Screenshot 2026-08-27 at 13.51.48.png](/Documentation/attachments/mtbel3sd-obj9y8ck.png)
+![Screenshot 2026-11-09 at 15.17.59.png](/Documentation/attachments/mw9cjr2z-4uhp94jy.png)
 
 ## Billing address
 
-If creating a new organization, you need to provide the Organization name and its billing address (Address line 1, City and Country fields); all other fields are optional.  The tax registration number will be shown on the combined invoice/receipt after successful payments.
+If creating a new organization, you need to provide the Organization name and its billing address (Address line 1, City and Country fields); all other fields are optional. The tax registration number will be shown on the combined invoice/receipt after successful payments.
 
-To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears.  If no suitable match is found, continue entering the address in the relevant address fields manually.
+To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, continue entering the address in the relevant address fields manually.
 
-![Screenshot 2026-08-27 at 12.47.00.png](/Documentation/attachments/mtbelwi3-elj86yau.png)
+![Screenshot 2026-11-09 at 14.56.10.png](/Documentation/attachments/mw9br1sg-ww23ebt2.png)
 
 Press the `Create` button to create an organization. Once your organization is created, you will be redirected to Settings → Organization → Billing address.
 
-![Screenshot 2026-08-27 at 12.55.07.png](/Documentation/attachments/mtbemyur-9ycxd9l9.png)
+![Screenshot 2026-11-09 at 14.57.46.png](/Documentation/attachments/mw9bt2yo-g1ummbeq.png)
 
 To edit organization settings later, you can press Settings option in the menu.  To save changes in the already created organization, press `Update`.
 
-![Screenshot 2026-08-27 at 12.55.14.png](/Documentation/attachments/mtbemi2k-v3jv6czi.png)
+![Screenshot 2026-11-09 at 14.58.04.png](/Documentation/attachments/mw9btra8-xuv57j32.png)
 
 ### Company Logo
 
