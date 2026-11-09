@@ -9,9 +9,15 @@ description: The web user interface is intended for administrators, managers and
 
 ## Introduction
 
-The web user interface (Hub) is intended for administrators, managers and transport planners. While the mobile app allows drivers to create and optimize routes and manage orders, Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV) and PDFs, managing multiple routes on a single map, analytics, reporting and cost calculation, and AI-powered route building.
+Geo2 Hub is a **cloud-based transport management platform** designed for administrators, managers, dispatchers, and transport planners to plan, manage, and analyze delivery operations from a centralized web interface. While the Geo2 mobile app enables drivers to create and optimize routes, manage orders, navigate between stops, and capture proof of delivery (POD), **Hub provides advanced tools for managing larger-scale delivery operations** and coordinating multiple drivers and vehicles.
 
-With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app.
+With Geo2 Hub, you can import orders in bulk from Excel (CSV) files and PDFs, create and optimize multiple routes, assign orders to drivers and vehicles, and manage delivery schedules through an interactive calendar. The platform also supports drag-and-drop route planning, recurring route duplication, and managing multiple routes on a single map. 
+
+Hub provides **real-time delivery tracking, analytics and reporting, route cost calculation, mileage tracking, vehicle management, and customizable POD workflows**. Managers can monitor delivery progress, review completed and undelivered orders, compare planned and actual costs, and evaluate team performance.
+
+The built-in **AI Assistant** helps create and manage routes, retrieve delivery and POD information, and analyze operational data through natural-language questions, providing insights without manually reviewing reports and charts.
+
+With a **Free subscription**, Geo2 provides access to a range of core features at no cost across both Hub and the mobile app. Additional capabilities and higher usage limits are available through paid subscription plans.
 
 ## In this Section
 
