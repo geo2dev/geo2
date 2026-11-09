@@ -48,7 +48,7 @@ By pressing the `Continue` button, you are required to confirm your mobile phone
 
 ![Screenshot 2026-09-23 at 15.34.08.png](/Documentation/attachments/mue5g7hf-oo09jvzd.png)
 
-If you have not received an SMS with a verification code, press the `Resend code` button on Verify mobile number page, and a new code will be sent.  Once your mobile number is verified, you will sign in to Geo2.
+If you have not received an SMS with a verification code, press the `Resend code` button on Verify mobile number page, and a new code will be sent. Once your mobile number is verified, you will sign in to Geo2.
 
 ### Countries where phone authentication is unavailable
 
