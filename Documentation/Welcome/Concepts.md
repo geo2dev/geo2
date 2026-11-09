@@ -10,9 +10,9 @@ description: Geo2 is a cloud-based transport management system (TMS), a
 
 ## Introduction
 
-Geo2 is a cloud-based transport management system (TMS), a logistics service that uses technology to help businesses plan, execute, and optimize physical movement of goods.  By leveraging latest technology, Geo2 delivers competitive advantage to its customers - reduced cost of delivery with a focus on sustainability, while maintaining customer satisfaction.  We are always working to improve and innovate.
+Geo2 is a cloud-based transport management system (TMS), a logistics service that uses technology to help businesses plan, execute, and optimize physical movement of goods. By leveraging latest technology, Geo2 delivers competitive advantage to its customers - reduced cost of delivery with a focus on sustainability, while maintaining customer satisfaction. We are always working to improve and innovate.
 
-The central record that Geo2 works with is an *order*, record of a customer *delivery* or *collection*.  When organised into *routes*, each order is assigned a stop number - its planned position on the route.
+The central record that Geo2 works with is an *order*, record of a customer *delivery* or *collection*. When organised into *routes*, each order is assigned a stop number - its planned position on the route.
 
 There are a number of ways Geo2 can be used. The three examples below demonstrate increasing use of Geo2 functionality. How much functionality is utilised is up to each organization and is not fixed:
 
