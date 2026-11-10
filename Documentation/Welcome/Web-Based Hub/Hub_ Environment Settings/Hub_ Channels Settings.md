@@ -11,11 +11,11 @@ Channels are lightweight tags that let you classify delivery methods. They are 
 
 To add a channel, press the `Add` button in Settings → Environment → Channels in Hub.
 
-![Screenshot 2026-08-31 at 14.18.43.png](/Documentation/attachments/mth7g85f-ueytrrwx.png)
-
-![Screenshot 2026-08-31 at 14.18.50.png](/Documentation/attachments/mth7gbbh-uhekf1h4.png)
+![Screenshot 2026-11-10 at 16.13.57.png](/Documentation/attachments/mwau32sg-u8iifusg.png)
 
 You will see the form to fill in the information. Key and Name fields are required.
+
+![Screenshot 2026-11-10 at 16.15.08.png](/Documentation/attachments/mwau3bpu-0h6igp6s.png)
 
 
 | **Property** | **Description** |
@@ -27,13 +27,13 @@ You will see the form to fill in the information. Key and Name fields are requi
 
  A blank value for one of these fields means no limit. Press the `Update` button to save changes.
 
-![Screenshot 2026-08-31 at 14.19.44.png](/Documentation/attachments/mth7huje-q08q6oc3.png)
+![Screenshot 2026-11-10 at 16.15.28.png](/Documentation/attachments/mwau3gcb-9thxhxuz.png)
 
 To edit channel information, click the `Edit (pencil)` icon in the channel row. Remember to press the `Update` button.
 
-![Screenshot 2026-08-31 at 14.19.58.png](/Documentation/attachments/mth7i0zf-nifgcb9o.png)
+![Screenshot 2026-11-10 at 16.15.37.png](/Documentation/attachments/mwau3jbt-gltoxbr5.png)
 
 You can select a channel to `Delete` it. For data integrity, it is best to not delete a channel once it has started to be used.
 
-![Screenshot 2026-08-31 at 14.20.03.png](/Documentation/attachments/mth7i5gj-k4218h3g.png)
+![Screenshot 2026-11-10 at 16.15.42.png](/Documentation/attachments/mwau3mi5-2bja5nyk.png)
 
