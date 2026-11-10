@@ -14,7 +14,7 @@ Geo2 geo-codes determine the geographical location of different types of address
 - Route start/end addresses
 - Order addresses
 
-Environment geo coding settings let you control which address elements are used during geo-coding.  The first geo-coding attempt is made using `Default` settings.  If this does not lead to an accurate location, `Auto retry` settings are used instead.
+Environment geo coding settings let you control which address elements are used during geo-coding. The first geo-coding attempt is made using `Default` settings. If this does not lead to an accurate location, `Auto retry` settings are used instead.
 
 Typical settings would be:
 
@@ -29,6 +29,6 @@ Typical settings would be:
 | Postal code |  |
 
 
-![Screenshot 2026-08-31 at 13.08.53.png](/Documentation/attachments/mth4ydln-1v8s3cnc.png)
+![Screenshot 2026-11-10 at 14.31.01.png](/Documentation/attachments/mwaqahem-qggl5o7g.png)
 
 Press `Update` to save the settings.
