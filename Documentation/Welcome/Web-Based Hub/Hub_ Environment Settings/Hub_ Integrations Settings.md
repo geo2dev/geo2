@@ -1,7 +1,7 @@
 ---
 slug: /web-based-hub/hub-environment-settings/hub-integrations-settings
 sidebar_label: Integrations Settings
-sidebar_position: 16
+sidebar_position: 17
 description: Connect your Shopify store to Geo2 to import orders for delivery
   and mark them fulfilled automatically.
 ---
@@ -51,3 +51,4 @@ In Hub open Settings → Environment → Integrations and click **Disconnect**, 
 - "Unable to connect this Shopify store": the environment already holds another store, the store is connected to another environment, or the link expired. Disconnect the other store (or pick another environment), then open Geo2 again from Shopify admin → Apps.
 - An order doesn't appear: check that it has a shipping address and isn't assigned to a fulfilment service.
 - "Ask an administrator of this environment to connect the store": your Geo2 role can't change environment settings. Ask your organisation admin to connect the store.
+
