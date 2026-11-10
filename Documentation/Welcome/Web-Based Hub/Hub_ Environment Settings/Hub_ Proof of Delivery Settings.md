@@ -11,11 +11,11 @@ By default, a proof of delivery (POD) recording is enabled in every newly create
 
 If POD recording is turned off, the mobile app hides the `Create POD` button for drivers.
 
-![Screenshot 2026-08-31 at 13.54.11.png](/Documentation/attachments/mth6l39z-tv20yubl.png)
+![Screenshot 2026-11-10 at 15.50.08.png](/Documentation/attachments/mwat4m14-pfh7ukkr.png)
 
 A recipient can be sent an email with an order POD (proof of delivery) - both automatically when the POD is recorded and manually at any time from Geo2 Hub. While recording a POD is available for all level users, POD notifications are available only with Advanced or Enterprise subscription level.
 
-The sender address of email notifications is [noreply@geo2.com](mailto:noreply@geo2.com) if there is no indicated Sender name.  Here are the configurable settings in Settings → Environment → POD notification in Hub:
+The sender address of email notifications is [noreply@geo2.com](mailto:noreply@geo2.com) if there is no indicated Sender name. Here are the configurable settings in Settings → Environment → POD notification in Hub:
 
 
 | **Setting** | **Description** |
@@ -25,15 +25,15 @@ The sender address of email notifications is [noreply@geo2.com](mailto:noreply@g
 | Automatic enabled | If selected, POD messages will be sent automatically to a recipient email address and fixed emails (for partially successful/failed POD emails) when a POD is registered in Hub. |
 | Manual enabled | If selected, Hub users have the option to trigger the sending of the POD manually. Press the `Email to recipient` button on the Proof of Delivery page inside of an order in Hub or on the POD dialog when clicking on the POD icon on an order card or stop card on the Route view page in Hub. |
 | Fixed recipient | For failure notifications only, a fixed email recipient for the notifications. Partially successful/failed delivery emails can be sent to multiple fixed recipients, for example, to managers who are responsible for failed deliveries. Multiple email addresses can be entered, separated by a semi-colon (;) or by pressing `Enter`. To edit the entered email address, press it. |
-| Subject | Subject line of notifications. You can use these tokens for POD emails: `**{CONTACT_NAME}**` - recipient name `**{ORDER_KEY}**` - order key `**{COMPANY_NAME}**` - сompany name `**{ENVIRONMENT_NAME}**` - environment name |
-| Body | Body of notifications. You can use these tokens for POD emails: `**{CONTACT_NAME}**` - recipient name `**{ORDER_KEY}**` - order key `**{PUBLIC_POD}**` - POD tracking link `**{COMPANY_NAME}**` - сompany name `**{ENVIRONMENT_NAME}**` - environment name |
+| Subject | Subject line of notifications. You can use these tokens for POD emails `{CONTACT_NAME}` - recipient name `{ORDER_KEY}` - order key `{COMPANY_NAME}` - сompany name `{ENVIRONMENT_NAME}` - environment name |
+| Body | Body of notifications. You can use these tokens for POD emails: `{CONTACT_NAME}` - recipient name `{ORDER_KEY}` - order key `{PUBLIC_POD}` - POD tracking link `{COMPANY_NAME}` - сompany name `{ENVIRONMENT_NAME}` - environment name |
 
 
 Once all information is provided, click the `Update` button to save changes.
 
-![Screenshot 2026-08-31 at 13.54.32.png](/Documentation/attachments/mth6nrr5-b2ls46jv.png)
+![Screenshot 2026-11-10 at 15.50.18.png](/Documentation/attachments/mwat8ebh-15wavjui.png)
 
-When the POD is created and an order has a recipient email address, the POD notification email will be sent (if it was enabled in settings).  Example:
+When the POD is created and an order has a recipient email address, the POD notification email will be sent (if it was enabled in settings). Example:
 
 ![Screenshot 2026-04-07 at 15.28.15.png](/Documentation/attachments/68ef7115-a0af-420d-a852-6e098279d506.png)
 
