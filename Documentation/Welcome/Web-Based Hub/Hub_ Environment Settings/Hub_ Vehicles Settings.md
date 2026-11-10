@@ -10,19 +10,17 @@ description: Vehicles can be optionally assigned to deliver routes with orders.
 
 Vehicles can be optionally assigned to deliver routes with orders. Once you register a new account and a new organization/environment is created, default vehicles are automatically added for the following types: truck, van, car, motorbike, and bicycle. You can add more vehicles to your environment via Hub either one by one by pressing the `Add` button or all at once by pressing the `Import` button in Settings → Environment → Vehicles.
 
-![Screenshot 2026-08-28 at 10.47.24.png](/Documentation/attachments/mtcnfmf6-isdx4uho.png)
+![Screenshot 2026-11-10 at 14.18.19.png](/Documentation/attachments/mwapu5f6-r7iahul7.png)
 
 ## Add Vehicles
 
 By pressing the Add button in Settings → Environment → Vehicles in Hub, you will see the dialog to fill in the information.  Required fields are Key, Type, and Speed factor. All other fields are optional. Hovering over the `Question` on a field will display a prompt explaining its meaning and the expected data to put there.
 
-![Screenshot 2026-08-28 at 10.49.04.png](/Documentation/attachments/mtcni1j9-b3meco71.png)
-
-![Screenshot 2026-08-28 at 10.49.12.png](/Documentation/attachments/mtcnif3r-8wsj556h.png)
+![Screenshot 2026-11-10 at 14.18.43.png](/Documentation/attachments/mwapv945-w4y9wua0.png)
 
 By pressing the `Measures` button, you will see additional fields like Weight and Volume capacity, Gross weight, Height, Width, Length, Emission factor, and Speed factor.
 
-![Screenshot 2026-08-28 at 10.49.55.png](/Documentation/attachments/mtcnizaz-534liazs.png)
+![Screenshot 2026-11-10 at 14.18.50.png](/Documentation/attachments/mwapvc2i-d9nvsrd2.png)
 
 The properties of each vehicle are:
 
@@ -54,9 +52,11 @@ Once information is provided, press the `Create` button to save changes.
 
 You can edit vehicle properties by clicking the `Edit` icon.  Remember to press the `Save` button to save changes.
 
+![Screenshot 2026-11-10 at 14.20.41.png](/Documentation/attachments/mwapxlhk-gv39garw.png)
+
 You can select a vehicle to `Delete` it.  For data integrity, it is best to not delete a vehicle once it has started to be used.
 
-![Screenshot 2026-08-28 at 11.02.12.png](/Documentation/attachments/mtcnykq6-qsdmuf5c.png)
+![Screenshot 2026-11-10 at 14.20.50.png](/Documentation/attachments/mwapxqjr-39ijmy8o.png)
 
 ## Import Vehicles
 
