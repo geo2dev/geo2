@@ -11,11 +11,11 @@ Areas let you tag depots and routes by user-defined geographical regions. Areas
 
 To add an area, press the `Add` button in Settings → Environment → Areas in Hub.
 
-![Screenshot 2026-08-31 at 14.14.40.png](/Documentation/attachments/mth7b1a2-nzrxhg5s.png)
-
-![Screenshot 2026-08-31 at 14.14.47.png](/Documentation/attachments/mth7b5xd-cbky0v7t.png)
+![Screenshot 2026-11-10 at 16.10.55.png](/Documentation/attachments/mwatwxbn-2elcdec1.png)
 
 You will see the form to fill in the information.  Key and Name are required fields, others are optional.
+
+![Screenshot 2026-11-10 at 16.11.03.png](/Documentation/attachments/mwatx1mv-o5ap92h6.png)
 
 
 | **Property** | **Description** |
@@ -29,13 +29,7 @@ You will see the form to fill in the information.  Key and Name are required fi
 
 Press the `Update` button to save your edits.
 
-![Screenshot 2026-08-31 at 14.15.30.png](/Documentation/attachments/mth7bvxi-8rknn9vm.png)
+To edit area information, click the `Edit (pencil)` icon by hovering over the area row. Remember to press the `Update` button.
 
-To edit area information, click the `Edit (pencil)` icon by hovering over the area row.  Remember to press the `Update` button.
-
-![Screenshot 2026-08-31 at 14.15.50.png](/Documentation/attachments/mth7cdjl-3rxykp82.png)
-
-You can select an area to `Delete` it.  For data integrity, it is best to not delete an area once it has started to be used.
-
-![Screenshot 2026-08-31 at 14.16.07.png](/Documentation/attachments/mth7cn11-u21aj3ms.png)
+You can select an area to `Delete` it. For data integrity, it is best to not delete an area once it has started to be used.
 
