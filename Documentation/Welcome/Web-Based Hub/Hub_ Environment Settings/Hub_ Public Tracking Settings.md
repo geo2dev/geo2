@@ -19,13 +19,13 @@ Public tracking links can be sent via email and SMS notifications. You do not n
 | Disclose vehicle position | On Public tracking page, when an order has not been delivered/collected yet, show the last known vehicle position on the map (requires the vehicle driver to have started load tracking in the mobile app). |
 | Tracking email/SMS enabled on | Send an email/SMS notification to the recipient, in which you can include the tracking page address, to enable them to track the order prior to delivery/collection. The possible triggers are: `None` - Do not send emails. `Registered` - When the order is created (via the Hub, mobile app, or API). `Planning` - When the order is assigned to a route in planning. `Planned` - When the order is assigned to a planned route. `Released` - When the order is assigned to a released route. `In Transit` - When the route, to which the order has been assigned, has been started. For this trigger, it is important that drivers explicitly start tracking routes in the mobile app. |
 | Sender name | Sender name for the notification email. Not available for an SMS notification. |
-| Subject | Subject for the notification email. Not available for an SMS notification. You can use these tokens for Public tracking emails: `**{CONTACT_NAME}**` - recipient name `**{ORDER_KEY}**` - order key `**{COMPANY_NAME}**` - сompany name `**{ENVIRONMENT_NAME}**` - environment name |
-| Body | Body of the notification email/SMS. Ensure that the wording of the email is appropriate for the trigger you have configured. You can use the next tokens for an email/SMS notification: `**{CONTACT_NAME}**` - recipient name `**{ORDER_KEY}**` - order key `**{PUBLIC_TRACKING}**` - public tracking link `**{COMPANY_NAME}**` - company name `**{ENVIRONMENT_NAME}**` - environment name `**{DELIVERY_ETA}**` - estimated time of arrival Without the token PUBLIC_TRACKING, the public tracking link will not be included in an SMS notification. The limit for an SMS notification is **120 symbols**. |
+| Subject | Subject for the notification email. Not available for an SMS notification. You can use these tokens for Public tracking emails: `{CONTACT_NAME}` - recipient name `{ORDER_KEY}` - order key `{COMPANY_NAME}` - сompany name `{ENVIRONMENT_NAME}` - environment name |
+| Body | Body of the notification email/SMS. Ensure that the wording of the email is appropriate for the trigger you have configured. You can use the next tokens for an email/SMS notification: `{CONTACT_NAME}` - recipient name `{ORDER_KEY}` - order key `{PUBLIC_TRACKING}` - public tracking link `{COMPANY_NAME}` - company name `{ENVIRONMENT_NAME}` - environment name `{DELIVERY_ETA}` - estimated time of arrival Without the token PUBLIC_TRACKING, the public tracking link will not be included in an SMS notification. The limit for an SMS notification is **120 symbols**. |
 
 
-![Screenshot 2026-08-31 at 14.03.34.png](/Documentation/attachments/mth6wrhi-pcm9o2yl.png)
+![Screenshot 2026-11-10 at 15.56.55.png](/Documentation/attachments/mwatda67-4wcpb826.png)
 
-![Screenshot 2026-08-31 at 14.03.41.png](/Documentation/attachments/mth6wv4y-ckbeudro.png)
+![Screenshot 2026-11-10 at 15.57.02.png](/Documentation/attachments/mwatdddt-5710xt4r.png)
 
 Once the route status changes to the configured value (e.g. In Transit), an email/SMS notification with a public tracking link will be sent to the recipient's email address/mobile phone number.  For this to work, it is important that the recipient’s contact details (email address and mobile phone number) are specified in the order.
 
