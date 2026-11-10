@@ -1,7 +1,7 @@
 ---
 slug: /web-based-hub/hub-environment-settings/hub-public-tracking-settings
 sidebar_label: Public Tracking Settings
-sidebar_position: 10
+sidebar_position: 11
 description: It's possible for external users such as recipients to optionally
   track the progress of their orders on a public web page.
 ---
