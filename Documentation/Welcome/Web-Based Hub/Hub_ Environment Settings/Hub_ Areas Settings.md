@@ -1,7 +1,7 @@
 ---
 slug: /web-based-hub/hub-environment-settings/hub-areas-settings
 sidebar_label: Areas Settings
-sidebar_position: 12
+sidebar_position: 13
 description: Areas let you tag depots and routes by user-defined geographical
   regions. Areas require an Advanced or Enterprise subscription.
 ---
