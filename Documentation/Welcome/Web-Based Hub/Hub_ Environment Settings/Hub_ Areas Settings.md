@@ -31,5 +31,9 @@ Press the `Update` button to save your edits.
 
 To edit area information, click the `Edit (pencil)` icon by hovering over the area row. Remember to press the `Update` button.
 
+![Screenshot 2026-11-10 at 16.11.30.png](/Documentation/attachments/mwatxu9s-zd5h7rv4.png)
+
 You can select an area to `Delete` it. For data integrity, it is best to not delete an area once it has started to be used.
+
+![Screenshot 2026-11-10 at 16.11.35.png](/Documentation/attachments/mwaty0am-a748vgqa.png)
 
