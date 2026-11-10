@@ -145,7 +145,7 @@ The import options are:
 
 ![](/Documentation/attachments/3b33ea9d-0501-4df0-b7cb-8dd6fbacf41c.png)
 
-Click the `Import` button to import vehicles.  The import process feeds back any errors that it encounters.
+Click the `Import` button to import vehicles. The import process feeds back any errors that it encounters.
 
 Vehicles will be imported and displayed in the Vehicles list in Settings → Environment.
 
