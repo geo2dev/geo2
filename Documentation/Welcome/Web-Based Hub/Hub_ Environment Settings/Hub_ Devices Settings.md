@@ -19,6 +19,6 @@ To run auto-deletion of photos recorded during a POD or vehicle check creation, 
 
 `Record time at stop` enables the mobile app’s feature to record the actual time spent at a stop by a driver. Learn more about [Mobile App: Routes and Stops](../../Mobile%20App/Mobile%20App_%20Routes%20and%20Stops.md). Recording of actual stop duration is available only with Enterprise subscription level.
 
-![Screenshot 2026-08-31 at 14.20.59.png](/Documentation/attachments/mth7jzvd-jg1w4unt.png)
+![Screenshot 2026-11-10 at 16.25.36.png](/Documentation/attachments/mwaudued-de56i6bl.png)
 
 To save changes, press the `Update` button.
