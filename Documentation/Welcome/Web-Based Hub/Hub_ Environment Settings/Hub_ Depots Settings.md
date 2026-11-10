@@ -14,7 +14,7 @@ Depots can be optionally selected as the start and end points for routes. Durin
 
 To add a depot, press the `Add` button. You will see a dialog where you have to provide the next information - key, name, and address (Address line 1, City and Country fields). All other fields are optional. You can provide the address manually by typing it into Address line 1 and selecting the relevant address. If there is no variant you were looking for, just provide your data to the address form and we will save it. For routes, it is important that depot addresses are geo-coded accurately.
 
-![Screenshot 2026-08-27 at 16.21.57.png](/Documentation/attachments/mtbjye01-s5ma2xvw.png)
+![Screenshot 2026-11-10 at 14.14.55.png](/Documentation/attachments/mwapqp12-a6xfy3da.png)
 
 The properties of each depot are:
 
@@ -36,21 +36,21 @@ The properties of each depot are:
 | Country | Country as a part of a depot address. It must be provided as the two-letter ISO country code, for example, US for the United States. |
 
 
-![Screenshot 2026-08-27 at 16.24.22.png](/Documentation/attachments/mtbk185a-ilo0t4z8.png)
+![Screenshot 2026-11-10 at 14.15.10.png](/Documentation/attachments/mwapqzue-agq1k848.png)
 
 Once information is provided, press the `Create` button and a depot will be created.
 
-![Screenshot 2026-08-27 at 16.24.56.png](/Documentation/attachments/mtbk1t22-jdbx6pww.png)
+![Screenshot 2026-11-10 at 14.16.09.png](/Documentation/attachments/mwaprcjh-hm1kmt86.png)
 
-Optionally, you can select it as a default one. The default depot will be used for route creation but it can be changed.  Learn more about [Hub: Routes](../Hub_%20Routes/index.md). The default depot will be used for order import if the Depot field is blank. Learn more about [Hub: Order Import](../Hub_%20Orders/Hub_%20Order%20Import.md).
+Optionally, you can select it as a default one. The default depot will be used for route creation but it can be changed. Learn more about [Hub: Routes](../Hub_%20Routes/index.md). The default depot will be used for order import if the Depot field is blank. Learn more about [Hub: Order Import](../Hub_%20Orders/Hub_%20Order%20Import.md).
 
-In the Depots table, you will see information from the key fields.  Values of other fields can be shown and edited by clicking the `Edit` icon at the end of the row.  Remember to press the `Save` button to save changes.
+In the Depots table, you will see information from the key fields. Values of other fields can be shown and edited by clicking the `Edit` icon at the end of the row. Remember to press the `Save` button to save changes.
 
-![Screenshot 2026-08-27 at 16.25.56.png](/Documentation/attachments/mtbk318c-23clvxan.png)
+![Screenshot 2026-11-10 at 14.15.22.png](/Documentation/attachments/mwaprlwe-k3ab5222.png)
 
 You can `Delete` a depot, though this is only recommended before it has started to be used.
 
-![Screenshot 2026-08-27 at 16.26.22.png](/Documentation/attachments/mtbk3kt3-zwpqlcjv.png)
+![Screenshot 2026-11-10 at 14.16.42.png](/Documentation/attachments/mwaps1wo-ng17665y.png)
 
 ## Import Depots
 
@@ -140,7 +140,7 @@ The import options are:
 
 ![](/Documentation/attachments/bac22c7e-50db-436a-b6ed-8f95184991c0.png)
 
-Click the `Import` button to import depots.  The import process feeds back any errors that it encounters.
+Click the `Import` button to import depots. The import process feeds back any errors that it encounters.
 
 Depots will be imported and displayed in the Depots list in Settings → Environment in Hub. 
 
