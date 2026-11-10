@@ -21,11 +21,14 @@ Route defaults from Settings → Environment → Routes are applied to routes wh
 | Allow depot change for routes with assigned orders | Allow changing a route depot even if it differs from the orders depot assigned to the route. It is best to keep this setting turned off. Otherwise, it can cause some inaccuracies during route planning. |
 | Vehicle check on route start | Activate vehicle check in the mobile app when the route is being started. Vehicle checks require an Advanced or Enterprise subscription. |
 | Vehicle check on route completion | Activate vehicle check in the mobile app when the route is being completed. Vehicle checks require an Advanced or Enterprise subscription. |
+| Avoid tolls, highways, ferries | Avoid toll roads, highways (motorways), and ferries when calculating or optimizing routes. |
 
 
-![Screenshot 2026-08-31 at 13.27.05.png](/Documentation/attachments/mth6c9dz-67l5o8gk.png)
+![Screenshot 2026-11-10 at 14.48.37.png](/Documentation/attachments/mwaqx4ol-48zurdjt.png)
 
-`Stop card layout` settings allow you to customize the stop card information displayed on Route and Map view pages. You can preview how stop cards look in collapsed or expanded views and for medium or large screen sizes. Default options apply for all environments but you can change them. There are two columns:
+`Stop card layout` settings allow you to customize the stop card information displayed on Route and Map view pages. You can preview how stop cards look in collapsed or expanded views and for medium or large screen sizes. Default options apply for all environments but you can change them. 
+
+There are two columns:
 
 - Available fields - all possible data options,
 - Displayed fields - selected fields for display that let you manage which details are shown).
@@ -34,6 +37,21 @@ Fields can be moved between the lists by drag-and-drop or clicking, reordered wi
 
 The number of fields shown depends on the selected view and screen size (6 for collapsed medium, 8 for collapsed large, and 9 for expanded views). Some longer fields, like Recipient address, Planning instructions, and Delivery instructions, count as 2 fields and take up 2 rows in the collapsed view. When limits are reached, unavailable fields are greyed out. The configuration automatically syncs with how stop cards appear on Route and Map view, updating in real time. Thus, you have complete control and flexibility to display only the most relevant stop information for your operations. You can select what information is displayed separately for medium and large screen sizes, both in the collapsed and expanded view. Depending on your and other users in your environment device screens, the system will automatically display the configured information.
 
-![Screenshot 2026-08-31 at 13.27.12.png](/Documentation/attachments/mth6cpcb-vu28z6sk.png)
+![Screenshot 2026-11-10 at 14.48.59.png](/Documentation/attachments/mwaqxmzk-eqjfk4ul.png)
+
+`Calendar route card layout` settings allow you to customize the route information displayed on route cards in Routes → Calendar view in Hub. You can choose which details to display and arrange them in your preferred order to keep route cards compact or show more information depending on your operational needs.
+
+There are two columns:
+
+- Available fields – all route information that can be added to route cards, including planned start and end times, distance, duration, number of stops, peak weight and volume, driver, participants, vehicle, area, and route status.
+- Displayed fields – selected fields that are currently shown on route cards.
+
+You can add or remove fields by moving them between the lists and reorder displayed fields using drag-and-drop. The order of the selected fields determines how information appears on route cards in Calendar view.
+
+By default, route cards display planned start time, number of stops, peak weight, and peak volume. The route key is always visible and cannot be removed. The visibility of weight and volume information also depends on the Consider weight/volume options under Settings → Display preferences.
+
+The configuration allows you to display only the most relevant route information, reducing unnecessary scrolling when managing multiple routes or providing additional operational details without opening each route.
+
+![Screenshot 2026-11-10 at 14.54.45.png](/Documentation/attachments/mwar51zw-mbpalibm.png)
 
 To save changes, remember to press the `Update` button.
