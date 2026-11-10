@@ -7,11 +7,11 @@ description: You can manage the users who have access to the environment and set
 ---
 # Hub: Users Settings
 
-You can manage the users who have access to the environment and set their roles in Settings → Environment → Users in Hub.  You can add users from your organization using the `Add` button.  Only Environment Admin or Environment User Admin can add, update, or delete users in the environment.
+You can manage the users who have access to the environment and set their roles in Settings → Environment → Users in Hub. You can add users from your organization using the `Add` button. Only Environment Admin or Environment User Admin can add, update, or delete users in the environment.
 
 ![Screenshot 2026-08-27 at 15.48.24.png](/Documentation/attachments/mtbir2fk-ehgsyhbe.png)
 
-The Add users dialog will appear with 3 fields - Users, Role, and Vehicle categories.  By clicking on the User field, you can choose multiple users for adding them to the environment, assigning them [User Roles](../../User%20Roles.md) and vehicle categories.  The role will apply to all the selected users.  It is not possible to add users to the environment who are not defined in [Hub: Organization Settings](../Hub_%20Organization%20Settings.md).  If all organization users are added to the environment already, the Add button will be disabled.  You need to add users to your organization first.
+The Add users dialog will appear with 3 fields - Users, Role, and Vehicle categories. By clicking on the User field, you can choose multiple users for adding them to the environment, assigning them [User Roles](../../User%20Roles.md) and vehicle categories. The role will apply to all the selected users. It is not possible to add users to the environment who are not defined in [Hub: Organization Settings](../Hub_%20Organization%20Settings.md). If all organization users are added to the environment already, the Add button will be disabled. You need to add users to your organization first.
 
 The vehicle categories will apply to all selected users. See [Hub: Vehicle Categories Settings](Hub_%20Vehicle%20Categories%20Settings.md) for more information about vehicle categories and their usage.
 
