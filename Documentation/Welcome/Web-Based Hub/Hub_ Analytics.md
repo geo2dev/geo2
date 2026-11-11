@@ -74,7 +74,7 @@ You can select the period to which the data relate - Today, Yesterday, Tomorrow,
 
 This map shows your depots and the positions of drivers who have routes in the Started status. Clicking each object on the map reveals further details.
 
-![Analytics 48.png](/Documentation/attachments/083d35cf-7a28-44f6-a2e6-684e6b3e31f8.png)
+![Frame 12356988 (1).png](/Documentation/attachments/mwcaf2gt-0e6ipqxj.png)
 
 The legend for colour-coding of the objects on the map is shown below the map:
 
