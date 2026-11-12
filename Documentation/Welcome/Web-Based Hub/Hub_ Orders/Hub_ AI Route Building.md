@@ -24,7 +24,7 @@ It is up to you to ensure that you are not overcommitting a vehicle by it being 
 
 When you select orders on Orders page in Hub, you initiate the building of routes across all available vehicles for the selected orders by pressing the `AI route building` button:
 
-![Screenshot 2026-09-01 at 15.43.08.png](/Documentation/attachments/mtipxm6z-1yfd98y8.png)
+![Screenshot 2026-11-12 at 15.28.03.png](/Documentation/attachments/mwdn8s3c-7xd7nffr.png)
 
 Learn how to run the route building:
 
@@ -32,7 +32,7 @@ Learn how to run the route building:
 
 This will open the `AI route building` dialog. At the top of the dialog, you will see the number of selected orders before. If you have selected an order that is already assigned to a route, it will be excluded and the reason is provided.
 
-![Screenshot 2026-09-01 at 15.43.17.png](/Documentation/attachments/mtipxsim-fu1r68ri.png)
+![Screenshot 2026-11-12 at 15.28.11.png](/Documentation/attachments/mwdn8xba-ez163y3q.png)
 
 ## AI Route Building Options
 
@@ -49,13 +49,9 @@ You have a number of options to fine-tune the AI route building:
 | Consider time windows | Select this option if you want to automatically optimize generated routes considering assigned order time windows ([Hub: Order Creation and Editing](Hub_%20Order%20Creation%20and%20Editing.md)). This option is only enabled if at least 1 order has required time windows. Otherwise, generated routes will optimized considering just traffic and distance data. Vehicle dimensions specified in Settings → Environment -> [Hub: Vehicles Settings](../Hub_%20Environment%20Settings/Hub_%20Vehicles%20Settings.md) will be considered automatically for building a route. You are not obliged to accept the suggested stops order. |
 
 
-![Screenshot 2026-09-01 at 15.43.24.png](/Documentation/attachments/mtiq298t-xvyxecee.png)
-
-![Screenshot 2026-09-01 at 15.43.31.png](/Documentation/attachments/mtiq2cud-wzx602pl.png)
-
 You can dismiss the dialog by pressing the `Close` button. If you press `Generate`, the route building will start.
 
-![Screenshot 2026-09-01 at 15.48.17.png](/Documentation/attachments/mtiq33au-38764h1f.png)
+![Screenshot 2026-11-12 at 15.28.22.png](/Documentation/attachments/mwdn9b8l-9vk24be9.png)
 
 ## AI Route Building Process
 
@@ -87,7 +83,7 @@ Once routes are generated, you will see the results in the table view on the lef
 | Vehicle | Vehicle key. Assigned to a route vehicle. |
 
 
-![Screenshot 2026-09-01 at 15.49.22.png](/Documentation/attachments/mtiq4ibo-uax08zx7.png)
+![Screenshot 2026-11-12 at 15.28.29.png](/Documentation/attachments/mwdn9lr8-qajj3i44.png)
 
 The list of routes could be scrollable to check all created routes. By pressing the route key on one of the created routes, the selected route will be opened in the new tab of the browser.
 
@@ -105,7 +101,11 @@ Examples:
 
 Route building creates routes like any other - you can access them through the Routes page in Hub. You can visualise generated routes by pressing the `Map view` button at the top right corner - see [Hub: Map View](../Hub_%20Map%20View.md).
 
+![Screenshot 2026-11-12 at 15.28.41.png](/Documentation/attachments/mwdn9whl-hi6zgvnn.png)
+
 You can return to the route building results later by pressing the `AI route building logs` button in the menu in Hub and pressing the card of the route building session you want to review.
 
-![Screenshot 2026-09-01 at 16.01.32.png](/Documentation/attachments/mtiqk3ip-wlbbx4eu.png)
+![Screenshot 2026-11-12 at 15.30.10.png](/Documentation/attachments/mwdnalcy-ijkijg5q.png)
+
+![Screenshot 2026-11-12 at 15.30.21.png](/Documentation/attachments/mwdnaoms-4neq3eho.png)
 
