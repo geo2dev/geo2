@@ -12,15 +12,16 @@ Routes are groups of orders typically handled in a single vehicle trip.
 
 ## Routes List
 
-To list routes in the environment, select `Routes` from the menu in Hub. By default, routes created in the last 7 days are listed. You can select the other two tabs to show routes created in the last 30 days or list all routes in the environment. Full filtering and sorting criteria are only available for the 7-day and 30-day tabs.
+To list routes in the environment, select `Routes` from the menu in Hub. By default, routes created in the last 30 days are listed. You can select to list all routes in the environment. Full filtering and sorting criteria are only available for the 30-day tab.
 
-![Screenshot 2026-09-21 at 14.12.19.png](/Documentation/attachments/mub81fsz-lxih36o7.png)
+![Screenshot 2026-11-12 at 15.40.44.png](/Documentation/attachments/mwdnnv3d-gf59g22k.png)
 
 On Routes page in Hub, you can choose how routes are displayed using one of the available view options:
 
 - List view
 - Table (grid) view
 - Calendar view
+- Map view
 
 ### List View
 
@@ -43,7 +44,7 @@ List view displays route information in a structured list. For each route, you c
 
 Click the `route key` to open the route on a separate page, where you can manage and plan it by adding orders (stops) and breaks, optimizing the route, and performing other route-related actions.
 
-![Screenshot 2026-09-21 at 14.12.19.png](/Documentation/attachments/mub8p4xm-0xj8icso.png)
+![Screenshot 2026-11-12 at 15.41.18.png](/Documentation/attachments/mwdnomgw-58noxxqq.png)
 
 ### Table (Grid) View
 
@@ -66,11 +67,11 @@ Table view displays the same route information but in a grid format:
 
 You can customize the table by choosing which columns to show or hide, allowing you to focus on the route information that is most relevant to you. Click the `: (three-dot) icon` next to a column label and select `Hide column` to hide that column. To manage several columns at once, select `Manage columns` and choose which columns to show or hide.
 
-![Screenshot 2026-09-21 at 14.13.29.png](/Documentation/attachments/mub8r2jv-ulscozyr.png)
+![Screenshot 2026-11-12 at 15.41.49.png](/Documentation/attachments/mwdnpmp4-gpc5azng.png)
 
-![Screenshot 2026-09-21 at 14.20.33.png](/Documentation/attachments/mub8r89m-e0a139ui.png)
+![Screenshot 2026-11-12 at 15.41.56.png](/Documentation/attachments/mwdnpqmz-vi5bflfi.png)
 
-![Screenshot 2026-09-21 at 14.21.10.png](/Documentation/attachments/mub8ttgr-89u2x0en.png)
+![Screenshot 2026-11-12 at 15.42.03.png](/Documentation/attachments/mwdnpu5z-g34yng2g.png)
 
 Click the `route key` to open the route on a separate page, where you can manage and plan it by adding orders (stops) and breaks, optimizing the route, and performing other route-related actions.
 
@@ -78,23 +79,31 @@ Click the `route key` to open the route on a separate page, where you can manage
 
 Calendar view helps you review and manage routes based on their planned start date and time. 
 
-![Screenshot 2026-09-21 at 14.13.37.png](/Documentation/attachments/mub8x9qz-ocn9lfof.png)
+![Screenshot 2026-11-12 at 15.43.28.png](/Documentation/attachments/mwdnrdc4-60djpg5q.png)
 
 You can switch between Weekly and Daily views and use the navigation controls to move between dates. Select `Today` to return to the current day or week.
 
-![Screenshot 2026-09-21 at 14.21.27.png](/Documentation/attachments/mub8xpcx-y5dfxpbf.png)
+![Screenshot 2026-11-12 at 15.44.11.png](/Documentation/attachments/mwdnsper-gcvwwo58.png)
 
-![Screenshot 2026-09-21 at 14.21.39.png](/Documentation/attachments/mub8y7b9-ayvo82qo.png)
+![Screenshot 2026-11-12 at 15.44.18.png](/Documentation/attachments/mwdnssir-jflmgak0.png)
 
-![Screenshot 2026-09-21 at 14.21.47.png](/Documentation/attachments/mub8yc57-7l6khz83.png)
+![Screenshot 2026-11-12 at 15.44.25.png](/Documentation/attachments/mwdnsvjm-pdtzg3h8.png)
 
-Routes can be grouped by vehicle or by driver. You can also choose which vehicles or drivers to display in the calendar. 
+Routes can be grouped by vehicle, driver or area. You can also choose which vehicles, drivers and areas to display in the calendar. 
+
+![Screenshot 2026-11-12 at 15.45.16.png](/Documentation/attachments/mwdnuce6-3q0ozm9m.png)
+
+![Screenshot 2026-11-12 at 15.45.23.png](/Documentation/attachments/mwdnui2e-rw2nuj3y.png)
+
+![Screenshot 2026-11-12 at 15.45.37.png](/Documentation/attachments/mwdnun7c-2cg2l044.png)
 
 Use Transpose to change the calendar layout by switching the position of dates and vehicles/drivers.
 
-![Screenshot 2026-09-21 at 14.21.56.png](/Documentation/attachments/mub8ynny-kb8t4wz5.png)
+![Screenshot 2026-11-12 at 15.46.34.png](/Documentation/attachments/mwdnvjxv-sh8bo1qr.png)
 
-Each route card displays key route information, including:
+![Screenshot 2026-11-12 at 15.46.40.png](/Documentation/attachments/mwdnvnab-m8oar0gh.png)
+
+By default, each route card displays key route information, including:
 
 - Route key
 - Planned start time
@@ -103,19 +112,54 @@ Each route card displays key route information, including:
 
 If the route weight or volume reaches or exceeds the capacity of the assigned vehicle, the relevant capacity information is highlighted to make potential capacity issues easier to identify.
 
+You can configure what information is displayed in `Settings → Routes → Calendar route card layout`. Learn more about configuring **[calendar route card layout](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-routes-settings)**.
+
+![Screenshot 2026-11-12 at 15.48.52.png](/Documentation/attachments/mwdnyagu-wywqtrkf.png)
+
 Routes are displayed according to their planned start time. If several routes have the same planned start time, they are ordered by their creation date and time. If a route starts on one day and finishes on another, it is displayed across both days in the calendar.
 
 You can still use the available filters to narrow down the routes displayed in Calendar view, for example by depot.
 
 Click a `route card` to open its details below the calendar. The expanded route details include the list of stops and a map, allowing you to review the route without leaving Calendar view.
 
-![Screenshot 2026-09-21 at 14.22.26.png](/Documentation/attachments/mub8zivh-mkmrp7ot.png)
+![Screenshot 2026-11-12 at 15.51.29.png](/Documentation/attachments/mwdo20om-r2amn5mg.png)
+
+![Screenshot 2026-11-12 at 15.51.36.png](/Documentation/attachments/mwdo23bl-xl52jz9l.png)
 
 From the expanded route details, you can use the available `Actions` to perform route-related operations, such as adding orders. You can also open the route on its dedicated Route page in a separate browser tab.
 
-![Screenshot 2026-09-21 at 14.22.36.png](/Documentation/attachments/mub90501-xmfrlp1c.png)
+Learn more about Calendar view. 
 
-![Screenshot 2026-09-21 at 14.22.47.png](/Documentation/attachments/mub9097f-aspgj33m.png)
+### Map View
+
+The **Map view** allows you to visualise and manage multiple routes on a single map, making it easier to review stop locations, compare routes, and adjust delivery plans. You can select one or more routes using checkboxes in **List or Table view** and switch to Map view to display them, with up to **40 routes visible at once**. Each route is displayed in a different colour to help you distinguish between them.
+
+![Screenshot 2026-11-12 at 16.00.35.png](/Documentation/attachments/mwdodnu0-ny616x93.png)
+
+![Screenshot 2026-11-12 at 16.00.43.png](/Documentation/attachments/mwdodqwt-7o1a3vf8.png)
+
+If no routes are selected, the map opens empty, allowing you to manually add routes or unassigned orders.
+
+![Screenshot 2026-11-12 at 16.01.16.png](/Documentation/attachments/mwdoe8it-epwdwnmd.png)
+
+In Map view, you can:
+
+- View multiple routes and their stops on an interactive map.
+- Review route details and expand or collapse stop cards to see delivery information.
+- Select individual stops or multiple stops directly on the map.
+- Move stops between routes to adjust your delivery plans.
+- Add existing orders to routes or work with orders that haven't been assigned to a route yet.
+- Move orders to the **No route** group for later assignment.
+- Add and manage route breaks.
+- Manage routes and stops using the available actions.
+
+![Screenshot 2026-11-12 at 16.02.20.png](/Documentation/attachments/mwdoflnw-7mvf0wb3.png)
+
+You can switch between **List, Table, Calendar, and Map views** directly from the Routes page without losing your selected routes and other applicable filters.
+
+Map view is available with Advanced and Enterprise subscriptions for users with the required permissions.
+
+Learn more about Map view.
 
 ### Filters
 
@@ -123,14 +167,16 @@ To narrow down the list of routes, you can set a filter in the Filtering section
 
 
 | **Field** | **Operator** | **Description** |
-| ---------------- | ------------ | ----------------------------------------------------------------------------------- |
+| ---------------- | ------------ | ------------------------------------------------------------------------------------ |
 | Created | From/To | Range of route creation date/time. |
-| Status | Select | Choose the status of a route: - Planning - Planned - Released - Started - Completed |
+| Status | Select | Choose the status of a route: - Planning - Planned - Released - Started - Completed |
 | Key | Contains | Match the route key. |
 | Trip | From/To | Range of route trip number. |
 | Depot | Select | Key of depot assigned to the route. |
 | Driver | Select | Display name of user assigned to the route. |
 | Vehicle | Select | Key of vehicle assigned to the route. |
+| Area | Select | Key of area assigned to the route. |
+| Purpose code | Select | Filter routes by one or more purpose codes configured for the current environment. |
 | Planned start | From/To | Range of route planned start date/time. |
 | Planned end | From/To | Range of route planned end date/time. |
 | Planned duration | From/To | Range of route planned duration. |
@@ -140,6 +186,8 @@ To narrow down the list of routes, you can set a filter in the Filtering section
 | Actual duration | From/To | Range of route actual duration. |
 | Actual distance | From/To | Range of route actual distance. |
 
+
+![Screenshot 2026-11-12 at 16.02.53.png](/Documentation/attachments/mwdok4jc-cz7jdfmd.png)
 
 ## Bulk Route Update
 
@@ -157,7 +205,7 @@ For example, you can use bulk update to:
 To update routes in bulk:
 
 1. Go to Routes.
-2. Open the Last 7 days or Last 30 days view.
+2. Open the Last 30 days view.
 3. Select the routes you want to update.
 4. Click `Bulk edit`.
 5. In the Edit routes dialog, enter values only for the fields you want to change.
@@ -165,7 +213,7 @@ To update routes in bulk:
 
 The dialog displays the number of selected routes and their route keys so you can confirm which routes will be updated. Route keys cannot be changed using bulk update.
 
-![Screenshot 2026-09-22 at 17.06.40.png](/Documentation/attachments/muct4t9z-tf43e2w3.png)
+![Screenshot 2026-11-12 at 16.06.46.png](/Documentation/attachments/mwdolrsy-6diqrh8c.png)
 
 You can update the following route properties:
 
@@ -181,11 +229,9 @@ You can update the following route properties:
 - Vehicle check on route start
 - Vehicle check on route completion
 
-![Screenshot 2026-09-22 at 17.07.08.png](/Documentation/attachments/muct617m-8v4vur9h.png)
+![Screenshot 2026-11-12 at 16.06.53.png](/Documentation/attachments/mwdom1na-arbf24oj.png)
 
 When changing the Route start or Route end, a map is available to help you select the required location.
-
-![Screenshot 2026-09-22 at 17.07.22.png](/Documentation/attachments/muct64c0-pyyz37vt.png)
 
 Only fields that you change in the Edit routes dialog are updated. For example, if you select 20 routes and specify only a new Planned start time, Geo2 updates the planned start time for all selected routes while keeping their existing drivers, vehicles, areas, statuses, and other settings unchanged.
 
