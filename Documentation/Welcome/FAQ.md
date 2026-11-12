@@ -276,7 +276,7 @@ AI route building feature is available with **Enterprise** subscription level on
 
 **Yes.** The Hub Map view allows you to work with multiple routes simultaneously on a single page. You can open the map with several routes selected, and they will be displayed together on the same map. Each route is shown separately and can be individually shown or hidden using the visibility (eye) control, making it easy to focus on specific routes while keeping others available. Up to 40 routes can be displayed on the map at the same time, and you can interact with them directly — view stops, inspect details, and make route-related changes without leaving the map view. Additionally, you can create routes and orders (stops) directly on this page, and they will be visualized on the map accordingly.
 
-Press [Hub: Map View](Web-Based%20Hub/Hub_%20Map%20View.md) to learn more about the possibilities of multiple route planning and optimization on Map view page.
+Press [Hub: Map View](Web-Based%20Hub/Hub_%20Routes/2026-11-12-map-view.md) to learn more about the possibilities of multiple route planning and optimization on Map view page.
 
 </details>
 

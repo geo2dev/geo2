@@ -31,7 +31,7 @@ With a **Free subscription**, Geo2 provides access to a range of core features a
 - [Hub: Environment Settings](Hub_%20Environment%20Settings/index.md)
 - [Hub: Orders](Hub_%20Orders/index.md)
 - [Hub: Routes](Hub_%20Routes/index.md)
-- [Hub: Map View](Hub_%20Map%20View.md)
+- [Hub: Map View](Hub_%20Routes/2026-11-12-map-view.md)
 - [Hub: Vehicle Checks](Hub_%20Vehicle%20Checks.md)
 - [Hub: Analytics](Hub_%20Analytics.md)
 - [Hub: AI Route Building Logs](Hub_%20AI%20Route%20Building%20Logs.md)
