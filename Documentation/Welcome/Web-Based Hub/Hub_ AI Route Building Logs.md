@@ -11,6 +11,8 @@ description: By pressing the AI route building logs button in menu in Hub, you
 
 By pressing the `AI route building logs` option in the menu in Hub, you can access all [AI route building](Hub_%20Orders/Hub_%20AI%20Route%20Building.md) sessions ran in your environment.
 
+![Screenshot 2026-11-12 at 17.07.59.png](/Documentation/attachments/mwdqsjyu-pk7aapw1.png)
+
 ## AI Route Building List
 
 Each route building card includes the following information about selected data and options:
@@ -25,13 +27,13 @@ Each route building card includes the following information about selected data 
 - Offload by - option to remove orders if there is insufficient vehicle capacity to accommodate all orders, etc. See [Hub: AI Route Building](Hub_%20Orders/Hub_%20AI%20Route%20Building.md) above.
 - Minimize vehicles - option to attempt to fit orders on fewer than your full list of vehicles.
 
-![Screenshot 2026-09-23 at 14.27.46.png](/Documentation/attachments/mue2w8az-mkden61x.png)
+![Screenshot 2026-11-12 at 17.08.06.png](/Documentation/attachments/mwdqspkb-ix28e42w.png)
 
 The icon on the right side of a card means a route building status - successful (green done), partially successful (yellow done), or failed (red cross). The partially successful status means that routes have been created but there is some warning message you need to pay attention to.
 
 You can filter and sort route building sessions by the “Created” date/time. Remember to press `Search` to apply filtering/sorting.
 
-![Screenshot 2026-09-23 at 14.28.04.png](/Documentation/attachments/mue2wmdd-mk1sp1y7.png)
+![Screenshot 2026-11-12 at 17.08.47.png](/Documentation/attachments/mwdqt3tz-loj25ibo.png)
 
 ## AI Route Building Results
 
@@ -46,7 +48,7 @@ By pressing the card, you can access its details about the created routes and wa
 | Vehicle | Vehicle key. Assigned to a route vehicle. |
 
 
-![Screenshot 2026-09-23 at 14.28.28.png](/Documentation/attachments/mue2x4pl-ij8b7241.png)
+![Screenshot 2026-11-12 at 17.09.04.png](/Documentation/attachments/mwdqtq0e-4euteyoe.png)
 
 The list of routes could be scrollable to check all created routes. By pressing the route key on one of the created routes, the selected route will be opened in the new tab of the browser.
 
@@ -64,5 +66,5 @@ Examples:
 
 You can visualise generated route by pressing the `Map view` button - see [Hub: Map View](Hub_%20Map%20View.md).
 
-![Screenshot 2026-09-23 at 14.29.09.png](/Documentation/attachments/mue2y0fq-xdqbgezf.png)
+![Screenshot 2026-11-12 at 17.09.12.png](/Documentation/attachments/mwdqtuek-ek5ta6kz.png)
 
