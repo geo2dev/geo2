@@ -39,43 +39,41 @@ Here are the order properties you can specify:
 
 On the Main info tab, the required fields are Key and Type.
 
-![Screenshot 2026-08-31 at 15.42.36.png](/Documentation/attachments/mthag1n0-r40ulv1x.png)
+![Screenshot 2026-11-12 at 14.39.57.png](/Documentation/attachments/mwdlkx1c-zywfjxih.png)
 
 Press the `Next` button to be redirected to the next tab inside an order creation. On the Recipient tab, the required fields are Address line 1, City, and Country. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, continue entering the address in the relevant address fields manually. Once the address is selected and the pin is visualised on the map, you can drag-and-drop it to adjust the location if needed.
 
 You can also allow Public tracking and POD notifications on the order level. Even if they are allowed in Settings → Environment → Proof of delivery in Hub, you can disable them for an individual order and notifications will not be sent to the recipient. If you set up fixed recipients for failed and partially successful POD notifications, emails will be sent even if they are turned off on an order level.
 
-![Screenshot 2026-08-31 at 15.44.37.png](/Documentation/attachments/mthaipts-qshghe8b.png)
+![Screenshot 2026-11-12 at 14.40.17.png](/Documentation/attachments/mwdllk2v-vbarvd29.png)
 
-![Screenshot 2026-08-31 at 15.44.44.png](/Documentation/attachments/mthaiw7j-5qnrku19.png)
+Press the `Next` button to be redirected to the Products tab. Product is optional for an order creation. Required fields for a product creation are Product code and Quantity.
 
-Press the `Next` button to be redirected to the Products tab.  Product is optional for an order creation.  Required fields for a product creation are Product code and Quantity.
-
-![Screenshot 2026-08-31 at 15.48.07.png](/Documentation/attachments/mthamzng-mu0t15oh.png)
+![Screenshot 2026-11-12 at 14.40.51.png](/Documentation/attachments/mwdllost-i31th00k.png)
 
 Products can be added to packages. Press the `Next` button to be redirected to the Packages tab. Packages are also optional for an order creation. There are no required fields.
 
-![Screenshot 2026-08-31 at 15.48.41.png](/Documentation/attachments/mthanqcc-73lkx77q.png)
+![Screenshot 2026-11-12 at 14.41.28.png](/Documentation/attachments/mwdllx9p-fo0d9drb.png)
 
 Press the `Next` button to be redirected to the Sender tab. Here are sender contact details and address, taken from environment settings by default. This address will be displayed on the POD PDF sent to a recipient if POD notification emails with PDF attaching are enabled in Settings → Environment → Proof of delivery in Hub.
 
-![Screenshot 2026-08-31 at 15.49.38.png](/Documentation/attachments/mthaoxc2-ad42erwc.png)
+![Screenshot 2026-11-12 at 14.42.13.png](/Documentation/attachments/mwdlm4nu-kjl4nszg.png)
 
 "Proof of delivery" and "Notification history" tabs are disabled during an order creation, you can find created POD and notifications sent to a recipient relevant to this order later.
 
-When you press `Create`, contents of the order form will be validated and an order created.  When successful, you will see an information message `Order has been created`:
+When you press `Create`, contents of the order form will be validated and an order created. When successful, you will see an information message `Order has been created`:
 
 ![Screenshot 2025-03-11 at 16.09.36.png](/Documentation/attachments/672c0e82-685b-47f8-a95b-a4cf59ec2b58.png)
 
 The created order will be displayed on Orders page.
 
-![Screenshot 2026-08-31 at 15.50.03.png](/Documentation/attachments/mthaphis-zqpd204v.png)
+![Screenshot 2026-11-12 at 14.43.55.png](/Documentation/attachments/mwdlmtu5-xbjfubdk.png)
 
 ## Order Editing
 
 When you click on an order key on an order card on Orders page in Hub, you can edit its properties. Consider the impact of edits if the order has already been included in a route.
 
-![Screenshot 2026-08-31 at 15.50.25.png](/Documentation/attachments/mthapy0v-48zf866d.png)
+![Screenshot 2026-11-12 at 14.44.30.png](/Documentation/attachments/mwdlnkel-e29rvifn.png)
 
 When editing, the `Save` button has two different options you can toggle via the down-pointing arrow:
 
@@ -99,17 +97,17 @@ Geo-coding precision for addresses/locations is shown throughout Geo2 as:
 
 If you want to modify the previously determined address geo-location, you can edit it in Order → Recipient in Hub by pressing the `Manual geocoding` button.
 
-![Screenshot 2026-08-31 at 15.51.15.png](/Documentation/attachments/mthar1d6-fhv5nlyz.png)
+![Screenshot 2026-11-12 at 14.45.01.png](/Documentation/attachments/mwdlozgy-k7r0b8cw.png)
 
 The Geo Code dialog will be displayed. Checkboxes near the address fields allow you to control which data will be used for geocoding. By default, enabled fields are taken from Settings → Environment → [Hub: Geo Coding Settings](../Hub_%20Environment%20Settings/Hub_%20Geo%20Coding%20Settings.md). To check a new geolocation, press the `Check Geo Point` button. It is often the case that using all parts of the address will lead to a better location match.
 
 You can also edit latitude and longitude or move the pin on the map to adjust the address.
 
-![Screenshot 2026-08-31 at 15.51.36.png](/Documentation/attachments/mthargx2-pjfznpac.png)
+![Screenshot 2026-11-12 at 14.45.17.png](/Documentation/attachments/mwdlpci9-7h9y9w6h.png)
 
 Once you are happy with the result, press the `Save` button. The geolocation icon will be shown in green.
 
 You can also adjust the geolocation in Hub by opening Order → Recipient, scrolling down, and dragging the red pin to the correct location on the map.
 
-![Screenshot 2026-08-31 at 15.52.49.png](/Documentation/attachments/mthat12c-g2xfz0zj.png)
+![Screenshot 2026-11-12 at 14.45.27.png](/Documentation/attachments/mwdlpj9f-d70zam79.png)
 
