@@ -11,9 +11,9 @@ Orders are records of deliveries/collections to be handled by a driver, typicall
 
 ## Orders Page
 
-To list orders in the environment, select `Orders` from the menu in Hub. By default, orders created in the last 7 days are listed. You can select the other two tabs to show orders created in the last 30 days or list all orders in the environment. Full filtering and sorting criteria are only available for the 7-day and 30-day tabs.
+To list orders in the environment, select `Orders` from the menu in Hub. By default, orders created in the last 30 days are listed. You can select to list all orders in the environment. Full filtering and sorting criteria are only available for the 30-day tab.
 
-![Screenshot 2026-08-31 at 15.02.48.png](/Documentation/attachments/mth90s33-pqh20dc2.png)
+![Screenshot 2026-11-12 at 14.33.47.png](/Documentation/attachments/mwdl9vpe-dtfkzogj.png)
 
 ### Filters
 
@@ -37,7 +37,7 @@ To narrow down the list of orders, you can use the Filters on Orders page in Hub
 | Committed | From/To | Order committed date/time |
 | Planned | From/To | Order planned date/time |
 | POD status | Select | Status of POD linked to the order: - Success - Failed - Without POD |
-| Order instructions | Contains | Order driver instructions |
+| Delivery instructions | Contains | Order driver instructions |
 | Planning instructions | Contains | Order planner instructions |
 | Recipient code | Contains |  |
 | Recipient contact name | Contains |  |
@@ -57,19 +57,19 @@ To narrow down the list of orders, you can use the Filters on Orders page in Hub
 
 Where a POD has been recorded for the order, it is indicated with a status icon in the top row of each order card in Hub. A failed POD is red:
 
-![Screenshot 2026-08-31 at 15.16.12.png](/Documentation/attachments/mth9i1os-mvkvjfsj.png)
+![Screenshot 2026-11-12 at 14.34.52.png](/Documentation/attachments/mwdle9a6-ul5bmfnu.png)
 
 A successful POD is shown green:
 
-![Screenshot 2026-08-31 at 15.13.24.png](/Documentation/attachments/mth9i8yq-b23j7mrd.png)
+![Screenshot 2026-11-12 at 14.34.40.png](/Documentation/attachments/mwdlecnc-mj7gxdiw.png)
 
 A partially successful POD is orange:
 
-![Screenshot 2026-08-31 at 15.15.39.png](/Documentation/attachments/mth9idfy-zdigetz4.png)
+![Screenshot 2026-11-12 at 14.36.09.png](/Documentation/attachments/mwdlegh8-kylk1ndk.png)
 
 You can press the POD icon on an order card to open the recorded POD. If an order has several recorded POD's, they will be displayed in separate tabs as Pod 1, Pod 2, etc.
 
-![Screenshot 2026-08-31 at 15.15.27.png](/Documentation/attachments/mth9mnbb-umta2801.png)
+![Screenshot 2026-11-12 at 14.37.11.png](/Documentation/attachments/mwdlelbj-j3zna0cl.png)
 
 Read more about:
 
