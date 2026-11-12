@@ -16,11 +16,11 @@ You can import multiple orders at once from the Orders page in Hub. Orders can b
   - `Import spreadsheet` — for .csv, .tsv, .xls, .xlxs, .xml, or .txt file
   - `Import image/PDF` — for photos and PDF documents
 
-![Screenshot 2026-09-01 at 14.34.16.png](/Documentation/attachments/mting2l2-wf4ihx2z.png)
+![Screenshot 2026-11-12 at 14.47.53.png](/Documentation/attachments/mwdls4ib-rfwmh45t.png)
 
-![Screenshot 2026-09-01 at 14.34.22.png](/Documentation/attachments/mting76x-zglt0m2g.png)
+![Screenshot 2026-11-12 at 14.47.59.png](/Documentation/attachments/mwdls7en-2vkvsx1y.png)
 
-## Import Spreadsheet 
+## Import Spreadsheet
 
 You can import order data into Geo2 Hub from a spreadsheet using two methods:
 
@@ -145,34 +145,35 @@ You can add orders to Hub from photos, screenshots and PDF documents instead of 
 
 Open the Orders page and select `Import`. Two options appear: `Import spreadsheet`, which opens the usual Excel and CSV import, and `Import image/PDF`. Choose the second one.
 
-![Screenshot 2026-09-01 at 14.53.54.png](/Documentation/attachments/mtio5lyn-i4020keo.png)
+![Screenshot 2026-11-12 at 14.47.59.png](/Documentation/attachments/mwdlt4qz-5ebvzzt6.png)
 
 The file picker accepts .png, .jpg, .jpeg and .pdf files. On the Free and Pro levels you can select one file per import; on Advanced and Enterprise you can select up to five at once.
 
-![Screenshot 2026-09-01 at 14.54.08.png](/Documentation/attachments/mtio5qlt-nwej3tqo.png)
+![Screenshot 2026-11-12 at 14.53.17.png](/Documentation/attachments/mwdm1rgl-81txc1wd.png)
 
 Once you have picked your files, the AI reads them. This happens in the background, with a progress indicator while it runs, and can take a moment for several files or dense documents. When it finishes you get a review screen listing everything it found. Nothing is added to Hub until you confirm.
 
-![Screenshot 2026-09-01 at 14.54.55.png](/Documentation/attachments/mtio6jji-al9rl43l.png)
+![Screenshot 2026-11-12 at 14.53.34.png](/Documentation/attachments/mwdm1yts-w2uxbgiy.png)
 
-![Screenshot 2026-09-01 at 14.55.17.png](/Documentation/attachments/mtio6woa-mbrf1ymt.png)
+![Screenshot 2026-11-12 at 14.53.40.png](/Documentation/attachments/mwdm2bi7-6evdctic.png)
 
 Where the information is present and legible, Geo2 detects the delivery address, the customer or company name, contact name and phone number, delivery instructions and notes, the order key or reference, the stop type (delivery or collection), any required time window, and the package count.
 
 Files containing several orders are handled fine. Each order is separated out on its own, and the original sequence is preserved whenever it can be identified from the file — useful if your source document already lists stops in the order you intend to drive them.
 
-![Screenshot 2026-09-01 at 14.56.34.png](/Documentation/attachments/mtio9b7f-y1mz9cr7.png)
+![Screenshot 2026-11-12 at 14.54.24.png](/Documentation/attachments/mwdm42d1-rzhtdbor.png)
 
 The review screen shows every detected order with its fields, so you can check what was read, edit or complete anything that needs it, and then confirm creation. 
 
-![Screenshot 2026-09-01 at 14.58.03.png](/Documentation/attachments/mtioatqw-nxp3xpf1.png)
-
-![Screenshot 2026-09-01 at 14.58.10.png](/Documentation/attachments/mtioawzp-ndiju42k.png)
-
 Fields the AI was not confident about are flagged for your attention. An order with missing or uncertain data is still created as a draft from whatever was detected, so a blurry phone number or a half-visible note does not cost you the whole import — you fill in the gaps on the review screen rather than starting again.
+
+![Screenshot 2026-11-12 at 14.54.31.png](/Documentation/attachments/mwdm6due-pixiufd6.png)
 
 Before the orders are created, Geo2 checks for likely problems and warns you. It flags an order that matches an existing one on both address and order key, an address that already exists in your order list, and an address it ca not validate.
 
 If a file can not be read at all, it is named in the result so you know which one to retake rather than having to work out what is missing.
 
 Press `Create orders` to confirm importing all orders.
+
+![Screenshot 2026-11-12 at 14.55.30.png](/Documentation/attachments/mwdm6vtx-u9muqcbk.png)
+
