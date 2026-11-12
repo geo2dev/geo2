@@ -99,7 +99,7 @@ Examples:
 
 “Depot address geo-location is not sufficiently accurate” means that you might need to go to Settings → Environment -> [Hub: Depots Settings](../Hub_%20Environment%20Settings/Hub_%20Depots%20Settings.md) and check if your depot address was properly geocoded.
 
-Route building creates routes like any other - you can access them through the Routes page in Hub. You can visualise generated routes by pressing the `Map view` button at the top right corner - see [Hub: Map View](../Hub_%20Map%20View.md).
+Route building creates routes like any other - you can access them through the Routes page in Hub. You can visualise generated routes by pressing the `Map view` button at the top right corner - see **[Hub: Map View](https://help.geo2.com/web-based-hub/hub-routes/hub-route-map-view)**.
 
 ![Screenshot 2026-11-12 at 15.28.41.png](/Documentation/attachments/mwdn9whl-hi6zgvnn.png)
 
