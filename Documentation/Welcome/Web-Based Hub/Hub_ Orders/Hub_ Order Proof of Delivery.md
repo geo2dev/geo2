@@ -14,12 +14,15 @@ If an order has packages and products, they will be displayed on the POD page wi
 
 Example of successful POD:
 
-![Screenshot 2026-09-23 at 12.14.43.png](/Documentation/attachments/mudy63rp-hvu19snh.png)
+![Screenshot 2026-11-12 at 15.34.57.png](/Documentation/attachments/mwdngm65-fqxw8dqc.png)
 
 Example of partially successful POD:
 
-![Screenshot 2026-09-23 at 12.14.59.png](/Documentation/attachments/mudy6d6t-vnqju36i.png)
+![Screenshot 2026-11-12 at 15.33.04.png](/Documentation/attachments/mwdne7tw-l5nlx0wb.png)
 
 If an orders has several recorded POD's, they will be displayed in separate tabs as Pod 1, Pod 2, etc.
 
 You can click on the `Download PDF` button to save POD as a PDF file. If manual sending of POD is enabled in the [Hub: Proof of Delivery Settings](../Hub_%20Environment%20Settings/Hub_%20Proof%20of%20Delivery%20Settings.md), you will see the `Email to recipient` button. By pressing it, the POD email will be sent to the recipient's email address.
+
+![Screenshot 2026-11-12 at 15.35.04.png](/Documentation/attachments/mwdngsnm-j9kradkj.png)
+
