@@ -159,7 +159,7 @@ You can switch between **List, Table, Calendar, and Map views** directly from th
 
 Map view is available with Advanced and Enterprise subscriptions for users with the required permissions.
 
-Learn more about Map view.
+Learn more about **[Map view](https://help.geo2.com/web-based-hub/hub-routes/hub-route-map-view)**.
 
 ### Filters
 
