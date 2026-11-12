@@ -12,7 +12,7 @@ description: It is possible to export orders data via the Export CSV button on
 
 It is possible to export orders data via the `Export CSV` button on Orders page in Hub. This option is available only for orders created in the 30 days. You can press the `Export CSV` button and the full list of orders will be exported. Alternatively, you can select the needed orders using the checkboxes on the left side of the card and then press the `Export CSV` button.
 
-![Screenshot 2026-09-23 at 12.22.09.png](/Documentation/attachments/mudyf228-ptybpact.png)
+![Screenshot 2026-11-12 at 15.36.08.png](/Documentation/attachments/mwdni4ph-sovsfcqr.png)
 
 Once the `Export CSV` button is pressed, the order data will be exported in a CSV file.
 
@@ -41,11 +41,11 @@ The spreadsheet interface column headings guide you on the type of data expected
 | Required to | Date/time - format yyyy-MM-dd HH:mm, the 24-hour time portion HH:mm is optional | Date/time to indicate till when an order is required to be delivered/collected. |
 | Committed date | Date/time - format yyyy-MM-dd HH:mm, the 24-hour time portion HH:mm is optional | Date/time to indicate a delivery/collection deadline that has been agreed with the recipient. |
 | Planned date | Date/time - format yyyy-MM-dd HH:mm, the 24-hour time portion HH:mm is optional | Date/time to indicate when the order is planned for inclusion in a route. |
-| Order instructions | String | Optional notes for drivers that are shown in the mobile app. For example, "Leave with reception". |
+| Delivery instructions | String | Optional notes for drivers that are shown in the mobile app. For example, "Leave with reception". |
 | Planning instructions | String | Optional notes for transport planners that are shown in the stop card in the Route plan page and not shown in the mobile app. For example, "Must be delivered by 11:00". |
 | Recipient code | String | Recipient identifier such as customer code. If you deliver to the same recipient repeatedly, you can assign them a code and filter orders by code, for checking statistics, etc. It will also be displayed in the mobile app for drivers. |
 | Contact name | String | Recipient contact name. For example, Jane Doe. |
-| Email | String | Recipient email address. It is provided in the format [recipient@domainname.domainsuffix.](mailto:recipient@domain_name.domain_suffix.)![](https://project.balloonone.com/images/icons/mail_small.gif) For example, [janedoe@gmail.com](mailto:janedoe@gmail.com). |
+| Email | String | Recipient email address. It is provided in the format [recipient@domainname.domainsuffix.](mailto:recipient@domain_name.domain_suffix.)![](https://project.balloonone.com/images/icons/mail_small.gif)[ For example, janedoe@gmail.com](mailto:janedoe@gmail.com). |
 | Phone | String | Recipient phone number. It is started with "+" and has from 5 to 16 digits. No spaces, no brackets, or other special symbols. For example, +441172345678. |
 | Mobile phone | String | Recipient mobile phone number. It is started with "+" and has from 5 to 16 digits. No spaces, no brackets, or other special symbols. For example, +441172345678. |
 | Company name | String | Recipient address - company name. For example, Balloon One. |
