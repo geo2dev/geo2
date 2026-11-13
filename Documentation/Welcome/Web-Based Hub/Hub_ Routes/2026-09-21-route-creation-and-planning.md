@@ -169,7 +169,7 @@ To include an order in the route, drag its card to the left-hand side list of ro
 
 Each order brought into the route becomes a stop represented by a card in the left column.
 
-![Screenshot 2026-09-21 at 16.14.15.png](/Documentation/attachments/mubbti1r-dt1sb8fe.png)
+![Screenshot 2026-11-13 at 14.25.46.png](/Documentation/attachments/mwf0fusa-n7b0rf9j.png)
 
 By default, the following properties are shown:
 
@@ -193,7 +193,7 @@ If you expand the card by pressing the down-arrow `v` on the right side of the c
 
 If there is insufficient horizontal space, the text field labels are omitted and only label icons remain:
 
-![Screenshot 2026-09-21 at 16.16.29.png](/Documentation/attachments/mubbwdmh-js05mv4q.png)
+![Screenshot 2026-11-13 at 14.25.52.png](blob:https:/app.pagescms.org/4379e558-34bb-4c32-b4dc-c16248d8c93b)
 
 You can customize the information displayed on the stop card in the collapsed and expanded view in [Routes settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-routes-settings) in Hub. 
 
