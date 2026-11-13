@@ -505,7 +505,7 @@ For any edits, press `Save` to save them. The route map updates once the route 
 
 Once a route is optimized and ready to be started, you need to change the status of the route to Released and save changes. It will be displayed in the mobile app of the assigned driver. A driver needs to click on the `Start` button to start the route. All changes will be displayed on the Hub user interface as well.
 
-![Screenshot 2026-09-22 at 14.14.16.png](/Documentation/attachments/mucmz15j-ncvczqzi.png)
+![Screenshot 2026-11-13 at 15.01.44.png](/Documentation/attachments/mwf1pir9-un5pn9be.png)
 
 ### Proof of Delivery
 
