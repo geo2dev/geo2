@@ -483,15 +483,13 @@ By default, the map zoom resets when you change the stop order. Press `Hold vie
 
 To move orders from one route to another, you can select stops on the map one-by-one using `Ctrl/Command+click` or by drawing figures using tools the bottom of the map - circle, shape or rectangle.  Once stops are selected, they will be highlighted with a red colour.
 
-![Screenshot 2026-09-22 at 14.05.46.png](/Documentation/attachments/mucmwvqf-gfg95wyv.png)
+![Screenshot 2026-11-13 at 14.59.58.png](/Documentation/attachments/mwf1nixk-0cj4snai.png)
 
 Next, press the `Move to route` button either under the Actions button or on the map. It is possible to move orders only when the order depot matches the route depot. On the `Move to selected route` dialog, choose the route you want the orders to move to (destination route).
 
-![Screenshot 2026-09-22 at 14.05.52.png](/Documentation/attachments/mucmxe4o-8a4tnom3.png)
+![Screenshot 2026-11-13 at 15.00.04.png](/Documentation/attachments/mwf1nnys-soa1nryd.png)
 
 Once the orders are moved, the route the orders came from (source route) is calibrated automatically.   We do not apply automatic calibration to the destination route - calibrate it manually once you have finished arranging its stop order.
-
-![Screenshot 2026-09-22 at 14.06.13.png](/Documentation/attachments/mucmxiwr-w8z2ljee.png)
 
 ### Route Tracking
 
