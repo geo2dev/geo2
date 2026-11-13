@@ -250,3 +250,50 @@ The remaining eligible routes can still be updated.
 Bulk route update is available to users who have permission to edit routes.
 
 The feature is available across subscription levels. However, individual fields may still be restricted depending on your subscription. The same subscription limitations that apply when creating or editing a route also apply to bulk route updates.
+
+## Mileage Report Export
+
+The **Mileage report export** feature allows you to generate reports for completed routes, including actual distance travelled, route purpose, driver, vehicle, start and end locations, and other relevant information. These reports can be used for mileage tracking, accounting, tax reporting, and reimbursement purposes.
+
+### How to export a mileage report
+
+1. Navigate to **Routes** in Hub.
+2. Select the **Last 30 days** or **All** tab, depending on the reporting period you need.
+3. Apply filters if necessary, such as date range, driver, vehicle, or other available options.
+4. Optionally, select specific routes using the checkboxes.
+5. Click `Export mileage report`.
+6. Choose your preferred export format: **CSV, PDF, or XLSX**.
+
+If no routes are selected, the report will include all completed routes matching your currently applied filters. If you select specific routes, only those completed routes will be included.
+
+Only routes with a **Completed** status can be included in a mileage report. Routes with other statuses will not be exported.
+
+![Screenshot 2026-11-13 at 13.16.01.png](/Documentation/attachments/mwey0qww-46lrfhoj.png)
+
+![Screenshot 2026-11-13 at 13.16.08.png](/Documentation/attachments/mwey0v44-eh264d7h.png)
+
+### Information included in the report
+
+Each mileage report contains the following information:
+
+- **Route key** — unique identifier of the route.
+- **Purpose code** — assigned route purpose, such as Business, Client visit, or Personal use.
+- **Driver** — full name of the assigned driver.
+- **Vehicle** — key of the vehicle assigned to the route.
+- **Actual start and end date/time** — when the route was started and completed.
+- **Start location and address** — name and full address of the starting location.
+- **End location and address** — name and full address of the ending location.
+- **Actual distance** — total distance recorded for the completed route.
+- **Distance unit** — miles or kilometres, based on your environment preferences.
+
+If a route starts or ends at a depot, the report includes the depot name and full address. For routes starting or ending at a stop location, the corresponding stop address is included.
+
+At the bottom of the report, you will find a **Totals** section showing the total number of routes and total actual distance travelled.
+
+![Screenshot 2026-11-13 at 13.16.36.png](/Documentation/attachments/mwey1as7-v5chcnhs.png)
+
+### Subscription levels and permissions
+
+Mileage report export is available with **Pro, Advanced, and Enterprise** subscriptions. The export option is disabled for users on the Free subscription level.
+
+Environment **Admins and Managers** can export mileage reports for all completed routes they have access to. Environment Users cannot export mileage reports, while User Admins do not have access to the Routes page.
