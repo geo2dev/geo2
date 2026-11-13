@@ -312,29 +312,25 @@ Open a route and find the Costs section below Capacity. The section displays bot
 
 It is possible to add driver breaks via Hub by pressing the `Actions` button and selecting the `Add break` option on Route view page.
 
-![Screenshot 2026-09-22 at 12.53.47.png](/Documentation/attachments/muck3jvb-0roh24ko.png)
+![Screenshot 2026-11-13 at 14.32.59.png](/Documentation/attachments/mwf0olj9-eocwu46s.png)
 
 You will see a prompt to specify the stop duration for this break and optional location (address). You can specify the stop duration in minutes or hours. By default, a stop duration time is taken from [Routes settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-routes-settings).
 
-![Screenshot 2026-09-22 at 12.55.22.png](/Documentation/attachments/muck65e5-myuvvuuq.png)
+![Screenshot 2026-11-13 at 14.23.26.png](/Documentation/attachments/mwf0ouqb-5pp8un1y.png)
 
 By pressing the `Add break` button, a break is added at the end of the stops list. The route is automatically calibrated. If you have provided vehicle dimensions in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
 It's possible to drag-and-drop a driver break similar to other stop cards to change its position in the list.  
 
-![Screenshot 2026-09-22 at 12.57.49.png](/Documentation/attachments/muck9ea4-mjmk1yxy.png)
-
-![Screenshot 2026-09-22 at 12.58.00.png](/Documentation/attachments/muck98hp-q9vtb6v7.png)
+![Screenshot 2026-11-13 at 14.23.45.png](/Documentation/attachments/mwf0p6wf-qzxgpw7g.png)
 
 You can also edit a break duration by pressing the `Edit` button near the time. By pressing the tick icon, the break stop duration will be updated and the route will re-calibrated automatically. 
 
-![Screenshot 2026-09-22 at 12.58.46.png](/Documentation/attachments/muckaryc-me1s92cn.png)
+![Screenshot 2026-11-13 at 14.34.05.png](/Documentation/attachments/mwf0qn8h-wr45vhn2.png)
 
-![Screenshot 2026-09-22 at 12.58.57.png](/Documentation/attachments/muckaw6j-a0yfwdel.png)
+You can delete the break by pressing the `Delete` icon by hovering over the card. The route will re-calibrated automatically.
 
-You can delete the break by pressing the `Delete` icon by hovering over the card. The route will re-calibrated automatically
-
-![Screenshot 2026-09-22 at 13.00.15.png](/Documentation/attachments/muckbtt2-36su896j.png)
+![Screenshot 2026-11-13 at 14.34.32.png](/Documentation/attachments/mwf0qrkq-g2s4tbuf.png)
 
 ### Re-ordering Orders
 
