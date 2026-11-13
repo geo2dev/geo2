@@ -443,9 +443,9 @@ The system will then automatically update the planned time on each order, as wel
 
 The committed ETA for an order lets you indicate that a specific deadline has been agreed with the recipient and that it is important the driver adhere to it.  When you press `Update committed ETA` on Route view page in Hub and `Save`, the planned date/time for each order is copied to its committed ETA. This is useful once you have calibrated the route and you want to indicate to the driver that they must adhere to the planned arrival date/times.
 
-![Screenshot 2026-09-22 at 14.03.41.png](/Documentation/attachments/mucmmcie-prywgfn0.png)
+![Screenshot 2026-11-13 at 14.43.16.png](/Documentation/attachments/mwf123eu-i5owzdj9.png)
 
-![Screenshot 2026-09-22 at 14.04.14.png](/Documentation/attachments/mucmmf61-bkujd4kq.png)
+![Screenshot 2026-11-13 at 14.43.26.png](/Documentation/attachments/mwf125y0-0rk16ri1.png)
 
 ### Bulk Move Orders between Routes
 
