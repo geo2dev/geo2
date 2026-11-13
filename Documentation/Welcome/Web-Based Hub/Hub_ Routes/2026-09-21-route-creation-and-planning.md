@@ -451,15 +451,13 @@ The committed ETA for an order lets you indicate that a specific deadline has be
 
 For moving multiple orders from one route to another in Hub, you need to select stops in the list by using `Ctrl/Command+click` or `Shift+click`, or by choosing route stops on the map by using figures at the bottom of the map on Route view page. Once stops are selected, you need to click on the `Actions` button and choose the `Move to route` option or press the `Move to route` button on the map.
 
-![Screenshot 2026-09-22 at 14.05.46.png](/Documentation/attachments/mucmorbc-zohalmyd.png)
+![Screenshot 2026-11-13 at 14.43.53.png](/Documentation/attachments/mwf12vbw-b93da4d9.png)
 
 On the `Move to selected route` dialog, choose the route you want the orders to move to (destination route).
 
-![Screenshot 2026-09-22 at 14.05.52.png](/Documentation/attachments/mucmpivh-s2vb9fe0.png)
+![Screenshot 2026-11-13 at 14.43.59.png](/Documentation/attachments/mwf130vj-6f1i44l4.png)
 
 Once the orders are moved, the route the orders came from (source route) is calibrated automatically.  We do not apply automatic calibration to the destination route - calibrate it manually once you have finished arranging its stop order.
-
-![Screenshot 2026-09-22 at 14.06.13.png](/Documentation/attachments/mucmpri4-w244fg10.png)
 
 ### Route Map
 
