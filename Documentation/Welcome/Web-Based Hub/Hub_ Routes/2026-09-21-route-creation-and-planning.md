@@ -275,13 +275,13 @@ Go to `Settings → Environment → Display preferences` and select the Currency
 
 > Changing the currency does not convert existing cost values. For example, if a cost is set to 10 EUR and the environment currency is later changed to USD, the value will be displayed as 10 USD.
 
-![mtbihub5-sybip2z7-cd07480f4fdbf8811916e4b09fe0ba9f.png](/Documentation/attachments/muckvmdp-5gu13l8p.png)
+![Screenshot 2026-11-13 at 14.31.04.png](/Documentation/attachments/mwf0mhbx-zcph79iz.png)
 
 **Configure driver costs:** 
 
 In `Settings → Environment → Users`, you can specify an optional **Cost per hour** for each user. The configured value is used to calculate the driver's cost based on the route duration. 
 
-![Screenshot 2026-09-22 at 13.17.55.png](/Documentation/attachments/muckz740-lo72ytbx.png)
+![Screenshot 2026-11-13 at 14.31.11.png](/Documentation/attachments/mwf0mm6a-ermfql4s.png)
 
 **Configure vehicle costs:** 
 
@@ -292,7 +292,7 @@ In `Settings → Environment → Vehicles`, you can configure the following opti
 
 These values can be added when creating or editing a vehicle and can also be included when importing vehicles.
 
-![mtcnif3r-8wsj556h-f0982963a61454d1955526210b57910e.png](/Documentation/attachments/muckx1nk-6uj5aiyk.png)
+![Screenshot 2026-11-13 at 14.31.18.png](/Documentation/attachments/mwf0mr5l-tfy2nfoq.png)
 
 **View route costs:**
 
@@ -306,7 +306,7 @@ Open a route and find the Costs section below Capacity. The section displays bot
 
 **Planned costs** are calculated using the planned route duration and distance. **Actual costs** are calculated using the actual route duration and distance and become available after the route is completed.
 
-![Screenshot 2026-09-22 at 13.18.15.png](/Documentation/attachments/muckzffr-eep4g0k4.png)
+![Screenshot 2026-11-13 at 14.32.21.png](/Documentation/attachments/mwf0nwi0-y800nea8.png)
 
 ### Adding Driver Breaks
 
