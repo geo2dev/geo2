@@ -11,7 +11,11 @@ description: On the `Routes` page in Hub, press `Create` button to be redirected
 
 ## Route Creation
 
-On the `Routes` page in Hub, press `Create` button to be redirected to Route creation page. Here are the route properties you can specify:
+On the `Routes` page in Hub, press `Create` button to be redirected to Route creation page. 
+
+![Screenshot 2026-11-13 at 13.32.53.png](/Documentation/attachments/mweymkv1-fo4khz1z.png)
+
+Here are the route properties you can specify:
 
 
 | **Property** | **Description** |
@@ -25,6 +29,7 @@ On the `Routes` page in Hub, press `Create` button to be redirected to Route cre
 | Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route end field, you can also select depots from your environment, last stop location (last order recipient’s address), or search address. If you select to search for an address, the Address line 1 field will be displayed below. To enter the address, you can start typing it into Address line 1 and selecting it from the drop-down which appears. If no suitable match is found, press the `Expand address form` button and continue entering the address in the relevant address fields manually. |
 | Vehicle | Vehicle assigned to the route. If you use [Vehicle categories](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicle-categories-settings/) functionality, the system can match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user. Assigning categories to users and vehicles is optional. Vehicle dimensions specified in the [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. |
 | Area | Area tag. You can set up the default user and vehicle for every area. When the area value is selected, default values from the area will propagate to the User and Vehicle fields. |
+| Purpose code | Defines the purpose of the route, such as Delivery round, Client visit, or Personal use. The default purpose code is preselected from Settings → **[Route purpose codes](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-route-purpose-codes-settings)**, but you can select another available value. |
 | Vehicle check on route start | Activate vehicle check in the mobile app when the route is being started. |
 | Vehicle check on route completion | Activate vehicle check in the mobile app when the route is being completed. |
 | Planned start | Expected dispatch date/time of the route from the route start. |
@@ -36,15 +41,15 @@ On the `Routes` page in Hub, press `Create` button to be redirected to Route cre
 
 If you select the same depot for a route start and end, it will be displayed with a blue “Depot” icon on the map.
 
-![Screenshot 2026-09-21 at 15.16.53.png](/Documentation/attachments/mub9rw16-dp60xtlv.png)
+![Screenshot 2026-11-13 at 13.36.06.png](/Documentation/attachments/mweynfy8-cp2pnokb.png)
 
 If you select different depots as a route start and end points, the start depot will be displayed with a green “Depot” icon and the end depot will be displayed with a red “Depot” icon on the map.
 
-![Screenshot 2026-09-21 at 15.18.03.png](/Documentation/attachments/mub9t8m3-uc53ngbl.png)
+![Screenshot 2026-11-13 at 13.36.31.png](/Documentation/attachments/mweyny7y-eck5ww5e.png)
 
 If you select some address for a route start, it will be displayed with a green “Play” icon on the map. If you select some address for a route end, it will be displayed with a red “Stop” icon on the map. These pins can be optionally moved to adjust the address.
 
-![Screenshot 2026-09-21 at 15.19.01.png](/Documentation/attachments/mub9uhcf-5hr903y8.png)
+![Screenshot 2026-11-13 at 13.37.04.png](/Documentation/attachments/mweyonoi-drjj8pll.png)
 
 By default, the map zoom resets when you move the pin on the map. Press `Hold view` at the top of the map to hold the map zoom. This still lets you zoom in and out on the map but it will not be automatically zoomed out when you make some changes in the start/end points.
 
@@ -54,9 +59,7 @@ When you press `Create`, contents of the route form will be validated and a rout
 
 ![Screenshot 2025-03-12 at 14.22.04.png](/Documentation/attachments/3ee17122-9081-4183-9280-64ad95ce0cec.png)
 
-The created route will be visible in the Routes list.
-
-![Screenshot 2026-09-21 at 14.12.19.png](/Documentation/attachments/mub9zvqy-j1l8qkra.png)
+The created route will be visible in the **[Routes list](https://help.geo2.com/web-based-hub/hub-routes)**.
 
 ## Route Plan
 
