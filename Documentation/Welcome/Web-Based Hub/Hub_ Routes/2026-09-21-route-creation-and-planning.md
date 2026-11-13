@@ -127,7 +127,7 @@ If you press `Update and export`, orders added to this route will additionally b
 
 Pressing `Delete` will let you delete the route. The route assignment of any orders in the route will be cleared, but orders are otherwise unaffected. It is not possible to delete a route in a `Started` or `Completed` status.
 
-![Screenshot 2026-09-21 at 15.37.37.png](/Documentation/attachments/mubaiccx-stjxao14.png)
+![Screenshot 2026-11-13 at 13.48.03.png](/Documentation/attachments/mwez2r9s-plfur1a4.png)
 
 ### Creating Orders
 
