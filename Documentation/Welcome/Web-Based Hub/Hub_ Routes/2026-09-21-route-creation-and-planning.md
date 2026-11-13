@@ -561,7 +561,7 @@ To complete a route, a driver needs to click on the `Complete` button in the mob
 
 If a route is completed from the mobile app, you will see the tracked data about the actual distance from the mobile app. If a route is completed from the web or API, it takes the last data from the mobile app however, you can change it on Edit route page. 
 
-![Screenshot 2026-09-22 at 16.18.15.png](/Documentation/attachments/mucregtd-ccfip11m.png)
+![Screenshot 2026-11-13 at 15.05.57.png](/Documentation/attachments/mwf1vpii-cn3dcstj.png)
 
 ### Marking Route for Export
 
