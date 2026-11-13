@@ -465,21 +465,19 @@ The default route view shows a map for the route on the right-hand side, with th
 
 Deliveries are shown with blue location pins, while collections are orange. A filled blue circle indicates multiple orders in the same location. The route between the stops is indicated with straight lines for simplicity. Further details of each stop are shown when you click the location marker.
 
-![Screenshot 2026-09-22 at 14.09.38.png](/Documentation/attachments/mucmt3gx-exujf1vl.png)
+![Screenshot 2026-11-13 at 14.44.54.png](/Documentation/attachments/mwf13ya5-n4zsini4.png)
 
 ### Road View Toggle
 
 If you enable the `Road view` selector on the map on Route view page in Hub, you will see a suggested route on the road network. The Duration takes into account projected traffic conditions.
 
-![Screenshot 2026-09-22 at 14.10.32.png](/Documentation/attachments/mucmudr1-1xd6lf5n.png)
-
-![Screenshot 2026-09-22 at 14.10.10.png](/Documentation/attachments/mucmuh8h-1w0nxqlm.png)
+![Screenshot 2026-11-13 at 14.46.44.png](/Documentation/attachments/mwf167ph-3ujlvctw.png)
 
 ### Hold View Toggle
 
 By default, the map zoom resets when you change the stop order. Press `Hold view` on Route view page inHub to hold the map zoom. This still lets you zoom in and out on the map but it will not be automatically zoomed out when you make some changes in the orders list.
 
-![Screenshot 2026-09-22 at 14.11.18.png](/Documentation/attachments/mucmv7dh-ft23c8go.png)
+![Screenshot 2026-11-13 at 14.46.59.png](/Documentation/attachments/mwf16kon-1tammpga.png)
 
 ### Bulk Move Orders between Routes
 
