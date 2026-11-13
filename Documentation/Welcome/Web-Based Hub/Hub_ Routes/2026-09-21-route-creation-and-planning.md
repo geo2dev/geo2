@@ -338,7 +338,7 @@ You can drag-and-drop orders in the list to change their stop order. To speed up
 
 Additionally, you can press on a circle, shape, or rectangle icons at the bottom of the map to draw a figure and select stops. The selected stop cards will be highlighted in grey in the list, so you can drag-and-drop them within the list to change the stop order.
 
-![Screenshot 2026-09-22 at 13.44.40.png](/Documentation/attachments/muclwyp6-mnifwukw.png)
+![Screenshot 2026-11-13 at 14.35.51.png](/Documentation/attachments/mwf0sax9-n4wcnjm6.png)
 
 Once you are happy with the result, press the `Save` button.  The route will be automatically recalibrated to update the planned time on the stops, route planned duration, distance, and end time.  If you have provided vehicle dimensions in [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for calibration with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
@@ -346,7 +346,7 @@ Once you are happy with the result, press the `Save` button.  The route will be
 
 To use the Optimize with time windows option in Hub, press the `Actions` button on Route view page and choose the `Optimize with time windows` option. Route optimization is available when a route has at least 2 orders.
 
-![Screenshot 2026-09-22 at 13.47.38.png](/Documentation/attachments/mucm1ekr-skmi3770.png)
+
 
 Among these orders, there has to be at least 1 order with the provided required time slots (either “Required from”, or “Required to”, or both of them).
 
