@@ -193,7 +193,7 @@ If you expand the card by pressing the down-arrow `v` on the right side of the c
 
 If there is insufficient horizontal space, the text field labels are omitted and only label icons remain:
 
-![Screenshot 2026-11-13 at 14.25.52.png](blob:https:/app.pagescms.org/4379e558-34bb-4c32-b4dc-c16248d8c93b)
+![Screenshot 2026-11-13 at 14.25.52.png](/Documentation/attachments/mwf0jy5y-5qr0yyj0.png)
 
 You can customize the information displayed on the stop card in the collapsed and expanded view in [Routes settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-routes-settings) in Hub. 
 
@@ -203,13 +203,13 @@ You will see highlighted required from/to and committed time with red and oran
 
 If you want to modify the previously determined address geo-location, you can edit it on Route view page by pressing the geolocation icon on the stop card.
 
-![Screenshot 2026-09-21 at 16.18.25.png](/Documentation/attachments/mubbzr71-ukzeydha.png)
+![Screenshot 2026-11-13 at 14.18.14.png](/Documentation/attachments/mwf0kc6z-sjua5su7.png)
 
 The Geo Code dialog will be displayed. Checkboxes near the address fields allow you to control which data will be used for geocoding. By default, enabled fields are taken from [Geo Coding settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-geo-coding-settings). To check a new geolocation, press the `Check Geo Point` button. It is often the case that using all parts of the address will lead to a better location match.
 
 You can also edit latitude and longitude or move the pin on the map to adjust the address.
 
-![Screenshot 2026-09-21 at 16.18.57.png](/Documentation/attachments/mubc0pm3-6oyke4d1.png)
+![Screenshot 2026-11-13 at 14.18.32.png](/Documentation/attachments/mwf0klck-qha7t7ur.png)
 
 Once you are happy with the result, press the `Save` button.  The geolocation icon will be shown in green.
 
@@ -217,11 +217,11 @@ Once you are happy with the result, press the `Save` button.  The geolocation i
 
 To remove an order from the route, press the `Delete` icon when hovering over the stop card.
 
-![Screenshot 2026-09-21 at 16.20.18.png](/Documentation/attachments/mubc18sr-palsoklf.png)
+![Screenshot 2026-11-13 at 14.30.12.png](/Documentation/attachments/mwf0lbdx-xt6kebp0.png)
 
 To remove several orders at the same time, use `Ctrl/Command+click` or `Shift+click` to select multiple stop cards and press the `Remove` button above the stop list.
 
-![Screenshot 2026-09-21 at 16.21.07.png](/Documentation/attachments/mubc2bwi-e95els7a.png)
+![Screenshot 2026-11-13 at 14.30.22.png](/Documentation/attachments/mwf0lfr7-79tkt689.png)
 
 Remember to save changes by pressing the `Save` button.
 
