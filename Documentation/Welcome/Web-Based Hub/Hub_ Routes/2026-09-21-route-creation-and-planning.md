@@ -346,11 +346,11 @@ Once you are happy with the result, press the `Save` button.  The route will be
 
 To use the Optimize with time windows option in Hub, press the `Actions` button on Route view page and choose the `Optimize with time windows` option. Route optimization is available when a route has at least 2 orders.
 
-
+![Screenshot 2026-11-13 at 14.36.22.png](/Documentation/attachments/mwf0tegz-g0ptftjy.png)
 
 Among these orders, there has to be at least 1 order with the provided required time slots (either “Required from”, or “Required to”, or both of them).
 
-![Screenshot 2026-09-22 at 13.48.27.png](/Documentation/attachments/mucm22es-68yrgywz.png)
+![Screenshot 2026-11-13 at 14.36.40.png](/Documentation/attachments/mwf0tion-jpsstm29.png)
 
 When you press `Optimize with time windows`, the geo-locations of the assigned route start/end points and the orders will be used to suggest an optimum driving route as well as to match the required time windows for each order. The time window specified using the `Required from` and `Required to` fields inside an order is not considered a hard constraint by the system. That is, the system doesn't fail if the stop cannot be visited during the time window; instead, the system tries to find a route that visits the stop during its time window, but if time-window violations are inevitable, the system tries to find a solution that minimizes the time-window violation time for all stops in the problem.
 
@@ -360,23 +360,15 @@ You are not obliged to accept the suggested order but to save changes, remember
 
 Before optimization:
 
-![Screenshot 2026-09-22 at 13.49.47.png](/Documentation/attachments/mucm40ab-jbjwqhfi.png)
+![Screenshot 2026-11-13 at 14.38.26.png](/Documentation/attachments/mwf0vyq3-r5vgyqb5.png)
 
 After optimization with time windows:
 
-![Screenshot 2026-09-22 at 13.50.01.png](/Documentation/attachments/mucm44fs-n2uvlup6.png)
+![Screenshot 2026-11-13 at 14.38.38.png](/Documentation/attachments/mwf0w1x7-z7kdgaiz.png)
 
 You can also optimize a selection of stops. Use Ctrl+click/Command+click or Shift+click on Route view page to select multiple stop cards and click on the `Optimize selection with time windows` to optimize a part of a route only.
 
-![Screenshot 2026-09-22 at 13.51.25.png](/Documentation/attachments/mucm6aad-i293ij5n.png)
-
-Before partial optimization:
-
-![Screenshot 2026-09-22 at 13.51.18.png](/Documentation/attachments/mucm6f67-fa08na4z.png)
-
-After partial optimization with time windows:
-
-![Screenshot 2026-09-22 at 13.51.38.png](/Documentation/attachments/mucm6mae-zvrddpwt.png)
+![Screenshot 2026-11-13 at 14.39.22.png](/Documentation/attachments/mwf0ws8f-91b5exlg.png)
 
 You can only optimize stops that are located next to each other in a stop order.  Otherwise, you will see an error message 'Only neighbouring stops can be selected for partial optimization'.
 
@@ -384,7 +376,7 @@ You can only optimize stops that are located next to each other in a stop order.
 
 To use the Optimize without time windows option in Hub, press the `Actions` button on Route view page and choose the `Optimize without time windows` option.
 
-![Screenshot 2026-09-22 at 13.53.08.png](/Documentation/attachments/mucm7uyf-45mq4mny.png)
+![Screenshot 2026-11-13 at 14.39.50.png](/Documentation/attachments/mwf0y06d-sqa2z7nr.png)
 
 When you press `Optimize without time windows`, the geo-locations of the assigned route start/end points and the orders will be used to suggest an optimum driving route. The order of the orders may be changed and the planned timings and distance of the route updated. If you have provided vehicle dimensions in [Hub: Environment Settings](../Hub_%20Environment%20Settings/index.md) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
@@ -392,23 +384,15 @@ You are not obliged to accept the suggested order but to save changes, remember
 
 Before optimization:
 
-![Screenshot 2026-09-22 at 13.54.25.png](/Documentation/attachments/mucm9zhi-pdxteztt.png)
+![Screenshot 2026-11-13 at 14.39.56.png](/Documentation/attachments/mwf0y7id-66rdopt7.png)
 
 After optimization without time windows:
 
-![Screenshot 2026-09-22 at 13.54.33.png](/Documentation/attachments/mucma419-d9w5358z.png)
+![Screenshot 2026-11-13 at 14.40.12.png](/Documentation/attachments/mwf0yblo-761d4fco.png)
 
 You can also optimize a selection of stops in Hub. Use Ctrl+click/Command+click or Shift+click to select multiple stop cards and click on the `Optimize selection without time windows` to optimize a part of a route only.
 
-![Screenshot 2026-09-22 at 13.55.53.png](/Documentation/attachments/mucmbqd0-ppdsh4dj.png)
-
-Before partial optimization:
-
-![Screenshot 2026-09-22 at 13.55.47.png](/Documentation/attachments/mucmbwbw-41ukv3c1.png)
-
-After partial optimization:
-
-![Screenshot 2026-09-22 at 13.56.02.png](/Documentation/attachments/mucmbzbn-gnxo4ig8.png)
+![Screenshot 2026-11-13 at 14.39.34.png](/Documentation/attachments/mwf0yl2n-2yjk1otw.png)
 
 You can only optimize stops that are located next to each other in a stop order. Otherwise, you will see an error message 'Only neighbouring stops can be selected for partial optimization'. 
 
@@ -441,11 +425,11 @@ You will be notified to re-calibrate the route when automatic calibration is not
 
 Before calibration:
 
-![Screenshot 2026-09-22 at 13.59.02.png](/Documentation/attachments/mucmftd8-46k9vxyj.png)
+![Screenshot 2026-11-13 at 14.41.24.png](/Documentation/attachments/mwf0zpo0-6j5obici.png)
 
 After auto-calibration:
 
-![Screenshot 2026-09-22 at 13.59.14.png](/Documentation/attachments/mucmfwrc-0vu5gckm.png)
+![Screenshot 2026-11-13 at 14.41.32.png](/Documentation/attachments/mwf0zuzb-ui848ssc.png)
 
 ### Reversing Stops in Route
 
@@ -453,7 +437,7 @@ To use the Reverse stops option in Hub, you need to click on the `Actions` butto
 
 The system will then automatically update the planned time on each order, as well as the planned distance and duration of the route. If you have provided vehicle dimensions in [Vehicle settings](https://help.geo2.com/web-based-hub/hub-environment-settings/hub-vehicles-settings) (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
 
-![Screenshot 2026-09-22 at 14.00.46.png](/Documentation/attachments/mucmhpox-v6r4ddsa.png)
+![Screenshot 2026-11-13 at 14.42.05.png](/Documentation/attachments/mwf10avx-0vr69edc.png)
 
 ### Bulk Update of Committed Date/Time
 
