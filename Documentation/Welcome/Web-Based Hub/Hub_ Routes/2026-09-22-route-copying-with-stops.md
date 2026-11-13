@@ -46,7 +46,9 @@ For example, if you select:
 
 Geo2 will create **16 routes across 4 dates**: Aug 10, Aug 17, Aug 24, and Aug 31. Four route copies will be created for each date.
 
-![Screenshot 2026-09-22 at 16.38.44.png](/Documentation/attachments/mucs4ty4-bn54mppx.png)
+![Screenshot 2026-11-13 at 13.04.44.png](/Documentation/attachments/mwexr42i-fruxpluy.png)
+
+![Screenshot 2026-11-13 at 13.10.44.png](/Documentation/attachments/mwexrfj6-yg0p6g4u.png)
 
 ### Choose How Stops Are Handled
 
