@@ -1,11 +1,10 @@
 ---
-slug: "/mobile-app/mobile-app-offline-mode"
-sidebar_label: "Offline Mode"
-sidebar_position: 12
-description: "Offline mode allows you to continue working with the mobile app even without an active internet connection."
+slug: /mobile-app/mobile-app-offline-mode
+sidebar_label: Offline Mode
+sidebar_position: 13
+description: Offline mode allows you to continue working with the mobile app
+  even without an active internet connection.
 ---
-
-
 # Mobile app: Offline Mode
 
 Offline mode allows you to continue working with the mobile app even without an active internet connection. The app ensures that all essential workflow actions remain available and are saved locally until connectivity is restored.
@@ -31,7 +30,6 @@ Although core features remain available, some functions require an active connec
 - Geo-coding for route start and end points, stops, and address search will not work.
 - As geo-coordinates cannot be fetched without an internet connection, addresses cannot be positioned accurately on the map.
 - You can still enter an address manually using `Can’t find address...` button but automatic address search will not work.
-
   - The address entered manually will be saved.
   - The map marker may not display in the correct location due to missing geo-location.
 
@@ -43,5 +41,5 @@ Although core features remain available, some functions require an active connec
 
 - If you opened a route while online, its data is stored on the device and remains accessible offline.
 - If a route has never been opened before and you go offline, the app cannot download the data.
-
   - These new assignments will only become available after internet access is restored.
+
