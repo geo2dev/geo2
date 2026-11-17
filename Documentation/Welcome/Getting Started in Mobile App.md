@@ -10,60 +10,64 @@ description: Once the mobile app is installed on your device fromApp Store and
 
 ## Introduction
 
-Once the mobile app is installed on your device from**[App Store](https://apps.apple.com/app/geo2/id1594180686)** and **[Google Play](https://play.google.com/store/apps/details?id=com.geo2.app)**, you can register an account and create your own organization to which you invite other users in the mobile app.  You have the option to authenticate either with an email address and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft. You may also be invited to join other organizations.  To [Hub: Accept Invitation](Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [Mobile App: Sign In](Mobile%20App/Mobile%20App_%20Sign%20In/index.md) to the app using the email address or mobile phone number to which the invitation has been sent.
+Once the mobile app is installed on your device from **[App Store](https://apps.apple.com/app/geo2/id1594180686)** and **[Google Play](https://play.google.com/store/apps/details?id=com.geo2.app)**, you can register an account and create your own organization to which you invite other users in the mobile app. You have the option to authenticate either with an email address and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft. You may also be invited to join other organizations. To [accept invitation](Web-Based%20Hub/Hub_%20Accept%20Invitation.md), [sign in](Mobile%20App/Mobile%20App_%20Sign%20In/index.md) to the app using the email address or mobile phone number to which the invitation has been sent.
 
 ![20260428_1 (2).png](/Documentation/attachments/ae51e2ea-087c-4f3e-9d2e-9a8a781f113d.png)
 
-You can still use both the Geo2 web-based Hub and the mobile app, depending on your role and workflow. Both platforms support route planning and optimization, as well as order management. The mobile app is best suited for solo drivers, couriers, gig drivers, and drivers working for companies where route planning is done by a transport manager/dispatcher in Hub. Additionally, the mobile app includes Proof of Delivery (POD) and vehicle check features to capture delivery confirmations and vehicle status at route start and completion. While the mobile app allows drivers to create and optimize routes and manage orders, Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV), managing multiple routes on a single map, analytics and reporting, and AI-powered route building.
+You can still use both the Geo2 web-based Hub and the mobile app, depending on your role and workflow. Both platforms support route planning and optimization, as well as order management.
+
+The mobile app is best suited for solo drivers, couriers, gig drivers, and drivers working for companies where route planning is done by a transport manager/dispatcher in Hub. Additionally, the mobile app includes Proof of Delivery (POD) and vehicle check features to capture delivery confirmations and vehicle status at route start and completion.
+
+The mobile app also supports mileage tracking, allowing drivers to record distances travelled on completed routes or manually add mileage entries. Drivers can categorize mileage by purpose (Business, Commuting, or Personal), view mileage summaries for a selected date range, filter records by vehicle and purpose code, and export mileage reports in PDF, CSV, or Excel formats for tax reporting, reimbursement, and record-keeping.
+
+While the mobile app allows drivers to create and optimize routes, manage orders, and track mileage, Hub offers advanced features for larger-scale operations, such as bulk order import via Excel (CSV), managing multiple routes on a single map, analytics and reporting, and AI-powered route building.
 
 ## Register Account
 
-To create your account, provide your email address and press `Continue with email` button. Alternatively, you can press the buttons for other authentication providers in order to authenticate with your existing Google, Microsoft, or Apple identity or mobile phone number. Learn more about registration in [Mobile App: Register](Mobile%20App/Mobile%20App_%20Register.md).
+To create your account, provide your email address and press `Continue with email` button. Alternatively, you can press the buttons for other authentication providers in order to authenticate with your existing Google, Microsoft, or Apple identity or mobile phone number. Learn more about registration in [mobile app](Mobile%20App/Mobile%20App_%20Register.md).
 
 ![20260428_1 (2).png](/Documentation/attachments/ae51e2ea-087c-4f3e-9d2e-9a8a781f113d.png)
 
 If you provide an email address and press `Continue with email`, the system checks if the email is already registered. If it is a new email address, you will be asked to set up your account by creating a password. The password should contain at least 8 characters, 1 uppercase and lowercase, 1 number and 1 special character. Your email and password enable you to sign in to Geo2 mobile app and Hub.
 
-![20260428_2 (1).png](/Documentation/attachments/fa08f51f-56c2-40be-a935-6ba532841e5c.png)![20260428_3.png](/Documentation/attachments/e2db1005-b484-4bd7-851a-c6e5b7ec51af.png)
+![20260428_2 (1).png](/Documentation/attachments/fa08f51f-56c2-40be-a935-6ba532841e5c.png)
+
+![20260428_3.png](/Documentation/attachments/e2db1005-b484-4bd7-851a-c6e5b7ec51af.png)
 
 ### Verify Email
 
-If you register an account using an email and password, you need to verify it. By pressing the `Continue` button, you are required to confirm your email address before you can fully use the application.  You will see a prompt for you to check your inbox for a verification code sent to the provided email address. Copy the code and paste it to the form in the mobile app:
+If you register an account using an email and password, you need to verify it. By pressing the `Continue` button, you are required to confirm your email address before you can fully use the application. You will see a prompt for you to check your inbox for a verification code sent to the provided email address. Copy the code and paste it to the form in the mobile app:
 
-![20260428_4.png](/Documentation/attachments/3c48335b-018a-4b5b-ad5f-85d8dbca117e.png)![Screenshot 2025-12-22 at 15.44.45.png](/Documentation/attachments/50df9d6c-8fd5-4c7c-9bf7-5b554df4afba.png)
+
+
+![20260428_4.png](/Documentation/attachments/3c48335b-018a-4b5b-ad5f-85d8dbca117e.png)
+
+![Screenshot 2025-12-22 at 15.44.45.png](/Documentation/attachments/50df9d6c-8fd5-4c7c-9bf7-5b554df4afba.png)
 
 ## Set Up Organization
 
-Once your email is verified, you can continue working in the mobile app.  If you are not invited to any organization, the default organization will be created. **Free level subscription** will be assigned to you - **no payment details are required**.
-
-You will see a “Get started” video that shows what you can do with the Geo2 mobile app:
-
-- Plan routes
-- Add stops using address search, scanning, and voice search
-- Load vehicle with photos
-- Start and complete routes
-- Navigate to stops using your favorite navigation app (Waze, Google Maps, Apple Maps, etc.)
-- Create PODs and vehicle checks with signatures and photos
-
-Watching the video is optional. If you would like to view it, tap the `Play` button in the center of the screen. After the video finishes, tap `Start using Geo2` to begin planning your first route. If you prefer to get started right away, tap `Skip for now`.
-
-![20260428_5.png](/Documentation/attachments/9c980782-51e1-4bfe-b7e0-3b8253b5684c.png)![20260428_6.png](/Documentation/attachments/ad89ceea-b284-48bd-a730-a64ba5c71250.png)![20260428_7 (1).png](/Documentation/attachments/a6f00fbf-4951-4368-80b3-d21147d5b628.png)
+Once your email is verified, you can continue working in the mobile app. If you are not invited to any organization, the default organization will be created. **Free level subscription** will be assigned to you - **no payment details are required**.
 
 After creating your first route and adding stops, load vehicle with optional package photos, start the route and navigate to stops with your preferred navigation app, create PODs, or use the `Complete` button to quickly mark stops as done.
 
-![20260428_8.png](/Documentation/attachments/442fb653-a5cf-46ce-8917-38934f191f11.png)![20260428_9.png](/Documentation/attachments/da3851b9-dc18-44f5-9502-7f882fe84d4b.png)![20260428_10.png](/Documentation/attachments/2c276529-ab24-45a9-9cac-0356271ec2ca.png)![20260428_11.png](/Documentation/attachments/4cd59f7f-a7ae-4662-adc2-1bdd8cfcc566.png)
+![20261117_1.png](/Documentation/attachments/mwkmvloj-rulm59dd.png)
+
+![20261117_2.png](/Documentation/attachments/mwkmvzua-yv607vl5.png)
+
+![20261117_3.png](/Documentation/attachments/mwkmw2x3-kk26lix2.png)
 
 ## Features Included to Free Level
 
 With a **Free** subscription in Geo2, you get access to a solid set of core features at no cost both in the Geo2 web-based Hub and the mobile app. It is available for **one user per organization**, and additional users cannot be added on this level. The Free subscription includes:
 
-- **Order management** (Hub and mobile app): Create unlimited orders each month, set time windows, assign them to routes, and view proof of delivery (POD) history in both the web Hub and mobile app. Use multi-address scanning, bulk address paste and voice search in the mobile app for fast adding route stops.
-- **Route planning** (Hub and mobile app): Build unlimited routes with up to 15 orders per route, optimize them with vehicle restrictions, adjust stops and timings, plan driver breaks with location points.
-- **Vehicle loading** (mobile app): Set package placements in the vehicle with optional photos.
-- **Navigation** (mobile app):Use your preferred navigation app (e.g., Google Maps, Apple Maps, Waze) for turn-by-turn directions.
+- **Order management** (Hub and mobile app): Create unlimited orders each month, set time windows, assign them to routes, and view proof of delivery (POD) history in both the web Hub and mobile app. Use multi-address scanning, bulk address paste (via Paste list feature) and voice search in the mobile app for fast adding route stops. Use import from photos and PDFs both in Hub and the mobile app. 
+- **Route planning** (Hub and mobile app): Build unlimited routes with up to 15 orders per route, automatically optimize stop sequences based on vehicle restrictions, adjust stops and delivery timings, and schedule driver breaks. Review and manage routes in a calendar view by vehicle, driver or area in Hub. Save time on recurring deliveries with route duplication and flexible scheduling options (daily, weekly, or monthly), including the ability to transfer undelivered orders to a duplicated route in Hub. Calculate route costs based on vehicle expenses per distance or hour and driver costs per hour, with detailed breakdowns of planned and actual costs to help monitor expenses and evaluate route profitability.
+- **Mileage tracking (mobile app):** Track distances travelled on completed routes or manually add mileage entries. Categorize mileage by purpose (Business, Commuting, or Personal), view total mileage and individual route details for a selected date range, and filter records by vehicle and purpose code. 
+- **Vehicle loading** (mobile app): Organize and manage package placement within a vehicle to make loading and unloading more efficient. Assign specific loading locations to packages and attach optional photos to help you quickly identify where each package is stored. Reduce time spent searching for packages during deliveries and streamline the unloading process at each stop.
+- **Navigation** (mobile app): Use your preferred navigation app, including Google Maps, Apple Maps, Waze, HERE WeGo, OsmAnd, TomTom GO Expert, Trucker Path, TruckMap, MAPS.ME, and others, for turn-by-turn directions. 
 - **Proof of delivery** (Hub and mobile app): Create PODs with photos and signatures (planned or ad-hoc) in the app, store up to 30 days of data both in Hub and the mobile app.
 - **Offline mode** (mobile app): Work without an internet connection: create routes and stops, add breaks, capture PODs, and record location data, with all offline actions syncing when back online.
-- **AI Assistant** (Hub): Create and update orders and routes, add stops, navigate across the platform, and receive step-by-step guidance on key features. Limited to 10 requests per day for Free and Pro level users.
+- **AI Assistant** (Hub and mobile app): Create and update orders and routes, import stops from photos, screenshots, and PDFs, move stops between routes, optimize routes, add, edit, and delete breaks, start and complete routes, navigate across the platform, get a list of routes planned for today, and receive step-by-step guidance on key features. Access detailed proof-of-delivery (POD) information, including delivery statuses, completion dates and times, assigned drivers, photos, and signatures. Retrieve information about delivered and undelivered stops, track delivery progress, and identify outstanding deliveries. The AI Assistant supports both text and voice interactions and is limited to 10 requests per day for Free and Pro users.
 - **Support:** Contact the Geo2 team for help or to request new features.
 
 On each subscription level (including Free), you can use both the Hub and mobile app. The same limitations apply to both platforms.
