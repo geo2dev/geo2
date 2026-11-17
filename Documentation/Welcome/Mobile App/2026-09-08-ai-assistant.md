@@ -1,7 +1,7 @@
 ---
 slug: /mobile-app/mobile-app-ai-assistant
 sidebar_label: AI Assistant
-sidebar_position: 13
+sidebar_position: 14
 description: Learn how to use Geo AI Assistant in the mobile app with text or
   voice to manage routes, add stops, navigate deliveries, and get help with Geo2
   features.
@@ -91,7 +91,7 @@ In voice mode, the screen displays Ask me anything in voice and provides control
 
 When voice mode starts, Geo AI Assistant greets you:
 
-> “Hi, <your name>! I’m glad you’re here. You can speak your request. I can plan your route for today, add stops, guide you through the app, or explain how things work. How can I help?”
+> “Hi, ! I’m glad you’re here. You can speak your request. I can plan your route for today, add stops, guide you through the app, or explain how things work. How can I help?”
 
 You do not need to use specific commands or memorize exact phrases. For example, you can say:
 
