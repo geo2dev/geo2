@@ -1,11 +1,10 @@
 ---
-slug: "/mobile-app/mobile-app-vehicle-checks"
-sidebar_label: "Vehicle Checks"
-sidebar_position: 9
-description: "Vehicle checks in the mobile app provide a standardized way for drivers to complete vehicle inspections before and after their routes."
+slug: /mobile-app/mobile-app-vehicle-checks
+sidebar_label: Vehicle Checks
+sidebar_position: 10
+description: Vehicle checks in the mobile app provide a standardized way for
+  drivers to complete vehicle inspections before and after their routes.
 ---
-
-
 # Mobile App: Vehicle Checks
 
 ## Introduction
@@ -48,7 +47,7 @@ To complete the creation, press the `Create` button.
 
 ## Vehicle Checks History
 
-The created vehicle check will be stored under Vehicle checks in the mobile app's menu and in Geo2 Hub → Vehicle checks. In the mobile app, you can view vehicle checks history from the past 30 days. To access the full vehicle checks history, you can visit [**Geo2 web-based Hub**](https://hub.geo2.com/en-GB/auth/signin). Data older than 30 days is available with Pro, Advanced, or Enterprise subscription.
+The created vehicle check will be stored under Vehicle checks in the mobile app's menu and in Geo2 Hub → Vehicle checks. In the mobile app, you can view vehicle checks history from the past 30 days. To access the full vehicle checks history, you can visit **[Geo2 web-based Hub](https://hub.geo2.com/en-GB/auth/signin)**. Data older than 30 days is available with Pro, Advanced, or Enterprise subscription.
 
 ![App 236.png](/Documentation/attachments/4fe1d871-8c14-45de-a466-28b49bda2e7d.png)![Screenshot 2025-12-29 at 14.50.58.png](/Documentation/attachments/9fa188a4-28c0-4929-870c-cd8135c3627d.png)
 
