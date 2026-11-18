@@ -1,10 +1,10 @@
 ---
-slug: "/mobile-app/mobile-app-pod-history"
-sidebar_label: "POD History"
-sidebar_position: 8
-description: "To review the history of PODs recorded by the user, click on PODs page. By clicking on the POD, you can view its details."
+slug: /mobile-app/mobile-app-pod-history
+sidebar_label: POD History
+sidebar_position: 9
+description: To review the history of PODs recorded by the user, click on PODs
+  page. By clicking on the POD, you can view its details.
 ---
-
 # Mobile App: POD History
 
 ## POD details
@@ -15,10 +15,11 @@ To review the history of PODs recorded by the user, click on PODs page.  By cli
 
 Depending on the data provided during POD creation, you will see the following details in POD history:
 
+
 | **Data** | **Description** |
-| --- | --- |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Order key | Order unique identifier within the environment, for example, an order number 1, 2, 3, 4, etc. |
-| Status | - Successful - order has been successfully delivered/collected (a green “done” icon). <br>- Partially successful - part of the order has been delivered/collected (a yellow “done” icon). <br>- Failed - delivery/collection has failed (a red “cross” icon). |
+| Status | - Successful - order has been successfully delivered/collected (a green “done” icon). - Partially successful - part of the order has been delivered/collected (a yellow “done” icon). - Failed - delivery/collection has failed (a red “cross” icon). |
 | Type | Delivery or Collection. It is taken from an order if it is a POD created for an already existing order. |
 | Date/time | Date/time when a POD was recorded. |
 | Map | Map with a precise driver’s location at the moment of a POD creation. It can be tracked only if a driver has enabled location tracking both in the device and app. |
@@ -33,6 +34,7 @@ Depending on the data provided during POD creation, you will see the following d
 | Products | Pre-defined order products. They can be displayed either separately from packages or inside them depending if they are linked via Hub or API. |
 | Photos | Photos added/recorded during a POD creation. |
 | Signature | Signature recorded during a POD creation. |
+
 
 ![App 227.png](../../attachments/acbe81b9-4ba1-4a05-96c2-25402924f1cb.png)![App 226.png](../../attachments/ce2f422b-b5f4-4f8c-8734-d5db820e4d15.png)![App 228.png](../../attachments/01fed016-7b78-436d-86d5-bc9efecb4733.png)
 
