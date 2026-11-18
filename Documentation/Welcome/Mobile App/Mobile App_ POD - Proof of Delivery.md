@@ -1,10 +1,10 @@
 ---
-slug: "/mobile-app/mobile-app-pod-proof-of-delivery"
-sidebar_label: "POD - Proof of Delivery"
-sidebar_position: 7
-description: "The mobile app lets you record a proof-of-delivery in different circumstances:"
+slug: /mobile-app/mobile-app-pod-proof-of-delivery
+sidebar_label: POD - Proof of Delivery
+sidebar_position: 8
+description: "The mobile app lets you record a proof-of-delivery in different
+  circumstances:"
 ---
-
 # Mobile App: POD - Proof of Delivery
 
 ## Introduction
@@ -31,20 +31,24 @@ You will be redirected to POD creation page.
 
 In the Stop details section, you will see the following fields:
 
-| **Fields**   | **Description**                                                                               |
-|:-------------|:----------------------------------------------------------------------------------------------|
-| Type         | Delivery or Collection.                                                                       |
-| Order key    | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. |
-| Address      | The app uses the address indicated in the order.                                              |
+
+| **Fields** | **Description** |
+| ---------- | --------------------------------------------------------------------------------------------- |
+| Type | Delivery or Collection. |
+| Order key | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. |
+| Address | The app uses the address indicated in the order. |
+
 
 In the Recipient details section, you will see the following fields:
 
-| **Fields**    | **Description**                                           |
-|:--------------|:----------------------------------------------------------|
-| Contact name  | Name of the person who received the order.                |
-| Email         | Email address for sending the proof-of-delivery email.    |
-| Phone number  | Phone number of the person who received the order.        |
+
+| **Fields** | **Description** |
+| ------------- | --------------------------------------------------------- |
+| Contact name | Name of the person who received the order. |
+| Email | Email address for sending the proof-of-delivery email. |
+| Phone number | Phone number of the person who received the order. |
 | Mobile number | Mobile phone number of the person who received the order. |
+
 
 In the Packages section, you can review, add, or scan packages for the stop (order), mark some of them as failed if it is needed. Packages are available only with Advanced and Enterprise subscription levels.
 
@@ -138,20 +142,24 @@ You can create an ad-hoc POD for an existing order by specifying its key.  If t
 
 If the order does not exist yet, fill in the following fields in the `Stop details` section:
 
+
 | **Fields** | **Description** | **Required** |
-| --- | --- | --- |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
 | Type | Delivery or Collection | Yes |
-| Order key | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. You can click on the `Scan` icon to scan the key.  It is possible to provide multiple order keys. | Yes |
+| Order key | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. You can click on the `Scan` icon to scan the key. It is possible to provide multiple order keys. | Yes |
 | Address | The app uses the current device location. This can be edited. | Yes |
+
 
 If the order does not exist yet, fill in the following fields in the `Recipient details` section:
 
+
 | **Fields** | **Description** | **Required** |
-| --- | --- | --- |
+| ------------- | ----------------------------------------------------- | ---------------------------------------------------------- |
 | Contact name | Name of the person who received the order | Configured through Settings → Proof of delivery in the app |
 | Email | Email address for sending the proof-of-delivery email | No |
 | Phone number | Recipient phone number | No |
 | Mobile number | Recipient mobile phone number | No |
+
 
 In the Packages section, you can review, add, or scan packages for the stop (order), mark some of them as failed if it is needed. Packages are available only with Advanced and Enterprise subscription levels.
 
