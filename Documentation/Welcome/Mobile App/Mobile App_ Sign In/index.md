@@ -1,34 +1,33 @@
 ---
-slug: "/mobile-app/mobile-app-sign-in"
-sidebar_label: "Sign In"
+slug: /mobile-app/mobile-app-sign-in
+sidebar_label: Sign In
 sidebar_position: 2
-description: "Once you are registered as a Geo2 user, you can sign in."
+description: Once you are registered as a Geo2 user, you can sign in.
 ---
-
 # Mobile App: Sign In
 
 ## Introduction
 
 Once you are registered as a Geo2 user, you can sign in.  You have the option to authenticate either with an email and password, mobile phone number or via an identity provider - Apple, Google, or Microsoft.
 
-![20260428_1 (2).png](../../../attachments/1eaae037-556c-404b-9c55-63acda4d4547.png)
+![20261118_13.png](/Documentation/attachments/mwmafng7-md86oecz.png)
 
 ## Sign In Using Email
 
 If you type the email address, you will be redirected to provide your password used for registration at Geo2. Your password has to include at least 8 characters, 1 uppercase and lowercase, 1 number, and 1 special character. By pressing the `Continue` button, you will sign in to Geo2.
 
-![20260428_1 (2).png](../../../attachments/1eaae037-556c-404b-9c55-63acda4d4547.png)![20260728_1.png](../../../attachments/bd37814c-d39e-4ce3-9cb0-2418917b4d03.png)
+![20261118_20.png](/Documentation/attachments/mwmai8dq-vme4j6pv.png)
 
-If you have forgotten your password and cannot sign in successfully, follow the link [Mobile App: Forgot Password](Mobile%20App_%20Forgot%20Password.md).  This will enable you to reset your Geo2 password.
+If you have forgotten your password and cannot sign in successfully, follow the link [Forgot password?](Mobile%20App_%20Forgot%20Password.md).  This will enable you to reset your Geo2 password.
 
 ## Sign In Using Mobile Number
 
 If you press the `Continue with phone` button, you will be redirected to provide your mobile number used for registration at Geo2.
 
-![App 7.png](../../../attachments/e9f761e0-0b1d-424a-bc72-777faac46c96.png)
+![20261118_18.png](/Documentation/attachments/mwmaisor-lp8klaey.png)
 
 By pressing the `Continue` button, you are required to confirm your mobile phone number to sign in.  You will see a prompt to copy and paste the verification code from the SMS sent to the provided mobile number.
 
-![App 9.png](../../../attachments/25bab16c-161f-4290-87fb-c9018a85bc84.png)
+![20261118_19.png](/Documentation/attachments/mwmaiwj5-x1rmj4al.png)
 
 If you have not received an SMS with a verification code, press the `Resend code` button in a minute, and a new code will be sent. Once your mobile number is verified, you will sign in to Geo2.
