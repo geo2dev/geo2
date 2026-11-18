@@ -14,7 +14,7 @@ Hub:
 
 Mobile app: 
 
-2026-11-17
+2026-11-18
 
 ## New Features
 
