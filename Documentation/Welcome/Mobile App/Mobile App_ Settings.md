@@ -454,11 +454,11 @@ For email and SMS notifications to work, the relevant recipient contact informat
 
 The Organization section allows you to manage users and access subscription-related settings.
 
+![20261120_31.png](/Documentation/attachments/mwp1upcx-612zefoy.png)
+
 ### Users
 
-The Users page allows you to view and manage the users who belong to your Geo2 organization, subject to your role permissions and subscription level.
-
-With a Free subscription, you will see only your own user account.
+The Users page allows you to view and manage the users who belong to your Geo2 organization, subject to your role permissions and subscription level. With a Free subscription, you will see only your own user account.
 
 With Advanced or Enterprise, you can invite additional users to your organization.
 
@@ -469,15 +469,17 @@ Each user requires an assigned subscription licence.
 
 Additional licences can be purchased through [Geo2 Hub → Subscriptions](https://hub.geo2.com/en-GB/auth/signin).
 
-#### Invite a user
+![20261120_32.png](/Documentation/attachments/mwp1uxfo-ogqskv71.png)
 
 To invite a new user from the mobile app:
 
 1. Open **Settings → Users**.
-2. Press **Invite user**.
+2. Press `Invite user`.
 3. Enter the user's email address and full name.
 4. Select the appropriate user role and subscription.
 5. Send the invitation.
+
+![20261120_33.png](/Documentation/attachments/mwp1v3s7-a8xq8x9i.png)
 
 Make sure the email address is valid and can receive incoming messages.
 
@@ -485,10 +487,8 @@ The invited user will receive an email containing instructions for joining your 
 
 You can also import multiple users at once through Geo2 Hub.
 
-#### User properties
 
-
-| Property | Description |
+| **Property** | **Description** |
 | ------------ | -------------------------------------------------------------------------------- |
 | Email | A valid email address used for the invitation and account access. |
 | Full name | The name displayed for route assignments, Proof of Delivery, and vehicle checks. |
@@ -502,13 +502,13 @@ An Organization Admin must assign a subscription to a newly invited user to enab
 
 Learn more about [User Roles](https://help.geo2.com/).
 
-#### Edit or remove users
-
 Select a user to update their role or assigned subscription.
 
-Press **Update** to save any changes.
+Press `Update` to save any changes.
 
-To remove a user from your organization, select **Delete**. The removed user will lose access to your organization.
+To remove a user from your organization, select `Delete`. The removed user will lose access to your organization.
+
+![20261120_34.png](/Documentation/attachments/mwp1vo47-onteybfr.png)
 
 ### Subscriptions
 
