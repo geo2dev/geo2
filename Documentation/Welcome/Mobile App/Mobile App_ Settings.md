@@ -350,15 +350,9 @@ For data integrity, it is recommended not to delete codes that have already been
 
 At least one failure reason code must remain in the environment to support POD creation.
 
-### Proof of delivery
+### Proof of Delivery
 
-Proof of Delivery (POD) allows drivers to record the outcome of a delivery or collection.
-
-By default, POD recording is enabled for every newly created environment.
-
-You can enable or disable this functionality in **Settings → Proof of delivery**.
-
-If POD recording is disabled, the mobile app hides the **Create POD** button.
+Proof of Delivery (POD) allows drivers to record the outcome of a delivery or collection. By default, POD recording is enabled for every newly created environment. You can enable or disable this functionality in **Settings → Proof of delivery**. If POD recording is disabled, the mobile app hides the `Create POD` button.
 
 You can also configure which details are required for each delivery outcome:
 
@@ -375,20 +369,24 @@ Depending on the delivery outcome, you can specify whether the following details
 
 POD recording is available with all Geo2 subscription levels.
 
-#### POD email notifications
+![20261120_24.png](/Documentation/attachments/mwp12h41-cquk7rg9.png)
 
-Geo2 can automatically send POD confirmation emails to recipients when a delivery or collection is recorded.
+![20261120_25.png](/Documentation/attachments/mwp12kwu-mw2xggpw.png)
 
-POD emails can also be sent manually through Geo2 Hub.
+Geo2 can automatically send POD confirmation emails to recipients when a delivery or collection is recorded. POD emails can also be sent manually through Geo2 Hub. Automatic POD email notifications require an Advanced or Enterprise subscription.
 
-Automatic POD email notifications require an Advanced or Enterprise subscription.
+![20261120_26.png](/Documentation/attachments/mwp1301y-ns5fqjx3.png)
+
+![20261120_27.png](blob:https:/app.pagescms.org/0b23b816-51c3-43c0-b4d1-86d55951f8b8)
+
+![20261120_28.png](/Documentation/attachments/mwp137q0-25w53d6r.png)
 
 The sender address is **[noreply@geo2.com](mailto:noreply@geo2.com)** unless a custom sender name has been configured in Geo2 Hub.
 
 The following settings are available:
 
 
-| Setting | Description |
+| **Setting** | **Description** |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Successful/Failed | Configure notification content and behaviour for the relevant delivery outcome, including partially successful deliveries. |
 | Allow sending of emails | Enable automatic POD emails when a delivery or collection is recorded. |
@@ -402,7 +400,7 @@ You can use the following tokens in the email subject and body:
 - `{ORDER_KEY}` — order identifier
 - `{PUBLIC_POD}` — link to the public POD page (email body)
 
-Once you have configured the notification settings, press **Update** to save your changes.
+Once you have configured the notification settings, press `Update` to save your changes.
 
 If automatic POD emails are enabled and the order contains a valid recipient email address, Geo2 sends the notification after POD recording.
 
