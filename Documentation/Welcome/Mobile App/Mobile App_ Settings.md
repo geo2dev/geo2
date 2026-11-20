@@ -404,21 +404,21 @@ Once you have configured the notification settings, press `Update` to save your 
 
 If automatic POD emails are enabled and the order contains a valid recipient email address, Geo2 sends the notification after POD recording.
 
-### Public tracking
+### Public Tracking
 
-Public tracking allows recipients to follow the progress of their deliveries or collections through a public web page.
-
-Tracking links can be shared with recipients by email or SMS, depending on the organization's subscription.
+Public tracking allows recipients to follow the progress of their deliveries or collections through a public web page. Tracking links can be shared with recipients by email or SMS, depending on the organization's subscription.
 
 - **Email notifications** — available with Advanced and Enterprise subscriptions.
 - **SMS notifications** — available with Enterprise subscriptions.
 
 The sender email address is **[noreply@geo2.com](mailto:noreply@geo2.com)** unless a custom sender name has been configured in Geo2 Hub.
 
-#### Public tracking settings
+![20261120_29.png](/Documentation/attachments/mwp1p9j9-gr24geus.png)
+
+![20261120_30.png](/Documentation/attachments/mwp1pg8v-m2eomoff.png)
 
 
-| Setting | Description |
+| **Setting** | **Description** |
 | -------------------------------- | ----------------------------------------------------------------------------------------------- |
 | Tracking email enabled on status | Select the order or route status that triggers a tracking notification email. |
 | Subject | Customize the subject of the notification email. |
@@ -427,8 +427,6 @@ The sender email address is **[noreply@geo2.com](mailto:noreply@geo2.com)** unle
 | Disclose stop position | Show the last completed stop to indicate how many stops remain before the recipient's delivery. |
 | Disclose vehicle position | Display the last known vehicle position on the public tracking map. |
 
-
-**Tracking email triggers**
 
 You can choose when a public tracking email should be sent:
 
@@ -440,17 +438,13 @@ You can choose when a public tracking email should be sent:
 
 The Released, Planning, and Planned statuses are typically managed through Geo2 Hub rather than the mobile app.
 
-#### Public tracking email tokens
-
 You can use the following tokens to personalize tracking notification emails:
 
 - `{CONTACT_NAME}` — recipient's name
 - `{ORDER_KEY}` — order identifier
 - `{PUBLIC_TRACKING}` — public tracking link (email body)
 
-Make sure the email content matches the notification trigger you have configured.
-
-For example, if the email is sent when a route starts, the message can inform the recipient that their delivery is on its way.
+Make sure the email content matches the notification trigger you have configured. For example, if the email is sent when a route starts, the message can inform the recipient that their delivery is on its way.
 
 When the route or order reaches the selected status, Geo2 sends the tracking notification to the recipient.
 
