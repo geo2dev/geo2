@@ -208,11 +208,13 @@ You can also filter mileage records by purpose code and include this information
 
 ![20261118_10.png](/Documentation/attachments/mwp0xu9p-grb9st92.png)
 
-Learn more about [Mobile App: Mileage tracking](https://help.geo2.com/mobile-app/).
+Learn more about [Mileage tracking](https://help.geo2.com/mobile-app/).
 
-## Vehicles and checks
+## Vehicles and Checks
 
 The Vehicles and checks section allows you to manage the vehicles used for deliveries, configure vehicle costs, and enable vehicle checks.
+
+![20261120_15.png](/Documentation/attachments/mwp0ypge-seahbrlo.png)
 
 ### Vehicles
 
@@ -228,23 +230,25 @@ When a new environment is created, Geo2 automatically adds the following default
 
 You can add additional vehicles individually through the mobile app or import multiple vehicles at once using [Geo2 Hub](https://hub.geo2.com/).
 
-#### Add a vehicle
+![20261120_16.png](/Documentation/attachments/mwp0ytjc-6f030knv.png)
 
 To add a new vehicle:
 
 1. Open **Settings → Vehicles**.
-2. Press **Add vehicle**.
+2. Press `Add vehicle`.
 3. Enter the vehicle details.
-4. Press **Measures** to configure additional vehicle dimensions, if necessary.
-5. Press **Add** to save the vehicle.
+4. Press `Measures` to configure additional vehicle dimensions, if necessary.
+5. Press `Add` to save the vehicle.
+
+![20261120_17.png](/Documentation/attachments/mwp0z67x-j3g0m8bs.png)
+
+![20261120_18.png](/Documentation/attachments/mwp0z9y8-5qwhmtv1.png)
 
 The required fields are **Key** and **Type**. All other properties are optional.
 
-#### Vehicle properties
 
-
-| Property | Description | Required |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------- | -------- |
+| **Property** | **Description** | **Required** |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------- | ------------ |
 | Key | A unique identifier for the vehicle within the environment, such as Vehicle 1 or Van 001. | Yes |
 | Registration | Vehicle registration number, such as ABCD012. | No |
 | Type | Vehicle category used for route optimization and planning, such as van, truck, car, motorbike, or bicycle. | Yes |
@@ -258,11 +262,7 @@ The required fields are **Key** and **Type**. All other properties are optional.
 
 Vehicle dimensions and weight can be considered during route optimization and calibration when vehicle restrictions apply.
 
-#### Vehicle costs
-
-Geo2 allows you to configure operating costs for individual vehicles.
-
-Two optional fields are available when adding or editing a vehicle:
+Geo2 allows you to configure operating costs for individual vehicles. Two optional fields are available when adding or editing a vehicle:
 
 **Cost per distance unit**
 
@@ -286,25 +286,23 @@ For example:
 - $20 per hour
 - €18 per hour
 
-Both fields accept numerical values. The currency displayed is determined by the environment's Currency setting.
+Both fields accept numerical values. The currency displayed is determined by the environment's Currency setting. These values can be used in Geo2's route cost calculations to estimate vehicle operating expenses based on distance and time.
 
-These values can be used in Geo2's route cost calculations to estimate vehicle operating expenses based on distance and time.
-
-**Important:** If you change the environment currency, previously entered vehicle costs are not converted automatically. Only the displayed currency changes, while the numerical values remain the same.
+If you change the environment currency, previously entered vehicle costs are not converted automatically. Only the displayed currency changes, while the numerical values remain the same.
 
 #### Edit or delete a vehicle
 
-To edit vehicle details, select the vehicle from the list, update the relevant properties, and press **Update**.
+To edit vehicle details, select the vehicle from the list, update the relevant properties, and press `Update`.
 
 You can also delete a vehicle where permitted.
 
+![20261120_19.png](/Documentation/attachments/mwp105o3-xqvdu4qc.png)
+
 For data integrity, it is recommended not to delete vehicles that have already been used for routes or vehicle checks.
 
-### Vehicle checks
+### Vehicle Checks
 
-Vehicle checks allow drivers to record the condition of their vehicles before starting or after completing a route.
-
-You can configure whether vehicle checks are required at different stages of route execution.
+Vehicle checks allow drivers to record the condition of their vehicles before starting or after completing a route. You can configure whether vehicle checks are required at different stages of route execution.
 
 Available settings include:
 
@@ -315,7 +313,7 @@ You can enable or disable these options independently.
 
 Vehicle checks are available with Advanced and Enterprise subscriptions.
 
-Learn more about [Mobile App: Vehicle Checks](https://help.geo2.com/mobile-app/).
+Learn more about [Vehicle Checks](https://help.geo2.com/mobile-app/).
 
 ## Proof of delivery and tracking
 
