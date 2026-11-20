@@ -512,9 +512,7 @@ To remove a user from your organization, select `Delete`. The removed user will 
 
 ### Subscriptions
 
-The Subscriptions settings allow you to review and manage subscription-related information.
-
-Subscription availability and management options depend on your current plan and how the subscription was purchased.
+The Subscriptions settings allow you to review and manage subscription-related information. Subscription availability and management options depend on your current plan and how the subscription was purchased.
 
 For subscriptions purchased through the App Store or Google Play, subscription cancellation is managed directly through the corresponding store settings.
 
@@ -526,35 +524,25 @@ Device settings allow you to customize how Geo2 behaves on your device.
 
 These settings include location tracking, scanning preferences, photo resolution, language, and app appearance.
 
-### Location tracking
+### Location Tracking
 
-Geo2 uses location data to support route execution, delivery tracking, mileage recording, and reporting.
-
-Location tracking allows the app to record the device's location while tracking is active.
+Geo2 uses location data to support route execution, delivery tracking, mileage recording, and reporting. Location tracking allows the app to record the device's location while tracking is active.
 
 Depending on your device and operating system, Geo2 may request additional permissions to continue recording location data while the app is running in the background.
 
-Background location access is particularly important for accurate mileage tracking when you switch to another app or lock your device.
+Background location access is particularly important for accurate mileage tracking when you switch to another app or lock your device. Without the required permissions, location data may be incomplete, affecting recorded distances and tracking information.
 
-Without the required permissions, location data may be incomplete, affecting recorded distances and tracking information.
+### Barcode Sound
 
-### Barcode sound
+The Barcode sound setting allows you to select the sound played when a barcode is successfully scanned. This provides audible confirmation that the scan has been completed.
 
-The Barcode sound setting allows you to select the sound played when a barcode is successfully scanned.
+### Photo Resolution
 
-This provides audible confirmation that the scan has been completed.
-
-### Photo resolution
-
-The Photo resolution setting determines the quality of photos captured through Geo2, including Proof of Delivery and vehicle check photos.
-
-Higher resolution produces better image quality but increases the amount of data required to upload and synchronize photos.
+The Photo resolution setting determines the quality of photos captured through Geo2, including Proof of Delivery and vehicle check photos. Higher resolution produces better image quality but increases the amount of data required to upload and synchronize photos.
 
 ### Language
 
-The Language setting allows you to choose your preferred language for the Geo2 mobile app interface.
-
-Select your preferred language from the available options.
+The Language setting allows you to choose your preferred language for the Geo2 mobile app interface. Select your preferred language from the available options: 
 
 ### Theme
 
