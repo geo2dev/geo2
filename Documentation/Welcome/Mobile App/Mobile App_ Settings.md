@@ -315,38 +315,36 @@ Vehicle checks are available with Advanced and Enterprise subscriptions.
 
 Learn more about [Vehicle Checks](https://help.geo2.com/mobile-app/).
 
-## Proof of delivery and tracking
+## Proof of Delivery and Tracking
 
 This section allows you to configure Proof of Delivery (POD), failure reason codes, and public tracking settings.
 
-### Failure reason codes
+![20261120_20.png](/Documentation/attachments/mwp10v49-ucf218bf.png)
 
-Failure reason codes allow you to categorize unsuccessful or partially successful deliveries and collections.
+### Failure Reason Codes
 
-They are available when recording Proof of Delivery in the Geo2 mobile app.
+Failure reason codes allow you to categorize unsuccessful or partially successful deliveries and collections. They are available when recording Proof of Delivery in the Geo2 mobile app. When a new environment is created, Geo2 automatically adds eight default failure reason codes. You can customize these codes to match your business requirements.
 
-When a new environment is created, Geo2 automatically adds eight default failure reason codes.
-
-You can customize these codes to match your business requirements.
-
-#### Add a failure reason code
+![20261120_21.png](/Documentation/attachments/mwp11b71-u4gpn4ny.png)
 
 To create a new failure reason code:
 
 1. Open **Settings → Failure reason codes**.
-2. Press **Add reason code**.
+2. Press `Add reason code`.
 3. Enter the required information:
   - **Reason code** — the value displayed to recipients on the public POD page and in the POD PDF.
   - **Description** — additional information used internally.
-4. Press **Add** to save your changes.
+4. Press `Add` to save your changes.
 
 Both fields are required.
 
-#### Edit or delete a failure reason code
+![20261120_22.png](/Documentation/attachments/mwp11kev-q4v1l2ds.png)
 
-To edit an existing failure reason code, select it from the list, update its information, and press **Update**.
+To edit an existing failure reason code, select it from the list, update its information, and press `Update`.
 
 You can also delete failure reason codes where permitted.
+
+![20261120_23.png](/Documentation/attachments/mwp11u9i-u2v7eh84.png)
 
 For data integrity, it is recommended not to delete codes that have already been used.
 
