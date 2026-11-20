@@ -542,7 +542,7 @@ The Photo resolution setting determines the quality of photos captured through G
 
 ### Language
 
-The Language setting allows you to choose your preferred language for the Geo2 mobile app interface. Select your preferred language from the available options: 
+The Language setting allows you to choose your preferred language for the Geo2 mobile app interface. Select your preferred language from the available options: Czech, German, English, Spanish, French, Italian, Brazilian Portuguese, Romanian, Ukrainian. 
 
 ### Theme
 
@@ -572,6 +572,6 @@ You can review Geo2's Privacy Policy and Terms of Service directly from the Acco
 
 ### Delete account
 
-If you want to remove your Geo2 account data, select **Delete account** and confirm the action.
+If you want to remove your Geo2 account data, select `Delete account` and confirm the action.
 
 Make sure you understand the consequences of account deletion before proceeding.
