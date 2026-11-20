@@ -132,9 +132,7 @@ You can enable or disable each option depending on your route planning preferenc
 
 ### Route Purpose Codes
 
-Route purpose codes allow you to categorize routes and mileage records based on the purpose of the journey.
-
-This is especially useful for businesses and drivers who need to distinguish between business, commuting, and personal mileage for reporting and record-keeping.
+Route purpose codes allow you to categorize routes and mileage records based on the purpose of the journey. This is especially useful for businesses and drivers who need to distinguish between business, commuting, and personal mileage for reporting and record-keeping.
 
 For example, you can create purpose codes such as:
 
@@ -146,14 +144,12 @@ For example, you can create purpose codes such as:
 Each purpose code consists of the following properties:
 
 
-| Property | Description |
-| ----------- | ------------------------------------------------------------------------------------------------------------- |
+| **Property** | **Description** |
+| ------------ | ------------------------------------------------------------------------------------------------------------- |
 | Description | A custom name describing the purpose of the route, such as Delivery round or Client visit. |
 | Type | A predefined category: Business, Commuting, or Personal. |
 | Default | Indicates whether this purpose code is selected by default when creating routes or starting mileage tracking. |
 
-
-**Purpose code types**
 
 Geo2 supports three predefined types:
 
@@ -163,56 +159,54 @@ Geo2 supports three predefined types:
 
 You can create custom purpose descriptions, but the available Types cannot be changed or extended.
 
-#### Default purpose codes
-
 When a new environment is created, Geo2 automatically adds three purpose codes:
 
 
-| Description | Type | Default |
-| ----------- | --------- | ------- |
+| **Description** | **Type** | **Default** |
+| --------------- | --------- | ----------- |
 | Business | Business | Yes |
 | Commuting | Commuting | No |
 | Personal | Personal | No |
 
 
-**Business** is selected as the default purpose code.
+**Business** is selected as the default purpose code. Only one purpose code can be marked as Default at a time.
 
-Only one purpose code can be marked as Default at a time.
-
-Existing environments also receive these default purpose codes. Existing routes are assigned the default Business purpose code during migration.
-
-#### Add a purpose code
+![20261120_11.png](/Documentation/attachments/mwp0w6lj-ckgpx7y4.png)
 
 To create a new purpose code:
 
 1. Open **Settings → Route purpose codes**.
-2. Press **Add purpose code**.
+2. Press `Add purpose code`.
 3. Enter a Description, such as "Delivery round".
 4. Select the appropriate Type: Business, Commuting, or Personal.
 5. If needed, mark the purpose code as Default.
 6. Save your changes.
 
-The new purpose code will be available for selection when assigning a purpose to routes or starting mileage tracking.
+![20261120_12.png](/Documentation/attachments/mwp0whro-igkihz2o.png)
 
-#### Edit or delete a purpose code
+![20261120_13.png](/Documentation/attachments/mwp0wno9-6gnjmtop.png)
+
+The new purpose code will be available for selection when assigning a purpose to routes or starting mileage tracking.
 
 To edit an existing purpose code, select it from the list, update its details, and save your changes.
 
 You can also delete purpose codes where deletion is allowed.
 
+![20261120_14.png](/Documentation/attachments/mwp0wvds-usnm8rfx.png)
+
 If you want to change the default purpose code, select another code and mark it as Default. The previously selected default will be replaced automatically.
 
-**Permissions:** Environment Admins can add, edit, delete, and change default purpose codes. Environment Managers can view the configured codes but cannot modify them. Environment Users and User Admins cannot access this setting.
+Environment Admins can add, edit, delete, and change default purpose codes. Environment Managers can view the configured codes but cannot modify them. Environment Users and User Admins cannot access this setting.
 
-#### Using purpose codes with Mileage tracking
+Purpose codes are also used in the Geo2 Mileage tracking feature to categorize recorded journeys. When you start standalone mileage tracking, Geo2 asks you to select a purpose code before tracking begins. The default purpose code is preselected, but you can choose another available code.
 
-Purpose codes are also used in the Geo2 Mileage tracking feature to categorize recorded journeys.
+![20261118_3.png](/Documentation/attachments/mwp0xizt-l5uysgn1.png)
 
-When you start standalone mileage tracking, Geo2 asks you to select a purpose code before tracking begins.
-
-The default purpose code is preselected, but you can choose another available code.
+![20261118_4.png](/Documentation/attachments/mwp0xnay-rweuceez.png)
 
 You can also filter mileage records by purpose code and include this information in mileage reports.
+
+![20261118_10.png](/Documentation/attachments/mwp0xu9p-grb9st92.png)
 
 Learn more about [Mobile App: Mileage tracking](https://help.geo2.com/mobile-app/).
 
