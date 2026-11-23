@@ -27,6 +27,19 @@ jobs:
 
       - run: yarn install --frozen-lockfile
 
+      # Builds the TinaCMS editor into static/admin. Never blocks the docs:
+      # without the secrets, or if TinaCloud is down, the site deploys
+      # without /admin.
+      - name: Build TinaCMS admin
+        env:
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
+          TINA_SEARCH_TOKEN: ${{ secrets.TINA_SEARCH_TOKEN }}
+          TINA_BRANCH: main
+        run: |
+          if [ -z "$TINA_TOKEN" ] || ! yarn tinacms build; then
+            echo "::warning::TinaCMS admin was not built; deploying docs without /admin"
+          fi
+
       - run: yarn build
 
       - uses: FirebaseExtended/action-hosting-deploy@v0

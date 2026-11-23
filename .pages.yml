@@ -1,5 +1,5 @@
 # Pages CMS (https://app.pagescms.org) configuration.
-# Edit docs, sidebar order (sidebar_position) and images from the CMS;
+# Edit docs and images from the CMS (menu order is config/sidebar.json);
 # every save commits to main, which triggers the Firebase deploy workflow.
 
 settings:
@@ -16,14 +16,14 @@ settings:
 media:
   - name: attachments
     label: Attachments
-    input: Documentation/attachments
-    output: /Documentation/attachments
+    input: static/attachments
+    output: /attachments
 
 content:
   - name: docs
     label: Documentation
     type: collection
-    path: Documentation/Welcome
+    path: docs
     subfolders: true
     format: yaml-frontmatter
     # No filename override: renaming a page's sidebar_label would rename the
@@ -38,12 +38,12 @@ content:
         # Without this the CMS lists each folder twice: once as its index.md
         # entry, once as a bare folder row.
         hideDirs: nodes
-      fields: [sidebar_label, slug, sidebar_position, description]
+      fields: [sidebar_label, slug, description]
       primary: sidebar_label
-      sort: [sidebar_position, sidebar_label, slug]
+      sort: [sidebar_label, slug]
       search: [sidebar_label, slug, description]
       default:
-        sort: sidebar_position
+        sort: sidebar_label
         order: asc
     fields:
       - name: slug
@@ -58,11 +58,6 @@ content:
         label: Sidebar label
         type: string
         required: true
-      - name: sidebar_position
-        label: Sidebar position
-        type: number
-        required: true
-        description: Order among siblings — lower numbers appear higher.
       - name: description
         label: Meta description
         type: text
@@ -75,7 +70,7 @@ content:
           format: markdown
           media: attachments
           switcher: true
-          path: Documentation/attachments
+          path: static/attachments
           # Docs already embed spreadsheets and a video alongside screenshots.
           extensions: [png, jpg, jpeg, gif, webp, mp4, pdf, xlsx, csv]
           rename: random

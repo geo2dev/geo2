@@ -4,14 +4,9 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import remarkGithubAlerts from './src/remark/githubAlerts';
 import remarkYoutubeEmbed from './src/remark/youtubeEmbed';
 
-// Docs originate from a one-time Confluence export (the nightly sync is
-// retired). Each parent page lives inside its own children folder under the
-// folder's own name (e.g. "Web-Based Hub/Hub_ Orders/Hub_ Orders.md"), which
-// Docusaurus's native category-index convention picks up automatically: it
-// becomes the category link, and the category's label/position come from
-// that doc's `sidebar_label` / `sidebar_position` frontmatter. Slugs, labels,
-// and sidebar order live in frontmatter / _category_.json and are edited via
-// Pages CMS (.pages.yml).
+// Docs live in docs/ (file names are slugs; URLs come from each doc's `slug`
+// frontmatter). The menu is config/sidebar.json, see sidebars.ts. Both are
+// edited in TinaCMS (tina/config.ts).
 
 const config: Config = {
   title: 'Geo2 Documentation',
@@ -34,13 +29,6 @@ const config: Config = {
     // Docs are parsed as CommonMark. The one page that needs MDX (FAQ.md,
     // for its <details> blocks) opts in via its own frontmatter (`format: mdx`).
     format: 'md',
-    preprocessor: ({ filePath, fileContent }) => {
-      // Pages CMS inserts images as /Documentation/attachments/… — rewrite to
-      // a page-relative path so webpack resolves and bundles them.
-      const rel = filePath.replace(/\\/g, '/').split('Documentation/')[1];
-      const ups = rel ? '../'.repeat(rel.split('/').length - 1) : '';
-      return fileContent.replace(/\]\(\/Documentation\/attachments\//g, `](${ups}attachments/`);
-    },
     hooks: { onBrokenMarkdownLinks: 'warn' },
   },
 
@@ -49,7 +37,6 @@ const config: Config = {
       'classic',
       {
         docs: {
-          path: 'Documentation/Welcome',
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           beforeDefaultRemarkPlugins: [remarkGithubAlerts, remarkYoutubeEmbed],
@@ -77,7 +64,6 @@ const config: Config = {
         indexBlog: false,
         docsRouteBasePath: '/',
         highlightSearchTermsOnTargetPage: true,
-        docsDir: 'Documentation/Welcome',
       },
     ],
   ],

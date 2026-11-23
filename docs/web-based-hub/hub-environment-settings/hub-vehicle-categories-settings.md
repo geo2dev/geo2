@@ -1,0 +1,27 @@
+---
+slug: /web-based-hub/hub-environment-settings/hub-vehicle-categories-settings
+sidebar_label: Vehicle Categories Settings
+description: 'Vehicle categories let you match users and vehicles for a route assignment. By default, standard driving categories (A, B, C, etc.) are listed.'
+---
+
+# Hub: Vehicle Categories Settings
+
+Vehicle categories let you match users and vehicles for a route assignment. By default, standard driving categories (A, B, C, etc.) are listed. You can edit or delete them and create custom categories for your environment in Hub → Settings → Environment → Vehicle categories. Using or updating vehicle categories require an Advanced or Enterprise subscription.
+
+![Screenshot 2026-11-10 at 14.21.54.png](/attachments/mwapyrxj-nn7bdovt.png)
+
+These categories can then be assigned to vehicles (via Settings → Environment → [Hub: Vehicles Settings](hub-vehicles-settings.md)) and users (via Settings → Environment → [Hub: Users Settings](hub-users-settings.md)). It is possible to select multiple categories.
+
+Assign categories to users by going to Settings → Environment → Users in Hub and pressing the Vehicle categories selector. Remember to press `Update` to save changes.
+
+![Screenshot 2026-11-10 at 14.23.57.png](/attachments/mwaq3dsb-5d9mpbq4.png)
+
+![Screenshot 2026-11-10 at 14.24.04.png](/attachments/mwaq3kio-0g99mjzd.png)
+
+Assign categories to vehicles by going to Settings → Environment → Vehicles in Hub and pressing the Edit button to update the vehicle. On the Edit vehicle dialog, press the Vehicle categories selector. Remember to press `Save` to save changes.
+
+![Screenshot 2026-11-10 at 14.24.27.png](/attachments/mwaq350d-1qtcqmau.png)
+
+![Screenshot 2026-11-10 at 14.24.54.png](/attachments/mwaq38w2-rtzavr6j.png)
+
+When planning a route on [Routes page](../hub-routes/index.md) in Hub or via Geo2 API, the system will match the user’s and vehicle’s categories. Users without categories can only be assigned to vehicles without categories. Vehicles without categories can be assigned to any user.
