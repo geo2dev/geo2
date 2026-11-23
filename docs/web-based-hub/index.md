@@ -1,0 +1,38 @@
+---
+slug: /web-based-hub
+sidebar_label: Web-Based Hub
+description: 'The web user interface is intended for administrators, managers and transport planners.'
+---
+
+# Web-Based Hub
+
+## Introduction
+
+Geo2 Hub is a **cloud-based transport management platform** designed for administrators, managers, dispatchers, and transport planners to plan, manage, and analyze delivery operations from a centralized web interface. While the Geo2 mobile app enables drivers to create and optimize routes, manage orders, navigate between stops, and capture proof of delivery (POD), **Hub provides advanced tools for managing larger-scale delivery operations** and coordinating multiple drivers and vehicles.
+
+With Geo2 Hub, you can import orders in bulk from Excel (CSV) files and PDFs, create and optimize multiple routes, assign orders to drivers and vehicles, and manage delivery schedules through an interactive calendar. The platform also supports drag-and-drop route planning, recurring route duplication, and managing multiple routes on a single map.
+
+Hub provides **real-time delivery tracking, analytics and reporting, route cost calculation, mileage tracking, vehicle management, and customizable POD workflows**. Managers can monitor delivery progress, review completed and undelivered orders, compare planned and actual costs, and evaluate team performance.
+
+The built-in **AI Assistant** helps create and manage routes, retrieve delivery and POD information, and analyze operational data through natural-language questions, providing insights without manually reviewing reports and charts.
+
+With a **Free subscription**, Geo2 provides access to a range of core features at no cost across both Hub and the mobile app. Additional capabilities and higher usage limits are available through paid subscription plans.
+
+## In this Section
+
+* [Hub: Register](hub-register.md)
+* [Hub: Set Up Organization](hub-set-up-organization.md)
+* [Hub: Sign In](hub-sign-in/index.md)
+* [Hub: Accept Invitation](hub-accept-invitation.md)
+* [Hub: Menu](hub-menu.md)
+* [Hub: Organization Settings](hub-organization-settings.md)
+* [Hub: Subscriptions](hub-subscriptions.md)
+* [Hub: Environment Settings](hub-environment-settings/index.md)
+* [Hub: Orders](hub-orders/index.md)
+* [Hub: Routes](hub-routes/index.md)
+* [Hub: Map View](hub-routes/2026-11-12-map-view.md)
+* [Hub: Vehicle Checks](hub-vehicle-checks.md)
+* [Hub: Analytics](hub-analytics.md)
+* [Hub: AI Route Building Logs](hub-ai-route-building-logs.md)
+* [Hub: Profile](hub-profile.md)
+* [Hub: AI Assistant](hub-ai-assistant.md)
