@@ -56,13 +56,13 @@ On Map page, by clicking the `Plan route` button, you can choose to create a rou
 
 Routes assigned to you display automatically based on priority when you launch the app or complete a route. First, if you previously selected a route that is incomplete, the app reopens it. If not, and you have routes released for today, the app opens the earliest route unless you explicitly selected another route earlier today. You can start it, create vehicle check, navigate to stops, create PODs, and complete a route.
 
-![20260728\_8.png](/attachments/030a3173-2753-4483-9815-9f3f8fd45235.png)![20260728\_9.png](/attachments/75e2c30a-2c87-404c-b437-704cafe64e47.png)![20260728\_10.png](/attachments/a9b5a629-9a71-453b-9712-cf7709a6fda3.png)
+![](/attachments/202611204_1.png)
+
+![](/attachments/202611204_2.png)
 
 If neither applies, you will see an empty map with a relevant call to action.
 
 After completing a route, if other routes remain today, a “Good job” bottom sheet appears with a `Go to next route` button that opens the next earliest incomplete route. If all today's routes are complete, the next step depends on your permissions: if you can create routes, you see a `Plan route` button; otherwise, you are directed to the `Routes` screen. When no routes exist for today, the empty state adjusts accordingly: if you can create routes, you are prompted to plan one. If you cannot create routes, you are redirected to the Routes screen, where you can view upcoming routes, each displayed with a small map preview.
-
-![20260729\_3.png](/attachments/58e62d54-23b5-4710-bd67-1dd6f19ef110.png)![20260728\_12.png](/attachments/f7b129d9-2b90-4a92-8586-698611efbf3d.png)
 
 ## Menu
 
@@ -73,6 +73,8 @@ Press the `menu` icon at the top-left corner to open the menu. If you have permi
 * Create a POD
 * Create a vehicle check
 * Check routes list
+* Record mileage tracking
+* Review mileage tracking records
 * Check PODs history
 * Check vehicle checks history
 * Share Advanced with friends
@@ -83,4 +85,4 @@ Press the `menu` icon at the top-left corner to open the menu. If you have permi
 
 Check more details about [Mobile App: Menu](mobile-app-menu.md).
 
-![20260728\_13.png](/attachments/bf77a33b-ced9-4281-bd68-9251e7b4ecfa.png)
+![](/attachments/202611204_3.png)
