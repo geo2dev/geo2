@@ -215,6 +215,10 @@ The Paste list feature is especially useful for solo delivery drivers who need t
 
 To add up to 50 stops to a route at once, use the `Paste list` option in the Search address dialog when adding stops. Simply type or paste your addresses — one per line — and click `Search` to find matches.
 
+![20261124_51.png](/attachments/mwut58zl-vyaktzvh.png)
+
+![20261124_52.png](/attachments/mwut5d34-uammx1f8.png)
+
 You will be then be taken to the **Select addresses** page, where:
 
 - Your **pasted addresses** appear in **bold black text**
@@ -222,7 +226,11 @@ You will be then be taken to the **Select addresses** page, where:
 
 If needed, you can click `Edit` to adjust any address. The app will show all available matches for each entry, allowing you to choose a different option. Use the checkboxes to select which addresses to include — everything is selected by default, but you can deselect any you do not need.
 
+![20261124_53.png](/attachments/mwut5lrt-27cfojps.png)
+
 When ready, click `Confirm` to add the selected addresses as stops in your route.
+
+![20261124_54.png](/attachments/mwut5poe-ko0ilx6q.png)
 
 Remember that Free level users can include up to 15 stops per route. If you exceed this limit, you will be redirected to the Subscriptions page, where you can start a trial of a higher plan (Pro or Advanced) to add all addresses. Alternatively, you can remove some stops to stay within the limit.
 
