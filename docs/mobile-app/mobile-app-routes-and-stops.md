@@ -338,13 +338,35 @@ For drivers — especially solo drivers managing long routes — planned breaks 
 
 To add a break, tap the `Add break` button at the top of the stop list on Route view page. This option becomes available once at least one stop has been added to the route. You will be prompted to define the break duration (in minutes) and optionally assign a location. Locations can be added by typing an address, scanning, using voice search or searching location on the map.
 
+![20261124_72.png](/attachments/mwuuc5b3-pcf0i5w7.png)
+
+![20261124_73.png](/attachments/mwuuc9a9-qj50roi0.png)
+
+![20261124_74.png](/attachments/mwuucc4l-6by8nkk3.png)
+
+![20261124_75.png](/attachments/mwuucfbx-zqhvcioj.png)
+
 Once confirmed, the break is added to the end of the stop list, but it can be easily repositioned using drag-and-drop to fit your preferred sequence. The route is automatically recalculated to include the new break, ensuring accurate timing and navigation.
+
+![20261124_76.png](/attachments/mwuuckst-xy7hhrpf.png)
 
 If a break includes a location, it will also appear on the map. Selecting either the break card in the stop list or its map marker opens the Break details page. From there, you can start navigation using your preferred app, such as Waze, Google Maps, or Apple Maps, and mark the break as completed once finished. You can also edit or remove the break from the route at any time.
 
+![20261124_77.png](/attachments/mwuucubx-7fhqr9dl.png)
+
+![20261124_78.png](/attachments/mwuucydo-dgz294d9.png)
+
+![20261124_79.png](/attachments/mwuud7on-bu8ni155.png)
+
+![20261124_80.png](/attachments/mwuudcys-w3lrr5ml.png)
+
+![20261124_81.png](/attachments/mwuudfy0-2x3e4f2i.png)
+
+![20261124_82.png](/attachments/mwuudjc8-3kqvwzcl.png)
+
 ## Drag-and-Drop Stops
 
-Stop cards could be drag-and-dropped to any position of the route.  For it, you need to press on the stop card and move it.  Remember to press the `Save` button to save your changes.  Once saved, a route will be automatically calibrated updating timings and distance.
+Stop cards could be drag-and-dropped to any position of the route. For it, you need to press on the stop card and move it. Remember to press the `Save` button to save your changes. Once saved, a route will be automatically calibrated updating timings and distance.
 
 Route start and end cards cannot be moved.
 
