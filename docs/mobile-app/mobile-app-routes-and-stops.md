@@ -29,7 +29,7 @@ There are three route statuses relevant to the mobile app:
 
 ## Starting Route
 
-You can click on the route card on Routes page in the mobile app to view its details. At the bottom, you will find the `Start route` button. After starting the route, the `Start route` button is replaced with the `Complete route` button. To temporarily pause a route (location tracking for this route will be paused) press the `3 dots` icon button and select `Pause route`. To continue the paused route again, you need to press the `Continue route` button. It's not possible to continue the route that has been completed already. 
+You can click on the route card on Routes page in the mobile app to view its details. At the bottom, you will find the `Start route` button. After starting the route, the `Start route` button is replaced with the `Complete route` button. To temporarily pause a route (location tracking for this route will be paused) press the `: (three dots)` icon button and select `Pause route`. To continue the paused route again, you need to press the `Continue route` button. It's not possible to continue the route that has been completed already. 
 
 ![20261124_21.png](/attachments/mwur3179-0gz6tyaq.png)
 
@@ -59,7 +59,7 @@ When you have started a route and location tracking is enabled (the route is not
 
 ![20261124_25.png](/attachments/mwur59bx-myf2xs8t.png)
 
-You can also temporarily pause a route (location tracking for this route will be paused) from Routes calendar by pressing the 3 dots icon on a route card and selecting `Pause route` option. To continue the paused route again, you need to press the `Continue route` button. It is not possible to continue the route that has been completed already.
+You can also temporarily pause a route (location tracking for this route will be paused) from Routes calendar by pressing the `: (three dots)` icon on a route card and selecting `Pause route` option. To continue the paused route again, you need to press the `Continue route` button. It is not possible to continue the route that has been completed already.
 
 ![20261124_26.png](/attachments/mwur5kg0-31kiw2yj.png)
 
