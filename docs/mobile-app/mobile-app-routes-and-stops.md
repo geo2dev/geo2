@@ -240,6 +240,8 @@ You can continue adding more stops using typing addresses, voice search, multi-a
 
 The `Import` feature allows you to quickly add multiple stops to a route by importing PDF files or photos/screenshots of delivery lists. Geo2 uses AI to automatically detect addresses and other available delivery information, allowing you to review and edit the extracted data before adding the stops to the route.
 
+![20261124_56.png](/attachments/mwutej3l-b353kgq1.png)
+
 The feature is particularly useful for drivers who receive delivery lists as PDFs or images, including:
 
 - **Amazon Flex** drivers importing screenshots or PDF manifests.
@@ -252,11 +254,21 @@ By automatically converting delivery lists into route stops, the `Import` featur
 
 The feature is available from the Search address dialog when adding stops and can only be used for creating route stops. Press `Import` button to import either from PDF or gallery (select photos, screenshots). It is not available when selecting route start/end points, adding breaks, creating PODs, or editing existing stops.
 
+![20261124_57.png](/attachments/mwutgnjs-ag6h991b.png)
+
 After uploading one or more files, the extracted stops are displayed on the Select stops screen. While processing is in progress, uploaded files show a preview with a loading indicator. Detected stops are automatically selected, and any uncertain information is marked as `Need review` until you open the stop for review. You can edit stop details by clicking the `Edit` button to review contact and delivery details. The `Confirm` button remains disabled until all uploaded files have finished processing.
+
+![20261124_58.png](/attachments/mwuti8gt-wuzfc0h1.png)
+
+![20261124_59.png](/attachments/mwutic4i-hxheto3k.png)
 
 After confirmation, the selected stops are added to the route. You can import additional files later using `⋮ → Import`.
 
+![20261124_55.png](/attachments/mwuteqg9-jytu5agv.png)
+
 You can continue adding more stops using typing addresses, voice search, multi-address scanning, search locations on the map or import from photos, screenshots or PDFs. Once completed, press the `Finish adding stops` button to run route automatic optimization to save time and fuel.
+
+![20261124_60.png](/attachments/mwutiki4-mec5erin.png)
 
 Subscription limitations:
 
@@ -265,7 +277,7 @@ Subscription limitations:
 
 The Free level's **15-stop-per-route** limit also applies. If an import would exceed this limit, Geo2 displays a dialog allowing you to either upgrade (or start a free trial) and import all stops, or continue on the Free plan and import only the first 15 stops.
 
-### Stop details
+### Stop Details
 
 Once the stop is added to the route, you can adjust its details:
 
