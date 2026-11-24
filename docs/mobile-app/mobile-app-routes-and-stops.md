@@ -411,6 +411,8 @@ If the route already calibrated, the Calibrate button will be disabled.
 
 After adding stops to a route and pressing `Finish adding stops` button, we run automatic route optimization and calibration so you can select the fastest or shortest route. If the route includes at least one stop with specified Required from and/or Required to fields and you have an Advanced or Enterprise subscription, the system optimizes the route with time windows. To use the Optimize with time windows option separately, press the `: (3 dots)` icon on Route view page and select the `Optimize with time windows` option. Route optimization requires at least two stops, with at least one stop having specified required time slots (either “Required from”, “Required to”, or both).
 
+![20261124_90.png](/attachments/mwuvq31b-swn7rdyu.png)
+
 When you press `Optimize with time windows`, the geo-locations of the assigned route start point and the stops will be used to suggest an optimum driving route as well as to match the required time windows for each stop. The time window specified using the `Required from` and `Required to` fields inside a stop is not considered a hard constraint by the system. That is, the system doesn't fail if the stop cannot be visited during the time window; instead, the system tries to find a route that visits the stop during its time window, but if time-window violations are inevitable, the system tries to find a solution that minimizes the time-window violation time for all stops in the problem.
 
 If you have provided vehicle dimensions (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
@@ -419,7 +421,19 @@ Changes are saved automatically.
 
 Before route optimization:
 
+![20261124_87.png](/attachments/mwuvqhif-1kthylco.png)
+
+![20261124_88.png](/attachments/mwuvqopm-4io1zm4p.png)
+
+![20261124_89.png](/attachments/mwuvqv8o-lhiukogu.png)
+
 After route optimization with time windows:
+
+![20261124_91.png](/attachments/mwuvr0zu-ho1oqu1w.png)
+
+![20261124_92.png](/attachments/mwuvr4ym-ybde2qpi.png)
+
+![20261124_93.png](/attachments/mwuvr7mw-r5wl17i3.png)
 
 If the route is already optimized with time windows, the Optimize button will be disabled however, you can still optimize the route without time windows and compare the difference.
 
