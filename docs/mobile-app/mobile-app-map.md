@@ -44,6 +44,8 @@ With the AI assistant, you can also:
 
 On the Free level, the AI assistant is limited to 10 requests per day, and orders can be created through the assistant one at a time.
 
+![](/attachments/20261117_1.png)
+
 ## Plan Route
 
 On Map page, by clicking the `Plan route` button, you can choose to create a route if you have permission to do it.  Check more details about [Mobile App: Routes and Stops](mobile-app-routes-and-stops.md).
