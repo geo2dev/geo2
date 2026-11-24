@@ -382,7 +382,11 @@ The Calibrate option is available if a route has at least 1 order. 
 
 Before route calibration:
 
+![20261124_85.png](/attachments/mwuulohq-0qdgc5wo.png)
+
 After route calibration:
+
+![20261124_86.png](/attachments/mwuultb2-gorgzo28.png)
 
 We apply automatic calibration in most cases so you don't need to press `Calibrate`:
 
