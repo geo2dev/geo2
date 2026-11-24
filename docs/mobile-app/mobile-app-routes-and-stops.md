@@ -151,7 +151,7 @@ Finally, click `Confirm` to add the selected addresses as stops in your route.
 
 Alternatively, instead of scanning each address individually, you can take a photo containing multiple addresses and let Geo2 analyse it using AI. This is particularly useful when working with printed delivery lists, multiple shipping labels, spreadsheets or documents containing address and order details.
 
-On the **Scan address** page, tap **Scan from photos** under **Scan multiple addresses at once**. Take a photo(s) or select an existing image containing stop details.
+On the **Scan address** page, tap `Scan from photos` at the bottom. Take a photo(s) or select an existing image containing stop details.
 
 The number of photos you can import at once depends on your subscription level:
 
