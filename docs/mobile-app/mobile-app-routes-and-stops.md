@@ -316,13 +316,21 @@ After adding all stops to the route, you need to press the `Finish adding stops`
 
 ### Add Existing Order
 
-To add an existing order to a route, press the `Add existing order` button on Search address dialog. You need to type in the order key or scan it and all the information from this order will be automatically pre-populated to the fields.  You cannot edit the order information on this page. Fields will be disabled for editing. To edit the order, you need to add it to the route, then you can go inside the order and press the `Edit stop` button.
+To add an existing order to a route, press the `Add existing order` button on Search address dialog. You need to type in the order key or scan it and all the information from this order will be automatically pre-populated to the fields. You cannot edit the order information on this page. Fields will be disabled for editing. To edit the order, you need to add it to the route, then you can go inside the order and press the `Edit stop` button.
+
+![20261124_68.png](/attachments/mwuu3hz1-99jk0ul7.png)
+
+![20261124_69.png](/attachments/mwuu3qmm-utli7yop.png)
 
 **If a route starts or ends at a depot, orders with depots must match**: the delivery depot must align with the start, and the collection depot with the end. Orders without assigned depots can be added to any route, and if a route does not use a depot as its start or end point, any order, with or without a depot, can be added.
 
 If this order is already assigned to another route, you will be asked to confirm whether you want to move it from one route to another.
 
+![20261124_70.png](/attachments/mwuu3z7f-n33lk0ug.png)
+
 After adding all stops to the route, you need to press the `Finish adding stops` button at the bottom of the dialog to run automatic route optimization find the fastest route.  You can proceed with your current or optimized stop order. Once selected, you will be redirected back to Route view page where you can see the added stop cards.  It will be shown on the map when you slide down the bottom sheet.  You can press the `Start route` button to start the route or add more orders.
+
+![20261124_71.png](/attachments/mwuu43wy-3ssilams.png)
 
 ## Adding/Displaying Breaks
 
