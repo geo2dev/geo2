@@ -71,11 +71,15 @@ You can also temporarily pause a route (location tracking for this route will be
 
 Depending on your permissions in the environment, you can create a route in the mobile app as well as in Geo2 Hub. To create a route, you need to press the `Plan route` in Menu or on Routes page. If you do not have any assigned to you routes for today, you will also see the `Plan route` button at the bottom of Map page.
 
-![20260729\_1.png](/attachments/72588d5d-ee16-4a7f-bfb6-9ea63c9803ca.png)![20260729\_12.png](/attachments/67ffcd38-a3f1-44ff-bee1-7422e8c9bfbd.png)![20260729\_14.png](/attachments/a5c39ecd-7ac1-4a5d-8f2d-96ea0d976af3.png)
+![20261117_1.png](/attachments/mwur7ouy-psnp2rwu.png)
+
+![20261124_16.png](/attachments/mwur808o-8f4uct1s.png)
+
+![20261124_9.png](/attachments/mwur86hi-87m8no7x.png)
 
 After pressing the button, Create route page will be displayed where you need to fill in the following fields:
 
-![20260728\_6.png](/attachments/58fe16f8-ddde-47ef-abdb-5d3632bdc62f.png)
+![202611204_4.png](/attachments/mwur8l1w-uaxv28y7.png)
 
 
 | **Fields** | **Description** | **Required field** |
@@ -85,15 +89,14 @@ After pressing the button, Create route page will be displayed where you need to
 | Planned start | Expected dispatch date/time of the route from the route start location. By default, it is taken from your settings. | Yes |
 | Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route end field, you can also select depots from your environment if they exist, last stop location (last stop recipient’s address), or search address. If you select to search for an address, the Search address dialog will be displayed where you can start typing and selecting an address from the drop-down which appears, use voice search, scan an address, or search location on the map. If no suitable match is found, press the `Can't find the address you need?` button and continue entering the address in the relevant address fields manually. Once it is done, press the `Confirm` button. Your address will be saved as a route end and you will be redirected back to Create route page. | Yes |
 | Vehicle | Vehicle assigned to the route. Once a new organization/environment is created, the following default vehicle are created: van, truck, car, motorbike, bicycle. If there are no vehicles in your environment, press on the `Tap to add a vehicle` to add it. Vehicle dimensions (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. | No |
+| Purpose code | Defines the purpose of the route, such as Business, Commuting, Personal, or a custom purpose configured in your environment. The default purpose code is automatically selected when creating a route, but you can change it. Purpose codes are used to categorize mileage records and filter mileage reports. Learn more about [Route purpose codes](https://help.geo2.com/mobile-app/mobile-app-settings#route-purpose-codes). | Yes |
 | Driver | User responsible for the route. By default, it's a user creating a route from the mobile app. It can be changed. Once a route is released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](../web-based-hub/hub-routes/index.md) and on the [Hub: Analytics](../web-based-hub/hub-analytics.md) on Analytics page in Hub, as well as on the recorded [Hub: Vehicle Checks](../web-based-hub/hub-vehicle-checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](../web-based-hub/hub-environment-settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). This field is displayed only for Enterprise level users. | No |
 | Participants | Up to 2 additional users assigned to the route. Once released, the assigned participant sees the route in the mobile app. While the driver retains the ability to start and complete a route, participants will have access to a route to check the list of stops and create POD's for them. Participants field is displayed only to users with Enterprise subscription level. | No |
 
 
-![20260729\_27.png](/attachments/5b07a35e-1efc-4154-8a55-dfe282661b2a.png)![20260729\_28.png](/attachments/4060ec89-7832-455d-9648-98db89f9ee2a.png)![20260729\_29.png](/attachments/e90e489a-f32a-4c4f-b656-b0f970daeaa1.png)
+After filling in all the fields, you need to press the `Create` button to save the route data. You will be redirected to Route view page where you can add stops to the route.
 
-After filling in all the fields, you need to press the `Create` button to save the route data.  You will be redirected to Route view page where you can add stops to the route.
-
-![20260729\_30.png](/attachments/67b521a5-59e4-47f6-ade5-56bbbe04ae51.png)
+![20261124_5.png](/attachments/mwurcg94-5j59mokz.png)
 
 ## Adding/Creating Stops
 
