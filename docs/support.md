@@ -4,7 +4,7 @@ sidebar_label: Support
 sidebar_position: 10
 description: As a Geo2 user, you can request assistance through the Support and
   Feature request forms in Hub. The options are shown under the Question toolbar
-  icon. Test.
+  icon.
 ---
 # Support
 
