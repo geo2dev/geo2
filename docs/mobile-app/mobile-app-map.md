@@ -48,9 +48,9 @@ On the Free level, the AI assistant is limited to 10 requests per day, and order
 
 ## Plan Route
 
-On Map page, by clicking the `Plan route` button, you can choose to create a route if you have permission to do it.  Check more details about [Mobile App: Routes and Stops](mobile-app-routes-and-stops.md).
+On Map page, by clicking the `Plan route` button, you can choose to create a route if you have permission to do it. Check more details about [Routes and stops](https://help.geo2.com/mobile-app/mobile-app-routes-and-stops).
 
-![20260729\_1.png](/attachments/5ce406f1-fa35-4552-8c93-dc6d151cd0c1.png)![20260728\_6.png](/attachments/1995b61f-a1a9-49e3-9b3e-6dceaad121f5.png)![20260728\_7.png](/attachments/09fdae08-24d1-4265-b145-76b8d2aac220.png)
+![](/attachments/20261117_1.png)![](/attachments/20261117_2.png)
 
 ## Assigned Routes
 
