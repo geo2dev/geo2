@@ -441,6 +441,8 @@ If the route is already optimized with time windows, the Optimize button will be
 
 After adding stops to a route, we run automatic route optimization and calibration so you can select the fastest or shortest route. If stops lack required time windows ("Required from" and/or "Required to" fields), the system optimizes without time windows. To use the Optimize without time windows option separately, press the `: (3 dots)` icon on Route view page and select the `Optimize without time windows` option. Optimization without time windows is available on all subscription levels, starting from Free level.
 
+![20261124_95.png](/attachments/mwuvvb1r-0xmcppwa.png)
+
 Route optimization is available when a route has at least two orders.
 
 When you press `Optimize without time windows`, the geo-locations of the assigned route start location and the stops will be used to suggest an optimum driving route.  The order of the stops may be changed and the planned timings and distance of the route updated.  If you have provided vehicle dimensions (“Gross weight”, “Height”, “Width”, and “Length” fields) for the vehicle assigned to the route, it will be used for optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.
@@ -449,7 +451,11 @@ Changes will be saved automatically.
 
 Before optimization without time windows:
 
+![20261124_94.png](/attachments/mwuvvh9i-34umfnkl.png)
+
 After optimization without time windows:
+
+![20261124_96.png](/attachments/mwuvvl6q-rebuy5he.png)
 
 If the route is already optimized without time windows, the Optimize button will be disabled however, you can still optimize the route with time windows and compare the difference.
 
