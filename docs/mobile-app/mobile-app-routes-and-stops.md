@@ -511,7 +511,7 @@ You can also set placement and upload photos when adding or editing an order.
 
 ## Navigation
 
-The navigation icon in the top right of Details (of a certain stop) page panel lets you jump out to a navigation app (Google Maps, Apple Maps, Waze, etc.) to help you navigate in an unfamiliar area.
+The `Navigate` button in the top left of Details (of a certain stop) page panel lets you jump out to a navigation app (Google Maps, Apple Maps, Waze, etc.) to help you navigate in an unfamiliar area.
 
 The list of supported apps for navigation: 
 
@@ -535,6 +535,8 @@ The list of supported apps for navigation:
 - HERE WeGo
 - TomTom GO Expert
 - Trucker Path
+
+![20261124_109.png](/attachments/mwuwe5ci-npxmd0os.png)
 
 ## Switching Between Stops
 
