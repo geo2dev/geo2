@@ -8,30 +8,41 @@ description: 'After signing in successfully, you will see the Map page. You may 
 
 ## Introduction
 
-After signing in successfully, you will see the Map page. You may receive invitations to join other organizations. To [Hub: Accept Invitation](../web-based-hub/hub-accept-invitation.md), [Mobile App: Sign In](mobile-app-sign-in/index.md) to the app using the email address that received the invitation. If you have no invitations, the default organization will be created. The **Free level subscription** will be assigned, with **no card required**. You can start working with the app immediately:
+After signing in successfully, you will see the Map page. You may receive invitations to join other organizations. To [accept invitation](https://help.geo2.com/web-based-hub/hub-accept-invitation), sign in to the app using the email address that received the invitation. If you have no invitations, the default organization will be created. The Free level subscription will be assigned automatically, with no card required. You can start working with the app immediately:
 
-* Plan routes
-* Add stops using address typing, multi-address scanning with automatic address detection, address search on the map, voice search, bulk address pasting (Paste list feature), import addresses and delivery details from photos, screenshots and PDFs
-* Optimize routes with and without required stop time windows
-* Load vehicle with photos
-* Start and complete routes
-* Navigate to stops using your preferred navigation app (Waze, Google Maps, Apple Maps, etc.)
-* Create PODs and vehicle checks with signatures and photos
+* Plan unlimited routes with up to 15 stops per route
+* Add stops using manual address entry, multi-address scanning with automatic address detection, scanning addresses from photos, map search, voice search, bulk address pasting (Paste list feature), and importing addresses and delivery details from photos, screenshots, and PDFs
+* Optimize routes and manually rearrange stops
+* Set stop durations, delivery time windows, and driver breaks
+* Configure vehicle restrictions and road types to avoid during route optimization
+* Load your vehicle and record package placement with photos
+* Start, pause, resume, and complete routes
+* Navigate to stops using your preferred navigation app (Waze, Google Maps, Apple Maps, TomTom GO Expert, OsmAnd, Sygic, etc.)
+* Create planned and ad-hoc PODs (Proof of Delivery) with signatures and photos
+* Track mileage for planned routes and journeys without a planned route
+* Review mileage records and filter them by date range, vehicle, and route purpose
+* Review route and POD history for the past 30 days
+* Work offline, with data automatically synchronized when your internet connection is restored
 
 With the AI assistant, you can also:
 
-* Create and update routes
-* Add stops to your current route using text or voice input
-* Import stops from photos, screenshots and PDFs
-* Move stops between routes
-* Optimize routes with or without required stop time windows
+* Create new routes and update existing ones
+* Add stops using text or voice input
+* Import delivery details from photos, screenshots, and PDFs
+* Move stops, including undelivered stops, between routes
+* Optimize routes
+* Change the order of stops and breaks within a route
 * Add, edit, and delete breaks
 * Start and complete routes
-* Navigate seamlessly within the app
-* Get the list of routes planned for today
-* Get step-by-step guidance on using different features
+* Find planned routes for specific dates
+* Check route progress, remaining stops, and estimated completion times
+* Retrieve stop details, recipient information, and delivery instructions
+* Check delivery statuses and find delivered, undelivered, or pending stops
+* Retrieve POD information, including delivery dates and times, driver details, photos, and signatures
+* Navigate to stops and different sections of the app
+* Get step-by-step guidance on using Geo2 features
 
-![20260729\_1.png](/attachments/5ce406f1-fa35-4552-8c93-dc6d151cd0c1.png)![20260728\_4.png](/attachments/1fd572a5-f1c2-4083-98e4-523b4ca9fab7.png)
+On the Free level, the AI assistant is limited to 10 requests per day, and orders can be created through the assistant one at a time.
 
 ## Plan Route
 
