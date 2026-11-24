@@ -499,6 +499,29 @@ You can also set placement and upload photos when adding or editing an order.
 
 The navigation icon in the top right of Details (of a certain stop) page panel lets you jump out to a navigation app (Google Maps, Apple Maps, Waze, etc.) to help you navigate in an unfamiliar area.
 
+The list of supported apps for navigation: 
+
+- Apple Maps
+- Google Maps
+- Citymapper
+- Uber
+- Lyft
+- The Transit App
+- TruckMap
+- Waze
+- Moovit
+- Kakao Maps
+- TMAP
+- [Mapy.cz](http://Mapy.cz)
+- [Maps.me](http://Maps.me)
+- OsmAnd
+- Gett
+- Liftago
+- Petal Maps
+- HERE WeGo
+- TomTom GO Expert
+- Trucker Path
+
 ## Switching Between Stops
 
 You can see navigation arrows on Stop details page above the bottom-screen dialog to quickly switch between route stops. These arrows move dynamically with the bottom sheet as it changes height during scrolling. Next to the arrows, the stop numbers of the previous and next stops are displayed, helping you know which stops you can navigate to. The left arrow is hidden on the first stop, and the right arrow is hidden on the last stop, ensuring navigation options are only shown when applicable. If there is only one stop in the route, no arrows are displayed at all.
