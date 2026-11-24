@@ -475,9 +475,15 @@ After clicking on the `Delete` button, the confirmation dialog will be displayed
 
 ## Editing and Deleting Stop
 
-To edit or permanently delete a stop, you need to go to the Route view page and click on the stop card.  You will be redirected to Details page.  At the bottom of the page, you will see the `Edit` and `Delete stop` buttons.  After clicking on the `Edit` button, you will be redirected to Edit stop page where you can make some changes and save them.  After clicking on the `Delete` button, the confirmation dialog will be displayed where you need to confirm the deletion of the stop. 
+To edit or permanently delete a stop, you need to go to the Route view page and click on the stop card.  You will be redirected to Details page. At the bottom of the page, you will see the `Edit` and `Delete stop` buttons. After clicking on the `Edit` button, you will be redirected to Edit stop page where you can make some changes and save them. After clicking on the `Delete` button, the confirmation dialog will be displayed where you need to confirm the deletion of the stop. 
+
+![20261124_99.png](/attachments/mwuw2q1y-jg3am1qn.png)
 
 To select multiple stops, press the `: (3 dots)` icon on the Route view page and choose the `Select stops` option. You can remove stops from a route (stops remain available to add to another route) or create one POD for multiple stops. If your environment settings disallow multiple PODs per order per route, you cannot select stops with existing PODs because you cannot create a new POD.
+
+![20261124_100.png](/attachments/mwuw2wfi-9oq50s84.png)
+
+![20261124_101.png](/attachments/mwuw2zxj-a05a1426.png)
 
 ## Vehicle Loading with Photos
 
