@@ -489,9 +489,23 @@ To select multiple stops, press the `: (3 dots)` icon on the Route view page and
 
 Once a route is optimized and ready-to-go, you can load your vehicle with the assigned delivery stops by selecting `Load vehicle` from the `: (3 dots)` icon on Route view page. Stops appear in reverse order to help you load items that will be delivered last first, with **collection orders excluded**. For each stop, you can set parcel placement (e.g., "front right" or "left shelf") and optionally add photos. Press `Confirm` to save the placement, which can be updated later. Note that new photos will replace the old ones. Once your orders are loaded to the vehicle, press `Finish loading` to return to Route view page.
 
+![20261124_102.png](/attachments/mwuwb3if-m1pvhvjo.png)
+
+![20261124_103.png](/attachments/mwuwb711-75l4bu5c.png)
+
+![20261124_104.png](/attachments/mwuwbaoo-88yof7oj.png)
+
+![20261124_105.png](/attachments/mwuwbdsc-i6lz2wk4.png)
+
+![20261124_106.png](/attachments/mwuwbg39-cgewva9e.png)
+
 Vehicle loading (setting placement in the vehicle) with photos is available on all subscriptions levels, including Free level.
 
 The placement and photo count appear on the stop card, and full-size photos can be viewed in the Order details page.
+
+![20261124_107.png](/attachments/mwuwbomj-ind7mtrr.png)
+
+![20261124_108.png](/attachments/mwuwbsi9-39ovsoo1.png)
 
 You can also set placement and upload photos when adding or editing an order.
 
