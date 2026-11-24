@@ -403,7 +403,7 @@ Exceptions when we don't apply automatic calibration: 
 
 - editing a stop (editing recipient address inside stops)
 - manually set up a route inside a stop (done from Hub)
-- making changes in a depot address or vehicle speed factor
+- making changes in a depot address or vehicle speed factor (done from Hub)
 
 If the route already calibrated, the Calibrate button will be disabled.
 
