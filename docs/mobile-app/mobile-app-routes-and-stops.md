@@ -134,10 +134,6 @@ To scan an address, press the `scan` icon on the Tap to add a stop (more stops) 
 
 ![20261124_38.png](/attachments/mwurv1fa-9ixgg0do.png)
 
-![20261124_39.png](/attachments/mwurv5bb-yhcoyjaz.png)
-
-![20261124_40.png](/attachments/mwurv8iu-0o79anke.png)
-
 Multi-address scanning is available only when adding stops to the route. For route start/end points, driver location, or POD address, you can scan only one address at a time.
 
 Once scanning is complete, click `Finish scanning addresses` to send the scanned addresses to find matching results. You will then be redirected to Select addresses page, where:
@@ -147,7 +143,11 @@ Once scanning is complete, click `Finish scanning addresses` to send the scanned
 
 If needed, you can modify an address by clicking the `Edit` button. The app will display all available matches for each scanned address, so you can choose a different one if necessary. Use the checkboxes to decide which addresses to include in your route. All addresses are selected by default, but you can deselect any you do not need.
 
+![20261124_39.png](/attachments/mwurv5bb-yhcoyjaz.png)
+
 Finally, click `Confirm` to add the selected addresses as stops in your route.
+
+![20261124_40.png](/attachments/mwurv8iu-0o79anke.png)
 
 Alternatively, instead of scanning each address individually, you can take a photo containing multiple addresses and let Geo2 analyse it using AI. This is particularly useful when working with printed delivery lists, multiple shipping labels, spreadsheets or documents containing address and order details.
 
