@@ -2,9 +2,10 @@
 slug: /support
 sidebar_label: Support
 sidebar_position: 10
-description: 'As a Geo2 user, you can request assistance through the Support and Feature request forms in Hub. The options are shown under the Question toolbar icon.'
+description: As a Geo2 user, you can request assistance through the Support and
+  Feature request forms in Hub. The options are shown under the Question toolbar
+  icon. Test.
 ---
-
 # Support
 
 ## Introduction
@@ -17,9 +18,9 @@ As a Geo2 user, you can request assistance through the Support and Feature reque
 
 Organization admins can remove user accounts and delete organizations and environments. To remove your Geo2 account, ask your organization admin. If you are an organization admin, read more about:
 
-* [Hub: Organization Settings](web-based-hub/hub-organization-settings.md)
-* [Hub: Environment Settings](web-based-hub/hub-environment-settings/index.md)
-* Removing users from your [Hub: Organization Settings](web-based-hub/hub-organization-settings.md)/[Hub: Users Settings](web-based-hub/hub-environment-settings/hub-users-settings.md)
+- [Hub: Organization Settings](web-based-hub/hub-organization-settings.md)
+- [Hub: Environment Settings](web-based-hub/hub-environment-settings/index.md)
+- Removing users from your [Hub: Organization Settings](web-based-hub/hub-organization-settings.md)/[Hub: Users Settings](web-based-hub/hub-environment-settings/hub-users-settings.md)
 
 ## Support Request
 
@@ -31,8 +32,7 @@ The following information will be useful:
 2. Was the issue related to Hub, mobile app, or API?
 3. What device/browser do you use?
 4. If the issue is related to a route/order/vehicle check, what is the route ID (or route key) / order ID (or order key) / vehicle check ID? Could be copied from the URL in the browser if the bug is on Hub user interface.
-
-5.  If the issue is related to a POD, what are the POD ID (if it's possible) and order ID (or order key)?
+5. If the issue is related to a POD, what are the POD ID (if it's possible) and order ID (or order key)?
 
 Do not hesitate to attach some files and screenshots if you think it will help to solve your question.
 
