@@ -2,44 +2,68 @@
 slug: /mobile-app/mobile-app-routes-and-stops
 sidebar_label: Routes and Stops
 sidebar_position: 6
-description: 'Routes page lets you view routes that have been released to you, each displayed with a small map preview.'
+description: Routes page lets you view routes that have been released to you,
+  each displayed with a small map preview.
 ---
-
 # Mobile App: Routes and Stops
 
 ## Introduction
 
-`Routes` page lets you view routes that have been released to you, each displayed with a small map preview. You can access the Routes page from the Menu options. By default, routes planned for the current date are shown, but you can select other dates to show routes for those dates.  The green dot below the date means that you have planned routes assigned to you for this date.
+`Routes` page lets you view routes that have been released to you, each displayed with a small map preview. You can access the Routes page from the Menu options. By default, routes planned for the current date are shown, but you can select other dates to show routes for those dates. The green dot below the date means that you have planned routes assigned to you for this date.
 
 The Routes page supports two display modes: Preview and Compact. A toggle above the route list allows you to switch between the two views. Preview mode (default) displays each route together with a map preview, while Compact mode hides the map and shows a simplified route card. The selected view is saved per user on the current device, so the same mode is restored the next time the Routes page is opened on that device. On low-performance devices, Compact mode is enabled by default to improve performance and provide a smoother user experience.
 
-![20260729\_14.png](/attachments/a5c39ecd-7ac1-4a5d-8f2d-96ea0d976af3.png)![20260729\_15.png](/attachments/3b3a06ce-62a8-4841-ab2e-96a439102a59.png)
+![20261124_9.png](/attachments/mwuqrjes-pdw4mu9b.png)
 
 ## Route Statuses
 
 There are three route statuses relevant to the mobile app:
 
-| **Status**                                                                                       | **Description**                                                                             |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
-| Released ![IMG\_6675 1.png](/attachments/cf4ccb80-ab80-46e2-a20c-558b55922cc1.png) | The route has been released to you.                                                         |
-| Started ![](/attachments/3303e95a-5f5c-4517-b34a-e52edc1e1a9c.png)                 | You have started to deliver the route, linking your location tracking to the route.         |
-| Completed ![](/attachments/e332276f-4462-4d08-8a1b-80492ced124f.png)               | You have finished delivering the route. Location tracking is no longer linked to the route. |
+
+| **Status** | **Description** |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Released ![IMG\_6675 1.png](/attachments/cf4ccb80-ab80-46e2-a20c-558b55922cc1.png) | The route has been released to you. |
+| Started ![](/attachments/3303e95a-5f5c-4517-b34a-e52edc1e1a9c.png) | You have started to deliver the route, linking your location tracking to the route. |
+| Completed ![](/attachments/e332276f-4462-4d08-8a1b-80492ced124f.png) | You have finished delivering the route. Location tracking is no longer linked to the route. |
+
 
 ## Starting Route
 
-You can click on the route card on Routes page to view its details.  At the bottom, you will find the `Start route` button.  After starting the route, the `Start route` button is replaced with the `Complete route` button. To temporarily pause a route (location tracking for this route will be paused) press the `arrow` icon near the `Complete route` button and select `Pause route`.  To continue the paused route again, you need to press the `Continue route` button.  It's not possible to continue the route that has been completed already. 
+You can click on the route card on Routes page in the mobile app to view its details. At the bottom, you will find the `Start route` button. After starting the route, the `Start route` button is replaced with the `Complete route` button. To temporarily pause a route (location tracking for this route will be paused) press the `3 dots` icon button and select `Pause route`. To continue the paused route again, you need to press the `Continue route` button. It's not possible to continue the route that has been completed already. 
 
-![20260729\_16.png](/attachments/f9239fbf-cddc-420b-b7c2-60be876ed072.png)![20260729\_17.png](/attachments/c51a963b-5171-4d2b-9f0a-067b1240af0f.png)![20260729\_18.png](/attachments/6412c8e3-1a11-4359-9c1e-2a59420d07b3.png)![20260729\_19.png](/attachments/5c0a3dd0-ed4e-44cf-ab88-a1309f567313.png)![20260729\_20.png](/attachments/56bef2a5-f6ee-4578-90c2-8ed1728f686c.png)![20260729\_21.png](/attachments/3a171d57-e703-4b45-bdab-ff32c6d448b6.png)
+![20261124_21.png](/attachments/mwur3179-0gz6tyaq.png)
+
+![20261124_22.png](/attachments/mwur36ix-d6ev3ybh.png)
+
+![20261124_23.png](/attachments/mwur3a6t-zx3wf70d.png)
+
+![20261124_24.png](/attachments/mwur3e57-rqhutma6.png)
+
+![20261124_27.png](/attachments/mwur3jnv-2p0upjyh.png)
+
+![20261124_28.png](/attachments/mwur3ml9-ag0ivede.png)
+
+![20261124_29.png](/attachments/mwur3q9a-06xvxvy2.png)
+
+![20261124_31.png](/attachments/mwur3ykw-y6ccicnv.png)
+
+![20261124_32.png](/attachments/mwur446b-4eoj8xt2.png)
+
+![20261124_33.png](/attachments/mwur48dz-38cfaomw.png)
 
 ## Current Route
 
 When you have started a route and location tracking is enabled (the route is not paused), it will be displayed with a green frame around the route card on Routes Calendar page.
 
-![20260729\_22.png](/attachments/26c1f1b1-37c7-4362-a647-46636af5d8d2.png)
+![20261124_20.png](/attachments/mwur4v8k-735tdp9d.png)
 
-You can also temporarily pause a route (location tracking for this route will be paused) from Routes calendar by pressing the 3 dots icon on a route card and selecting `Pause route` option.  To continue the paused route again, you need to press the `Continue route` button.  It's not possible to continue the route that has been completed already.
+![20261124_25.png](/attachments/mwur59bx-myf2xs8t.png)
 
-![20260729\_23.png](/attachments/73255041-9c6b-4722-931c-4e00d21a8cf6.png)![20260729\_24.png](/attachments/05fa139d-fdf4-4901-8ab9-ed64073b6509.png)![20260729\_25.png](/attachments/f8eaaf52-ef46-4a9f-b5cf-ebf3fbcaca41.png)![20260729\_26.png](/attachments/a549dc4d-2e59-4d05-b666-5326b2a9bace.png)
+You can also temporarily pause a route (location tracking for this route will be paused) from Routes calendar by pressing the 3 dots icon on a route card and selecting `Pause route` option. To continue the paused route again, you need to press the `Continue route` button. It is not possible to continue the route that has been completed already.
+
+![20261124_26.png](/attachments/mwur5kg0-31kiw2yj.png)
+
+![20261124_30.png](/attachments/mwur5qct-wm6t9n4c.png)
 
 ## Route Creation
 
@@ -53,15 +77,17 @@ After pressing the button, Create route page will be displayed where you need to
 
 ![20260728\_6.png](/attachments/58fe16f8-ddde-47ef-abdb-5d3632bdc62f.png)
 
-| **Fields**    | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | **Required field** |
+
+| **Fields** | **Description** | **Required field** |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| Route key     | Unique route key within an environment. It will be automatically generated from a date, depot (if it exists in your environment), and trip number if you leave it empty. It can be a route number, for example, 1, 2, 3, etc.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Yes                |
-| Route start   | Before planning your route, you will be asked to use your current geolocation as a route start point but it can be changed. By pressing the Route start field, you can also select other depots from your environment if they exist, first stop location (first stop recipient’s address), or search address. If you select to search for an address, the Search address dialog will be displayed where you can start typing and selecting an address from the drop-down which appears, use voice search, scan an address, or search location on the map. If no suitable match is found, press the `Can't find the address you need?` button and continue entering the address in the relevant address fields manually. Once it is done, press the `Confirm` button. Your address will be saved as a route start.                                                                                                   | Yes                |
-| Planned start | Expected dispatch date/time of the route from the route start location. By default, it is taken from your settings.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Yes                |
-| Route end     | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route end field, you can also select depots from your environment if they exist, last stop location (last stop recipient’s address), or search address. If you select to search for an address, the Search address dialog will be displayed where you can start typing and selecting an address from the drop-down which appears, use voice search, scan an address, or search location on the map. If no suitable match is found, press the `Can't find the address you need?` button and continue entering the address in the relevant address fields manually. Once it is done, press the `Confirm` button. Your address will be saved as a route end and you will be redirected back to Create route page.                                                                                            | Yes                |
-| Vehicle       | Vehicle assigned to the route. Once a new organization/environment is created, the following default vehicle are created: van, truck, car, motorbike, bicycle. If there are no vehicles in your environment, press on the `Tap to add a vehicle` to add it. Vehicle dimensions (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route.                                                                                                                                                                                                                        | No                 |
-| Driver        | User responsible for the route. By default, it's a user creating a route from the mobile app. It can be changed. Once a route is released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](../web-based-hub/hub-routes/index.md) and on the [Hub: Analytics](../web-based-hub/hub-analytics.md) on Analytics page in Hub, as well as on the recorded [Hub: Vehicle Checks](../web-based-hub/hub-vehicle-checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](../web-based-hub/hub-environment-settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). This field is displayed only for Enterprise level users. | No                 |
-| Participants  | Up to 2 additional users assigned to the route. Once released, the assigned participant sees the route in the mobile app. While the driver retains the ability to start and complete a route, participants will have access to a route to check the list of stops and create POD's for them. Participants field is displayed only to users with Enterprise subscription level.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | No                 |
+| Route key | Unique route key within an environment. It will be automatically generated from a date, depot (if it exists in your environment), and trip number if you leave it empty. It can be a route number, for example, 1, 2, 3, etc. | Yes |
+| Route start | Before planning your route, you will be asked to use your current geolocation as a route start point but it can be changed. By pressing the Route start field, you can also select other depots from your environment if they exist, first stop location (first stop recipient’s address), or search address. If you select to search for an address, the Search address dialog will be displayed where you can start typing and selecting an address from the drop-down which appears, use voice search, scan an address, or search location on the map. If no suitable match is found, press the `Can't find the address you need?` button and continue entering the address in the relevant address fields manually. Once it is done, press the `Confirm` button. Your address will be saved as a route start. | Yes |
+| Planned start | Expected dispatch date/time of the route from the route start location. By default, it is taken from your settings. | Yes |
+| Route end | By default, the Return to start option is selected for a route end but it can be changed. By pressing the Route end field, you can also select depots from your environment if they exist, last stop location (last stop recipient’s address), or search address. If you select to search for an address, the Search address dialog will be displayed where you can start typing and selecting an address from the drop-down which appears, use voice search, scan an address, or search location on the map. If no suitable match is found, press the `Can't find the address you need?` button and continue entering the address in the relevant address fields manually. Once it is done, press the `Confirm` button. Your address will be saved as a route end and you will be redirected back to Create route page. | Yes |
+| Vehicle | Vehicle assigned to the route. Once a new organization/environment is created, the following default vehicle are created: van, truck, car, motorbike, bicycle. If there are no vehicles in your environment, press on the `Tap to add a vehicle` to add it. Vehicle dimensions (“Gross weight”, “Height”, “Width”, and “Length” fields) can be used for route calibration/optimization with vehicle restrictions. The system will factor these dimensions into route building to generate the most efficient outcomes, for example, to avoid bridges with height restrictions, narrow roads unsuitable for wider vehicles, or areas with weight limits that could affect the selected route. | No |
+| Driver | User responsible for the route. By default, it's a user creating a route from the mobile app. It can be changed. Once a route is released, the assigned user sees the route in the mobile app. A driver has permission to start/complete the route. Once the route is started and location tracking enabled, the driver’s location will be displayed [Hub: Routes](../web-based-hub/hub-routes/index.md) and on the [Hub: Analytics](../web-based-hub/hub-analytics.md) on Analytics page in Hub, as well as on the recorded [Hub: Vehicle Checks](../web-based-hub/hub-vehicle-checks.md). The driver’s location can also be optionally displayed on [Hub: Environment Settings](../web-based-hub/hub-environment-settings/index.md). However, for POD's, the geolocation of the user who records it will be captured (either the driver or participant). This field is displayed only for Enterprise level users. | No |
+| Participants | Up to 2 additional users assigned to the route. Once released, the assigned participant sees the route in the mobile app. While the driver retains the ability to start and complete a route, participants will have access to a route to check the list of stops and create POD's for them. Participants field is displayed only to users with Enterprise subscription level. | No |
+
 
 ![20260729\_27.png](/attachments/5b07a35e-1efc-4154-8a55-dfe282661b2a.png)![20260729\_28.png](/attachments/4060ec89-7832-455d-9648-98db89f9ee2a.png)![20260729\_29.png](/attachments/e90e489a-f32a-4c4f-b656-b0f970daeaa1.png)
 
@@ -81,19 +107,19 @@ Once stops are added, press the `Finish adding stops` button to run automatic ro
 
 Multi-address scanning allows solo delivery drivers to quickly add multiple stops without manually entering each address. It’s especially helpful in the following scenarios:
 
-* **E-commerce deliveries:** Scan multiple package labels for the same area and generate an optimized route instantly.
-* **Food delivery (batch orders):** Capture several delivery addresses from one pickup and plan efficient drop-offs.
-* **Pharmacy deliveries:** Ensure accurate address matching and reduce the risk of errors.
-* **Field service visits:** Scan job sheets to create a clear schedule of stops for the day.
-* **Retail and grocery deliveries:** Add multiple orders at once by scanning labeled bags or parcels.
-* **Office mail and documents:** Quickly process a stack of envelopes and organize stops.
-* **Small business deliveries:** Turn a group of packages into a ready-to-use route in seconds.
+- **E-commerce deliveries:** Scan multiple package labels for the same area and generate an optimized route instantly.
+- **Food delivery (batch orders):** Capture several delivery addresses from one pickup and plan efficient drop-offs.
+- **Pharmacy deliveries:** Ensure accurate address matching and reduce the risk of errors.
+- **Field service visits:** Scan job sheets to create a clear schedule of stops for the day.
+- **Retail and grocery deliveries:** Add multiple orders at once by scanning labeled bags or parcels.
+- **Office mail and documents:** Quickly process a stack of envelopes and organize stops.
+- **Small business deliveries:** Turn a group of packages into a ready-to-use route in seconds.
 
 **Benefits:**
 
-* Saves time on route setup
-* Reduces manual entry errors
-* Helps manage multiple deliveries more efficiently
+- Saves time on route setup
+- Reduces manual entry errors
+- Helps manage multiple deliveries more efficiently
 
 To scan an address, press the `scan` icon on the Tap to add a stop (more stops) search bar or on the Search address dialog. The Scan address page will appear. Point your camera steadily at the address(es) and hold steady - automatic address detection will start. When the boarder fills green, they are all added. Continue moving the camera over the labels to scan more addresses. After scanning the address, you can click the red `Delete` icon to remove it and scan again.
 
@@ -103,8 +129,8 @@ Multi-address scanning is available only when adding stops to the route. For rou
 
 Once scanning is complete, click `Finish scanning addresses` to send the scanned addresses to find matching results. You will then be redirected to Select addresses page, where:
 
-* The **scanned address** appears in **bold black text**
-* The **matched result** is shown below in **grey text**
+- The **scanned address** appears in **bold black text**
+- The **matched result** is shown below in **grey text**
 
 If needed, you can modify an address by clicking the `Edit` button. The app will display all available matches for each scanned address, so you can choose a different one if necessary. Use the checkboxes to decide which addresses to include in your route. All addresses are selected by default, but you can deselect any you do not need.
 
@@ -132,10 +158,10 @@ The Map search feature lets you select an exact location by placing a pin on the
 
 **Common use cases:**
 
-* Select the exact entrance of a building or warehouse.
-* Choose delivery locations in areas without accurate postal addresses.
-* Add precise pickup or delivery points for gig delivery platforms such as Amazon Flex, Walmart Spark, or Evri.
-* Set accurate locations for local delivery and service businesses.
+- Select the exact entrance of a building or warehouse.
+- Choose delivery locations in areas without accurate postal addresses.
+- Add precise pickup or delivery points for gig delivery platforms such as Amazon Flex, Walmart Spark, or Evri.
+- Set accurate locations for local delivery and service businesses.
 
 To open the map, tap the `map` icon next on on the Tap to add a stop (more stops) search bar or on the Search address dialog.
 
@@ -161,8 +187,8 @@ To add up to 50 stops to a route at once, use the `Paste list` option in the Sea
 
 You will be then be taken to the **Select addresses** page, where:
 
-* Your **pasted addresses** appear in **bold black text**
-* **Matching results** are displayed below in **grey**
+- Your **pasted addresses** appear in **bold black text**
+- **Matching results** are displayed below in **grey**
 
 If needed, you can click `Edit` to adjust any address. The app will show all available matches for each entry, allowing you to choose a different option. Use the checkboxes to select which addresses to include — everything is selected by default, but you can deselect any you do not need.
 
@@ -184,11 +210,11 @@ The `Import` feature allows you to quickly add multiple stops to a route by impo
 
 The feature is particularly useful for drivers who receive delivery lists as PDFs or images, including:
 
-* **Amazon Flex** drivers importing screenshots or PDF manifests.
-* **Walmart Spark** drivers importing printed or shared delivery lists.
-* **Evri** couriers scanning paper manifests before starting a route.
-* **Local courier and delivery businesses** importing dispatch sheets received by email or messaging apps.
-* **Small businesses** such as florists, bakeries, pharmacies, and catering companies importing daily delivery schedules without manually entering addresses.
+- **Amazon Flex** drivers importing screenshots or PDF manifests.
+- **Walmart Spark** drivers importing printed or shared delivery lists.
+- **Evri** couriers scanning paper manifests before starting a route.
+- **Local courier and delivery businesses** importing dispatch sheets received by email or messaging apps.
+- **Small businesses** such as florists, bakeries, pharmacies, and catering companies importing daily delivery schedules without manually entering addresses.
 
 By automatically converting delivery lists into route stops, the `Import` feature significantly reduces route planning time and minimizes manual data entry.
 
@@ -208,8 +234,8 @@ You can continue adding more stops using typing addresses, voice search, multi-a
 
 Subscription limitations:
 
-* **Free** and **Pro** users can upload **1 PDF or image** at a time.
-* **Advanced** and **Enterprise** users can upload **up to 5 files** simultaneously.
+- **Free** and **Pro** users can upload **1 PDF or image** at a time.
+- **Advanced** and **Enterprise** users can upload **up to 5 files** simultaneously.
 
 The Free level's **15-stop-per-route** limit also applies. If an import would exceed this limit, Geo2 displays a dialog allowing you to either upgrade (or start a free trial) and import all stops, or continue on the Free plan and import only the first 15 stops.
 
@@ -219,17 +245,19 @@ Once the stop is added to the route, you can adjust its details:
 
 ![20260729\_65.png](/attachments/aa17a9ab-bcf8-4d69-bad9-1c25101206b4.png)![20260729\_66.png](/attachments/6554b51e-2244-40ac-895d-2da0eef7a79a.png)![20260729\_67.png](/attachments/1757b1d1-08fb-4709-9450-288d91ba3439.png)
 
-| **Fields**              | **Description**                                                                                                                                                                                                                                                                               | **Required fields** |
+
+| **Fields** | **Description** | **Required fields** |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| Type                    | Delivery or Collection.                                                                                                                                                                                                                                                                       | Yes                 |
-| Order key               | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. By default, it will be autogenerated from the current date and time. You can click on the `Scan icon` to scan the key.                                                                          | Yes                 |
-| Committed               | For information - date/time that has been agreed with the customer for delivery/collection. This field is available only for users with Enterprise subscription level.                                                                                                                        | No                  |
-| Required from           | For information - from when the customer requires the order to be delivered/collected. It can be used for route optimization with time windows.                                                                                                                                               | No                  |
-| Required to             | For information - till when the customer requires the order to be delivered/collected. It can be used for route optimization with time windows.                                                                                                                                               | No                  |
-| Stop duration           | The amount of time the delivery vehicle is expected to remain at a route stop. This is used when orders are first brought into a route and, together with drive times, stop durations are intended to lead to route durations that are more realistic than if only drive time was considered. | Yes                 |
-| Tab - Recipient details | Optional recipient contact details like contact name, email, phone and mobile phone numbers.                                                                                                                                                                                                  | Yes                 |
-| Tab - Packages          | Optional package barcodes. Barcodes can be either typed in manually or scanned. Adding package information is available only with Advanced and Enterprise subscription levels.                                                                                                                | No                  |
-| Delivery instructions   | Optional notes for drivers that are shown in the mobile app. For example, "leave with reception".                                                                                                                                                                                             | No                  |
+| Type | Delivery or Collection. | Yes |
+| Order key | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. By default, it will be autogenerated from the current date and time. You can click on the `Scan icon` to scan the key. | Yes |
+| Committed | For information - date/time that has been agreed with the customer for delivery/collection. This field is available only for users with Enterprise subscription level. | No |
+| Required from | For information - from when the customer requires the order to be delivered/collected. It can be used for route optimization with time windows. | No |
+| Required to | For information - till when the customer requires the order to be delivered/collected. It can be used for route optimization with time windows. | No |
+| Stop duration | The amount of time the delivery vehicle is expected to remain at a route stop. This is used when orders are first brought into a route and, together with drive times, stop durations are intended to lead to route durations that are more realistic than if only drive time was considered. | Yes |
+| Tab - Recipient details | Optional recipient contact details like contact name, email, phone and mobile phone numbers. | Yes |
+| Tab - Packages | Optional package barcodes. Barcodes can be either typed in manually or scanned. Adding package information is available only with Advanced and Enterprise subscription levels. | No |
+| Delivery instructions | Optional notes for drivers that are shown in the mobile app. For example, "leave with reception". | No |
+
 
 You can set parcel placement (e.g., "front right" or "left shelf") and optionally add photos for a delivery order by pressing the `Set placement in the vehicle` button at the bottom of the page. Press `Confirm` to save the placement, which can be updated later. The placement and photo count appear on the stop card, and full-size photos can be viewed in Stop details page.
 
@@ -293,20 +321,20 @@ After route calibration:
 
 We apply automatic calibration in most cases so you don't need to press `Calibrate`:
 
-* removing stops from a route and pressing `Save`
-* adding, changing, deleting a break inside a route
-* changing (shuffling) stop order inside a route and pressing on `Save`
-* changing start and end points in a route if there is at least 1 stop
-* changing route planned start time if there is at least 1 stop
-* changing vehicle in a route if there is at least 1 stop
-* changing time-at-stop inside order or route stops
-* deleting a stop on Stop details page
+- removing stops from a route and pressing `Save`
+- adding, changing, deleting a break inside a route
+- changing (shuffling) stop order inside a route and pressing on `Save`
+- changing start and end points in a route if there is at least 1 stop
+- changing route planned start time if there is at least 1 stop
+- changing vehicle in a route if there is at least 1 stop
+- changing time-at-stop inside order or route stops
+- deleting a stop on Stop details page
 
 Exceptions when we don't apply automatic calibration: 
 
-* editing a stop (editing recipient address inside stops)
-* manually set up a route inside a stop (done from Hub)
-* making changes in a depot address or vehicle speed factor
+- editing a stop (editing recipient address inside stops)
+- manually set up a route inside a stop (done from Hub)
+- making changes in a depot address or vehicle speed factor
 
 If the route already calibrated, the Calibrate button will be disabled.
 
@@ -446,17 +474,18 @@ Once enabled, the `Record arrival` button will appear on Stop details page withi
 
 If you press `Record arrival` and then tap the `close` icon to return to Route view page, you will be prompted to confirm whether you want to record the departure time for this stop.
 
-* Selecting `Yes` will record the departure time.
-* Selecting `No` will keep the stop duration counting, and you will be redirected to Route view page.
+- Selecting `Yes` will record the departure time.
+- Selecting `No` will keep the stop duration counting, and you will be redirected to Route view page.
 
 If you pause or complete a route, the departure time for the stop where you pressed `Record arrival` will be recorded automatically. The same applies if you fully close the app.
 
 If you press `Record arrival` at a stop and return to Route view page while the stop duration is still counting, you can select multiple stops and press `Record arrival` again.
 
-* If one of the selected stops has an ongoing stop duration, you will be asked whether you want to overwrite the arrival time.
-* If none of the selected stops have an ongoing stop duration, you will be asked to confirm whether the departure time for the previous stop should be recorded automatically.
-* If selected stops have an ongoing stop duration and you try to select more stops, you will be asked to confirm whether the departure time for the previous stops should be recorded automatically.
+- If one of the selected stops has an ongoing stop duration, you will be asked whether you want to overwrite the arrival time.
+- If none of the selected stops have an ongoing stop duration, you will be asked to confirm whether the departure time for the previous stop should be recorded automatically.
+- If selected stops have an ongoing stop duration and you try to select more stops, you will be asked to confirm whether the departure time for the previous stops should be recorded automatically.
 
 We allow **overwriting arrival and departure times for stops** when necessary. Once both arrival and departure times are recorded, the actual stop duration is calculated based on the time difference. This duration appears on the stop card on Route view page in Hub, allowing you to compare the planned and actual stop duration and take action when necessary.
 
 ![Screenshot 2026-08-03 at 13.51.01.png](/attachments/766fd27b-c463-400f-a9f5-44b84af318a7.png)
+
