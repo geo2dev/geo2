@@ -368,6 +368,10 @@ If a break includes a location, it will also appear on the map. Selecting either
 
 Stop cards could be drag-and-dropped to any position of the route. For it, you need to press on the stop card and move it. Remember to press the `Save` button to save your changes. Once saved, a route will be automatically calibrated updating timings and distance.
 
+![20261124_83.png](/attachments/mwuug59k-n0a1ynru.png)
+
+![20261124_84.png](/attachments/mwuug8ak-jiyub61w.png)
+
 Route start and end cards cannot be moved.
 
 ## Calibrating Route
