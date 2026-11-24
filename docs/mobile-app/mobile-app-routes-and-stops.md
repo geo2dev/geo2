@@ -461,9 +461,13 @@ If the route is already optimized without time windows, the Optimize button will
 
 ## Editing and Deleting Route
 
-By pressing `3 dots` icon on a route card on Routes page, the dialog will be opened with the following options: Edit, Delete, and Select routes for bulk route deletion.  You can create, edit, and delete routes only if you have permission to do it - Manager or Admin role in the current environment.
+By pressing `: (3 dots)` icon on a route card on Routes page, the dialog will be opened with the following options: Edit, Delete, and Select routes for bulk route deletion. You can create, edit, and delete routes only if you have permission to do it - Manager or Admin role in the current environment.
 
-You can also click on the `3 dots` icon on the Route view page and select the `Edit route` or `Delete route` option.
+![20261124_97.png](/attachments/mwuvz1uy-p4n87bka.png)
+
+You can also click on the `:(3 dots)` icon on the Route view page and select the `Edit route` or `Delete route` option.
+
+![20261124_98.png](/attachments/mwuvz6ys-8pdbq78k.png)
 
 After clicking on the `Edit` button, you will be redirected to Edit route page where you can change some route details and save changes.
 
