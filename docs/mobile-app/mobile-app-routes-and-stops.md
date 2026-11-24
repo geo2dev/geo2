@@ -178,7 +178,13 @@ You can continue adding more stops using typing addresses, voice search, multi-a
 
 To use voice search for an address, press the `mic` icon on the Tap to add a stop (more stops) search bar or on the Search address dialog. The Voice search dialog appears. Your device language will be selected by default, but you can change it to any preferred language. Speak the address; the system will recognize it. If the detected address is correct, press `Confirm` to find matching results. Select an address from the results to add a stop to the route. If the detected address is incorrect, press `Try again`.
 
+![20261124_46.png](/attachments/mwusu0yc-1xg53mr3.png)
+
+![20261124_47.png](/attachments/mwusu8c6-ayd07q9d.png)
+
 You can continue adding more stops using typing addresses, voice search, multi-address scanning, search locations on the map or import from photos, screenshots or PDFs. Once completed, press the `Finish adding stops` button to run route automatic optimization to save time and fuel.
+
+![20261124_48.png](/attachments/mwusug5h-ufcp85at.png)
 
 ### Search Addresses on the Map
 
