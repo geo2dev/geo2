@@ -1,7 +1,7 @@
 ---
 slug: /support
 sidebar_label: Support
-description: 'As a Geo2 user, you can request assistance through the Support and Feature request forms in Hub. The options are shown under the Question toolbar icon. Test.'
+description: 'As a Geo2 user, you can request assistance through the Support and Feature request forms in Hub. The options are shown under the Question toolbar icon.'
 ---
 
 # Support
