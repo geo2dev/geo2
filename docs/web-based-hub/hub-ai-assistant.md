@@ -1,6 +1,7 @@
 ---
 slug: /web-based-hub/hub-ai-assistant
 sidebar_label: AI Assistant
+sidebar_position: 15
 description: 'Managing delivery operations often means too many clicks, too much searching, and too much time spent on routine actions inside the system.'
 ---
 

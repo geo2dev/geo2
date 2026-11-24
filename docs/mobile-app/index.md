@@ -1,6 +1,7 @@
 ---
 slug: /mobile-app
 sidebar_label: Mobile App
+sidebar_position: 7
 description: 'The Geo2 mobile app is best suited for solo delivery drivers, including Amazon Flex, Walmart Spark, Evri, and other gig delivery drivers, as well as'
 ---
 
@@ -16,13 +17,11 @@ While the mobile app enables you to create and optimize routes, manage stops, an
 
 You can download the mobile app from **[App Store](https://apps.apple.com/app/geo2/id1594180686)** and **[Google Play](https://play.google.com/store/apps/details?id=com.geo2.app)**.
 
-:::danger
-
-### Data and Costs
-
-The synchronization of high-resolution images - photos and signatures - as well as tracking are data-intensive. Monitor mobile device data usage and consider either capping data usage in line with the mobile network provider contract or make use of "unlimited" data plans. We cannot accept responsibility for any costs or losses incurred in the course of using the mobile app.
-
-:::
+> [!CAUTION]
+>
+> ### Data and Costs
+>
+> The synchronization of high-resolution images - photos and signatures - as well as tracking are data-intensive. Monitor mobile device data usage and consider either capping data usage in line with the mobile network provider contract or make use of "unlimited" data plans. We cannot accept responsibility for any costs or losses incurred in the course of using the mobile app.
 
 ## In This Section
 

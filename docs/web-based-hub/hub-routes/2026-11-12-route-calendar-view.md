@@ -1,6 +1,7 @@
 ---
 slug: /web-based-hub/hub-routes/hub-route-calendar-view
 sidebar_label: Route Calendar View
+sidebar_position: 4
 description: 'The Calendar view allows you to visualize, organize, and manage routes based on their planned start dates and times. '
 ---
 

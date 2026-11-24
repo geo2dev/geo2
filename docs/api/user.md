@@ -1,6 +1,7 @@
 ---
 slug: /api/user
 sidebar_label: User
+sidebar_position: 7
 description: 'Using Geo2 API, you can:'
 ---
 

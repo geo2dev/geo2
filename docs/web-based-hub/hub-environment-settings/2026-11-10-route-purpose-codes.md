@@ -1,6 +1,7 @@
 ---
 slug: /web-based-hub/hub-environment-settings/hub-route-purpose-codes-settings
 sidebar_label: Route Purpose Codes
+sidebar_position: 8
 description: Route purpose codes settings allow you to configure custom purpose codes that can be assigned to routes and mileage records.
 ---
 

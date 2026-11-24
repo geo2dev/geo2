@@ -1,6 +1,7 @@
 ---
 slug: /mobile-app/mobile-app-barcode-scanning
 sidebar_label: Barcode Scanning
+sidebar_position: 12
 description: 'The mobile app is able to scan a wide range of barcode formats as follows:'
 ---
 

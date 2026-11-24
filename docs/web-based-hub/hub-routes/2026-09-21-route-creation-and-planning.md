@@ -1,6 +1,7 @@
 ---
 slug: /web-based-hub/hub-routes/hub-route-creation-and-planning
 sidebar_label: Route Creation and Planning
+sidebar_position: 1
 description: 'On the `Routes` page in Hub, press `Create` button to be redirected to Route creation page.'
 ---
 

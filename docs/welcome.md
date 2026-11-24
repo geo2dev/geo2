@@ -1,6 +1,7 @@
 ---
 slug: /
 sidebar_label: Welcome
+sidebar_position: 1
 description: 'Geo2 documentation: web-based Hub, driver mobile app, and API for delivery route planning and management.'
 ---
 
@@ -10,11 +11,9 @@ description: 'Geo2 documentation: web-based Hub, driver mobile app, and API for 
 
 ## About Geo2
 
-:::note
-
-**Reduce the financial and environmental cost of delivery.**
-
-:::
+> [!NOTE]
+>
+> **Reduce the financial and environmental cost of delivery.**
 
 Geo2 is a **cloud-based transport management system (TMS)** and **all-in-one delivery route planner** designed to help businesses and independent drivers plan, execute, track, and optimize the movement of goods.
 
@@ -39,65 +38,53 @@ For an additional overview, visit **[geo2.com](https://geo2.com/)**.
 
 Start by selecting the platform you’re working with:
 
-:::note
+> [!NOTE]
+>
+> ## [Web-Based Hub](web-based-hub/index.md)
+>
+> Learn about the browser interface used for management, route planning, and analytics.
 
-## [Web-Based Hub](web-based-hub/index.md)
+> [!NOTE]
+>
+> ## [Mobile App](mobile-app/index.md)
+>
+> Learn about the driver mobile app used for route planning, mileage tracking, PODs, and vehicle checks.
 
-Learn about the browser interface used for management, route planning, and analytics.
-
-:::
-
-:::note
-
-## [Mobile App](mobile-app/index.md)
-
-Learn about the driver mobile app used for route planning, mileage tracking, PODs, and vehicle checks.
-
-:::
-
-:::note
-
-## [API](api/index.md)
-
-Learn about the API interface used for integration your other systems and automation.
-
-:::
+> [!NOTE]
+>
+> ## [API](api/index.md)
+>
+> Learn about the API interface used for integration your other systems and automation.
 
 ## Product Updates
 
 See what’s new in our latest releases and how the updates help you get more done:
 
-:::note
-
-## [Release Notes](release-notes/index.md)
-
-Learn about the new features of each new release.  This is useful for the evaluation of new features as you prepare for an upgrade.
-
-:::
+> [!NOTE]
+>
+> ## [Release Notes](release-notes/index.md)
+>
+> Learn about the new features of each new release.  This is useful for the evaluation of new features as you prepare for an upgrade.
 
 ## Support
 
 Reach out for assistance with setup, product usage, or technical issues:
 
-:::note
-
-## [Support](support.md)
-
-Request product assistance.
-
-:::
+> [!NOTE]
+>
+> ## [Support](support.md)
+>
+> Request product assistance.
 
 ## Frequently Asked Questions (FAQ)
 
 Explore frequently asked questions about product functionality, setup, and best practices:
 
-:::note
-
-## [FAQ](faq.md)
-
-Browse common questions and answers
-
-:::
+> [!NOTE]
+>
+> ## [FAQ](faq.md)
+>
+> Browse common questions and answers
 
 ## Data Encryption
 

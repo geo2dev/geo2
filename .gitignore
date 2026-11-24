@@ -11,6 +11,3 @@ npm-debug.log*
 .agents
 skills-lock.json.env
 .env
-# TinaCMS (generated)
-tina/__generated__/
-static/admin/

@@ -1,6 +1,7 @@
 ---
 slug: /web-based-hub/hub-routes/hub-route-copying-with-stops
 sidebar_label: Route Copying with Stops
+sidebar_position: 2
 description: 'Use route duplication to quickly create new routes based on an existing route. You can recreate the same route for future dates, create several copies at once, or move unfinished stops to a new route.'
 ---
 

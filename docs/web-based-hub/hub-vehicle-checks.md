@@ -1,6 +1,7 @@
 ---
 slug: /web-based-hub/hub-vehicle-checks
 sidebar_label: Vehicle Checks
+sidebar_position: 11
 description: Vehicle checks are reports from drivers on vehicle condition.
 ---
 

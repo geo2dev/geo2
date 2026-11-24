@@ -1,6 +1,7 @@
 ---
 slug: /mobile-app/mobile-app-vehicle-checks
 sidebar_label: Vehicle Checks
+sidebar_position: 10
 description: Vehicle checks in the mobile app provide a standardized way for drivers to complete vehicle inspections before and after their routes.
 ---
 

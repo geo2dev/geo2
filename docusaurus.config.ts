@@ -5,8 +5,9 @@ import remarkGithubAlerts from './src/remark/githubAlerts';
 import remarkYoutubeEmbed from './src/remark/youtubeEmbed';
 
 // Docs live in docs/ (file names are slugs; URLs come from each doc's `slug`
-// frontmatter). The menu is config/sidebar.json, see sidebars.ts. Both are
-// edited in TinaCMS (tina/config.ts).
+// frontmatter). A folder's index.md is its category link, and the category's
+// label/position come from that doc's `sidebar_label` / `sidebar_position`.
+// All of it is edited via Pages CMS (.pages.yml).
 
 const config: Config = {
   title: 'Geo2 Documentation',

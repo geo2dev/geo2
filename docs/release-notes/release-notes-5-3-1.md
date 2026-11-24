@@ -1,6 +1,7 @@
 ---
 slug: /release-notes/release-notes-5-3-1
 sidebar_label: Release Notes 5.3.1
+sidebar_position: 134
 description: 'Geo2 documentation: Release Notes 5.3.1'
 ---
 

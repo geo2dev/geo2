@@ -1,6 +1,7 @@
 ---
 slug: /mobile-app/mobile-app-mileage-tracking
 sidebar_label: Mileage Tracking
+sidebar_position: 7
 description: 'The Mileage tracking feature in the Geo2 mobile app allows you to record, monitor, and export your actual mileage for business, commuting, or personal journeys. '
 ---
 

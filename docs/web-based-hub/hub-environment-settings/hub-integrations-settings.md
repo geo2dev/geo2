@@ -1,6 +1,7 @@
 ---
 slug: /web-based-hub/hub-environment-settings/hub-integrations-settings
 sidebar_label: Integrations Settings
+sidebar_position: 17
 description: Connect your Shopify store to Geo2 to import orders for delivery and mark them fulfilled automatically.
 ---
 

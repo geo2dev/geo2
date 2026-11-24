@@ -1,6 +1,7 @@
 ---
 slug: /mobile-app/mobile-app-ai-assistant
 sidebar_label: AI Assistant
+sidebar_position: 14
 description: 'Learn how to use Geo AI Assistant in the mobile app with text or voice to manage routes, add stops, navigate deliveries, and get help with Geo2 features.'
 ---
 

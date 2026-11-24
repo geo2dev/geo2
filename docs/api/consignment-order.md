@@ -1,6 +1,7 @@
 ---
 slug: /api/consignment-order
 sidebar_label: Consignment (Order)
+sidebar_position: 3
 description: 'Using Geo2 API, you can:'
 ---
 

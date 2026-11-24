@@ -1,6 +1,7 @@
 ---
 slug: /getting-started-in-mobile-app
 sidebar_label: Getting Started in Mobile App
+sidebar_position: 5
 description: 'Once the mobile app is installed on your device fromApp Store and Google Play, you can register an account and create your own organization to which you'
 ---
 
@@ -72,11 +73,9 @@ This gives you the essentials for planning, managing, and executing routes effec
 
 ## Recommended Hardware
 
-:::danger
-
-Due to the large number of available mobile devices, it is not possible to test compatibility with all of them.  We recommend that a sample device is sourced and tested for compatibility with the application before any larger purchase.
-
-:::
+> [!CAUTION]
+>
+> Due to the large number of available mobile devices, it is not possible to test compatibility with all of them.  We recommend that a sample device is sourced and tested for compatibility with the application before any larger purchase.
 
 The minimum supported operating system versions are:
 

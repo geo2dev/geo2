@@ -1,5 +1,5 @@
 # Pages CMS (https://app.pagescms.org) configuration.
-# Edit docs and images from the CMS (menu order is config/sidebar.json);
+# Edit docs, sidebar order (sidebar_position) and images from the CMS;
 # every save commits to main, which triggers the Firebase deploy workflow.
 
 settings:
@@ -38,12 +38,12 @@ content:
         # Without this the CMS lists each folder twice: once as its index.md
         # entry, once as a bare folder row.
         hideDirs: nodes
-      fields: [sidebar_label, slug, description]
+      fields: [sidebar_label, slug, sidebar_position, description]
       primary: sidebar_label
-      sort: [sidebar_label, slug]
+      sort: [sidebar_position, sidebar_label, slug]
       search: [sidebar_label, slug, description]
       default:
-        sort: sidebar_label
+        sort: sidebar_position
         order: asc
     fields:
       - name: slug
@@ -58,6 +58,11 @@ content:
         label: Sidebar label
         type: string
         required: true
+      - name: sidebar_position
+        label: Sidebar position
+        type: number
+        required: true
+        description: Order among siblings — lower numbers appear higher.
       - name: description
         label: Meta description
         type: text

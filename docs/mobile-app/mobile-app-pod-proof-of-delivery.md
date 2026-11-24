@@ -1,6 +1,7 @@
 ---
 slug: /mobile-app/mobile-app-pod-proof-of-delivery
 sidebar_label: POD - Proof of Delivery
+sidebar_position: 8
 description: 'The mobile app lets you record a proof-of-delivery in different circumstances:'
 ---
 
