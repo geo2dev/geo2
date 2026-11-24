@@ -201,7 +201,11 @@ To open the map, tap the `map` icon next on on the Tap to add a stop (more stops
 
 When the map opens, it centers on your current location if location permission has been granted. Drag the pin to the desired location to identify the address. After the address is found, it is displayed at the bottom of the screen. Tap `Confirm` to use the selected location.
 
+![20261124_49.png](/attachments/mwusy3ax-b1z4fhll.png)
+
 After confirmation, you are returned to the previous screen with the address automatically filled in. When adding multiple stops, you can immediately continue adding the next stop or reopen the map to select another location.
+
+![20261124_50.png](/attachments/mwusy8mn-64k04glv.png)
 
 You can continue adding more stops using typing addresses, voice search, multi-address scanning, search locations on the map or import from photos, screenshots or PDFs. Once completed, press the `Finish adding stops` button to run route automatic optimization to save time and fuel.
 
