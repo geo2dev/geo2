@@ -265,6 +265,10 @@ If all packages have failed, you can either de-select each manually by unticking
 
 ![20261125_48.png](/attachments/mww8bp5x-bucsbmvk.png)
 
+![20261125_49.png](/attachments/mww8cpc1-lxdc8ucw.png)
+
+![20261125_50.png](/attachments/mww8ct9r-rl64wt8m.png)
+
 You can first select a Failed status and a general failure reason code for the POD.  All packages will be de-selected automatically.  The general failure reason code will be populated to the package level, but you can change it for each package individually.
 
 To mark all unticked (de-selected) packages as successful again, press the `Select all` button - the POD status will be changed to Successful as well.
