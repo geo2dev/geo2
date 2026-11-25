@@ -98,9 +98,13 @@ POD statuses (successful, partially successful, failed, no POD) are also display
 
 ### Order Packages
 
-When the order has pre-defined packages, they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../web-based-hub/hub-orders/index.md), mobile app or API for an order. Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
+When the order has pre-defined packages, they are displayed in the `Packages` section. On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided in [Hub: Orders](../web-based-hub/hub-orders/index.md), mobile app or API for an order. Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
 
-When the order doesn't have packages, the `Packages` section is collapsed by default.  You can expand it, provide the number of successfully delivered/collected packages out of the total planned and add packages by typing a barcode manually or scanning package barcodes.  
+![20261125_23.png](/attachments/mww69f9d-u3gtqydr.png)
+
+![20261125_24.png](/attachments/mww69ixd-en9pdedn.png)
+
+![20261125_25.png](/attachments/mww69lga-gmikh9r0.png)
 
 When you create a POD for multiple orders, the `Packages` section is hidden.
 
@@ -108,9 +112,15 @@ By default, packages are marked as delivered (checkboxes are selected). See [Mob
 
 ### Order Products
 
-When the order has pre-defined products, they are displayed in the `Products` section.  On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided in [Hub: Orders](../web-based-hub/hub-orders/index.md) or via the API for an order. Adding/marking products as failed is available only with Enterprise subscription level.
+When the order has pre-defined products, they are displayed in the `Products` section. On each product card, a product code, description, quantity, and weight can be displayed depending on the data provided in [Hub: Orders](../web-based-hub/hub-orders/index.md) or via the API for an order. Adding/marking products as failed is available only with Enterprise subscription level.
 
-When the order doesn't have products, the `Products` section is not displayed.  When you create a POD for multiple orders, the `Products` section is hidden.
+![20261125_26.png](/attachments/mww6hrqg-aocri2mh.png)
+
+![20261125_27.png](/attachments/mww6hy7s-hc3uad0z.png)
+
+![20261125_28.png](/attachments/mww6i173-plgnxwmo.png)
+
+When the order doesn't have products, the `Products` section is not displayed. When you create a POD for multiple orders, the `Products` section is hidden.
 
 By default, products are marked as delivered (checkboxes are selected). See [Mobile App: POD - Proof of Delivery](mobile-app-pod-proof-of-delivery.md) on marking products as failed.
 
