@@ -27,9 +27,13 @@ Even though vehicle checks are enabled or disabled in Settings, it is possible t
 
 ## Vehicle Check Creation for Route
 
-If Vehicle checks are enabled, Vehicle check creation page will be displayed every time the route is started and completed in the mobile app.  If the geolocation is turned off, you will be asked to turn it on for the Vehicle check creation but you can create it without geolocation.
+If Vehicle checks are enabled, Vehicle check creation page will be displayed every time the route is started and completed in the mobile app. If the geolocation is turned off, you will be asked to turn it on for the Vehicle check creation but you can create it without geolocation.
 
-For the Vehicle check creation, you need to take or select photos of the vehicle (optional) and create a signature (optional).  Remember to save it.  If a vehicle is specified for a route, it will be displayed on Create vehicle check page and it is not possible to edit it.  If there is no vehicle provided for a route, you will be asked to select a vehicle existing in your environment settings for which you want to create this check.  If there are no vehicle yet created in the environment and you have permission to update environment settings, you will see the possibility to add a vehicle.
+For the Vehicle check creation, you need to take or select photos of the vehicle (optional) and create a signature (optional). Remember to save it. If a vehicle is specified for a route, it will be displayed on Create vehicle check page and it is not possible to edit it. If there is no vehicle provided for a route, you will be asked to select a vehicle existing in your environment settings for which you want to create this check. If there are no vehicle yet created in the environment and you have permission to update environment settings, you will see the possibility to add a vehicle.
+
+![20261125_81.png](/attachments/mwwadcou-d6xzcpua.png)
+
+![20261125_82.png](/attachments/mwwadfph-yto132if.png)
 
 To complete the creation, press the `Create` button. If a vehicle check is enabled at route start, once it is recorded in the app, the route will automatically begin and you will be redirected to the first stop. If a vehicle check is enabled at route completion, once it is recorded in the app, the route will be marked as finished, and you can either proceed to the next route or plan a new one, depending on your permissions.
 
@@ -37,7 +41,11 @@ To complete the creation, press the `Create` button. If a vehicle check is enabl
 
 To create an unplanned/ad-hoc vehicle check that is not related to any route, you can press the `Create vehicle check` button in Menu or Vehicle checks page in the mobile app.
 
-On Create vehicle check page, you will be asked to select a vehicle existing in your environment settings for which you want to create this check.  You also need to take or select photos of the vehicle (optional) and create a signature (optional).  If there are no vehicle yet created in the environment and you have permission to update environment settings, you will see the possibility to add a vehicle.
+On Create vehicle check page, you will be asked to select a vehicle existing in your environment settings for which you want to create this check. You also need to take or select photos of the vehicle (optional) and create a signature (optional). If there are no vehicle yet created in the environment and you have permission to update environment settings, you will see the possibility to add a vehicle.
+
+![20261125_81.png](/attachments/mwwae33q-aeesgi9n.png)
+
+![20261125_82.png](/attachments/mwwae6w0-9y6e53fk.png)
 
 To complete the creation, press the `Create` button.
 
@@ -54,6 +62,10 @@ To view the details of a vehicle check, click on the Vehicle check card. Based o
 - Photos and signature
 - Driver’s geolocation at the time of the vehicle check recording
 
+![20261125_83.png](/attachments/mwwafb9l-doh6io2g.png)
+
+![20261125_84.png](/attachments/mwwafjbq-96g3fkuh.png)
+
 ## Custom Vehicle Checks Fields
 
 In Settings → Environment → Custom fields in Geo2 Hub, you can set up custom fields for Vehicle checks to ask for needed information from a driver on a route starting and completion.  Custom fields are available with Enterprise subscription level.
@@ -66,4 +78,9 @@ Examples of the custom fields from Environment settings:
 
 That's how it could look on Vehicle check creation page: 
 
+![20261125_85.png](/attachments/mwwaig82-y8nsayzv.png)
+
 In Vehicle checks history it will be displayed this way:
+
+![20261125_86.png](/attachments/mwwaikq6-brfo9ra6.png)
+
