@@ -285,19 +285,27 @@ Package scanning is available only with Advanced and Enterprise subscription lev
 
 ### Adding and Confirming Packages
 
-If the order has no pre-defined packages, it is possible to scan barcodes to add packages by pressing the `Scan` button.  You will be redirected to Scan barcode page.  Point your camera steadily at the barcode or QR code and it will be scanned.  The scanned code will be displayed under the title `Scanned barcodes`.  You can press:
+If the order has no pre-defined packages, it is possible to scan barcodes to add packages by pressing the `Scan` button. You will be redirected to Scan barcode page. Point your camera steadily at the barcode or QR code and it will be scanned. The scanned code will be displayed under the title `Scanned barcodes`. You can press:
 
 - `Red minus` icon to remove this barcode
 - `Scan more` button to scan more barcodes
 - `Finish scanning` button to complete scanning
 
-Press the `Scan more` button when the device camera is over a new barcode.  If you try to scan the same barcode, you will get an error message.
+Press the `Scan more` button when the device camera is over a new barcode. If you try to scan the same barcode, you will get an error message.
 
-Once all required barcodes are scanned, press the `Finish scanning` button to be redirected to Create POD page.  All scanned barcodes will be ticked (selected) as successfully delivered/collected.  If some of them have not been delivered, you can untick (de-select them) and provide a failure reason code.
+Once all required barcodes are scanned, press the `Finish scanning` button to be redirected to Create POD page. All scanned barcodes will be ticked (selected) as successfully delivered/collected. If some of them have not been delivered, you can untick (de-select them) and provide a failure reason code.
 
 On Create POD page, you can also press the red minus icon to remove packages.
 
-If the order has pre-defined packages, it is also possible to scan barcodes to verify packages or confirm them by pressing the `Scan` button.  You will be redirected to Scan barcode page.  Point your camera steadily at the barcode or QR code and it will be scanned.  The scanned code will be displayed under the title `Scanned barcodes`.  You can press:
+If an order has a predefined package count, you can only scan up to the specified number of package barcodes. If you need to add more packages, update the order information before creating the POD.
+
+![20261125_51.png](/attachments/mww8qlcz-g8ps486z.png)
+
+![20261125_52.png](/attachments/mww8qpek-wud14k29.png)
+
+![20261125_53.png](/attachments/mww8qs0d-qslhsw9c.png)
+
+If the order has pre-defined packages, it is also possible to scan barcodes to verify packages or confirm them by pressing the `Scan` button. You will be redirected to Scan barcode page. Point your camera steadily at the barcode or QR code and it will be scanned. The scanned code will be displayed under the title `Scanned barcodes`.  You can press:
 
 - `Red minus` icon to remove this barcode
 - `Scan more` button to scan more barcodes
@@ -305,19 +313,45 @@ If the order has pre-defined packages, it is also possible to scan barcodes to v
 
 If you try to scan the barcode that does not belong to this order, you will get an error message.
 
-Once all barcodes are scanned, press the `Finish scanning` button to be redirected to Create POD page.  All scanned barcodes will be ticked (selected) as successfully delivered/collected.  If some of them have not been delivered, you can untick (de-select them) and provide a failure reason code.
+Once all barcodes are scanned, press the `Finish scanning` button to be redirected to Create POD page. All scanned barcodes will be ticked (selected) as successfully delivered/collected. If some of them have not been delivered, you can untick (de-select them) and provide a failure reason code.
+
+![20261125_54.png](/attachments/mww8xucx-gdk5uofs.png)
+
+![20261125_55.png](/attachments/mww8xycm-t7710tqr.png)
+
+![20261125_56.png](/attachments/mww8y0xi-ra1pz2l0.png)
 
 If you do not scan any of pre-defined packages, you will see a prompt asking if you want to continue scanning as there are not confirmed packages. By pressing the `Complete` button, you will be redirected back to POD page. Not confirmed/scanned packages will be marked as failed. You need to select a failure reason code for it.
 
 ## Product-level Failures
 
-If the order has pre-defined products, they are displayed on Create POD page, marked as delivered by default (checkboxes are selected).  You can de-select a product to mark that it was not delivered.  You will see a prompt to specify the failure reason code for it and the failed quantity out of the planned total.  The POD status will be automatically changed from Successful to Partially successful and the failure reason code from the product level will be populated to the general POD level.  The failure code for the product will be highlighted in red colour.  You can press it to select another code or change the failed quantity.
+If the order has pre-defined products, they are displayed on Create POD page, marked as delivered by default (checkboxes are selected).  You can de-select a product to mark that it was not delivered. You will see a prompt to specify the failure reason code for it and the failed quantity out of the planned total. The POD status will be automatically changed from Successful to Partially successful and the failure reason code from the product level will be populated to the general POD level. The failure code for the product will be highlighted in red colour. You can press it to select another code or change the failed quantity.
 
-You can first select the Partially successful status, a general failure reason code for the POD, and after that, de-select products.  The general failure reason code will be populated to the product level, but you can change it for each product individually.
+![20261125_57.png](/attachments/mww92vbr-buy73o3j.png)
 
-If all products have failed, you can either de-select each manually by unticking the checkboxes or by pressing the `Deselect all` button.  You will see `Select failure reason code` button on each product to specify the failure reason code.  You can press on it to provide a failure reason code and failed quantities.  You will see two options - `Apply for all failed products` or `Apply for selected product`. If `Apply for all failed products` is selected, the failure reason code will be populated for all products. Full quantities of other products will be automatically failed. If `Apply for selected product` is selected, the failure reason code will be populated only for the selected product. You can press other product cards and select another failure reason for them and a failed quantity. You will see the same options - `Apply for all failed products` (those without a reason code yet) or `Apply for selected product`. The last selected failure reason code will be saved for the general POD level. The POD status will be automatically changed from Successful to Failed and the failure reason code from the product level will be populated to the general POD level.  The failure code for the products will be highlighted in red colour.  You can press it to select another code (for example, to provide an individual code for each product) and the failed quantity.  If not the full quantity of the product fails, the general status will be changed to Partially successful.
+![20261125_58.png](/attachments/mww92zbf-rp3nvo9j.png)
 
-You can first select a Failed status and a general failure reason code for the POD.  All products will be de-selected automatically.  The general failure reason code will be populated to the product level, but you can change it for each product individually.
+![20261125_59.png](/attachments/mww9347l-j7zt2a75.png)
+
+![20261125_60.png](/attachments/mww937d2-fvme63t2.png)
+
+![20261125_61.png](/attachments/mww93ahv-82g13r0t.png)
+
+![20261125_62.png](/attachments/mww93dhr-pu5voojj.png)
+
+You can first select the Partially successful status, a general failure reason code for the POD, and after that, de-select products. The general failure reason code will be populated to the product level, but you can change it for each product individually.
+
+If all products have failed, you can either de-select each manually by unticking the checkboxes or by pressing the `Deselect all` button. You will see `Select failure reason code` button on each product to specify the failure reason code. You can press on it to provide a failure reason code and failed quantities.  You will see two options - `Apply for all failed products` or `Apply for selected product`. If `Apply for all failed products` is selected, the failure reason code will be populated for all products. Full quantities of other products will be automatically failed. If `Apply for selected product` is selected, the failure reason code will be populated only for the selected product. You can press other product cards and select another failure reason for them and a failed quantity. You will see the same options - `Apply for all failed products` (those without a reason code yet) or `Apply for selected product`. The last selected failure reason code will be saved for the general POD level. The POD status will be automatically changed from Successful to Failed and the failure reason code from the product level will be populated to the general POD level. The failure code for the products will be highlighted in red colour. You can press it to select another code (for example, to provide an individual code for each product) and the failed quantity. If not the full quantity of the product fails, the general status will be changed to Partially successful.
+
+![20261125_63.png](/attachments/mww9kj00-yotgfahl.png)
+
+![20261125_64.png](/attachments/mww9kmex-ywq0jokd.png)
+
+![20261125_65.png](/attachments/mww9koo5-y45ahu9x.png)
+
+![20261125_66.png](/attachments/mww9kqzr-qhuv3vyv.png)
+
+You can first select a Failed status and a general failure reason code for the POD. All products will be de-selected automatically. The general failure reason code will be populated to the product level, but you can change it for each product individually.
 
 To mark all unticked (de-selected) products as successful again, press the `Select all` button - the POD status will be changed to Successful as well.
 
