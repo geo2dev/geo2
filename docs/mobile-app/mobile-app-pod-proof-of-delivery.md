@@ -126,7 +126,15 @@ By default, products are marked as delivered (checkboxes are selected). See [Mob
 
 ### Order Packages with Products
 
-When the order has pre-defined products and packages linked, they are displayed in the `Packages and products` section.  For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub, mobile app or API. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub or API. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Back` to return to Create POD page.
+When the order has pre-defined products and packages linked, they are displayed in the `Packages and products` section. For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub, mobile app or API. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub or API. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Back` to return to Create POD page.
+
+![20261125_7.png](/attachments/mww6j19b-9un45t77.png)
+
+![20261125_8.png](/attachments/mww6j60w-trvlbvtz.png)
+
+![20261125_12.png](/attachments/mww6jdrq-ycf09cx9.png)
+
+![20261125_13.png](/attachments/mww6jick-x9exc141.png)
 
 When you create a POD for multiple orders, the `Packages and products` section is hidden.
 
