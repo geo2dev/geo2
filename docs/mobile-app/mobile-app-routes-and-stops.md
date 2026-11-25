@@ -540,25 +540,51 @@ The list of supported apps for navigation:
 
 ## Switching Between Stops
 
-You can see navigation arrows on Stop details page above the bottom-screen dialog to quickly switch between route stops. These arrows move dynamically with the bottom sheet as it changes height during scrolling. Next to the arrows, the stop numbers of the previous and next stops are displayed, helping you know which stops you can navigate to. The left arrow is hidden on the first stop, and the right arrow is hidden on the last stop, ensuring navigation options are only shown when applicable. If there is only one stop in the route, no arrows are displayed at all.
+You can see navigation arrows on Stop details page above the bottom-screen dialog to quickly switch between route stops in the mobile app. These arrows move dynamically with the bottom sheet as it changes height during scrolling. Next to the arrows, the stop numbers of the previous and next stops are displayed, helping you know which stops you can navigate to. The left arrow is hidden on the first stop, and the right arrow is hidden on the last stop, ensuring navigation options are only shown when applicable. If there is only one stop in the route, no arrows are displayed at all.
+
+![20261125_1.png](/attachments/mww3ah1j-ify4xnp6.png)
+
+![20261125_2.png](/attachments/mww3ascz-g1wtg21v.png)
 
 ## Stop Packages
 
-You can add packages to a stop either in [Hub: Orders](../web-based-hub/hub-orders/index.md)or in the mobile app during adding or editing of a stop.  Packages will be then displayed on the Stop details page in the mobile app with a barcode, description, height, width, depth, volume, and weight depending on the data provided in [Web-Based Hub](../web-based-hub/index.md)or in the mobile app.
+You can add package count and package details (barcodes and measures) to a stop either via Hub or in the mobile app during adding or editing of a stop. Packages will be then displayed on the Stop details page in the mobile app with a barcode, description, height, width, depth, volume, and weight depending on the data provided in [Web-Based Hub](../web-based-hub/index.md) or in the mobile app.
 
-Adding package information is available only with Advanced and Enterprise subscription levels.
+Adding package information is available only with Advanced and Enterprise subscription levels while package count can be added with any subscription level, starting from Free. 
 
 Example when adding packages from the mobile app:
 
+![20261125_3.png](/attachments/mww3gghv-dbfltz8u.png)
+
+![20261125_4.png](/attachments/mww3gml2-7p9g78sj.png)
+
 Example when adding packages from Hub:
+
+![20261125_5.png](/attachments/mww3j2pm-ypdb5k6p.png)
 
 ## Stop Products
 
-You can add products to a stop in [Hub: Orders](../web-based-hub/hub-orders/index.md).  Pre-defined products will be then displayed on the Stop details page in the mobile app with a product code, description, quantity, and weight depending on the data provided in [Web-Based Hub](../web-based-hub/index.md).
+You can add products to a stop in [Hub](../web-based-hub/hub-orders/index.md). Pre-defined products will be then displayed on the Stop details page in the mobile app with a product code, description, quantity, and weight depending on the data provided in [Web-Based Hub](../web-based-hub/index.md).
+
+![Screenshot 2026-11-25 at 13.28.26.png](/attachments/mww3oe4q-5b79327b.png)
+
+![Screenshot 2026-11-25 at 13.28.49.png](/attachments/mww3oh5y-4ju8dtt9.png)
+
+![20261125_6.png](/attachments/mww3rvs1-4l2jde2q.png)
+
+Adding products to orders is available with Enterprise subscription level only.
 
 ## Stop Packages with Products
 
-You can add packages and products to a stop and link them in [Hub: Orders](../web-based-hub/hub-orders/index.md).  Pre-defined packages with products will be then displayed on the Stop details page in the mobile app. For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Cross` on the dialog to close it.
+You can add packages and products to a stop and link them in [Hub: Orders](../web-based-hub/hub-orders/index.md). Pre-defined packages with products will be then displayed on the Stop details page in the mobile app. For a package, a barcode, height, width, depth, volume, and weight can be displayed depending on the data provided in Geo2 Hub. For a product, a product code, description, quantity, and weight can be displayed depending on the data provided in Geo2 Hub. To check products added to a package, press the `Products` button on a package. The list of products added to the package will be displayed. Press `Cross` on the dialog to close it.
+
+![Screenshot 2026-11-25 at 13.32.35.png](/attachments/mww3u5wn-vai523na.png)
+
+![Screenshot 2026-11-25 at 13.33.19.png](/attachments/mww3u99h-hc2ksyev.png)
+
+![20261125_7.png](/attachments/mww3wioy-wrffcvgk.png)
+
+![20261125_8.png](/attachments/mww3wmne-ayn0a2c4.png)
 
 ## Recording Stop Duration
 
