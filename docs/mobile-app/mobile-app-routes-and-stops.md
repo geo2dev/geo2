@@ -588,7 +588,7 @@ You can add packages and products to a stop and link them in [Hub: Orders](../we
 
 ## Recording Stop Duration
 
-`Record stop duration` setting in [Hub: Environment Settings](../web-based-hub/hub-environment-settings/index.md)in Geo2 Hub enables the mobile app’s feature to record the actual time spent at a stop by a driver. Recording actual stop duration feature is available only with Enterprise subscription level.
+`Record stop duration` setting in [Hub: Environment Settings](../web-based-hub/hub-environment-settings/index.md) in Geo2 Hub enables the mobile app’s feature to record the actual time spent at a stop by a driver. Recording actual stop duration feature is available only with Enterprise subscription level.
 
 Once enabled, the `Record arrival` button will appear on Stop details page within a route in the mobile app. Tapping it records the arrival time for that stop. The button will then be replaced by `Record departure` option. The Create POD option becomes available once you record arrival. You can either generate a proof of delivery (POD) before recording the departure or simply log the departure time without a POD.
 
