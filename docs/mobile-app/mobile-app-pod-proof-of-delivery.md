@@ -357,13 +357,35 @@ To mark all unticked (de-selected) products as successful again, press the `Sele
 
 ## Package-level Failures with Products
 
-If the order has pre-defined packages with products linked, they will be displayed on Create POD page, marked as delivered by default (checkboxes are selected).  You can de-select a package to mark that it was not delivered.  You will see a prompt to specify the failure reason code for it.  The POD status will be automatically changed from Successful to Partially successful and the failure reason code from the package level will be populated to the general POD level.  The failure code for the package will be highlighted in red colour.  You can press it to select another code.  All products added to the package will be marked as failed with the full quantities failed.
+If the order has pre-defined packages with products linked, they will be displayed on Create POD page, marked as delivered by default (checkboxes are selected). You can de-select a package to mark that it was not delivered. You will see a prompt to specify the failure reason code for it. The POD status will be automatically changed from Successful to Partially successful and the failure reason code from the package level will be populated to the general POD level. The failure code for the package will be highlighted in red colour. You can press it to select another code.  All products added to the package will be marked as failed with the full quantities failed.
+
+![20261125_68.png](/attachments/mww9tzoj-bucgubbm.png)
+
+![20261125_69.png](/attachments/mww9u3d7-he03wfvh.png)
+
+![20261125_70.png](/attachments/mww9u6qg-69l7x42l.png)
+
+![20261125_71.png](/attachments/mww9ub0k-7q40bxpz.png)
 
 You can first select the Partially successful status, a general failure reason code for the POD, and after that, de-select packages.  The general failure reason code will be populated to the package level, but you can change it for each package individually.
 
 It is possible to press the Products button on a package to mark that only part of the product failed. The product will have a “Partially successful” status and a failure reason code will be highlighted in orange colour. The package status will be also automatically changed to “Partially successful”.
 
-If all packages with products have failed, you can either de-select each manually by unticking the checkboxes or by pressing the `Deselect all` button.  You will see the `Select failure reason code` button on each package and product to specify the failure reason code.  You can press on a package to provide a failure reason code.  You will see two options - `Apply for all failed packages` or `Apply for selected package`. If `Apply for all failed packages` is selected, the failure reason code will be populated for all packages and products linked to them. If `Apply for selected package` is selected, the failure reason code will be populated only for the selected package and products linked to it.
+If all packages with products have failed, you can either de-select each manually by unticking the checkboxes or by pressing the `Deselect all` button. You will see the `Select failure reason code` button on each package and product to specify the failure reason code. You can press on a package to provide a failure reason code. You will see two options - `Apply for all failed packages` or `Apply for selected package`. If `Apply for all failed packages` is selected, the failure reason code will be populated for all packages and products linked to them. If `Apply for selected package` is selected, the failure reason code will be populated only for the selected package and products linked to it.
+
+![20261125_72.png](/attachments/mww9v7ot-qaifk3f0.png)
+
+![20261125_73.png](/attachments/mww9vavh-uw2n7ab2.png)
+
+![20261125_74.png](/attachments/mww9veus-kk0jue4y.png)
+
+![20261125_75.png](/attachments/mww9vi20-qbfijbw7.png)
+
+![20261125_76.png](/attachments/mww9vl1d-ayizeqby.png)
+
+![20261125_77.png](/attachments/mww9vnj6-9ofmcxka.png)
+
+![20261125_78.png](/attachments/mww9vqdw-hnjsdjxp.png)
 
 You can press other package cards and select another failure reason for them. You will see the same options - `Apply for all failed packages` (those without a reason code yet) or `Apply for selected package`. The last selected failure reason code will be saved for the general POD level.
 
