@@ -62,7 +62,7 @@ In the Recipient section, you will see the following fields:
 
 ![20261125_14.png](/attachments/mww5tbox-k6ylbdaj.png)
 
-In the Delivery details section, you can add remarks. In the mobile app, **Settings → Proof of delivery** lets you configure remarks requirements for successful, partially successful, and failed PODs.
+In the Details section, you can add remarks. In the mobile app, **Settings → Proof of delivery** lets you configure remarks requirements for successful, partially successful, and failed PODs.
 
 In the Packages section, you can review, add, or scan packages for the stop (order), mark some of them as failed if it is needed. Packages are available only with Advanced and Enterprise subscription levels.
 
@@ -142,32 +142,21 @@ By default, packages with products inside are marked as delivered (checkboxes ar
 
 ## Ad-hoc/Unplanned POD
 
-You can create an ad-hoc POD for an existing order by specifying its key.  If the order key does not yet exist, a skeleton order will be created in the background (depending on [Hub: Environment Settings](../web-based-hub/hub-environment-settings/index.md)).  If you provide the key of an existing order, details such as type, key, contact name, email, and address are pre-populated.  You can edit remarks and contact name.
+You can create an ad-hoc POD for an existing order by specifying its key. If the order key does not yet exist, a skeleton order will be created in the background (depending on [Hub: Environment Settings](../web-based-hub/hub-environment-settings/index.md)). If you provide the key of an existing order, details such as type, key, contact name, address, etc. are pre-populated but you can still edit contact name, mobile phone number, and email. 
 
 If the order does not exist yet, fill in the following fields in the `Stop details` section:
+
+![20261125_29.png](/attachments/mww6togk-ieomu6tf.png)
+
+![20261125_30.png](/attachments/mww6ttr0-a2riprq5.png)
 
 
 | **Fields** | **Description** | **Required** |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| Type | Delivery or Collection | Yes |
-| Order key | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. You can click on the `Scan` icon to scan the key. It is possible to provide multiple order keys. | Yes |
 | Address | The app uses the current device location. This can be edited. | Yes |
+| Order key | Order identifier unique within the environment, for example, an order number 1, 2, 3, 4, etc. You can click on the `Scan` icon to scan the key. It is possible to provide multiple order keys. | Yes |
+| Type | Delivery or Collection | Yes |
 
-
-If the order does not exist yet, fill in the following fields in the `Recipient details` section:
-
-
-| **Fields** | **Description** | **Required** |
-| ------------- | ----------------------------------------------------- | ---------------------------------------------------------- |
-| Contact name | Name of the person who received the order | Configured through Settings → Proof of delivery in the app |
-| Email | Email address for sending the proof-of-delivery email | No |
-| Phone number | Recipient phone number | No |
-| Mobile number | Recipient mobile phone number | No |
-
-
-In the Packages section, you can review, add, or scan packages for the stop (order), mark some of them as failed if it is needed. Packages are available only with Advanced and Enterprise subscription levels.
-
-In the Delivery details section, you can add remarks. In the mobile app, **Settings → Proof of delivery** lets you configure remarks requirements for successful, partially successful, and failed PODs.
 
 You can select the POD status:
 
@@ -175,13 +164,33 @@ You can select the POD status:
 - Partially successful - part of the order has been delivered/collected.
 - Failed - delivery/collection has failed.
 
-In the `Signature` section, record the recipient’s signature by pressing the `Add signature` button and saving the recorded signature.  In the mobile app, **Settings → Proof of delivery** lets you configure signature requirements for successful, partially successful, and failed PODs.  In the `Photos` section, you can take or select pictures for the proof-of-delivery. As with signatures, you can configure whether photos are required for each POD status (successful, partially successful, or failed) in the mobile app under **Settings → Proof of delivery**.
+In the `Signature` section, record the recipient’s signature by pressing the `Add signature` button and saving the recorded signature. In the mobile app, **Settings → Proof of delivery** lets you configure signature requirements for successful, partially successful, and failed PODs. By pressing `Add photos`, you can take or select pictures for the proof-of-delivery. As with signatures, you can configure whether photos are required for each POD status (successful, partially successful, or failed) in the mobile app under **Settings → Proof of delivery**.
 
-After filling in all the data, press the `Create POD` button to save the POD.  After the POD is created, it will be saved in POD history on PODs page.  Icons on the right side of each POD means:
+![20261125_33.png](/attachments/mww70a44-52kgi7b7.png)
+
+If the order does not exist yet, fill in the following fields in the `Recipient` section:
+
+
+| **Fields** | **Description** | **Required** |
+| ------------- | ----------------------------------------------------- | ---------------------------------------------------------- |
+| Contact name | Name of the person who received the order | Configured through Settings → Proof of delivery in the app |
+| Mobile number | Recipient mobile phone number | No |
+| Email | Email address for sending the proof-of-delivery email | No |
+
+
+![20261125_34.png](/attachments/mww70dzf-24nz12d9.png)
+
+In the Details section, you can add remarks. In the mobile app, **Settings → Proof of delivery** lets you configure remarks requirements for successful, partially successful, and failed PODs.
+
+In the Packages section, you can review, add, or scan packages for the stop (order), mark some of them as failed if it is needed. Packages are available only with Advanced and Enterprise subscription levels.
+
+After filling in all the data, press the `Create POD` button to save the POD. After the POD is created, it will be saved in POD history on PODs page. Icons on the right side of each POD means:
 
 - a green "done" icon for “Successful” POD status
 - a yellow “done” icon for “Partially successful” POD status
 - a red “cross” icon for “Failed” POD status
+
+![20261125_22.png](/attachments/mww72wco-ihrdmsf3.png)
 
 ### Order Packages
 
