@@ -245,11 +245,25 @@ That's how the fields would look when recording a POD in the mobile app:
 
 ## Package-level Failures
 
-If the order has pre-defined packages, they will be displayed on Create POD page, marked as delivered by default (checkboxes are selected).  You can de-select a package to mark that it was not delivered.  You will see a prompt to specify the failure reason code for it.  The POD status will be automatically changed from Successful to Partially successful and the failure reason code from the package level will be populated to the general POD level.  The failure code for the package will be highlighted in red colour.  You can press it to select another code.
+If the order has pre-defined packages, they will be displayed on Create POD page, marked as delivered by default (checkboxes are selected). You can de-select a package to mark that it was not delivered. You will see a prompt to specify the failure reason code for it. The POD status will be automatically changed from Successful to Partially successful and the failure reason code from the package level will be populated to the general POD level. The failure code for the package will be highlighted in red colour. You can press it to select another code.
 
-You can first select the Partially successful status, a general failure reason code for the POD, and after that, de-select packages.  The general failure reason code will be populated to the package level, but you can change it for each package individually.
+![20261125_42.png](/attachments/mww876rg-jx2dhxe0.png)
 
-If all packages have failed, you can either de-select each manually by unticking the checkboxes or by pressing the `Deselect all` button.  You will see the `Select failure reason code` button on each package to specify the failure reason code.  You can press a package card to provide a failure reason code.  You will see two options - `Apply for all failed packages` or `Apply for selected package`. If `Apply for all failed packages` is selected, the failure reason code will be populated for all packages. If `Apply for selected package` is selected, the failure reason code will be populated only for the selected package. You can press other package cards and select another failure reason for them. You will see the same options - `Apply for all failed packages` (those without a reason code so far) or `Apply for selected package`. The last selected failure reason code will be saved for the general POD level. The POD status will be automatically changed from Successful to Failed and the failure reason code from the package level will be populated to the general POD level.  The failure code for the packages will be highlighted in red colour.  You can press it to select another code (for example, to provide an individual code for each package).
+![20261125_43.png](/attachments/mww87aox-zyzvng76.png)
+
+![20261125_44.png](/attachments/mww87jb0-ptvbg851.png)
+
+![20261125_45.png](/attachments/mww87mpy-3tcht94w.png)
+
+![20261125_46.png](/attachments/mww87qdv-111ysj60.png)
+
+You can first select the Partially successful status, a general failure reason code for the POD, and after that, de-select packages. The general failure reason code will be populated to the package level, but you can change it for each package individually.
+
+If all packages have failed, you can either de-select each manually by unticking the checkboxes or by pressing the `Deselect all` button. You will see the `Select failure reason code` button on each package to specify the failure reason code. You can press a package card to provide a failure reason code. You will see two options - `Apply for all failed packages` or `Apply for selected package`. If `Apply for all failed packages` is selected, the failure reason code will be populated for all packages. If `Apply for selected package` is selected, the failure reason code will be populated only for the selected package. You can press other package cards and select another failure reason for them. You will see the same options - `Apply for all failed packages` (those without a reason code so far) or `Apply for selected package`. The last selected failure reason code will be saved for the general POD level. The POD status will be automatically changed from Successful to Failed and the failure reason code from the package level will be populated to the general POD level. The failure code for the packages will be highlighted in red colour. You can press it to select another code (for example, to provide an individual code for each package).
+
+![20261125_47.png](/attachments/mww8bl88-g3nch208.png)
+
+![20261125_48.png](/attachments/mww8bp5x-bucsbmvk.png)
 
 You can first select a Failed status and a general failure reason code for the POD.  All packages will be de-selected automatically.  The general failure reason code will be populated to the package level, but you can change it for each package individually.
 
