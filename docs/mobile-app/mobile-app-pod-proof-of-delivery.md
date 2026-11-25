@@ -232,14 +232,16 @@ When you create a POD for multiple orders, the `Packages and products` section i
 
 ## POD Custom Fields
 
-In the Environment settings in Geo2 Hub, you can set up custom fields to collect additional information in POD's.  Here is an example:
+In the Environment settings in Geo2 Hub, you can set up custom fields to collect additional information in POD's. Here is an example:
 
 - Ask for the driver's name
 - Ask if the parcel is intact
 
 Custom fields are available only with Enterprise subscription level.
 
-That's how the fields would look when recording a POD:
+That's how the fields would look when recording a POD in the mobile app:
+
+![20261125_41.png](/attachments/mww7nuya-ix2i8u1i.png)
 
 ## Package-level Failures
 
