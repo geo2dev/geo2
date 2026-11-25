@@ -194,15 +194,15 @@ After filling in all the data, press the `Create POD` button to save the POD. A
 
 ### Order Packages
 
-When the order has pre-defined packages (ad-hoc POD for existing order), they are displayed in the `Packages` section.  On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../web-based-hub/hub-orders/index.md), mobile app or API for an order.
+When the order has pre-defined packages (ad-hoc POD for existing order), they are displayed in the `Packages` section. On each package card, a barcode, description, height, width, depth, weight, and volume can be displayed depending on the data provided [Hub: Orders](../web-based-hub/hub-orders/index.md), mobile app or API for an order.
+
+![20261125_35.png](/attachments/mww7cujj-9zneee3z.png)
 
 Adding/scanning/marking packages as failed is available only with Advanced or Enterprise subscription level.
 
-When the order doesn't have packages (ad-hoc POD for either existing order without pre-defined packages or not yet existing order), the `Packages` section is collapsed by default.  You can expand it, provide the number of successfully delivered/collected packages out of the total planned, and add packages by typing a barcode manually or scanning package barcodes.
-
 When you create a POD for multiple orders, the `Packages` section is hidden.
 
-By default, packages are marked as delivered (checkboxes are selected). See [Mobile App: POD - Proof of Delivery](mobile-app-pod-proof-of-delivery.md)on marking packages as failed.
+By default, packages are marked as delivered (checkboxes are selected). See [Mobile App: POD - Proof of Delivery](mobile-app-pod-proof-of-delivery.md) on marking packages as failed.
 
 ### Order Products
 
